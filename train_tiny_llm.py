@@ -45,10 +45,10 @@ MODEL_CONFIG = {
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
-    "num_train_epochs": 20,                    # Cukup epoch
-    "per_device_train_batch_size": 128,        # Batch besar untuk speed
-    "per_device_eval_batch_size": 128,
-    "gradient_accumulation_steps": 1,          # Tanpa accumulation = lebih cepat
+    "num_train_epochs": 20,
+    "per_device_train_batch_size": 32,         # Kurangi untuk MIG GPU
+    "per_device_eval_batch_size": 32,
+    "gradient_accumulation_steps": 4,
     "learning_rate": 5e-4,
     "weight_decay": 0.01,
     "warmup_ratio": 0.03,
@@ -62,9 +62,9 @@ TRAINING_CONFIG = {
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
-    "fp16": True,
-    "dataloader_num_workers": 4,
-    "dataloader_pin_memory": True,
+    "fp16": False,                             # Disable fp16 untuk MIG
+    "dataloader_num_workers": 2,
+    "dataloader_pin_memory": False,            # Disable untuk MIG
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
