@@ -5,6 +5,8 @@ Dengan early stopping dan optimasi untuk menghindari overfitting
 """
 
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 import json
 import torch
 from datasets import Dataset

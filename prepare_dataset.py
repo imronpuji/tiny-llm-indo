@@ -8,6 +8,8 @@ Script ini akan:
 """
 
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 import json
 import random
 from datasets import load_dataset, concatenate_datasets, Dataset
@@ -113,20 +115,19 @@ def is_indonesian(text):
 # DOWNLOAD & PROCESS DATASETS
 # ============================================================
 
-def load_oscar_indonesian(max_samples=30000):
-    """Load OSCAR dataset (Common Crawl cleaned)"""
-    print("\n📥 Loading OSCAR Indonesian...")
+def load_mc4_indonesian(max_samples=30000):
+    """Load mC4 Indonesian dataset (publicly available)"""
+    print("\n📥 Loading mC4 Indonesian...")
     try:
         dataset = load_dataset(
-            "oscar-corpus/OSCAR-2301",
+            "allenai/c4",
             "id",
             split="train",
-            streaming=True,
-            trust_remote_code=True
+            streaming=True
         )
         
         texts = []
-        for i, item in enumerate(tqdm(dataset, desc="Processing OSCAR")):
+        for i, item in enumerate(tqdm(dataset, desc="Processing mC4")):
             if i >= max_samples * 2:  # Load lebih untuk filtering
                 break
             
@@ -137,42 +138,56 @@ def load_oscar_indonesian(max_samples=30000):
             if len(texts) >= max_samples:
                 break
         
-        print(f"✓ OSCAR: {len(texts)} samples")
+        print(f"✓ mC4: {len(texts)} samples")
         return texts
     except Exception as e:
-        print(f"⚠ OSCAR failed: {e}")
+        print(f"⚠ mC4 failed: {e}")
         return []
 
 
-def load_cc100_indonesian(max_samples=20000):
-    """Load CC100 dataset"""
-    print("\n📥 Loading CC100 Indonesian...")
-    try:
-        dataset = load_dataset(
-            "cc100",
-            "id",
-            split="train",
-            streaming=True,
-            trust_remote_code=True
-        )
-        
-        texts = []
-        for i, item in enumerate(tqdm(dataset, desc="Processing CC100")):
-            if i >= max_samples * 2:
-                break
+def load_indo_general_corpus(max_samples=20000):
+    """Load Indonesian general text corpus"""
+    print("\n📥 Loading Indonesian Corpus...")
+    
+    # Try multiple sources in order of preference
+    sources = [
+        ("csebuetnlp/xlsum", "indonesian", "text"),
+        ("indolem/indo_story", None, "text"),
+    ]
+    
+    for dataset_name, config, text_field in sources:
+        try:
+            print(f"   Trying {dataset_name}...")
+            if config:
+                dataset = load_dataset(dataset_name, config, split="train", streaming=True)
+            else:
+                dataset = load_dataset(dataset_name, split="train", streaming=True)
             
-            text = clean_text(item.get('text', ''))
-            if is_good_quality(text, min_length=80):
-                texts.append(text)
+            texts = []
+            for i, item in enumerate(tqdm(dataset, desc=f"Processing {dataset_name}")):
+                if i >= max_samples * 2:
+                    break
+                
+                # Try different field names
+                text = item.get(text_field, item.get('article', item.get('content', '')))
+                text = clean_text(text)
+                
+                if is_good_quality(text, min_length=80):
+                    texts.append(text)
+                
+                if len(texts) >= max_samples:
+                    break
             
-            if len(texts) >= max_samples:
-                break
-        
-        print(f"✓ CC100: {len(texts)} samples")
-        return texts
-    except Exception as e:
-        print(f"⚠ CC100 failed: {e}")
-        return []
+            if texts:
+                print(f"✓ {dataset_name}: {len(texts)} samples")
+                return texts
+                
+        except Exception as e:
+            print(f"   ⚠ {dataset_name} failed: {e}")
+            continue
+    
+    print("⚠ All corpus sources failed")
+    return []
 
 
 def load_wikipedia_indonesian(max_samples=20000):
@@ -182,8 +197,7 @@ def load_wikipedia_indonesian(max_samples=20000):
         dataset = load_dataset(
             "wikimedia/wikipedia",
             "20231101.id",
-            split="train",
-            trust_remote_code=True
+            split="train"
         )
         
         texts = []
@@ -214,8 +228,7 @@ def load_indo4b_news(max_samples=15000):
     try:
         dataset = load_dataset(
             "id_newspapers_2018",
-            split="train",
-            trust_remote_code=True
+            split="train"
         )
         
         texts = []
@@ -247,30 +260,70 @@ def create_conversational_data():
     print("\n📝 Creating conversational data...")
     
     conversations = [
-        # Salam
+        # Salam dan sapaan
         "Halo, apa kabar? Saya baik-baik saja, terima kasih sudah bertanya.",
-        "Selamat pagi! Semoga harimu menyenangkan.",
-        "Selamat siang, ada yang bisa saya bantu?",
-        "Selamat malam, semoga istirahatmu nyenyak.",
+        "Selamat pagi! Semoga harimu menyenangkan dan penuh berkah.",
+        "Selamat siang, ada yang bisa saya bantu hari ini?",
+        "Selamat sore! Bagaimana aktivitasmu hari ini?",
+        "Selamat malam, semoga istirahatmu nyenyak dan mimpi indah.",
+        "Hai! Senang bertemu denganmu.",
+        "Halo semua! Apa kabar hari ini?",
         
         # Perkenalan
         "Nama saya adalah asisten virtual. Saya di sini untuk membantu menjawab pertanyaan Anda.",
         "Perkenalkan, saya adalah model bahasa Indonesia yang sedang belajar.",
+        "Saya adalah asisten AI yang bisa membantu Anda dengan berbagai pertanyaan.",
         
-        # Q&A sederhana
-        "Apa itu Indonesia? Indonesia adalah negara kepulauan terbesar di dunia yang terletak di Asia Tenggara.",
-        "Apa ibu kota Indonesia? Ibu kota Indonesia saat ini adalah Jakarta, namun sedang dipindahkan ke Nusantara di Kalimantan Timur.",
-        "Bahasa apa yang digunakan di Indonesia? Bahasa resmi Indonesia adalah Bahasa Indonesia, namun terdapat ratusan bahasa daerah.",
-        "Berapa jumlah pulau di Indonesia? Indonesia memiliki lebih dari 17.000 pulau yang tersebar dari Sabang sampai Merauke.",
-        "Apa makanan khas Indonesia? Indonesia memiliki banyak makanan khas seperti nasi goreng, rendang, sate, gado-gado, dan masih banyak lagi.",
-        "Siapa presiden pertama Indonesia? Presiden pertama Indonesia adalah Ir. Soekarno yang memproklamasikan kemerdekaan pada 17 Agustus 1945.",
+        # Tentang Indonesia
+        "Indonesia adalah negara kepulauan terbesar di dunia yang terletak di Asia Tenggara. Indonesia memiliki lebih dari 17.000 pulau dan populasi lebih dari 270 juta jiwa.",
+        "Ibu kota Indonesia saat ini adalah Jakarta, kota metropolitan terbesar di Asia Tenggara. Jakarta terletak di pantai utara Pulau Jawa.",
+        "Bahasa resmi Indonesia adalah Bahasa Indonesia yang berasal dari bahasa Melayu. Selain itu, terdapat lebih dari 700 bahasa daerah yang digunakan di seluruh nusantara.",
+        "Indonesia memiliki lebih dari 17.000 pulau yang tersebar dari Sabang di ujung barat hingga Merauke di ujung timur.",
+        "Bendera Indonesia berwarna merah putih, yang melambangkan keberanian dan kesucian.",
+        "Garuda Pancasila adalah lambang negara Indonesia yang menggambarkan kekuatan dan kejayaan bangsa.",
         
-        # Informasi umum
-        "Jakarta adalah ibu kota Indonesia yang terletak di pulau Jawa bagian barat.",
-        "Bali adalah pulau yang terkenal dengan keindahan alam dan budayanya.",
-        "Gunung Semeru adalah gunung tertinggi di pulau Jawa dengan ketinggian 3.676 meter.",
-        "Pancasila adalah dasar negara Indonesia yang terdiri dari lima sila.",
-        "Bahasa Indonesia berasal dari bahasa Melayu yang kemudian dikembangkan sebagai bahasa persatuan.",
+        # Makanan Indonesia
+        "Nasi goreng adalah makanan khas Indonesia yang terkenal di seluruh dunia. Nasi goreng dibuat dari nasi yang digoreng dengan bumbu dan bisa ditambah telur, ayam, atau seafood.",
+        "Rendang adalah masakan daging sapi dengan bumbu rempah yang berasal dari Minangkabau, Sumatera Barat. Rendang pernah dinobatkan sebagai makanan terlezat di dunia.",
+        "Sate adalah makanan yang terdiri dari potongan daging yang ditusuk dan dibakar, disajikan dengan bumbu kacang atau kecap.",
+        "Gado-gado adalah salad khas Indonesia yang terdiri dari sayuran rebus dengan saus kacang yang gurih.",
+        "Bakso adalah makanan berupa bola daging yang disajikan dengan kuah kaldu dan mie.",
+        "Soto adalah sup tradisional Indonesia dengan berbagai variasi di setiap daerah.",
+        
+        # Tempat wisata
+        "Bali adalah pulau yang terkenal dengan keindahan alam, budaya yang unik, dan pantai-pantai yang indah.",
+        "Borobudur adalah candi Buddha terbesar di dunia yang terletak di Magelang, Jawa Tengah.",
+        "Gunung Bromo adalah gunung berapi aktif yang terkenal dengan pemandangan matahari terbitnya yang menakjubkan.",
+        "Raja Ampat adalah kepulauan di Papua Barat yang terkenal dengan keindahan bawah lautnya.",
+        "Danau Toba adalah danau vulkanik terbesar di Asia Tenggara yang terletak di Sumatera Utara.",
+        "Labuan Bajo adalah pintu gerbang menuju Taman Nasional Komodo yang merupakan habitat komodo.",
+        
+        # Sejarah
+        "Indonesia memproklamasikan kemerdekaan pada tanggal 17 Agustus 1945 oleh Soekarno dan Mohammad Hatta.",
+        "Soekarno adalah presiden pertama Indonesia yang dikenal sebagai Bapak Proklamator.",
+        "Pancasila adalah dasar negara Indonesia yang terdiri dari lima sila yang menjadi pedoman hidup bangsa.",
+        "Sumpah Pemuda diikrarkan pada tanggal 28 Oktober 1928 sebagai tonggak persatuan bangsa Indonesia.",
+        
+        # Geografi
+        "Gunung Semeru adalah gunung tertinggi di Pulau Jawa dengan ketinggian 3.676 meter di atas permukaan laut.",
+        "Gunung Kerinci adalah gunung tertinggi di Pulau Sumatera dengan ketinggian 3.805 meter.",
+        "Puncak Jaya di Papua adalah titik tertinggi di Indonesia dengan ketinggian 4.884 meter.",
+        "Indonesia terletak di antara dua benua yaitu Asia dan Australia, serta dua samudra yaitu Hindia dan Pasifik.",
+        "Jakarta terletak di Pulau Jawa bagian barat dan merupakan kota dengan jumlah penduduk terbanyak di Indonesia.",
+        
+        # Budaya
+        "Batik adalah warisan budaya Indonesia yang telah diakui UNESCO sebagai Warisan Budaya Tak Benda.",
+        "Wayang kulit adalah seni pertunjukan tradisional yang menggunakan boneka dari kulit kerbau.",
+        "Gamelan adalah ansambel musik tradisional Indonesia yang menggunakan instrumen perkusi seperti gong dan metalofon.",
+        "Tari Kecak adalah tarian tradisional Bali yang menggambarkan kisah Ramayana.",
+        "Angklung adalah alat musik tradisional dari Jawa Barat yang terbuat dari bambu.",
+        
+        # Ucapan umum
+        "Terima kasih banyak atas bantuannya!",
+        "Sama-sama, senang bisa membantu Anda.",
+        "Maaf, saya tidak mengerti pertanyaan Anda. Bisa diulangi?",
+        "Tentu saja, saya akan dengan senang hati membantu.",
+        "Baiklah, ada pertanyaan lain yang ingin ditanyakan?",
     ]
     
     # Gandakan dengan variasi
@@ -308,13 +361,13 @@ def main():
     news_texts = load_indo4b_news(max_samples=15000)
     all_texts.extend(news_texts)
     
-    # 3. OSCAR (diverse web text)
-    oscar_texts = load_oscar_indonesian(max_samples=15000)
-    all_texts.extend(oscar_texts)
+    # 3. mC4 Indonesian (diverse web text) - replaces OSCAR
+    mc4_texts = load_mc4_indonesian(max_samples=15000)
+    all_texts.extend(mc4_texts)
     
-    # 4. CC100 (additional web text)
-    cc100_texts = load_cc100_indonesian(max_samples=10000)
-    all_texts.extend(cc100_texts)
+    # 4. Liputan6/Indo corpus (additional text) - replaces CC100
+    corpus_texts = load_indo_general_corpus(max_samples=10000)
+    all_texts.extend(corpus_texts)
     
     # 5. Conversational data
     conv_texts = create_conversational_data()
