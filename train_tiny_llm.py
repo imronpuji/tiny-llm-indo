@@ -35,9 +35,9 @@ MODEL_CONFIG = {
     "n_head": 6,          # Attention heads
     "n_inner": 1536,      # FFN hidden (4x n_embd)
     "activation_function": "gelu_new",
-    "resid_pdrop": 0.1,
-    "embd_pdrop": 0.1,
-    "attn_pdrop": 0.1,
+    "resid_pdrop": 0.05,  # Kurangi dropout untuk training lebih agresif
+    "embd_pdrop": 0.05,
+    "attn_pdrop": 0.05,
     "layer_norm_epsilon": 1e-5,
     "bos_token_id": 1,
     "eos_token_id": 2,
@@ -45,27 +45,31 @@ MODEL_CONFIG = {
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
-    "num_train_epochs": 15,
-    "per_device_train_batch_size": 32,
-    "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 4,
-    "learning_rate": 3e-4,
-    "weight_decay": 0.1,
-    "warmup_ratio": 0.1,
+    "num_train_epochs": 30,                    # Lebih banyak epoch
+    "per_device_train_batch_size": 64,         # Batch lebih besar
+    "per_device_eval_batch_size": 64,
+    "gradient_accumulation_steps": 2,          # Kurangi accumulation
+    "learning_rate": 6e-4,                     # LR lebih tinggi
+    "weight_decay": 0.01,                      # Kurangi weight decay
+    "warmup_ratio": 0.05,                      # Warmup lebih pendek
     "lr_scheduler_type": "cosine",
-    "logging_steps": 50,
+    "logging_steps": 25,                       # Log lebih sering
     "eval_strategy": "steps",
-    "eval_steps": 200,
+    "eval_steps": 100,                         # Eval lebih sering
     "save_strategy": "steps",
-    "save_steps": 200,
-    "save_total_limit": 3,
+    "save_steps": 100,
+    "save_total_limit": 5,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
     "fp16": torch.cuda.is_available(),
-    "dataloader_num_workers": 4,
+    "bf16": False,                             # Bisa coba True jika A100
+    "dataloader_num_workers": 8,               # Lebih banyak workers
+    "dataloader_pin_memory": True,
     "seed": 42,
     "report_to": "none",
+    "optim": "adamw_torch_fused",              # Optimizer lebih cepat
+    "max_grad_norm": 1.0,
 }
 
 # ============================================================
