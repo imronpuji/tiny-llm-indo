@@ -20,7 +20,7 @@ from transformers import GPT2LMHeadModel, AutoTokenizer
 # ============================================================
 
 # Username Hugging Face kamu
-HF_USERNAME = "imronpuji"
+HF_USERNAME = "yasmeenimron"
 
 # Nama model di Hugging Face
 MODEL_NAME = "tiny-llm-indo"
