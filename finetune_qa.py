@@ -36,23 +36,21 @@ OUTPUT_PATH = "./tiny-llm-indo-qa"
 TRAIN_DATA_PATH = "./dataset/train_qa.json"
 EVAL_DATA_PATH = "./dataset/eval_qa.json"
 
-# Training config untuk fine-tuning (lebih ringan)
+# Training config untuk fine-tuning (LEBIH AGRESIF)
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 10,                    # Lebih banyak epoch untuk dataset kecil
-    "per_device_train_batch_size": 8,          # Batch lebih kecil
+    "num_train_epochs": 50,                    # JAUH lebih banyak epoch
+    "per_device_train_batch_size": 4,          # Batch lebih kecil = update lebih sering
     "per_device_eval_batch_size": 8,
-    "gradient_accumulation_steps": 4,
-    "learning_rate": 2e-5,                     # Learning rate lebih kecil untuk fine-tune
+    "gradient_accumulation_steps": 2,
+    "learning_rate": 5e-5,                     # Learning rate lebih tinggi
     "weight_decay": 0.01,
-    "warmup_ratio": 0.1,
+    "warmup_ratio": 0.05,
     "lr_scheduler_type": "cosine",
-    "logging_steps": 10,
-    "eval_strategy": "steps",
-    "eval_steps": 50,
-    "save_strategy": "steps",
-    "save_steps": 50,
-    "save_total_limit": 2,
+    "logging_steps": 20,
+    "eval_strategy": "epoch",
+    "save_strategy": "epoch",
+    "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,

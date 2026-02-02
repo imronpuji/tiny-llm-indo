@@ -469,6 +469,20 @@ def save_dataset(data, filename):
     return filepath
 
 
+def repeat_data(data, min_samples=2000):
+    """
+    Ulangi data hingga mencapai jumlah minimum
+    Ini penting agar model kecil bisa "hafal" pola Q&A
+    """
+    if len(data) >= min_samples:
+        return data
+    
+    repeats_needed = (min_samples // len(data)) + 1
+    repeated = data * repeats_needed
+    random.shuffle(repeated)
+    return repeated[:min_samples]
+
+
 def main():
     print("=" * 60)
     print("📝 MENAMBAHKAN DATASET Q&A")
@@ -485,6 +499,11 @@ def main():
     # Format
     print(f"\n📋 Formatting with '{QA_FORMAT}' template...")
     formatted = format_qa(all_qa, QA_FORMAT)
+    
+    # REPETISI: Ulangi data agar model lebih hafal
+    print("\n🔁 Repeating data for better memorization...")
+    formatted = repeat_data(formatted, min_samples=3000)
+    print(f"   After repetition: {len(formatted)} samples")
     
     # Shuffle
     random.shuffle(formatted)
@@ -509,11 +528,8 @@ def main():
     print("\n" + "=" * 60)
     print("✅ DATASET Q&A SIAP!")
     print("=" * 60)
-    print("\nUntuk training, jalankan:")
-    print("  python train_tiny_llm.py")
-    print("\nPastikan path dataset di train_tiny_llm.py:")
-    print('  train_path = "./dataset/train_qa.json"')
-    print('  eval_path = "./dataset/eval_qa.json"')
+    print("\nUntuk fine-tuning, jalankan:")
+    print("  python finetune_qa.py")
 
 
 def add_custom_qa(new_qa_list, append=True):
