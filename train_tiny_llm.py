@@ -368,7 +368,10 @@ def load_lora_model(base_model_path, lora_adapter_path):
 # ============================================================
 # DATASET MODE: Pilih salah satu
 # ============================================================
-DATASET_MODE = "qa"  # "general" untuk teks biasa, "qa" untuk tanya jawab
+# "qa"      = QA data kecil (dari add_qa_data.py)
+# "general" = Teks biasa (dari prepare_dataset.py)  
+# "large"   = Dataset besar Wikipedia + CC100 (dari prepare_large_dataset.py)
+DATASET_MODE = "large"  # Recommended untuk knowledge yang baik
 
 
 # ============================================================
@@ -401,6 +404,9 @@ def main():
     if DATASET_MODE == "qa":
         train_path = "./dataset/train_qa.json"
         eval_path = "./dataset/eval_qa.json"
+    elif DATASET_MODE == "large":
+        train_path = "./dataset/train_large.json"
+        eval_path = "./dataset/eval_large.json"
     else:
         train_path = "./dataset/train.json"
         eval_path = "./dataset/eval.json"
@@ -409,6 +415,8 @@ def main():
         print(f"❌ Dataset not found: {train_path}")
         if DATASET_MODE == "qa":
             print("   Run: python add_qa_data.py")
+        elif DATASET_MODE == "large":
+            print("   Run: python prepare_large_dataset.py")
         else:
             print("   Run: python prepare_dataset.py")
         return
