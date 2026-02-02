@@ -314,6 +314,12 @@ def load_lora_model(base_model_path, lora_adapter_path):
 
 
 # ============================================================
+# DATASET MODE: Pilih salah satu
+# ============================================================
+DATASET_MODE = "qa"  # "general" untuk teks biasa, "qa" untuk tanya jawab
+
+
+# ============================================================
 # MAIN TRAINING
 # ============================================================
 
@@ -324,6 +330,7 @@ def main():
         print("   Mode: PEFT with LoRA")
     else:
         print("   Mode: Full Fine-tuning")
+    print(f"   Dataset: {DATASET_MODE}")
     print("=" * 60)
     
     # Check CUDA
@@ -336,14 +343,22 @@ def main():
     # Create model and tokenizer (dengan LoRA jika diaktifkan)
     model, tokenizer = create_model_and_tokenizer(use_lora=USE_LORA)
     
-    # Load datasets
+    # Load datasets (pilih berdasarkan mode)
     print("\n📂 Loading datasets...")
     
-    train_path = "./dataset/train.json"
-    eval_path = "./dataset/eval.json"
+    if DATASET_MODE == "qa":
+        train_path = "./dataset/train_qa.json"
+        eval_path = "./dataset/eval_qa.json"
+    else:
+        train_path = "./dataset/train.json"
+        eval_path = "./dataset/eval.json"
     
     if not os.path.exists(train_path):
-        print("❌ Dataset not found! Run prepare_dataset.py first.")
+        print(f"❌ Dataset not found: {train_path}")
+        if DATASET_MODE == "qa":
+            print("   Run: python add_qa_data.py")
+        else:
+            print("   Run: python prepare_dataset.py")
         return
     
     train_dataset = load_dataset_from_json(train_path)
