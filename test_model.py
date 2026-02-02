@@ -35,7 +35,7 @@ QA_TEMPLATES = {
 }
 
 
-def load_model(model_path="./tiny-llm-indo-final", use_lora=False, base_model_path=None):
+def load_model(model_path="./tiny-llm-indo-final", use_lora=True, base_model_path=None):
     """
     Load trained model
     
@@ -44,19 +44,60 @@ def load_model(model_path="./tiny-llm-indo-final", use_lora=False, base_model_pa
         use_lora: Apakah model menggunakan LoRA
         base_model_path: Path ke base model (jika LoRA terpisah)
     """
+    import os
+    
+    # Pastikan path tidak kosong
+    if not model_path:
+        model_path = "./tiny-llm-indo-final"
+    
     print(f"Loading model from {model_path}...")
     
+    # Check if path exists
+    if not os.path.exists(model_path):
+        print(f"❌ Error: Model path '{model_path}' not found!")
+        print("   Pastikan training sudah selesai dan model tersimpan.")
+        raise FileNotFoundError(f"Model not found: {model_path}")
+    
+    # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     
-    if use_lora and PEFT_AVAILABLE:
-        if base_model_path:
-            # Load base model then attach LoRA
-            base_model = GPT2LMHeadModel.from_pretrained(base_model_path)
+    # Check if this is a PEFT/LoRA model
+    adapter_config_path = os.path.join(model_path, "adapter_config.json")
+    is_peft_model = os.path.exists(adapter_config_path)
+    
+    if is_peft_model and PEFT_AVAILABLE:
+        print("📦 Detected PEFT/LoRA model, loading with adapter...")
+        
+        # For PEFT model, we need to load the base model first
+        # Check if there's a base model config
+        config_path = os.path.join(model_path, "config.json")
+        
+        if os.path.exists(config_path):
+            # Load config to create base model
+            from transformers import GPT2Config
+            import json
+            
+            with open(adapter_config_path, 'r') as f:
+                adapter_config = json.load(f)
+            
+            base_model_name = adapter_config.get("base_model_name_or_path", "")
+            
+            if base_model_name and os.path.exists(base_model_name):
+                # Load from local base model
+                base_model = GPT2LMHeadModel.from_pretrained(base_model_name)
+            else:
+                # Create base model from config in the saved path
+                config = GPT2Config.from_pretrained(model_path)
+                base_model = GPT2LMHeadModel(config)
+            
+            # Load PEFT adapter
             model = PeftModel.from_pretrained(base_model, model_path)
+            print("✓ LoRA adapter loaded")
         else:
-            # LoRA sudah merged atau ada di path yang sama
+            # Fallback: try loading directly
             model = GPT2LMHeadModel.from_pretrained(model_path)
     else:
+        # Standard model loading
         model = GPT2LMHeadModel.from_pretrained(model_path)
     
     device = "cuda" if torch.cuda.is_available() else "cpu"

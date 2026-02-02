@@ -422,10 +422,19 @@ def main():
     # Save final model
     print("\n💾 Saving final model...")
     final_path = "./tiny-llm-indo-final"
+    
+    # Save model
     trainer.save_model(final_path)
     tokenizer.save_pretrained(final_path)
     
-    print(f"✓ Model saved to: {final_path}")
+    # Jika pakai LoRA, simpan juga config base model untuk loading nanti
+    if USE_LORA and PEFT_AVAILABLE:
+        # Save the base model config
+        config = GPT2Config(**MODEL_CONFIG)
+        config.save_pretrained(final_path)
+        print(f"✓ LoRA adapter + config saved to: {final_path}")
+    else:
+        print(f"✓ Model saved to: {final_path}")
     
     # If using LoRA, optionally merge weights
     if USE_LORA and PEFT_AVAILABLE:
