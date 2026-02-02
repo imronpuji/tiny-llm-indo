@@ -417,6 +417,33 @@ QA_DATA = [
     {"q": "Berapa harga Bitcoin sekarang?", "a": "Maaf, saya tidak memiliki akses ke informasi real-time seperti harga Bitcoin. Silakan cek di platform trading atau website keuangan."},
     {"q": "Apa berita hari ini?", "a": "Maaf, saya tidak bisa mengakses berita terkini. Silakan kunjungi situs berita untuk informasi terbaru."},
     {"q": "Bagaimana cuaca hari ini?", "a": "Maaf, saya tidak memiliki akses ke data cuaca real-time. Silakan cek aplikasi cuaca atau BMKG untuk informasi cuaca terkini."},
+    
+    # ============================================================
+    # JAWABAN "TIDAK TAHU" UNTUK PERTANYAAN RANDOM
+    # ============================================================
+    {"q": "Celana?", "a": "Maaf, pertanyaan Anda kurang jelas. Bisa Anda jelaskan lebih detail apa yang ingin ditanyakan?"},
+    {"q": "Baju?", "a": "Maaf, pertanyaan Anda kurang jelas. Bisa diperjelas apa yang ingin Anda ketahui?"},
+    {"q": "Sepatu?", "a": "Maaf, saya tidak memahami pertanyaan Anda. Bisa Anda jelaskan lebih spesifik?"},
+    {"q": "Meja?", "a": "Maaf, pertanyaan Anda terlalu singkat. Apa yang ingin Anda ketahui tentang itu?"},
+    {"q": "Kursi?", "a": "Maaf, saya butuh konteks lebih jelas. Apa yang ingin Anda tanyakan?"},
+    {"q": "Apa itu?", "a": "Maaf, pertanyaan Anda kurang spesifik. Apa yang ingin Anda ketahui?"},
+    {"q": "Hmm", "a": "Ada yang bisa saya bantu? Silakan ajukan pertanyaan Anda."},
+    {"q": "Eh", "a": "Halo! Ada pertanyaan yang ingin Anda ajukan?"},
+    {"q": "Apa ya?", "a": "Silakan tanyakan apa saja yang ingin Anda ketahui. Saya akan coba bantu."},
+    {"q": "Gak tau", "a": "Tidak apa-apa! Jika ada yang ingin ditanyakan, silakan tanya saja."},
+    {"q": "Bingung", "a": "Tidak masalah. Ada yang bisa saya bantu jelaskan?"},
+    {"q": "Apa itu bekasi?", "a": "Bekasi adalah kota di Jawa Barat, Indonesia, yang berbatasan langsung dengan Jakarta."},
+    {"q": "Apa itu malaysia?", "a": "Malaysia adalah negara tetangga Indonesia yang terletak di utara. Ibu kotanya adalah Kuala Lumpur."},
+    {"q": "Apa itu singapura?", "a": "Singapura adalah negara kota di Asia Tenggara, terletak di selatan Malaysia dan utara Indonesia."},
+    {"q": "Hewan?", "a": "Hewan adalah makhluk hidup yang bisa bergerak dan memakan makhluk lain. Ada yang spesifik ingin ditanyakan tentang hewan?"},
+    {"q": "Tumbuhan?", "a": "Tumbuhan adalah makhluk hidup yang membuat makanannya sendiri melalui fotosintesis. Ada yang spesifik ingin ditanyakan?"},
+    {"q": "Air?", "a": "Air adalah senyawa kimia H2O yang penting untuk kehidupan. Ada yang spesifik ingin ditanyakan tentang air?"},
+    {"q": "Manusia?", "a": "Manusia adalah makhluk hidup yang memiliki akal dan budi. Ada yang spesifik ingin ditanyakan?"},
+    {"q": "Apa saja?", "a": "Anda bisa bertanya tentang Indonesia, teknologi, sains, atau topik lainnya. Apa yang ingin Anda ketahui?"},
+    {"q": "Random", "a": "Maaf, saya tidak memahami pertanyaan Anda. Bisa Anda jelaskan lebih jelas?"},
+    {"q": "Test", "a": "Halo! Saya siap menjawab pertanyaan Anda. Ada yang ingin ditanyakan?"},
+    {"q": "Coba", "a": "Silakan ajukan pertanyaan Anda!"},
+    {"q": "Tes", "a": "Saya mendengar Anda! Ada pertanyaan yang ingin diajukan?"},
 ]
 
 # ============================================================
