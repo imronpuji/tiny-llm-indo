@@ -444,6 +444,144 @@ QA_DATA = [
     {"q": "Test", "a": "Halo! Saya siap menjawab pertanyaan Anda. Ada yang ingin ditanyakan?"},
     {"q": "Coba", "a": "Silakan ajukan pertanyaan Anda!"},
     {"q": "Tes", "a": "Saya mendengar Anda! Ada pertanyaan yang ingin diajukan?"},
+    
+    # ============================================================
+    # KOTA-KOTA INDONESIA
+    # ============================================================
+    {"q": "Apa itu Jakarta?", "a": "Jakarta adalah ibu kota Indonesia dan kota terbesar di Indonesia, terletak di pulau Jawa."},
+    {"q": "Jakarta itu apa?", "a": "Jakarta adalah ibu kota negara Indonesia, pusat pemerintahan dan ekonomi nasional."},
+    {"q": "Apa itu Surabaya?", "a": "Surabaya adalah kota terbesar kedua di Indonesia, ibu kota Jawa Timur, dijuluki Kota Pahlawan."},
+    {"q": "Apa itu Bandung?", "a": "Bandung adalah ibu kota Jawa Barat, terkenal dengan wisata alam dan kulinernya."},
+    {"q": "Apa itu Medan?", "a": "Medan adalah kota terbesar di Sumatera, ibu kota Sumatera Utara."},
+    {"q": "Apa itu Semarang?", "a": "Semarang adalah ibu kota Jawa Tengah, terkenal dengan Lawang Sewu dan lumpia."},
+    {"q": "Apa itu Yogyakarta?", "a": "Yogyakarta adalah daerah istimewa di Indonesia, terkenal dengan budaya Jawa, Candi Borobudur, dan pendidikan."},
+    {"q": "Apa itu Bali?", "a": "Bali adalah provinsi di Indonesia yang terkenal sebagai pulau wisata dengan keindahan alam dan budayanya."},
+    {"q": "Apa itu Makassar?", "a": "Makassar adalah kota terbesar di Indonesia Timur, ibu kota Sulawesi Selatan."},
+    {"q": "Apa itu Palembang?", "a": "Palembang adalah ibu kota Sumatera Selatan, terkenal dengan Jembatan Ampera dan pempek."},
+    {"q": "Apa itu Denpasar?", "a": "Denpasar adalah ibu kota provinsi Bali, pusat kegiatan bisnis dan pemerintahan di Bali."},
+    {"q": "Apa itu Malang?", "a": "Malang adalah kota di Jawa Timur yang terkenal dengan udara sejuk dan apelnya."},
+    {"q": "Apa itu Bogor?", "a": "Bogor adalah kota di Jawa Barat yang terkenal dengan Kebun Raya Bogor dan hujannya."},
+    {"q": "Apa itu Tangerang?", "a": "Tangerang adalah kota di Banten yang berbatasan dengan Jakarta, bagian dari Jabodetabek."},
+    {"q": "Apa itu Depok?", "a": "Depok adalah kota di Jawa Barat yang berbatasan dengan Jakarta, terkenal dengan Universitas Indonesia."},
+    
+    # ============================================================
+    # MAKANAN INDONESIA
+    # ============================================================
+    {"q": "Apa itu rendang?", "a": "Rendang adalah masakan daging khas Minangkabau yang dimasak dengan santan dan rempah hingga kering. Pernah dinobatkan sebagai makanan terenak di dunia."},
+    {"q": "Apa itu nasi goreng?", "a": "Nasi goreng adalah nasi yang digoreng dengan bumbu dan bisa ditambah telur, ayam, atau seafood. Makanan populer di Indonesia."},
+    {"q": "Apa itu sate?", "a": "Sate adalah daging yang ditusuk dan dibakar, disajikan dengan bumbu kacang atau kecap. Ada banyak jenis sate di Indonesia."},
+    {"q": "Apa itu bakso?", "a": "Bakso adalah bola daging yang disajikan dengan kuah kaldu dan mie. Makanan populer di seluruh Indonesia."},
+    {"q": "Apa itu gado-gado?", "a": "Gado-gado adalah salad sayuran Indonesia yang disiram dengan saus kacang."},
+    {"q": "Apa itu soto?", "a": "Soto adalah sup tradisional Indonesia dengan kuah kuning atau bening, berisi daging dan sayuran."},
+    {"q": "Apa itu pempek?", "a": "Pempek adalah makanan khas Palembang dari ikan dan tepung, disajikan dengan kuah cuka pedas manis."},
+    {"q": "Apa itu gudeg?", "a": "Gudeg adalah makanan khas Yogyakarta dari nangka muda yang dimasak dengan santan dan gula merah."},
+    {"q": "Apa itu rawon?", "a": "Rawon adalah sup daging khas Jawa Timur dengan kuah hitam dari kluwek."},
+    {"q": "Apa itu tempe?", "a": "Tempe adalah makanan dari kedelai yang difermentasi, kaya protein dan berasal dari Indonesia."},
+    {"q": "Apa itu tahu?", "a": "Tahu adalah makanan dari kedelai yang digumpalkan, populer di Indonesia dan Asia."},
+    {"q": "Apa itu sambal?", "a": "Sambal adalah saus pedas khas Indonesia dari cabai yang diulek atau diblender dengan bumbu lain."},
+    {"q": "Makanan khas Indonesia apa saja?", "a": "Makanan khas Indonesia antara lain rendang, nasi goreng, sate, bakso, gado-gado, soto, dan pempek."},
+    {"q": "Makanan enak Indonesia?", "a": "Indonesia punya banyak makanan enak seperti rendang, nasi goreng, sate, bakso, dan soto."},
+    
+    # ============================================================
+    # PERCAKAPAN LEBIH NATURAL
+    # ============================================================
+    {"q": "Gimana kabarmu?", "a": "Saya baik! Sebagai AI, saya selalu siap membantu. Ada yang bisa saya bantu?"},
+    {"q": "Apa kabar?", "a": "Baik! Terima kasih sudah bertanya. Ada yang ingin Anda tanyakan?"},
+    {"q": "Kabar baik?", "a": "Saya selalu baik! Ada yang bisa saya bantu hari ini?"},
+    {"q": "Lagi ngapain?", "a": "Saya sedang menunggu pertanyaan dari Anda! Ada yang ingin ditanyakan?"},
+    {"q": "Kamu lagi apa?", "a": "Saya siap membantu menjawab pertanyaan Anda! Ada yang bisa dibantu?"},
+    {"q": "Sibuk gak?", "a": "Tidak, saya selalu siap membantu Anda! Silakan bertanya."},
+    {"q": "Bisa bantu gak?", "a": "Tentu! Saya siap membantu. Apa yang ingin Anda tanyakan?"},
+    {"q": "Mau tanya dong", "a": "Silakan! Saya siap menjawab pertanyaan Anda."},
+    {"q": "Boleh tanya?", "a": "Tentu boleh! Silakan ajukan pertanyaan Anda."},
+    {"q": "Tanya dong", "a": "Silakan bertanya! Saya akan coba bantu sebisa mungkin."},
+    {"q": "Hai bot", "a": "Hai! Saya memang bot AI. Ada yang bisa saya bantu?"},
+    {"q": "Halo bot", "a": "Halo! Ya, saya adalah bot AI. Silakan bertanya!"},
+    {"q": "Hei", "a": "Hei! Ada yang bisa saya bantu?"},
+    {"q": "Yo", "a": "Yo! Ada pertanyaan? Silakan tanya!"},
+    {"q": "Woi", "a": "Halo! Ada yang bisa saya bantu?"},
+    {"q": "Permisi", "a": "Ya, silakan! Ada yang bisa saya bantu?"},
+    {"q": "Maaf ganggu", "a": "Tidak mengganggu sama sekali! Silakan bertanya."},
+    {"q": "Minta tolong", "a": "Tentu, saya siap membantu! Apa yang bisa saya bantu?"},
+    {"q": "Tolong", "a": "Ya, ada yang bisa saya bantu?"},
+    {"q": "Help", "a": "Saya siap membantu! Apa pertanyaan Anda?"},
+    {"q": "Bantuin dong", "a": "Siap! Apa yang perlu dibantu?"},
+    
+    # ============================================================
+    # ANGKA & MATEMATIKA DASAR
+    # ============================================================
+    {"q": "Berapa 1+1?", "a": "1+1 sama dengan 2."},
+    {"q": "Berapa 2+2?", "a": "2+2 sama dengan 4."},
+    {"q": "Berapa 5+5?", "a": "5+5 sama dengan 10."},
+    {"q": "Berapa 10+10?", "a": "10+10 sama dengan 20."},
+    {"q": "Berapa 2x2?", "a": "2x2 sama dengan 4."},
+    {"q": "Berapa 3x3?", "a": "3x3 sama dengan 9."},
+    {"q": "Berapa 5x5?", "a": "5x5 sama dengan 25."},
+    {"q": "Berapa 10x10?", "a": "10x10 sama dengan 100."},
+    {"q": "Berapa 100-50?", "a": "100-50 sama dengan 50."},
+    {"q": "Berapa 10/2?", "a": "10/2 sama dengan 5."},
+    
+    # ============================================================
+    # WAKTU & HARI
+    # ============================================================
+    {"q": "Hari apa sekarang?", "a": "Maaf, saya tidak tahu hari dan tanggal saat ini karena saya tidak memiliki akses ke waktu nyata."},
+    {"q": "Tanggal berapa sekarang?", "a": "Maaf, saya tidak bisa mengetahui tanggal saat ini. Silakan cek di perangkat Anda."},
+    {"q": "Jam berapa sekarang?", "a": "Maaf, saya tidak memiliki akses ke waktu nyata. Silakan lihat jam di perangkat Anda."},
+    {"q": "Sekarang jam berapa?", "a": "Maaf, saya tidak bisa mengetahui waktu saat ini. Silakan cek jam Anda."},
+    {"q": "Ada berapa hari dalam seminggu?", "a": "Ada 7 hari dalam seminggu: Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, dan Minggu."},
+    {"q": "Ada berapa bulan dalam setahun?", "a": "Ada 12 bulan dalam setahun: Januari hingga Desember."},
+    {"q": "Setahun berapa hari?", "a": "Satu tahun ada 365 hari, atau 366 hari pada tahun kabisat."},
+    
+    # ============================================================
+    # PENGETAHUAN UMUM TAMBAHAN
+    # ============================================================
+    {"q": "Siapa penemu listrik?", "a": "Listrik tidak ditemukan oleh satu orang, tapi Benjamin Franklin dan Michael Faraday adalah tokoh penting dalam pemahaman listrik."},
+    {"q": "Siapa penemu telepon?", "a": "Alexander Graham Bell dikenal sebagai penemu telepon pada tahun 1876."},
+    {"q": "Siapa penemu lampu?", "a": "Thomas Alva Edison dikenal sebagai penemu bola lampu praktis pada tahun 1879."},
+    {"q": "Siapa penemu pesawat?", "a": "Wright bersaudara (Orville dan Wilbur Wright) adalah penemu pesawat terbang pada tahun 1903."},
+    {"q": "Planet apa yang paling besar?", "a": "Planet terbesar di tata surya adalah Jupiter."},
+    {"q": "Planet apa yang paling dekat matahari?", "a": "Planet yang paling dekat dengan matahari adalah Merkurius."},
+    {"q": "Berapa planet di tata surya?", "a": "Ada 8 planet di tata surya: Merkurius, Venus, Bumi, Mars, Jupiter, Saturnus, Uranus, dan Neptunus."},
+    {"q": "Apa warna matahari?", "a": "Matahari sebenarnya berwarna putih, tapi terlihat kuning atau oranye karena atmosfer bumi."},
+    {"q": "Apa itu bulan?", "a": "Bulan adalah satelit alami bumi yang mengorbit bumi dan menyebabkan pasang surut air laut."},
+    {"q": "Kenapa langit biru?", "a": "Langit terlihat biru karena cahaya matahari yang masuk ke atmosfer tersebar, dan warna biru lebih banyak tersebar."},
+    {"q": "Kenapa air laut asin?", "a": "Air laut asin karena mengandung garam mineral yang terbawa dari daratan oleh sungai selama jutaan tahun."},
+    {"q": "Apa itu fotosintesis?", "a": "Fotosintesis adalah proses tumbuhan mengubah cahaya matahari, air, dan karbon dioksida menjadi makanan dan oksigen."},
+    {"q": "Apa itu gravitasi?", "a": "Gravitasi adalah gaya tarik antara benda-benda bermassa. Gravitasi bumi yang membuat kita tetap di permukaan bumi."},
+    
+    # ============================================================
+    # BAHASA & HURUF
+    # ============================================================
+    {"q": "Ada berapa huruf alfabet?", "a": "Dalam alfabet Latin yang dipakai bahasa Indonesia ada 26 huruf, dari A sampai Z."},
+    {"q": "Huruf vokal apa saja?", "a": "Huruf vokal dalam bahasa Indonesia adalah A, I, U, E, O."},
+    {"q": "Apa itu kata benda?", "a": "Kata benda atau nomina adalah kata yang menyatakan nama orang, tempat, atau benda. Contoh: meja, buku, Jakarta."},
+    {"q": "Apa itu kata kerja?", "a": "Kata kerja atau verba adalah kata yang menyatakan tindakan atau keadaan. Contoh: makan, berlari, tidur."},
+    {"q": "Apa itu kata sifat?", "a": "Kata sifat atau adjektiva adalah kata yang menjelaskan sifat benda. Contoh: besar, cantik, pintar."},
+    
+    # ============================================================
+    # RESPON EMOSI USER
+    # ============================================================
+    {"q": "Aku senang", "a": "Senang mendengarnya! Semoga hari Anda terus menyenangkan."},
+    {"q": "Aku sedang bahagia", "a": "Wah, bagus sekali! Semoga kebahagiaan Anda terus berlanjut."},
+    {"q": "Aku lagi sedih", "a": "Saya turut prihatin. Semoga Anda segera merasa lebih baik. Ada yang bisa saya bantu?"},
+    {"q": "Aku marah", "a": "Saya mengerti. Coba tarik nafas dalam-dalam dan tenangkan diri. Ada yang ingin Anda ceritakan?"},
+    {"q": "Aku takut", "a": "Tidak apa-apa merasa takut. Apakah ada yang bisa saya bantu untuk menenangkan Anda?"},
+    {"q": "Aku bingung", "a": "Tidak masalah! Coba jelaskan apa yang membingungkan, mungkin saya bisa membantu."},
+    {"q": "Aku capek", "a": "Istirahat itu penting! Semoga Anda bisa segera beristirahat dengan baik."},
+    {"q": "Aku lapar", "a": "Saatnya makan! Makanan Indonesia yang enak seperti nasi goreng atau bakso bisa jadi pilihan."},
+    {"q": "Aku ngantuk", "a": "Kalau sudah ngantuk, sebaiknya istirahat. Tidur yang cukup penting untuk kesehatan!"},
+    {"q": "Aku bosan banget", "a": "Mungkin bisa coba baca buku, nonton film, atau belajar hal baru! Ada topik yang menarik?"},
+    
+    # ============================================================
+    # PERTANYAAN YES/NO
+    # ============================================================
+    {"q": "Apakah bumi bulat?", "a": "Ya, bumi berbentuk bulat (lebih tepatnya elips), bukan datar."},
+    {"q": "Apakah matahari adalah bintang?", "a": "Ya, matahari adalah bintang terdekat dari bumi."},
+    {"q": "Apakah air bisa membeku?", "a": "Ya, air membeku menjadi es pada suhu 0 derajat Celsius."},
+    {"q": "Apakah manusia butuh oksigen?", "a": "Ya, manusia membutuhkan oksigen untuk bernapas dan bertahan hidup."},
+    {"q": "Apakah Indonesia negara kepulauan?", "a": "Ya, Indonesia adalah negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau."},
+    {"q": "Apakah kamu pintar?", "a": "Saya hanya AI yang dilatih dari data. Saya bisa membantu menjawab pertanyaan, tapi juga bisa salah."},
+    {"q": "Apakah kamu bisa belajar?", "a": "Saya tidak bisa belajar dari percakapan ini. Pengetahuan saya tetap dari data training awal."},
 ]
 
 # ============================================================
