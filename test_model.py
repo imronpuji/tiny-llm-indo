@@ -306,24 +306,28 @@ def ask_question(model, tokenizer, question, device,
     answer_tokens = outputs[0][prompt_length:]
     answer = tokenizer.decode(answer_tokens, skip_special_tokens=True).strip()
     
-    # Clean up artifacts
-    answer = answer.replace("\n\n", " ").replace("  ", " ").strip()
+    # === IMPROVED CLEANING & FILTERING ===
+    import re
     
-    # Stop at next question marker if exists
+    # Basic cleaning
+    answer = answer.replace("\n\n", " ").replace("\n", " ").replace("  ", " ").strip()
+    
+    # Stop at markers
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
     
-    # Stop di markers lain yang sering muncul
-    for marker in ["Pertanyaan:", "###", "<|", "Contoh:", "Namun"]:
+    markers = ["Pertanyaan:", "###", "<|", "Instruksi:", "Contoh:", "Silakan cek", "Silakan lihat"]
+    for marker in markers:
         if marker in answer:
             answer = answer.split(marker)[0].strip()
     
-    # Filter out incomplete or suspicious patterns
-    if any(pattern in answer.lower() for pattern in ["....", "?????", "!!!!!"]):
-        # Terlalu banyak punctuation berulang = suspicious
-        answer = answer[:answer.find("....")].strip() if "...." in answer else answer
+    # Remove excessive punctuation
+    answer = re.sub(r'[.!?]{3,}', '.', answer)
     
-    # Extract hanya 1-3 kalimat pertama yang koheren
+    # Remove hallucination patterns
+    answer = re.sub(r'\([^)]*(?:Danau|Gunung)[^)]*\)', '', answer)
+    
+    # Extract clean sentences (max 2)
     sentences = []
     current = ""
     
@@ -331,24 +335,47 @@ def ask_question(model, tokenizer, question, device,
         current += char
         if char in '.!?':
             sentence = current.strip()
-            # Skip kalimat yang terlalu pendek atau aneh
-            if len(sentence) > 10 and not sentence.startswith(("Contoh", "Misalnya")):
-                sentences.append(sentence)
+            
+            # Skip jika terlalu pendek atau ada keyword hallucination
+            if len(sentence) < 15:
                 current = ""
-                if len(sentences) >= 3:  # Max 3 kalimat
-                    break
-            else:
+                continue
+            
+            bad_patterns = ["081 ha", "September atau", "m dpl", "dong!", "kok!", "besar, cantik"]
+            if any(p in sentence for p in bad_patterns):
                 current = ""
+                continue
+            
+            if sentence.startswith(("Contoh", "Misalnya", "Namun", "Tapi", "Silakan")):
+                current = ""
+                continue
+            
+            sentences.append(sentence)
+            current = ""
+            
+            if len(sentences) >= 2:  # Max 2 sentences
+                break
     
+    # Assemble final answer
     if sentences:
         answer = ' '.join(sentences)
-    elif current.strip() and len(current.strip()) > 10:
+    elif current.strip() and len(current.strip()) > 15:
         answer = current.strip()
+        if not answer.endswith(('.', '!', '?')):
+            answer += "."
+    else:
+        answer = "Maaf, saya tidak dapat memberikan jawaban yang pasti untuk pertanyaan ini."
     
-    # Final cleanup: hapus trailing incomplete text
-    if answer.endswith(("seperti", "yaitu", "antara lain", "contohnya")):
-        words = answer.split()
-        answer = ' '.join(words[:-1]) + "."
+    # Remove trailing incomplete words
+    trailing_bad = ["seperti", "yaitu", "antara lain", "contohnya", "termasuk", "dan", "serta", "tapi"]
+    for bad in trailing_bad:
+        if answer.lower().endswith(bad):
+            answer = answer.rsplit(' ', 1)[0] + "."
+            break
+    
+    # Truncate if too long (suspicious)
+    if len(answer.split()) > 50:
+        answer = answer.split('.')[0] + '.'
     
     return answer
 
