@@ -221,6 +221,7 @@ def ask_question(model, tokenizer, question, device,
     stop_token = template["stop"]
     
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    prompt_length = inputs.input_ids.shape[1]  # Panjang prompt dalam TOKENS
     
     # Buat attention mask
     attention_mask = torch.ones_like(inputs.input_ids)
@@ -229,38 +230,37 @@ def ask_question(model, tokenizer, question, device,
         outputs = model.generate(
             inputs.input_ids,
             attention_mask=attention_mask,
-            max_new_tokens=50,              # Lebih pendek lagi
+            max_new_tokens=60,
             do_sample=False,                # GREEDY - no sampling!
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.5,          # Lebih ketat lagi
+            repetition_penalty=1.5,
             no_repeat_ngram_size=4,
         )
     
-    # Decode output
-    full_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    
-    # Extract answer (setelah prompt)
-    answer = full_text[len(prompt):].strip()
+    # Decode HANYA bagian jawaban (skip prompt tokens)
+    answer_tokens = outputs[0][prompt_length:]
+    answer = tokenizer.decode(answer_tokens, skip_special_tokens=True).strip()
     
     # Stop at next question marker if exists
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
     
-    # Stop di tanda baca akhir kalimat pertama
-    for i, char in enumerate(answer):
-        if char in '.!?' and i > 10:  # Minimal 10 karakter
-            answer = answer[:i+1]
-            break
+    # Stop di kalimat pertama atau kedua
+    sentences = []
+    current = ""
+    for char in answer:
+        current += char
+        if char in '.!?':
+            sentences.append(current.strip())
+            current = ""
+            if len(sentences) >= 2:  # Max 2 kalimat
+                break
     
-    # Bersihkan
-    answer = answer.strip()
-    
-    # Hapus potongan tidak lengkap di akhir
-    if answer and answer[-1] not in '.!?':
-        last_period = max(answer.rfind('.'), answer.rfind('!'), answer.rfind('?'))
-        if last_period > 10:
-            answer = answer[:last_period+1]
+    if sentences:
+        answer = ' '.join(sentences)
+    elif current.strip():
+        answer = current.strip()
     
     return answer
 
