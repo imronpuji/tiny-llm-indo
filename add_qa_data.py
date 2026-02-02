@@ -746,5 +746,152 @@ def add_custom_qa(new_qa_list, append=True):
     print(f"✓ Added {len(new_qa_list)} Q&A pairs")
 
 
+# ============================================================
+# DOWNLOAD Q&A DARI INTERNET (HuggingFace)
+# ============================================================
+
+def download_online_qa(max_samples=2000):
+    """
+    Download dataset Q&A dari HuggingFace dan convert ke format kita
+    
+    Datasets:
+    - squad_id: Indonesian SQuAD
+    - tydiqa (indonesian): Google's TyDiQA
+    """
+    print("\n📥 Downloading Q&A datasets from internet...")
+    
+    try:
+        from datasets import load_dataset
+    except ImportError:
+        print("❌ Please install datasets: pip install datasets")
+        return []
+    
+    online_qa = []
+    
+    # 1. TyDiQA Indonesian
+    print("   Downloading TyDiQA Indonesian...")
+    try:
+        tydiqa = load_dataset("tydiqa", "secondary_task", split="train", trust_remote_code=True)
+        tydiqa_id = [x for x in tydiqa if x.get("id", "").startswith("indonesian")]
+        
+        for item in tydiqa_id[:max_samples//2]:
+            q = item.get("question", "").strip()
+            # Ambil jawaban dari answers
+            answers = item.get("answers", {})
+            if answers and answers.get("text"):
+                a = answers["text"][0].strip()
+                if q and a and len(a) > 5 and len(a) < 300:
+                    online_qa.append({"q": q, "a": a})
+        
+        print(f"   ✓ TyDiQA: {len(online_qa)} Q&A pairs")
+    except Exception as e:
+        print(f"   ⚠ TyDiQA failed: {e}")
+    
+    # 2. Indonesian QA Dataset (jika ada)
+    print("   Downloading Indonesian QA...")
+    try:
+        indo_qa = load_dataset("jakartaresearch/indoqa", split="train", trust_remote_code=True)
+        
+        count_before = len(online_qa)
+        for item in indo_qa:
+            q = item.get("question", "").strip()
+            a = item.get("answer", "").strip()
+            if q and a and len(a) > 5 and len(a) < 300:
+                online_qa.append({"q": q, "a": a})
+                if len(online_qa) - count_before >= max_samples//2:
+                    break
+        
+        print(f"   ✓ IndoQA: {len(online_qa) - count_before} Q&A pairs")
+    except Exception as e:
+        print(f"   ⚠ IndoQA failed: {e}")
+    
+    # 3. Squad Indonesian (community)
+    print("   Downloading Squad ID...")
+    try:
+        squad_id = load_dataset("Squad_id", split="train", trust_remote_code=True)
+        
+        count_before = len(online_qa)
+        for item in squad_id:
+            q = item.get("question", "").strip()
+            answers = item.get("answers", {})
+            if answers and answers.get("text"):
+                a = answers["text"][0].strip()
+                if q and a and len(a) > 5 and len(a) < 300:
+                    online_qa.append({"q": q, "a": a})
+                    if len(online_qa) - count_before >= max_samples//2:
+                        break
+        
+        print(f"   ✓ Squad_id: {len(online_qa) - count_before} Q&A pairs")
+    except Exception as e:
+        print(f"   ⚠ Squad_id failed: {e}")
+    
+    print(f"\n📊 Total downloaded: {len(online_qa)} Q&A pairs")
+    return online_qa
+
+
+def main_with_online():
+    """Main function yang juga download dari internet"""
+    print("=" * 60)
+    print("📝 MENAMBAHKAN DATASET Q&A (LOCAL + ONLINE)")
+    print(f"   Format: {QA_FORMAT}")
+    print("=" * 60)
+    
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    # 1. Generate variasi dari data lokal
+    print("\n🔄 Processing local Q&A data...")
+    all_qa = generate_variations(QA_DATA)
+    print(f"   Local Q&A pairs: {len(all_qa)}")
+    
+    # 2. Download dari internet
+    online_qa = download_online_qa(max_samples=2000)
+    
+    # 3. Gabungkan
+    all_qa.extend(online_qa)
+    print(f"\n📊 Total combined: {len(all_qa)} Q&A pairs")
+    
+    # 4. Format
+    print(f"\n📋 Formatting with '{QA_FORMAT}' template...")
+    formatted = format_qa(all_qa, QA_FORMAT)
+    
+    # 5. REPETISI: Ulangi data agar model lebih hafal
+    print("\n🔁 Repeating data for better memorization...")
+    formatted = repeat_data(formatted, min_samples=5000)
+    print(f"   After repetition: {len(formatted)} samples")
+    
+    # 6. Shuffle
+    random.shuffle(formatted)
+    
+    # 7. Split train/eval (90/10)
+    split_idx = int(len(formatted) * 0.9)
+    train_data = formatted[:split_idx]
+    eval_data = formatted[split_idx:]
+    
+    # 8. Save
+    print("\n💾 Saving datasets...")
+    save_dataset(train_data, "train_qa.json")
+    save_dataset(eval_data, "eval_qa.json")
+    
+    # Preview
+    print("\n📝 Sample data:")
+    print("-" * 50)
+    for item in train_data[:2]:
+        print(item["text"][:200] + "...")
+        print("-" * 50)
+    
+    print("\n" + "=" * 60)
+    print("✅ DATASET Q&A SIAP!")
+    print("=" * 60)
+    print("\nUntuk fine-tuning, jalankan:")
+    print("  python finetune_qa.py")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    
+    if "--online" in sys.argv:
+        # Download juga dari internet
+        main_with_online()
+    else:
+        # Hanya pakai data lokal
+        main()
