@@ -39,11 +39,11 @@ EVAL_DATA_PATH = "./dataset/eval_qa.json"
 # Training config untuk fine-tuning model 150M
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 20,                    # Cukup untuk model besar
-    "per_device_train_batch_size": 2,          # Kecil karena model 150M
-    "per_device_eval_batch_size": 2,
-    "gradient_accumulation_steps": 16,         # Kompensasi batch kecil
-    "learning_rate": 2e-5,                     # Lebih kecil untuk model besar
+    "num_train_epochs": 10,                    # Reduced dari 20 → 10 (2x lebih cepat!)
+    "per_device_train_batch_size": 4,          # Naikkan dari 2 → 4
+    "per_device_eval_batch_size": 4,
+    "gradient_accumulation_steps": 8,          # Turunkan dari 16 → 8
+    "learning_rate": 3e-5,                     # Sedikit lebih tinggi untuk converge cepat
     "weight_decay": 0.01,
     "warmup_ratio": 0.05,
     "lr_scheduler_type": "cosine",
