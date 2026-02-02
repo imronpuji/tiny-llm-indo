@@ -113,10 +113,10 @@ MODEL_CONFIG = {
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
     "num_train_epochs": 3,                     # 3 epoch untuk model besar
-    "per_device_train_batch_size": 4,          # Batch kecil karena model besar
-    "per_device_eval_batch_size": 4,
-    "gradient_accumulation_steps": 16,         # Kompensasi batch kecil
-    "learning_rate": 2e-4,                     # Learning rate lebih kecil
+    "per_device_train_batch_size": 16,         # A100 20GB bisa handle batch lebih besar
+    "per_device_eval_batch_size": 16,
+    "gradient_accumulation_steps": 4,          # Effective batch = 16*4 = 64
+    "learning_rate": 2e-4,                     # Learning rate untuk model 150M
     "weight_decay": 0.01,
     "warmup_ratio": 0.03,
     "lr_scheduler_type": "cosine",
@@ -129,9 +129,9 @@ TRAINING_CONFIG = {
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
-    "fp16": False,
-    "dataloader_num_workers": 2,
-    "dataloader_pin_memory": False,
+    "bf16": True,                              # A100 supports bf16 (better than fp16)
+    "dataloader_num_workers": 4,               # More workers for A100
+    "dataloader_pin_memory": True,             # Pin memory for faster data transfer
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
