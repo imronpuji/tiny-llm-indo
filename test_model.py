@@ -204,8 +204,8 @@ def batch_test(model, tokenizer, device):
 
 def ask_question(model, tokenizer, question, device, 
                  qa_format="instruction",
-                 max_length=150,
-                 temperature=0.7):
+                 max_length=100,
+                 temperature=0.3):
     """
     Ajukan pertanyaan ke model
     
@@ -222,17 +222,21 @@ def ask_question(model, tokenizer, question, device,
     
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
     
+    # Buat attention mask
+    attention_mask = torch.ones_like(inputs.input_ids)
+    
     with torch.no_grad():
         outputs = model.generate(
             inputs.input_ids,
-            max_length=max_length,
+            attention_mask=attention_mask,
+            max_new_tokens=80,              # Batasi token baru, bukan total length
             temperature=temperature,
-            top_k=50,
-            top_p=0.9,
+            top_k=30,                        # Lebih fokus
+            top_p=0.85,                      # Lebih fokus
             do_sample=True,
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.2,
+            repetition_penalty=1.3,          # Lebih ketat
             no_repeat_ngram_size=3,
         )
     
@@ -245,6 +249,13 @@ def ask_question(model, tokenizer, question, device,
     # Stop at next question marker if exists
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
+    
+    # Ambil hanya kalimat pertama atau dua (biar fokus)
+    sentences = answer.replace('!', '.').replace('?', '.').split('.')
+    if len(sentences) > 2:
+        answer = '. '.join(sentences[:2]).strip()
+        if answer and not answer.endswith('.'):
+            answer += '.'
     
     return answer
 
