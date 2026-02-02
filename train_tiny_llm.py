@@ -89,7 +89,7 @@ TRAINING_CONFIG = {
 # LORA CONFIGURATION
 # ============================================================
 
-USE_LORA = True  # Set False untuk full fine-tuning
+USE_LORA = False  # Set False untuk full fine-tuning (lebih simpel)
 
 LORA_CONFIG = {
     "r": 8,                          # LoRA rank (dimensi adaptasi)
