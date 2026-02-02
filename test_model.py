@@ -229,15 +229,12 @@ def ask_question(model, tokenizer, question, device,
         outputs = model.generate(
             inputs.input_ids,
             attention_mask=attention_mask,
-            max_new_tokens=80,              # Batasi token baru, bukan total length
-            temperature=temperature,
-            top_k=30,                        # Lebih fokus
-            top_p=0.85,                      # Lebih fokus
-            do_sample=True,
+            max_new_tokens=50,              # Lebih pendek lagi
+            do_sample=False,                # GREEDY - no sampling!
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.3,          # Lebih ketat
-            no_repeat_ngram_size=3,
+            repetition_penalty=1.5,          # Lebih ketat lagi
+            no_repeat_ngram_size=4,
         )
     
     # Decode output
@@ -250,12 +247,20 @@ def ask_question(model, tokenizer, question, device,
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
     
-    # Ambil hanya kalimat pertama atau dua (biar fokus)
-    sentences = answer.replace('!', '.').replace('?', '.').split('.')
-    if len(sentences) > 2:
-        answer = '. '.join(sentences[:2]).strip()
-        if answer and not answer.endswith('.'):
-            answer += '.'
+    # Stop di tanda baca akhir kalimat pertama
+    for i, char in enumerate(answer):
+        if char in '.!?' and i > 10:  # Minimal 10 karakter
+            answer = answer[:i+1]
+            break
+    
+    # Bersihkan
+    answer = answer.strip()
+    
+    # Hapus potongan tidak lengkap di akhir
+    if answer and answer[-1] not in '.!?':
+        last_period = max(answer.rfind('.'), answer.rfind('!'), answer.rfind('?'))
+        if last_period > 10:
+            answer = answer[:last_period+1]
     
     return answer
 
