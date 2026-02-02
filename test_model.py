@@ -342,36 +342,40 @@ def main():
     for i, arg in enumerate(args):
         if arg.startswith("--"):
             mode = arg
-            if i + 1 < len(args) and not args[i + 1].startswith("--") and not args[i + 1].startswith("./"):
-                qa_format = args[i + 1]
+            # Check if next arg is format (not a flag or path)
+            if i + 1 < len(args):
+                next_arg = args[i + 1]
+                if not next_arg.startswith("--") and not next_arg.startswith("./") and not next_arg.startswith("/"):
+                    qa_format = next_arg
         elif arg.startswith("./") or arg.startswith("/"):
             model_path = arg
+        elif not arg.startswith("-"):
+            # Could be a relative path without ./
+            import os
+            if os.path.exists(arg):
+                model_path = arg
     
     # Load model
     model, tokenizer, device = load_model(model_path)
     
     # Check mode
-    if len(sys.argv) > 1:
-        mode = sys.argv[1]
-        qa_format = sys.argv[2] if len(sys.argv) > 2 else "instruction"
-        
-        if mode == "--qa":
-            # Q&A batch test lalu interactive
-            qa_batch_test(model, tokenizer, device, qa_format)
-            qa_interactive(model, tokenizer, device, qa_format)
-        elif mode == "--qa-interactive":
-            # Langsung ke interactive Q&A
-            qa_interactive(model, tokenizer, device, qa_format)
-        elif mode == "--qa-batch":
-            # Hanya batch test
-            qa_batch_test(model, tokenizer, device, qa_format)
-        else:
-            print(f"Unknown mode: {mode}")
-            print("Available modes: --qa, --qa-interactive, --qa-batch")
-    else:
+    if mode == "--qa":
+        # Q&A batch test lalu interactive
+        qa_batch_test(model, tokenizer, device, qa_format)
+        qa_interactive(model, tokenizer, device, qa_format)
+    elif mode == "--qa-interactive":
+        # Langsung ke interactive Q&A
+        qa_interactive(model, tokenizer, device, qa_format)
+    elif mode == "--qa-batch":
+        # Hanya batch test
+        qa_batch_test(model, tokenizer, device, qa_format)
+    elif mode is None:
         # Default: text generation mode
         batch_test(model, tokenizer, device)
         interactive_test(model, tokenizer, device)
+    else:
+        print(f"Unknown mode: {mode}")
+        print("Available modes: --qa, --qa-interactive, --qa-batch")
 
 
 if __name__ == "__main__":
