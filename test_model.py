@@ -333,8 +333,22 @@ class ChatBot:
 def main():
     import sys
     
+    # Parse arguments
+    model_path = "./tiny-llm-indo-final"
+    mode = None
+    qa_format = "instruction"
+    
+    args = sys.argv[1:]
+    for i, arg in enumerate(args):
+        if arg.startswith("--"):
+            mode = arg
+            if i + 1 < len(args) and not args[i + 1].startswith("--") and not args[i + 1].startswith("./"):
+                qa_format = args[i + 1]
+        elif arg.startswith("./") or arg.startswith("/"):
+            model_path = arg
+    
     # Load model
-    model, tokenizer, device = load_model()
+    model, tokenizer, device = load_model(model_path)
     
     # Check mode
     if len(sys.argv) > 1:
