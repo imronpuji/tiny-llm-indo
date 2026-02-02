@@ -35,6 +35,59 @@ QA_TEMPLATES = {
 }
 
 
+# ============================================================
+# HALLUCINATION DETECTION
+# ============================================================
+
+def detect_hallucination(answer: str, question: str) -> bool:
+    """
+    Deteksi jawaban yang kemungkinan hallucination
+    
+    Returns:
+        True jika dicurigai hallucination
+    """
+    answer_lower = answer.lower()
+    
+    # Pattern hallucination umum
+    hallucination_patterns = [
+        # Mixing unrelated concepts
+        ("komputer", "cantik"),
+        ("komputer", "besar"),
+        ("teknologi", "pintar"),
+        ("olahraga", "cantik"),
+        # Random numbers in weird context
+        ("17. 000", "september"),
+        ("081", "pulau"),
+        # Weird combinations
+        ("minum", "olahraga", "daging"),
+        ("padi", "banteng", "bintang"),
+    ]
+    
+    for pattern in hallucination_patterns:
+        if all(word in answer_lower for word in pattern):
+            return True
+    
+    # Terlalu banyak topik berbeda dalam 1 jawaban
+    topic_keywords = {
+        "tech": ["komputer", "teknologi", "software", "internet"],
+        "food": ["makanan", "minum", "makan", "kuliner"],
+        "geo": ["pulau", "kota", "provinsi", "negara"],
+        "politics": ["presiden", "partai", "politik", "pemilu"],
+    }
+    
+    topic_count = sum(1 for keywords in topic_keywords.values() 
+                     if any(k in answer_lower for k in keywords))
+    
+    if topic_count >= 3:  # Lebih dari 3 topik = suspicious
+        return True
+    
+    # Jawaban terlalu panjang untuk pertanyaan sederhana
+    if len(question.split()) <= 3 and len(answer.split()) > 50:
+        return True
+    
+    return False
+
+
 def load_model(model_path="./tiny-llm-indo-final", use_lora=True, base_model_path=None):
     """
     Load trained model
@@ -226,47 +279,82 @@ def ask_question(model, tokenizer, question, device,
     # Buat attention mask
     attention_mask = torch.ones_like(inputs.input_ids)
     
+    # Bad words untuk avoid hallucination patterns
+    bad_words = [
+        "contohnya", "misalnya", "seperti", "tapi", "namun",
+        "besar", "cantik", "pintar", "dong", "kok"
+    ]
+    bad_words_ids = [tokenizer.encode(w, add_special_tokens=False) for w in bad_words]
+    
     with torch.no_grad():
         outputs = model.generate(
             inputs.input_ids,
             attention_mask=attention_mask,
-            max_new_tokens=60,
-            do_sample=False,                # GREEDY - no sampling!
+            max_new_tokens=80,              # Sedikit lebih panjang untuk jawaban lengkap
+            min_new_tokens=5,               # Minimal 5 tokens untuk jawaban
+            do_sample=False,                # GREEDY - deterministik!
+            num_beams=1,                    # No beam search untuk speed
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.5,
-            no_repeat_ngram_size=4,
+            repetition_penalty=2.0,         # Naikkan untuk kurangi repetisi
+            no_repeat_ngram_size=3,         # Cegah 3-gram berulang
+            length_penalty=0.8,             # Sedikit prefer jawaban lebih pendek
+            early_stopping=True,            # Stop saat menemukan EOS
         )
     
     # Decode HANYA bagian jawaban (skip prompt tokens)
     answer_tokens = outputs[0][prompt_length:]
     answer = tokenizer.decode(answer_tokens, skip_special_tokens=True).strip()
     
+    # Clean up artifacts
+    answer = answer.replace("\n\n", " ").replace("  ", " ").strip()
+    
     # Stop at next question marker if exists
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
     
-    # Stop di kalimat pertama atau kedua
+    # Stop di markers lain yang sering muncul
+    for marker in ["Pertanyaan:", "###", "<|", "Contoh:", "Namun"]:
+        if marker in answer:
+            answer = answer.split(marker)[0].strip()
+    
+    # Filter out incomplete or suspicious patterns
+    if any(pattern in answer.lower() for pattern in ["....", "?????", "!!!!!"]):
+        # Terlalu banyak punctuation berulang = suspicious
+        answer = answer[:answer.find("....")].strip() if "...." in answer else answer
+    
+    # Extract hanya 1-3 kalimat pertama yang koheren
     sentences = []
     current = ""
+    
     for char in answer:
         current += char
         if char in '.!?':
-            sentences.append(current.strip())
-            current = ""
-            if len(sentences) >= 2:  # Max 2 kalimat
-                break
+            sentence = current.strip()
+            # Skip kalimat yang terlalu pendek atau aneh
+            if len(sentence) > 10 and not sentence.startswith(("Contoh", "Misalnya")):
+                sentences.append(sentence)
+                current = ""
+                if len(sentences) >= 3:  # Max 3 kalimat
+                    break
+            else:
+                current = ""
     
     if sentences:
         answer = ' '.join(sentences)
-    elif current.strip():
+    elif current.strip() and len(current.strip()) > 10:
         answer = current.strip()
+    
+    # Final cleanup: hapus trailing incomplete text
+    if answer.endswith(("seperti", "yaitu", "antara lain", "contohnya")):
+        words = answer.split()
+        answer = ' '.join(words[:-1]) + "."
     
     return answer
 
 
 def qa_interactive(model, tokenizer, device, qa_format="instruction"):
-    """Interactive Q&A mode"""
+    """Interactive Q&A mode dengan hallucination detection"""
     print("\n" + "=" * 60)
     print("🤖 MODE TANYA JAWAB")
     print(f"   Format: {qa_format}")
@@ -287,7 +375,13 @@ def qa_interactive(model, tokenizer, device, qa_format="instruction"):
         answer = ask_question(model, tokenizer, question, device, 
                              qa_format=qa_format)
         
-        print(f"\n💬 Jawaban: {answer}")
+        # Check hallucination
+        if detect_hallucination(answer, question):
+            print(f"\n💬 Jawaban: {answer}")
+            print("⚠️  [Warning: Jawaban mungkin kurang akurat]")
+        else:
+            print(f"\n💬 Jawaban: {answer}")
+        
         print("-" * 50)
 
 

@@ -113,9 +113,9 @@ MODEL_CONFIG = {
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
     "num_train_epochs": 3,                     # 3 epoch untuk model besar
-    "per_device_train_batch_size": 16,         # A100 20GB bisa handle batch lebih besar
-    "per_device_eval_batch_size": 16,
-    "gradient_accumulation_steps": 4,          # Effective batch = 16*4 = 64
+    "per_device_train_batch_size": 32,         # RTX 5090 32GB bisa handle batch besar
+    "per_device_eval_batch_size": 32,
+    "gradient_accumulation_steps": 1,          # Effective batch = 32*1*4_gpus = 128
     "learning_rate": 2e-4,                     # Learning rate untuk model 150M
     "weight_decay": 0.01,
     "warmup_ratio": 0.03,
@@ -129,9 +129,11 @@ TRAINING_CONFIG = {
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
-    "bf16": True,                              # A100 supports bf16 (better than fp16)
-    "dataloader_num_workers": 4,               # More workers for A100
-    "dataloader_pin_memory": True,             # Pin memory for faster data transfer
+    "bf16": True,                              # RTX 5090 supports bf16
+    "dataloader_num_workers": 16,              # More workers untuk 4x GPU
+    "dataloader_pin_memory": True,
+    "ddp_find_unused_parameters": False,       # Untuk multi-GPU efficiency
+    "gradient_checkpointing": False,           # Disable karena VRAM cukup
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,

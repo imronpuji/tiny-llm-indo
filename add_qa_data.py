@@ -398,6 +398,111 @@ QA_DATA = [
     # ============================================================
     {"q": "Apakah kamu selalu benar?", "a": "Tidak, saya bisa saja salah. Saya adalah AI dengan keterbatasan dan pengetahuan saya terbatas pada data training. Selalu verifikasi informasi penting dari sumber terpercaya."},
     {"q": "Apakah kamu bisa salah?", "a": "Ya, saya bisa salah. Saya hanya AI yang belajar dari data dan tidak selalu akurat. Mohon periksa kembali informasi yang saya berikan."},
+    {"q": "Apakah kamu tahu waktu sekarang?", "a": "Maaf, saya tidak memiliki akses ke waktu real-time. Silakan cek perangkat Anda untuk waktu saat ini."},
+    {"q": "Jam berapa sekarang?", "a": "Saya tidak bisa mengetahui waktu saat ini. Silakan lihat jam di perangkat Anda."},
+    {"q": "Hari apa sekarang?", "a": "Maaf, saya tidak memiliki akses ke kalender real-time. Silakan cek perangkat Anda."},
+    {"q": "Apakah kamu tahu berita terbaru?", "a": "Maaf, saya tidak memiliki akses ke berita terkini. Pengetahuan saya terbatas pada data training."},
+    {"q": "Apa cuaca hari ini?", "a": "Saya tidak memiliki akses ke informasi cuaca real-time. Silakan cek aplikasi cuaca di perangkat Anda."},
+    
+    # ============================================================
+    # KOTA-KOTA DI INDONESIA (Detail)
+    # ============================================================
+    {"q": "Apa itu Semarang?", "a": "Semarang adalah ibu kota Provinsi Jawa Tengah, terletak di pantai utara Jawa."},
+    {"q": "Dimana Semarang?", "a": "Semarang terletak di Jawa Tengah, di pesisir utara Pulau Jawa."},
+    {"q": "Ceritakan tentang Semarang!", "a": "Semarang adalah ibu kota Jawa Tengah yang terkenal dengan Lawang Sewu, Sam Poo Kong, dan kuliner seperti lumpia."},
+    {"q": "Apa itu Surabaya?", "a": "Surabaya adalah ibu kota Provinsi Jawa Timur dan kota terbesar kedua di Indonesia setelah Jakarta."},
+    {"q": "Dimana Surabaya?", "a": "Surabaya terletak di Jawa Timur, di pantai timur laut Pulau Jawa."},
+    {"q": "Ceritakan tentang Surabaya!", "a": "Surabaya adalah kota pahlawan yang terkenal dengan Tugu Pahlawan dan sebagai pusat perdagangan di Jawa Timur."},
+    {"q": "Apa itu Yogyakarta?", "a": "Yogyakarta adalah Daerah Istimewa di Indonesia yang terkenal dengan keraton, budaya, dan pendidikan."},
+    {"q": "Dimana Yogyakarta?", "a": "Yogyakarta terletak di Jawa Tengah bagian selatan."},
+    {"q": "Apa itu Medan?", "a": "Medan adalah ibu kota Provinsi Sumatera Utara dan kota terbesar ketiga di Indonesia."},
+    {"q": "Dimana Medan?", "a": "Medan terletak di Sumatera Utara, Indonesia."},
+    {"q": "Apa itu Makassar?", "a": "Makassar adalah ibu kota Provinsi Sulawesi Selatan yang terkenal dengan pelabuhan dan kulinernya."},
+    {"q": "Dimana Makassar?", "a": "Makassar terletak di Sulawesi Selatan, Indonesia."},
+    {"q": "Apa itu Palembang?", "a": "Palembang adalah ibu kota Provinsi Sumatera Selatan yang terkenal dengan Jembatan Ampera dan pempek."},
+    {"q": "Apa itu Malang?", "a": "Malang adalah kota di Jawa Timur yang terkenal dengan wisata dan udaranya yang sejuk."},
+    {"q": "Apa itu Solo?", "a": "Solo atau Surakarta adalah kota di Jawa Tengah yang terkenal dengan batik dan keraton."},
+    {"q": "Apa itu Bandung?", "a": "Bandung adalah ibu kota Jawa Barat yang terkenal dengan kuliner, fashion, dan udaranya yang sejuk."},
+    {"q": "Dimana Bandung?", "a": "Bandung terletak di Jawa Barat, dikelilingi pegunungan."},
+    
+    # ============================================================
+    # MATEMATIKA DASAR (Lebih Banyak)
+    # ============================================================
+    {"q": "Berapa 1 + 1?", "a": "Hasil dari 1 + 1 adalah 2."},
+    {"q": "1 + 1 berapa?", "a": "1 + 1 sama dengan 2."},
+    {"q": "Berapa 2 + 2?", "a": "Hasil dari 2 + 2 adalah 4."},
+    {"q": "2 + 2 berapa?", "a": "2 + 2 sama dengan 4."},
+    {"q": "Berapa 3 + 3?", "a": "Hasil dari 3 + 3 adalah 6."},
+    {"q": "Berapa 4 + 4?", "a": "Hasil dari 4 + 4 adalah 8."},
+    {"q": "Berapa 5 + 5?", "a": "Hasil dari 5 + 5 adalah 10."},
+    {"q": "5 + 5 berapa?", "a": "5 + 5 sama dengan 10."},
+    {"q": "Berapa 10 + 10?", "a": "Hasil dari 10 + 10 adalah 20."},
+    {"q": "Berapa 3 + 7?", "a": "Hasil dari 3 + 7 adalah 10."},
+    {"q": "Berapa 6 + 4?", "a": "Hasil dari 6 + 4 adalah 10."},
+    {"q": "Berapa 8 + 2?", "a": "Hasil dari 8 + 2 adalah 10."},
+    {"q": "Berapa 5 - 3?", "a": "Hasil dari 5 - 3 adalah 2."},
+    {"q": "Berapa 10 - 5?", "a": "Hasil dari 10 - 5 adalah 5."},
+    {"q": "Berapa 2 x 2?", "a": "Hasil dari 2 x 2 adalah 4."},
+    {"q": "Berapa 2 x 3?", "a": "Hasil dari 2 x 3 adalah 6."},
+    {"q": "Berapa 2 x 4?", "a": "Hasil dari 2 x 4 adalah 8."},
+    {"q": "Berapa 2 x 5?", "a": "Hasil dari 2 x 5 adalah 10."},
+    {"q": "Berapa 3 x 3?", "a": "Hasil dari 3 x 3 adalah 9."},
+    {"q": "Berapa 3 x 4?", "a": "Hasil dari 3 x 4 adalah 12."},
+    {"q": "Berapa 4 x 4?", "a": "Hasil dari 4 x 4 adalah 16."},
+    {"q": "Berapa 5 x 5?", "a": "Hasil dari 5 x 5 adalah 25."},
+    {"q": "Berapa 6 x 6?", "a": "Hasil dari 6 x 6 adalah 36."},
+    {"q": "Berapa 10 : 2?", "a": "Hasil dari 10 dibagi 2 adalah 5."},
+    {"q": "Berapa 20 : 4?", "a": "Hasil dari 20 dibagi 4 adalah 5."},
+    
+    # ============================================================
+    # NEGARA TETANGGA INDONESIA
+    # ============================================================
+    {"q": "Apa itu Malaysia?", "a": "Malaysia adalah negara tetangga Indonesia yang terletak di utara, berbatasan dengan Kalimantan. Ibu kotanya adalah Kuala Lumpur."},
+    {"q": "Dimana Malaysia?", "a": "Malaysia terletak di Asia Tenggara, berbatasan dengan Indonesia di Kalimantan."},
+    {"q": "Apa itu Singapura?", "a": "Singapura adalah negara kota di Asia Tenggara yang terletak di selatan Malaysia, dekat dengan Indonesia."},
+    {"q": "Dimana Singapura?", "a": "Singapura terletak di ujung selatan Semenanjung Malaysia, dekat Kepulauan Riau Indonesia."},
+    {"q": "Apa itu Filipina?", "a": "Filipina adalah negara kepulauan di Asia Tenggara yang terletak di utara Indonesia."},
+    {"q": "Apa itu Thailand?", "a": "Thailand adalah negara di Asia Tenggara yang berbatasan dengan Malaysia di selatan."},
+    {"q": "Apa itu Vietnam?", "a": "Vietnam adalah negara di Asia Tenggara yang terletak di semenanjung Indochina."},
+    {"q": "Apa itu Brunei?", "a": "Brunei Darussalam adalah negara kecil di Pulau Kalimantan yang dikelilingi oleh Malaysia."},
+    {"q": "Apa itu Timor Leste?", "a": "Timor Leste adalah negara yang terletak di timur Indonesia, berbagi pulau Timor dengan Nusa Tenggara Timur."},
+    
+    # ============================================================
+    # SEJARAH & POLITIK INDONESIA (Lebih Detail)
+    # ============================================================
+    {"q": "Apa itu PKI?", "a": "PKI (Partai Komunis Indonesia) adalah partai politik yang pernah ada di Indonesia dan terlibat dalam peristiwa G30S tahun 1965."},
+    {"q": "Apa itu G30S PKI?", "a": "G30S PKI atau Gerakan 30 September adalah peristiwa berdarah pada tanggal 30 September 1965 di Indonesia."},
+    {"q": "Kapan G30S PKI terjadi?", "a": "G30S PKI terjadi pada tanggal 30 September 1965."},
+    {"q": "Siapa Soekarno?", "a": "Soekarno adalah presiden pertama Republik Indonesia yang memproklamasikan kemerdekaan Indonesia pada tahun 1945."},
+    {"q": "Siapa Soeharto?", "a": "Soeharto adalah presiden kedua Indonesia yang memerintah dari tahun 1967 hingga 1998."},
+    {"q": "Siapa BJ Habibie?", "a": "BJ Habibie adalah presiden ketiga Indonesia yang juga dikenal sebagai Bapak Teknologi Indonesia."},
+    {"q": "Siapa Gus Dur?", "a": "Gus Dur atau Abdurrahman Wahid adalah presiden keempat Indonesia yang dikenal dengan toleransi dan pluralismenya."},
+    {"q": "Siapa Megawati?", "a": "Megawati Soekarnoputri adalah presiden kelima Indonesia dan putri dari Presiden Soekarno."},
+    {"q": "Siapa SBY?", "a": "SBY atau Susilo Bambang Yudhoyono adalah presiden keenam Indonesia yang menjabat dua periode."},
+    {"q": "Siapa Jokowi?", "a": "Jokowi atau Joko Widodo adalah presiden ketujuh Indonesia yang menjabat sejak 2014."},
+    
+    # ============================================================
+    # VARIASI SAPAAN & FOLLOWUP
+    # ============================================================
+    {"q": "Hi", "a": "Hi! Ada yang bisa saya bantu?"},
+    {"q": "Hey", "a": "Hey! Senang bertemu dengan Anda. Ada pertanyaan?"},
+    {"q": "Apa kabar?", "a": "Saya baik, terima kasih! Ada yang ingin Anda tanyakan?"},
+    {"q": "Gimana kabarmu?", "a": "Baik! Ada yang bisa saya bantu hari ini?"},
+    {"q": "Lagi ngapain?", "a": "Saya siap membantu menjawab pertanyaan Anda. Ada yang ingin ditanyakan?"},
+    {"q": "Bisa bantu?", "a": "Tentu! Saya siap membantu. Apa yang ingin Anda tanyakan?"},
+    {"q": "Tolong dong", "a": "Dengan senang hati! Apa yang bisa saya bantu?"},
+    {"q": "Selain itu?", "a": "Bisa diperjelas pertanyaannya? Tentang topik apa yang ingin Anda ketahui lebih lanjut?"},
+    {"q": "Apa lagi?", "a": "Ada aspek spesifik yang ingin Anda ketahui? Silakan tanyakan lebih detail."},
+    {"q": "Lainnya?", "a": "Apa yang secara spesifik ingin Anda ketahui? Silakan tanyakan dengan lebih jelas."},
+    
+    # ============================================================
+    # KLARIFIKASI & ERROR HANDLING
+    # ============================================================
+    {"q": "Hah?", "a": "Maaf, pertanyaan Anda kurang jelas. Bisa diulang dengan lebih spesifik?"},
+    {"q": "Maksudnya?", "a": "Maaf jika kurang jelas. Apa yang ingin Anda ketahui lebih lanjut?"},
+    {"q": "Gak ngerti", "a": "Maaf jika penjelasan saya membingungkan. Bisa tanyakan dengan cara lain?"},
+    {"q": "Salah!", "a": "Maaf jika ada kesalahan. Saya akan terus belajar. Bisa koreksi informasi yang benar?"},
+    {"q": "Kok salah?", "a": "Maaf atas kesalahan tersebut. Sebagai AI, saya memang bisa salah. Terima kasih atas koreksinya."},
     {"q": "Bagaimana jika kamu tidak tahu jawabannya?", "a": "Jika saya tidak yakin, saya akan mencoba menjawab sebaik mungkin, tapi saya sarankan untuk memverifikasi dari sumber lain. Saya memiliki keterbatasan pengetahuan."},
     {"q": "Apa kelemahanmu?", "a": "Kelemahan saya antara lain: pengetahuan terbatas pada data training, bisa memberikan informasi yang salah, tidak bisa mengakses internet, dan tidak memahami konteks seperti manusia."},
     {"q": "Apa yang tidak bisa kamu lakukan?", "a": "Saya tidak bisa: mengakses internet, melihat gambar, mendengar suara, mengingat percakapan sebelumnya, atau memberikan informasi terkini setelah data training saya."},
