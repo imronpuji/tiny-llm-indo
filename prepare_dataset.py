@@ -452,5 +452,289 @@ def main():
     return train_texts, eval_texts
 
 
+# ============================================================
+# Q&A / INSTRUCTION DATASET PREPARATION
+# ============================================================
+
+# Template untuk format Q&A
+QA_TEMPLATES = {
+    "simple": "Pertanyaan: {question}\nJawaban: {answer}",
+    "instruction": "### Instruksi:\n{question}\n\n### Jawaban:\n{answer}",
+    "chat": "<|user|>\n{question}\n<|assistant|>\n{answer}",
+    "alpaca": "### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:\n{output}",
+}
+
+
+def load_qa_datasets(max_samples=10000):
+    """Load Q&A datasets dari berbagai sumber"""
+    print("\n📥 Loading Q&A Datasets...")
+    
+    qa_pairs = []
+    
+    # 1. Try Indonesian QA datasets
+    try:
+        print("   Loading TydiQA Indonesian...")
+        dataset = load_dataset("tydiqa", "secondary_task", split="train")
+        
+        for item in tqdm(dataset, desc="TydiQA"):
+            if item.get('language') == 'indonesian':
+                q = clean_text(item.get('question', ''))
+                # Get first answer
+                answers = item.get('answers', {}).get('text', [])
+                if answers and q:
+                    a = clean_text(answers[0])
+                    if len(q) > 10 and len(a) > 5:
+                        qa_pairs.append({"question": q, "answer": a})
+            
+            if len(qa_pairs) >= max_samples // 2:
+                break
+        
+        print(f"   ✓ TydiQA: {len(qa_pairs)} pairs")
+    except Exception as e:
+        print(f"   ⚠ TydiQA failed: {e}")
+    
+    # 2. Try Squad-translated (if available)
+    try:
+        print("   Loading Squad-ID...")
+        dataset = load_dataset("squad_v2", split="train")
+        
+        count_before = len(qa_pairs)
+        for item in tqdm(dataset, desc="Squad"):
+            q = clean_text(item.get('question', ''))
+            answers = item.get('answers', {}).get('text', [])
+            if answers and q:
+                a = clean_text(answers[0])
+                if len(q) > 10 and len(a) > 3:
+                    qa_pairs.append({"question": q, "answer": a})
+            
+            if len(qa_pairs) - count_before >= max_samples // 4:
+                break
+        
+        print(f"   ✓ Squad: {len(qa_pairs) - count_before} pairs")
+    except Exception as e:
+        print(f"   ⚠ Squad failed: {e}")
+    
+    # 3. Generate synthetic Q&A dari teks yang ada
+    if len(qa_pairs) < max_samples:
+        qa_pairs.extend(generate_synthetic_qa(max_samples - len(qa_pairs)))
+    
+    print(f"\n✓ Total Q&A pairs: {len(qa_pairs)}")
+    return qa_pairs
+
+
+def generate_synthetic_qa(num_samples=5000):
+    """Generate synthetic Q&A pairs untuk bahasa Indonesia"""
+    print("   Generating synthetic Q&A...")
+    
+    # Template pertanyaan dan jawaban umum
+    qa_templates = [
+        # Pengetahuan umum
+        ("Apa itu {topic}?", "{topic} adalah {definition}."),
+        ("Jelaskan tentang {topic}!", "{topic} merupakan {definition}."),
+        ("Apa yang dimaksud dengan {topic}?", "{topic} adalah {definition}."),
+        ("Bagaimana cara {action}?", "Cara {action} adalah {steps}."),
+        ("Mengapa {reason_topic} penting?", "{reason_topic} penting karena {reason}."),
+        ("Apa manfaat dari {topic}?", "Manfaat dari {topic} adalah {benefits}."),
+        ("Siapa yang menemukan {discovery}?", "{discovery} ditemukan oleh {inventor}."),
+        ("Kapan {event} terjadi?", "{event} terjadi pada {time}."),
+        ("Di mana {location_topic} berada?", "{location_topic} berada di {location}."),
+        ("Berapa {quantity_topic}?", "{quantity_topic} adalah {quantity}."),
+    ]
+    
+    # Sample data untuk mengisi template
+    topics_definitions = [
+        ("komputer", "perangkat elektronik yang dapat memproses data dan informasi"),
+        ("internet", "jaringan komputer global yang menghubungkan jutaan perangkat"),
+        ("kecerdasan buatan", "teknologi yang memungkinkan mesin untuk belajar dan berpikir seperti manusia"),
+        ("bahasa pemrograman", "bahasa formal yang digunakan untuk membuat program komputer"),
+        ("database", "sistem untuk menyimpan dan mengelola data secara terstruktur"),
+        ("algoritma", "serangkaian langkah terstruktur untuk menyelesaikan masalah"),
+        ("machine learning", "cabang AI yang memungkinkan sistem belajar dari data"),
+        ("cloud computing", "layanan komputasi yang disediakan melalui internet"),
+        ("cybersecurity", "praktik melindungi sistem dan data dari serangan digital"),
+        ("big data", "kumpulan data yang sangat besar dan kompleks"),
+        ("Indonesia", "negara kepulauan terbesar di dunia yang terletak di Asia Tenggara"),
+        ("Jakarta", "ibu kota Indonesia yang terletak di pulau Jawa"),
+        ("Pancasila", "dasar negara dan ideologi bangsa Indonesia"),
+        ("Bahasa Indonesia", "bahasa resmi negara Indonesia"),
+        ("ekonomi", "ilmu yang mempelajari produksi, distribusi, dan konsumsi barang dan jasa"),
+        ("pendidikan", "proses pembelajaran dan pengembangan pengetahuan"),
+        ("kesehatan", "kondisi sejahtera dari badan, jiwa, dan sosial"),
+        ("lingkungan", "segala sesuatu yang ada di sekitar makhluk hidup"),
+        ("teknologi", "penerapan ilmu pengetahuan untuk memecahkan masalah"),
+        ("komunikasi", "proses penyampaian informasi dari satu pihak ke pihak lain"),
+    ]
+    
+    actions_steps = [
+        ("membuat website", "dengan mempelajari HTML, CSS, dan JavaScript, lalu membuat file-file yang diperlukan"),
+        ("belajar programming", "dengan memilih bahasa pemrograman, mempelajari dasar-dasarnya, dan praktik membuat program"),
+        ("menulis artikel", "dengan menentukan topik, membuat outline, menulis draft, dan melakukan revisi"),
+        ("memasak nasi", "dengan mencuci beras, menambahkan air secukupnya, dan memasak hingga matang"),
+        ("menjaga kesehatan", "dengan makan makanan bergizi, berolahraga teratur, dan istirahat cukup"),
+        ("menghemat energi", "dengan mematikan peralatan yang tidak digunakan dan menggunakan energi secara efisien"),
+        ("berkomunikasi efektif", "dengan mendengarkan aktif, berbicara jelas, dan memahami perspektif lawan bicara"),
+    ]
+    
+    reasons = [
+        ("pendidikan", "pendidikan membantu mengembangkan potensi dan meningkatkan kualitas hidup"),
+        ("kesehatan", "kesehatan adalah modal utama untuk menjalani kehidupan yang produktif"),
+        ("teknologi", "teknologi mempermudah kehidupan dan meningkatkan efisiensi"),
+        ("lingkungan", "lingkungan yang sehat mendukung kehidupan seluruh makhluk di bumi"),
+        ("komunikasi", "komunikasi yang baik membantu membangun hubungan dan menghindari konflik"),
+    ]
+    
+    qa_pairs = []
+    
+    # Generate dari template
+    for _ in range(num_samples):
+        template_idx = random.randint(0, len(qa_templates) - 1)
+        q_template, a_template = qa_templates[template_idx]
+        
+        if "{topic}" in q_template and "{definition}" in a_template:
+            topic, definition = random.choice(topics_definitions)
+            q = q_template.format(topic=topic)
+            a = a_template.format(topic=topic, definition=definition)
+        elif "{action}" in q_template and "{steps}" in a_template:
+            action, steps = random.choice(actions_steps)
+            q = q_template.format(action=action)
+            a = a_template.format(action=action, steps=steps)
+        elif "{reason_topic}" in q_template:
+            reason_topic, reason = random.choice(reasons)
+            q = q_template.format(reason_topic=reason_topic)
+            a = a_template.format(reason_topic=reason_topic, reason=reason)
+        else:
+            continue
+        
+        qa_pairs.append({"question": q, "answer": a})
+    
+    print(f"   ✓ Synthetic: {len(qa_pairs)} pairs")
+    return qa_pairs
+
+
+def prepare_qa_dataset(qa_format="instruction", output_suffix="qa"):
+    """
+    Prepare dataset dalam format Q&A/Instruction
+    
+    Args:
+        qa_format: Format template ("simple", "instruction", "chat", "alpaca")
+        output_suffix: Suffix untuk file output
+    """
+    print("=" * 60)
+    print("🤖 PREPARING Q&A DATASET")
+    print(f"   Format: {qa_format}")
+    print("=" * 60)
+    
+    os.makedirs(CONFIG['output_dir'], exist_ok=True)
+    
+    # Load Q&A pairs
+    qa_pairs = load_qa_datasets(max_samples=CONFIG['train_size'])
+    
+    # Format sesuai template
+    template = QA_TEMPLATES.get(qa_format, QA_TEMPLATES["instruction"])
+    
+    formatted_texts = []
+    for pair in qa_pairs:
+        text = template.format(
+            question=pair['question'],
+            answer=pair['answer'],
+            instruction=pair.get('instruction', pair['question']),
+            input=pair.get('input', ''),
+            output=pair.get('output', pair['answer'])
+        )
+        formatted_texts.append(text)
+    
+    # Shuffle and split
+    random.shuffle(formatted_texts)
+    
+    train_size = int(len(formatted_texts) * 0.9)
+    train_texts = formatted_texts[:train_size]
+    eval_texts = formatted_texts[train_size:]
+    
+    # Save
+    train_path = os.path.join(CONFIG['output_dir'], f"train_{output_suffix}.json")
+    eval_path = os.path.join(CONFIG['output_dir'], f"eval_{output_suffix}.json")
+    
+    with open(train_path, 'w', encoding='utf-8') as f:
+        json.dump([{"text": t} for t in train_texts], f, ensure_ascii=False, indent=2)
+    
+    with open(eval_path, 'w', encoding='utf-8') as f:
+        json.dump([{"text": t} for t in eval_texts], f, ensure_ascii=False, indent=2)
+    
+    print(f"\n💾 Q&A Dataset saved:")
+    print(f"   {train_path} ({len(train_texts)} samples)")
+    print(f"   {eval_path} ({len(eval_texts)} samples)")
+    
+    # Preview
+    print("\n📝 Sample Q&A:")
+    print("-" * 50)
+    for text in train_texts[:2]:
+        print(text)
+        print("-" * 50)
+    
+    print("\n✅ Q&A DATASET READY!")
+    
+    return train_texts, eval_texts
+
+
+def create_custom_qa_dataset(qa_data, output_name="custom_qa", qa_format="instruction"):
+    """
+    Buat dataset Q&A dari data custom
+    
+    Args:
+        qa_data: List of dicts dengan format:
+            [{"question": "...", "answer": "..."}, ...]
+        output_name: Nama file output
+        qa_format: Format template
+    
+    Contoh:
+        data = [
+            {"question": "Apa ibu kota Indonesia?", "answer": "Jakarta"},
+            {"question": "Siapa presiden pertama?", "answer": "Soekarno"},
+        ]
+        create_custom_qa_dataset(data, "my_qa")
+    """
+    print(f"\n📝 Creating custom Q&A dataset: {output_name}")
+    
+    os.makedirs(CONFIG['output_dir'], exist_ok=True)
+    
+    template = QA_TEMPLATES.get(qa_format, QA_TEMPLATES["instruction"])
+    
+    formatted = []
+    for item in qa_data:
+        text = template.format(
+            question=item['question'],
+            answer=item['answer'],
+            instruction=item.get('instruction', item['question']),
+            input=item.get('input', ''),
+            output=item.get('output', item['answer'])
+        )
+        formatted.append({"text": text})
+    
+    # Split
+    random.shuffle(formatted)
+    split_idx = int(len(formatted) * 0.9)
+    
+    train_path = os.path.join(CONFIG['output_dir'], f"train_{output_name}.json")
+    eval_path = os.path.join(CONFIG['output_dir'], f"eval_{output_name}.json")
+    
+    with open(train_path, 'w', encoding='utf-8') as f:
+        json.dump(formatted[:split_idx], f, ensure_ascii=False, indent=2)
+    
+    with open(eval_path, 'w', encoding='utf-8') as f:
+        json.dump(formatted[split_idx:], f, ensure_ascii=False, indent=2)
+    
+    print(f"✓ Saved: {train_path}, {eval_path}")
+    
+    return formatted
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    
+    if len(sys.argv) > 1 and sys.argv[1] == "--qa":
+        # Prepare Q&A dataset
+        qa_format = sys.argv[2] if len(sys.argv) > 2 else "instruction"
+        prepare_qa_dataset(qa_format=qa_format)
+    else:
+        # Default: prepare general dataset
+        main()

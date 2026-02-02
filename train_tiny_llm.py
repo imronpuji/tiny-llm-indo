@@ -2,6 +2,7 @@
 Training Script untuk Tiny Indonesian LLM (13M params)
 ======================================================
 Dengan early stopping dan optimasi untuk menghindari overfitting
+Support PEFT (Parameter-Efficient Fine-Tuning) dan LoRA
 """
 
 import os
@@ -22,6 +23,20 @@ from transformers import (
 )
 from transformers.trainer_callback import TrainerCallback
 import math
+
+# PEFT & LoRA imports
+try:
+    from peft import (
+        LoraConfig,
+        get_peft_model,
+        prepare_model_for_kbit_training,
+        TaskType,
+        PeftModel,
+    )
+    PEFT_AVAILABLE = True
+except ImportError:
+    PEFT_AVAILABLE = False
+    print("⚠️  PEFT not installed. Install with: pip install peft")
 
 # ============================================================
 # KONFIGURASI MODEL 13M
@@ -68,6 +83,25 @@ TRAINING_CONFIG = {
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
+}
+
+# ============================================================
+# LORA CONFIGURATION
+# ============================================================
+
+USE_LORA = True  # Set False untuk full fine-tuning
+
+LORA_CONFIG = {
+    "r": 8,                          # LoRA rank (dimensi adaptasi)
+    "lora_alpha": 16,                # LoRA scaling factor
+    "lora_dropout": 0.05,            # Dropout untuk LoRA layers
+    "bias": "none",                  # Bias training: "none", "all", "lora_only"
+    "target_modules": [              # Modules yang akan di-adapt
+        "c_attn",                    # Attention weights (Q, K, V)
+        "c_proj",                    # Attention output projection
+        "c_fc",                      # FFN first layer
+    ],
+    "task_type": "CAUSAL_LM",        # Task type untuk language modeling
 }
 
 # ============================================================
@@ -139,8 +173,14 @@ def tokenize_function(examples, tokenizer, max_length=512):
 # MODEL CREATION
 # ============================================================
 
-def create_model_and_tokenizer():
-    """Buat model dan tokenizer baru"""
+def create_model_and_tokenizer(use_lora=False, from_pretrained=None):
+    """
+    Buat model dan tokenizer baru
+    
+    Args:
+        use_lora: Boolean, apakah menggunakan LoRA
+        from_pretrained: Path ke pretrained model (untuk fine-tuning)
+    """
     print("\n🔧 Creating model and tokenizer...")
     
     # Load tokenizer Indonesia
@@ -161,11 +201,21 @@ def create_model_and_tokenizer():
     # Update vocab size
     MODEL_CONFIG["vocab_size"] = len(tokenizer)
     
-    # Create model config
-    config = GPT2Config(**MODEL_CONFIG)
+    # Create or load model
+    if from_pretrained:
+        print(f"📥 Loading pretrained model from: {from_pretrained}")
+        model = GPT2LMHeadModel.from_pretrained(from_pretrained)
+    else:
+        # Create model config
+        config = GPT2Config(**MODEL_CONFIG)
+        # Create model from scratch
+        model = GPT2LMHeadModel(config)
     
-    # Create model from scratch
-    model = GPT2LMHeadModel(config)
+    # Apply LoRA if enabled
+    if use_lora and PEFT_AVAILABLE:
+        model = apply_lora(model)
+    elif use_lora and not PEFT_AVAILABLE:
+        print("⚠️  LoRA requested but PEFT not available. Using full fine-tuning.")
     
     # Count parameters
     total_params = sum(p.numel() for p in model.parameters())
@@ -173,9 +223,94 @@ def create_model_and_tokenizer():
     
     print(f"✓ Model created")
     print(f"  Total parameters: {total_params:,} ({total_params/1e6:.1f}M)")
-    print(f"  Trainable parameters: {trainable_params:,}")
+    print(f"  Trainable parameters: {trainable_params:,} ({trainable_params/1e6:.2f}M)")
+    print(f"  Trainable %: {100 * trainable_params / total_params:.2f}%")
     
     return model, tokenizer
+
+
+def apply_lora(model):
+    """
+    Apply LoRA adapter ke model
+    
+    LoRA (Low-Rank Adaptation) menambahkan trainable low-rank matrices
+    ke attention layers, memungkinkan fine-tuning efisien dengan
+    parameter yang jauh lebih sedikit.
+    """
+    print("\n🔗 Applying LoRA adapter...")
+    
+    # Create LoRA config
+    lora_config = LoraConfig(
+        r=LORA_CONFIG["r"],
+        lora_alpha=LORA_CONFIG["lora_alpha"],
+        lora_dropout=LORA_CONFIG["lora_dropout"],
+        bias=LORA_CONFIG["bias"],
+        target_modules=LORA_CONFIG["target_modules"],
+        task_type=TaskType.CAUSAL_LM,
+    )
+    
+    # Apply PEFT
+    model = get_peft_model(model, lora_config)
+    
+    # Print LoRA info
+    print(f"  LoRA rank (r): {LORA_CONFIG['r']}")
+    print(f"  LoRA alpha: {LORA_CONFIG['lora_alpha']}")
+    print(f"  Target modules: {LORA_CONFIG['target_modules']}")
+    
+    # Print trainable parameters
+    model.print_trainable_parameters()
+    
+    return model
+
+
+def merge_lora_weights(model_path, output_path):
+    """
+    Merge LoRA weights ke base model untuk inference yang lebih cepat
+    
+    Args:
+        model_path: Path ke model dengan LoRA adapter
+        output_path: Path untuk menyimpan merged model
+    """
+    print(f"\n🔀 Merging LoRA weights...")
+    print(f"   Input: {model_path}")
+    print(f"   Output: {output_path}")
+    
+    # Load base model
+    base_model = GPT2LMHeadModel.from_pretrained(model_path)
+    
+    # Load PEFT model
+    model = PeftModel.from_pretrained(base_model, model_path)
+    
+    # Merge and unload
+    model = model.merge_and_unload()
+    
+    # Save merged model
+    model.save_pretrained(output_path)
+    
+    print(f"✓ Merged model saved to: {output_path}")
+    
+    return model
+
+
+def load_lora_model(base_model_path, lora_adapter_path):
+    """
+    Load model dengan LoRA adapter terpisah
+    
+    Args:
+        base_model_path: Path ke base model
+        lora_adapter_path: Path ke LoRA adapter
+    """
+    print(f"\n📥 Loading LoRA model...")
+    
+    # Load base model
+    base_model = GPT2LMHeadModel.from_pretrained(base_model_path)
+    
+    # Load LoRA adapter
+    model = PeftModel.from_pretrained(base_model, lora_adapter_path)
+    
+    print(f"✓ Model loaded with LoRA adapter")
+    
+    return model
 
 
 # ============================================================
@@ -185,6 +320,10 @@ def create_model_and_tokenizer():
 def main():
     print("=" * 60)
     print("🚀 TINY INDONESIAN LLM TRAINING")
+    if USE_LORA and PEFT_AVAILABLE:
+        print("   Mode: PEFT with LoRA")
+    else:
+        print("   Mode: Full Fine-tuning")
     print("=" * 60)
     
     # Check CUDA
@@ -194,8 +333,8 @@ def main():
         print(f"   GPU: {torch.cuda.get_device_name(0)}")
         print(f"   Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
     
-    # Create model and tokenizer
-    model, tokenizer = create_model_and_tokenizer()
+    # Create model and tokenizer (dengan LoRA jika diaktifkan)
+    model, tokenizer = create_model_and_tokenizer(use_lora=USE_LORA)
     
     # Load datasets
     print("\n📂 Loading datasets...")
@@ -273,6 +412,15 @@ def main():
     
     print(f"✓ Model saved to: {final_path}")
     
+    # If using LoRA, optionally merge weights
+    if USE_LORA and PEFT_AVAILABLE:
+        print("\n💡 LoRA adapter saved. To merge weights for faster inference:")
+        print(f"   merge_lora_weights('{final_path}', './tiny-llm-indo-merged')")
+        
+        # Uncomment to auto-merge:
+        # merged_path = "./tiny-llm-indo-merged"
+        # merge_lora_weights(final_path, merged_path)
+    
     # Final evaluation
     print("\n📊 Final Evaluation:")
     eval_results = trainer.evaluate()
@@ -282,6 +430,91 @@ def main():
     print("\n" + "=" * 60)
     print("✅ TRAINING COMPLETE!")
     print("=" * 60)
+
+
+def finetune_with_lora(base_model_path, dataset_path, output_path):
+    """
+    Fine-tune existing model dengan LoRA
+    
+    Contoh penggunaan:
+        finetune_with_lora(
+            base_model_path="./tiny-llm-indo-final",
+            dataset_path="./dataset/finetune_data.json",
+            output_path="./tiny-llm-indo-lora-finetuned"
+        )
+    """
+    if not PEFT_AVAILABLE:
+        raise ImportError("PEFT not installed. Run: pip install peft")
+    
+    print("=" * 60)
+    print("🔧 FINE-TUNING WITH LoRA")
+    print("=" * 60)
+    
+    # Load base model with LoRA
+    model, tokenizer = create_model_and_tokenizer(
+        use_lora=True,
+        from_pretrained=base_model_path
+    )
+    
+    # Load and prepare dataset
+    dataset = load_dataset_from_json(dataset_path)
+    dataset = dataset.map(
+        lambda x: tokenize_function(x, tokenizer),
+        batched=True,
+        remove_columns=["text"],
+    )
+    
+    # Split if needed
+    dataset = dataset.train_test_split(test_size=0.1)
+    
+    # Data collator
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer,
+        mlm=False,
+    )
+    
+    # Adjusted training args for fine-tuning
+    finetune_args = TrainingArguments(
+        output_dir=output_path,
+        num_train_epochs=3,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+        gradient_accumulation_steps=2,
+        learning_rate=2e-4,  # Lower LR for fine-tuning
+        weight_decay=0.01,
+        warmup_ratio=0.05,
+        lr_scheduler_type="cosine",
+        logging_steps=20,
+        eval_strategy="steps",
+        eval_steps=100,
+        save_strategy="steps",
+        save_steps=100,
+        save_total_limit=2,
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        fp16=torch.cuda.is_available(),
+        report_to="none",
+    )
+    
+    # Trainer
+    trainer = Trainer(
+        model=model,
+        args=finetune_args,
+        train_dataset=dataset["train"],
+        eval_dataset=dataset["test"],
+        data_collator=data_collator,
+    )
+    
+    # Train
+    trainer.train()
+    
+    # Save
+    trainer.save_model(output_path)
+    tokenizer.save_pretrained(output_path)
+    
+    print(f"\n✓ Fine-tuned model saved to: {output_path}")
+    
+    return model, tokenizer
 
 
 if __name__ == "__main__":
