@@ -39,20 +39,72 @@ except ImportError:
     print("⚠️  PEFT not installed. Install with: pip install peft")
 
 # ============================================================
-# KONFIGURASI MODEL 13M
+# KONFIGURASI MODEL - PILIH SALAH SATU!
 # ============================================================
 
+# === TINY: 13M params (~1 jam training) ===
+# MODEL_CONFIG = {
+#     "vocab_size": 32000,
+#     "n_positions": 512,
+#     "n_embd": 384,
+#     "n_layer": 6,
+#     "n_head": 6,
+#     "n_inner": 1536,
+#     "activation_function": "gelu_new",
+#     "resid_pdrop": 0.05,
+#     "embd_pdrop": 0.05,
+#     "attn_pdrop": 0.05,
+#     "layer_norm_epsilon": 1e-5,
+#     "bos_token_id": 1,
+#     "eos_token_id": 2,
+# }
+
+# === SMALL: 30M params (~2-3 jam training) ===
+# MODEL_CONFIG = {
+#     "vocab_size": 32000,
+#     "n_positions": 512,
+#     "n_embd": 512,
+#     "n_layer": 8,
+#     "n_head": 8,
+#     "n_inner": 2048,
+#     "activation_function": "gelu_new",
+#     "resid_pdrop": 0.1,
+#     "embd_pdrop": 0.1,
+#     "attn_pdrop": 0.1,
+#     "layer_norm_epsilon": 1e-5,
+#     "bos_token_id": 1,
+#     "eos_token_id": 2,
+# }
+
+# === MEDIUM: 85M params (~4-6 jam training) ===
+# MODEL_CONFIG = {
+#     "vocab_size": 32000,
+#     "n_positions": 1024,
+#     "n_embd": 768,
+#     "n_layer": 12,
+#     "n_head": 12,
+#     "n_inner": 3072,
+#     "activation_function": "gelu_new",
+#     "resid_pdrop": 0.1,
+#     "embd_pdrop": 0.1,
+#     "attn_pdrop": 0.1,
+#     "layer_norm_epsilon": 1e-5,
+#     "bos_token_id": 1,
+#     "eos_token_id": 2,
+# }
+
+# === LARGE: 150M params (~8-12 jam training) - ACTIVE ===
 MODEL_CONFIG = {
     "vocab_size": 32000,
-    "n_positions": 512,
-    "n_embd": 384,        # Hidden size
-    "n_layer": 6,         # Layers
-    "n_head": 6,          # Attention heads
-    "n_inner": 1536,      # FFN hidden (4x n_embd)
+    "n_positions": 1024,   # Context panjang
+    "n_embd": 1024,        # Hidden size besar
+    "n_layer": 12,         # 12 layers
+    "n_head": 16,          # 16 attention heads
+    "n_inner": 4096,       # 4x n_embd
     "activation_function": "gelu_new",
-    "resid_pdrop": 0.05,
-    "embd_pdrop": 0.05,
-    "attn_pdrop": 0.05,
+    "resid_pdrop": 0.1,
+    "embd_pdrop": 0.1,
+    "attn_pdrop": 0.1,
     "layer_norm_epsilon": 1e-5,
     "bos_token_id": 1,
     "eos_token_id": 2,
@@ -60,11 +112,11 @@ MODEL_CONFIG = {
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
-    "num_train_epochs": 5,                     # 5 epoch = ~1 jam
-    "per_device_train_batch_size": 32,
-    "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 4,
-    "learning_rate": 5e-4,
+    "num_train_epochs": 3,                     # 3 epoch untuk model besar
+    "per_device_train_batch_size": 4,          # Batch kecil karena model besar
+    "per_device_eval_batch_size": 4,
+    "gradient_accumulation_steps": 16,         # Kompensasi batch kecil
+    "learning_rate": 2e-4,                     # Learning rate lebih kecil
     "weight_decay": 0.01,
     "warmup_ratio": 0.03,
     "lr_scheduler_type": "cosine",
