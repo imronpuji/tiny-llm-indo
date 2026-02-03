@@ -32,7 +32,7 @@ MODEL_PATHS = {
 }
 
 # Model mana yang mau diupload? Pilih: "base" atau "qa"
-UPLOAD_MODEL = "base"
+UPLOAD_MODEL = "qa"  # Ganti ke "qa" untuk upload model fine-tuned
 
 # ============================================================
 # MAIN SCRIPT
