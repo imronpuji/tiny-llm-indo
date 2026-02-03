@@ -23,7 +23,7 @@ from transformers import GPT2LMHeadModel, AutoTokenizer
 HF_USERNAME = "yasmeenimron"
 
 # Nama model di Hugging Face
-MODEL_NAME = "tiny-llm-indo"
+MODEL_NAME = "masa-ai"
 
 # Path ke model lokal
 MODEL_PATHS = {
@@ -58,9 +58,9 @@ library_name: transformers
 pipeline_tag: text-generation
 ---
 
-# Tiny LLM Indonesia (150M Parameters)
+# Masa AI - Indonesian Language Model (150M Parameters)
 
-Model bahasa Indonesia kecil berbasis arsitektur GPT-2, dilatih dari nol menggunakan data Wikipedia Indonesia, CC100, dan OSCAR.
+Model bahasa Indonesia berbasis arsitektur GPT-2, dilatih dari nol menggunakan data Wikipedia Indonesia, CC100, dan OSCAR.
 
 ## Model Details
 
@@ -79,8 +79,8 @@ Model bahasa Indonesia kecil berbasis arsitektur GPT-2, dilatih dari nol menggun
 ```python
 from transformers import GPT2LMHeadModel, AutoTokenizer
 
-model = GPT2LMHeadModel.from_pretrained("imronpuji/tiny-llm-indo")
-tokenizer = AutoTokenizer.from_pretrained("imronpuji/tiny-llm-indo")
+model = GPT2LMHeadModel.from_pretrained("yasmeenimron/masa-ai")
+tokenizer = AutoTokenizer.from_pretrained("yasmeenimron/masa-ai")
 
 prompt = "Indonesia adalah negara"
 inputs = tokenizer(prompt, return_tensors="pt")
@@ -121,7 +121,7 @@ library_name: transformers
 pipeline_tag: text-generation
 ---
 
-# Tiny LLM Indonesia - Q&A (150M Parameters)
+# Masa AI - Q&A (150M Parameters)
 
 Model bahasa Indonesia yang di-fine-tune untuk menjawab pertanyaan sederhana.
 
@@ -130,8 +130,8 @@ Model bahasa Indonesia yang di-fine-tune untuk menjawab pertanyaan sederhana.
 ```python
 from transformers import GPT2LMHeadModel, AutoTokenizer
 
-model = GPT2LMHeadModel.from_pretrained("imronpuji/tiny-llm-indo-qa")
-tokenizer = AutoTokenizer.from_pretrained("imronpuji/tiny-llm-indo-qa")
+model = GPT2LMHeadModel.from_pretrained("yasmeenimron/masa-ai-qa")
+tokenizer = AutoTokenizer.from_pretrained("yasmeenimron/masa-ai-qa")
 
 prompt = "Pertanyaan: Apa ibu kota Indonesia?\\nJawaban:"
 inputs = tokenizer(prompt, return_tensors="pt")
@@ -141,7 +141,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 ## Base Model
 
-Model ini di-fine-tune dari [imronpuji/tiny-llm-indo](https://huggingface.co/imronpuji/tiny-llm-indo)
+Model ini di-fine-tune dari [yasmeenimron/masa-ai](https://huggingface.co/yasmeenimron/masa-ai)
 
 ## License
 
