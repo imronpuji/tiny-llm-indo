@@ -365,6 +365,25 @@ QA_DATA = [
     {"q": "Apa lambang sila kelima Pancasila?", "a": "Lambang sila kelima Pancasila adalah padi dan kapas."},
     
     # ============================================================
+    # HUKUM & TATA NEGARA INDONESIA
+    # ============================================================
+    {"q": "Apa dasar hukum tertinggi di Indonesia?", "a": "Dasar hukum tertinggi di Indonesia adalah Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (UUD 1945)."},
+    {"q": "Apa itu KUHP?", "a": "KUHP adalah Kitab Undang-Undang Hukum Pidana yang menjadi dasar hukum pidana di Indonesia."},
+    {"q": "Apa perbedaan Hukum Pidana dan Hukum Perdata?", "a": "Hukum Pidana mengatur pelanggaran dan kejahatan terhadap kepentingan umum (sanksi penjara/denda), sedangkan Hukum Perdata mengatur hubungan antar individu (seperti waris, kontrak, dan perkawinan)."},
+    {"q": "Apa tugas Mahkamah Konstitusi (MK)?", "a": "Tugas MK antara lain menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan lembaga negara, dan memutus perselisihan hasil pemilu."},
+    {"q": "Apa tugas Mahkamah Agung (MA)?", "a": "MA adalah pengadilan tertinggi yang bertugas mengadili pada tingkat kasasi dan menguji peraturan perundang-undangan di bawah undang-undang."},
+    {"q": "Apa itu hierarki peraturan perundang-undangan di Indonesia?", "a": "Berdasarkan UU No. 12 Tahun 2011, hierarkinya adalah: 1) UUD 1945, 2) Tap MPR, 3) UU/Perppu, 4) Peraturan Pemerintah (PP), 5) Peraturan Presiden (Perpres), 6) Perda Provinsi, 7) Perda Kabupaten/Kota."},
+    {"q": "Apa itu asas Praduga Tak Bersalah?", "a": "Asas yang menyatakan bahwa seseorang dianggap tidak bersalah sampai ada putusan pengadilan yang berkekuatan hukum tetap yang menyatakan kesalahannya."},
+    {"q": "Apa itu advokat?", "a": "Advokat adalah orang yang berprofesi memberikan jasa hukum, baik di dalam maupun di luar pengadilan."},
+    {"q": "Siapa yang memegang kekuasaan kehakiman di Indonesia?", "a": "Kekuasaan kehakiman di Indonesia dilakukan oleh Mahkamah Agung dan badan peradilan di bawahnya, serta oleh sebuah Mahkamah Konstitusi."},
+    {"q": "Apa itu KPK?", "a": "KPK adalah Komisi Pemberantasan Korupsi, lembaga negara yang dibentuk dengan tujuan meningkatkan daya guna dan hasil guna terhadap upaya pemberantasan tindak pidana korupsi."},
+    {"q": "Apa itu Hak Asasi Manusia (HAM)?", "a": "HAM adalah hak dasar yang melekat pada manusia secara kodrati sebagai anugerah Tuhan Yang Maha Esa yang wajib dihormati, dijunjung tinggi, dan dilindungi oleh negara."},
+    {"q": "Apa itu Grasi?", "a": "Grasi adalah pengampunan berupa perubahan, peringanan, pengurangan, atau penghapusan pelaksanaan pidana kepada terpidana yang diberikan oleh Presiden."},
+    {"q": "Apa itu Remisi?", "a": "Remisi adalah pengurangan masa menjalani pidana yang diberikan kepada narapidana yang memenuhi syarat tertentu."},
+    {"q": "Apa itu Amnesti?", "a": "Amnesti adalah pengampunan umum yang diberikan oleh Presiden kepada sekelompok orang yang telah melakukan tindak pidanan politik dengan memperhatikan pertimbangan DPR."},
+    {"q": "Apa itu Restorative Justice?", "a": "Keadilan restoratif adalah penyelesaian perkara tindak pidana dengan melibatkan pelaku, korban, dan pihak terkait untuk bersama-sama mencari penyelesaian yang adil melalui perdamaian."},
+
+    # ============================================================
     # OLAHRAGA
     # ============================================================
     {"q": "Apa olahraga nasional Indonesia?", "a": "Olahraga nasional Indonesia adalah pencak silat."},

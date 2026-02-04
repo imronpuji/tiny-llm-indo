@@ -32,28 +32,34 @@ BASE_MODEL_PATH = "./masa-ai-qa-fresh"
 # Output fine-tuned model baru
 OUTPUT_PATH = "./masa-ai-qa-v2"
 
-# Dataset Q&A
-TRAIN_DATA_PATH = "./dataset/train_qa.json"
-EVAL_DATA_PATH = "./dataset/eval_qa.json"
+# Datasets - Sekarang kita bisa ambil dari banyak sumber!
+TRAIN_DATA_FILES = [
+    "./dataset/train_qa.json",         # Data Hukum, Sejarah, Lokal (Manual)
+    "./dataset/train_general_qa.json"  # Data General dari Hugging Face
+]
+
+EVAL_DATA_FILES = [
+    "./dataset/eval_qa.json",
+    "./dataset/eval_general_qa.json"
+]
 
 # Training config untuk fine-tuning model 150M yang LEBIH CEPAT
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 5,                     # Kurangi dari 15 ke 5 (3x lebih cepat!)
-    "per_device_train_batch_size": 8,          # Naikkan dari 4 ke 8 (Lebih cepat, butuh VRAM lebih)
-    "per_device_eval_batch_size": 8,
-    "gradient_accumulation_steps": 4,          # Turunkan agar update lebih sering (Total batch tetap 32)
-    "learning_rate": 2e-5,                     # Naikkan LR sedikit agar cepat konvergen
+    "num_train_epochs": 3,                     # Cukup 3 epoch jika dataset sudah besar (10rb+ samples)
+    "per_device_train_batch_size": 16,         # Naikkan lagi batch size agar lebih cepat
+    "per_device_eval_batch_size": 16,
+    "gradient_accumulation_steps": 2,          # Total batch tetap 32 (16 * 2)
+    "learning_rate": 2e-5,
     "weight_decay": 0.01,
-    "warmup_ratio": 0.05,
+    "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
-    "eval_strategy": "no",                     # Matikan evaluasi per epoch agar tidak buang waktu
+    "eval_strategy": "no",
     "save_strategy": "epoch",
-    "save_total_limit": 1,                     # Hanya simpan 1 agar disk tidak penuh
-    "load_best_model_at_end": False,           # Matikan ini karena eval dimatikan
-    "fp16": torch.cuda.is_available(),         # Pastikan FP16 aktif untuk speedup GPU
-    "dataloader_num_workers": 4,               # Naikkan worker dataloader
+    "save_total_limit": 1,
+    "fp16": torch.cuda.is_available(),
+    "dataloader_num_workers": 4,
     "seed": 42,
     "report_to": "none",
 }
@@ -63,15 +69,26 @@ FINETUNE_CONFIG = {
 # FUNCTIONS
 # ============================================================
 
-def load_dataset_from_json(path):
-    """Load dataset dari JSON file"""
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return Dataset.from_list(data)
+def load_combined_datasets(file_paths):
+    """Load dan gabungkan beberapa dataset JSON"""
+    combined_data = []
+    for path in file_paths:
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                combined_data.extend(data)
+                print(f"   ✓ Loaded: {path} ({len(data)} samples)")
+        else:
+            print(f"   ⚠ Warning: File not found {path}")
+            
+    if not combined_data:
+        raise ValueError("No datasets found! Harap jalankan script add_*.py dulu.")
+        
+    return Dataset.from_list(combined_data)
 
 
-def tokenize_function(examples, tokenizer, max_length=512):
-    """Tokenize texts"""
+def tokenize_function(examples, tokenizer, max_length=256):
+    """Tokenize texts - 256 sudah cukup untuk instruksi pendek"""
     return tokenizer(
         examples["text"],
         truncation=True,
@@ -83,51 +100,46 @@ def tokenize_function(examples, tokenizer, max_length=512):
 
 def main():
     print("=" * 60)
-    print("🎯 FINE-TUNING UNTUK Q&A")
+    print("🎯 FINE-TUNING UNTUK Q&A (LAW + GENERAL)")
     print("=" * 60)
     
     # Check base model exists
     if not os.path.exists(BASE_MODEL_PATH):
-        print(f"❌ Base model tidak ditemukan: {BASE_MODEL_PATH}")
-        print("   Jalankan training general dulu:")
-        print("   python train_tiny_llm.py")
-        return
-    
-    # Check Q&A dataset exists
-    if not os.path.exists(TRAIN_DATA_PATH):
-        print(f"❌ Dataset Q&A tidak ditemukan: {TRAIN_DATA_PATH}")
-        print("   Jalankan dulu:")
-        print("   python add_qa_data.py")
-        return
-    
+        # Jika masa-ai-qa-fresh belum ada, coba pakai base model mentah
+        print(f"⚠ Warning: {BASE_MODEL_PATH} tidak ditemukan.")
+        print("   Mencoba mencari base model alternatif...")
+        alternate = "./tiny-llm-indo-final"
+        if os.path.exists(alternate):
+            global BASE_MODEL_PATH
+            BASE_MODEL_PATH = alternate
+            print(f"   ✓ Menggunakan: {BASE_MODEL_PATH}")
+        else:
+            print("❌ Tidak ada model untuk di-finetune!")
+            return
+            
     # Device
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"\n💻 Device: {device}")
-    if device == "cuda":
-        print(f"   GPU: {torch.cuda.get_device_name(0)}")
     
     # Load base model
-    print(f"\n📦 Loading base model dari: {BASE_MODEL_PATH}")
+    print(f"\n📦 Loading model dari: {BASE_MODEL_PATH}")
     model = GPT2LMHeadModel.from_pretrained(BASE_MODEL_PATH)
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_PATH)
     
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     
-    # Count parameters
-    total_params = sum(p.numel() for p in model.parameters())
-    print(f"✓ Model loaded: {total_params/1e6:.1f}M parameters")
-    
     # Load datasets
-    print(f"\n📂 Loading Q&A datasets...")
-    train_dataset = load_dataset_from_json(TRAIN_DATA_PATH)
-    eval_dataset = load_dataset_from_json(EVAL_DATA_PATH)
+    print(f"\n📂 Loading & Merging datasets...")
+    train_dataset = load_combined_datasets(TRAIN_DATA_FILES)
+    eval_dataset = load_combined_datasets(EVAL_DATA_FILES)
     
-    print(f"✓ Train: {len(train_dataset)} samples")
-    print(f"✓ Eval: {len(eval_dataset)} samples")
+    print(f"\n📊 Total Dataset:")
+    print(f"   - Train: {len(train_dataset)} samples")
+    print(f"   - Eval: {len(eval_dataset)} samples")
     
     # Tokenize
-    print("\n🔤 Tokenizing...")
+    print("\n🔤 Tokenizing (Max Length: 256)...")
     train_dataset = train_dataset.map(
         lambda x: tokenize_function(x, tokenizer),
         batched=True,
