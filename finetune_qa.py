@@ -26,11 +26,11 @@ from transformers import (
 # KONFIGURASI
 # ============================================================
 
-# Path model yang ingin diperbaiki
-BASE_MODEL_PATH = "./masa-ai-qa-fresh"
+# Belajar dari V2 yang sudah lumayan "waras"
+BASE_MODEL_PATH = "./masa-ai-qa-v2"
 
-# Output fine-tuned model baru
-OUTPUT_PATH = "./masa-ai-qa-v2"
+# Output ke V3 sebagai versi Final/Pintar
+OUTPUT_PATH = "./masa-ai-qa-v3"
 
 # Datasets - Sekarang kita bisa ambil dari banyak sumber!
 TRAIN_DATA_FILES = [
