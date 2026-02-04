@@ -57,12 +57,6 @@ FINETUNE_CONFIG = {
     "seed": 42,
     "report_to": "none",
 }
-    "greater_is_better": False,
-    "fp16": torch.cuda.is_available(),
-    "dataloader_num_workers": 2,
-    "seed": 42,
-    "report_to": "none",
-}
 
 
 # ============================================================
