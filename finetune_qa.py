@@ -99,18 +99,18 @@ def tokenize_function(examples, tokenizer, max_length=256):
 
 
 def main():
+    global BASE_MODEL_PATH
     print("=" * 60)
     print("🎯 FINE-TUNING UNTUK Q&A (LAW + GENERAL)")
     print("=" * 60)
     
     # Check base model exists
     if not os.path.exists(BASE_MODEL_PATH):
-        # Jika masa-ai-qa-fresh belum ada, coba pakai base model mentah
+        # Jika model utama tidak ada, coba pakai base model mentah
         print(f"⚠ Warning: {BASE_MODEL_PATH} tidak ditemukan.")
         print("   Mencoba mencari base model alternatif...")
         alternate = "./tiny-llm-indo-final"
         if os.path.exists(alternate):
-            global BASE_MODEL_PATH
             BASE_MODEL_PATH = alternate
             print(f"   ✓ Menggunakan: {BASE_MODEL_PATH}")
         else:
