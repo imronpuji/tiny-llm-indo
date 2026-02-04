@@ -279,6 +279,7 @@ def ask_question(model, tokenizer, question, device,
     stop_token = template["stop"]
     
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    prompt_length = inputs.input_ids.shape[1]
     
     # Buat attention mask
     attention_mask = torch.ones_like(inputs.input_ids)
@@ -300,8 +301,6 @@ def ask_question(model, tokenizer, question, device,
             eos_token_id=tokenizer.eos_token_id,
             repetition_penalty=1.5,         # Kurangi sedikit dari 2.0 agar lebih natural
             no_repeat_ngram_size=3,         # Cegah 3-gram berulang
-            early_stopping=True
-        )
             length_penalty=0.8,             # Sedikit prefer jawaban lebih pendek
             early_stopping=True,            # Stop saat menemukan EOS
         )
