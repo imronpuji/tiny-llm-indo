@@ -334,7 +334,8 @@ def train(config):
         
         # Misc
         seed=config.SEED,
-        dataloader_num_workers=4,
+        dataloader_num_workers=0,  # Disable multiprocessing untuk stability
+        dataloader_pin_memory=False,  # Disable pin memory
         remove_unused_columns=False,
     )
     
