@@ -10,7 +10,7 @@ Penggunaan:
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-MODEL_PATH = "./masa-ai-news-v1"
+MODEL_PATH = "./masa-ai-qa-v4"
 
 
 def load_model(model_path: str):

@@ -1534,9 +1534,9 @@ def main():
     print(f"\n📋 Formatting with '{QA_FORMAT}' template...")
     formatted = format_qa(all_qa, QA_FORMAT)
     
-    # REPETISI: Ulangi data agar model lebih hafal
+    # REPETISI: Ulangi data agar model lebih hafal (kurangi dari 20k ke 5k)
     print("\n🔁 Repeating data for better memorization...")
-    formatted = repeat_data(formatted, min_samples=20000)
+    formatted = repeat_data(formatted, min_samples=5000)
     print(f"   After repetition: {len(formatted)} samples")
     
     # Shuffle

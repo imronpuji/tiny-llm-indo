@@ -54,13 +54,15 @@ FINETUNE_CONFIG = {
     "per_device_train_batch_size": 16,         # Naikkan lagi batch size agar lebih cepat
     "per_device_eval_batch_size": 16,
     "gradient_accumulation_steps": 2,          # Total batch tetap 32 (16 * 2)
-    "learning_rate": 5e-6,                     # Diturunkan ke 5e-6 untuk "Polishing" dan memperbaiki Reasoning
+    "learning_rate": 2e-5,                     # Naikkan ke 2e-5 untuk fine-tuning yang proper
     "weight_decay": 0.01,
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
-    "eval_strategy": "no",
-    "save_strategy": "epoch",
+    "eval_strategy": "steps",
+    "eval_steps": 500,
+    "save_strategy": "steps",
+    "save_steps": 500,
     "save_total_limit": 1,
     "fp16": torch.cuda.is_available(),
     "dataloader_num_workers": 4,

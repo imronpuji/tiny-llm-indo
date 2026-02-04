@@ -25,9 +25,9 @@ warnings.filterwarnings("ignore")
 # KONFIGURASI
 # ============================================================
 
-# Model - bisa dari pretrained atau dari training sebelumnya
-BASE_MODEL_PATH = "./masa-ai-qa-v2"  # Atau "gpt2", "cahya/gpt2-small-indonesian-522M"
-OUTPUT_PATH = "./masa-ai-news-v1"
+# Model - melanjutkan dari v3 ke v4 (berita)
+BASE_MODEL_PATH = "./masa-ai-qa-v3"
+OUTPUT_PATH = "./masa-ai-qa-v4"
 
 # Dataset
 TRAIN_DATA_FILE = "./dataset/train_news.json"
