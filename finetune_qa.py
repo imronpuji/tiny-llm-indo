@@ -151,14 +151,6 @@ def main():
     # Training arguments
     training_args = TrainingArguments(**FINETUNE_CONFIG)
     
-    # Callbacks
-    callbacks = [
-        EarlyStoppingCallback(
-            early_stopping_patience=5,
-            early_stopping_threshold=0.01
-        ),
-    ]
-    
     # Trainer
     trainer = Trainer(
         model=model,
@@ -166,7 +158,6 @@ def main():
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         data_collator=data_collator,
-        callbacks=callbacks,
     )
     
     # Fine-tune!
