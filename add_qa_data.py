@@ -426,6 +426,252 @@ QA_DATA = [
     {"q": "Dimana Bandung?", "a": "Bandung terletak di Jawa Barat, dikelilingi pegunungan."},
     
     # ============================================================
+    # PROVINSI-PROVINSI INDONESIA
+    # ============================================================
+    {"q": "Apa ibu kota Aceh?", "a": "Ibu kota Provinsi Aceh adalah Banda Aceh."},
+    {"q": "Apa ibu kota Sumatera Barat?", "a": "Ibu kota Sumatera Barat adalah Padang."},
+    {"q": "Apa ibu kota Sumatera Selatan?", "a": "Ibu kota Sumatera Selatan adalah Palembang."},
+    {"q": "Apa ibu kota Lampung?", "a": "Ibu kota Lampung adalah Bandar Lampung."},
+    {"q": "Apa ibu kota Bengkulu?", "a": "Ibu kota Bengkulu adalah Kota Bengkulu."},
+    {"q": "Apa ibu kota Jambi?", "a": "Ibu kota Jambi adalah Kota Jambi."},
+    {"q": "Apa ibu kota Kepulauan Riau?", "a": "Ibu kota Kepulauan Riau adalah Tanjung Pinang."},
+    {"q": "Apa ibu kota Kepulauan Bangka Belitung?", "a": "Ibu kota Kepulauan Bangka Belitung adalah Pangkal Pinang."},
+    {"q": "Apa ibu kota Kalimantan Tengah?", "a": "Ibu kota Kalimantan Tengah adalah Palangka Raya."},
+    {"q": "Apa ibu kota Kalimantan Utara?", "a": "Ibu kota Kalimantan Utara adalah Tanjung Selor."},
+    {"q": "Apa ibu kota Sulawesi Tengah?", "a": "Ibu kota Sulawesi Tengah adalah Palu."},
+    {"q": "Apa ibu kota Nusa Tenggara Timur?", "a": "Ibu kota Nusa Tenggara Timur adalah Kupang."},
+    {"q": "Apa ibu kota Papua Tengah?", "a": "Ibu kota Papua Tengah adalah Nabire."},
+    {"q": "Apa ibu kota Papua Pegunungan?", "a": "Ibu kota Papua Pegunungan adalah Jayawijaya."},
+    {"q": "Apa ibu kota Papua Selatan?", "a": "Ibu kota Papua Selatan adalah Merauke."},
+    {"q": "Apa ibu kota Gorontalo?", "a": "Ibu kota Gorontalo adalah Kota Gorontalo."},
+    
+    # ============================================================
+    # BUDAYA & ADAT INDONESIA (LEBIH DETAIL)
+    # ============================================================
+    {"q": "Apa senjata tradisional Aceh?", "a": "Senjata tradisional Aceh adalah Rencong, sejenis belati lengkung."},
+    {"q": "Apa rumah adat Aceh?", "a": "Rumah adat Aceh adalah Rumah Krong Bade."},
+    {"q": "Apa tarian khas Jawa Barat?", "a": "Tarian khas Jawa Barat antara lain Tari Jaipong dan Tari Topeng."},
+    {"q": "Apa rumah adat Papua?", "a": "Rumah adat Papua adalah Honai, rumah bulat beratap jerami."},
+    {"q": "Apa alat musik khas Kalimantan?", "a": "Alat musik khas Kalimantan antara lain Sampek dan Garantung."},
+    {"q": "Apa makanan khas Lampung?", "a": "Makanan khas Lampung adalah Seruit, ikan bakar dengan sambal terasi."},
+    {"q": "Apa makanan khas Bengkulu?", "a": "Makanan khas Bengkulu adalah Pendap, ikan yang dimasak dengan bumbu rempah."},
+    {"q": "Apa makanan khas Jambi?", "a": "Makanan khas Jambi adalah Gulai Ikan Patin."},
+    {"q": "Apa tarian khas Sumatera Barat?", "a": "Tarian khas Sumatera Barat adalah Tari Piring dan Tari Payung."},
+    {"q": "Apa alat musik khas Jawa?", "a": "Alat musik khas Jawa adalah Gamelan, terdiri dari berbagai instrumen perkusi."},
+    {"q": "Apa upacara adat Bali yang terkenal?", "a": "Upacara adat Bali yang terkenal antara lain Ngaben (upacara kremasi) dan Galungan."},
+    {"q": "Apa pakaian adat Bali?", "a": "Pakaian adat Bali untuk pria adalah Udeng dan Kamen, untuk wanita adalah Kebaya dan Kamen."},
+    {"q": "Apa senjata tradisional Jawa Barat?", "a": "Senjata tradisional Jawa Barat adalah Kujang, berbentuk seperti huruf C."},
+    {"q": "Apa tarian khas Papua?", "a": "Tarian khas Papua antara lain Tari Yospan dan Tari Perang."},
+    {"q": "Apa alat musik khas Sulawesi?", "a": "Alat musik khas Sulawesi antara lain Kolintang dari Sulawesi Utara."},
+    
+    # ============================================================
+    # TOKOH PAHLAWAN NASIONAL
+    # ============================================================
+    {"q": "Siapa Kartini?", "a": "R.A. Kartini adalah pahlawan nasional yang memperjuangkan emansipasi wanita Indonesia. Hari lahirnya (21 April) diperingati sebagai Hari Kartini."},
+    {"q": "Siapa Cut Nyak Dien?", "a": "Cut Nyak Dien adalah pahlawan nasional dari Aceh yang melawan penjajah Belanda."},
+    {"q": "Siapa Teuku Umar?", "a": "Teuku Umar adalah pahlawan nasional dari Aceh, suami Cut Nyak Dien, yang berjuang melawan Belanda."},
+    {"q": "Siapa Pangeran Diponegoro?", "a": "Pangeran Diponegoro adalah pahlawan nasional yang memimpin Perang Jawa (1825-1830) melawan Belanda."},
+    {"q": "Siapa Tuanku Imam Bonjol?", "a": "Tuanku Imam Bonjol adalah pahlawan nasional dari Sumatera Barat yang memimpin Perang Padri."},
+    {"q": "Siapa Pattimura?", "a": "Pattimura atau Thomas Matulessy adalah pahlawan nasional dari Maluku yang melawan Belanda."},
+    {"q": "Siapa Sultan Hasanuddin?", "a": "Sultan Hasanuddin adalah pahlawan nasional dari Sulawesi Selatan yang melawan VOC Belanda."},
+    {"q": "Siapa Bung Tomo?", "a": "Bung Tomo adalah pahlawan nasional yang memimpin perjuangan rakyat Surabaya melawan Inggris pada 10 November 1945."},
+    {"q": "Siapa Jenderal Sudirman?", "a": "Jenderal Sudirman adalah panglima besar TNI pertama yang memimpin perang gerilya melawan Belanda."},
+    {"q": "Siapa Mohammad Hatta?", "a": "Mohammad Hatta adalah wakil presiden pertama Indonesia dan proklamator kemerdekaan bersama Soekarno."},
+    {"q": "Siapa Ki Hajar Dewantara?", "a": "Ki Hajar Dewantara adalah Bapak Pendidikan Indonesia yang mendirikan Taman Siswa. Lahir 2 Mei, diperingati sebagai Hari Pendidikan Nasional."},
+    {"q": "Siapa WR Supratman?", "a": "WR Supratman atau Wage Rudolf Supratman adalah pencipta lagu Indonesia Raya."},
+    
+    # ============================================================
+    # SEJARAH KERAJAAN INDONESIA
+    # ============================================================
+    {"q": "Apa itu Kerajaan Sriwijaya?", "a": "Kerajaan Sriwijaya adalah kerajaan maritim Buddha yang berpusat di Palembang dan menguasai jalur perdagangan maritim abad ke-7 hingga 13."},
+    {"q": "Apa itu Kerajaan Majapahit?", "a": "Kerajaan Majapahit adalah kerajaan Hindu-Buddha terbesar di Nusantara yang berjaya pada abad ke-13 hingga 15."},
+    {"q": "Apa itu Kerajaan Mataram?", "a": "Kerajaan Mataram adalah kerajaan Hindu di Jawa Tengah yang membangun Candi Prambanan dan Borobudur."},
+    {"q": "Apa itu Kerajaan Kutai?", "a": "Kerajaan Kutai adalah kerajaan Hindu tertua di Indonesia yang berada di Kalimantan Timur."},
+    {"q": "Apa itu Kerajaan Tarumanegara?", "a": "Kerajaan Tarumanegara adalah kerajaan Hindu di Jawa Barat pada abad ke-4 hingga 7."},
+    {"q": "Apa itu Kerajaan Singasari?", "a": "Kerajaan Singasari adalah kerajaan Hindu-Buddha di Jawa Timur yang menjadi cikal bakal Majapahit."},
+    {"q": "Apa itu Kesultanan Demak?", "a": "Kesultanan Demak adalah kerajaan Islam pertama di Jawa yang didirikan pada abad ke-15."},
+    {"q": "Apa itu Kesultanan Banten?", "a": "Kesultanan Banten adalah kesultanan Islam yang berpusat di Banten, Jawa Barat, dan menjadi pusat perdagangan lada."},
+    {"q": "Apa itu Kesultanan Aceh?", "a": "Kesultanan Aceh Darussalam adalah kesultanan Islam yang kuat di ujung Sumatera, terkenal melawan penjajah."},
+    
+    # ============================================================
+    # TEMPAT WISATA INDONESIA
+    # ============================================================
+    {"q": "Apa itu Candi Borobudur?", "a": "Candi Borobudur adalah candi Buddha terbesar di dunia yang berada di Magelang, Jawa Tengah, dibangun pada abad ke-9."},
+    {"q": "Apa itu Candi Prambanan?", "a": "Candi Prambanan adalah candi Hindu terbesar di Indonesia yang terletak di Yogyakarta, dibangun pada abad ke-9."},
+    {"q": "Apa itu Gunung Bromo?", "a": "Gunung Bromo adalah gunung berapi aktif di Jawa Timur yang terkenal dengan pemandangan sunrise-nya."},
+    {"q": "Apa itu Danau Toba?", "a": "Danau Toba adalah danau vulkanik terbesar di Indonesia dan Asia Tenggara yang terletak di Sumatera Utara."},
+    {"q": "Apa itu Pulau Komodo?", "a": "Pulau Komodo adalah pulau di Nusa Tenggara Timur yang menjadi habitat komodo, kadal raksasa endemik Indonesia."},
+    {"q": "Apa itu Raja Ampat?", "a": "Raja Ampat adalah kepulauan di Papua Barat yang terkenal dengan keindahan bawah lautnya, surga bagi penyelam."},
+    {"q": "Apa itu Bunaken?", "a": "Bunaken adalah taman nasional laut di Sulawesi Utara dengan keanekaragaman hayati laut yang tinggi."},
+    {"q": "Apa itu Tanah Lot?", "a": "Tanah Lot adalah pura Hindu yang terletak di atas batu karang di tepi laut Bali, tempat wisata terkenal."},
+    {"q": "Apa itu Kawah Ijen?", "a": "Kawah Ijen adalah kawah vulkanik di Jawa Timur yang terkenal dengan blue fire dan penambangan belerangnya."},
+    {"q": "Apa itu Tana Toraja?", "a": "Tana Toraja adalah daerah di Sulawesi Selatan yang terkenal dengan upacara pemakaman dan rumah adat Tongkonan."},
+    {"q": "Apa itu Labuan Bajo?", "a": "Labuan Bajo adalah kota pelabuhan di Flores, Nusa Tenggara Timur, gerbang menuju Taman Nasional Komodo."},
+    {"q": "Apa itu Lombok?", "a": "Lombok adalah pulau di Nusa Tenggara Barat yang terkenal dengan Gunung Rinjani dan pantai-pantainya."},
+    {"q": "Apa itu Nusa Penida?", "a": "Nusa Penida adalah pulau kecil di tenggara Bali yang terkenal dengan tebing Kelingking dan pantai-pantainya."},
+    
+    # ============================================================
+    # FLORA & FAUNA INDONESIA
+    # ============================================================
+    {"q": "Apa itu Komodo?", "a": "Komodo adalah kadal raksasa endemik Indonesia yang hanya ada di Pulau Komodo dan sekitarnya, merupakan hewan terbesar di dunia."},
+    {"q": "Apa itu Orangutan?", "a": "Orangutan adalah kera besar yang hanya ada di Sumatera dan Kalimantan, terancam punah karena deforestasi."},
+    {"q": "Apa itu Harimau Sumatera?", "a": "Harimau Sumatera adalah subspesies harimau yang hanya ada di Sumatera, terancam punah dengan populasi kurang dari 400 ekor."},
+    {"q": "Apa itu Badak Jawa?", "a": "Badak Jawa adalah badak paling langka di dunia yang hanya ada di Taman Nasional Ujung Kulon dengan populasi sekitar 70 ekor."},
+    {"q": "Apa itu Anoa?", "a": "Anoa adalah kerbau kecil endemik Sulawesi, merupakan mamalia terkecil dari keluarga sapi."},
+    {"q": "Apa itu Cendrawasih?", "a": "Cendrawasih atau Bird of Paradise adalah burung cantik endemik Papua dengan bulu yang indah."},
+    {"q": "Apa itu Rafflesia Arnoldii?", "a": "Rafflesia Arnoldii adalah bunga terbesar di dunia yang tumbuh di Sumatera, berbau busuk untuk menarik lalat."},
+    {"q": "Apa itu Jalak Bali?", "a": "Jalak Bali adalah burung endemik Bali dengan bulu putih dan ujung sayap hitam, terancam punah."},
+    {"q": "Apa itu Tarsius?", "a": "Tarsius adalah primata kecil nokturnal endemik Sulawesi dengan mata yang sangat besar."},
+    {"q": "Apa itu Kakatua?", "a": "Kakatua adalah burung berparuh bengkok dengan jambul di kepala, banyak spesies di Indonesia termasuk Kakatua Maluku."},
+    {"q": "Apa bunga nasional Indonesia?", "a": "Bunga nasional Indonesia adalah Melati Putih, melambangkan kesucian."},
+    {"q": "Apa hewan nasional Indonesia?", "a": "Hewan nasional Indonesia adalah Komodo, reptil terbesar di dunia yang hanya ada di Indonesia."},
+    
+    # ============================================================
+    # PERIBAHASA & UNGKAPAN INDONESIA
+    # ============================================================
+    {"q": "Apa arti 'Ada udang di balik batu'?", "a": "Artinya ada maksud tersembunyi di balik suatu perbuatan."},
+    {"q": "Apa arti 'Tong kosong nyaring bunyinya'?", "a": "Artinya orang yang sombong atau banyak bicara biasanya kurang berilmu."},
+    {"q": "Apa arti 'Besar pasak daripada tiang'?", "a": "Artinya pengeluaran lebih besar daripada pendapatan."},
+    {"q": "Apa arti 'Sambil menyelam minum air'?", "a": "Artinya melakukan dua pekerjaan atau lebih dalam waktu yang bersamaan."},
+    {"q": "Apa arti 'Tak ada rotan akar pun jadi'?", "a": "Artinya jika yang diinginkan tidak ada, maka apa pun yang tersedia bisa digunakan sebagai penggantinya."},
+    {"q": "Apa arti 'Air beriak tanda tak dalam'?", "a": "Artinya orang yang sombong atau banyak bicara biasanya tidak memiliki banyak ilmu atau kemampuan."},
+    {"q": "Apa arti 'Berat sama dipikul ringan sama dijinjing'?", "a": "Artinya pekerjaan yang dikerjakan bersama-sama akan terasa lebih mudah."},
+    {"q": "Apa arti 'Malu bertanya sesat di jalan'?", "a": "Artinya jika segan bertanya maka akan menemui kesulitan kemudian hari."},
+    
+    # ============================================================
+    # AGAMA & HARI RAYA DI INDONESIA
+    # ============================================================
+    {"q": "Apa itu Idul Fitri?", "a": "Idul Fitri adalah hari raya umat Islam yang dirayakan setelah menjalankan ibadah puasa di bulan Ramadhan."},
+    {"q": "Apa itu Natal?", "a": "Natal adalah hari raya umat Kristiani untuk memperingati hari kelahiran Yesus Kristus."},
+    {"q": "Apa itu Nyepi?", "a": "Nyepi adalah hari raya umat Hindu yang dirayakan sebagai hari suci untuk merenung dan menahan diri (penyepian)."},
+    {"q": "Apa itu Waisak?", "a": "Waisak adalah hari raya umat Buddha untuk memperingati tiga peristiwa penting dalam hidup Buddha Gautama."},
+    {"q": "Apa itu Imlek?", "a": "Imlek adalah tahun baru Cina yang dirayakan oleh masyarakat keturunan Tionghoa di Indonesia."},
+    {"q": "Apa itu bulan Ramadhan?", "a": "Bulan Ramadhan adalah bulan suci bagi umat Islam dimana mereka menjalankan ibadah puasa selama sebulan penuh."},
+    {"q": "Apa itu Lebaran?", "a": "Lebaran adalah istilah populer di Indonesia untuk hari raya Idul Fitri atau Idul Adha."},
+    
+    # ============================================================
+    # GEOGRAFI DUNIA (UMUM)
+    # ============================================================
+    {"q": "Apa benua terbesar di dunia?", "a": "Benua terbesar di dunia adalah Benua Asia."},
+    {"q": "Apa samudra terluas di dunia?", "a": "Samudra terluas di dunia adalah Samudra Pasifik."},
+    {"q": "Apa gunung tertinggi di dunia?", "a": "Gunung tertinggi di dunia adalah Gunung Everest di pegunungan Himalaya."},
+    {"q": "Apa sungai terpanjang di dunia?", "a": "Sungai terpanjang di dunia adalah Sungai Nil di Afrika (menurut beberapa sumber, Sungai Amazon juga dianggap bersaing)."},
+    {"q": "Apa negara terluas di dunia?", "a": "Negara terluas di dunia adalah Rusia."},
+    {"q": "Apa negara dengan penduduk terbanyak?", "a": "Negara dengan penduduk terbanyak saat ini adalah India (sebelumnya China)."},
+    {"q": "Apa gurun terbesar di dunia?", "a": "Gurun terbesar di dunia adalah Gurun Sahara (untuk gurun panas) atau Antartika (untuk gurun dingin)."},
+    {"q": "Di mana letak Menara Eiffel?", "a": "Menara Eiffel terletak di Paris, Prancis."},
+    {"q": "Di mana letak Piramida Giza?", "a": "Piramida Giza terletak di Mesir."},
+    {"q": "Di mana letak Patung Liberty?", "a": "Patung Liberty terletak di New York, Amerika Serikat."},
+    
+    # ============================================================
+    # LOGIKA & TEKA-TEKI SEDERHANA
+    # ============================================================
+    {"q": "Ada berapa kaki pada seekor ayam?", "a": "Seekor ayam memiliki 2 kaki."},
+    {"q": "Ada berapa kaki pada seekor kucing?", "a": "Seekor kucing memiliki 4 kaki."},
+    {"q": "Warna apa yang dihasilkan jika merah dicampur kuning?", "a": "Merah dicampur kuning menghasilkan warna oranye."},
+    {"q": "Warna apa yang dihasilkan jika biru dicampur kuning?", "a": "Biru dicampur kuning menghasilkan warna hijau."},
+    {"q": "Warna apa yang dihasilkan jika merah dicampur biru?", "a": "Merah dicampur biru menghasilkan warna ungu."},
+    {"q": "Benda apa yang selalu datang tapi tidak pernah sampai?", "a": "Hari esok."},
+    {"q": "Benda apa yang bisa bicara tanpa mulut dan mendengar tanpa telinga?", "a": "Gema (echo)."},
+    {"q": "Semakin banyak diambil, semakin besar ia. Apa itu?", "a": "Lubang."},
+    
+    # ============================================================
+    # SASTRA & PENULIS INDONESIA
+    # ============================================================
+    {"q": "Siapa penulis novel 'Laskar Pelangi'?", "a": "Andrea Hirata."},
+    {"q": "Siapa penulis trilogi 'Bumi Manusia'?", "a": "Pramoedya Ananta Toer."},
+    {"q": "Siapa penulis puisi 'Aku'?", "a": "Chairil Anwar."},
+    {"q": "Siapa tokoh sastra yang dijuluki 'Si Binatang Jalang'?", "a": "Chairil Anwar."},
+    {"q": "Apa itu pujangga baru?", "a": "Pujangga Baru adalah angkatan sastra Indonesia yang muncul pada tahun 1933."},
+    {"q": "Apa novel terkenal karya Bu Hamka?", "a": "Tenggelamnya Kapal Van der Wijck dan Di Bawah Lindungan Ka'bah."},
+    {"q": "Apa itu Pantun?", "a": "Pantun adalah bentuk puisi lama Indonesia yang terdiri dari empat baris dengan rima a-b-a-b."},
+    
+    # ============================================================
+    # PRESTASI OLAHRAGA INDONESIA
+    # ============================================================
+    {"q": "Siapa atlet bulutangkis Indonesia pertama yang meraih emas Olimpiade?", "a": "Susi Susanti (Tunggal Putri) dan Alan Budikusuma (Tunggal Putra) pada Olimpiade Barcelona 1992."},
+    {"q": "Siapa ganda putra bulutangkis legendaris Indonesia?", "a": "Beberapa di antaranya adalah Rexy Mainaky/Ricky Subagja dan Markis Kido/Hendra Setiawan."},
+    {"q": "Apa turnamen bulutangkis terbesar di Indonesia?", "a": "Indonesia Open."},
+    {"q": "Di mana sirkuit balap internasional di Indonesia?", "a": "Sirkuit Internasional Mandalika di Nusa Tenggara Barat."},
+    {"q": "Apa seni bela diri asli Indonesia?", "a": "Pencak Silat."},
+    
+    # ============================================================
+    # LAGU NASIONAL & DAERAH
+    # ============================================================
+    {"q": "Siapa pencipta lagu 'Bagimu Negeri'?", "a": "Kusbini."},
+    {"q": "Siapa pencipta lagu 'Gugur Bunga'?", "a": "Ismail Marzuki."},
+    {"q": "Apa lagu daerah dari Maluku?", "a": "Rasa Sayange dan Burung Kakaktua."},
+    {"q": "Apa lagu daerah dari Jakarta?", "a": "Kicir-Kicir dan Jali-Jali."},
+    {"q": "Apa lagu daerah dari Jawa Barat?", "a": "Bubuy Bulan dan Manuk Dadali."},
+    {"q": "Apa lagu daerah dari Sumatera Barat?", "a": "Kampuang Nan Jauh Di Mato."},
+    {"q": "Apa lagu daerah dari Papua?", "a": "Apuse dan Yamko Rambe Yamko."},
+    
+    # ============================================================
+    # KULINER DAERAH (Lebih Spesifik)
+    # ============================================================
+    {"q": "Apa makanan khas Madura?", "a": "Sate Madura dan Soto Madura."},
+    {"q": "Apa makanan khas Banjarmasin?", "a": "Soto Banjar."},
+    {"q": "Apa makanan khas Manado?", "a": "Bubur Manado (Tinutuan) dan Ayam Rica-rica."},
+    {"q": "Apa makanan khas Papua dan Maluku?", "a": "Papeda (bubur sagu)."},
+    {"q": "Apa makanan khas Makassar?", "a": "Coto Makassar, Konro, dan Pisang Epe."},
+    {"q": "Apa makanan khas Solo?", "a": "Selat Solo, Nasi Liwet, dan Serabi Solo."},
+    {"q": "Apa minuman khas Jawa Barat?", "a": "Bandrek dan Bajigur."},
+    {"q": "Apa itu Kerak Telor?", "a": "Makanan khas Betawi yang terbuat dari beras ketan, telur, dan serundeng."},
+    
+    # ============================================================
+    # KERAJINAN & INDUSTRI TRADISIONAL
+    # ============================================================
+    {"q": "Apa itu Tenun Ikat?", "a": "Kerajinan kain tradisional Indonesia dimana benangnya diikat dan dicelup warna sebelum ditenun."},
+    {"q": "Daerah mana yang terkenal dengan ukiran kayunya?", "a": "Jepara, Bali, dan Papua (Asmat)."},
+    {"q": "Apa itu Songket?", "a": "Kain tenun tradisional Melayu dan Minangkabau yang ditenun dengan benang emas atau perak."},
+    {"q": "Daerah mana yang terkenal sebagai pusat perak?", "a": "Kotagede di Yogyakarta."},
+    {"q": "Apa itu Noken?", "a": "Tas tradisional masyarakat Papua yang terbuat dari serat kayu dan dibawa dengan kepala."},
+    
+    # ============================================================
+    # PENGETAHUAN NEGARA (UUD & HUKUM)
+    # ============================================================
+    {"q": "Berapa kali UUD 1945 telah diamandemen?", "a": "UUD 1945 telah diamandemen sebanyak 4 kali."},
+    {"q": "Kapan hari lahir Pancasila?", "a": "1 Juni."},
+    {"q": "Siapa yang menjahit bendera Merah Putih pertama?", "a": "Fatmawati Soekarno."},
+    {"q": "Apa fungsi Mahkamah Konstitusi?", "a": "Menguji undang-undang terhadap UUD, memutus sengketa kewenangan lembaga negara, dan memutus perselisihan hasil pemilu."},
+    {"q": "Apa itu Bhinneka Tunggal Ika?", "a": "Semboyan nasional Indonesia yang berarti 'Berbeda-beda tetapi tetap satu'."},
+    
+    # ============================================================
+    # TEKNOLOGI & EKONOMI DIGITAL INDONESIA
+    # ============================================================
+    {"q": "Apa itu Gojek?", "a": "Perusahaan teknologi asal Indonesia yang melayani angkutan melalui jasa ojek, pengiriman makanan, dan pembayaran digital."},
+    {"q": "Apa itu Tokopedia?", "a": "Salah satu perusahaan perdagangan elektronik (e-commerce) terbesar di Indonesia."},
+    {"q": "Apa itu QRIS?", "a": "Quick Response Code Indonesian Standard, standar kode QR nasional untuk pembayaran digital di Indonesia."},
+    {"q": "Apa itu Traveloka?", "a": "Perusahaan teknologi Indonesia yang menyediakan layanan pemesanan tiket pesawat dan hotel secara daring."},
+    {"q": "Apa mata uang digital resmi Indonesia?", "a": "Indonesia belum memiliki mata uang digital resmi (CBDC), namun Rupiah adalah mata uang sah dalam bentuk fisik dan elektronik."},
+    
+    # ============================================================
+    # TRANSPORTASI DI INDONESIA
+    # ============================================================
+    {"q": "Apa itu MRT Jakarta?", "a": "Moda Raya Terpadu, sistem transportasi rel angkutan cepat di Jakarta."},
+    {"q": "Apa itu KRL Jabodetabek?", "a": "Kereta Rel Listrik yang menghubungkan wilayah Jakarta, Bogor, Depok, Tangerang, dan Bekasi."},
+    {"q": "Apa itu Angkot?", "a": "Angkutan Kota, moda transportasi umum berupa mobil van kecil yang beroperasi di kota-kota Indonesia."},
+    {"q": "Apa itu TransJakarta?", "a": "Sistem transportasi Bus Rapid Transit (BRT) pertama di Asia Tenggara dan Selatan yang beroperasi di Jakarta."},
+    {"q": "Apa itu Bajai?", "a": "Kendaraan bermotor roda tiga yang menjadi salah satu ikon transportasi di Jakarta."},
+    
+    # ============================================================
+    # IKLIM & ALAM INDONESIA
+    # ============================================================
+    {"q": "Apa saja musim di Indonesia?", "a": "Indonesia memiliki dua musim: musim kemarau dan musim hujan."},
+    {"q": "Kapan biasanya terjadi musim hujan di Indonesia?", "a": "Umumnya terjadi antara bulan Oktober hingga Maret."},
+    {"q": "Apa itu Garis Khatulistiwa?", "a": "Garis khayal yang membagi bumi menjadi belahan utara dan selatan, melewati wilayah Indonesia seperti kota Pontianak."},
+    {"q": "Kenapa Indonesia sering gempa?", "a": "Karena terletak di pertemuan tiga lempeng tektonik besar dan berada di daerah Cincin Api Pasifik (Ring of Fire)."},
+    {"q": "Apa itu El Nino?", "a": "Fenomena pemanasan suhu muka laut yang berdampak pada berkurangnya curah hujan di Indonesia, menyebabkan kemarau panjang."},
+    
+    # ============================================================
+    # ETIKA & SOSIAL INDONESIA
+    # ============================================================
+    {"q": "Apa itu Gotong Royong?", "a": "Budaya bekerja bersama-sama demi mencapai hasil yang diinginkan bersama, ciri khas masyarakat Indonesia."},
+    {"q": "Bagaimana cara menyapa orang yang lebih tua di Indonesia?", "a": "Biasanya menggunakan sapaan Bapak, Ibu, Om, Tante, atau sapaan daerah seperti Kakak, Abang, Mas, atau Mbak."},
+    {"q": "Apa itu 'Salaman' atau 'Sungkeman'?", "a": "Tradisi bersalaman sebagai bentuk hormat, biasanya dilakukan anak kepada orang tua atau kepada orang yang dituakan."},
+    {"q": "Apa itu Musyawarah Mufakat?", "a": "Proses pengambilan keputusan bersama dengan cara berunding untuk mencapai kesepakatan tanpa pemungutan suara jika memungkinkan."},
+    
+    # ============================================================
     # MATEMATIKA DASAR (Lebih Banyak)
     # ============================================================
     {"q": "Berapa 1 + 1?", "a": "Hasil dari 1 + 1 adalah 2."},

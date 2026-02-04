@@ -258,13 +258,18 @@ def batch_test(model, tokenizer, device):
 def ask_question(model, tokenizer, question, device, 
                  qa_format="instruction",
                  max_length=100,
-                 temperature=0.3):
+                 temperature=0.3,
+                 top_p=0.9,
+                 do_sample=True):
     """
     Ajukan pertanyaan ke model
     
     Args:
         question: Pertanyaan dalam bahasa Indonesia
         qa_format: Format template ("simple", "instruction", "chat")
+        temperature: Keacakan jawaban (0.1 - 1.0)
+        top_p: Nucleus sampling (0.1 - 1.0)
+        do_sample: True untuk gunakan temperature/top_p, False untuk greedy
     
     Returns:
         Jawaban dari model
@@ -274,17 +279,12 @@ def ask_question(model, tokenizer, question, device,
     stop_token = template["stop"]
     
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
-    prompt_length = inputs.input_ids.shape[1]  # Panjang prompt dalam TOKENS
     
     # Buat attention mask
     attention_mask = torch.ones_like(inputs.input_ids)
     
-    # Bad words untuk avoid hallucination patterns
-    bad_words = [
-        "contohnya", "misalnya", "seperti", "tapi", "namun",
-        "besar", "cantik", "pintar", "dong", "kok"
-    ]
-    bad_words_ids = [tokenizer.encode(w, add_special_tokens=False) for w in bad_words]
+    # Handle greedy vs sampling
+    curr_do_sample = do_sample if temperature > 0 else False
     
     with torch.no_grad():
         outputs = model.generate(
@@ -292,12 +292,16 @@ def ask_question(model, tokenizer, question, device,
             attention_mask=attention_mask,
             max_new_tokens=80,              # Sedikit lebih panjang untuk jawaban lengkap
             min_new_tokens=5,               # Minimal 5 tokens untuk jawaban
-            do_sample=False,                # GREEDY - deterministik!
+            do_sample=curr_do_sample,       
+            temperature=temperature if curr_do_sample else None,
+            top_p=top_p if curr_do_sample else None,
             num_beams=1,                    # No beam search untuk speed
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=2.0,         # Naikkan untuk kurangi repetisi
+            repetition_penalty=1.5,         # Kurangi sedikit dari 2.0 agar lebih natural
             no_repeat_ngram_size=3,         # Cegah 3-gram berulang
+            early_stopping=True
+        )
             length_penalty=0.8,             # Sedikit prefer jawaban lebih pendek
             early_stopping=True,            # Stop saat menemukan EOS
         )
@@ -380,11 +384,12 @@ def ask_question(model, tokenizer, question, device,
     return answer
 
 
-def qa_interactive(model, tokenizer, device, qa_format="instruction"):
+def qa_interactive(model, tokenizer, device, qa_format="instruction", temperature=0.3, top_p=0.9):
     """Interactive Q&A mode dengan hallucination detection"""
     print("\n" + "=" * 60)
     print("🤖 MODE TANYA JAWAB")
     print(f"   Format: {qa_format}")
+    print(f"   Config: temp={temperature}, top_p={top_p}")
     print("   Ketik 'quit' untuk keluar")
     print("=" * 60)
     
@@ -400,7 +405,9 @@ def qa_interactive(model, tokenizer, device, qa_format="instruction"):
         
         print("\n⏳ Berpikir...")
         answer = ask_question(model, tokenizer, question, device, 
-                             qa_format=qa_format)
+                             qa_format=qa_format,
+                             temperature=temperature,
+                             top_p=top_p)
         
         # Check hallucination
         if detect_hallucination(answer, question):
@@ -412,7 +419,7 @@ def qa_interactive(model, tokenizer, device, qa_format="instruction"):
         print("-" * 50)
 
 
-def qa_batch_test(model, tokenizer, device, qa_format="instruction"):
+def qa_batch_test(model, tokenizer, device, qa_format="instruction", temperature=0.3, top_p=0.9):
     """Test Q&A dengan berbagai pertanyaan"""
     
     test_questions = [
@@ -429,6 +436,7 @@ def qa_batch_test(model, tokenizer, device, qa_format="instruction"):
     print("\n" + "=" * 60)
     print("🧪 Q&A BATCH TEST")
     print(f"   Format: {qa_format}")
+    print(f"   Config: temp={temperature}, top_p={top_p}")
     print("=" * 60)
     
     for question in test_questions:
@@ -436,7 +444,9 @@ def qa_batch_test(model, tokenizer, device, qa_format="instruction"):
         print("-" * 40)
         
         answer = ask_question(model, tokenizer, question, device,
-                             qa_format=qa_format)
+                             qa_format=qa_format,
+                             temperature=temperature,
+                             top_p=top_p)
         
         print(f"💬 {answer}")
 
@@ -469,50 +479,42 @@ class ChatBot:
 
 def main():
     import sys
+    import argparse
     
-    # Parse arguments
-    model_path = "./tiny-llm-indo-final"
-    mode = None
-    qa_format = "instruction"
+    parser = argparse.ArgumentParser(description='Test Tiny Indonesian LLM')
+    parser.add_argument('model_path', type=str, nargs='?', default="./tiny-llm-indo-final", help='Path to model')
+    parser.add_argument('--qa', action='store_true', help='Q&A mode (batch + interactive)')
+    parser.add_argument('--qa-interactive', action='store_true', help='Interactive Q&A mode')
+    parser.add_argument('--qa-batch', action='store_true', help='Batch Q&A test')
+    parser.add_argument('--format', type=str, default="instruction", choices=["simple", "instruction", "chat"], help='QA Template format')
+    parser.add_argument('--temperature', type=float, default=0.3, help='Generation temperature')
+    parser.add_argument('--top-p', type=float, default=0.9, help='Top-p (nucleus) sampling')
     
-    args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg.startswith("--"):
-            mode = arg
-            # Check if next arg is format (not a flag or path)
-            if i + 1 < len(args):
-                next_arg = args[i + 1]
-                if not next_arg.startswith("--") and not next_arg.startswith("./") and not next_arg.startswith("/"):
-                    qa_format = next_arg
-        elif arg.startswith("./") or arg.startswith("/"):
-            model_path = arg
-        elif not arg.startswith("-"):
-            # Could be a relative path without ./
-            import os
-            if os.path.exists(arg):
-                model_path = arg
+    args = parser.parse_args()
+    
+    model_path = args.model_path
+    qa_format = args.format
+    temp = args.temperature
+    top_p = args.top_p
     
     # Load model
     model, tokenizer, device = load_model(model_path)
     
     # Check mode
-    if mode == "--qa":
+    if args.qa:
         # Q&A batch test lalu interactive
-        qa_batch_test(model, tokenizer, device, qa_format)
-        qa_interactive(model, tokenizer, device, qa_format)
-    elif mode == "--qa-interactive":
+        qa_batch_test(model, tokenizer, device, qa_format, temp, top_p)
+        qa_interactive(model, tokenizer, device, qa_format, temp, top_p)
+    elif args.qa_interactive:
         # Langsung ke interactive Q&A
-        qa_interactive(model, tokenizer, device, qa_format)
-    elif mode == "--qa-batch":
+        qa_interactive(model, tokenizer, device, qa_format, temp, top_p)
+    elif args.qa_batch:
         # Hanya batch test
-        qa_batch_test(model, tokenizer, device, qa_format)
-    elif mode is None:
+        qa_batch_test(model, tokenizer, device, qa_format, temp, top_p)
+    else:
         # Default: text generation mode
         batch_test(model, tokenizer, device)
         interactive_test(model, tokenizer, device)
-    else:
-        print(f"Unknown mode: {mode}")
-        print("Available modes: --qa, --qa-interactive, --qa-batch")
 
 
 if __name__ == "__main__":
