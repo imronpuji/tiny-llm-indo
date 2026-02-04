@@ -455,6 +455,8 @@ def main():
     parser.add_argument("--batch-size", type=int, default=None, help="Batch size per device")
     parser.add_argument("--epochs", type=int, default=None, help="Number of epochs")
     parser.add_argument("--learning-rate", type=float, default=None, help="Learning rate")
+    parser.add_argument("--no-lora", action="store_true", help="Disable LoRA, use full fine-tuning")
+    parser.add_argument("--gradient-accumulation", type=int, default=None, help="Gradient accumulation steps")
     
     args = parser.parse_args()
     
@@ -472,6 +474,10 @@ def main():
         config.NUM_EPOCHS = args.epochs
     if args.learning_rate:
         config.LEARNING_RATE = args.learning_rate
+    if args.no_lora:
+        config.USE_LORA = False
+    if args.gradient_accumulation:
+        config.GRADIENT_ACCUMULATION_STEPS = args.gradient_accumulation
     
     # Test only atau train
     if args.test_only:
