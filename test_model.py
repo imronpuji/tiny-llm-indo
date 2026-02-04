@@ -301,8 +301,6 @@ def ask_question(model, tokenizer, question, device,
             eos_token_id=tokenizer.eos_token_id,
             repetition_penalty=1.5,         # Kurangi sedikit dari 2.0 agar lebih natural
             no_repeat_ngram_size=3,         # Cegah 3-gram berulang
-            length_penalty=0.8,             # Sedikit prefer jawaban lebih pendek
-            early_stopping=True,            # Stop saat menemukan EOS
         )
     
     # Decode HANYA bagian jawaban (skip prompt tokens)

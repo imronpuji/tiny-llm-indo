@@ -35,11 +35,20 @@ QA_DATA = [
     # ============================================================
     # CONVERSATIONAL / CHATBOT
     # ============================================================
-    {"q": "Halo", "a": "Halo! Ada yang bisa saya bantu?"},
-    {"q": "Hai", "a": "Hai! Senang bertemu dengan Anda. Ada yang ingin ditanyakan?"},
-    {"q": "Halo, apa kabar?", "a": "Halo! Saya baik, terima kasih. Ada yang bisa saya bantu hari ini?"},
-    {"q": "Selamat pagi", "a": "Selamat pagi! Semoga hari Anda menyenangkan. Ada yang bisa saya bantu?"},
-    {"q": "Selamat siang", "a": "Selamat siang! Ada yang bisa saya bantu?"},
+    {"q": "Halo", "a": "Halo! Saya adalah asisten AI. Ada yang bisa saya bantu hari ini?"},
+    {"q": "Hai", "a": "Hai! Senang bertemu dengan Anda. Silakan tanyakan apa saja."},
+    {"q": "Halo, apa kabar?", "a": "Kabar saya baik, terima kasih! Bagaimana dengan Anda? Apakah ada yang bisa saya bantu?"},
+    {"q": "Apa kabar?", "a": "Kabar saya baik sebagai asisten AI. Ada yang ingin Anda ketahui?"},
+    {"q": "Selamat pagi", "a": "Selamat pagi! Semoga hari Anda produktif. Ada yang bisa saya bantu?"},
+    
+    # ============================================================
+    # PENDIDIKAN (TARGETED)
+    # ============================================================
+    {"q": "Apa itu siswa?", "a": "Siswa adalah orang yang sedang menempuh pendidikan di lembaga sekolah, mulai dari tingkat dasar hingga menengah."},
+    {"q": "Apa itu mahasiswa?", "a": "Mahasiswa adalah orang yang belajar di perguruan tinggi atau universitas."},
+    {"q": "Apa itu guru?", "a": "Guru adalah pendidik profesional yang bertugas untuk mendidik, mengajar, dan membimbing siswa di sekolah."},
+    {"q": "Apa itu dosen?", "a": "Dosen adalah pendidik profesional dan ilmuwan yang bekerja di perguruan tinggi."},
+    {"q": "Apa itu sekolah?", "a": "Sekolah adalah lembaga untuk belajar dan mengajar serta tempat menerima dan memberi pelajaran."},
     {"q": "Selamat sore", "a": "Selamat sore! Ada yang ingin Anda tanyakan?"},
     {"q": "Selamat malam", "a": "Selamat malam! Ada yang bisa saya bantu?"},
     {"q": "Siapa kamu?", "a": "Saya adalah asisten AI berbahasa Indonesia yang siap membantu menjawab pertanyaan Anda."},
@@ -1018,7 +1027,7 @@ def main():
     
     # REPETISI: Ulangi data agar model lebih hafal
     print("\n🔁 Repeating data for better memorization...")
-    formatted = repeat_data(formatted, min_samples=3000)
+    formatted = repeat_data(formatted, min_samples=10000)
     print(f"   After repetition: {len(formatted)} samples")
     
     # Shuffle

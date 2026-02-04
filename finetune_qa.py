@@ -26,11 +26,11 @@ from transformers import (
 # KONFIGURASI
 # ============================================================
 
-# Path model dari tahap 1 (training general)
-BASE_MODEL_PATH = "./tiny-llm-indo-final"
+# Path model yang ingin diperbaiki
+BASE_MODEL_PATH = "./masa-ai-qa-fresh"
 
-# Output fine-tuned model
-OUTPUT_PATH = "./tiny-llm-indo-qa"
+# Output fine-tuned model baru
+OUTPUT_PATH = "./masa-ai-qa-v2"
 
 # Dataset Q&A
 TRAIN_DATA_PATH = "./dataset/train_qa.json"
@@ -39,18 +39,18 @@ EVAL_DATA_PATH = "./dataset/eval_qa.json"
 # Training config untuk fine-tuning model 150M
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 10,                    # Reduced dari 20 → 10 (2x lebih cepat!)
-    "per_device_train_batch_size": 4,          # Naikkan dari 2 → 4
+    "num_train_epochs": 15,                    # Naikkan agar model lebih 'kenal' data Q&A
+    "per_device_train_batch_size": 4,          
     "per_device_eval_batch_size": 4,
-    "gradient_accumulation_steps": 8,          # Turunkan dari 16 → 8
-    "learning_rate": 3e-5,                     # Sedikit lebih tinggi untuk converge cepat
-    "weight_decay": 0.01,
-    "warmup_ratio": 0.05,
+    "gradient_accumulation_steps": 8,          
+    "learning_rate": 1e-5,                     # Turunkan agar tidak 'overfit' ke berita/hallucinatory data lama
+    "weight_decay": 0.05,                      # Naikkan sedikit untuk regularisasi
+    "warmup_ratio": 0.1,                       # Berikan lebih banyak waktu warmup
     "lr_scheduler_type": "cosine",
-    "logging_steps": 20,
+    "logging_steps": 10,
     "eval_strategy": "epoch",
     "save_strategy": "epoch",
-    "save_total_limit": 3,
+    "save_total_limit": 2,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
