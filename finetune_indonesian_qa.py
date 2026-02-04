@@ -8,7 +8,7 @@ Menggunakan LAB-style hyperparameters untuk meningkatkan pemahaman
 
 import os
 import torch
-from datasets import load_dataset
+from datasets import load_dataset, Dataset
 from transformers import (
     GPT2LMHeadModel,
     AutoTokenizer,
@@ -20,7 +20,8 @@ from peft import LoraConfig, get_peft_model, TaskType, prepare_model_for_kbit_tr
 import evaluate
 import numpy as np
 from tqdm import tqdm
-
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # ============================================================
 # CONFIGURATION
@@ -103,7 +104,21 @@ def prepare_dataset(config):
     """Load dan prepare dataset"""
     
     print("📥 Loading dataset...")
-    dataset = load_dataset(config.DATASET_NAME)
+    
+    # Check jika dataset adalah local directory
+    if os.path.exists(config.DATASET_NAME):
+        print(f"   Loading from local: {config.DATASET_NAME}")
+        from datasets import load_from_disk
+        dataset_dict = load_from_disk(config.DATASET_NAME)
+        
+        # Convert ke DatasetDict jika belum
+        if isinstance(dataset_dict, Dataset):
+            dataset = {"train": dataset_dict}
+        else:
+            dataset = dataset_dict
+    else:
+        print(f"   Loading from HuggingFace: {config.DATASET_NAME}")
+        dataset = load_dataset(config.DATASET_NAME)
     
     # Dataset info
     print(f"\n📊 Dataset Info:")
