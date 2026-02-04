@@ -186,6 +186,10 @@ def setup_model_and_tokenizer(config):
     if config.USE_LORA:
         print("\n🔧 Setting up LoRA...")
         
+        # Enable gradient checkpointing untuk model base
+        model.gradient_checkpointing_enable()
+        model.enable_input_require_grads()  # Fix untuk gradient checkpointing
+        
         lora_config = LoraConfig(
             r=config.LORA_R,
             lora_alpha=config.LORA_ALPHA,
@@ -197,6 +201,15 @@ def setup_model_and_tokenizer(config):
         
         model = get_peft_model(model, lora_config)
         model.print_trainable_parameters()
+    else:
+        # Full fine-tuning - enable gradients for all parameters
+        print("\n🔧 Full fine-tuning mode (no LoRA)")
+        for param in model.parameters():
+            param.requires_grad = True
+        
+        trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+        total_params = sum(p.numel() for p in model.parameters())
+        print(f"   Trainable params: {trainable_params:,} / {total_params:,} ({100 * trainable_params / total_params:.2f}%)")
     
     return model, tokenizer
 
@@ -317,7 +330,7 @@ def train(config):
         
         # Optimization
         fp16=torch.cuda.is_available(),  # Mixed precision jika ada GPU
-        gradient_checkpointing=True,  # Save memory
+        gradient_checkpointing=False if config.USE_LORA else True,  # Disable for LoRA (handled separately)
         
         # Misc
         seed=config.SEED,
