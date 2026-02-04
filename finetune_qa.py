@@ -36,23 +36,27 @@ OUTPUT_PATH = "./masa-ai-qa-v2"
 TRAIN_DATA_PATH = "./dataset/train_qa.json"
 EVAL_DATA_PATH = "./dataset/eval_qa.json"
 
-# Training config untuk fine-tuning model 150M
+# Training config untuk fine-tuning model 150M yang LEBIH CEPAT
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 15,                    # Naikkan agar model lebih 'kenal' data Q&A
-    "per_device_train_batch_size": 4,          
-    "per_device_eval_batch_size": 4,
-    "gradient_accumulation_steps": 8,          
-    "learning_rate": 1e-5,                     # Turunkan agar tidak 'overfit' ke berita/hallucinatory data lama
-    "weight_decay": 0.05,                      # Naikkan sedikit untuk regularisasi
-    "warmup_ratio": 0.1,                       # Berikan lebih banyak waktu warmup
+    "num_train_epochs": 5,                     # Kurangi dari 15 ke 5 (3x lebih cepat!)
+    "per_device_train_batch_size": 8,          # Naikkan dari 4 ke 8 (Lebih cepat, butuh VRAM lebih)
+    "per_device_eval_batch_size": 8,
+    "gradient_accumulation_steps": 4,          # Turunkan agar update lebih sering (Total batch tetap 32)
+    "learning_rate": 2e-5,                     # Naikkan LR sedikit agar cepat konvergen
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
-    "eval_strategy": "epoch",
+    "eval_strategy": "no",                     # Matikan evaluasi per epoch agar tidak buang waktu
     "save_strategy": "epoch",
-    "save_total_limit": 2,
-    "load_best_model_at_end": True,
-    "metric_for_best_model": "eval_loss",
+    "save_total_limit": 1,                     # Hanya simpan 1 agar disk tidak penuh
+    "load_best_model_at_end": False,           # Matikan ini karena eval dimatikan
+    "fp16": torch.cuda.is_available(),         # Pastikan FP16 aktif untuk speedup GPU
+    "dataloader_num_workers": 4,               # Naikkan worker dataloader
+    "seed": 42,
+    "report_to": "none",
+}
     "greater_is_better": False,
     "fp16": torch.cuda.is_available(),
     "dataloader_num_workers": 2,
