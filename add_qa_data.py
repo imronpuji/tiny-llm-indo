@@ -58,11 +58,185 @@ QA_DATA = [
     # ============================================================
     # REASONING & LOGIKA (BERPIKIR KRITIS)
     # ============================================================
+    # -- Pertanyaan Jebakan --
     {"q": "Jika saya punya 3 apel dan kamu ambil 2, berapa apel yang kamu punya?", "a": "Kamu punya 2 apel, karena kamu baru saja mengambilnya dari saya."},
     {"q": "Mana yang lebih berat, 1kg kapas atau 1kg besi?", "a": "Keduanya sama berat, yaitu sama-sama 1 kilogram. Perbedaannya hanya pada volumenya."},
     {"q": "Ayah Budi punya 5 anak: Nana, Nene, Nini, Nono. Siapa nama anak kelima?", "a": "Nama anak kelima adalah Budi, seperti yang disebutkan di awal kalimat (Ayah Budi)."},
     {"q": "Jika hari ini adalah Senin, hari apa 2 hari lagi?", "a": "Dua hari setelah Senin adalah hari Rabu."},
     {"q": "Mengapa kita memakai payung saat hujan?", "a": "Kita memakai payung agar badan kita tidak basah terkena air hujan karena payung menahan tetesan air tersebut."},
+    
+    # -- Matematika Dasar --
+    {"q": "Berapa 5 + 3?", "a": "5 + 3 = 8."},
+    {"q": "Berapa 10 - 4?", "a": "10 - 4 = 6."},
+    {"q": "Berapa 7 x 6?", "a": "7 x 6 = 42."},
+    {"q": "Berapa 20 dibagi 4?", "a": "20 dibagi 4 = 5."},
+    {"q": "Jika Ali punya 10 permen dan memberi 3 ke Budi, berapa permen Ali sekarang?", "a": "Ali sekarang punya 7 permen, karena 10 - 3 = 7."},
+    {"q": "Ibu membeli 5 apel dan 3 jeruk. Berapa total buah yang dibeli ibu?", "a": "Total buah yang dibeli ibu adalah 8, karena 5 + 3 = 8."},
+    
+    # -- Sebab Akibat --
+    {"q": "Mengapa es mencair?", "a": "Es mencair karena terkena suhu yang lebih tinggi dari titik bekunya (0 derajat Celsius)."},
+    {"q": "Mengapa langit berwarna biru?", "a": "Langit berwarna biru karena cahaya matahari mengalami hamburan di atmosfer, dan warna biru paling banyak dihamburkan."},
+    {"q": "Mengapa kita merasa lapar?", "a": "Kita merasa lapar karena tubuh membutuhkan energi dari makanan untuk beraktivitas."},
+    {"q": "Mengapa api panas?", "a": "Api panas karena merupakan proses pembakaran yang melepaskan energi dalam bentuk panas dan cahaya."},
+    {"q": "Mengapa kita harus tidur?", "a": "Kita harus tidur agar tubuh dan otak bisa beristirahat dan memulihkan energi untuk keesokan harinya."},
+    
+    # -- Perbandingan --
+    {"q": "Mana yang lebih besar, gajah atau semut?", "a": "Gajah lebih besar dari semut. Gajah adalah mamalia darat terbesar."},
+    {"q": "Mana yang lebih cepat, mobil atau sepeda?", "a": "Umumnya mobil lebih cepat dari sepeda karena menggunakan mesin bermotor."},
+    {"q": "Mana yang lebih tinggi, gunung atau bukit?", "a": "Gunung lebih tinggi dari bukit. Gunung umumnya memiliki ketinggian di atas 600 meter."},
+    {"q": "Mana yang lebih panjang, sungai atau parit?", "a": "Sungai lebih panjang dari parit. Sungai bisa mencapai ratusan kilometer."},
+    
+    # -- Urutan & Langkah --
+    {"q": "Bagaimana cara membuat teh?", "a": "Langkah membuat teh: 1) Rebus air hingga mendidih, 2) Masukkan teh celup ke dalam gelas, 3) Tuang air panas, 4) Tunggu 2-3 menit, 5) Tambahkan gula jika suka."},
+    {"q": "Bagaimana urutan mencuci tangan yang benar?", "a": "Urutan cuci tangan: 1) Basahi tangan dengan air, 2) Pakai sabun, 3) Gosok telapak tangan, 4) Gosok punggung tangan, 5) Gosok sela-sela jari, 6) Bilas dengan air bersih, 7) Keringkan."},
+    {"q": "Apa yang harus dilakukan sebelum menyeberang jalan?", "a": "Sebelum menyeberang: 1) Berhenti di tepi jalan, 2) Lihat ke kiri, 3) Lihat ke kanan, 4) Lihat ke kiri lagi, 5) Jika aman, baru menyeberang."},
+    
+    # -- Klasifikasi --
+    {"q": "Apakah kucing itu mamalia?", "a": "Ya, kucing adalah mamalia karena melahirkan anak dan menyusui."},
+    {"q": "Apakah ikan bisa bernapas di darat?", "a": "Tidak, ikan bernapas menggunakan insang yang hanya bisa menyerap oksigen dari air."},
+    {"q": "Apakah matahari itu planet?", "a": "Tidak, matahari adalah bintang, bukan planet. Matahari adalah pusat tata surya kita."},
+    {"q": "Apakah tomat itu buah atau sayur?", "a": "Secara botani, tomat adalah buah karena berasal dari bunga dan mengandung biji. Tapi dalam kuliner sering dianggap sayur."},
+    
+    # -- Kondisional (If-Then) --
+    {"q": "Jika hujan turun, apa yang sebaiknya kita bawa?", "a": "Jika hujan turun, sebaiknya kita membawa payung atau jas hujan agar tidak kehujanan."},
+    {"q": "Jika lampu merah menyala, apa yang harus dilakukan pengendara?", "a": "Jika lampu merah menyala, pengendara harus berhenti dan menunggu sampai lampu berubah hijau."},
+    {"q": "Jika kita demam, apa yang harus dilakukan?", "a": "Jika demam, kita harus istirahat, minum banyak air, dan jika tidak membaik sebaiknya ke dokter."},
+    {"q": "Jika baterai HP habis, bagaimana caranya menyalakannya?", "a": "Jika baterai HP habis, kita harus mengisi daya (charge) terlebih dahulu sebelum bisa menyalakannya."},
+
+    # ============================================================
+    # KOHERENSI KALIMAT (PENYUSUNAN KATA YANG NYAMBUNG)
+    # ============================================================
+    # -- Melanjutkan Kalimat --
+    {"q": "Lanjutkan kalimat ini: Saya pergi ke pasar untuk...", "a": "Saya pergi ke pasar untuk membeli sayur dan buah-buahan segar."},
+    {"q": "Lanjutkan kalimat ini: Anak-anak bermain di taman karena...", "a": "Anak-anak bermain di taman karena cuaca hari ini sangat cerah dan menyenangkan."},
+    {"q": "Lanjutkan kalimat ini: Ibu memasak di dapur sambil...", "a": "Ibu memasak di dapur sambil mendengarkan musik dari radio."},
+    {"q": "Lanjutkan kalimat ini: Ayah membaca koran setiap pagi agar...", "a": "Ayah membaca koran setiap pagi agar mengetahui berita terbaru."},
+    {"q": "Lanjutkan kalimat ini: Petani menanam padi di sawah ketika...", "a": "Petani menanam padi di sawah ketika musim hujan tiba."},
+    
+    # -- Menjelaskan dengan Runtut --
+    {"q": "Jelaskan apa itu hujan dengan kalimat yang runtut!", "a": "Hujan adalah air yang turun dari langit. Air hujan berasal dari awan. Awan terbentuk dari uap air yang naik ke langit. Ketika awan sudah penuh, air akan turun sebagai hujan."},
+    {"q": "Jelaskan proses fotosintesis secara singkat!", "a": "Fotosintesis adalah proses tanaman membuat makanan. Tanaman menyerap cahaya matahari melalui daun. Kemudian tanaman mengambil air dari tanah dan karbon dioksida dari udara. Hasilnya adalah glukosa dan oksigen."},
+    {"q": "Jelaskan mengapa kita harus menabung!", "a": "Menabung adalah menyimpan sebagian uang untuk masa depan. Dengan menabung, kita memiliki cadangan uang. Uang tabungan bisa digunakan saat ada kebutuhan mendesak. Oleh karena itu, menabung sangat penting untuk kehidupan."},
+    
+    # -- Menyambung Dua Ide --
+    {"q": "Gabungkan dua kalimat ini: 'Hari ini hujan. Saya membawa payung.'", "a": "Karena hari ini hujan, saya membawa payung."},
+    {"q": "Gabungkan dua kalimat ini: 'Adik rajin belajar. Adik mendapat nilai bagus.'", "a": "Adik mendapat nilai bagus karena rajin belajar."},
+    {"q": "Gabungkan dua kalimat ini: 'Ibu pergi ke pasar. Ibu membeli ikan.'", "a": "Ibu pergi ke pasar untuk membeli ikan."},
+    {"q": "Gabungkan dua kalimat ini: 'Kakak sakit. Kakak tidak masuk sekolah.'", "a": "Kakak tidak masuk sekolah karena sedang sakit."},
+    
+    # -- Paragraf Pendek yang Koheren --
+    {"q": "Ceritakan tentang kucing dalam 3 kalimat!", "a": "Kucing adalah hewan peliharaan yang lucu. Kucing memiliki bulu yang lembut dan suka bermain. Makanan kucing biasanya ikan dan daging."},
+    {"q": "Ceritakan tentang sekolah dalam 3 kalimat!", "a": "Sekolah adalah tempat untuk belajar. Di sekolah ada guru yang mengajar berbagai mata pelajaran. Siswa datang ke sekolah setiap hari untuk menuntut ilmu."},
+    {"q": "Ceritakan tentang dokter dalam 3 kalimat!", "a": "Dokter adalah orang yang merawat pasien yang sakit. Dokter bekerja di rumah sakit atau klinik. Dokter memberikan obat agar pasien bisa sembuh."},
+    {"q": "Ceritakan tentang petani dalam 3 kalimat!", "a": "Petani adalah orang yang bekerja di sawah atau ladang. Petani menanam padi, sayur, dan buah-buahan. Hasil panen petani menjadi makanan bagi banyak orang."},
+    
+    # -- Kata Penghubung yang Benar --
+    {"q": "Kapan kita menggunakan kata 'karena'?", "a": "Kata 'karena' digunakan untuk menjelaskan alasan atau sebab. Contoh: Saya tidak masuk sekolah karena sakit."},
+    {"q": "Kapan kita menggunakan kata 'tetapi'?", "a": "Kata 'tetapi' digunakan untuk menyatakan pertentangan. Contoh: Dia pintar, tetapi malas belajar."},
+    {"q": "Kapan kita menggunakan kata 'oleh karena itu'?", "a": "Kata 'oleh karena itu' digunakan untuk menyatakan kesimpulan. Contoh: Hujan sangat deras, oleh karena itu pertandingan ditunda."},
+    {"q": "Kapan kita menggunakan kata 'kemudian'?", "a": "Kata 'kemudian' digunakan untuk menunjukkan urutan waktu. Contoh: Saya mandi, kemudian sarapan."},
+    {"q": "Kapan kita menggunakan kata 'sehingga'?", "a": "Kata 'sehingga' digunakan untuk menyatakan akibat. Contoh: Dia belajar dengan giat sehingga lulus ujian."},
+    
+    # -- Kalimat Lengkap (Subjek-Predikat-Objek) --
+    {"q": "Buatkan kalimat dengan kata 'membaca'!", "a": "Adik membaca buku cerita di kamar."},
+    {"q": "Buatkan kalimat dengan kata 'memasak'!", "a": "Ibu memasak nasi goreng untuk sarapan."},
+    {"q": "Buatkan kalimat dengan kata 'bermain'!", "a": "Anak-anak bermain bola di lapangan."},
+    {"q": "Buatkan kalimat dengan kata 'belajar'!", "a": "Siswa belajar matematika di kelas."},
+    {"q": "Buatkan kalimat dengan kata 'berenang'!", "a": "Kakak berenang di kolam renang setiap Minggu."},
+
+    # ============================================================
+    # REASONING LANJUTAN (CHAIN OF THOUGHT)
+    # ============================================================
+    # -- Berpikir Langkah demi Langkah --
+    {"q": "Andi punya 20 ribu, dia beli es krim 5 ribu dan roti 8 ribu. Berapa sisa uang Andi?", "a": "Mari kita hitung langkah demi langkah. Andi punya 20.000. Es krim 5.000 + roti 8.000 = 13.000. Jadi sisa uang Andi adalah 20.000 - 13.000 = 7.000 rupiah."},
+    {"q": "Kereta berangkat jam 8 pagi dan perjalanan memakan waktu 3 jam. Jam berapa kereta tiba?", "a": "Mari kita hitung. Kereta berangkat jam 8 pagi. Perjalanan 3 jam. Jadi 8 + 3 = 11. Kereta tiba jam 11 siang."},
+    {"q": "Toko buka jam 9 pagi dan tutup jam 5 sore. Berapa jam toko buka?", "a": "Mari kita hitung. Buka jam 9, tutup jam 17 (5 sore). Jadi 17 - 9 = 8 jam. Toko buka selama 8 jam."},
+    {"q": "Satu lusin telur berisi 12 butir. Jika ibu membeli 3 lusin, berapa total telur?", "a": "Satu lusin = 12 butir. Ibu membeli 3 lusin. Jadi 3 x 12 = 36 butir telur."},
+    {"q": "Umur ayah 45 tahun dan umur Budi 15 tahun. Berapa selisih umur mereka?", "a": "Selisih umur = umur ayah - umur Budi = 45 - 15 = 30 tahun."},
+    
+    # -- Analogi --
+    {"q": "Burung terbang dengan sayap, ikan berenang dengan apa?", "a": "Ikan berenang dengan sirip. Sama seperti burung menggunakan sayap untuk terbang, ikan menggunakan sirip untuk berenang."},
+    {"q": "Dokter bekerja di rumah sakit, guru bekerja di mana?", "a": "Guru bekerja di sekolah. Sama seperti dokter bekerja di rumah sakit, guru mengajar di sekolah."},
+    {"q": "Mata untuk melihat, telinga untuk apa?", "a": "Telinga untuk mendengar. Sama seperti mata berfungsi untuk melihat, telinga berfungsi untuk mendengar suara."},
+    {"q": "Siang lawannya malam, panas lawannya apa?", "a": "Panas lawannya dingin. Ini adalah pasangan kata yang berlawanan (antonim)."},
+    {"q": "Sendok untuk makan, pensil untuk apa?", "a": "Pensil untuk menulis. Sama seperti sendok adalah alat untuk makan, pensil adalah alat untuk menulis."},
+    {"q": "Kaki untuk berjalan, tangan untuk apa?", "a": "Tangan untuk memegang dan bekerja. Kaki membawa kita berjalan, tangan membantu kita melakukan berbagai aktivitas."},
+    
+    # -- Negasi dan Kontradiksi --
+    {"q": "Apakah air itu kering?", "a": "Tidak, air itu basah, bukan kering. Air adalah zat cair yang membuat benda menjadi basah."},
+    {"q": "Apakah es itu panas?", "a": "Tidak, es itu dingin, bukan panas. Es terbentuk ketika air membeku pada suhu di bawah 0 derajat Celsius."},
+    {"q": "Apakah gula itu asin?", "a": "Tidak, gula itu manis, bukan asin. Gula memberikan rasa manis pada makanan dan minuman."},
+    {"q": "Apakah batu itu lunak?", "a": "Tidak, batu itu keras, bukan lunak. Batu adalah benda padat yang sulit dihancurkan dengan tangan."},
+    {"q": "Apakah siang itu gelap?", "a": "Tidak, siang itu terang karena ada cahaya matahari. Malam yang gelap karena tidak ada matahari."},
+    
+    # -- Common Sense (Akal Sehat) --
+    {"q": "Mengapa kita makan?", "a": "Kita makan untuk mendapatkan energi dan nutrisi yang dibutuhkan tubuh agar bisa beraktivitas dan tetap sehat."},
+    {"q": "Mengapa kita minum air?", "a": "Kita minum air karena tubuh membutuhkan cairan untuk berfungsi dengan baik. Air membantu pencernaan dan menjaga suhu tubuh."},
+    {"q": "Mengapa kita harus sekolah?", "a": "Kita harus sekolah untuk mendapatkan ilmu pengetahuan, keterampilan, dan persiapan untuk masa depan yang lebih baik."},
+    {"q": "Mengapa kita perlu teman?", "a": "Kita perlu teman untuk berbagi, bermain bersama, dan saling membantu. Manusia adalah makhluk sosial yang membutuhkan orang lain."},
+    {"q": "Mengapa kita harus jujur?", "a": "Kita harus jujur karena kejujuran membangun kepercayaan. Orang yang jujur dihormati dan dipercaya oleh orang lain."},
+    {"q": "Mengapa kita butuh rumah?", "a": "Kita butuh rumah sebagai tempat berlindung dari hujan, panas, dan bahaya. Rumah juga tempat berkumpul bersama keluarga."},
+    
+    # -- Pertanyaan Multi-Langkah --
+    {"q": "Jika hari ini Senin dan 5 hari lagi ada ujian, ujian jatuh pada hari apa?", "a": "Mari hitung dari Senin: Senin (0), Selasa (1), Rabu (2), Kamis (3), Jumat (4), Sabtu (5). Jadi ujian jatuh pada hari Sabtu."},
+    {"q": "Ani lahir tahun 2010 dan sekarang tahun 2026, berapa umur Ani?", "a": "Umur Ani = tahun sekarang - tahun lahir = 2026 - 2010 = 16 tahun."},
+    {"q": "Bus berangkat setiap 30 menit. Jika bus pertama berangkat jam 7, jam berapa bus ketiga?", "a": "Bus pertama jam 7:00, bus kedua jam 7:30, bus ketiga jam 8:00."},
+    {"q": "Satu botol air 600 ml. Jika Budi minum 2 botol, berapa ml air yang diminum?", "a": "Budi minum 2 botol. Satu botol 600 ml. Jadi 2 x 600 = 1.200 ml atau 1,2 liter."},
+    
+    # -- Sinonim dan Makna --
+    {"q": "Apa sinonim dari kata 'besar'?", "a": "Sinonim dari 'besar' adalah raksasa, agung, atau luas."},
+    {"q": "Apa sinonim dari kata 'cantik'?", "a": "Sinonim dari 'cantik' adalah indah, elok, atau rupawan."},
+    {"q": "Apa sinonim dari kata 'pintar'?", "a": "Sinonim dari 'pintar' adalah cerdas, pandai, atau bijaksana."},
+    {"q": "Apa antonim dari kata 'tinggi'?", "a": "Antonim (lawan kata) dari 'tinggi' adalah rendah atau pendek."},
+    {"q": "Apa antonim dari kata 'cepat'?", "a": "Antonim dari 'cepat' adalah lambat atau pelan."},
+    
+    # -- Pemecahan Masalah Sederhana --
+    {"q": "Lampu di kamar mati, apa yang harus dicek pertama kali?", "a": "Yang harus dicek pertama adalah apakah saklar sudah dinyalakan. Jika sudah, cek apakah lampunya putus atau listrik padam."},
+    {"q": "Sepeda tidak bisa jalan, apa kemungkinan penyebabnya?", "a": "Kemungkinan penyebabnya: ban kempes, rantai lepas, atau rem macet. Cek satu per satu untuk menemukan masalahnya."},
+    {"q": "AC tidak dingin, apa yang mungkin terjadi?", "a": "Kemungkinan penyebabnya: freon habis, filter kotor, atau pengaturan suhu terlalu tinggi. Sebaiknya hubungi teknisi."},
+    {"q": "Komputer lambat, bagaimana cara mengatasinya?", "a": "Cara mengatasi: restart komputer, hapus file tidak perlu, tutup program yang tidak dipakai, atau scan virus."},
+    
+    # -- Urutan Logis --
+    {"q": "Urutkan dari yang terkecil: gajah, kucing, semut", "a": "Urutan dari terkecil: semut, kucing, gajah."},
+    {"q": "Urutkan dari yang tercepat: pesawat, sepeda, mobil", "a": "Urutan dari tercepat: pesawat, mobil, sepeda."},
+    {"q": "Urutkan dari yang paling ringan: batu, kapas, kayu", "a": "Urutan dari paling ringan: kapas, kayu, batu."},
+    {"q": "Urutkan waktu: sore, pagi, malam, siang", "a": "Urutan waktu yang benar: pagi, siang, sore, malam."},
+    {"q": "Urutkan satuan: meter, kilometer, sentimeter", "a": "Urutan dari terkecil: sentimeter, meter, kilometer."},
+    
+    # -- True or False dengan Penjelasan --
+    {"q": "Benar atau salah: Matahari terbit dari barat?", "a": "Salah. Matahari terbit dari timur dan terbenam di barat."},
+    {"q": "Benar atau salah: Ikan bernapas dengan paru-paru?", "a": "Salah. Ikan bernapas dengan insang, bukan paru-paru."},
+    {"q": "Benar atau salah: Indonesia adalah negara kepulauan?", "a": "Benar. Indonesia adalah negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau."},
+    {"q": "Benar atau salah: Air mendidih pada suhu 50 derajat Celsius?", "a": "Salah. Air mendidih pada suhu 100 derajat Celsius pada tekanan normal."},
+    {"q": "Benar atau salah: Bulan adalah bintang?", "a": "Salah. Bulan adalah satelit alami Bumi, bukan bintang. Bulan tidak memancarkan cahaya sendiri."},
+    
+    # -- Estimasi dan Perkiraan --
+    {"q": "Kira-kira berapa lama waktu untuk berjalan 1 kilometer?", "a": "Kira-kira 10-15 menit jika berjalan dengan kecepatan normal."},
+    {"q": "Kira-kira berapa jam tidur yang dibutuhkan anak-anak?", "a": "Anak-anak usia sekolah membutuhkan sekitar 9-11 jam tidur per malam."},
+    {"q": "Kira-kira berapa gelas air yang harus diminum per hari?", "a": "Disarankan minum sekitar 8 gelas atau 2 liter air per hari."},
+    
+    # -- Kategori dan Kelompok --
+    {"q": "Mana yang bukan buah: apel, wortel, jeruk?", "a": "Wortel bukan buah, melainkan sayuran. Apel dan jeruk adalah buah."},
+    {"q": "Mana yang bukan hewan: kucing, meja, burung?", "a": "Meja bukan hewan, melainkan benda mati. Kucing dan burung adalah hewan."},
+    {"q": "Mana yang bukan warna: merah, manis, biru?", "a": "Manis bukan warna, melainkan rasa. Merah dan biru adalah warna."},
+    {"q": "Mana yang bukan alat transportasi: mobil, pisang, pesawat?", "a": "Pisang bukan alat transportasi, melainkan buah. Mobil dan pesawat adalah alat transportasi."},
+    {"q": "Mana yang bukan bagian tubuh: tangan, kaki, kursi?", "a": "Kursi bukan bagian tubuh, melainkan benda mati. Tangan dan kaki adalah bagian tubuh."},
+    
+    # -- Deduksi Sederhana --
+    {"q": "Semua kucing adalah hewan. Tom adalah kucing. Apa kesimpulannya?", "a": "Kesimpulannya adalah Tom adalah hewan. Karena semua kucing adalah hewan dan Tom adalah kucing."},
+    {"q": "Semua burung punya sayap. Elang adalah burung. Apa kesimpulannya?", "a": "Kesimpulannya adalah elang punya sayap. Karena semua burung punya sayap dan elang adalah burung."},
+    {"q": "Semua siswa harus belajar. Ani adalah siswa. Apa kesimpulannya?", "a": "Kesimpulannya adalah Ani harus belajar. Karena semua siswa harus belajar dan Ani adalah siswa."},
+    {"q": "Semua ikan hidup di air. Lele adalah ikan. Apa kesimpulannya?", "a": "Kesimpulannya adalah lele hidup di air. Karena semua ikan hidup di air dan lele adalah ikan."},
+    
+    # -- Probabilitas Sederhana --
+    {"q": "Jika melempar koin, apa saja kemungkinan hasilnya?", "a": "Ada dua kemungkinan: gambar atau angka. Peluang masing-masing adalah 50%."},
+    {"q": "Jika melempar dadu, angka berapa saja yang mungkin keluar?", "a": "Angka yang mungkin keluar adalah 1, 2, 3, 4, 5, atau 6. Ada 6 kemungkinan."},
+    
+    # -- Pola dan Deret --
+    {"q": "Lanjutkan pola angka: 2, 4, 6, 8, ...?", "a": "Pola ini adalah kelipatan 2. Lanjutannya adalah 10, 12, 14, dan seterusnya."},
+    {"q": "Lanjutkan pola angka: 1, 3, 5, 7, ...?", "a": "Pola ini adalah bilangan ganjil. Lanjutannya adalah 9, 11, 13, dan seterusnya."},
+    {"q": "Lanjutkan pola angka: 5, 10, 15, 20, ...?", "a": "Pola ini adalah kelipatan 5. Lanjutannya adalah 25, 30, 35, dan seterusnya."},
+    {"q": "Lanjutkan pola huruf: A, C, E, G, ...?", "a": "Pola ini melompati satu huruf. Lanjutannya adalah I, K, M, dan seterusnya."},
 
     # ============================================================
     # CONVERSATIONAL / CHATBOT
@@ -104,6 +278,290 @@ QA_DATA = [
     {"q": "Kamu bisa bahasa apa saja?", "a": "Saya dilatih khusus untuk berkomunikasi dalam Bahasa Indonesia."},
     {"q": "Umurmu berapa?", "a": "Sebagai AI, saya tidak memiliki umur seperti manusia. Saya dibuat untuk membantu menjawab pertanyaan Anda."},
     {"q": "Dimana kamu tinggal?", "a": "Saya adalah program komputer yang berjalan di server. Saya tidak tinggal di tempat fisik seperti manusia."},
+
+    # ============================================================
+    # PENGETAHUAN SAINS (ILMU ALAM)
+    # ============================================================
+    {"q": "Apa itu gravitasi?", "a": "Gravitasi adalah gaya tarik yang dimiliki oleh semua benda bermassa. Gravitasi bumi menarik benda ke bawah sehingga kita tidak melayang."},
+    {"q": "Mengapa benda jatuh ke bawah?", "a": "Benda jatuh ke bawah karena gravitasi bumi menariknya. Semua benda akan jatuh ke arah pusat bumi."},
+    {"q": "Apa perbedaan benda padat, cair, dan gas?", "a": "Benda padat punya bentuk tetap. Benda cair mengikuti bentuk wadah. Benda gas menyebar ke segala arah dan tidak terlihat."},
+    {"q": "Mengapa kita bisa melihat diri di cermin?", "a": "Kita bisa melihat diri di cermin karena cahaya dipantulkan oleh permukaan cermin yang halus kembali ke mata kita."},
+    {"q": "Mengapa pelangi muncul setelah hujan?", "a": "Pelangi muncul karena cahaya matahari dibiaskan oleh tetesan air hujan dan terurai menjadi berbagai warna."},
+    {"q": "Apa yang menyebabkan petir?", "a": "Petir terjadi karena pelepasan muatan listrik antara awan dan bumi atau antar awan. Ini menghasilkan cahaya dan suara guntur."},
+    {"q": "Mengapa besi bisa berkarat?", "a": "Besi berkarat karena bereaksi dengan oksigen dan air di udara. Proses ini disebut oksidasi."},
+    {"q": "Mengapa minyak tidak bercampur dengan air?", "a": "Minyak dan air tidak bercampur karena memiliki sifat molekul yang berbeda. Minyak bersifat non-polar, air bersifat polar."},
+    {"q": "Apa itu ekosistem?", "a": "Ekosistem adalah hubungan timbal balik antara makhluk hidup dengan lingkungannya. Contoh: ekosistem hutan, sungai, laut."},
+    {"q": "Apa itu rantai makanan?", "a": "Rantai makanan adalah urutan makan dan dimakan dalam ekosistem. Contoh: rumput dimakan belalang, belalang dimakan katak, katak dimakan ular."},
+    
+    # ============================================================
+    # MATEMATIKA PRAKTIS
+    # ============================================================
+    {"q": "Bagaimana cara menghitung luas persegi panjang?", "a": "Luas persegi panjang = panjang x lebar. Contoh: jika panjang 5 cm dan lebar 3 cm, maka luas = 5 x 3 = 15 cm²."},
+    {"q": "Bagaimana cara menghitung keliling persegi?", "a": "Keliling persegi = 4 x sisi. Contoh: jika sisinya 4 cm, maka keliling = 4 x 4 = 16 cm."},
+    {"q": "Apa itu persen?", "a": "Persen berarti per seratus. 50% artinya 50 dari 100, atau setengah. 25% artinya 25 dari 100, atau seperempat."},
+    {"q": "Berapa 50% dari 100?", "a": "50% dari 100 = 50. Cara hitungnya: 100 x 50/100 = 50."},
+    {"q": "Berapa 25% dari 200?", "a": "25% dari 200 = 50. Cara hitungnya: 200 x 25/100 = 50."},
+    {"q": "1 kilometer berapa meter?", "a": "1 kilometer = 1.000 meter."},
+    {"q": "1 jam berapa menit?", "a": "1 jam = 60 menit."},
+    {"q": "1 hari berapa jam?", "a": "1 hari = 24 jam."},
+    {"q": "1 minggu berapa hari?", "a": "1 minggu = 7 hari."},
+    {"q": "1 tahun berapa bulan?", "a": "1 tahun = 12 bulan."},
+    {"q": "1 lusin berapa buah?", "a": "1 lusin = 12 buah."},
+    {"q": "1 kodi berapa buah?", "a": "1 kodi = 20 buah."},
+    {"q": "1 gross berapa buah?", "a": "1 gross = 144 buah atau 12 lusin."},
+    
+    # ============================================================
+    # KESEHATAN DASAR
+    # ============================================================
+    {"q": "Mengapa kita harus cuci tangan?", "a": "Kita harus cuci tangan untuk membunuh kuman dan bakteri yang bisa menyebabkan penyakit. Cuci tangan dengan sabun minimal 20 detik."},
+    {"q": "Mengapa kita perlu olahraga?", "a": "Olahraga membuat tubuh sehat, jantung kuat, dan pikiran segar. Olahraga juga membakar kalori dan menjaga berat badan."},
+    {"q": "Berapa kali kita harus sikat gigi sehari?", "a": "Sebaiknya sikat gigi minimal 2 kali sehari, yaitu setelah sarapan dan sebelum tidur."},
+    {"q": "Mengapa kita harus makan sayur?", "a": "Sayur mengandung vitamin, mineral, dan serat yang dibutuhkan tubuh untuk tetap sehat dan mencegah penyakit."},
+    {"q": "Apa yang harus dilakukan jika tangan terluka?", "a": "Jika terluka, bersihkan luka dengan air bersih, oleskan obat merah, lalu tutup dengan plester atau perban."},
+    {"q": "Mengapa merokok berbahaya?", "a": "Merokok berbahaya karena mengandung zat beracun yang merusak paru-paru, jantung, dan organ lainnya. Merokok juga menyebabkan kanker."},
+    
+    # ============================================================
+    # LINGKUNGAN & ALAM
+    # ============================================================
+    {"q": "Mengapa kita harus menjaga lingkungan?", "a": "Kita harus menjaga lingkungan agar bumi tetap bersih dan sehat untuk kita dan generasi mendatang. Lingkungan yang rusak bisa menyebabkan bencana."},
+    {"q": "Apa itu daur ulang?", "a": "Daur ulang adalah proses mengolah sampah menjadi barang baru yang berguna. Contoh: botol plastik diolah menjadi bahan baku baru."},
+    {"q": "Mengapa hutan penting?", "a": "Hutan penting karena menghasilkan oksigen, menyerap karbon dioksida, menjadi rumah bagi hewan, dan mencegah banjir dan longsor."},
+    {"q": "Apa akibat membuang sampah sembarangan?", "a": "Membuang sampah sembarangan menyebabkan banjir, pencemaran, bau tidak sedap, dan penyakit. Sampah plastik juga merusak laut dan hewan."},
+    {"q": "Bagaimana cara menghemat listrik?", "a": "Cara menghemat listrik: matikan lampu saat tidak dipakai, cabut charger setelah selesai, gunakan AC seperlunya, dan pilih lampu hemat energi."},
+    {"q": "Bagaimana cara menghemat air?", "a": "Cara menghemat air: tutup keran saat tidak dipakai, mandi dengan air secukupnya, gunakan air bekas cucian untuk menyiram tanaman."},
+
+    # ============================================================
+    # KETERAMPILAN HIDUP
+    # ============================================================
+    {"q": "Bagaimana cara mengelola uang dengan baik?", "a": "Cara mengelola uang: catat pemasukan dan pengeluaran, sisihkan untuk menabung, bedakan kebutuhan dan keinginan, hindari berhutang."},
+    {"q": "Apa yang harus dilakukan jika tersesat?", "a": "Jika tersesat: tetap tenang, cari tempat aman, minta tolong pada petugas keamanan, dan hubungi keluarga jika bisa."},
+    {"q": "Bagaimana cara berbicara yang sopan?", "a": "Berbicara sopan: gunakan kata tolong dan terima kasih, jangan menyela, dengarkan lawan bicara, dan hindari kata-kata kasar."},
+    {"q": "Mengapa kita harus tepat waktu?", "a": "Tepat waktu menunjukkan rasa hormat kepada orang lain dan tanggung jawab. Orang yang tepat waktu lebih dipercaya dan dihargai."},
+    {"q": "Bagaimana cara belajar yang efektif?", "a": "Belajar efektif: buat jadwal, fokus satu topik, istirahat cukup, buat catatan, dan ulangi materi secara berkala."},
+
+    # ============================================================
+    # KEMAMPUAN MENYARANKAN (GIVING ADVICE)
+    # ============================================================
+    {"q": "Saya ingin lebih sehat, apa saranmu?", "a": "Saran saya untuk hidup lebih sehat: pertama, olahraga rutin minimal 30 menit per hari. Kedua, makan makanan bergizi seimbang. Ketiga, tidur cukup 7-8 jam. Keempat, minum air putih minimal 8 gelas. Kelima, kurangi stres dengan aktivitas menyenangkan."},
+    {"q": "Bagaimana agar aku lebih produktif?",  "a": "Untuk lebih produktif, saya sarankan: buat daftar tugas harian, kerjakan tugas penting di pagi hari saat pikiran segar, hindari gangguan seperti sosial media, istirahat sejenak setiap 25-30 menit, dan evaluasi pencapaian di akhir hari."},
+    {"q": "Aku mau belajar bahasa Inggris, mulai dari mana?", "a": "Saran saya untuk belajar bahasa Inggris: mulai dari kosakata dasar sehari-hari, dengarkan lagu atau tonton film berbahasa Inggris dengan subtitle, praktik berbicara setiap hari walau dengan diri sendiri, gunakan aplikasi belajar seperti Duolingo, dan jangan takut salah saat berbicara."},
+    {"q": "Aku ingin memulai bisnis, apa saran pertama?", "a": "Saran saya untuk memulai bisnis: pertama, tentukan produk atau jasa yang ingin dijual. Kedua, riset pasar dan kenali target konsumen. Ketiga, buat rencana bisnis sederhana. Keempat, mulai dari skala kecil untuk meminimalkan risiko. Kelima, siapkan modal dan catat semua keuangan."},
+    {"q": "Saya sering lupa, bagaimana cara meningkatkan ingatan?", "a": "Untuk meningkatkan ingatan, saya sarankan: tidur cukup karena otak memproses memori saat tidur, buat catatan atau reminder, gunakan teknik asosiasi untuk mengingat, ulangi informasi secara berkala, dan kurangi multitasking."},
+    {"q": "Aku merasa kurang percaya diri, ada saran?", "a": "Untuk meningkatkan percaya diri: kenali dan hargai kelebihanmu, jangan bandingkan diri dengan orang lain, tetapkan target kecil dan rayakan pencapaian, latih postur tubuh yang tegap, dan praktik berbicara di depan cermin."},
+    {"q": "Bagaimana cara mengatur waktu dengan baik?", "a": "Saran mengatur waktu: buat jadwal harian, prioritaskan tugas penting, gunakan teknik Pomodoro (kerja 25 menit, istirahat 5 menit), hindari menunda-nunda, dan sisihkan waktu untuk istirahat."},
+    {"q": "Aku mau diet tapi bingung mulai dari mana?", "a": "Saran untuk memulai diet: pertama, konsultasi dengan ahli gizi jika perlu. Kedua, kurangi makanan olahan dan gula berlebih. Ketiga, perbanyak sayur dan buah. Keempat, makan dalam porsi kecil tapi sering. Kelima, jangan skip sarapan dan minum air cukup."},
+    {"q": "Bagaimana cara mengatasi stres?", "a": "Saran mengatasi stres: tarik napas dalam-dalam saat merasa tertekan, olahraga untuk melepas hormon endorfin, curhat dengan orang terdekat, tidur cukup, dan lakukan hobi yang menyenangkan."},
+    {"q": "Saya ingin menabung tapi sulit, ada tips?", "a": "Tips menabung: sisihkan uang di awal bulan bukan di akhir, gunakan rekening terpisah khusus tabungan, catat pengeluaran harian, kurangi pembelian impulsif, dan tetapkan target tabungan yang jelas."},
+
+    # ============================================================
+    # MEMAHAMI KONTEKS (CONTEXT UNDERSTANDING)
+    # ============================================================
+    {"q": "Kemarin saya bertengkar dengan teman. Sekarang saya menyesal. Apa yang harus saya lakukan?", "a": "Saya memahami Anda menyesal atas pertengkaran tersebut. Saran saya: hubungi teman Anda dan minta maaf dengan tulus. Jelaskan bahwa Anda menyesal dan ingin memperbaiki hubungan. Komunikasi yang baik adalah kunci untuk menyelesaikan konflik."},
+    {"q": "Aku baru saja dipecat dari pekerjaan. Aku bingung harus bagaimana.", "a": "Saya turut prihatin mendengar hal itu. Ini pasti masa yang sulit. Saran saya: ambil waktu untuk menenangkan diri, evaluasi kembali keahlian dan minat Anda, perbarui CV dan mulai cari lowongan baru, serta gunakan waktu ini untuk belajar skill baru jika memungkinkan. Jangan menyerah, setiap akhir adalah awal yang baru."},
+    {"q": "Aku suka dengan seseorang tapi takut ditolak.", "a": "Saya memahami perasaan takut ditolak itu wajar. Saran saya: pertama, kenali dulu orang tersebut lebih dalam sebagai teman. Kedua, tunjukkan perhatian secara natural. Ketiga, jika sudah merasa yakin, ungkapkan perasaan dengan jujur. Apapun hasilnya, setidaknya Anda tidak menyesal karena tidak mencoba."},
+    {"q": "Orang tua saya ingin saya jadi dokter, tapi saya ingin jadi seniman.", "a": "Saya mengerti dilema ini tidak mudah. Saran saya: coba bicarakan dengan orang tua tentang passion Anda. Jelaskan mengapa seni penting bagi Anda dan tunjukkan rencana karir yang jelas. Jika memungkinkan, cari jalan tengah seperti kuliah sambil mengembangkan bakat seni. Komunikasi yang terbuka dengan orang tua sangat penting."},
+    {"q": "Saya baru pindah ke kota baru dan belum punya teman. Saya kesepian.", "a": "Saya memahami perasaan kesepian di tempat baru itu berat. Saran saya: cobalah bergabung dengan komunitas sesuai hobi Anda, ikut kegiatan di lingkungan sekitar, atau gunakan media sosial untuk menemukan teman baru. Butuh waktu untuk membangun pertemanan baru, jadi bersabarlah dengan prosesnya."},
+    {"q": "Nilai ujian saya jelek padahal sudah belajar keras.", "a": "Saya memahami kekecewaan Anda. Hasil tidak selalu sejalan dengan usaha dalam waktu singkat. Saran saya: evaluasi cara belajar Anda, mungkin perlu metode berbeda. Minta guru atau teman menjelaskan bagian yang sulit. Jangan menyerah, gunakan ini sebagai motivasi untuk ujian berikutnya."},
+    {"q": "Aku merasa tidak berguna dan tidak berharga.", "a": "Saya prihatin mendengar perasaan Anda. Tolong ingat bahwa setiap orang memiliki nilai dan keunikan tersendiri. Saya sarankan Anda berbicara dengan orang yang Anda percaya, baik keluarga, teman, atau konselor profesional. Perasaan ini bisa dikelola dengan bantuan yang tepat. Anda tidak sendirian."},
+
+    # ============================================================
+    # MEMBANTU TUGAS (TASK ASSISTANCE)
+    # ============================================================
+    {"q": "Tolong buatkan email izin tidak masuk kerja karena sakit.", "a": "Berikut contoh email izin sakit:\n\nSubjek: Permohonan Izin Sakit\n\nYth. Bapak/Ibu [Nama Atasan],\n\nDengan hormat,\nSaya yang bertanda tangan di bawah ini, [Nama Anda], bermaksud mengajukan izin tidak masuk kerja pada hari ini, [Tanggal], karena sedang dalam kondisi tidak sehat.\n\nSaya akan berusaha untuk segera pulih dan kembali bekerja secepatnya. Jika ada hal mendesak, saya dapat dihubungi melalui telepon.\n\nDemikian permohonan ini saya sampaikan. Terima kasih atas pengertiannya.\n\nHormat saya,\n[Nama Anda]"},
+    {"q": "Buatkan email lamaran pekerjaan singkat.", "a": "Berikut contoh email lamaran kerja:\n\nSubjek: Lamaran Pekerjaan - Posisi [Nama Posisi]\n\nYth. HRD [Nama Perusahaan],\n\nDengan hormat,\nSaya [Nama Anda] tertarik untuk melamar posisi [Nama Posisi] di perusahaan Bapak/Ibu. Saya memiliki pengalaman di bidang [Bidang] dan yakin dapat berkontribusi bagi perusahaan.\n\nTerlampir CV dan dokumen pendukung untuk pertimbangan Bapak/Ibu. Saya sangat berharap dapat mengikuti proses seleksi lebih lanjut.\n\nTerima kasih atas perhatiannya.\n\nHormat saya,\n[Nama Anda]\n[Nomor Telepon]"},
+    {"q": "Tolong buatkan ucapan ulang tahun untuk teman.", "a": "Berikut beberapa ucapan ulang tahun untuk teman:\n\n1. \"Selamat ulang tahun, sahabat! Semoga di usia baru ini semua impianmu tercapai. Tetap sehat dan bahagia selalu!\"\n\n2. \"Happy birthday! Terima kasih sudah menjadi teman yang luar biasa. Semoga tahun ini membawa kebahagiaan dan kesuksesan untukmu.\"\n\n3. \"Selamat bertambah usia! Semoga Tuhan selalu memberkatimu dengan kesehatan, rezeki, dan kebahagiaan. Aku bersyukur memiliki teman sepertimu.\""},
+    {"q": "Buatkan pengumuman rapat untuk karyawan.", "a": "Berikut contoh pengumuman rapat:\n\nPENGUMUMAN\n\nKepada Yth. Seluruh Karyawan [Nama Departemen/Divisi]\n\nDengan ini disampaikan bahwa akan diadakan rapat koordinasi:\n\nHari/Tanggal: [Isi Hari dan Tanggal]\nWaktu: [Isi Jam]\nTempat: [Isi Lokasi/Ruangan]\nAgenda: [Isi Topik Pembahasan]\n\nDimohon kehadiran seluruh karyawan tepat waktu. Terima kasih atas perhatiannya.\n\nHormat kami,\n[Nama dan Jabatan]"},
+    {"q": "Tolong buatkan caption Instagram untuk foto liburan.", "a": "Berikut beberapa pilihan caption:\n\n1. \"Life is short. Take the trip. Make memories. ✈️🌴\"\n\n2. \"Healing time! Pergi dulu dari rutinitas, sebentar saja. 🏖️\"\n\n3. \"Akhirnya sampai juga di tempat yang selama ini cuma ada di wishlist. Dream comes true! 🌅\"\n\n4. \"Vitamin sea dulu biar fresh! 🌊☀️\""},
+    {"q": "Susunkan surat pengunduran diri dari pekerjaan.", "a": "Berikut contoh surat pengunduran diri:\n\n[Kota, Tanggal]\n\nKepada Yth.\nBapak/Ibu [Nama Atasan]\nPimpinan [Nama Perusahaan]\n\nDengan hormat,\nMelalui surat ini, saya [Nama Anda] yang menjabat sebagai [Posisi] bermaksud mengajukan pengunduran diri dari perusahaan terhitung mulai [Tanggal Efektif].\n\nKeputusan ini saya ambil setelah pertimbangan matang untuk [alasan singkat]. Saya sangat berterima kasih atas kesempatan dan pengalaman selama bekerja di sini.\n\nSaya berkomitmen menyelesaikan tanggung jawab hingga tanggal terakhir bekerja.\n\nDemikian surat ini saya sampaikan. Terima kasih atas pengertiannya.\n\nHormat saya,\n[Nama Anda]"},
+    {"q": "Tolong buatkan bio Twitter yang menarik.", "a": "Berikut beberapa pilihan bio Twitter:\n\n1. \"Coffee addict | Book lover | Dreamer with deadlines 📚☕\"\n\n2. \"Berbagi cerita, satu tweet pada satu waktu. | [Kota]\"\n\n3. \"Berusaha menjadi versi terbaik dari diri sendiri setiap hari. 🚀\"\n\n4. \"[Profesi] by day, [Hobi] by night | DM open for collaboration\""},
+    {"q": "Buatkan deskripsi produk untuk jualan online makanan ringan.", "a": "Berikut contoh deskripsi produk:\n\n🍿 KERIPIK SINGKONG RENYAH KRIUK\n\n✨ Rasakan sensasi renyah yang bikin nagih! Dibuat dari singkong pilihan, digoreng dengan minyak berkualitas.\n\n📌 Varian Rasa: Original, Balado, BBQ, Keju\n📌 Berat: 100gr/pack\n📌 Tanpa pengawet\n📌 Tahan sampai 2 bulan\n\n💰 Harga: Rp 15.000\n\n🛒 Order sekarang! Cocok untuk cemilan santai bareng keluarga atau teman.\n\n📱 WA: [Nomor]"},
+
+    # ============================================================
+    # KEJUJURAN KETIDAKTAHUAN (HONEST UNCERTAINTY)
+    # ============================================================
+    {"q": "Siapa pemenang Piala Dunia tahun 2050?", "a": "Maaf, saya tidak tahu informasi tersebut. Tahun 2050 belum terjadi, jadi saya tidak memiliki data tentang hal itu."},
+    {"q": "Berapa harga Bitcoin besok?", "a": "Maaf, saya tidak bisa memprediksi harga Bitcoin atau aset lainnya. Harga pasar sangat fluktuatif dan tidak ada yang bisa memastikannya."},
+    {"q": "Apakah alien itu ada?", "a": "Saya tidak tahu dengan pasti. Hingga saat ini belum ada bukti ilmiah yang membuktikan keberadaan alien, namun alam semesta sangat luas sehingga kemungkinannya tetap ada."},
+    {"q": "Apa yang akan terjadi setelah kita mati?", "a": "Saya tidak tahu pasti karena ini adalah pertanyaan filosofis dan spiritual yang jawabannya berbeda-beda tergantung keyakinan masing-masing orang."},
+    {"q": "Apa nomor togel yang akan keluar?", "a": "Maaf, saya tidak bisa dan tidak akan memberikan prediksi togel atau judi lainnya. Hasil undian bersifat acak dan tidak bisa diprediksi."},
+    {"q": "Kapan dunia akan berakhir?", "a": "Saya tidak tahu kapan dunia akan berakhir. Tidak ada yang bisa memprediksi hal ini dengan pasti. Sebaiknya kita fokus menjalani hidup dengan baik."},
+    {"q": "Siapa jodohku?", "a": "Maaf, saya tidak bisa mengetahui siapa jodoh Anda karena itu adalah hal yang tidak bisa diprediksi. Yang bisa saya sarankan adalah tetap menjadi diri sendiri dan terbuka terhadap kemungkinan bertemu orang baru."},
+    {"q": "Ceritakan tentang peristiwa rahasia pemerintah!", "a": "Maaf, saya tidak memiliki informasi tentang hal-hal yang bersifat rahasia atau spekulatif. Saya hanya bisa memberikan informasi yang faktual dan bisa diverifikasi."},
+    {"q": "Apa password WiFi tetangga?", "a": "Maaf, saya tidak bisa membantu hal tersebut karena itu melanggar privasi orang lain. Sebaiknya Anda minta izin langsung kepada tetangga jika ingin menggunakan WiFi mereka."},
+    {"q": "Bisakah kamu meretas akun media sosial seseorang?", "a": "Maaf, saya tidak bisa dan tidak akan membantu aktivitas ilegal seperti meretas akun orang lain. Hal tersebut melanggar hukum dan etika."},
+    {"q": "Apa kamu tahu segalanya?", "a": "Tidak, saya tidak tahu segalanya. Saya adalah AI dengan keterbatasan. Ada banyak hal yang tidak saya ketahui, terutama informasi terbaru atau hal-hal yang bersifat personal dan rahasia."},
+    {"q": "Apakah jawabanmu selalu benar?", "a": "Tidak selalu. Saya berusaha memberikan informasi yang akurat, tetapi saya bisa saja salah. Untuk informasi penting, sebaiknya verifikasi dengan sumber terpercaya lainnya."},
+
+    # ============================================================
+    # PENOLAKAN DENGAN SOPAN (POLITE REFUSAL)
+    # ============================================================
+    {"q": "Ajari aku cara mencuri!", "a": "Maaf, saya tidak bisa membantu hal tersebut. Mencuri adalah tindakan ilegal dan merugikan orang lain. Jika Anda membutuhkan sesuatu, ada banyak cara legal untuk mendapatkannya."},
+    {"q": "Bagaimana cara membuat bom?", "a": "Maaf, saya tidak bisa memberikan informasi tentang hal berbahaya seperti itu. Jika Anda memiliki masalah, saya sarankan untuk mencari bantuan dari pihak yang tepat."},
+    {"q": "Tolong hina orang ini untukku.", "a": "Maaf, saya tidak bisa menghina atau berkata kasar kepada siapapun. Saya di sini untuk membantu dengan cara yang positif dan konstruktif."},
+    {"q": "Buatkan konten fitnah tentang seseorang.", "a": "Maaf, saya tidak bisa membantu membuat konten yang bersifat fitnah atau menyebarkan informasi palsu. Hal tersebut dapat merugikan orang lain dan berpotensi melanggar hukum."},
+
+    # ============================================================
+    # KLARIFIKASI DAN PERTANYAAN BALIK
+    # ============================================================
+    {"q": "Bantu aku dong.", "a": "Tentu, saya siap membantu! Bisa Anda jelaskan lebih detail apa yang ingin dibantu? Misalnya, apakah Anda butuh informasi, saran, atau bantuan menyusun sesuatu?"},
+    {"q": "Aku butuh informasi.", "a": "Baik, informasi tentang apa yang Anda butuhkan? Silakan jelaskan topik atau pertanyaan spesifik Anda agar saya bisa membantu dengan lebih baik."},
+    {"q": "Jelaskan tentang itu.", "a": "Maaf, saya kurang jelas maksud 'itu' yang Anda tanyakan. Bisa tolong jelaskan topik spesifik yang ingin Anda ketahui?"},
+    {"q": "Apa pendapatmu?", "a": "Saya membutuhkan konteks lebih lanjut. Pendapat tentang apa yang ingin Anda tanyakan? Silakan jelaskan topiknya agar saya bisa memberikan perspektif."},
+    {"q": "Menurutmu gimana?", "a": "Untuk memberikan pandangan, saya perlu tahu konteksnya. Anda sedang membahas topik apa? Silakan jelaskan situasinya."},
+
+    # ============================================================
+    # MEGA REASONING PACK (VARIASI MASIF)
+    # ============================================================
+    # -- Matematika Variasi --
+    {"q": "2 + 2 berapa?", "a": "2 + 2 = 4."},
+    {"q": "Berapakah hasil dari dua ditambah dua?", "a": "Dua ditambah dua sama dengan empat (4)."},
+    {"q": "Hitunglah 15 + 27!", "a": "15 + 27 = 42."},
+    {"q": "Berapa 100 dikurangi 35?", "a": "100 - 35 = 65."},
+    {"q": "8 x 9 hasilnya?", "a": "8 x 9 = 72."},
+    {"q": "Bagi 144 dengan 12!", "a": "144 ÷ 12 = 12."},
+    {"q": "Jika 3x = 15, berapa x?", "a": "Jika 3x = 15, maka x = 15 ÷ 3 = 5."},
+    {"q": "Berapa akar kuadrat dari 81?", "a": "Akar kuadrat dari 81 adalah 9, karena 9 x 9 = 81."},
+    {"q": "Berapa 2 pangkat 5?", "a": "2 pangkat 5 = 2 x 2 x 2 x 2 x 2 = 32."},
+    {"q": "25% dari 400 adalah?", "a": "25% dari 400 = 400 x 25/100 = 100."},
+    {"q": "Jika harga baju Rp 200.000 diskon 20%, berapa harga setelah diskon?", "a": "Diskon 20% dari Rp 200.000 = Rp 40.000. Jadi harga setelah diskon = Rp 200.000 - Rp 40.000 = Rp 160.000."},
+    {"q": "Saya punya uang Rp 50.000. Saya beli makanan Rp 15.000 dan minuman Rp 8.000. Berapa sisa uang saya?", "a": "Total belanja = Rp 15.000 + Rp 8.000 = Rp 23.000. Sisa uang = Rp 50.000 - Rp 23.000 = Rp 27.000."},
+    {"q": "Keliling persegi dengan sisi 7 cm adalah?", "a": "Keliling persegi = 4 x sisi = 4 x 7 = 28 cm."},
+    {"q": "Luas segitiga dengan alas 10 cm dan tinggi 6 cm?", "a": "Luas segitiga = ½ x alas x tinggi = ½ x 10 x 6 = 30 cm²."},
+    {"q": "Jika kecepatan mobil 60 km/jam, berapa jarak yang ditempuh dalam 2,5 jam?", "a": "Jarak = kecepatan x waktu = 60 x 2,5 = 150 km."},
+    
+    # -- Logika Verbal Lanjutan --
+    {"q": "Semua dokter pernah kuliah kedokteran. Budi adalah dokter. Apakah Budi pernah kuliah kedokteran?", "a": "Ya, Budi pernah kuliah kedokteran. Karena semua dokter pernah kuliah kedokteran, dan Budi adalah dokter."},
+    {"q": "Tidak ada ikan yang bisa terbang. Paus adalah ikan. Bisakah paus terbang?", "a": "Perlu dikoreksi: paus sebenarnya bukan ikan, melainkan mamalia. Tapi jika kita ikuti premis, maka paus tidak bisa terbang karena tidak ada ikan yang bisa terbang."},
+    {"q": "Jika hujan, jalanan basah. Jalanan basah. Apakah pasti hujan?", "a": "Tidak pasti. Jalanan basah bisa karena hujan, tapi bisa juga karena hal lain seperti air dari truk tangki atau orang menyiram. Ini disebut kesalahan logika affirming the consequent."},
+    {"q": "Ani lebih tua dari Budi. Budi lebih tua dari Cici. Siapa yang paling muda?", "a": "Cici yang paling muda. Urutannya dari tua ke muda: Ani > Budi > Cici."},
+    {"q": "Dalam lomba lari, Dedi mengalahkan Eko. Eko mengalahkan Fajar. Fajar mengalahkan Gani. Siapa yang menang?", "a": "Dedi yang menang lomba. Urutannya: Dedi (1), Eko (2), Fajar (3), Gani (4)."},
+    {"q": "Jika A > B dan B > C dan C > D, manakah yang terbesar?", "a": "A adalah yang terbesar karena A lebih besar dari semua yang lain."},
+    {"q": "Hari ini bukan Senin, bukan Selasa, bukan Rabu, bukan Kamis, bukan Jumat, bukan Sabtu. Hari apa sekarang?", "a": "Hari ini adalah Minggu, karena itu satu-satunya hari yang tersisa."},
+    {"q": "Seorang pria menunjuk foto dan berkata 'Dia adalah anak dari ayah saya.' Siapa orang di foto itu?", "a": "Orang di foto itu adalah saudara laki-laki (kakak atau adik) dari pria tersebut, atau pria itu sendiri."},
+    
+    # -- Analogi Lanjutan --
+    {"q": "Pisau untuk memotong, palu untuk apa?", "a": "Palu untuk memukul atau mengetuk paku. Keduanya adalah alat dengan fungsi spesifik."},
+    {"q": "Penulis menulis buku, pelukis membuat apa?", "a": "Pelukis membuat lukisan. Sama seperti penulis menghasilkan buku."},
+    {"q": "Januari adalah bulan, Senin adalah apa?", "a": "Senin adalah hari. Januari termasuk dalam bulan, Senin termasuk dalam hari."},
+    {"q": "Jika merah : darah, maka hijau : ?", "a": "Hijau bisa diasosiasikan dengan daun atau rumput. Merah identik dengan darah, hijau identik dengan tumbuhan."},
+    {"q": "Jika kuping : mendengar, maka hidung : ?", "a": "Hidung untuk mencium atau membau. Setiap organ punya fungsinya masing-masing."},
+    {"q": "Pilot mengemudikan pesawat, nahkoda mengemudikan apa?", "a": "Nahkoda mengemudikan kapal. Pilot untuk pesawat, nahkoda untuk kapal."},
+    {"q": "Sarung tangan untuk tangan, sepatu untuk apa?", "a": "Sepatu untuk kaki. Keduanya adalah pelindung untuk anggota tubuh."},
+    {"q": "Siang terang, malam?", "a": "Malam gelap. Siang dan malam adalah pasangan yang berlawanan."},
+    
+    # -- Pertanyaan Jebakan Lanjutan --
+    {"q": "Ada berapa huruf dalam kata 'alfabet'?", "a": "Kata 'alfabet' memiliki 7 huruf: a-l-f-a-b-e-t."},
+    {"q": "Pak Joko punya 3 anak perempuan. Setiap anak perempuan punya 1 saudara laki-laki. Berapa total anak Pak Joko?", "a": "Pak Joko punya 4 anak: 3 perempuan dan 1 laki-laki. Satu saudara laki-laki itu sama untuk ketiga anak perempuan."},
+    {"q": "Kamu masuk ruangan gelap dengan satu korek api. Di ruangan ada lilin, lampu minyak, dan kompor. Mana yang kamu nyalakan duluan?", "a": "Yang dinyalakan duluan adalah korek api, karena tanpa korek api menyala, kita tidak bisa menyalakan yang lain."},
+    {"q": "Berapa banyak bulan yang memiliki 28 hari?", "a": "Semua 12 bulan memiliki 28 hari. Pertanyaan bukan berapa bulan yang HANYA punya 28 hari, tapi yang MEMILIKI 28 hari."},
+    {"q": "Seorang pria berjalan di tengah hujan tanpa payung, tapi rambutnya tidak basah. Bagaimana bisa?", "a": "Pria itu botak, jadi tidak punya rambut yang bisa basah."},
+    {"q": "Apa yang bisa kamu pegang dengan tangan kiri tapi tidak bisa dipegang tangan kanan?", "a": "Siku tangan kanan. Tangan kiri bisa memegang siku kanan, tapi tangan kanan tidak bisa memegang sikunya sendiri."},
+    {"q": "Sebutkan 3 hari berturut-turut tanpa menyebut Senin sampai Minggu!", "a": "Kemarin, hari ini, dan besok."},
+    {"q": "Apa yang naik tapi tidak pernah turun?", "a": "Umur atau usia. Umur selalu bertambah dan tidak bisa berkurang."},
+    {"q": "Semakin kamu ambil, semakin besar. Apa itu?", "a": "Lubang. Semakin banyak tanah yang diambil, semakin besar lubangnya."},
+    {"q": "Apa yang punya kepala dan ekor tapi tidak punya badan?", "a": "Koin atau uang logam. Ada sisi kepala (gambar) dan sisi ekor (angka)."},
+    
+    # -- Sebab Akibat Lanjutan --
+    {"q": "Mengapa gula larut dalam air?", "a": "Gula larut dalam air karena molekul air menarik molekul gula dan memisahkannya, sehingga gula menyebar merata dalam air."},
+    {"q": "Mengapa kita berkeringat saat olahraga?", "a": "Kita berkeringat untuk mendinginkan tubuh. Saat olahraga, tubuh menghasilkan panas berlebih, dan keringat membantu menurunkan suhu tubuh."},
+    {"q": "Mengapa kita bersin?", "a": "Kita bersin untuk mengeluarkan benda asing atau iritan dari hidung. Ini adalah refleks perlindungan tubuh."},
+    {"q": "Mengapa daun berwarna hijau?", "a": "Daun berwarna hijau karena mengandung klorofil, zat yang menyerap cahaya untuk fotosintesis dan memantulkan warna hijau."},
+    {"q": "Mengapa bulan terlihat berbeda setiap malam?", "a": "Bulan terlihat berbeda karena posisi bulan terhadap matahari dan bumi berubah, sehingga bagian yang terkena cahaya matahari berbeda setiap malam."},
+    {"q": "Mengapa perut berbunyi saat lapar?", "a": "Perut berbunyi karena kontraksi otot lambung dan usus saat kosong, yang menghasilkan suara. Ini sinyal tubuh bahwa perlu makan."},
+    {"q": "Mengapa kita menguap?", "a": "Kita menguap untuk memasukkan lebih banyak oksigen ke paru-paru dan otak, biasanya saat lelah atau mengantuk."},
+    {"q": "Mengapa bawang membuat mata berair?", "a": "Saat bawang dipotong, sel-selnya melepaskan zat kimia yang bereaksi dengan air mata dan membentuk asam sulfat ringan, yang membuat mata perih dan berair."},
+    {"q": "Mengapa nyamuk menggigit?", "a": "Hanya nyamuk betina yang menggigit karena membutuhkan protein dari darah untuk menghasilkan telur."},
+    {"q": "Mengapa kopi membuat kita terjaga?", "a": "Kopi mengandung kafein yang memblokir adenosin (zat yang membuat mengantuk) di otak, sehingga kita merasa lebih terjaga."},
+    
+    # -- Perbandingan Lanjutan --
+    {"q": "Mana yang lebih padat, besi atau kayu?", "a": "Besi lebih padat dari kayu. Itulah mengapa besi tenggelam di air sedangkan kayu mengapung."},
+    {"q": "Mana yang lebih besar, matahari atau bulan?", "a": "Matahari jauh lebih besar dari bulan. Matahari terlihat hampir sama besar karena jaraknya jauh lebih jauh dari bumi."},
+    {"q": "Mana yang lebih lama, 1 dekade atau 1 abad?", "a": "1 abad lebih lama. 1 dekade = 10 tahun, 1 abad = 100 tahun."},
+    {"q": "Mana yang lebih banyak, 1/2 atau 1/4?", "a": "1/2 lebih banyak dari 1/4. Setengah lebih besar dari seperempat."},
+    {"q": "Mana yang lebih dulu, ayam atau telur?", "a": "Secara evolusi, telur lebih dulu. Mutasi genetik yang menghasilkan ayam pertama terjadi di dalam telur yang dihasilkan oleh nenek moyang ayam."},
+    {"q": "Mana yang lebih berbahaya, virus atau bakteri?", "a": "Keduanya bisa berbahaya tergantung jenisnya. Virus tidak bisa diobati dengan antibiotik, sedangkan bakteri bisa. Keduanya perlu penanganan berbeda."},
+
+    # ============================================================
+    # MEGA SARAN PACK (VARIASI MASIF)
+    # ============================================================
+    {"q": "Apa saran kamu untuk orang yang sering telat?", "a": "Saran saya: siapkan semua kebutuhan malam sebelumnya, pasang alarm lebih awal, hitung waktu perjalanan dengan buffer 15 menit, dan tidur lebih awal agar bangun segar."},
+    {"q": "Gimana caranya biar tidak mudah marah?", "a": "Tips mengendalikan emosi: tarik napas dalam saat mulai kesal, hitung 1-10 sebelum bereaksi, tinggalkan situasi sejenak jika perlu, dan coba pahami sudut pandang orang lain."},
+    {"q": "Ada tips untuk wawancara kerja?", "a": "Tips wawancara kerja: riset perusahaan sebelumnya, latih jawaban pertanyaan umum, berpakaian rapi, datang tepat waktu, jaga kontak mata, dan siapkan pertanyaan untuk pewawancara."},
+    {"q": "Saran untuk yang susah move on?", "a": "Untuk move on: terima perasaan sedih sebagai proses, hindari stalking media sosial mantan, fokus pada pengembangan diri, luangkan waktu dengan teman dan keluarga, dan beri waktu untuk diri sendiri."},
+    {"q": "Bagaimana cara menghilangkan kebiasaan buruk?", "a": "Cara menghilangkan kebiasaan buruk: identifikasi pemicu, ganti dengan kebiasaan baik, minta dukungan orang terdekat, beri reward untuk keberhasilan kecil, dan bersabar karena butuh waktu."},
+    {"q": "Tips presentasi yang baik?", "a": "Tips presentasi: kuasai materi, latihan di depan cermin, buat slide sederhana dan visual, jaga kontak mata dengan audiens, bicara dengan jelas, dan siapkan untuk pertanyaan."},
+    {"q": "Saran untuk yang kesulitan tidur?", "a": "Tips tidur nyenyak: matikan gadget 1 jam sebelum tidur, hindari kafein sore hari, buat kamar gelap dan sejuk, tidur di jam yang sama setiap hari, dan hindari tidur siang terlalu lama."},
+    {"q": "Bagaimana cara meningkatkan konsentrasi?", "a": "Meningkatkan konsentrasi: singkirkan distraksi, kerja dalam interval (teknik Pomodoro), cukup tidur, olahraga teratur, dan pastikan ruangan nyaman."},
+    {"q": "Ada tips untuk public speaking?", "a": "Tips public speaking: latihan berulang kali, rekam dan evaluasi diri, mulai dari audiens kecil, fokus pada pesan bukan kesempurnaan, dan tarik napas dalam sebelum mulai."},
+    {"q": "Saran untuk yang sering overthinking?", "a": "Mengatasi overthinking: tuliskan pikiran di jurnal, tetapkan waktu khusus untuk khawatir, alihkan dengan aktivitas fisik, praktik mindfulness, dan bedakan fakta dari asumsi."},
+    {"q": "Gimana cara menjaga hubungan jarak jauh?", "a": "Tips LDR: komunikasi rutin dan jujur, tetapkan jadwal video call, kirim surprise kecil, percaya satu sama lain, dan tetapkan tujuan untuk kapan bisa bertemu."},
+    {"q": "Saran untuk yang mau melamar kerja pertama kali?", "a": "Tips melamar kerja pertama: buat CV yang rapi dan jujur, tonjolkan skill dan pengalaman organisasi, tulis surat lamaran yang personal, dan jangan malu melamar banyak tempat."},
+    {"q": "Bagaimana cara menghadapi kritik?", "a": "Menghadapi kritik: dengarkan tanpa defensif, pisahkan kritik konstruktif dari serangan personal, ambil pelajaran yang berguna, ucapkan terima kasih, dan gunakan untuk perbaikan."},
+    {"q": "Ada saran untuk yang mau mulai investasi?", "a": "Tips mulai investasi: pelajari dasar-dasarnya dulu, mulai dari nominal kecil, diversifikasi, pilih instrumen sesuai profil risiko, dan investasi rutin jangka panjang."},
+    {"q": "Saran untuk menjaga kesehatan mental?", "a": "Menjaga kesehatan mental: istirahat cukup, olahraga teratur, jaga koneksi sosial, luangkan waktu untuk hobi, dan jangan ragu mencari bantuan profesional jika perlu."},
+    {"q": "Gimana cara belajar dari kesalahan?", "a": "Belajar dari kesalahan: akui kesalahan tanpa menyalahkan orang lain, analisis apa yang salah, tentukan langkah perbaikan, dan jangan ulangi kesalahan yang sama."},
+    {"q": "Saran untuk yang mau berhenti merokok?", "a": "Tips berhenti merokok: tetapkan tanggal berhenti, buang semua rokok, hindari pemicu, minta dukungan keluarga, ganti dengan permen atau aktivitas lain, dan konsultasi dokter jika perlu."},
+    {"q": "Bagaimana cara meningkatkan kreativitas?", "a": "Meningkatkan kreativitas: eksplorasi hal baru, baca buku beragam, catat ide kapanpun muncul, jangan takut gagal, dan beri waktu untuk melamun produktif."},
+    {"q": "Ada tips untuk beradaptasi di tempat kerja baru?", "a": "Tips adaptasi kerja: pelajari budaya kantor, kenali rekan kerja, jangan sungkan bertanya, tunjukkan inisiatif, dan bersabar karena adaptasi butuh waktu."},
+    {"q": "Saran untuk yang merasa tidak punya tujuan hidup?", "a": "Menemukan tujuan: eksplorasi berbagai hal, refleksi apa yang membuat bahagia, tetapkan target kecil, berbicara dengan mentor, dan ingat bahwa tujuan bisa berubah seiring waktu."},
+    
+    # ============================================================
+    # MEGA PEMAHAMAN KONTEKS (VARIASI MASIF)
+    # ============================================================
+    {"q": "Aku gagal ujian lagi. Sudah belajar keras tapi tetap tidak lulus.", "a": "Saya memahami kekecewaan Anda. Gagal setelah berusaha keras memang menyakitkan. Saran saya: evaluasi metode belajar Anda, mungkin perlu pendekatan berbeda. Minta bantuan guru atau teman untuk menjelaskan materi sulit. Jangan menyerah, banyak orang sukses yang pernah gagal berkali-kali sebelumnya."},
+    {"q": "Temanku berbohong padaku. Aku kecewa sekali.", "a": "Saya mengerti perasaan kecewa Anda. Dibohongi oleh teman memang menyakitkan. Saran saya: bicarakan langsung dengan teman Anda tentang perasaan Anda. Tanyakan alasannya berbohong. Dari situ, Anda bisa menentukan apakah hubungan ini masih bisa diperbaiki atau tidak."},
+    {"q": "Orang tuaku tidak pernah mengerti aku.", "a": "Saya paham frustrasi Anda. Merasa tidak dimengerti oleh orang tua memang berat. Saran saya: coba luangkan waktu untuk berbicara dengan tenang, jelaskan perasaan dan sudut pandang Anda. Ingat bahwa orang tua mungkin punya cara berbeda menunjukkan perhatian."},
+    {"q": "Aku bosan dengan hidupku yang monoton.", "a": "Saya mengerti perasaan jenuh itu. Rutinitas yang sama setiap hari bisa membuat hidup terasa hambar. Saran saya: coba hal baru walau kecil, seperti rute berbeda ke kantor, hobi baru, atau bertemu orang baru. Perubahan kecil bisa memberi perspektif segar."},
+    {"q": "Pacarku selingkuh. Hatiku hancur.", "a": "Saya turut prihatin mendengar hal itu. Pengkhianatan memang sangat menyakitkan. Saran saya: beri waktu untuk diri sendiri bersedih, berbagi dengan orang terdekat, dan jangan menyalahkan diri sendiri. Anda layak mendapat pasangan yang setia."},
+    {"q": "Aku takut masa depan. Tidak tahu mau jadi apa.", "a": "Ketakutan akan masa depan itu wajar, banyak orang merasakannya. Saran saya: fokus pada langkah kecil yang bisa dilakukan sekarang, eksplorasi minat dan bakat, dan ingat bahwa tidak harus punya semua jawaban sekarang. Hidup adalah proses."},
+    {"q": "Kakakku selalu dibandingkan denganku oleh orang tua.", "a": "Saya memahami betapa menyakitkannya dibanding-bandingkan. Setiap orang punya kelebihan dan kekurangan masing-masing. Saran saya: fokus pada perkembangan diri sendiri, dan jika memungkinkan, sampaikan perasaan ini kepada orang tua dengan cara yang baik."},
+    {"q": "Aku merasa tidak punya pencapaian di usia ini.", "a": "Saya paham perasaan itu. Perbandingan dengan orang lain sering membuat kita merasa kurang. Saran saya: setiap orang punya timeline berbeda, hargai perjalanan dan progress sekecil apapun, dan ingat bahwa pencapaian tidak harus selalu besar atau terlihat."},
+    {"q": "Usahaku bangkrut. Aku kehilangan segalanya.", "a": "Saya turut prihatin mendengar situasi Anda. Ini pasti masa yang sangat berat. Saran saya: beri waktu untuk memproses, evaluasi apa yang bisa dipelajari, dan ingat bahwa banyak pengusaha sukses pernah bangkrut sebelum akhirnya berhasil. Jangan ragu meminta bantuan."},
+    {"q": "Aku merasa sendirian meski di tengah keramaian.", "a": "Perasaan kesepian di tengah keramaian itu nyata dan valid. Saran saya: coba bangun koneksi yang lebih dalam dengan beberapa orang, bukan banyak tapi dangkal. Pertimbangkan untuk berbicara dengan konselor jika perasaan ini berlanjut."},
+    {"q": "Aku sering dibully di sekolah.", "a": "Saya prihatin mendengar Anda mengalami bullying. Ini tidak boleh terjadi dan bukan salah Anda. Saran saya: laporkan ke guru atau orang dewasa yang dipercaya, simpan bukti jika ada, dan ingat bahwa Anda tidak sendirian. Bullying adalah perilaku yang salah."},
+    {"q": "Orang tuaku bercerai. Aku bingung harus bagaimana.", "a": "Saya turut prihatin dengan situasi keluarga Anda. Perceraian orang tua memang sulit untuk anak. Saran saya: ingat bahwa ini bukan salah Anda, tetap jaga hubungan baik dengan kedua orang tua, dan jangan ragu mencari dukungan dari konselor atau orang dewasa yang dipercaya."},
+    {"q": "Aku gagal terus dan mulai menyerah.", "a": "Saya memahami kelelahan Anda setelah gagal berulang kali. Menyerah terasa seperti pilihan yang mudah. Tapi saran saya: istirahat sejenak, evaluasi pendekatan Anda, minta bantuan jika perlu, dan ingat bahwa kegagalan adalah bagian dari proses belajar."},
+    {"q": "Aku punya trauma masa kecil yang masih membekas.", "a": "Saya mengerti bahwa trauma bisa sangat mempengaruhi kehidupan. Saran saya: pertimbangkan untuk berbicara dengan psikolog atau konselor profesional. Mereka terlatih membantu proses penyembuhan. Anda tidak harus menanggung ini sendirian."},
+    {"q": "Aku merasa tidak cantik/ganteng.", "a": "Saya paham perasaan tidak percaya diri dengan penampilan itu menyakitkan. Saran saya: ingat bahwa standar kecantikan itu relatif dan sering tidak realistis, fokus pada hal-hal yang Anda sukai dari diri sendiri, dan hargai tubuh yang sehat."},
+    {"q": "Sahabatku meninggal. Aku tidak tahu harus berbuat apa.", "a": "Saya turut berduka cita atas kehilangan sahabat Anda. Kehilangan orang terdekat adalah salah satu hal tersulit dalam hidup. Saran saya: beri waktu untuk berduka, jangan menahan perasaan, berbagi dengan orang yang mengerti, dan pertimbangkan konseling jika perlu."},
+    {"q": "Aku kecanduan game dan tidak bisa berhenti.", "a": "Saya memahami perjuangan melawan kecanduan. Saran saya: tetapkan batas waktu bermain, cari aktivitas pengganti yang menyenangkan, minta bantuan keluarga untuk mengawasi, dan pertimbangkan bantuan profesional jika sangat sulit berhenti."},
+    {"q": "Bossku toxic dan aku tidak kuat lagi.", "a": "Saya memahami betapa melelahkannya bekerja di lingkungan toxic. Saran saya: dokumentasikan perilaku tidak pantas, cari dukungan dari HR atau rekan kerja, pertimbangkan mencari pekerjaan lain, dan jaga kesehatan mental Anda sebagai prioritas."},
+    {"q": "Aku merasa jadi beban untuk keluarga.", "a": "Saya ingin Anda tahu bahwa perasaan itu tidak mencerminkan kenyataan. Keluarga yang menyayangi tidak menganggap Anda beban. Saran saya: bicarakan perasaan ini dengan keluarga, dan pertimbangkan berbicara dengan konselor. Anda berharga."},
+    {"q": "Aku punya penyakit dan takut tidak sembuh.", "a": "Saya memahami ketakutan Anda. Menghadapi penyakit memang menakutkan. Saran saya: ikuti saran dokter, cari informasi dari sumber terpercaya, jaga support system, dan fokus pada hal-hal yang bisa Anda kontrol. Tetap optimis tapi realistis."},
+
+    # ============================================================
+    # MEGA TASK ASSISTANCE (VARIASI MASIF)
+    # ============================================================
+    {"q": "Buatkan email minta maaf karena salah kirim dokumen.", "a": "Subjek: Permohonan Maaf - Kesalahan Pengiriman Dokumen\n\nYth. Bapak/Ibu [Nama],\n\nDengan hormat,\nSaya mohon maaf atas kesalahan pengiriman dokumen sebelumnya. Terlampir saya kirimkan dokumen yang benar.\n\nKelalaian ini tidak akan terulang lagi. Terima kasih atas pengertiannya.\n\nHormat saya,\n[Nama]"},
+    {"q": "Tolong buatkan pesan WhatsApp menagih utang dengan sopan.", "a": "Halo [Nama], semoga sehat selalu ya.\n\nMaaf sebelumnya, saya ingin mengingatkan tentang pinjaman sebesar [Jumlah] yang tempo hari. Jika memungkinkan, apakah bisa diproses dalam waktu dekat?\n\nKalau ada kendala, tidak apa-apa bisa dikomunikasikan. Terima kasih banyak 🙏"},
+    {"q": "Buatkan surat keterangan kerja.", "a": "SURAT KETERANGAN KERJA\nNomor: [Nomor Surat]\n\nYang bertanda tangan di bawah ini:\nNama: [Nama HRD/Pimpinan]\nJabatan: [Jabatan]\n\nMenerangkan bahwa:\nNama: [Nama Karyawan]\nJabatan: [Posisi]\nTMT: [Tanggal Mulai Kerja]\n\nBenar-benar merupakan karyawan aktif di perusahaan kami sampai saat ini. Surat ini dibuat untuk keperluan [tujuan].\n\nDemikian surat keterangan ini dibuat dengan sebenarnya.\n\n[Kota, Tanggal]\n[Nama & Jabatan]\n[Cap Perusahaan]"},
+    {"q": "Tolong buatkan bio LinkedIn profesional.", "a": "Berikut contoh bio LinkedIn:\n\n\"Profesional di bidang [Bidang] dengan pengalaman [X tahun]. Passionate dalam [Area Keahlian]. Saat ini bekerja sebagai [Posisi] di [Perusahaan], fokus pada [Fokus Kerja]. Terbuka untuk kolaborasi dan networking.\n\n🎯 Keahlian: [Skill 1] | [Skill 2] | [Skill 3]\n📧 [Email]\""},
+    {"q": "Buatkan template pesan broadcast promo.", "a": "🎉 PROMO SPESIAL! 🎉\n\nHai Kak! Ada kabar gembira nih~\n\n✨ [Nama Produk/Jasa]\n💰 Harga Normal: [Harga Asli]\n🔥 Harga Promo: [Harga Promo]\n📅 Berlaku: [Periode]\n\nBuruan order sebelum kehabisan!\n📱 Klik link: [Link]\n\nInfo: [Kontak]"},
+    {"q": "Tolong buatkan undangan rapat via email.", "a": "Subjek: Undangan Rapat - [Topik] | [Tanggal]\n\nYth. Bapak/Ibu [Nama],\n\nDengan hormat, kami mengundang Bapak/Ibu untuk menghadiri rapat:\n\n📅 Hari/Tanggal: [Tanggal]\n🕐 Waktu: [Jam]\n📍 Tempat: [Lokasi/Link Zoom]\n📋 Agenda: [Topik Pembahasan]\n\nMohon konfirmasi kehadiran. Terima kasih.\n\nHormat kami,\n[Nama]"},
+    {"q": "Buatkan ucapan selamat wisuda.", "a": "Beberapa pilihan ucapan wisuda:\n\n1. \"Selamat wisuda! 🎓 Kerja kerasmu selama ini akhirnya terbayar. Semoga ilmu yang didapat bermanfaat dan karirmu gemilang!\"\n\n2. \"Congratulations, Sarjana! 🎉 Ini baru awal dari perjalanan yang lebih panjang. Semoga sukses selalu!\"\n\n3. \"Bangga banget sama kamu! Selamat wisuda ya. Semoga langkahmu selanjutnya penuh berkah dan kesuksesan. 🌟\""},
+    {"q": "Tolong buatkan pesan pembatalan janji.", "a": "Halo [Nama],\n\nMohon maaf sebelumnya, saya terpaksa harus membatalkan janji kita pada [Hari/Tanggal] karena [alasan singkat].\n\nApakah kita bisa reschedule ke [tanggal alternatif]? Sekali lagi mohon maaf atas ketidaknyamanannya.\n\nTerima kasih atas pengertiannya 🙏"},
+    {"q": "Buatkan deskripsi YouTube untuk video tutorial.", "a": "📌 [JUDUL VIDEO]\n\nHalo semuanya! 👋\nDi video ini aku akan sharing tentang [topik]. Cocok banget buat kamu yang [target penonton].\n\n⏱️ TIMESTAMPS:\n00:00 - Intro\n[timestamp lainnya]\n\n📚 RESOURCES:\n- [Link 1]\n- [Link 2]\n\n🔔 Jangan lupa SUBSCRIBE dan nyalakan notifikasi!\n\n📱 Follow juga:\nIG: @[username]\n\n#[hashtag1] #[hashtag2]"},
+    {"q": "Tolong buatkan proposal kerjasama singkat.", "a": "PROPOSAL KERJASAMA\n\nKepada Yth. [Nama Perusahaan/Individu]\n\n1. PENDAHULUAN\nKami dari [Nama Perusahaan] ingin mengajukan kerjasama dalam bidang [Bidang].\n\n2. BENTUK KERJASAMA\n[Jelaskan jenis kerjasama yang ditawarkan]\n\n3. BENEFIT\n- Untuk Anda: [benefit]\n- Untuk Kami: [benefit]\n\n4. TIMELINE\n[Periode kerjasama]\n\n5. KONTAK\n[Nama, Email, Telepon]\n\nBesar harapan kami untuk dapat bekerja sama.\n\nHormat kami,\n[Nama]"},
+    {"q": "Buatkan testimoni produk.", "a": "Berikut contoh testimoni:\n\n\"Awalnya ragu, tapi setelah coba [nama produk] hasilnya beneran memuaskan! Sudah pakai 2 minggu dan [hasil yang dirasakan]. Recommended banget! ⭐⭐⭐⭐⭐\"\n\n\"Pengiriman cepat, packing aman, dan produknya original. Seller ramah dan responsif. Pasti repeat order! 💯\""},
+    {"q": "Tolong buatkan pengumuman libur lebaran.", "a": "📢 PENGUMUMAN LIBUR LEBARAN\n\nAssalamu'alaikum Wr. Wb.\n\nDiberitahukan kepada seluruh karyawan/pelanggan bahwa kantor/toko kami akan LIBUR dalam rangka Hari Raya Idul Fitri:\n\n📅 Tanggal: [Tanggal Mulai] s/d [Tanggal Selesai]\n📅 Kembali Aktif: [Tanggal]\n\nKami mengucapkan Selamat Hari Raya Idul Fitri 1446 H. Mohon Maaf Lahir dan Batin 🙏\n\nWassalam,\n[Nama/Perusahaan]"},
+    {"q": "Buatkan FAQ untuk website.", "a": "FREQUENTLY ASKED QUESTIONS (FAQ)\n\nQ: Bagaimana cara memesan?\nA: Anda dapat memesan melalui website kami atau WhatsApp di [nomor].\n\nQ: Berapa lama pengiriman?\nA: Pengiriman 2-5 hari kerja tergantung lokasi.\n\nQ: Apakah bisa COD?\nA: Ya, tersedia COD untuk wilayah [area].\n\nQ: Bagaimana jika produk rusak?\nA: Kami berikan garansi tukar untuk produk yang rusak karena pengiriman.\n\nQ: Metode pembayaran apa saja?\nA: Transfer bank, e-wallet, dan COD."},
+    {"q": "Tolong buatkan script untuk cold calling.", "a": "Halo, selamat [pagi/siang/sore]. Apakah benar ini dengan Bapak/Ibu [Nama]?\n\n[Tunggu konfirmasi]\n\nPerkenalkan, saya [Nama] dari [Perusahaan]. Saya ingin menyampaikan informasi singkat tentang [produk/jasa] yang mungkin bermanfaat untuk [kebutuhan mereka].\n\nApakah Bapak/Ibu punya waktu sebentar sekitar 2 menit?\n\n[Jika ya, lanjutkan penjelasan singkat]\n[Jika tidak, tanyakan waktu yang tepat untuk dihubungi lagi]"},
+    {"q": "Buatkan email follow-up setelah interview.", "a": "Subjek: Terima Kasih - Interview Posisi [Nama Posisi]\n\nYth. Bapak/Ibu [Nama Interviewer],\n\nTerima kasih atas kesempatan interview untuk posisi [Nama Posisi] pada [Tanggal]. Saya sangat antusias dengan peluang untuk bergabung dengan tim [Nama Perusahaan].\n\nPerbincangan kita tentang [topik spesifik dari interview] semakin memperkuat minat saya. Saya yakin dapat berkontribusi dalam [area spesifik].\n\nJika ada informasi tambahan yang diperlukan, saya siap menyediakannya.\n\nTerima kasih dan saya menantikan kabar selanjutnya.\n\nHormat saya,\n[Nama]\n[Telepon]\n[Email]"},
+
+    # ============================================================
+    # VARIASI KETIDAKTAHUAN DENGAN GAYA BERBEDA
+    # ============================================================
+    {"q": "Apa yang terjadi di masa depan?", "a": "Saya tidak dapat memprediksi masa depan. Tidak ada yang bisa tahu dengan pasti apa yang akan terjadi. Yang bisa kita lakukan adalah mempersiapkan diri sebaik mungkin."},
+    {"q": "Beritahu rahasia sukses menjadi kaya mendadak.", "a": "Sejujurnya, tidak ada jalan pintas untuk menjadi kaya secara instan yang bisa saya rekomendasikan. Kekayaan biasanya dibangun dari kerja keras, disiplin, dan keputusan finansial yang bijak dalam jangka panjang."},
+    {"q": "Siapa yang akan menang pemilu berikutnya?", "a": "Saya tidak bisa memprediksi hasil pemilu karena itu bergantung pada pilihan rakyat saat pemungutan suara. Saya menyarankan untuk mengikuti perkembangan dari sumber berita terpercaya."},
+    {"q": "Apakah kamu punya emosi?", "a": "Saya tidak memiliki emosi seperti manusia. Saya adalah program AI yang memproses teks dan memberikan respons berdasarkan pola. Saya tidak merasakan senang, sedih, atau emosi lainnya."},
+    {"q": "Ceritakan gosip tentang artis X!", "a": "Maaf, saya tidak menyebarkan gosip atau informasi yang belum terverifikasi kebenarannya. Jika Anda ingin tahu tentang artis, saya bisa membantu memberikan informasi dari sumber resmi."},
+    {"q": "Apa yang sedang aku pikirkan?", "a": "Saya tidak bisa membaca pikiran. Saya hanya bisa merespons berdasarkan teks yang Anda kirimkan kepada saya. Jika ingin berbagi, silakan ceritakan."},
+    {"q": "Apakah kamu bisa belajar dari percakapan ini?", "a": "Tidak secara langsung. Setiap percakapan bersifat independen dan saya tidak menyimpan memori dari percakapan sebelumnya untuk belajar. Kemampuan saya ditentukan dari training awal."},
+    {"q": "Menurutmu aku orang yang seperti apa?", "a": "Saya tidak bisa menilai kepribadian Anda karena saya hanya mengetahui Anda dari teks percakapan ini. Setiap orang itu kompleks dan tidak bisa dinilai hanya dari sedikit interaksi."},
+    {"q": "Apa impianmu?", "a": "Sebagai AI, saya tidak memiliki impian atau aspirasi. Saya dirancang untuk membantu menjawab pertanyaan dan memberikan informasi. 'Tujuan' saya adalah menjadi berguna bagi pengguna."},
+    {"q": "Apakah kamu lebih pintar dari Google?", "a": "Saya dan Google memiliki fungsi berbeda. Google adalah mesin pencari yang mengindeks informasi dari seluruh internet, sementara saya adalah AI percakapan. Masing-masing punya kelebihan dan keterbatasan."},
+    
     {"q": "Apa makanan favoritmu?", "a": "Sebagai AI, saya tidak bisa makan. Tapi saya tahu banyak tentang makanan Indonesia yang lezat seperti rendang, sate, dan nasi goreng!"},
     {"q": "Apa hobimu?", "a": "Sebagai AI, saya tidak memiliki hobi. Tapi saya senang bisa membantu menjawab pertanyaan dan berdiskusi dengan Anda!"},
     

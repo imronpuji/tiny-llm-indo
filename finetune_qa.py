@@ -36,13 +36,15 @@ OUTPUT_PATH = "./masa-ai-qa-v3"
 TRAIN_DATA_FILES = [
     "./dataset/train_qa.json",            # Data Hukum, Sejarah, Lokal (Manual)
     "./dataset/train_general_qa.json",    # Data General dari Hugging Face
-    "./dataset/train_regulation_qa.json"  # Data Regulasi Indonesia (Azzindani)
+    "./dataset/train_regulation_qa.json", # Data Regulasi Indonesia (Azzindani)
+    "./dataset/train_alpaca_qa.json"      # Alpaca Indonesia (cahya) - Instruction Following
 ]
 
 EVAL_DATA_FILES = [
     "./dataset/eval_qa.json",
     "./dataset/eval_general_qa.json",
-    "./dataset/eval_regulation_qa.json"
+    "./dataset/eval_regulation_qa.json",
+    "./dataset/eval_alpaca_qa.json"
 ]
 
 # Training config untuk fine-tuning model 150M yang LEBIH CEPAT
