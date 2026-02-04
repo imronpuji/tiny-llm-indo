@@ -34,13 +34,15 @@ OUTPUT_PATH = "./masa-ai-qa-v3"
 
 # Datasets - Sekarang kita bisa ambil dari banyak sumber!
 TRAIN_DATA_FILES = [
-    "./dataset/train_qa.json",         # Data Hukum, Sejarah, Lokal (Manual)
-    "./dataset/train_general_qa.json"  # Data General dari Hugging Face
+    "./dataset/train_qa.json",            # Data Hukum, Sejarah, Lokal (Manual)
+    "./dataset/train_general_qa.json",    # Data General dari Hugging Face
+    "./dataset/train_regulation_qa.json"  # Data Regulasi Indonesia (Azzindani)
 ]
 
 EVAL_DATA_FILES = [
     "./dataset/eval_qa.json",
-    "./dataset/eval_general_qa.json"
+    "./dataset/eval_general_qa.json",
+    "./dataset/eval_regulation_qa.json"
 ]
 
 # Training config untuk fine-tuning model 150M yang LEBIH CEPAT
@@ -50,7 +52,7 @@ FINETUNE_CONFIG = {
     "per_device_train_batch_size": 16,         # Naikkan lagi batch size agar lebih cepat
     "per_device_eval_batch_size": 16,
     "gradient_accumulation_steps": 2,          # Total batch tetap 32 (16 * 2)
-    "learning_rate": 2e-5,
+    "learning_rate": 5e-6,                     # Diturunkan ke 5e-6 untuk "Polishing" dan memperbaiki Reasoning
     "weight_decay": 0.01,
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",

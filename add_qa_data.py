@@ -33,6 +33,38 @@ TEMPLATES = {
 
 QA_DATA = [
     # ============================================================
+    # KAMUS DASAR (PENENTU KEWARASAN)
+    # ============================================================
+    {"q": "Apa itu buku?", "a": "Buku adalah lembaran kertas yang dijilid dan berisi tulisan atau gambar untuk dibaca."},
+    {"q": "Apa itu komputer?", "a": "Komputer adalah alat elektronik untuk mengolah data dan informasi secara digital."},
+    {"q": "Apa itu hewan?", "a": "Hewan adalah makhluk hidup yang bisa bergerak dan makan, tetapi tidak memiliki akal budi."},
+    {"q": "Apa itu tanaman?", "a": "Tanaman adalah makhluk hidup yang tumbuh di tanah dan bernapas lewat fotosintesis."},
+    {"q": "Apa itu internet?", "a": "Internet adalah jaringan global yang menghubungkan komputer di seluruh dunia untuk berbagi informasi."},
+    {"q": "Apa itu handphone?", "a": "Handphone adalah telepon genggam kecil yang digunakan untuk berkomunikasi jarak jauh."},
+    {"q": "Apa itu uang?", "a": "Uang adalah alat pembayaran yang sah untuk membeli barang atau jasa."},
+    {"q": "Apa itu rumah?", "a": "Rumah adalah tempat tinggal manusia untuk berlindung dari panas dan hujan."},
+    {"q": "Apa itu mobil?", "a": "Mobil adalah kendaraan roda empat yang digerakkan oleh mesin untuk transportasi."},
+    {"q": "Apa itu sekolah?", "a": "Sekolah adalah tempat belajar bagi siswa dan tempat mengajar bagi guru."},
+
+    # ============================================================
+    # ANTI-HALUSINASI (KOREKSI FAKTA)
+    # ============================================================
+    {"q": "Kapan UUD 1945 disahkan?", "a": "UUD 1945 disahkan pada tanggal 18 Agustus 1945."},
+    {"q": "Tahun berapa Indonesia merdeka?", "a": "Indonesia merdeka pada tahun 1945, bukan tahun lainnya."},
+    {"q": "Apakah burung itu reptil?", "a": "Tidak, burung adalah kelas Aves (unggas), bukan reptilia."},
+    {"q": "Apa itu wartawan?", "a": "Wartawan adalah pencari berita, bukan pembimbing meditasi atau dokter."},
+    {"q": "Apakah komputer itu televisi?", "a": "Bantulah membedakan: Komputer adalah alat pengolah data, sedangkan televisi adalah alat penerima siaran gambar."},
+
+    # ============================================================
+    # REASONING & LOGIKA (BERPIKIR KRITIS)
+    # ============================================================
+    {"q": "Jika saya punya 3 apel dan kamu ambil 2, berapa apel yang kamu punya?", "a": "Kamu punya 2 apel, karena kamu baru saja mengambilnya dari saya."},
+    {"q": "Mana yang lebih berat, 1kg kapas atau 1kg besi?", "a": "Keduanya sama berat, yaitu sama-sama 1 kilogram. Perbedaannya hanya pada volumenya."},
+    {"q": "Ayah Budi punya 5 anak: Nana, Nene, Nini, Nono. Siapa nama anak kelima?", "a": "Nama anak kelima adalah Budi, seperti yang disebutkan di awal kalimat (Ayah Budi)."},
+    {"q": "Jika hari ini adalah Senin, hari apa 2 hari lagi?", "a": "Dua hari setelah Senin adalah hari Rabu."},
+    {"q": "Mengapa kita memakai payung saat hujan?", "a": "Kita memakai payung agar badan kita tidak basah terkena air hujan karena payung menahan tetesan air tersebut."},
+
+    # ============================================================
     # CONVERSATIONAL / CHATBOT
     # ============================================================
     {"q": "Halo", "a": "Halo! Saya adalah asisten AI. Ada yang bisa saya bantu hari ini?"},
@@ -1046,7 +1078,7 @@ def main():
     
     # REPETISI: Ulangi data agar model lebih hafal
     print("\n🔁 Repeating data for better memorization...")
-    formatted = repeat_data(formatted, min_samples=10000)
+    formatted = repeat_data(formatted, min_samples=20000)
     print(f"   After repetition: {len(formatted)} samples")
     
     # Shuffle
