@@ -35,7 +35,7 @@ EVAL_DATA_FILE = "./dataset/eval_news.json"
 
 # Training config
 FINETUNE_CONFIG = {
-    "learning_rate": 2e-5,
+    "learning_rate": 2e-5,  # Naikkan untuk learning yang lebih baik
     "num_train_epochs": 3,
     "per_device_train_batch_size": 4,
     "per_device_eval_batch_size": 4,
@@ -45,10 +45,10 @@ FINETUNE_CONFIG = {
     "logging_steps": 100,
     "save_steps": 500,
     "eval_steps": 500,
-    "save_total_limit": 3,
+    "save_total_limit": 2,  # Kurangi dari 3 ke 2 untuk save disk space
     "fp16": torch.cuda.is_available(),
     "dataloader_num_workers": 0,
-    "max_length": 512,  # Panjang konteks untuk artikel
+    "max_length": 384,  # Kurangi dari 512 ke 384 untuk save memory
 }
 
 
@@ -168,8 +168,7 @@ def main():
         # Evaluation
         eval_strategy="steps" if eval_tokenized else "no",
         eval_steps=FINETUNE_CONFIG["eval_steps"] if eval_tokenized else None,
-        
-        # Performance
+        load_best_model_at_end=True if eval_tokenized else False,
         fp16=FINETUNE_CONFIG["fp16"],
         dataloader_num_workers=FINETUNE_CONFIG["dataloader_num_workers"],
         

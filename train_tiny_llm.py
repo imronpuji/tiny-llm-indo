@@ -112,20 +112,20 @@ MODEL_CONFIG = {
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
-    "num_train_epochs": 3,                     # 3 epoch untuk model besar
-    "per_device_train_batch_size": 32,         # RTX 5090 32GB bisa handle batch besar
-    "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 1,          # Effective batch = 32*1*4_gpus = 128
-    "learning_rate": 2e-4,                     # Learning rate untuk model 150M
+    "num_train_epochs": 5,                     # 5 epoch untuk training yang lebih mendalam
+    "per_device_train_batch_size": 16,         # Batch size optimal untuk 150M
+    "per_device_eval_batch_size": 16,
+    "gradient_accumulation_steps": 2,          # Effective batch = 16*2*4 = 128
+    "learning_rate": 3e-4,                     # Learning rate optimal untuk 150M
     "weight_decay": 0.01,
-    "warmup_ratio": 0.03,
+    "warmup_ratio": 0.05,                      # Warmup lebih panjang
     "lr_scheduler_type": "cosine",
-    "logging_steps": 50,
+    "logging_steps": 25,                       # Lebih sering log
     "eval_strategy": "steps",
-    "eval_steps": 200,
+    "eval_steps": 100,                         # Evaluasi lebih sering
     "save_strategy": "steps",
-    "save_steps": 200,
-    "save_total_limit": 3,
+    "save_steps": 100,
+    "save_total_limit": 5,                     # Simpan 5 checkpoint terbaik
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
@@ -133,7 +133,7 @@ TRAINING_CONFIG = {
     "dataloader_num_workers": 16,              # More workers untuk 4x GPU
     "dataloader_pin_memory": True,
     "ddp_find_unused_parameters": False,       # Untuk multi-GPU efficiency
-    "gradient_checkpointing": False,           # Disable karena VRAM cukup
+    "gradient_checkpointing": True,            # Aktifkan untuk memory efficiency
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,

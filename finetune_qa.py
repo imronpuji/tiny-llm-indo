@@ -47,27 +47,31 @@ EVAL_DATA_FILES = [
     "./dataset/eval_alpaca_qa.json"
 ]
 
-# Training config untuk fine-tuning model 150M yang LEBIH CEPAT
+# Training config untuk fine-tuning model 150M - FULL DATASET OPTIMIZATION
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 3,                     # Cukup 3 epoch jika dataset sudah besar (10rb+ samples)
-    "per_device_train_batch_size": 16,         # Naikkan lagi batch size agar lebih cepat
-    "per_device_eval_batch_size": 16,
-    "gradient_accumulation_steps": 2,          # Total batch tetap 32 (16 * 2)
-    "learning_rate": 2e-5,                     # Naikkan ke 2e-5 untuk fine-tuning yang proper
+    "num_train_epochs": 5,                     # 5 epoch untuk memorisasi lebih baik
+    "per_device_train_batch_size": 8,          # Turunkan batch agar muat context panjang
+    "per_device_eval_batch_size": 8,
+    "gradient_accumulation_steps": 4,          # Total batch = 32 (8 * 4)
+    "learning_rate": 3e-5,                     # Naikkan learning rate untuk konvergensi cepat
     "weight_decay": 0.01,
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
-    "eval_steps": 500,
+    "eval_steps": 300,                         # Lebih sering evaluasi
     "save_strategy": "steps",
-    "save_steps": 500,
-    "save_total_limit": 1,
+    "save_steps": 300,
+    "save_total_limit": 2,                     # Simpan 2 checkpoint terbaik
+    "load_best_model_at_end": True,           # Load model terbaik di akhir
+    "metric_for_best_model": "eval_loss",
     "fp16": torch.cuda.is_available(),
+    "gradient_checkpointing": True,            # Aktifkan untuk memory efficiency
     "dataloader_num_workers": 4,
     "seed": 42,
     "report_to": "none",
+    "max_grad_norm": 1.0,                      # Gradient clipping untuk stabilitas
 }
 
 
@@ -93,8 +97,8 @@ def load_combined_datasets(file_paths):
     return Dataset.from_list(combined_data)
 
 
-def tokenize_function(examples, tokenizer, max_length=256):
-    """Tokenize texts - 256 sudah cukup untuk instruksi pendek"""
+def tokenize_function(examples, tokenizer, max_length=512):
+    """Tokenize texts - 512 token untuk QA yang lebih lengkap tanpa dipotong"""
     return tokenizer(
         examples["text"],
         truncation=True,
@@ -145,7 +149,7 @@ def main():
     print(f"   - Eval: {len(eval_dataset)} samples")
     
     # Tokenize
-    print("\n🔤 Tokenizing (Max Length: 256)...")
+    print("\n🔤 Tokenizing (Max Length: 512 - Full Context)...")
     train_dataset = train_dataset.map(
         lambda x: tokenize_function(x, tokenizer),
         batched=True,

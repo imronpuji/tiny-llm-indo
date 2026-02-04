@@ -23,10 +23,10 @@ import re
 
 CONFIG = {
     "output_dir": "./dataset",
-    "max_length": 512,  # Token per sequence
-    "min_length": 50,   # Minimum karakter per teks
-    "train_size": 50000,  # Jumlah sample training
-    "eval_size": 2000,    # Jumlah sample evaluasi
+    "max_length": 1024,  # Token per sequence - full context
+    "min_length": 50,    # Minimum karakter per teks
+    "train_size": 100000, # Perbanyak sample training (100K)
+    "eval_size": 5000,    # Perbanyak sample evaluasi
     "seed": 42,
     "tokenizer": "cahya/gpt2-small-indonesian-522M",  # Tokenizer Indonesia
 }
