@@ -4,6 +4,10 @@ Test Script untuk Tiny Indonesian LLM
 Support text generation dan Q&A mode
 """
 
+import os
+# Force single GPU (device 0)
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 import torch
 from transformers import GPT2LMHeadModel, AutoTokenizer
 
