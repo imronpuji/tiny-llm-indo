@@ -52,9 +52,9 @@ EVAL_PREFERENCE = "./dataset/eval_preference.json"
 DPO_CONFIG = {
     "output_dir": "./dpo-checkpoints",
     "num_train_epochs": 3,
-    "per_device_train_batch_size": 4,      # DPO butuh memory lebih
-    "per_device_eval_batch_size": 4,
-    "gradient_accumulation_steps": 4,      # Effective batch = 16
+    "per_device_train_batch_size": 2,      # Turunkan ke 2 untuk 1024 tokens
+    "per_device_eval_batch_size": 2,
+    "gradient_accumulation_steps": 8,      # Effective batch = 16
     "learning_rate": 5e-7,                 # Learning rate sangat kecil untuk DPO
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
@@ -76,8 +76,8 @@ DPO_CONFIG = {
     
     # DPO Specific
     "beta": 0.1,                           # DPO beta parameter (0.01 - 0.5)
-    "max_prompt_length": 256,
-    "max_length": 512,
+    "max_prompt_length": 512,
+    "max_length": 1024,
 }
 
 
@@ -121,7 +121,7 @@ def main():
     print(f"\n📦 Loading model: {BASE_MODEL_PATH}")
     model = AutoModelForCausalLM.from_pretrained(
         BASE_MODEL_PATH,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
     )
     
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_PATH)
@@ -137,7 +137,10 @@ def main():
     print(f"   - Eval: {len(eval_dataset)} pairs")
     
     # DPO Training Arguments
-    training_args = DPOConfig(**DPO_CONFIG)
+    training_args = DPOConfig(
+        **DPO_CONFIG,
+        tokenizer=tokenizer,  # Tokenizer masuk ke config
+    )
     
     # DPO Trainer
     print("\n🏗️  Initializing DPO Trainer...")
@@ -147,7 +150,6 @@ def main():
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
-        tokenizer=tokenizer,
     )
     
     # Training

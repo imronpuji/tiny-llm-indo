@@ -51,9 +51,9 @@ EVAL_DATA_FILES = [
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
     "num_train_epochs": 5,                     # 5 epoch untuk memorisasi lebih baik
-    "per_device_train_batch_size": 8,          # Turunkan batch agar muat context panjang
-    "per_device_eval_batch_size": 8,
-    "gradient_accumulation_steps": 4,          # Total batch = 32 (8 * 4)
+    "per_device_train_batch_size": 4,          # Turunkan ke 4 untuk 1024 tokens
+    "per_device_eval_batch_size": 4,
+    "gradient_accumulation_steps": 8,          # Total batch = 32 (4 * 8)
     "learning_rate": 3e-5,                     # Naikkan learning rate untuk konvergensi cepat
     "weight_decay": 0.01,
     "warmup_ratio": 0.1,
@@ -97,8 +97,8 @@ def load_combined_datasets(file_paths):
     return Dataset.from_list(combined_data)
 
 
-def tokenize_function(examples, tokenizer, max_length=512):
-    """Tokenize texts - 512 token untuk QA yang lebih lengkap tanpa dipotong"""
+def tokenize_function(examples, tokenizer, max_length=1024):
+    """Tokenize texts - 1024 token untuk long-form QA tanpa dipotong"""
     return tokenizer(
         examples["text"],
         truncation=True,
@@ -149,7 +149,7 @@ def main():
     print(f"   - Eval: {len(eval_dataset)} samples")
     
     # Tokenize
-    print("\n🔤 Tokenizing (Max Length: 512 - Full Context)...")
+    print("\n🔤 Tokenizing (Max Length: 1024 - Long Context)...")
     train_dataset = train_dataset.map(
         lambda x: tokenize_function(x, tokenizer),
         batched=True,
