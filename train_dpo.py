@@ -137,10 +137,7 @@ def main():
     print(f"   - Eval: {len(eval_dataset)} pairs")
     
     # DPO Training Arguments
-    training_args = DPOConfig(
-        **DPO_CONFIG,
-        tokenizer=tokenizer,  # Tokenizer masuk ke config
-    )
+    training_args = DPOConfig(**DPO_CONFIG)
     
     # DPO Trainer
     print("\n🏗️  Initializing DPO Trainer...")
@@ -148,6 +145,7 @@ def main():
         model=model,
         ref_model=None,  # Reference model akan dibuat otomatis
         args=training_args,
+        processing_class=tokenizer,  # TRL 0.27+ menggunakan processing_class
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
     )
