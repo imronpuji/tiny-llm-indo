@@ -66,7 +66,8 @@ DPO_CONFIG = {
     "save_total_limit": 2,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "fp16": torch.cuda.is_available(),
+    "bf16": torch.cuda.is_available(),     # BF16 lebih stabil untuk DPO
+    "fp16": False,                         # Disable FP16
     "gradient_checkpointing": True,
     "dataloader_num_workers": 2,
     "seed": 42,
