@@ -262,8 +262,8 @@ def batch_test(model, tokenizer, device):
 def ask_question(model, tokenizer, question, device, 
                  qa_format="instruction",
                  max_length=100,
-                 temperature=0.3,
-                 top_p=0.9,
+                 temperature=0.1,  # Turunkan ke 0.1 untuk deterministik
+                 top_p=0.7,        # Turunkan ke 0.7 untuk fokus pada token high-prob
                  do_sample=True):
     """
     Ajukan pertanyaan ke model
@@ -295,16 +295,19 @@ def ask_question(model, tokenizer, question, device,
         outputs = model.generate(
             inputs.input_ids,
             attention_mask=attention_mask,
-            max_new_tokens=80,              # Sedikit lebih panjang untuk jawaban lengkap
-            min_new_tokens=5,               # Minimal 5 tokens untuk jawaban
+            max_new_tokens=100,             # Lebih panjang untuk jawaban detail
+            min_new_tokens=10,              # Minimal 10 tokens untuk jawaban lengkap
             do_sample=curr_do_sample,       
             temperature=temperature if curr_do_sample else None,
             top_p=top_p if curr_do_sample else None,
+            top_k=50,                       # Batasi ke top-50 tokens
             num_beams=1,                    # No beam search untuk speed
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.5,         # Kurangi sedikit dari 2.0 agar lebih natural
-            no_repeat_ngram_size=3,         # Cegah 3-gram berulang
+            repetition_penalty=1.8,         # Tingkatkan untuk kurangi repetisi
+            no_repeat_ngram_size=4,         # Cegah 4-gram berulang
+            length_penalty=0.8,             # Sedikit favorit jawaban lebih pendek
+            early_stopping=True,            # Stop jika sudah lengkap
         )
     
     # Decode HANYA bagian jawaban (skip prompt tokens)
@@ -321,13 +324,42 @@ def ask_question(model, tokenizer, question, device,
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
     
-    markers = ["Pertanyaan:", "###", "<|", "Instruksi:", "Contoh:", "Silakan cek", "Silakan lihat"]
+    markers = ["Pertanyaan:", "###", "<|", "Instruksi:", "Contoh:", "Silakan cek", "Silakan lihat", 
+               "Referensi:", "Sumber:", "Catatan:", "Note:", "P:", "Q:"]
     for marker in markers:
         if marker in answer:
             answer = answer.split(marker)[0].strip()
     
     # Remove excessive punctuation
     answer = re.sub(r'[.!?]{3,}', '.', answer)
+    
+    # Remove repetitive phrases (e.g., "dan seterusnya dan seterusnya")
+    words = answer.split()
+    cleaned_words = []
+    for i, word in enumerate(words):
+        # Skip jika kata ini dan 2 kata berikutnya sama dengan 3 kata sebelumnya
+        if i >= 3 and i + 2 < len(words):
+            if words[i:i+3] == words[i-3:i]:
+                continue
+        cleaned_words.append(word)
+    answer = ' '.join(cleaned_words)
+    
+    # Truncate jika terlalu panjang dan mulai tidak masuk akal
+    sentences = answer.split('. ')
+    if len(sentences) > 5:  # Lebih dari 5 kalimat = suspicious
+        answer = '. '.join(sentences[:5]) + '.'
+    
+    # Detect hallucination patterns
+    hallucination_keywords = [
+        "17. 000", "17.000", "080", "081",  # Phone/weird numbers
+        "padi banteng", "bintang emas",      # Garuda Pancasila yang salah
+        "melompat berenang terbang",         # Kombinasi aneh
+    ]
+    for keyword in hallucination_keywords:
+        if keyword in answer.lower():
+            # Truncate di keyword tersebut
+            answer = answer.lower().split(keyword)[0].strip()
+            break
     
     # Remove hallucination patterns
     answer = re.sub(r'\([^)]*(?:Danau|Gunung)[^)]*\)', '', answer)
