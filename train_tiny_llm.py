@@ -481,6 +481,15 @@ def main():
     train_dataset = load_dataset_from_json(train_path)
     eval_dataset = load_dataset_from_json(eval_path)
     
+    # ============================================================
+    # TEST MODE: Gunakan subset kecil untuk testing
+    # ============================================================
+    TEST_MODE = True  # Set False untuk full training
+    if TEST_MODE:
+        train_dataset = train_dataset.select(range(min(10000, len(train_dataset))))
+        eval_dataset = eval_dataset.select(range(min(2000, len(eval_dataset))))
+        print("⚠️  TEST MODE: Using small subset for testing")
+    
     print(f"✓ Train: {len(train_dataset)} samples")
     print(f"✓ Eval: {len(eval_dataset)} samples")
     
