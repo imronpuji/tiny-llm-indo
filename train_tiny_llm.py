@@ -16,12 +16,11 @@ if FORCE_SINGLE_GPU:
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0 (95GB VRAM)
     print("⚠️  FORCE_SINGLE_GPU=True — Using only GPU 0")
 
-# Multi-GPU Optimizations — Use GLOO backend (NCCL fails on Blackwell)
-os.environ["CUDA_LAUNCH_BLOCKING"] = "0"
-os.environ["TORCH_CUDA_ARCH_LIST"] = "10.0"  # Blackwell (RTX PRO 6000 S)
-os.environ["TOKENIZERS_PARALLELISM"] = "true"
-# NCCL doesn't work well on Blackwell GPUs yet — use GLOO
-os.environ["NCCL_DEBUG"] = "WARN"           # Reduce NCCL noise
+# Blackwell GPU compatibility fixes
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"       # Sync CUDA for debugging
+os.environ["TORCH_CUDA_ARCH_LIST"] = "10.0"    # Blackwell (RTX PRO 6000 S)
+os.environ["TOKENIZERS_PARALLELISM"] = "false" # Avoid fork issues
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 import json
 import torch
@@ -116,7 +115,7 @@ MODEL_CONFIG = {
     "n_layer": 12,         # 12 layers
     "n_head": 16,          # 16 attention heads
     "n_inner": 4096,       # 4x n_embd
-    "activation_function": "gelu_new",
+    "activation_function": "gelu",  # Use standard gelu (more compatible than gelu_new)
     "resid_pdrop": 0.05,   # Lower dropout agar model lebih stabil & coherent
     "embd_pdrop": 0.05,
     "attn_pdrop": 0.05,
@@ -137,9 +136,9 @@ MODEL_CONFIG = {
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
     "num_train_epochs": 3,                     # 3 epoch cukup, lebih dari itu overfitting
-    "per_device_train_batch_size": 128,        # Single GPU 95GB — batch 128 aman
-    "per_device_eval_batch_size": 128,
-    "gradient_accumulation_steps": 4,           # Effective batch = 128*4 = 512 (sama seperti sebelumnya)
+    "per_device_train_batch_size": 32,          # Reduced batch — Blackwell driver issues
+    "per_device_eval_batch_size": 32,
+    "gradient_accumulation_steps": 16,          # Effective batch = 32*16 = 512 (sama)
     "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 200M
     "weight_decay": 0.1,                       # Weight decay lebih tinggi untuk regularisasi
     "warmup_ratio": 0.03,                      # 3% warmup — batch sangat besar butuh less warmup
@@ -153,11 +152,10 @@ TRAINING_CONFIG = {
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
-    "bf16": True,                              # Native bf16 support
-    "bf16_full_eval": True,                    # bf16 juga saat eval
-    "dataloader_num_workers": 16,              # Single process, but still fast
+    "fp16": True,                              # Use fp16 instead of bf16 (more compatible)
+    "dataloader_num_workers": 8,               # Reduced workers
     "dataloader_pin_memory": True,
-    "dataloader_prefetch_factor": 4,           # Prefetch lebih banyak data
+    "dataloader_prefetch_factor": 2,           # Reduced prefetch
     "ddp_find_unused_parameters": False,
     "gradient_checkpointing": False,           # MATIKAN — 95GB per GPU >>>
     "seed": 42,
@@ -167,7 +165,7 @@ TRAINING_CONFIG = {
     "adam_beta2": 0.95,                        # 0.95 lebih stabil dari default 0.999
     "adam_epsilon": 1e-8,
     "torch_compile": False,                    # MATIKAN untuk kompatibilitas
-    "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat
+    "optim": "adamw_torch",                    # Standard AdamW (fused may have issues)
 }
 
 # ============================================================
