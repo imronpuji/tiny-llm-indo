@@ -113,14 +113,14 @@ else
     echo -e "${GREEN}  Skip: Alpaca QA dataset exists${NC}"
 fi
 
-# Regulation QA
-if [ ! -f "./dataset/train_regulation_qa.json" ]; then
-    echo "  -> Downloading Regulation QA..."
-    python add_regulation_qa.py
-    echo -e "${GREEN}  Done: Regulation QA dataset${NC}"
-else
-    echo -e "${GREEN}  Skip: Regulation QA dataset exists${NC}"
-fi
+# Regulation QA — SKIPPED (tidak diikutkan)
+# if [ ! -f "./dataset/train_regulation_qa.json" ]; then
+#     echo "  -> Downloading Regulation QA..."
+#     python add_regulation_qa.py
+#     echo -e "${GREEN}  Done: Regulation QA dataset${NC}"
+# else
+#     echo -e "${GREEN}  Skip: Regulation QA dataset exists${NC}"
+# fi
 
 # Preference pairs for DPO
 if [ ! -f "./dataset/train_preference.json" ]; then
