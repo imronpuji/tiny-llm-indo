@@ -11,7 +11,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # H200 NVL Optimizations
 os.environ["CUDA_LAUNCH_BLOCKING"] = "0"
-os.environ["TORCH_CUDA_ARCH_LIST"] = "9.0"  # H200 = Hopper
+os.environ["TORCH_CUDA_ARCH_LIST"] = "9.0"  # Hopper/Ada
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
 import json
@@ -117,20 +117,18 @@ MODEL_CONFIG = {
 }
 
 # ============================================================
-# H200 NVL SPECS:
-#   - 140.4 GB VRAM (HBM3e)
-#   - 48.3 TFLOPS (FP32), ~989 TFLOPS (FP8)
-#   - 3862.3 GB/s memory bandwidth
-#   - PCIe 5.0 x16
-#   - 24 CPU cores (AMD EPYC 9255)
+# RTX 5090 SPECS:
+#   - 33.7 GB VRAM
+#   - ~218 TFLOPS
+#   - 80 CPU cores (AMD EPYC 9V74)
 # ============================================================
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
     "num_train_epochs": 3,                     # 3 epoch cukup, lebih dari itu overfitting
-    "per_device_train_batch_size": 128,        # H200 140GB bisa handle batch besar untuk 150M model
-    "per_device_eval_batch_size": 128,
-    "gradient_accumulation_steps": 2,          # Effective batch = 128*2 = 256 (sangat stabil convergence)
+    "per_device_train_batch_size": 32,          # RTX 5090 32GB — batch 32 aman untuk 200M + seq 2048
+    "per_device_eval_batch_size": 32,
+    "gradient_accumulation_steps": 8,           # Effective batch = 32*8 = 256 (sangat stabil convergence)
     "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 150M
     "weight_decay": 0.1,                       # Weight decay lebih tinggi untuk regularisasi
     "warmup_ratio": 0.06,                      # 6% warmup — batch besar butuh less warmup
@@ -139,18 +137,18 @@ TRAINING_CONFIG = {
     "eval_strategy": "steps",
     "eval_steps": 200,
     "save_strategy": "steps",
-    "save_steps": 500,
+    "save_steps": 400,                         # Must be multiple of eval_steps (200)
     "save_total_limit": 5,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
-    "bf16": True,                              # H200 native bf16 support (Hopper arch)
+    "bf16": True,                              # Native bf16 support
     "bf16_full_eval": True,                    # bf16 juga saat eval
-    "dataloader_num_workers": 24,              # Match 24 CPU cores
+    "dataloader_num_workers": 24,              # Reasonable for system stability
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,           # Prefetch lebih banyak data
     "ddp_find_unused_parameters": False,
-    "gradient_checkpointing": False,           # MATIKAN — H200 140GB cukup VRAM, lebih cepat tanpa ini
+    "gradient_checkpointing": False,           # MATIKAN — 32GB VRAM cukup untuk 200M model
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
@@ -158,7 +156,7 @@ TRAINING_CONFIG = {
     "adam_beta2": 0.95,                        # 0.95 lebih stabil dari default 0.999
     "adam_epsilon": 1e-8,
     "torch_compile": True,                     # torch.compile() — fuse kernels untuk speedup 20-40%
-    "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat di H200
+    "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat
 }
 
 # ============================================================
@@ -485,7 +483,7 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing train",
-        num_proc=12,  # Parallel tokenization — 24 cores / 2
+        num_proc=20,  # Parallel tokenization — 80 cores available
     )
     
     eval_dataset = eval_dataset.map(
@@ -493,7 +491,7 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing eval",
-        num_proc=12,
+        num_proc=20,
     )
     
     # Data collator

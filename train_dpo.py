@@ -48,13 +48,13 @@ OUTPUT_PATH = "./masa-ai-dpo-aligned"
 TRAIN_PREFERENCE = "./dataset/train_preference.json"
 EVAL_PREFERENCE = "./dataset/eval_preference.json"
 
-# DPO Training Config — OPTIMIZED FOR H200 NVL (140GB VRAM)
+# DPO Training Config — OPTIMIZED FOR ~64GB VRAM GPU
 DPO_CONFIG = {
     "output_dir": "./dpo-checkpoints",
     "num_train_epochs": 2,                     # 2 epoch cukup untuk DPO (lebih = overfitting)
-    "per_device_train_batch_size": 32,          # H200 — DPO butuh 2x memori (model + ref), tapi 140GB cukup
-    "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 4,           # Effective batch = 128
+    "per_device_train_batch_size": 16,          # DPO butuh 2x memori (model + ref), 64GB → batch 16 aman
+    "per_device_eval_batch_size": 16,
+    "gradient_accumulation_steps": 8,           # Effective batch = 128
     "learning_rate": 1e-6,                     # LR sangat kecil untuk DPO (hanya fine-adjust)
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
@@ -66,11 +66,11 @@ DPO_CONFIG = {
     "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "bf16": True,                              # H200 native bf16
+    "bf16": True,
     "bf16_full_eval": True,
     "fp16": False,
-    "gradient_checkpointing": False,           # MATIKAN — H200 VRAM >>>
-    "dataloader_num_workers": 24,              # Match 24 CPU cores
+    "gradient_checkpointing": False,           # MATIKAN — 64GB VRAM cukup
+    "dataloader_num_workers": 40,              # Half of 80 CPU cores
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,
     "seed": 42,

@@ -45,11 +45,11 @@ EVAL_DATA_FILES = [
     "./dataset/eval_alpaca_qa.json"
 ]
 
-# Training config untuk fine-tuning model 150M - OPTIMIZED FOR H200 NVL (140GB VRAM)
+# Training config untuk fine-tuning model 150M - OPTIMIZED FOR ~64GB VRAM GPU
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
     "num_train_epochs": 3,                     # 3 epoch cukup, >3 overfitting
-    "per_device_train_batch_size": 64,          # H200 140GB — SFT bisa batch besar
+    "per_device_train_batch_size": 64,          # 64GB VRAM — batch 64 aman
     "per_device_eval_batch_size": 64,
     "gradient_accumulation_steps": 4,           # Effective batch = 256 (stabil convergence)
     "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT agar tidak rusak pretraining
@@ -64,10 +64,10 @@ FINETUNE_CONFIG = {
     "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "bf16": True,                              # H200 native bf16 support
+    "bf16": True,                              # Native bf16
     "bf16_full_eval": True,
-    "gradient_checkpointing": False,           # MATIKAN — VRAM lebih dari cukup
-    "dataloader_num_workers": 24,              # Match 24 CPU cores
+    "gradient_checkpointing": False,           # MATIKAN — VRAM cukup
+    "dataloader_num_workers": 40,              # Half of 80 CPU cores
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,
     "seed": 42,
@@ -76,7 +76,7 @@ FINETUNE_CONFIG = {
     "adam_beta1": 0.9,
     "adam_beta2": 0.95,                        # Lebih stabil
     "torch_compile": True,                     # torch.compile() speedup
-    "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat
+    "optim": "adamw_torch_fused",              # Fused AdamW
 }
 
 
@@ -161,7 +161,7 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing train",
-        num_proc=12,  # Parallel tokenization dengan 24 cores
+        num_proc=20,  # Parallel tokenization — 80 cores
     )
     
     eval_dataset = eval_dataset.map(
@@ -169,7 +169,7 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing eval",
-        num_proc=12,
+        num_proc=20,
     )
     
     # Data collator
