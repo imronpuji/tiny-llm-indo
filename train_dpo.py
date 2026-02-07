@@ -13,7 +13,7 @@ Penggunaan:
 """
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
 
 import json
 import torch
@@ -48,29 +48,29 @@ OUTPUT_PATH = "./masa-ai-dpo-aligned"
 TRAIN_PREFERENCE = "./dataset/train_preference.json"
 EVAL_PREFERENCE = "./dataset/eval_preference.json"
 
-# DPO Training Config — OPTIMIZED FOR ~64GB VRAM GPU
+# DPO Training Config — OPTIMIZED FOR 4x RTX PRO 6000 S (382GB VRAM total)
 DPO_CONFIG = {
     "output_dir": "./dpo-checkpoints",
     "num_train_epochs": 2,                     # 2 epoch cukup untuk DPO (lebih = overfitting)
-    "per_device_train_batch_size": 16,          # DPO butuh 2x memori (model + ref), 64GB → batch 16 aman
-    "per_device_eval_batch_size": 16,
-    "gradient_accumulation_steps": 8,           # Effective batch = 128
+    "per_device_train_batch_size": 32,          # DPO butuh 2x memori, 95GB per GPU masih cukup
+    "per_device_eval_batch_size": 32,
+    "gradient_accumulation_steps": 2,           # Effective batch = 32*4*2 = 256
     "learning_rate": 1e-6,                     # LR sangat kecil untuk DPO (hanya fine-adjust)
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
-    "eval_steps": 50,
+    "eval_steps": 25,
     "save_strategy": "steps",
-    "save_steps": 100,
+    "save_steps": 50,
     "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "bf16": True,
     "bf16_full_eval": True,
     "fp16": False,
-    "gradient_checkpointing": False,           # MATIKAN — 64GB VRAM cukup
-    "dataloader_num_workers": 40,              # Half of 80 CPU cores
+    "gradient_checkpointing": False,           # MATIKAN — 95GB per GPU >>>
+    "dataloader_num_workers": 16,              # Per GPU
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,
     "seed": 42,

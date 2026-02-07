@@ -3,45 +3,46 @@
 # ============================================================
 # FULL TRAINING PIPELINE — FROM SCRATCH TO DEPLOYED
 # ============================================================
-# Optimized for: ~64GB VRAM GPU (218 TFLOPS)
+# Optimized for: 4x RTX PRO 6000 S (382GB VRAM total)
 # Pipeline lengkap: Dataset → Pre-training → SFT → DPO → Test
 #
 # Hardware specs:
-#   - GPU: ~64GB VRAM, 218.3 TFLOPS, 1457.3 GB/s bandwidth
-#   - CPU: AMD EPYC 9V74 80-Core (160 threads)
-#   - RAM: 128.7 GB
-#   - Disk: NVMe (1966 MB/s)
+#   - GPU: 4x RTX PRO 6000 S (~95GB each, 382GB total)
+#   - TFLOPS: 374.2 total
+#   - CPU: AMD EPYC 9335 64-Core (128 threads)
+#   - RAM: 773.9 GB
+#   - Disk: Samsung NVMe (5551 MB/s)
 #
-# Estimasi waktu total:
-#   - Pre-training: 3-5 jam (150M params, batch=256 effective)
-#   - SFT: 30-60 menit
-#   - DPO: 10-20 menit
+# Estimasi waktu total (4x GPU):
+#   - Pre-training: 1-2 jam (200M params, effective batch=512)
+#   - SFT: 15-30 menit
+#   - DPO: 5-10 menit
 # ============================================================
 
 set -e  # Exit on error
 
-# Force GPU 0 to avoid CUDA device selection errors
-export CUDA_VISIBLE_DEVICES=0
-
 # ============================================================
-# GPU CUDA OPTIMIZATIONS
+# 4x GPU MULTI-GPU OPTIMIZATIONS
 # ============================================================
 export CUDA_LAUNCH_BLOCKING=0
-export TORCH_CUDA_ARCH_LIST="9.0"                    # Hopper/Ada architecture
+export TORCH_CUDA_ARCH_LIST="8.9"                    # Ada Lovelace architecture
 export TOKENIZERS_PARALLELISM=true
-export CUDA_DEVICE_MAX_CONNECTIONS=1                  # Better overlap
-export NCCL_IB_DISABLE=0
-export OMP_NUM_THREADS=40                             # Half of 80 CPU cores
-export MKL_NUM_THREADS=40
+export NCCL_P2P_DISABLE=0                            # Enable P2P for multi-GPU
+export NCCL_IB_DISABLE=1                             # Disable InfiniBand
+export OMP_NUM_THREADS=16                            # Per GPU thread pool
+export MKL_NUM_THREADS=16
 
 # PyTorch performance tuning
-export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"  # Better memory management
-export TORCH_CUDNN_V8_API_ENABLED=1                   # cuDNN v8 optimization
-export CUBLAS_WORKSPACE_CONFIG=":4096:8"               # Deterministic cuBLAS
+export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+export TORCH_CUDNN_V8_API_ENABLED=1
+export CUBLAS_WORKSPACE_CONFIG=":4096:8"
+
+# Number of GPUs
+NUM_GPUS=4
 
 echo "============================================================"
-echo "  FULL TRAINING PIPELINE — MASA AI 150M"
-echo "  Optimized for ~64GB VRAM GPU (218 TFLOPS)"
+echo "  FULL TRAINING PIPELINE — MASA AI 200M"
+echo "  4x RTX PRO 6000 S (382GB VRAM total)"
 echo "============================================================"
 echo ""
 

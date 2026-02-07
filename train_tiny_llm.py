@@ -1,18 +1,20 @@
 """
-Training Script untuk Tiny Indonesian LLM (150M params)
+Training Script untuk Tiny Indonesian LLM (200M params)
 ======================================================
-Optimized for NVIDIA H200 NVL (140GB VRAM)
+Optimized for 4x RTX PRO 6000 S (382GB VRAM total)
 Dengan early stopping dan optimasi untuk menghindari overfitting
 Support PEFT (Parameter-Efficient Fine-Tuning) dan LoRA
 """
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
 
-# H200 NVL Optimizations
+# Multi-GPU Optimizations
 os.environ["CUDA_LAUNCH_BLOCKING"] = "0"
-os.environ["TORCH_CUDA_ARCH_LIST"] = "9.0"  # Hopper/Ada
+os.environ["TORCH_CUDA_ARCH_LIST"] = "8.9"  # Ada Lovelace (RTX 6000)
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
+os.environ["NCCL_P2P_DISABLE"] = "0"        # Enable P2P for multi-GPU
+os.environ["NCCL_IB_DISABLE"] = "1"         # Disable InfiniBand (not needed)
 
 import json
 import torch
@@ -117,46 +119,49 @@ MODEL_CONFIG = {
 }
 
 # ============================================================
-# RTX 5090 SPECS:
-#   - 33.7 GB VRAM
-#   - ~218 TFLOPS
-#   - 80 CPU cores (AMD EPYC 9V74)
+# 4x RTX PRO 6000 S SPECS:
+#   - 382.4 GB VRAM total (~95GB per GPU)
+#   - 374.2 TFLOPS total
+#   - 64 CPU cores (AMD EPYC 9335)
+#   - 773.9 GB RAM
+#   - 5551 MB/s disk
 # ============================================================
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
     "num_train_epochs": 3,                     # 3 epoch cukup, lebih dari itu overfitting
-    "per_device_train_batch_size": 32,          # RTX 5090 32GB — batch 32 aman untuk 200M + seq 2048
-    "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 8,           # Effective batch = 32*8 = 256 (sangat stabil convergence)
-    "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 150M
+    "per_device_train_batch_size": 64,          # 95GB per GPU — batch 64 sangat aman
+    "per_device_eval_batch_size": 64,
+    "gradient_accumulation_steps": 2,           # Effective batch = 64*4GPUs*2 = 512 (super stabil)
+    "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 200M
     "weight_decay": 0.1,                       # Weight decay lebih tinggi untuk regularisasi
-    "warmup_ratio": 0.06,                      # 6% warmup — batch besar butuh less warmup
+    "warmup_ratio": 0.03,                      # 3% warmup — batch sangat besar butuh less warmup
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
-    "eval_steps": 200,
+    "eval_steps": 100,
     "save_strategy": "steps",
-    "save_steps": 400,                         # Must be multiple of eval_steps (200)
+    "save_steps": 200,                         # Must be multiple of eval_steps (100)
     "save_total_limit": 5,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
     "bf16": True,                              # Native bf16 support
     "bf16_full_eval": True,                    # bf16 juga saat eval
-    "dataloader_num_workers": 24,              # Reasonable for system stability
+    "dataloader_num_workers": 16,              # Per GPU, total 64 workers
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,           # Prefetch lebih banyak data
     "ddp_find_unused_parameters": False,
-    "gradient_checkpointing": False,           # MATIKAN — 32GB VRAM cukup untuk 200M model
+    "gradient_checkpointing": False,           # MATIKAN — 95GB per GPU >>>
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
     "adam_beta1": 0.9,                         # Standard untuk LLM training
     "adam_beta2": 0.95,                        # 0.95 lebih stabil dari default 0.999
     "adam_epsilon": 1e-8,
-    "torch_compile": True,                     # torch.compile() — fuse kernels untuk speedup 20-40%
+    "torch_compile": True,                     # torch.compile() — fuse kernels untuk speedup
     "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat
+    "ddp_backend": "nccl",                     # NCCL untuk multi-GPU
 }
 
 # ============================================================

@@ -8,7 +8,7 @@ Penggunaan:
 """
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
 
 import json
 import torch
@@ -45,29 +45,29 @@ EVAL_DATA_FILES = [
     "./dataset/eval_alpaca_qa.json"
 ]
 
-# Training config untuk fine-tuning model 150M - OPTIMIZED FOR ~64GB VRAM GPU
+# Training config untuk fine-tuning model 200M - OPTIMIZED FOR 4x RTX PRO 6000 S (382GB VRAM)
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
     "num_train_epochs": 3,                     # 3 epoch cukup, >3 overfitting
-    "per_device_train_batch_size": 64,          # 64GB VRAM — batch 64 aman
+    "per_device_train_batch_size": 64,          # 95GB per GPU — batch 64 aman
     "per_device_eval_batch_size": 64,
-    "gradient_accumulation_steps": 4,           # Effective batch = 256 (stabil convergence)
+    "gradient_accumulation_steps": 2,           # Effective batch = 64*4*2 = 512
     "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT agar tidak rusak pretraining
     "weight_decay": 0.01,
-    "warmup_ratio": 0.06,                      # 6% warmup
+    "warmup_ratio": 0.03,                      # 3% warmup — batch besar
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
-    "eval_steps": 100,
+    "eval_steps": 50,
     "save_strategy": "steps",
-    "save_steps": 200,
+    "save_steps": 100,
     "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "bf16": True,                              # Native bf16
     "bf16_full_eval": True,
-    "gradient_checkpointing": False,           # MATIKAN — VRAM cukup
-    "dataloader_num_workers": 40,              # Half of 80 CPU cores
+    "gradient_checkpointing": False,           # MATIKAN — VRAM >>>
+    "dataloader_num_workers": 16,              # Per GPU, total 64 workers
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,
     "seed": 42,
@@ -77,6 +77,7 @@ FINETUNE_CONFIG = {
     "adam_beta2": 0.95,                        # Lebih stabil
     "torch_compile": True,                     # torch.compile() speedup
     "optim": "adamw_torch_fused",              # Fused AdamW
+    "ddp_backend": "nccl",                     # NCCL untuk multi-GPU
 }
 
 
