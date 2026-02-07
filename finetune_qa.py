@@ -148,6 +148,10 @@ def main():
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     
+    # IMPORTANT: Resize embeddings to match tokenizer vocab size
+    model.resize_token_embeddings(len(tokenizer))
+    print(f"   ✓ Embeddings resized to vocab size: {len(tokenizer)}")
+    
     # Load datasets
     print(f"\n📂 Loading & Merging datasets...")
     train_dataset = load_combined_datasets(TRAIN_DATA_FILES)
