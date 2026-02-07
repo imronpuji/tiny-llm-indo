@@ -160,27 +160,27 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[3/6] Pre-training 150M model from scratch...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (GPU Optimized):"
-echo "    - Parameters: ~150M"
-echo "    - Context: 2048 tokens (extended)"
+echo "  Config (4x GPU Optimized):"
+echo "    - Parameters: ~200M"
+echo "    - Context: 2048 tokens"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 6e-4 (Chinchilla-optimal)"
-echo "    - Batch Size: 64 per device"
-echo "    - Effective Batch: 256 (64 * 4 grad_accum)"
-echo "    - Warmup: 6%"
+echo "    - Batch Size: 64 per GPU x 4 GPUs = 256"
+echo "    - Effective Batch: 512 (256 * 2 grad_accum)"
+echo "    - Warmup: 3%"
 echo "    - Precision: bf16"
-echo "    - Gradient Checkpointing: OFF (64GB VRAM cukup)"
-echo "    - torch.compile: ON (20-40% speedup)"
+echo "    - Gradient Checkpointing: OFF"
+echo "    - torch.compile: ON"
 echo "    - Optimizer: Fused AdamW"
-echo "    - Weight Init: GPT-2 scaled initialization"
+echo "    - DDP Backend: NCCL"
 echo ""
-echo "  Estimasi: 3-5 jam"
+echo "  Estimasi: 1-2 jam (4x RTX PRO 6000 S)"
 echo "-----------------------------------------------------------"
 echo ""
 
 if [ ! -d "./tiny-llm-indo-final" ]; then
-    echo "  -> Starting pre-training..."
-    python train_tiny_llm.py
+    echo "  -> Starting multi-GPU pre-training..."
+    torchrun --nproc_per_node=4 train_tiny_llm.py
     echo -e "${GREEN}  Done: Pre-training complete${NC}"
 else
     echo -e "${GREEN}  Skip: Pre-trained model found${NC}"
@@ -194,15 +194,15 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[4/6] Supervised Fine-Tuning (SFT)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (GPU Optimized):"
+echo "  Config (4x GPU Optimized):"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 2e-5 (gentle SFT)"
-echo "    - Batch Size: 64 per device"
-echo "    - Effective Batch: 256 (64 * 4 grad_accum)"
+echo "    - Batch Size: 64 per GPU x 4 GPUs = 256"
+echo "    - Effective Batch: 512 (256 * 2 grad_accum)"
 echo "    - Precision: bf16"
 echo "    - torch.compile: ON"
 echo ""
-echo "  Estimasi: 30-60 menit"
+echo "  Estimasi: 15-30 menit"
 echo "-----------------------------------------------------------"
 echo ""
 
@@ -212,8 +212,8 @@ if [ ! -d "./masa-ai-qa-v2" ] && [ ! -d "./tiny-llm-indo-final" ]; then
     exit 1
 fi
 
-echo "  -> Starting SFT..."
-python finetune_qa.py || { echo -e "${RED}  SFT failed!${NC}"; exit 1; }
+echo "  -> Starting multi-GPU SFT..."
+torchrun --nproc_per_node=4 finetune_qa.py || { echo -e "${RED}  SFT failed!${NC}"; exit 1; }
 echo -e "${GREEN}  Done: SFT complete${NC}"
 echo ""
 sleep 1
@@ -223,20 +223,20 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[5/6] DPO Alignment (Coherence & Anti-Hallucination)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (GPU Optimized):"
+echo "  Config (4x GPU Optimized):"
 echo "    - Beta: 0.2 (conservative)"
 echo "    - Epochs: 2"
-echo "    - Batch Size: 32 per device"
-echo "    - Effective Batch: 128 (32 * 4 grad_accum)"
+echo "    - Batch Size: 32 per GPU x 4 GPUs = 128"
+echo "    - Effective Batch: 256 (128 * 2 grad_accum)"
 echo "    - Learning Rate: 1e-6"
 echo "    - Precision: bf16"
 echo ""
-echo "  Estimasi: 10-20 menit"
+echo "  Estimasi: 5-10 menit"
 echo "-----------------------------------------------------------"
 echo ""
 
-echo "  -> Starting DPO alignment..."
-python train_dpo.py || { echo -e "${RED}  DPO failed!${NC}"; exit 1; }
+echo "  -> Starting multi-GPU DPO alignment..."
+torchrun --nproc_per_node=4 train_dpo.py || { echo -e "${RED}  DPO failed!${NC}"; exit 1; }
 echo -e "${GREEN}  Done: DPO complete${NC}"
 echo ""
 sleep 1

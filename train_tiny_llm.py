@@ -488,7 +488,7 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing train",
-        num_proc=20,  # Parallel tokenization — 80 cores available
+        num_proc=32,  # Parallel tokenization — 64 cores available
     )
     
     eval_dataset = eval_dataset.map(
@@ -496,7 +496,7 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing eval",
-        num_proc=20,
+        num_proc=32,
     )
     
     # Data collator
