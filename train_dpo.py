@@ -15,6 +15,11 @@ Penggunaan:
 import os
 # JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
 
+# Multi-GPU Optimizations — FIX NCCL P2P errors
+os.environ["NCCL_P2P_DISABLE"] = "1"        # DISABLE P2P
+os.environ["NCCL_SHM_DISABLE"] = "0"        # Enable shared memory
+os.environ["NCCL_IB_DISABLE"] = "1"         # Disable InfiniBand
+
 import json
 import torch
 from datasets import Dataset
@@ -77,7 +82,7 @@ DPO_CONFIG = {
     "report_to": "none",
     "remove_unused_columns": False,
     "max_grad_norm": 0.5,                      # Gradient clip lebih ketat untuk DPO
-    "torch_compile": True,                     # torch.compile() speedup
+    "torch_compile": False,                    # MATIKAN — tidak kompatibel dengan DDP
     "optim": "adamw_torch_fused",              # Fused AdamW
     
     # DPO Specific

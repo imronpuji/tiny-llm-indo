@@ -7,14 +7,21 @@ Support PEFT (Parameter-Efficient Fine-Tuning) dan LoRA
 """
 
 import os
-# JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
+# ============================================================
+# SINGLE GPU MODE — Set to True if multi-GPU fails
+# ============================================================
+FORCE_SINGLE_GPU = True  # Blackwell GPUs have NCCL issues, use single GPU
 
-# Multi-GPU Optimizations
+if FORCE_SINGLE_GPU:
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0 (95GB VRAM)
+    print("⚠️  FORCE_SINGLE_GPU=True — Using only GPU 0")
+
+# Multi-GPU Optimizations — Use GLOO backend (NCCL fails on Blackwell)
 os.environ["CUDA_LAUNCH_BLOCKING"] = "0"
-os.environ["TORCH_CUDA_ARCH_LIST"] = "8.9"  # Ada Lovelace (RTX 6000)
+os.environ["TORCH_CUDA_ARCH_LIST"] = "10.0"  # Blackwell (RTX PRO 6000 S)
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
-os.environ["NCCL_P2P_DISABLE"] = "0"        # Enable P2P for multi-GPU
-os.environ["NCCL_IB_DISABLE"] = "1"         # Disable InfiniBand (not needed)
+# NCCL doesn't work well on Blackwell GPUs yet — use GLOO
+os.environ["NCCL_DEBUG"] = "WARN"           # Reduce NCCL noise
 
 import json
 import torch
@@ -130,9 +137,9 @@ MODEL_CONFIG = {
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
     "num_train_epochs": 3,                     # 3 epoch cukup, lebih dari itu overfitting
-    "per_device_train_batch_size": 64,          # 95GB per GPU — batch 64 sangat aman
-    "per_device_eval_batch_size": 64,
-    "gradient_accumulation_steps": 2,           # Effective batch = 64*4GPUs*2 = 512 (super stabil)
+    "per_device_train_batch_size": 128,        # Single GPU 95GB — batch 128 aman
+    "per_device_eval_batch_size": 128,
+    "gradient_accumulation_steps": 4,           # Effective batch = 128*4 = 512 (sama seperti sebelumnya)
     "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 200M
     "weight_decay": 0.1,                       # Weight decay lebih tinggi untuk regularisasi
     "warmup_ratio": 0.03,                      # 3% warmup — batch sangat besar butuh less warmup
@@ -148,7 +155,7 @@ TRAINING_CONFIG = {
     "greater_is_better": False,
     "bf16": True,                              # Native bf16 support
     "bf16_full_eval": True,                    # bf16 juga saat eval
-    "dataloader_num_workers": 16,              # Per GPU, total 64 workers
+    "dataloader_num_workers": 16,              # Single process, but still fast
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,           # Prefetch lebih banyak data
     "ddp_find_unused_parameters": False,
@@ -159,9 +166,8 @@ TRAINING_CONFIG = {
     "adam_beta1": 0.9,                         # Standard untuk LLM training
     "adam_beta2": 0.95,                        # 0.95 lebih stabil dari default 0.999
     "adam_epsilon": 1e-8,
-    "torch_compile": True,                     # torch.compile() — fuse kernels untuk speedup
+    "torch_compile": False,                    # MATIKAN untuk kompatibilitas
     "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat
-    "ddp_backend": "nccl",                     # NCCL untuk multi-GPU
 }
 
 # ============================================================

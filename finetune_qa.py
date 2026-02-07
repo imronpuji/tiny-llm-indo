@@ -10,6 +10,11 @@ Penggunaan:
 import os
 # JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
 
+# Multi-GPU Optimizations — FIX NCCL P2P errors
+os.environ["NCCL_P2P_DISABLE"] = "1"        # DISABLE P2P
+os.environ["NCCL_SHM_DISABLE"] = "0"        # Enable shared memory
+os.environ["NCCL_IB_DISABLE"] = "1"         # Disable InfiniBand
+
 import json
 import torch
 from datasets import Dataset
@@ -75,7 +80,7 @@ FINETUNE_CONFIG = {
     "max_grad_norm": 1.0,
     "adam_beta1": 0.9,
     "adam_beta2": 0.95,                        # Lebih stabil
-    "torch_compile": True,                     # torch.compile() speedup
+    "torch_compile": False,                    # MATIKAN — tidak kompatibel dengan DDP
     "optim": "adamw_torch_fused",              # Fused AdamW
     "ddp_backend": "nccl",                     # NCCL untuk multi-GPU
 }
