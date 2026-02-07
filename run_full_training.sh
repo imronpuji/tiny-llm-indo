@@ -13,6 +13,9 @@
 
 set -e  # Exit on error
 
+# Force GPU 0 to avoid CUDA device selection errors
+export CUDA_VISIBLE_DEVICES=0
+
 echo "============================================================"
 echo "  FULL TRAINING PIPELINE — MASA AI 150M"
 echo "============================================================"
@@ -44,7 +47,7 @@ python -c "import trl; print(f'  TRL: {trl.__version__}')" 2>/dev/null || {
 
 if python -c "import torch; assert torch.cuda.is_available()"; then
     GPU_NAME=$(python -c "import torch; print(torch.cuda.get_device_name(0))")
-    GPU_MEM=$(python -c "import torch; print(f'{torch.cuda.get_device_properties(0).total_mem / 1e9:.1f} GB')")
+    GPU_MEM=$(python -c "import torch; print(f'{torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB')")
     echo -e "${GREEN}  GPU: ${GPU_NAME} (${GPU_MEM})${NC}"
 else
     echo -e "${YELLOW}  WARNING: No GPU detected. Training will be VERY slow.${NC}"

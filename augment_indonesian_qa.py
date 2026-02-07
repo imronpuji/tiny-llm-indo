@@ -3,6 +3,9 @@ Data Augmentation untuk Indonesian QA
 Meningkatkan pemahaman dengan variasi pertanyaan dan format
 """
 
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 import random
 from datasets import load_dataset, Dataset
 import re

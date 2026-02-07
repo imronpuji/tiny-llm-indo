@@ -4,6 +4,9 @@ Test Script untuk Masa AI Q&A Model
 Model: yasmeenimron/masa-ai-qa (150M parameters)
 """
 
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 import torch
 from transformers import GPT2LMHeadModel, AutoTokenizer
 

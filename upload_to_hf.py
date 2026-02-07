@@ -12,6 +12,8 @@ Sebelum menjalankan:
 """
 
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 from huggingface_hub import HfApi, create_repo
 from transformers import GPT2LMHeadModel, AutoTokenizer
 

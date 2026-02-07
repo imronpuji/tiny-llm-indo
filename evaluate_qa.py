@@ -7,6 +7,9 @@ Penggunaan:
     python evaluate_qa.py ./tiny-llm-indo-qa
 """
 
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 import json
 import torch
 from transformers import GPT2LMHeadModel, AutoTokenizer
