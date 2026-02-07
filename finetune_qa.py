@@ -8,12 +8,10 @@ Penggunaan:
 """
 
 import os
-# JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
-
-# Multi-GPU Optimizations — FIX NCCL P2P errors
-os.environ["NCCL_P2P_DISABLE"] = "1"        # DISABLE P2P
-os.environ["NCCL_SHM_DISABLE"] = "0"        # Enable shared memory
-os.environ["NCCL_IB_DISABLE"] = "1"         # Disable InfiniBand
+# ============================================================
+# SINGLE GPU MODE — NCCL fails on Blackwell GPUs
+# ============================================================
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0
 
 import json
 import torch
@@ -50,13 +48,13 @@ EVAL_DATA_FILES = [
     "./dataset/eval_alpaca_qa.json"
 ]
 
-# Training config untuk fine-tuning model 200M - OPTIMIZED FOR 4x RTX PRO 6000 S (382GB VRAM)
+# Training config untuk fine-tuning model 200M - SINGLE GPU (95GB VRAM)
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
     "num_train_epochs": 3,                     # 3 epoch cukup, >3 overfitting
-    "per_device_train_batch_size": 64,          # 95GB per GPU — batch 64 aman
-    "per_device_eval_batch_size": 64,
-    "gradient_accumulation_steps": 2,           # Effective batch = 64*4*2 = 512
+    "per_device_train_batch_size": 128,         # Single GPU 95GB — batch 128 aman
+    "per_device_eval_batch_size": 128,
+    "gradient_accumulation_steps": 4,           # Effective batch = 128*4 = 512
     "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT agar tidak rusak pretraining
     "weight_decay": 0.01,
     "warmup_ratio": 0.03,                      # 3% warmup — batch besar
@@ -72,7 +70,7 @@ FINETUNE_CONFIG = {
     "bf16": True,                              # Native bf16
     "bf16_full_eval": True,
     "gradient_checkpointing": False,           # MATIKAN — VRAM >>>
-    "dataloader_num_workers": 16,              # Per GPU, total 64 workers
+    "dataloader_num_workers": 16,              # Single GPU
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,
     "seed": 42,
@@ -80,9 +78,8 @@ FINETUNE_CONFIG = {
     "max_grad_norm": 1.0,
     "adam_beta1": 0.9,
     "adam_beta2": 0.95,                        # Lebih stabil
-    "torch_compile": False,                    # MATIKAN — tidak kompatibel dengan DDP
+    "torch_compile": False,                    # MATIKAN untuk kompatibilitas
     "optim": "adamw_torch_fused",              # Fused AdamW
-    "ddp_backend": "nccl",                     # NCCL untuk multi-GPU
 }
 
 

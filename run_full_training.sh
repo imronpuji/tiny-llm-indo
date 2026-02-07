@@ -22,27 +22,26 @@
 set -e  # Exit on error
 
 # ============================================================
-# 4x GPU MULTI-GPU OPTIMIZATIONS
+# SINGLE GPU MODE — NCCL fails on Blackwell GPUs
 # ============================================================
+export CUDA_VISIBLE_DEVICES=0                       # Use only GPU 0
 export CUDA_LAUNCH_BLOCKING=0
-export TORCH_CUDA_ARCH_LIST="8.9"                    # Ada Lovelace architecture
+export TORCH_CUDA_ARCH_LIST="10.0"                   # Blackwell architecture
 export TOKENIZERS_PARALLELISM=true
-export NCCL_P2P_DISABLE=0                            # Enable P2P for multi-GPU
-export NCCL_IB_DISABLE=1                             # Disable InfiniBand
-export OMP_NUM_THREADS=16                            # Per GPU thread pool
-export MKL_NUM_THREADS=16
+export OMP_NUM_THREADS=32                            # More threads for single GPU
+export MKL_NUM_THREADS=32
 
 # PyTorch performance tuning
-export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+export TORCH_ALLOC_CONF="expandable_segments:True"  # Updated env var name
 export TORCH_CUDNN_V8_API_ENABLED=1
 export CUBLAS_WORKSPACE_CONFIG=":4096:8"
 
 # Number of GPUs
-NUM_GPUS=4
+NUM_GPUS=1
 
 echo "============================================================"
 echo "  FULL TRAINING PIPELINE — MASA AI 200M"
-echo "  4x RTX PRO 6000 S (382GB VRAM total)"
+echo "  Single GPU Mode (95GB VRAM)"
 echo "============================================================"
 echo ""
 
@@ -160,27 +159,25 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[3/6] Pre-training 150M model from scratch...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (4x GPU Optimized):"
+echo "  Config (Single GPU Optimized):"
 echo "    - Parameters: ~200M"
 echo "    - Context: 2048 tokens"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 6e-4 (Chinchilla-optimal)"
-echo "    - Batch Size: 64 per GPU x 4 GPUs = 256"
-echo "    - Effective Batch: 512 (256 * 2 grad_accum)"
+echo "    - Batch Size: 128"
+echo "    - Effective Batch: 512 (128 * 4 grad_accum)"
 echo "    - Warmup: 3%"
 echo "    - Precision: bf16"
 echo "    - Gradient Checkpointing: OFF"
-echo "    - torch.compile: ON"
 echo "    - Optimizer: Fused AdamW"
-echo "    - DDP Backend: NCCL"
 echo ""
-echo "  Estimasi: 1-2 jam (4x RTX PRO 6000 S)"
+echo "  Estimasi: 2-3 jam (Single GPU 95GB)"
 echo "-----------------------------------------------------------"
 echo ""
 
 if [ ! -d "./tiny-llm-indo-final" ]; then
-    echo "  -> Starting multi-GPU pre-training..."
-    torchrun --nproc_per_node=4 train_tiny_llm.py
+    echo "  -> Starting pre-training..."
+    python train_tiny_llm.py
     echo -e "${GREEN}  Done: Pre-training complete${NC}"
 else
     echo -e "${GREEN}  Skip: Pre-trained model found${NC}"
@@ -194,15 +191,14 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[4/6] Supervised Fine-Tuning (SFT)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (4x GPU Optimized):"
+echo "  Config (Single GPU Optimized):"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 2e-5 (gentle SFT)"
-echo "    - Batch Size: 64 per GPU x 4 GPUs = 256"
-echo "    - Effective Batch: 512 (256 * 2 grad_accum)"
+echo "    - Batch Size: 128"
+echo "    - Effective Batch: 512"
 echo "    - Precision: bf16"
-echo "    - torch.compile: ON"
 echo ""
-echo "  Estimasi: 15-30 menit"
+echo "  Estimasi: 30-60 menit"
 echo "-----------------------------------------------------------"
 echo ""
 
@@ -212,8 +208,8 @@ if [ ! -d "./masa-ai-qa-v2" ] && [ ! -d "./tiny-llm-indo-final" ]; then
     exit 1
 fi
 
-echo "  -> Starting multi-GPU SFT..."
-torchrun --nproc_per_node=4 finetune_qa.py || { echo -e "${RED}  SFT failed!${NC}"; exit 1; }
+echo "  -> Starting SFT..."
+python finetune_qa.py || { echo -e "${RED}  SFT failed!${NC}"; exit 1; }
 echo -e "${GREEN}  Done: SFT complete${NC}"
 echo ""
 sleep 1
@@ -223,20 +219,20 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[5/6] DPO Alignment (Coherence & Anti-Hallucination)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (4x GPU Optimized):"
+echo "  Config (Single GPU Optimized):"
 echo "    - Beta: 0.2 (conservative)"
 echo "    - Epochs: 2"
-echo "    - Batch Size: 32 per GPU x 4 GPUs = 128"
-echo "    - Effective Batch: 256 (128 * 2 grad_accum)"
+echo "    - Batch Size: 64"
+echo "    - Effective Batch: 256"
 echo "    - Learning Rate: 1e-6"
 echo "    - Precision: bf16"
 echo ""
-echo "  Estimasi: 5-10 menit"
+echo "  Estimasi: 10-20 menit"
 echo "-----------------------------------------------------------"
 echo ""
 
-echo "  -> Starting multi-GPU DPO alignment..."
-torchrun --nproc_per_node=4 train_dpo.py || { echo -e "${RED}  DPO failed!${NC}"; exit 1; }
+echo "  -> Starting DPO alignment..."
+python train_dpo.py || { echo -e "${RED}  DPO failed!${NC}"; exit 1; }
 echo -e "${GREEN}  Done: DPO complete${NC}"
 echo ""
 sleep 1

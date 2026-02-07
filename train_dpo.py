@@ -13,12 +13,10 @@ Penggunaan:
 """
 
 import os
-# JANGAN set CUDA_VISIBLE_DEVICES — gunakan semua 4 GPU
-
-# Multi-GPU Optimizations — FIX NCCL P2P errors
-os.environ["NCCL_P2P_DISABLE"] = "1"        # DISABLE P2P
-os.environ["NCCL_SHM_DISABLE"] = "0"        # Enable shared memory
-os.environ["NCCL_IB_DISABLE"] = "1"         # Disable InfiniBand
+# ============================================================
+# SINGLE GPU MODE — NCCL fails on Blackwell GPUs
+# ============================================================
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0
 
 import json
 import torch
@@ -53,13 +51,13 @@ OUTPUT_PATH = "./masa-ai-dpo-aligned"
 TRAIN_PREFERENCE = "./dataset/train_preference.json"
 EVAL_PREFERENCE = "./dataset/eval_preference.json"
 
-# DPO Training Config — OPTIMIZED FOR 4x RTX PRO 6000 S (382GB VRAM total)
+# DPO Training Config — SINGLE GPU (95GB VRAM)
 DPO_CONFIG = {
     "output_dir": "./dpo-checkpoints",
     "num_train_epochs": 2,                     # 2 epoch cukup untuk DPO (lebih = overfitting)
-    "per_device_train_batch_size": 32,          # DPO butuh 2x memori, 95GB per GPU masih cukup
-    "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 2,           # Effective batch = 32*4*2 = 256
+    "per_device_train_batch_size": 64,          # DPO butuh 2x memori, 95GB masih cukup
+    "per_device_eval_batch_size": 64,
+    "gradient_accumulation_steps": 4,           # Effective batch = 64*4 = 256
     "learning_rate": 1e-6,                     # LR sangat kecil untuk DPO (hanya fine-adjust)
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
@@ -75,14 +73,14 @@ DPO_CONFIG = {
     "bf16_full_eval": True,
     "fp16": False,
     "gradient_checkpointing": False,           # MATIKAN — 95GB per GPU >>>
-    "dataloader_num_workers": 16,              # Per GPU
+    "dataloader_num_workers": 16,              # Single GPU
     "dataloader_pin_memory": True,
     "dataloader_prefetch_factor": 4,
     "seed": 42,
     "report_to": "none",
     "remove_unused_columns": False,
     "max_grad_norm": 0.5,                      # Gradient clip lebih ketat untuk DPO
-    "torch_compile": False,                    # MATIKAN — tidak kompatibel dengan DDP
+    "torch_compile": False,                    # MATIKAN untuk kompatibilitas
     "optim": "adamw_torch_fused",              # Fused AdamW
     
     # DPO Specific
