@@ -47,33 +47,38 @@ EVAL_DATA_FILES = [
     "./dataset/eval_alpaca_qa.json"
 ]
 
-# Training config untuk fine-tuning model 150M - OPTIMIZED FOR COHERENCE
+# Training config untuk fine-tuning model 150M - OPTIMIZED FOR H200 NVL (140GB VRAM)
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
     "num_train_epochs": 3,                     # 3 epoch cukup, >3 overfitting
-    "per_device_train_batch_size": 4,
-    "per_device_eval_batch_size": 4,
-    "gradient_accumulation_steps": 16,          # Effective batch = 64 (lebih besar = lebih stabil)
+    "per_device_train_batch_size": 64,          # H200 140GB — SFT bisa batch besar
+    "per_device_eval_batch_size": 64,
+    "gradient_accumulation_steps": 4,           # Effective batch = 256 (stabil convergence)
     "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT agar tidak rusak pretraining
     "weight_decay": 0.01,
     "warmup_ratio": 0.06,                      # 6% warmup
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
-    "eval_steps": 200,
+    "eval_steps": 100,
     "save_strategy": "steps",
     "save_steps": 200,
-    "save_total_limit": 2,
+    "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "fp16": torch.cuda.is_available(),
-    "gradient_checkpointing": True,
-    "dataloader_num_workers": 4,
+    "bf16": True,                              # H200 native bf16 support
+    "bf16_full_eval": True,
+    "gradient_checkpointing": False,           # MATIKAN — VRAM lebih dari cukup
+    "dataloader_num_workers": 24,              # Match 24 CPU cores
+    "dataloader_pin_memory": True,
+    "dataloader_prefetch_factor": 4,
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
     "adam_beta1": 0.9,
     "adam_beta2": 0.95,                        # Lebih stabil
+    "torch_compile": True,                     # torch.compile() speedup
+    "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat
 }
 
 
@@ -152,19 +157,21 @@ def main():
     print(f"   - Eval: {len(eval_dataset)} samples")
     
     # Tokenize
-    print("\n🔤 Tokenizing (Max Length: 1024 - Long Context)...")
+    print("\n🔤 Tokenizing (Max Length: 2048 - Extended Context)...")
     train_dataset = train_dataset.map(
-        lambda x: tokenize_function(x, tokenizer),
+        lambda x: tokenize_function(x, tokenizer, max_length=2048),
         batched=True,
         remove_columns=["text"],
-        desc="Tokenizing train"
+        desc="Tokenizing train",
+        num_proc=12,  # Parallel tokenization dengan 24 cores
     )
     
     eval_dataset = eval_dataset.map(
-        lambda x: tokenize_function(x, tokenizer),
+        lambda x: tokenize_function(x, tokenizer, max_length=2048),
         batched=True,
         remove_columns=["text"],
-        desc="Tokenizing eval"
+        desc="Tokenizing eval",
+        num_proc=12,
     )
     
     # Data collator

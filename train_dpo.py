@@ -48,13 +48,13 @@ OUTPUT_PATH = "./masa-ai-dpo-aligned"
 TRAIN_PREFERENCE = "./dataset/train_preference.json"
 EVAL_PREFERENCE = "./dataset/eval_preference.json"
 
-# DPO Training Config — OPTIMIZED
+# DPO Training Config — OPTIMIZED FOR H200 NVL (140GB VRAM)
 DPO_CONFIG = {
     "output_dir": "./dpo-checkpoints",
     "num_train_epochs": 2,                     # 2 epoch cukup untuk DPO (lebih = overfitting)
-    "per_device_train_batch_size": 2,
-    "per_device_eval_batch_size": 2,
-    "gradient_accumulation_steps": 8,          # Effective batch = 16
+    "per_device_train_batch_size": 32,          # H200 — DPO butuh 2x memori (model + ref), tapi 140GB cukup
+    "per_device_eval_batch_size": 32,
+    "gradient_accumulation_steps": 4,           # Effective batch = 128
     "learning_rate": 1e-6,                     # LR sangat kecil untuk DPO (hanya fine-adjust)
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
@@ -62,23 +62,28 @@ DPO_CONFIG = {
     "eval_strategy": "steps",
     "eval_steps": 50,
     "save_strategy": "steps",
-    "save_steps": 50,
-    "save_total_limit": 2,
+    "save_steps": 100,
+    "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "bf16": torch.cuda.is_available(),
+    "bf16": True,                              # H200 native bf16
+    "bf16_full_eval": True,
     "fp16": False,
-    "gradient_checkpointing": True,
-    "dataloader_num_workers": 2,
+    "gradient_checkpointing": False,           # MATIKAN — H200 VRAM >>>
+    "dataloader_num_workers": 24,              # Match 24 CPU cores
+    "dataloader_pin_memory": True,
+    "dataloader_prefetch_factor": 4,
     "seed": 42,
     "report_to": "none",
     "remove_unused_columns": False,
     "max_grad_norm": 0.5,                      # Gradient clip lebih ketat untuk DPO
+    "torch_compile": True,                     # torch.compile() speedup
+    "optim": "adamw_torch_fused",              # Fused AdamW
     
     # DPO Specific
-    "beta": 0.2,                               # Beta 0.2 lebih konservatif (model tidak terlalu berubah)
-    "max_prompt_length": 512,
-    "max_length": 1024,
+    "beta": 0.2,                               # Beta 0.2 lebih konservatif
+    "max_prompt_length": 1024,                 # Extended prompt
+    "max_length": 2048,                        # Extended total length
 }
 
 

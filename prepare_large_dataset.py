@@ -52,16 +52,16 @@ DATASET_CONFIGS = {
         "config": "id",  # Indonesian
         "split": "train",
         "text_field": "text",
-        "max_samples": 500000,  # Limit karena sangat besar
+        "max_samples": 1000000,  # Naik 2x — H200 bisa handle lebih banyak data
         "min_length": 100,
     },
 }
 
-# Preprocessing config
+# Preprocessing config - Extended for H200 NVL 2048 context
 PREPROCESS_CONFIG = {
-    "max_length": 1024,        # Max tokens per sample
-    "chunk_size": 512,         # Chunk size untuk splitting
-    "overlap": 50,             # Overlap antar chunks
+    "max_length": 2048,        # Extended context untuk H200
+    "chunk_size": 1024,        # Larger chunks untuk konteks lebih kaya
+    "overlap": 100,            # Lebih banyak overlap antar chunks
     "train_ratio": 0.95,       # 95% train, 5% eval
 }
 
@@ -343,8 +343,8 @@ def prepare_dataset(
         print("\n⚡ SMALL MODE: Limited samples for testing")
     else:
         wiki_limit = None  # All
-        cc100_limit = 500000
-        oscar_limit = 300000
+        cc100_limit = 1000000   # 1M CC100 samples
+        oscar_limit = 500000    # 500K OSCAR samples
     
     all_samples = []
     

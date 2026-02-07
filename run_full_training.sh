@@ -3,12 +3,19 @@
 # ============================================================
 # FULL TRAINING PIPELINE — FROM SCRATCH TO DEPLOYED
 # ============================================================
+# Optimized for: NVIDIA H200 NVL (140GB VRAM)
 # Pipeline lengkap: Dataset → Pre-training → SFT → DPO → Test
 #
-# Estimasi waktu total:
-#   - Pre-training: 8-12 jam (150M params)
-#   - SFT: 2-4 jam
-#   - DPO: 30-60 menit
+# Hardware specs:
+#   - GPU: 1x H200 NVL (140.4 GB HBM3e, 3862 GB/s bandwidth)
+#   - CPU: AMD EPYC 9255 24-Core
+#   - RAM: 193.4 GB
+#   - Disk: Samsung MZQL2 (4578 MB/s)
+#
+# Estimasi waktu total (H200-optimized):
+#   - Pre-training: 3-5 jam (150M params, batch=256 effective)
+#   - SFT: 30-60 menit
+#   - DPO: 10-20 menit
 # ============================================================
 
 set -e  # Exit on error
@@ -16,8 +23,25 @@ set -e  # Exit on error
 # Force GPU 0 to avoid CUDA device selection errors
 export CUDA_VISIBLE_DEVICES=0
 
+# ============================================================
+# H200 NVL CUDA OPTIMIZATIONS
+# ============================================================
+export CUDA_LAUNCH_BLOCKING=0
+export TORCH_CUDA_ARCH_LIST="9.0"                    # Hopper architecture
+export TOKENIZERS_PARALLELISM=true
+export CUDA_DEVICE_MAX_CONNECTIONS=1                  # Better overlap
+export NCCL_IB_DISABLE=0
+export OMP_NUM_THREADS=24                             # Match CPU cores
+export MKL_NUM_THREADS=24
+
+# PyTorch performance tuning
+export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"  # Better memory management
+export TORCH_CUDNN_V8_API_ENABLED=1                   # cuDNN v8 optimization
+export CUBLAS_WORKSPACE_CONFIG=":4096:8"               # Deterministic cuBLAS
+
 echo "============================================================"
 echo "  FULL TRAINING PIPELINE — MASA AI 150M"
+echo "  Optimized for NVIDIA H200 NVL (140GB VRAM)"
 echo "============================================================"
 echo ""
 

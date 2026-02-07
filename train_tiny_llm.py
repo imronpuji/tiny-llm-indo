@@ -1,12 +1,18 @@
 """
-Training Script untuk Tiny Indonesian LLM (13M params)
+Training Script untuk Tiny Indonesian LLM (150M params)
 ======================================================
+Optimized for NVIDIA H200 NVL (140GB VRAM)
 Dengan early stopping dan optimasi untuk menghindari overfitting
 Support PEFT (Parameter-Efficient Fine-Tuning) dan LoRA
 """
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+# H200 NVL Optimizations
+os.environ["CUDA_LAUNCH_BLOCKING"] = "0"
+os.environ["TORCH_CUDA_ARCH_LIST"] = "9.0"  # H200 = Hopper
+os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
 import json
 import torch
@@ -93,10 +99,10 @@ except ImportError:
 #     "eos_token_id": 2,
 # }
 
-# === LARGE: 150M params (~8-12 jam training) - ACTIVE ===
+# === LARGE: 150M params - OPTIMIZED FOR H200 NVL ===
 MODEL_CONFIG = {
     "vocab_size": 32000,
-    "n_positions": 1024,   # Context panjang
+    "n_positions": 2048,   # Extended context — H200 punya VRAM lebih dari cukup
     "n_embd": 1024,        # Hidden size besar
     "n_layer": 12,         # 12 layers
     "n_head": 16,          # 16 attention heads
@@ -110,36 +116,49 @@ MODEL_CONFIG = {
     "eos_token_id": 2,
 }
 
+# ============================================================
+# H200 NVL SPECS:
+#   - 140.4 GB VRAM (HBM3e)
+#   - 48.3 TFLOPS (FP32), ~989 TFLOPS (FP8)
+#   - 3862.3 GB/s memory bandwidth
+#   - PCIe 5.0 x16
+#   - 24 CPU cores (AMD EPYC 9255)
+# ============================================================
+
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
     "num_train_epochs": 3,                     # 3 epoch cukup, lebih dari itu overfitting
-    "per_device_train_batch_size": 16,         # Batch size optimal untuk 150M
-    "per_device_eval_batch_size": 16,
-    "gradient_accumulation_steps": 4,          # Effective batch = 16*4 = 64 (lebih besar = lebih stabil)
+    "per_device_train_batch_size": 128,        # H200 140GB bisa handle batch besar untuk 150M model
+    "per_device_eval_batch_size": 128,
+    "gradient_accumulation_steps": 2,          # Effective batch = 128*2 = 256 (sangat stabil convergence)
     "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 150M
     "weight_decay": 0.1,                       # Weight decay lebih tinggi untuk regularisasi
-    "warmup_ratio": 0.10,                      # 10% warmup krusial untuk stabilitas awal
+    "warmup_ratio": 0.06,                      # 6% warmup — batch besar butuh less warmup
     "lr_scheduler_type": "cosine",
-    "logging_steps": 25,
+    "logging_steps": 10,
     "eval_strategy": "steps",
     "eval_steps": 200,
     "save_strategy": "steps",
-    "save_steps": 200,
-    "save_total_limit": 3,
+    "save_steps": 500,
+    "save_total_limit": 5,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
-    "bf16": True,                              # RTX 5090 supports bf16
-    "dataloader_num_workers": 16,
+    "bf16": True,                              # H200 native bf16 support (Hopper arch)
+    "bf16_full_eval": True,                    # bf16 juga saat eval
+    "dataloader_num_workers": 24,              # Match 24 CPU cores
     "dataloader_pin_memory": True,
+    "dataloader_prefetch_factor": 4,           # Prefetch lebih banyak data
     "ddp_find_unused_parameters": False,
-    "gradient_checkpointing": True,
+    "gradient_checkpointing": False,           # MATIKAN — H200 140GB cukup VRAM, lebih cepat tanpa ini
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
     "adam_beta1": 0.9,                         # Standard untuk LLM training
     "adam_beta2": 0.95,                        # 0.95 lebih stabil dari default 0.999
     "adam_epsilon": 1e-8,
+    "torch_compile": True,                     # torch.compile() — fuse kernels untuk speedup 20-40%
+    "optim": "adamw_torch_fused",              # Fused AdamW — lebih cepat di H200
 }
 
 # ============================================================
@@ -215,7 +234,7 @@ def load_dataset_from_json(path):
     return Dataset.from_list(data)
 
 
-def tokenize_function(examples, tokenizer, max_length=1024):
+def tokenize_function(examples, tokenizer, max_length=2048):
     """Tokenize texts dengan EOS token di akhir setiap sample"""
     # Tambahkan EOS token di akhir setiap teks agar model belajar kapan berhenti
     texts = [t + tokenizer.eos_token for t in examples["text"]]
