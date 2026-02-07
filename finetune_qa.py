@@ -9,9 +9,9 @@ Penggunaan:
 
 import os
 # ============================================================
-# SINGLE GPU MODE
+# SINGLE GPU MODE - Use GPU 2 (highest power usage = working)
 # ============================================================
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"  # Use GPU 2
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 import json
@@ -53,9 +53,9 @@ EVAL_DATA_FILES = [
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
     "num_train_epochs": 3,                     # 3 epoch cukup, >3 overfitting
-    "per_device_train_batch_size": 32,          # Single A100 40GB
-    "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 16,          # Effective batch = 32*16 = 512
+    "per_device_train_batch_size": 8,           # Smaller batch for stability
+    "per_device_eval_batch_size": 8,
+    "gradient_accumulation_steps": 64,          # Effective batch = 8*64 = 512
     "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT
     "weight_decay": 0.01,
     "warmup_ratio": 0.03,
@@ -68,11 +68,11 @@ FINETUNE_CONFIG = {
     "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "bf16": True,                              # A100 native bf16
-    "bf16_full_eval": True,
-    "gradient_checkpointing": False,
-    "dataloader_num_workers": 4,
-    "dataloader_pin_memory": True,
+    "fp16": False,                             # Disable mixed precision
+    "bf16": False,                             # Disable bf16
+    "gradient_checkpointing": True,            # Enable to save memory
+    "dataloader_num_workers": 0,               # Disable multiprocessing
+    "dataloader_pin_memory": False,
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
