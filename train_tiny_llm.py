@@ -484,14 +484,16 @@ def main():
         lambda x: tokenize_function(x, tokenizer),
         batched=True,
         remove_columns=["text"],
-        desc="Tokenizing train"
+        desc="Tokenizing train",
+        num_proc=12,  # Parallel tokenization — 24 cores / 2
     )
     
     eval_dataset = eval_dataset.map(
         lambda x: tokenize_function(x, tokenizer),
         batched=True,
         remove_columns=["text"],
-        desc="Tokenizing eval"
+        desc="Tokenizing eval",
+        num_proc=12,
     )
     
     # Data collator

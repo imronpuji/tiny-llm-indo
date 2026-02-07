@@ -139,14 +139,14 @@ sleep 1
 # ============================================================
 # STEP 2: PREPARE LARGE PRE-TRAINING DATASET
 # ============================================================
-echo -e "${YELLOW}[2/6] Preparing large pre-training dataset (Wiki + CC100)...${NC}"
+echo -e "${YELLOW}[2/6] Preparing large pre-training dataset (Wiki + CC100 + OSCAR)...${NC}"
 echo "-----------------------------------------------------------"
 
 if [ ! -f "./dataset/train_large.json" ]; then
-    echo "  -> Downloading Wikipedia ID + CC100..."
-    echo "  -> This may take 30-60 minutes..."
-    python prepare_large_dataset.py
-    echo -e "${GREEN}  Done: Large dataset${NC}"
+    echo "  -> Downloading Wikipedia ID + CC100 + OSCAR..."
+    echo "  -> This may take 60-120 minutes for full dataset..."
+    python prepare_large_dataset.py --include-oscar
+    echo -e "${GREEN}  Done: Large dataset (including OSCAR)${NC}"
 else
     echo -e "${GREEN}  Skip: Large dataset exists${NC}"
 fi
@@ -159,15 +159,21 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[3/6] Pre-training 150M model from scratch...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config:"
+echo "  Config (H200 NVL Optimized):"
 echo "    - Parameters: ~150M"
+echo "    - Context: 2048 tokens (extended)"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 6e-4 (Chinchilla-optimal)"
-echo "    - Effective Batch: 64"
-echo "    - Warmup: 10%"
+echo "    - Batch Size: 128 per device"
+echo "    - Effective Batch: 256 (128 * 2 grad_accum)"
+echo "    - Warmup: 6%"
+echo "    - Precision: bf16 (H200 native)"
+echo "    - Gradient Checkpointing: OFF (140GB VRAM)"
+echo "    - torch.compile: ON (20-40% speedup)"
+echo "    - Optimizer: Fused AdamW"
 echo "    - Weight Init: GPT-2 scaled initialization"
 echo ""
-echo "  Estimasi: 8-12 jam (GPU dependent)"
+echo "  Estimasi: 3-5 jam (H200 NVL)"
 echo "-----------------------------------------------------------"
 echo ""
 
@@ -187,12 +193,15 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[4/6] Supervised Fine-Tuning (SFT)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config:"
+echo "  Config (H200 NVL Optimized):"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 2e-5 (gentle SFT)"
-echo "    - Effective Batch: 64"
+echo "    - Batch Size: 64 per device"
+echo "    - Effective Batch: 256 (64 * 4 grad_accum)"
+echo "    - Precision: bf16"
+echo "    - torch.compile: ON"
 echo ""
-echo "  Estimasi: 2-4 jam"
+echo "  Estimasi: 30-60 menit (H200 NVL)"
 echo "-----------------------------------------------------------"
 echo ""
 
@@ -213,12 +222,15 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[5/6] DPO Alignment (Coherence & Anti-Hallucination)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config:"
+echo "  Config (H200 NVL Optimized):"
 echo "    - Beta: 0.2 (conservative)"
 echo "    - Epochs: 2"
+echo "    - Batch Size: 32 per device"
+echo "    - Effective Batch: 128 (32 * 4 grad_accum)"
 echo "    - Learning Rate: 1e-6"
+echo "    - Precision: bf16"
 echo ""
-echo "  Estimasi: 30-60 menit"
+echo "  Estimasi: 10-20 menit (H200 NVL)"
 echo "-----------------------------------------------------------"
 echo ""
 
