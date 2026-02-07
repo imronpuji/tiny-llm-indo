@@ -8,19 +8,10 @@ Support PEFT (Parameter-Efficient Fine-Tuning) dan LoRA
 
 import os
 # ============================================================
-# SINGLE GPU MODE — Set to True if multi-GPU fails
+# SINGLE GPU MODE
 # ============================================================
-FORCE_SINGLE_GPU = True  # Blackwell GPUs have NCCL issues, use single GPU
-
-if FORCE_SINGLE_GPU:
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0 (95GB VRAM)
-    print("⚠️  FORCE_SINGLE_GPU=True — Using only GPU 0")
-
-# Blackwell GPU compatibility fixes
-os.environ["CUDA_LAUNCH_BLOCKING"] = "1"       # Sync CUDA for debugging
-os.environ["TORCH_CUDA_ARCH_LIST"] = "10.0"    # Blackwell (RTX PRO 6000 S)
-os.environ["TOKENIZERS_PARALLELISM"] = "false" # Avoid fork issues
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 import json
 import torch
@@ -135,37 +126,36 @@ MODEL_CONFIG = {
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
-    "num_train_epochs": 3,                     # 3 epoch cukup, lebih dari itu overfitting
-    "per_device_train_batch_size": 32,          # Reduced batch — Blackwell driver issues
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 32,          # Single A100 40GB
     "per_device_eval_batch_size": 32,
-    "gradient_accumulation_steps": 16,          # Effective batch = 32*16 = 512 (sama)
-    "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 200M
-    "weight_decay": 0.1,                       # Weight decay lebih tinggi untuk regularisasi
-    "warmup_ratio": 0.03,                      # 3% warmup — batch sangat besar butuh less warmup
+    "gradient_accumulation_steps": 16,          # Effective batch = 32*16 = 512
+    "learning_rate": 6e-4,
+    "weight_decay": 0.1,
+    "warmup_ratio": 0.03,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
     "eval_steps": 100,
     "save_strategy": "steps",
-    "save_steps": 200,                         # Must be multiple of eval_steps (100)
+    "save_steps": 200,
     "save_total_limit": 5,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
-    "fp16": True,                              # Use fp16 instead of bf16 (more compatible)
-    "dataloader_num_workers": 8,               # Reduced workers
+    "bf16": True,                              # A100 supports bf16
+    "bf16_full_eval": True,
+    "dataloader_num_workers": 4,
     "dataloader_pin_memory": True,
-    "dataloader_prefetch_factor": 2,           # Reduced prefetch
-    "ddp_find_unused_parameters": False,
-    "gradient_checkpointing": False,           # MATIKAN — 95GB per GPU >>>
+    "gradient_checkpointing": False,
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
-    "adam_beta1": 0.9,                         # Standard untuk LLM training
-    "adam_beta2": 0.95,                        # 0.95 lebih stabil dari default 0.999
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.95,
     "adam_epsilon": 1e-8,
-    "torch_compile": False,                    # MATIKAN untuk kompatibilitas
-    "optim": "adamw_torch",                    # Standard AdamW (fused may have issues)
+    "torch_compile": False,
+    "optim": "adamw_torch",
 }
 
 # ============================================================
@@ -245,13 +235,20 @@ def tokenize_function(examples, tokenizer, max_length=2048):
     """Tokenize texts dengan EOS token di akhir setiap sample"""
     # Tambahkan EOS token di akhir setiap teks agar model belajar kapan berhenti
     texts = [t + tokenizer.eos_token for t in examples["text"]]
-    return tokenizer(
+    result = tokenizer(
         texts,
         truncation=True,
         max_length=max_length,
         padding=False,  # Dynamic padding via DataCollator — lebih efisien
         return_special_tokens_mask=True,
     )
+    
+    # IMPORTANT: Clamp token IDs to vocab size to prevent index out of bounds
+    vocab_size = len(tokenizer)
+    for i, ids in enumerate(result["input_ids"]):
+        result["input_ids"][i] = [min(id, vocab_size - 1) for id in ids]
+    
+    return result
 
 
 # ============================================================

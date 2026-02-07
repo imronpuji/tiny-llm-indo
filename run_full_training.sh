@@ -22,26 +22,17 @@
 set -e  # Exit on error
 
 # ============================================================
-# SINGLE GPU MODE — NCCL fails on Blackwell GPUs
+# SINGLE GPU MODE
 # ============================================================
-export CUDA_VISIBLE_DEVICES=0                       # Use only GPU 0
-export CUDA_LAUNCH_BLOCKING=0
-export TORCH_CUDA_ARCH_LIST="10.0"                   # Blackwell architecture
-export TOKENIZERS_PARALLELISM=true
-export OMP_NUM_THREADS=32                            # More threads for single GPU
-export MKL_NUM_THREADS=32
-
-# PyTorch performance tuning
-export TORCH_ALLOC_CONF="expandable_segments:True"  # Updated env var name
-export TORCH_CUDNN_V8_API_ENABLED=1
-export CUBLAS_WORKSPACE_CONFIG=":4096:8"
+export CUDA_VISIBLE_DEVICES=0
+export TOKENIZERS_PARALLELISM=false
 
 # Number of GPUs
 NUM_GPUS=1
 
 echo "============================================================"
 echo "  FULL TRAINING PIPELINE — MASA AI 200M"
-echo "  Single GPU Mode (95GB VRAM)"
+echo "  Single GPU Mode (A100 40GB)"
 echo "============================================================"
 echo ""
 

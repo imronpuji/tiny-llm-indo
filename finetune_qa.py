@@ -9,9 +9,10 @@ Penggunaan:
 
 import os
 # ============================================================
-# SINGLE GPU MODE — NCCL fails on Blackwell GPUs
+# SINGLE GPU MODE
 # ============================================================
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 import json
 import torch
@@ -48,16 +49,16 @@ EVAL_DATA_FILES = [
     "./dataset/eval_alpaca_qa.json"
 ]
 
-# Training config untuk fine-tuning model 200M - SINGLE GPU (95GB VRAM)
+# Training config untuk fine-tuning model 200M - SINGLE A100 GPU
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
     "num_train_epochs": 3,                     # 3 epoch cukup, >3 overfitting
-    "per_device_train_batch_size": 128,         # Single GPU 95GB — batch 128 aman
-    "per_device_eval_batch_size": 128,
-    "gradient_accumulation_steps": 4,           # Effective batch = 128*4 = 512
-    "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT agar tidak rusak pretraining
+    "per_device_train_batch_size": 32,          # Single A100 40GB
+    "per_device_eval_batch_size": 32,
+    "gradient_accumulation_steps": 16,          # Effective batch = 32*16 = 512
+    "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT
     "weight_decay": 0.01,
-    "warmup_ratio": 0.03,                      # 3% warmup — batch besar
+    "warmup_ratio": 0.03,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
@@ -67,19 +68,18 @@ FINETUNE_CONFIG = {
     "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "bf16": True,                              # Native bf16
+    "bf16": True,                              # A100 native bf16
     "bf16_full_eval": True,
-    "gradient_checkpointing": False,           # MATIKAN — VRAM >>>
-    "dataloader_num_workers": 16,              # Single GPU
+    "gradient_checkpointing": False,
+    "dataloader_num_workers": 4,
     "dataloader_pin_memory": True,
-    "dataloader_prefetch_factor": 4,
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
     "adam_beta1": 0.9,
-    "adam_beta2": 0.95,                        # Lebih stabil
-    "torch_compile": False,                    # MATIKAN untuk kompatibilitas
-    "optim": "adamw_torch_fused",              # Fused AdamW
+    "adam_beta2": 0.95,
+    "torch_compile": False,
+    "optim": "adamw_torch",
 }
 
 
@@ -108,13 +108,23 @@ def load_combined_datasets(file_paths):
 def tokenize_function(examples, tokenizer, max_length=1024):
     """Tokenize texts dengan EOS token agar model belajar kapan berhenti"""
     texts = [t + tokenizer.eos_token for t in examples["text"]]
-    return tokenizer(
+    result = tokenizer(
         texts,
         truncation=True,
         max_length=max_length,
         padding=False,  # Dynamic padding via DataCollator
         return_special_tokens_mask=True,
     )
+    return result
+
+
+def filter_valid_samples(examples, vocab_size):
+    """Filter out samples with token IDs >= vocab_size"""
+    valid = []
+    for ids in examples["input_ids"]:
+        max_id = max(ids) if ids else 0
+        valid.append(max_id < vocab_size)
+    return valid
 
 
 def main():
@@ -148,9 +158,16 @@ def main():
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     
+    # Get vocab size dari model
+    model_vocab_size = model.config.vocab_size
+    tokenizer_vocab_size = len(tokenizer)
+    print(f"   Model vocab size: {model_vocab_size}")
+    print(f"   Tokenizer vocab size: {tokenizer_vocab_size}")
+    
     # IMPORTANT: Resize embeddings to match tokenizer vocab size
-    model.resize_token_embeddings(len(tokenizer))
-    print(f"   ✓ Embeddings resized to vocab size: {len(tokenizer)}")
+    if model_vocab_size != tokenizer_vocab_size:
+        model.resize_token_embeddings(tokenizer_vocab_size)
+        print(f"   ✓ Embeddings resized from {model_vocab_size} to {tokenizer_vocab_size}")
     
     # Load datasets
     print(f"\n📂 Loading & Merging datasets...")
@@ -168,7 +185,7 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing train",
-        num_proc=32,  # Parallel tokenization — 64 cores
+        num_proc=8,  # Reduced for stability
     )
     
     eval_dataset = eval_dataset.map(
@@ -176,8 +193,28 @@ def main():
         batched=True,
         remove_columns=["text"],
         desc="Tokenizing eval",
-        num_proc=32,
+        num_proc=8,
     )
+    
+    # Filter out samples with invalid token IDs
+    vocab_size = model.config.vocab_size
+    print(f"\n🔍 Filtering samples with token IDs >= {vocab_size}...")
+    
+    train_before = len(train_dataset)
+    train_dataset = train_dataset.filter(
+        lambda x: filter_valid_samples(x, vocab_size),
+        batched=True,
+        desc="Filtering train",
+    )
+    print(f"   Train: {train_before} -> {len(train_dataset)} (removed {train_before - len(train_dataset)})")
+    
+    eval_before = len(eval_dataset)
+    eval_dataset = eval_dataset.filter(
+        lambda x: filter_valid_samples(x, vocab_size),
+        batched=True,
+        desc="Filtering eval",
+    )
+    print(f"   Eval: {eval_before} -> {len(eval_dataset)} (removed {eval_before - len(eval_dataset)})")
     
     # Data collator
     data_collator = DataCollatorForLanguageModeling(

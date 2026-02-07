@@ -14,9 +14,10 @@ Penggunaan:
 
 import os
 # ============================================================
-# SINGLE GPU MODE — NCCL fails on Blackwell GPUs
+# SINGLE GPU MODE
 # ============================================================
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use only GPU 0
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 import json
 import torch
@@ -51,14 +52,14 @@ OUTPUT_PATH = "./masa-ai-dpo-aligned"
 TRAIN_PREFERENCE = "./dataset/train_preference.json"
 EVAL_PREFERENCE = "./dataset/eval_preference.json"
 
-# DPO Training Config — SINGLE GPU (95GB VRAM)
+# DPO Training Config — SINGLE A100 GPU
 DPO_CONFIG = {
     "output_dir": "./dpo-checkpoints",
-    "num_train_epochs": 2,                     # 2 epoch cukup untuk DPO (lebih = overfitting)
-    "per_device_train_batch_size": 64,          # DPO butuh 2x memori, 95GB masih cukup
-    "per_device_eval_batch_size": 64,
-    "gradient_accumulation_steps": 4,           # Effective batch = 64*4 = 256
-    "learning_rate": 1e-6,                     # LR sangat kecil untuk DPO (hanya fine-adjust)
+    "num_train_epochs": 2,
+    "per_device_train_batch_size": 16,          # DPO needs 2x memory
+    "per_device_eval_batch_size": 16,
+    "gradient_accumulation_steps": 16,          # Effective batch = 16*16 = 256
+    "learning_rate": 1e-6,
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
@@ -72,21 +73,20 @@ DPO_CONFIG = {
     "bf16": True,
     "bf16_full_eval": True,
     "fp16": False,
-    "gradient_checkpointing": False,           # MATIKAN — 95GB per GPU >>>
-    "dataloader_num_workers": 16,              # Single GPU
+    "gradient_checkpointing": False,
+    "dataloader_num_workers": 4,
     "dataloader_pin_memory": True,
-    "dataloader_prefetch_factor": 4,
     "seed": 42,
     "report_to": "none",
     "remove_unused_columns": False,
-    "max_grad_norm": 0.5,                      # Gradient clip lebih ketat untuk DPO
-    "torch_compile": False,                    # MATIKAN untuk kompatibilitas
-    "optim": "adamw_torch_fused",              # Fused AdamW
+    "max_grad_norm": 0.5,
+    "torch_compile": False,
+    "optim": "adamw_torch",
     
     # DPO Specific
-    "beta": 0.2,                               # Beta 0.2 lebih konservatif
-    "max_prompt_length": 1024,                 # Extended prompt
-    "max_length": 2048,                        # Extended total length
+    "beta": 0.2,
+    "max_prompt_length": 1024,
+    "max_length": 2048,
 }
 
 
