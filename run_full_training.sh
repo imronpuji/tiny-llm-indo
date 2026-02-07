@@ -3,16 +3,16 @@
 # ============================================================
 # FULL TRAINING PIPELINE — FROM SCRATCH TO DEPLOYED
 # ============================================================
-# Optimized for: NVIDIA H200 NVL (140GB VRAM)
+# Optimized for: ~64GB VRAM GPU (218 TFLOPS)
 # Pipeline lengkap: Dataset → Pre-training → SFT → DPO → Test
 #
 # Hardware specs:
-#   - GPU: 1x H200 NVL (140.4 GB HBM3e, 3862 GB/s bandwidth)
-#   - CPU: AMD EPYC 9255 24-Core
-#   - RAM: 193.4 GB
-#   - Disk: Samsung MZQL2 (4578 MB/s)
+#   - GPU: ~64GB VRAM, 218.3 TFLOPS, 1457.3 GB/s bandwidth
+#   - CPU: AMD EPYC 9V74 80-Core (160 threads)
+#   - RAM: 128.7 GB
+#   - Disk: NVMe (1966 MB/s)
 #
-# Estimasi waktu total (H200-optimized):
+# Estimasi waktu total:
 #   - Pre-training: 3-5 jam (150M params, batch=256 effective)
 #   - SFT: 30-60 menit
 #   - DPO: 10-20 menit
@@ -24,15 +24,15 @@ set -e  # Exit on error
 export CUDA_VISIBLE_DEVICES=0
 
 # ============================================================
-# H200 NVL CUDA OPTIMIZATIONS
+# GPU CUDA OPTIMIZATIONS
 # ============================================================
 export CUDA_LAUNCH_BLOCKING=0
-export TORCH_CUDA_ARCH_LIST="9.0"                    # Hopper architecture
+export TORCH_CUDA_ARCH_LIST="9.0"                    # Hopper/Ada architecture
 export TOKENIZERS_PARALLELISM=true
 export CUDA_DEVICE_MAX_CONNECTIONS=1                  # Better overlap
 export NCCL_IB_DISABLE=0
-export OMP_NUM_THREADS=24                             # Match CPU cores
-export MKL_NUM_THREADS=24
+export OMP_NUM_THREADS=40                             # Half of 80 CPU cores
+export MKL_NUM_THREADS=40
 
 # PyTorch performance tuning
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"  # Better memory management
@@ -41,7 +41,7 @@ export CUBLAS_WORKSPACE_CONFIG=":4096:8"               # Deterministic cuBLAS
 
 echo "============================================================"
 echo "  FULL TRAINING PIPELINE — MASA AI 150M"
-echo "  Optimized for NVIDIA H200 NVL (140GB VRAM)"
+echo "  Optimized for ~64GB VRAM GPU (218 TFLOPS)"
 echo "============================================================"
 echo ""
 
@@ -159,21 +159,21 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[3/6] Pre-training 150M model from scratch...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (H200 NVL Optimized):"
+echo "  Config (GPU Optimized):"
 echo "    - Parameters: ~150M"
 echo "    - Context: 2048 tokens (extended)"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 6e-4 (Chinchilla-optimal)"
-echo "    - Batch Size: 128 per device"
-echo "    - Effective Batch: 256 (128 * 2 grad_accum)"
+echo "    - Batch Size: 64 per device"
+echo "    - Effective Batch: 256 (64 * 4 grad_accum)"
 echo "    - Warmup: 6%"
-echo "    - Precision: bf16 (H200 native)"
-echo "    - Gradient Checkpointing: OFF (140GB VRAM)"
+echo "    - Precision: bf16"
+echo "    - Gradient Checkpointing: OFF (64GB VRAM cukup)"
 echo "    - torch.compile: ON (20-40% speedup)"
 echo "    - Optimizer: Fused AdamW"
 echo "    - Weight Init: GPT-2 scaled initialization"
 echo ""
-echo "  Estimasi: 3-5 jam (H200 NVL)"
+echo "  Estimasi: 3-5 jam"
 echo "-----------------------------------------------------------"
 echo ""
 
@@ -193,7 +193,7 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[4/6] Supervised Fine-Tuning (SFT)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (H200 NVL Optimized):"
+echo "  Config (GPU Optimized):"
 echo "    - Epochs: 3"
 echo "    - Learning Rate: 2e-5 (gentle SFT)"
 echo "    - Batch Size: 64 per device"
@@ -201,7 +201,7 @@ echo "    - Effective Batch: 256 (64 * 4 grad_accum)"
 echo "    - Precision: bf16"
 echo "    - torch.compile: ON"
 echo ""
-echo "  Estimasi: 30-60 menit (H200 NVL)"
+echo "  Estimasi: 30-60 menit"
 echo "-----------------------------------------------------------"
 echo ""
 
@@ -222,7 +222,7 @@ sleep 1
 # ============================================================
 echo -e "${YELLOW}[5/6] DPO Alignment (Coherence & Anti-Hallucination)...${NC}"
 echo "-----------------------------------------------------------"
-echo "  Config (H200 NVL Optimized):"
+echo "  Config (GPU Optimized):"
 echo "    - Beta: 0.2 (conservative)"
 echo "    - Epochs: 2"
 echo "    - Batch Size: 32 per device"
@@ -230,7 +230,7 @@ echo "    - Effective Batch: 128 (32 * 4 grad_accum)"
 echo "    - Learning Rate: 1e-6"
 echo "    - Precision: bf16"
 echo ""
-echo "  Estimasi: 10-20 menit (H200 NVL)"
+echo "  Estimasi: 10-20 menit"
 echo "-----------------------------------------------------------"
 echo ""
 
