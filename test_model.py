@@ -166,9 +166,9 @@ def load_model(model_path="./tiny-llm-indo-final", use_lora=True, base_model_pat
 
 
 def generate_text(model, tokenizer, prompt, device, 
-                  max_length=100, 
+                  max_length=150, 
                   temperature=0.7,
-                  top_k=50,
+                  top_k=40,
                   top_p=0.9,
                   num_return=1):
     """Generate text dari prompt"""
@@ -186,7 +186,7 @@ def generate_text(model, tokenizer, prompt, device,
             num_return_sequences=num_return,
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.2,
+            repetition_penalty=1.3,
             no_repeat_ngram_size=3,
         )
     
@@ -262,21 +262,17 @@ def batch_test(model, tokenizer, device):
 def ask_question(model, tokenizer, question, device, 
                  qa_format="instruction",
                  max_length=100,
-                 temperature=0.1,  # Turunkan ke 0.1 untuk deterministik
-                 top_p=0.7,        # Turunkan ke 0.7 untuk fokus pada token high-prob
+                 temperature=0.3,
+                 top_p=0.85,
                  do_sample=True):
     """
-    Ajukan pertanyaan ke model
+    Ajukan pertanyaan ke model — OPTIMIZED FOR COHERENCE
     
-    Args:
-        question: Pertanyaan dalam bahasa Indonesia
-        qa_format: Format template ("simple", "instruction", "chat")
-        temperature: Keacakan jawaban (0.1 - 1.0)
-        top_p: Nucleus sampling (0.1 - 1.0)
-        do_sample: True untuk gunakan temperature/top_p, False untuk greedy
-    
-    Returns:
-        Jawaban dari model
+    Strategi:
+    - Gunakan temperature rendah (0.3) agar jawaban fokus
+    - top_p 0.85 untuk memfilter token noise  
+    - repetition_penalty 1.3 (tidak terlalu tinggi agar tidak merusak output)
+    - Minimal post-processing agar jawaban tetap natural
     """
     template = QA_TEMPLATES.get(qa_format, QA_TEMPLATES["instruction"])
     prompt = template["format"].format(question=question)
@@ -285,139 +281,63 @@ def ask_question(model, tokenizer, question, device,
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
     prompt_length = inputs.input_ids.shape[1]
     
-    # Buat attention mask
     attention_mask = torch.ones_like(inputs.input_ids)
     
-    # Handle greedy vs sampling
     curr_do_sample = do_sample if temperature > 0 else False
     
     with torch.no_grad():
         outputs = model.generate(
             inputs.input_ids,
             attention_mask=attention_mask,
-            max_new_tokens=100,             # Lebih panjang untuk jawaban detail
-            min_new_tokens=10,              # Minimal 10 tokens untuk jawaban lengkap
-            do_sample=curr_do_sample,       
+            max_new_tokens=150,
+            min_new_tokens=5,
+            do_sample=curr_do_sample,
             temperature=temperature if curr_do_sample else None,
             top_p=top_p if curr_do_sample else None,
-            top_k=50,                       # Batasi ke top-50 tokens
-            num_beams=1,                    # No beam search untuk speed
+            top_k=40,
+            num_beams=1,
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.8,         # Tingkatkan untuk kurangi repetisi
-            no_repeat_ngram_size=4,         # Cegah 4-gram berulang
-            length_penalty=0.8,             # Sedikit favorit jawaban lebih pendek
-            early_stopping=True,            # Stop jika sudah lengkap
+            repetition_penalty=1.3,         # Cukup untuk anti-repetisi tanpa merusak coherence
+            no_repeat_ngram_size=3,
+            early_stopping=True,
         )
     
-    # Decode HANYA bagian jawaban (skip prompt tokens)
+    # Decode hanya bagian jawaban
     answer_tokens = outputs[0][prompt_length:]
     answer = tokenizer.decode(answer_tokens, skip_special_tokens=True).strip()
     
-    # === IMPROVED CLEANING & FILTERING ===
+    # === MINIMAL CLEANING — jangan over-process ===
     import re
     
-    # Basic cleaning
-    answer = answer.replace("\n\n", " ").replace("\n", " ").replace("  ", " ").strip()
-    
-    # Stop at markers
+    # 1. Stop di marker format berikutnya
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
     
-    markers = ["Pertanyaan:", "###", "<|", "Instruksi:", "Contoh:", "Silakan cek", "Silakan lihat", 
-               "Referensi:", "Sumber:", "Catatan:", "Note:", "P:", "Q:"]
-    for marker in markers:
+    for marker in ["### Instruksi:", "Pertanyaan:", "<|user|>", "<|assistant|>"]:
         if marker in answer:
             answer = answer.split(marker)[0].strip()
     
-    # Remove excessive punctuation
-    answer = re.sub(r'[.!?]{3,}', '.', answer)
+    # 2. Bersihkan whitespace berlebihan
+    answer = re.sub(r'\s+', ' ', answer).strip()
     
-    # Remove repetitive phrases (e.g., "dan seterusnya dan seterusnya")
-    words = answer.split()
-    cleaned_words = []
-    for i, word in enumerate(words):
-        # Skip jika kata ini dan 2 kata berikutnya sama dengan 3 kata sebelumnya
-        if i >= 3 and i + 2 < len(words):
-            if words[i:i+3] == words[i-3:i]:
-                continue
-        cleaned_words.append(word)
-    answer = ' '.join(cleaned_words)
-    
-    # Truncate jika terlalu panjang dan mulai tidak masuk akal
-    sentences = answer.split('. ')
-    if len(sentences) > 5:  # Lebih dari 5 kalimat = suspicious
-        answer = '. '.join(sentences[:5]) + '.'
-    
-    # Detect hallucination patterns
-    hallucination_keywords = [
-        "17. 000", "17.000", "080", "081",  # Phone/weird numbers
-        "padi banteng", "bintang emas",      # Garuda Pancasila yang salah
-        "melompat berenang terbang",         # Kombinasi aneh
-    ]
-    for keyword in hallucination_keywords:
-        if keyword in answer.lower():
-            # Truncate di keyword tersebut
-            answer = answer.lower().split(keyword)[0].strip()
-            break
-    
-    # Remove hallucination patterns
-    answer = re.sub(r'\([^)]*(?:Danau|Gunung)[^)]*\)', '', answer)
-    
-    # Extract clean sentences (max 2)
-    sentences = []
-    current = ""
-    
-    for char in answer:
-        current += char
-        if char in '.!?':
-            sentence = current.strip()
-            
-            # Skip jika terlalu pendek atau ada keyword hallucination
-            if len(sentence) < 15:
-                current = ""
-                continue
-            
-            bad_patterns = ["081 ha", "September atau", "m dpl", "dong!", "kok!", "besar, cantik"]
-            if any(p in sentence for p in bad_patterns):
-                current = ""
-                continue
-            
-            if sentence.startswith(("Contoh", "Misalnya", "Namun", "Tapi", "Silakan")):
-                current = ""
-                continue
-            
-            sentences.append(sentence)
-            current = ""
-            
-            if len(sentences) >= 2:  # Max 2 sentences
-                break
-    
-    # Assemble final answer
-    if sentences:
-        answer = ' '.join(sentences)
-    elif current.strip() and len(current.strip()) > 15:
-        answer = current.strip()
-        if not answer.endswith(('.', '!', '?')):
+    # 3. Remove trailing incomplete thought
+    if answer and not answer[-1] in '.!?':
+        # Cari kalimat terakhir yang lengkap
+        last_period = max(answer.rfind('.'), answer.rfind('!'), answer.rfind('?'))
+        if last_period > len(answer) * 0.3:  # Hanya potong jika >30% teks sudah lengkap
+            answer = answer[:last_period + 1]
+        else:
             answer += "."
-    else:
-        answer = "Maaf, saya tidak dapat memberikan jawaban yang pasti untuk pertanyaan ini."
     
-    # Remove trailing incomplete words
-    trailing_bad = ["seperti", "yaitu", "antara lain", "contohnya", "termasuk", "dan", "serta", "tapi"]
-    for bad in trailing_bad:
-        if answer.lower().endswith(bad):
-            answer = answer.rsplit(' ', 1)[0] + "."
-            break
-    
-    # Truncate if too long (suspicious)
-    if len(answer.split()) > 50:
-        answer = answer.split('.')[0] + '.'
+    # 4. Fallback jika kosong
+    if not answer or len(answer.strip()) < 3:
+        answer = "Maaf, saya tidak yakin dengan jawaban untuk pertanyaan ini."
     
     return answer
 
 
-def qa_interactive(model, tokenizer, device, qa_format="instruction", temperature=0.3, top_p=0.9):
+def qa_interactive(model, tokenizer, device, qa_format="instruction", temperature=0.3, top_p=0.85):
     """Interactive Q&A mode dengan hallucination detection"""
     print("\n" + "=" * 60)
     print("🤖 MODE TANYA JAWAB")
@@ -452,7 +372,7 @@ def qa_interactive(model, tokenizer, device, qa_format="instruction", temperatur
         print("-" * 50)
 
 
-def qa_batch_test(model, tokenizer, device, qa_format="instruction", temperature=0.3, top_p=0.9):
+def qa_batch_test(model, tokenizer, device, qa_format="instruction", temperature=0.3, top_p=0.85):
     """Test Q&A dengan berbagai pertanyaan"""
     
     test_questions = [

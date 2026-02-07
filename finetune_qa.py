@@ -47,31 +47,33 @@ EVAL_DATA_FILES = [
     "./dataset/eval_alpaca_qa.json"
 ]
 
-# Training config untuk fine-tuning model 150M - FULL DATASET OPTIMIZATION
+# Training config untuk fine-tuning model 150M - OPTIMIZED FOR COHERENCE
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 5,                     # 5 epoch untuk memorisasi lebih baik
-    "per_device_train_batch_size": 4,          # Turunkan ke 4 untuk 1024 tokens
+    "num_train_epochs": 3,                     # 3 epoch cukup, >3 overfitting
+    "per_device_train_batch_size": 4,
     "per_device_eval_batch_size": 4,
-    "gradient_accumulation_steps": 8,          # Total batch = 32 (4 * 8)
-    "learning_rate": 3e-5,                     # Naikkan learning rate untuk konvergensi cepat
+    "gradient_accumulation_steps": 16,          # Effective batch = 64 (lebih besar = lebih stabil)
+    "learning_rate": 2e-5,                     # LR lebih kecil untuk SFT agar tidak rusak pretraining
     "weight_decay": 0.01,
-    "warmup_ratio": 0.1,
+    "warmup_ratio": 0.06,                      # 6% warmup
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
     "eval_strategy": "steps",
-    "eval_steps": 300,                         # Lebih sering evaluasi
+    "eval_steps": 200,
     "save_strategy": "steps",
-    "save_steps": 300,
-    "save_total_limit": 2,                     # Simpan 2 checkpoint terbaik
-    "load_best_model_at_end": True,           # Load model terbaik di akhir
+    "save_steps": 200,
+    "save_total_limit": 2,
+    "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "fp16": torch.cuda.is_available(),
-    "gradient_checkpointing": True,            # Aktifkan untuk memory efficiency
+    "gradient_checkpointing": True,
     "dataloader_num_workers": 4,
     "seed": 42,
     "report_to": "none",
-    "max_grad_norm": 1.0,                      # Gradient clipping untuk stabilitas
+    "max_grad_norm": 1.0,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.95,                        # Lebih stabil
 }
 
 
@@ -98,12 +100,13 @@ def load_combined_datasets(file_paths):
 
 
 def tokenize_function(examples, tokenizer, max_length=1024):
-    """Tokenize texts - 1024 token untuk long-form QA tanpa dipotong"""
+    """Tokenize texts dengan EOS token agar model belajar kapan berhenti"""
+    texts = [t + tokenizer.eos_token for t in examples["text"]]
     return tokenizer(
-        examples["text"],
+        texts,
         truncation=True,
         max_length=max_length,
-        padding="max_length",
+        padding=False,  # Dynamic padding via DataCollator
         return_special_tokens_mask=True,
     )
 

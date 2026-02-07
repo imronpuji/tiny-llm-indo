@@ -102,9 +102,9 @@ MODEL_CONFIG = {
     "n_head": 16,          # 16 attention heads
     "n_inner": 4096,       # 4x n_embd
     "activation_function": "gelu_new",
-    "resid_pdrop": 0.1,
-    "embd_pdrop": 0.1,
-    "attn_pdrop": 0.1,
+    "resid_pdrop": 0.05,   # Lower dropout agar model lebih stabil & coherent
+    "embd_pdrop": 0.05,
+    "attn_pdrop": 0.05,
     "layer_norm_epsilon": 1e-5,
     "bos_token_id": 1,
     "eos_token_id": 2,
@@ -112,31 +112,34 @@ MODEL_CONFIG = {
 
 TRAINING_CONFIG = {
     "output_dir": "./tiny-llm-indo",
-    "num_train_epochs": 5,                     # 5 epoch untuk training yang lebih mendalam
+    "num_train_epochs": 3,                     # 3 epoch cukup, lebih dari itu overfitting
     "per_device_train_batch_size": 16,         # Batch size optimal untuk 150M
     "per_device_eval_batch_size": 16,
-    "gradient_accumulation_steps": 2,          # Effective batch = 16*2*4 = 128
-    "learning_rate": 3e-4,                     # Learning rate optimal untuk 150M
-    "weight_decay": 0.01,
-    "warmup_ratio": 0.05,                      # Warmup lebih panjang
+    "gradient_accumulation_steps": 4,          # Effective batch = 16*4 = 64 (lebih besar = lebih stabil)
+    "learning_rate": 6e-4,                     # Chinchilla-optimal LR untuk 150M
+    "weight_decay": 0.1,                       # Weight decay lebih tinggi untuk regularisasi
+    "warmup_ratio": 0.10,                      # 10% warmup krusial untuk stabilitas awal
     "lr_scheduler_type": "cosine",
-    "logging_steps": 25,                       # Lebih sering log
+    "logging_steps": 25,
     "eval_strategy": "steps",
-    "eval_steps": 100,                         # Evaluasi lebih sering
+    "eval_steps": 200,
     "save_strategy": "steps",
-    "save_steps": 100,
-    "save_total_limit": 5,                     # Simpan 5 checkpoint terbaik
+    "save_steps": 200,
+    "save_total_limit": 3,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
     "bf16": True,                              # RTX 5090 supports bf16
-    "dataloader_num_workers": 16,              # More workers untuk 4x GPU
+    "dataloader_num_workers": 16,
     "dataloader_pin_memory": True,
-    "ddp_find_unused_parameters": False,       # Untuk multi-GPU efficiency
-    "gradient_checkpointing": True,            # Aktifkan untuk memory efficiency
+    "ddp_find_unused_parameters": False,
+    "gradient_checkpointing": True,
     "seed": 42,
     "report_to": "none",
     "max_grad_norm": 1.0,
+    "adam_beta1": 0.9,                         # Standard untuk LLM training
+    "adam_beta2": 0.95,                        # 0.95 lebih stabil dari default 0.999
+    "adam_epsilon": 1e-8,
 }
 
 # ============================================================
@@ -212,13 +215,15 @@ def load_dataset_from_json(path):
     return Dataset.from_list(data)
 
 
-def tokenize_function(examples, tokenizer, max_length=512):
-    """Tokenize texts"""
+def tokenize_function(examples, tokenizer, max_length=1024):
+    """Tokenize texts dengan EOS token di akhir setiap sample"""
+    # Tambahkan EOS token di akhir setiap teks agar model belajar kapan berhenti
+    texts = [t + tokenizer.eos_token for t in examples["text"]]
     return tokenizer(
-        examples["text"],
+        texts,
         truncation=True,
         max_length=max_length,
-        padding="max_length",
+        padding=False,  # Dynamic padding via DataCollator — lebih efisien
         return_special_tokens_mask=True,
     )
 
@@ -226,6 +231,28 @@ def tokenize_function(examples, tokenizer, max_length=512):
 # ============================================================
 # MODEL CREATION
 # ============================================================
+
+def _init_weights(model, config):
+    """Inisialisasi weight yang lebih baik untuk training dari awal.
+    Mengikuti GPT-2 paper: scaled initialization berdasarkan depth."""
+    import math
+    for name, param in model.named_parameters():
+        if 'weight' in name:
+            if 'ln' in name or 'layernorm' in name:
+                # LayerNorm weights diinisialisasi ke 1
+                torch.nn.init.ones_(param)
+            elif 'wte' in name or 'wpe' in name:
+                # Token & position embeddings
+                torch.nn.init.normal_(param, mean=0.0, std=0.02)
+            elif 'c_proj' in name:
+                # Output projection: scaled by 1/sqrt(2*n_layer) per GPT-2
+                torch.nn.init.normal_(param, mean=0.0, std=0.02 / math.sqrt(2 * config.n_layer))
+            else:
+                torch.nn.init.normal_(param, mean=0.0, std=0.02)
+        elif 'bias' in name:
+            torch.nn.init.zeros_(param)
+    print("  ✓ Weights initialized (GPT-2 scaled init)")
+
 
 def create_model_and_tokenizer(use_lora=False, from_pretrained=None):
     """
@@ -264,6 +291,8 @@ def create_model_and_tokenizer(use_lora=False, from_pretrained=None):
         config = GPT2Config(**MODEL_CONFIG)
         # Create model from scratch
         model = GPT2LMHeadModel(config)
+        # Better weight initialization untuk coherence
+        _init_weights(model, config)
     
     # Apply LoRA if enabled
     if use_lora and PEFT_AVAILABLE:

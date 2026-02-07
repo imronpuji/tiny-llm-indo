@@ -48,14 +48,14 @@ OUTPUT_PATH = "./masa-ai-dpo-aligned"
 TRAIN_PREFERENCE = "./dataset/train_preference.json"
 EVAL_PREFERENCE = "./dataset/eval_preference.json"
 
-# DPO Training Config
+# DPO Training Config — OPTIMIZED
 DPO_CONFIG = {
     "output_dir": "./dpo-checkpoints",
-    "num_train_epochs": 3,
-    "per_device_train_batch_size": 2,      # Turunkan ke 2 untuk 1024 tokens
+    "num_train_epochs": 2,                     # 2 epoch cukup untuk DPO (lebih = overfitting)
+    "per_device_train_batch_size": 2,
     "per_device_eval_batch_size": 2,
-    "gradient_accumulation_steps": 8,      # Effective batch = 16
-    "learning_rate": 5e-7,                 # Learning rate sangat kecil untuk DPO
+    "gradient_accumulation_steps": 8,          # Effective batch = 16
+    "learning_rate": 1e-6,                     # LR sangat kecil untuk DPO (hanya fine-adjust)
     "warmup_ratio": 0.1,
     "lr_scheduler_type": "cosine",
     "logging_steps": 10,
@@ -66,17 +66,17 @@ DPO_CONFIG = {
     "save_total_limit": 2,
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
-    "bf16": torch.cuda.is_available(),     # BF16 lebih stabil untuk DPO
-    "fp16": False,                         # Disable FP16
+    "bf16": torch.cuda.is_available(),
+    "fp16": False,
     "gradient_checkpointing": True,
     "dataloader_num_workers": 2,
     "seed": 42,
     "report_to": "none",
-    "remove_unused_columns": False,        # Penting untuk DPO
-    "max_grad_norm": 1.0,
+    "remove_unused_columns": False,
+    "max_grad_norm": 0.5,                      # Gradient clip lebih ketat untuk DPO
     
     # DPO Specific
-    "beta": 0.1,                           # DPO beta parameter (0.01 - 0.5)
+    "beta": 0.2,                               # Beta 0.2 lebih konservatif (model tidak terlalu berubah)
     "max_prompt_length": 512,
     "max_length": 1024,
 }

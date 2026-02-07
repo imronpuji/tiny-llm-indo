@@ -168,6 +168,78 @@ PREFERENCE_DATA = [
         "chosen": "Ya, sebagian besar burung bisa terbang menggunakan sayapnya. Namun ada beberapa burung yang tidak bisa terbang seperti penguin, burung unta, dan kasuari.",
         "rejected": "Ya, semua burung bisa terbang dengan sayapnya."  # ❌ GENERALISASI SALAH
     },
+    
+    # === COHERENCE TRAINING — Jawaban harus NYAMBUNG ===
+    {
+        "prompt": "Apa perbedaan kucing dan anjing?",
+        "chosen": "Kucing dan anjing sama-sama hewan peliharaan, tapi memiliki perbedaan. Kucing cenderung mandiri dan suka membersihkan diri sendiri. Anjing lebih setia dan suka bermain dengan pemiliknya.",
+        "rejected": "Kucing adalah hewan. Indonesia memiliki banyak pulau. Jakarta adalah ibu kota. Kucing bisa memanjat pohon dengan kaki belakangnya."  # ❌ TIDAK NYAMBUNG ANTAR KALIMAT
+    },
+    {
+        "prompt": "Jelaskan tentang nasi goreng",
+        "chosen": "Nasi goreng adalah makanan khas Indonesia yang dibuat dari nasi yang digoreng dengan bumbu seperti bawang, kecap, dan cabai. Biasanya ditambahkan telur, ayam, atau seafood sebagai pelengkap.",
+        "rejected": "Nasi goreng adalah makanan dari nasi. Makanan ini juga terkenal dengan sebutan soto bandung di berbagai daerah. Resep ini menggunakan 500 gram tepung terigu."  # ❌ FAKTA CAMPUR ADUK
+    },
+    {
+        "prompt": "Mengapa hujan turun?",
+        "chosen": "Hujan terjadi karena air di bumi menguap akibat panas matahari, naik ke atmosfer membentuk awan. Ketika awan sudah penuh dengan uap air dan tidak bisa menampung lagi, air jatuh kembali ke bumi sebagai hujan.",
+        "rejected": "Hujan turun karena awan. Awan terbentuk dari siklus di planet Mars. Oleh sebab itu, cuaca di Indonesia memiliki empat musim yaitu musim panas, dingin, semi, dan gugur."  # ❌ FAKTA SALAH & TIDAK COHERENT
+    },
+    {
+        "prompt": "Kenapa kita harus minum air?",
+        "chosen": "Kita harus minum air karena tubuh manusia terdiri dari sekitar 60% air. Air dibutuhkan untuk menjaga fungsi organ, mengatur suhu tubuh, dan membantu proses pencernaan.",
+        "rejected": "Air penting untuk tubuh. Sungai Nil adalah sungai terpanjang di dunia. Karena itu, kita perlu minum setiap hari agar ginjal tetap sehat."  # ❌ RANDOM FACT DITENGAH
+    },
+    {
+        "prompt": "Apa itu fotosintesis?",
+        "chosen": "Fotosintesis adalah proses tanaman mengubah cahaya matahari, air, dan karbon dioksida menjadi makanan (glukosa) dan oksigen. Proses ini terjadi di daun tanaman yang mengandung klorofil.",
+        "rejected": "Fotosintesis adalah proses yang dilakukan tumbuhan. Proses ini ditemukan oleh Albert Einstein pada tahun 1905. Klorofil berwarna hijau karena mengandung magnesium."  # ❌ FAKTA SALAH (Einstein tidak menemukan fotosintesis)
+    },
+    {
+        "prompt": "Ceritakan tentang Borobudur",
+        "chosen": "Borobudur adalah candi Buddha terbesar di dunia yang terletak di Magelang, Jawa Tengah. Candi ini dibangun pada abad ke-9 oleh dinasti Syailendra dan menjadi salah satu warisan dunia UNESCO.",
+        "rejected": "Borobudur terletak di Yogyakarta dan dibangun oleh kerajaan Majapahit. Candi ini memiliki 1000 stupa dan merupakan candi Hindu terbesar."  # ❌ FAKTA SALAH SEMUA
+    },
+    {
+        "prompt": "Apa manfaat olahraga?",
+        "chosen": "Olahraga bermanfaat untuk menjaga kesehatan tubuh, meningkatkan stamina, memperkuat otot dan tulang, serta menjaga berat badan ideal. Olahraga juga baik untuk kesehatan mental karena melepaskan hormon endorfin.",
+        "rejected": "Olahraga sangat bagus. Vitamin C juga baik untuk daya tahan tubuh. Makan sayur dan buah setiap hari membuat kita sehat. Jadi olahraga itu penting."  # ❌ CAMPUR TOPIK
+    },
+    {
+        "prompt": "Siapa penemu listrik?",
+        "chosen": "Listrik pertama kali diteliti secara ilmiah oleh Benjamin Franklin dan Michael Faraday. Thomas Edison kemudian menemukan bola lampu listrik yang praktis pada tahun 1879.",
+        "rejected": "Penemu listrik adalah Nicolas Tesla yang lahir di Indonesia pada tahun 1800. Dia menciptakan internet dan media sosial."  # ❌ FAKTA SALAH
+    },
+    {
+        "prompt": "Bagaimana cara merawat tanaman?",
+        "chosen": "Cara merawat tanaman: siram dengan cukup air secara teratur, pastikan tanaman mendapat cahaya matahari yang cukup, berikan pupuk sebulan sekali, dan bersihkan daun dari hama atau kotoran.",
+        "rejected": "Tanaman perlu air. Komodo adalah hewan langka di Indonesia. Untuk menanam padi, petani harus ke sawah. Jadi rawatlah tanaman dengan baik."  # ❌ RANDOM INSERTS
+    },
+    {
+        "prompt": "Apa itu demokrasi?",
+        "chosen": "Demokrasi adalah sistem pemerintahan di mana kekuasaan tertinggi berada di tangan rakyat. Dalam demokrasi, rakyat memilih pemimpin melalui pemilihan umum (pemilu) dan memiliki hak untuk menyampaikan pendapat.",
+        "rejected": "Demokrasi berasal dari kata demos dan kratos. Pancasila memiliki 5 sila. Indonesia menganut sistem presidensial. Oleh karena itu demokrasi sangat penting."  # ❌ LOMPAT-LOMPAT TOPIK
+    },
+    {
+        "prompt": "Apa bedanya planet dan bintang?",
+        "chosen": "Planet adalah benda langit yang mengorbit bintang dan tidak menghasilkan cahaya sendiri, melainkan memantulkan cahaya bintang. Bintang adalah benda langit besar yang menghasilkan cahaya dan panas sendiri melalui reaksi nuklir.",
+        "rejected": "Planet dan bintang berbeda. Bumi adalah planet ketiga. Matahari sangat panas. Ada 8 planet di tata surya kita."  # ❌ TIDAK MENJELASKAN PERBEDAAN
+    },
+    {
+        "prompt": "Kenapa laut asin?",
+        "chosen": "Laut asin karena mengandung garam mineral yang terbawa oleh sungai-sungai dari daratan selama jutaan tahun. Garam-garam ini larut dalam air dan terakumulasi di lautan.",
+        "rejected": "Laut mengandung garam. Air sungai mengalir ke laut. Ikan hidup di laut. Karena itu laut terasa asin jika diminum."  # ❌ PENJELASAN DANGKAL & TIDAK KOHEREN
+    },
+    {
+        "prompt": "Terima kasih",
+        "chosen": "Sama-sama! Senang bisa membantu Anda. Jika ada pertanyaan lain, jangan ragu untuk bertanya.",
+        "rejected": "Saya adalah asisten AI berbahasa Indonesia yang dibuat untuk membantu menjawab pertanyaan Anda tentang berbagai topik."  # ❌ TIDAK RELEVAN
+    },
+    {
+        "prompt": "Sampai jumpa",
+        "chosen": "Sampai jumpa! Semoga harimu menyenangkan. Jangan ragu untuk kembali jika butuh bantuan.",
+        "rejected": "Maaf, pertanyaan Anda kurang jelas. Bisa diperjelas?"  # ❌ TIDAK SESUAI KONTEKS
+    },
 ]
 
 
