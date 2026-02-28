@@ -1,6 +1,10 @@
-torch>=2.4.0
-transformers>=4.30.0
+# Core ML libraries - tested compatible versions
+torch==2.2.0
+transformers==4.38.0
 datasets>=2.14.0
 tqdm>=4.65.0
 accelerate>=0.20.0
 huggingface-hub>=0.16.0
+
+# Optional: triton for GPU optimization (not required for CPU)
+# triton>=2.1.0
