@@ -12,6 +12,37 @@ echo "============================================================"
 echo ""
 
 # ============================================================
+# 0. CHECK AND INSTALL PYTHON3-VENV (Linux/Docker only)
+# ============================================================
+
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    echo "🔍 Step 0: Checking python3-venv..."
+    
+    # Detect Python version
+    PYTHON_VERSION=$(python3 --version | cut -d' ' -f2 | cut -d'.' -f1,2)
+    echo "   Detected Python ${PYTHON_VERSION}"
+    
+    # Check if venv module is available
+    if ! python3 -m venv --help &> /dev/null; then
+        echo "   ⚠️  python3-venv not found, attempting to install..."
+        
+        # Try to install based on Python version
+        if command -v apt &> /dev/null; then
+            apt update
+            apt install -y python${PYTHON_VERSION}-venv python${PYTHON_VERSION}-dev || \
+            apt install -y python3-venv python3-dev
+        elif command -v yum &> /dev/null; then
+            yum install -y python3-devel
+        fi
+        
+        echo "   ✓ python3-venv installed"
+    else
+        echo "   ✓ python3-venv already available"
+    fi
+    echo ""
+fi
+
+# ============================================================
 # 1. CREATE VIRTUAL ENVIRONMENT
 # ============================================================
 
