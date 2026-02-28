@@ -1,6 +1,41 @@
 # Tiny Indonesian LLM (13M Parameters)
 
+> Fine-tuning Q&A model untuk Bahasa Indonesia dengan 42 topik berbeda
+
+## 📚 Quick Links
+
+- **[COMMANDS.md](COMMANDS.md)** - Copy-paste commands untuk install & training
+- **[INSTALL.md](INSTALL.md)** - Installation guide lengkap (Docker/Linux/macOS)
+- **[FINETUNING_GUIDE.md](FINETUNING_GUIDE.md)** - Panduan fine-tuning detail
+- **[QUICK_SETUP.md](QUICK_SETUP.md)** - Setup cepat dengan HuggingFace model
+
 ## Quick Start
+
+### Prerequisites
+
+**PENTING:** Pastikan folder `dataset_topics/` ada dengan 42 file JSON!
+
+```bash
+# Check dataset_topics exists
+ls dataset_topics/*.json | wc -l
+# Should output: 42
+
+# If not found, clone repository first:
+git clone https://github.com/imronpuji/tiny-llm-indo.git
+cd tiny-llm-indo
+```
+
+### Linux/Docker (Python 3.12)
+
+```bash
+# One-liner setup + training
+apt update && apt install -y python3.12-venv python3.12-dev && \
+python3 -m venv venv && source venv/bin/activate && \
+pip install --upgrade pip && pip install -r requirements.txt && \
+python prepare_qa_from_topics.py && python finetune_qa.py
+```
+
+### macOS/Linux (Manual)
 
 ### 1. Install Dependencies
 ```bash

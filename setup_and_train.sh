@@ -12,7 +12,41 @@ echo "============================================================"
 echo ""
 
 # ============================================================
-# 0. CHECK AND INSTALL PYTHON3-VENV (Linux/Docker only)
+# 0a. CHECK DATASET_TOPICS EXISTS
+# ============================================================
+
+echo "🔍 Checking dataset_topics folder..."
+if [ ! -d "dataset_topics" ]; then
+    echo "❌ ERROR: Folder dataset_topics/ tidak ditemukan!"
+    echo ""
+    echo "🔧 SOLUSI:"
+    echo "   1. Clone repository lengkap:"
+    echo "      git clone https://github.com/imronpuji/tiny-llm-indo.git"
+    echo "      cd tiny-llm-indo"
+    echo ""
+    echo "   2. Atau copy folder dataset_topics/ ke directory ini"
+    echo ""
+    exit 1
+fi
+
+JSON_COUNT=$(ls -1 dataset_topics/*.json 2>/dev/null | wc -l)
+echo "   Found $JSON_COUNT JSON files in dataset_topics/"
+
+if [ "$JSON_COUNT" -lt 40 ]; then
+    echo "   ⚠️  Expected ~42 files, found $JSON_COUNT"
+    echo "   Pastikan dataset_topics/ lengkap"
+    read -p "Continue anyway? (y/n) " -n 1 -r
+    echo ""
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        exit 1
+    fi
+else
+    echo "   ✓ Dataset topics OK"
+fi
+echo ""
+
+# ============================================================
+# 0b. CHECK AND INSTALL PYTHON3-VENV (Linux/Docker only)
 # ============================================================
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then

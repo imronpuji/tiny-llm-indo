@@ -108,12 +108,6 @@ def main():
         print(f"   GPU: {torch.cuda.get_device_name(0)}")
     
     # Load base model
-    print(f"\n📦 Loading base model dari: {BASE_MODEL_PATH}")
-    model = 💻 Device: {device}")
-    if device == "cuda":
-        print(f"   GPU: {torch.cuda.get_device_name(0)}")
-    
-    # Load base model
     print(f"\n📦 Loading base model: {BASE_MODEL_PATH}")
     is_huggingface = "/" in BASE_MODEL_PATH and not BASE_MODEL_PATH.startswith(".")
     if is_huggingface:

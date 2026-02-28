@@ -9,6 +9,28 @@ set -e
 echo "🚀 Quick Setup & Training"
 echo ""
 
+# Check dataset_topics
+echo "🔍 Checking dataset_topics..."
+if [ ! -d "dataset_topics" ]; then
+    echo "❌ ERROR: Folder dataset_topics/ tidak ditemukan!"
+    echo ""
+    echo "Clone repository dulu:"
+    echo "   git clone https://github.com/imronpuji/tiny-llm-indo.git"
+    echo "   cd tiny-llm-indo"
+    echo ""
+    exit 1
+fi
+
+JSON_COUNT=$(ls -1 dataset_topics/*.json 2>/dev/null | wc -l)
+if [ "$JSON_COUNT" -lt 40 ]; then
+    echo "⚠️  Found $JSON_COUNT JSON files (expected ~42)"
+    echo "Dataset mungkin tidak lengkap"
+    exit 1
+else
+    echo "✓ Found $JSON_COUNT topic files"
+fi
+echo ""
+
 # Detect OS
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "📋 Detected: Linux"

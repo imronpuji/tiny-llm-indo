@@ -43,6 +43,16 @@ def load_all_qa_from_topics():
     
     if not source_path.exists():
         print(f"❌ Folder {SOURCE_DIR} tidak ditemukan!")
+        print()
+        print("🔧 SOLUSI:")
+        print("   1. Clone repository lengkap:")
+        print("      git clone https://github.com/imronpuji/tiny-llm-indo.git")
+        print()
+        print("   2. Atau copy folder dataset_topics/ ke directory ini")
+        print()
+        print("   3. Verify dengan: ls dataset_topics/*.json | wc -l")
+        print("      (Should output: 42)")
+        print()
         return []
     
     json_files = sorted(source_path.glob("*.json"))
