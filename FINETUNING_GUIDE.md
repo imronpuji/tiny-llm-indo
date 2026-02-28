@@ -2,15 +2,7 @@
 
 ## Workflow Lengkap
 
-### **Tahap 1: Training Base Model (Optional)**
-Jika belum punya base model:
-```bash
-python prepare_dataset.py    # Download dataset umum
-python train_tiny_llm.py      # Train base model
-```
-Output: `tiny-llm-indo-final/`
-
-### **Tahap 2: Prepare Q&A Dataset** ✅ **BARU!**
+### **Tahap 1: Prepare Q&A Dataset** ✅ **MULAI DARI SINI**
 ```bash
 python prepare_qa_from_topics.py
 ```
@@ -47,10 +39,15 @@ Atau dengan Chain of Thought:
 {jawaban}
 ```
 
-### **Tahap 3: Fine-tuning** ✅ **UPDATED!**
+### **Tahap 2: Fine-tuning** ✅ **MENGGUNAKAN BASE MODEL DARI HUGGINGFACE**
 ```bash
 python finetune_qa.py
 ```
+
+**Base Model:**
+- Model: `yasmeenimron/masa-ai-qa` (HuggingFace)
+- Otomatis download saat pertama kali run
+- Tidak perlu training base model dari scratch!
 
 **Konfigurasi Optimal:**
 - Epochs: 10 (turun dari 50)
@@ -68,9 +65,24 @@ python finetune_qa.py
 
 **Output:** `tiny-llm-indo-qa/`
 
-### **Tahap 4: Testing**
+### **Tahap 3: Testing**
 ```bash
 python test_model.py
+```
+
+---
+
+## Training Base Model Sendiri (Optional)
+
+Jika ingin training base model dari scratch (tidak wajib):
+```bash
+python prepare_dataset.py    # Download dataset umum
+python train_tiny_llm.py      # Train base model
+```
+
+Kemudian update `BASE_MODEL_PATH` di `finetune_qa.py`:
+```python
+BASE_MODEL_PATH = "./tiny-llm-indo-final"  # Local model
 ```
 
 ---

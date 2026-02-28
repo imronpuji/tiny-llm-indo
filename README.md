@@ -7,23 +7,7 @@
 pip install torch transformers datasets tqdm
 ```
 
-### 2. Prepare Dataset
-```bash
-python prepare_dataset.py
-```
-
-Ini akan download dan proses data dari:
-- Wikipedia Indonesia
-- Indonesian News 2018
-- OSCAR (Common Crawl)
-- CC100
-
-### 3. Train Base Model
-```bash
-python train_tiny_llm.py
-```
-
-### 4. Prepare Q&A Dataset (dari dataset_topics)
+### 2. Prepare Q&A Dataset (dari dataset_topics)
 ```bash
 python prepare_qa_from_topics.py
 ```
@@ -34,14 +18,38 @@ Ini akan:
 - Split 80% training, 20% evaluation
 - Generate `dataset/train_qa.json` dan `dataset/eval_qa.json`
 
-### 5. Fine-tune untuk Q&A
+### 3. Fine-tune untuk Q&A
 ```bash
 python finetune_qa.py
 ```
 
-### 6. Test Model
+Script ini menggunakan base model `yasmeenimron/masa-ai-qa` dari HuggingFace.
+
+### 4. Test Model
 ```bash
 python test_model.py
+```
+
+---
+
+## Training dari Scratch (Optional)
+
+Jika ingin training base model sendiri:
+
+### 1. Prepare Dataset
+```bash
+python prepare_dataset.py
+```
+
+Ini akan download dan proses data dari:
+- Wikipedia Indonesia
+- Indonesian News 2018
+- OSCAR (Common Crawl)
+- CC100
+
+### 2. Train Base Model
+```bash
+python train_tiny_llm.py
 ```
 
 ## File Structure

@@ -26,8 +26,10 @@ from transformers import (
 # KONFIGURASI
 # ============================================================
 
-# Path model dari tahap 1 (training general)
-BASE_MODEL_PATH = "./tiny-llm-indo-final"
+# Base model - bisa dari HuggingFace atau local path
+# HuggingFace: "yasmeenimron/masa-ai-qa"
+# Local: "./tiny-llm-indo-final"
+BASE_MODEL_PATH = "yasmeenimron/masa-ai-qa"
 
 # Output fine-tuned model
 OUTPUT_PATH = "./tiny-llm-indo-qa"
@@ -90,13 +92,7 @@ def main():
     print("=" * 60)
     print("🎯 FINE-TUNING UNTUK Q&A")
     print("=" * 60)
-    
-    # Check base model exists
-    if not os.path.exists(BASE_MODEL_PATH):
-        print(f"❌ Base model tidak ditemukan: {BASE_MODEL_PATH}")
-        print("   Jalankan training general dulu:")
-        print("   python train_tiny_llm.py")
-        return
+    print()
     
     # Check Q&A dataset exists
     if not os.path.exists(TRAIN_DATA_PATH):
@@ -113,14 +109,31 @@ def main():
     
     # Load base model
     print(f"\n📦 Loading base model dari: {BASE_MODEL_PATH}")
-    model = GPT2LMHeadModel.from_pretrained(BASE_MODEL_PATH)
-    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_PATH)
+    model = 💻 Device: {device}")
+    if device == "cuda":
+        print(f"   GPU: {torch.cuda.get_device_name(0)}")
     
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
+    # Load base model
+    print(f"\n📦 Loading base model: {BASE_MODEL_PATH}")
+    is_huggingface = "/" in BASE_MODEL_PATH and not BASE_MODEL_PATH.startswith(".")
+    if is_huggingface:
+        print(f"   Source: HuggingFace Hub")
+    else:
+        print(f"   Source: Local path")
+        if not os.path.exists(BASE_MODEL_PATH):
+            print(f"\n❌ Model tidak ditemukan: {BASE_MODEL_PATH}")
+            print("   Opsi:")
+            print("   1. Gunakan model dari HuggingFace: BASE_MODEL_PATH = 'yasmeenimron/masa-ai-qa'")
+            print("   2. Train model lokal: python train_tiny_llm.py")
+            return
     
-    # Count parameters
-    total_params = sum(p.numel() for p in model.parameters())
+    try:
+        model = GPT2LMHeadModel.from_pretrained(BASE_MODEL_PATH)
+        tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_PATH)
+    except Exception as e:
+        print(f"\n❌ Error loading model: {e}")
+        print("   Pastikan model path/name benar dan internet tersambung (untuk HuggingFace)")
+        return
     print(f"✓ Model loaded: {total_params/1e6:.1f}M parameters")
     
     # Load datasets
