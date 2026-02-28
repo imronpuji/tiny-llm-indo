@@ -585,5 +585,398 @@
     "q": "Bagaimana komposisi makronutrien (protein, karbohidrat, lemak) harus disesuaikan berdasarkan tujuan kesehatan?",
     "a": "Komposisi makronutrien optimal tergantung tujuan: untuk penurunan berat badan, tingkatkan protein (30-35%) dan kurangi lemak; untuk membangun otot, protein 25-30%, karbohidrat 45-55%, lemak 20-25%; untuk kesehatan umum, seimbangkan 50% karbohidrat, 25% protein, 25% lemak. Protein membangun jaringan, karbohidrat memberi energi, lemak penting untuk hormon dan penyerapan vitamin. Konsultasi ahli gizi untuk rekomendasi personal berdasarkan usia, aktivitas, dan kondisi kesehatan.",
     "cot": "Pertimbangkan peran setiap makronutrien dalam tubuh: protein membutuhkan energi lebih banyak untuk dicerna, sehingga meningkatkan termogenesis dan rasa kenyang lebih lama. Karbohidrat adalah bahan bakar utama untuk aktivitas dan otak. Lemak sehat (omega-3, MUFA) penting untuk fungsi jantung dan hormon. Keseimbangan yang berbeda menghasilkan hasil berbeda - lebih banyak protein untuk pemulihan otot, lebih banyak karbohidrat untuk performa atletik. Personalisasi adalah kunci kesuksesan diet jangka panjang."
+  },
+  {
+    "q": "Apa manfaat probiotik untuk kesehatan pencernaan?",
+    "a": "Probiotik adalah bakteri baik yang membantu menjaga keseimbangan mikrobiota usus, meningkatkan pencernaan, memperkuat sistem imun, dan mencegah diare. Sumber probiotik alami termasuk yogurt, kefir, tempe, kimchi, dan kombucha."
+  },
+  {
+    "q": "Mengapa sarapan penting untuk kesehatan?",
+    "a": "Sarapan memberi energi setelah puasa semalaman, meningkatkan konsentrasi dan produktivitas, mengatur metabolisme, dan membantu mengontrol berat badan dengan mencegah makan berlebihan di siang hari."
+  },
+  {
+    "q": "Apa itu kolesterol HDL dan LDL?",
+    "a": "HDL (High-Density Lipoprotein) adalah kolesterol baik yang membersihkan kolesterol dari pembuluh darah. LDL (Low-Density Lipoprotein) adalah kolesterol jahat yang dapat menumpuk di arteri dan menyebabkan penyakit jantung."
+  },
+  {
+    "q": "Bagaimana cara mengatasi stres secara alami?",
+    "a": "Cara mengatasi stres: olahraga teratur, meditasi atau yoga, tidur cukup, berbicara dengan orang terdekat, hobby yang menyenangkan, mengurangi kafein, dan teknik pernapasan dalam."
+  },
+  {
+    "q": "Apa gejala dehidrasi yang perlu diwaspadai?",
+    "a": "Gejala dehidrasi meliputi: mulut kering, urine berwarna gelap, pusing, kelelahan, sakit kepala, kulit kering, dan jantung berdebar. Dehidrasi berat memerlukan penanganan medis segera."
+  },
+  {
+    "q": "Mengapa penting mengonsumsi sayuran hijau?",
+    "a": "Sayuran hijau kaya akan vitamin K, zat besi, folat, serat, dan antioksidan yang penting untuk kesehatan tulang, pembentukan sel darah merah, pencernaan, dan perlindungan sel dari radikal bebas."
+  },
+  {
+    "q": "Apa itu indeks massa tubuh (IMT)?",
+    "a": "IMT adalah ukuran yang menghitung berat badan ideal berdasarkan tinggi badan. Rumusnya: berat (kg) dibagi tinggi (meter) kuadrat. IMT normal adalah 18.5-24.9."
+  },
+  {
+    "q": "Bagaimana cara mencegah osteoporosis?",
+    "a": "Mencegah osteoporosis dengan: konsumsi kalsium dan vitamin D cukup, olahraga beban teratur, hindari merokok dan alkohol berlebihan, paparan sinar matahari pagi, dan konsultasi dokter untuk suplemen jika diperlukan."
+  },
+  {
+    "q": "Apa fungsi antioksidan dalam tubuh?",
+    "a": "Antioksidan melindungi sel dari kerusakan akibat radikal bebas, mengurangi risiko penyakit kronis, memperlambat penuaan, dan meningkatkan sistem imun. Sumber: buah beri, teh hijau, coklat hitam, sayuran berwarna."
+  },
+  {
+    "q": "Mengapa perlu istirahat yang cukup saat sakit?",
+    "a": "Istirahat memungkinkan tubuh fokus melawan infeksi, memproduksi sel imun lebih banyak, mempercepat penyembuhan jaringan, dan menghemat energi untuk pemulihan. Kurang istirahat memperlambat kesembuhan."
+  },
+  {
+    "q": "Apa itu hipertensi dan bagaimana mencegahnya?",
+    "a": "Hipertensi adalah tekanan darah tinggi (≥140/90 mmHg) yang meningkatkan risiko stroke dan penyakit jantung. Pencegahan: kurangi garam, olahraga teratur, jaga berat badan ideal, hindari stres, dan batasi alkohol."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan mata?",
+    "a": "Jaga kesehatan mata dengan: istirahatkan mata dari layar setiap 20 menit, konsumsi vitamin A dari wortel dan sayuran hijau, gunakan kacamata hitam saat terik, dan periksa mata rutin ke dokter."
+  },
+  {
+    "q": "Apa manfaat omega-3 untuk tubuh?",
+    "a": "Omega-3 penting untuk kesehatan jantung, mengurangi peradangan, mendukung fungsi otak, meningkatkan mood, dan menjaga kesehatan mata. Sumber: ikan salmon, sarden, kacang kenari, dan biji chia."
+  },
+  {
+    "q": "Mengapa perlu vaksinasi anak?",
+    "a": "Vaksinasi melindungi anak dari penyakit berbahaya seperti difteri, tetanus, polio, campak, dan hepatitis. Vaksin aman, efektif, dan penting untuk imunitas kelompok (herd immunity) di masyarakat."
+  },
+  {
+    "q": "Apa itu diabetes tipe 1 dan tipe 2?",
+    "a": "Diabetes tipe 1 adalah kondisi autoimun dimana pankreas tidak memproduksi insulin. Diabetes tipe 2 adalah resistensi insulin akibat gaya hidup tidak sehat. Keduanya menyebabkan kadar gula darah tinggi."
+  },
+  {
+    "q": "Bagaimana cara mengatasi insomnia?",
+    "a": "Atasi insomnia dengan: jadwal tidur konsisten, hindari kafein sore hari, olahraga pagi, buat kamar nyaman dan gelap, hindari gadget sebelum tidur, dan praktikkan relaksasi atau meditasi."
+  },
+  {
+    "q": "Apa gejala awal stroke yang perlu dikenali?",
+    "a": "Gejala stroke (FAST): Face (wajah miring), Arm (lengan lemah/mati rasa), Speech (bicara pelo/tidak jelas), Time (segera ke rumah sakit). Gejala lain: pusing mendadak, gangguan penglihatan, sakit kepala hebat."
+  },
+  {
+    "q": "Mengapa penting menjaga kesehatan gigi?",
+    "a": "Kesehatan gigi penting untuk mencegah kerusakan gigi, infeksi gusi, bau mulut, dan masalah kesehatan sistemik seperti penyakit jantung. Sikat gigi 2x sehari, flossing, dan periksa gigi rutin 6 bulan sekali."
+  },
+  {
+    "q": "Apa manfaat puasa untuk kesehatan?",
+    "a": "Puasa intermiten dapat meningkatkan sensitivitas insulin, menurunkan berat badan, meningkatkan autofagi (pembersihan sel), mengurangi peradangan, dan memperbaiki profil kolesterol dan gula darah.",
+    "cot": "Saat berpuasa, tubuh beralih dari metabolisme glukosa ke pembakaran lemak, meningkatkan produksi keton yang lebih efisien untuk energi otak. Autofagi meningkat sehingga sel-sel rusak dibersihkan. Kadar insulin menurun, meningkatkan sensitivitas reseptor insulin. Penelitian menunjukkan puasa intermiten dapat memperpanjang umur melalui perbaikan mitokondria."
+  },
+  {
+    "q": "Apa itu alergi makanan dan bagaimana mengatasinya?",
+    "a": "Alergi makanan adalah reaksi sistem imun berlebihan terhadap protein tertentu dalam makanan. Gejala: gatal, ruam, bengkak, sesak napas, atau anafilaksis. Mengatasinya: hindari makanan pemicu, baca label makanan, bawa epipen jika perlu."
+  },
+  {
+    "q": "Mengapa asam folat penting untuk ibu hamil?",
+    "a": "Asam folat mencegah cacat tabung saraf pada janin, mendukung pembentukan sel darah merah, dan pertumbuhan plasenta. Ibu hamil perlu 400-600 mcg per hari dari sayuran hijau, kacang-kacangan, atau suplemen."
+  },
+  {
+    "q": "Apa penyebab anemia dan gejalanya?",
+    "a": "Anemia disebabkan kekurangan zat besi, vitamin B12, atau folat. Gejala: lelah berkepanjangan, pucat, pusing, sesak napas, jantung berdebar, dan tangan-kaki dingin. Konsumsi makanan kaya zat besi dan vitamin C untuk penyerapan lebih baik."
+  },
+  {
+    "q": "Bagaimana cara mendeteksi kanker payudara dini?",
+    "a": "Deteksi dini melalui SADARI (periksa payudara sendiri) setiap bulan, mammografi rutin untuk usia >40 tahun, dan waspadai benjolan, perubahan ukuran, puting tertarik, atau keluar cairan. Deteksi dini meningkatkan kesembuhan."
+  },
+  {
+    "q": "Apa itu sindrom metabolik?",
+    "a": "Sindrom metabolik adalah kumpulan kondisi: obesitas perut, tekanan darah tinggi, gula darah tinggi, kolesterol HDL rendah, dan trigliserida tinggi. Meningkatkan risiko diabetes dan penyakit jantung. Diatasi dengan pola hidup sehat."
+  },
+  {
+    "q": "Mengapa perlu pemanasan sebelum olahraga?",
+    "a": "Pemanasan meningkatkan aliran darah ke otot, menaikkan suhu tubuh, meningkatkan fleksibilitas, mempersiapkan jantung dan paru-paru, serta mencegah cedera otot dan sendi. Lakukan 5-10 menit pemanasan dinamis."
+  },
+  {
+    "q": "Apa manfaat yoga untuk kesehatan mental?",
+    "a": "Yoga mengurangi stres dan kecemasan, meningkatkan konsentrasi, memperbaiki kualitas tidur, meningkatkan kesadaran diri, dan mempromosikan relaksasi melalui kombinasi gerakan, pernapasan, dan meditasi."
+  },
+  {
+    "q": "Bagaimana cara mencegah penyakit jantung?",
+    "a": "Mencegah penyakit jantung: diet rendah lemak jenuh, olahraga teratur 150 menit/minggu, jaga berat badan ideal, tidak merokok, kelola stres, kontrol tekanan darah dan kolesterol, batasi alkohol."
+  },
+  {
+    "q": "Apa itu sistem imun dan bagaimana memperkuatnya?",
+    "a": "Sistem imun melindungi tubuh dari infeksi dan penyakit. Perkuat dengan: tidur 7-9 jam, diet seimbang kaya vitamin C dan D, olahraga teratur, kelola stres, hindari rokok, dan jaga kebersihan."
+  },
+  {
+    "q": "Mengapa perlu membatasi konsumsi gula?",
+    "a": "Gula berlebihan menyebabkan obesitas, diabetes tipe 2, kerusakan gigi, penyakit jantung, dan peradangan kronis. WHO merekomendasikan maksimal 6 sendok teh (25 gram) gula tambahan per hari."
+  },
+  {
+    "q": "Apa itu tekanan darah normal?",
+    "a": "Tekanan darah normal adalah <120/80 mmHg. Angka pertama (sistolik) adalah tekanan saat jantung memompa, angka kedua (diastolik) adalah tekanan saat jantung beristirahat. Cek tekanan darah secara rutin."
+  },
+  {
+    "q": "Bagaimana mengatasi nyeri punggung bawah?",
+    "a": "Atasi nyeri punggung: perbaiki postur duduk, peregangan rutin, kompres hangat/dingin, hindari duduk terlalu lama, perkuat otot core dengan latihan, dan konsultasi fisioterapis jika nyeri berlanjut."
+  },
+  {
+    "q": "Apa manfaat latihan kekuatan untuk kesehatan?",
+    "a": "Latihan kekuatan meningkatkan massa otot, metabolisme, kepadatan tulang, kekuatan sendi, postur tubuh, dan mengurangi lemak tubuh. Lakukan 2-3x seminggu dengan istirahat di antara sesi."
+  },
+  {
+    "q": "Mengapa perlu mengurangi konsumsi daging olahan?",
+    "a": "Daging olahan (sosis, nugget, kornet) tinggi natrium, lemak jenuh, dan pengawet yang meningkatkan risiko kanker kolorektal, penyakit jantung, dan tekanan darah tinggi. Batasi konsumsi dan pilih protein alami."
+  },
+  {
+    "q": "Apa itu radang sendi dan cara mencegahnya?",
+    "a": "Radang sendi (arthritis) adalah peradangan pada sendi yang menyebabkan nyeri dan kaku. Pencegahan: jaga berat badan ideal, olahraga ringan, diet anti-inflamasi, hindari cedera sendi, dan konsumsi omega-3."
+  },
+  {
+    "q": "Bagaimana cara mengenali gejala depresi?",
+    "a": "Gejala depresi: kesedihan berkepanjangan, kehilangan minat, perubahan nafsu makan dan tidur, kelelahan, perasaan tidak berharga, kesulitan konsentrasi, pikiran menyakiti diri. Segera konsultasi psikolog atau psikiater."
+  },
+  {
+    "q": "Apa manfaat berjalan kaki 30 menit setiap hari?",
+    "a": "Berjalan kaki 30 menit sehari menurunkan risiko penyakit jantung, diabetes, osteoporosis, meningkatkan mood, mengurangi stres, membantu mengontrol berat badan, dan meningkatkan kualitas tidur."
+  },
+  {
+    "q": "Mengapa perlu mengonsumsi kacang-kacangan?",
+    "a": "Kacang-kacangan kaya protein nabati, serat, lemak sehat, vitamin E, magnesium, dan antioksidan yang baik untuk jantung, otak, dan mengontrol gula darah. Konsumsi segenggam sebagai camilan sehat."
+  },
+  {
+    "q": "Apa itu pneumonia dan bagaimana mencegahnya?",
+    "a": "Pneumonia adalah infeksi paru-paru yang menyebabkan demam, batuk berdahak, sesak napas, dan nyeri dada. Pencegahan: vaksinasi, hindari rokok, cuci tangan, jaga daya tahan tubuh, dan hindari polusi udara."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan hati?",
+    "a": "Jaga kesehatan hati: batasi alkohol, hindari obat berlebihan, vaksinasi hepatitis, jaga berat badan ideal, konsumsi makanan rendah lemak, hindari toksin, dan periksa kesehatan hati secara berkala."
+  },
+  {
+    "q": "Apa manfaat kunyit untuk kesehatan?",
+    "a": "Kunyit mengandung kurkumin yang memiliki sifat anti-inflamasi dan antioksidan kuat, membantu mengurangi nyeri sendi, meningkatkan fungsi otak, melindungi jantung, dan mendukung sistem pencernaan."
+  },
+  {
+    "q": "Mengapa penting menjaga kesehatan ginjal?",
+    "a": "Ginjal menyaring racun dari darah, mengatur tekanan darah, dan keseimbangan cairan. Jaga dengan: minum cukup air, batasi garam, kontrol gula darah dan tekanan darah, hindari obat berlebihan."
+  },
+  {
+    "q": "Apa itu asam urat dan cara mengatasinya?",
+    "a": "Asam urat adalah penumpukan kristal urat di sendi yang menyebabkan nyeri dan bengkak. Atasi dengan: batasi makanan tinggi purin (jeroan, seafood), perbanyak air putih, hindari alkohol, jaga berat badan, dan konsumsi obat sesuai resep."
+  },
+  {
+    "q": "Bagaimana cara mengatasi migrain?",
+    "a": "Atasi migrain: istirahat di ruangan gelap dan tenang, kompres dingin di kepala, hindari pemicu (stres, kurang tidur, makanan tertentu), minum air cukup, dan konsumsi obat pereda nyeri atau triptan sesuai resep dokter."
+  },
+  {
+    "q": "Apa manfaat meditasi untuk kesehatan?",
+    "a": "Meditasi mengurangi stres dan kecemasan, menurunkan tekanan darah, meningkatkan konsentrasi dan kesadaran diri, memperbaiki kualitas tidur, dan meningkatkan kesejahteraan emosional secara keseluruhan."
+  },
+  {
+    "q": "Mengapa perlu mengonsumsi ikan secara teratur?",
+    "a": "Ikan mengandung protein berkualitas tinggi, omega-3 untuk kesehatan jantung dan otak, vitamin D, yodium, dan selenium. Konsumsi 2-3 porsi ikan per minggu, terutama ikan berlemak seperti salmon dan makarel."
+  },
+  {
+    "q": "Apa itu penyakit autoimun?",
+    "a": "Penyakit autoimun terjadi ketika sistem imun menyerang jaringan tubuh sendiri, seperti lupus, rheumatoid arthritis, dan tiroiditis. Gejala bervariasi, memerlukan pengobatan jangka panjang untuk mengendalikan peradangan."
+  },
+  {
+    "q": "Bagaimana cara meningkatkan metabolisme tubuh?",
+    "a": "Tingkatkan metabolisme dengan: latihan kekuatan untuk membangun otot, makan protein cukup, minum air dingin, konsumsi teh hijau, tidur cukup, hindari diet ekstrem, dan olahraga HIIT (High-Intensity Interval Training)."
+  },
+  {
+    "q": "Apa manfaat vitamin E untuk tubuh?",
+    "a": "Vitamin E adalah antioksidan yang melindungi sel dari kerusakan, menjaga kesehatan kulit, meningkatkan sistem imun, dan mendukung kesehatan mata. Sumber: kacang almond, biji bunga matahari, dan bayam."
+  },
+  {
+    "q": "Mengapa perlu melakukan pemeriksaan kesehatan rutin?",
+    "a": "Pemeriksaan kesehatan rutin (medical check-up) penting untuk deteksi dini penyakit, monitoring kondisi kesehatan, mencegah komplikasi, dan mendapat penanganan lebih cepat. Disarankan minimal setahun sekali."
+  },
+  {
+    "q": "Apa itu gastritis dan bagaimana mengatasinya?",
+    "a": "Gastritis adalah peradangan lambung yang menyebabkan nyeri perut, mual, dan kembung. Atasi dengan: hindari makanan pedas dan asam, makan porsi kecil tapi sering, kurangi stres, hindari alkohol dan NSAID, dan konsumsi antasida jika perlu."
+  },
+  {
+    "q": "Bagaimana cara mencegah varises?",
+    "a": "Cegah varises dengan: olahraga teratur, hindari berdiri/duduk terlalu lama, angkat kaki saat berbaring, jaga berat badan ideal, gunakan stoking kompresi, dan hindari sepatu hak tinggi dalam waktu lama."
+  },
+  {
+    "q": "Apa manfaat jahe untuk kesehatan?",
+    "a": "Jahe memiliki sifat anti-inflamasi, membantu mengatasi mual, meredakan nyeri otot dan sendi, meningkatkan pencernaan, menurunkan gula darah, dan meningkatkan sistem imun. Konsumsi sebagai teh atau bumbu masakan."
+  },
+  {
+    "q": "Mengapa penting mengatur pola makan teratur?",
+    "a": "Pola makan teratur menjaga metabolisme stabil, mencegah makan berlebihan, mengontrol gula darah, meningkatkan energi konsisten, membantu pencernaan optimal, dan mendukung program penurunan atau pemeliharaan berat badan."
+  },
+  {
+    "q": "Apa itu sleep apnea dan gejalanya?",
+    "a": "Sleep apnea adalah gangguan pernapasan saat tidur dimana napas berhenti sementara. Gejala: mendengkur keras, terbangun tersedak, kantuk berlebihan siang hari, sakit kepala pagi, dan sulit konsentrasi. Perlu pemeriksaan dokter."
+  },
+  {
+    "q": "Bagaimana cara mengurangi kadar kolesterol tinggi?",
+    "a": "Turunkan kolesterol dengan: kurangi lemak jenuh dan trans, tingkatkan serat dari oat dan kacang, konsumsi ikan berlemak, olahraga teratur, jaga berat badan ideal, dan konsumsi statin jika diresepkan dokter."
+  },
+  {
+    "q": "Apa manfaat tidur siang singkat?",
+    "a": "Tidur siang 15-20 menit dapat meningkatkan kewaspadaan, performa kognitif, mood, kreativitas, dan mengurangi kelelahan. Hindari tidur siang terlalu lama atau terlalu sore agar tidak mengganggu tidur malam."
+  },
+  {
+    "q": "Mengapa perlu mengonsumsi buah beri?",
+    "a": "Buah beri (strawberry, blueberry, raspberry) kaya antioksidan, vitamin C, serat, dan rendah kalori. Melindungi dari penyakit jantung, meningkatkan fungsi otak, mengurangi peradangan, dan mendukung kesehatan kulit."
+  },
+  {
+    "q": "Apa itu hipertiroid dan hipotiroid?",
+    "a": "Hipertiroid adalah kelenjar tiroid terlalu aktif (berat turun, jantung cepat, cemas). Hipotiroid adalah kelenjar tiroid kurang aktif (berat naik, lelah, depresi). Keduanya memerlukan pengobatan dokter endokrin."
+  },
+  {
+    "q": "Bagaimana cara mencegah batu ginjal?",
+    "a": "Cegah batu ginjal dengan: minum air 2-3 liter per hari, batasi garam dan protein hewani, kurangi makanan tinggi oksalat (bayam, coklat), konsumsi sitrat dari lemon, dan hindari dehidrasi."
+  },
+  {
+    "q": "Apa manfaat stretching atau peregangan?",
+    "a": "Stretching meningkatkan fleksibilitas, mengurangi ketegangan otot, memperbaiki postur, meningkatkan aliran darah, mencegah cedera, dan mengurangi nyeri otot setelah olahraga. Lakukan 5-10 menit setiap hari."
+  },
+  {
+    "q": "Mengapa perlu membatasi screen time?",
+    "a": "Screen time berlebihan menyebabkan kelelahan mata, gangguan tidur, nyeri leher dan punggung, obesitas, dan penurunan aktivitas fisik. Terapkan aturan 20-20-20: setiap 20 menit, lihat sejauh 20 kaki selama 20 detik."
+  },
+  {
+    "q": "Apa itu sindrom carpal tunnel?",
+    "a": "Carpal tunnel syndrome adalah kompresi saraf di pergelangan tangan yang menyebabkan kesemutan, mati rasa, dan nyeri di tangan. Sering pada pengguna komputer. Atasi dengan istirahat, splint, dan terapi fisik."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan tulang?",
+    "a": "Jaga kesehatan tulang dengan: konsumsi kalsium (susu, keju, sayuran hijau), vitamin D dari sinar matahari, olahraga beban seperti jalan cepat, hindari rokok dan alkohol berlebihan, dan konsumsi suplemen jika perlu."
+  },
+  {
+    "q": "Apa manfaat bawang putih untuk kesehatan?",
+    "a": "Bawang putih mengandung allicin yang memiliki sifat antibakteri, antivirus, menurunkan tekanan darah dan kolesterol, meningkatkan sistem imun, dan mengurangi risiko penyakit jantung. Konsumsi mentah atau sedikit dimasak untuk manfaat maksimal."
+  },
+  {
+    "q": "Mengapa perlu menjaga keseimbangan elektrolit?",
+    "a": "Elektrolit (natrium, kalium, kalsium) penting untuk fungsi otot, saraf, hidrasi, dan keseimbangan pH darah. Ketidakseimbangan menyebabkan kram, lemah, aritmia jantung. Jaga dengan diet seimbang dan hidrasi cukup."
+  },
+  {
+    "q": "Apa itu vertigo dan cara mengatasinya?",
+    "a": "Vertigo adalah sensasi berputar akibat gangguan keseimbangan telinga dalam. Gejala: pusing berputar, mual, kehilangan keseimbangan. Atasi dengan manuver Epley, obat anti-vertigo, hindari gerakan cepat, dan konsultasi dokter THT."
+  },
+  {
+    "q": "Bagaimana cara mencegah infeksi saluran kemih?",
+    "a": "Cegah ISK dengan: minum air cukup, jangan tahan kencing, buang air kecil setelah hubungan intim, bersihkan area genital dari depan ke belakang, hindari sabun beraroma, dan gunakan pakaian dalam katun."
+  },
+  {
+    "q": "Apa manfaat dark chocolate untuk kesehatan?",
+    "a": "Dark chocolate (70% kakao) kaya flavonoid yang meningkatkan kesehatan jantung, menurunkan tekanan darah, meningkatkan fungsi otak, dan memperbaiki mood. Konsumsi 1-2 kotak kecil per hari."
+  },
+  {
+    "q": "Mengapa perlu menjaga kesehatan mental?",
+    "a": "Kesehatan mental sama pentingnya dengan fisik. Mempengaruhi cara berpikir, merasa, dan berperilaku. Jaga dengan: hubungan sosial positif, kelola stres, olahraga, tidur cukup, hobby, dan jangan ragu mencari bantuan profesional."
+  },
+  {
+    "q": "Apa itu fibromyalgia?",
+    "a": "Fibromyalgia adalah kondisi kronis yang menyebabkan nyeri otot dan kelelahan merata di tubuh, gangguan tidur, dan kesulitan kognitif. Penyebab tidak jelas, diatasi dengan obat, terapi fisik, olahraga ringan, dan manajemen stres."
+  },
+  {
+    "q": "Bagaimana cara mencegah kanker kolorektal?",
+    "a": "Cegah kanker kolorektal dengan: diet tinggi serat, batasi daging merah dan olahan, hindari rokok dan alkohol berlebihan, jaga berat badan, olahraga teratur, dan skrining kolonoskopi mulai usia 50 tahun atau lebih awal jika berisiko."
+  },
+  {
+    "q": "Apa manfaat paparan sinar matahari pagi?",
+    "a": "Sinar matahari pagi (07.00-09.00) membantu tubuh memproduksi vitamin D untuk kesehatan tulang, meningkatkan mood, mengatur ritme sirkadian untuk tidur lebih baik, dan memperkuat sistem imun. Berjemur 10-15 menit sudah cukup."
+  },
+  {
+    "q": "Mengapa perlu mengurangi konsumsi minuman bersoda?",
+    "a": "Minuman bersoda tinggi gula dan kalori kosong, menyebabkan obesitas, diabetes, kerusakan gigi, osteoporosis, dan penyakit jantung. Ganti dengan air putih, infused water, atau teh tanpa gula."
+  },
+  {
+    "q": "Apa itu penyakit Parkinson?",
+    "a": "Parkinson adalah penyakit degeneratif saraf yang menyebabkan tremor, kekakuan otot, gerakan lambat, dan gangguan keseimbangan. Terjadi karena kematian sel yang memproduksi dopamin di otak. Memerlukan pengobatan jangka panjang."
+  },
+  {
+    "q": "Bagaimana cara mengatasi konstipasi atau sembelit?",
+    "a": "Atasi konstipasi dengan: tingkatkan serat dari buah dan sayur, minum air 8-10 gelas per hari, olahraga teratur, jangan tahan BAB, konsumsi probiotik, dan hindari makanan rendah serat. Konsultasi dokter jika berlanjut."
+  },
+  {
+    "q": "Apa manfaat minum teh hijau?",
+    "a": "Teh hijau kaya antioksidan (katekin dan EGCG) yang meningkatkan metabolisme, membantu penurunan berat badan, melindungi jantung, meningkatkan fungsi otak, mengurangi risiko kanker, dan memperlambat penuaan."
+  },
+  {
+    "q": "Mengapa penting menjaga postur tubuh yang baik?",
+    "a": "Postur baik mencegah nyeri punggung dan leher, mengurangi ketegangan otot, meningkatkan pernapasan dan pencernaan, meningkatkan kepercayaan diri, dan mencegah masalah muskuloskeletal jangka panjang. Perhatikan postur saat duduk dan berdiri."
+  },
+  {
+    "q": "Apa itu penyakit celiac?",
+    "a": "Penyakit celiac adalah kondisi autoimun dimana konsumsi gluten (protein dalam gandum) merusak usus halus. Gejala: diare, kembung, penurunan berat badan, anemia. Satu-satunya pengobatan adalah diet bebas gluten seumur hidup."
+  },
+  {
+    "q": "Bagaimana cara meningkatkan kualitas tidur?",
+    "a": "Tingkatkan kualitas tidur dengan: jadwal tidur konsisten, hindari kafein dan alkohol malam hari, buat kamar gelap dan sejuk, hindari gadget 1 jam sebelum tidur, olahraga pagi, dan praktikkan rutinitas relaksasi sebelum tidur."
+  },
+  {
+    "q": "Apa manfaat konsumsi alpukat?",
+    "a": "Alpukat kaya lemak sehat (MUFA), serat, vitamin K, E, C, kalium, dan folat. Menurunkan kolesterol LDL, mendukung kesehatan jantung, meningkatkan penyerapan nutrisi, menjaga kesehatan mata, dan membantu kontrol berat badan."
+  },
+  {
+    "q": "Mengapa perlu menjaga kesehatan prostat?",
+    "a": "Prostat sehat penting untuk fungsi kemih dan reproduksi pria. Jaga dengan: diet kaya tomat (likopen), ikan berlemak, olahraga teratur, jaga berat badan, batasi alkohol, dan skrining rutin PSA setelah usia 50 tahun."
+  },
+  {
+    "q": "Apa itu endometriosis?",
+    "a": "Endometriosis adalah kondisi dimana jaringan mirip lapisan rahim tumbuh di luar rahim, menyebabkan nyeri haid hebat, nyeri panggul, dan infertilitas. Diatasi dengan obat hormonal, pereda nyeri, atau operasi."
+  },
+  {
+    "q": "Bagaimana cara mencegah alzheimer?",
+    "a": "Kurangi risiko alzheimer dengan: stimulasi kognitif (baca, teka-teki), olahraga teratur, diet Mediterranean, jaga tekanan darah dan gula darah, tidur cukup, hindari rokok, dan jaga interaksi sosial aktif."
+  },
+  {
+    "q": "Apa manfaat madu untuk kesehatan?",
+    "a": "Madu memiliki sifat antibakteri dan antioksidan, meredakan batuk dan sakit tenggorokan, meningkatkan sistem imun, mempercepat penyembuhan luka, dan menyediakan energi alami. Pilih madu murni tanpa tambahan gula."
+  },
+  {
+    "q": "Mengapa perlu menjaga kesehatan kulit?",
+    "a": "Kulit adalah pelindung pertama tubuh dari infeksi dan lingkungan. Jaga dengan: gunakan sunscreen, hidrasi cukup, diet seimbang, hindari rokok, bersihkan wajah teratur, dan hindari paparan sinar UV berlebihan."
+  },
+  {
+    "q": "Apa itu polycystic ovary syndrome (PCOS)?",
+    "a": "PCOS adalah gangguan hormonal pada wanita yang menyebabkan siklus haid tidak teratur, kista ovarium, jerawat, hirsutisme, dan infertilitas. Diatasi dengan penurunan berat badan, diet sehat, olahraga, dan obat hormonal."
+  },
+  {
+    "q": "Bagaimana cara mencegah dehidrasi saat olahraga?",
+    "a": "Cegah dehidrasi dengan: minum 500ml air 2 jam sebelum olahraga, 200ml setiap 15-20 menit saat berolahraga, dan rehidrasi setelah olahraga. Untuk olahraga intens >1 jam, pertimbangkan minuman elektrolit."
+  },
+  {
+    "q": "Apa manfaat vitamin B kompleks?",
+    "a": "Vitamin B kompleks (B1-B12) penting untuk energi, fungsi otak, pembentukan sel darah merah, metabolisme, kesehatan kulit dan rambut. Sumber: daging, telur, kacang-kacangan, sayuran hijau, dan produk susu."
+  },
+  {
+    "q": "Mengapa perlu vaksinasi flu setiap tahun?",
+    "a": "Virus flu bermutasi setiap tahun, sehingga vaksin perlu diperbarui. Vaksinasi flu melindungi dari komplikasi serius terutama pada anak, lansia, dan orang dengan kondisi kronis. Lakukan sebelum musim flu dimulai."
+  },
+  {
+    "q": "Apa itu neuropati diabetik?",
+    "a": "Neuropati diabetik adalah kerusakan saraf akibat diabetes yang menyebabkan kesemutan, nyeri, mati rasa di kaki dan tangan. Pencegahan: kontrol gula darah ketat, periksa kaki rutin, hindari luka, dan kelola tekanan darah."
+  },
+  {
+    "q": "Bagaimana cara meningkatkan fleksibilitas tubuh?",
+    "a": "Tingkatkan fleksibilitas dengan: stretching statis setelah olahraga, yoga atau pilates, peregangan rutin setiap hari, pijat atau foam rolling, dan jangan memaksa gerakan yang menyebabkan nyeri. Konsistensi adalah kunci."
+  },
+  {
+    "q": "Apa manfaat kacang almond?",
+    "a": "Almond kaya vitamin E, magnesium, protein, serat, dan lemak sehat. Menurunkan kolesterol LDL, mengontrol gula darah, membantu penurunan berat badan, menjaga kesehatan jantung, dan meningkatkan fungsi otak."
+  },
+  {
+    "q": "Mengapa perlu menjaga kesehatan telinga?",
+    "a": "Telinga penting untuk pendengaran dan keseimbangan. Jaga dengan: hindari suara keras, jangan mengorek telinga dengan cotton bud, keringkan telinga setelah berenang, hindari headphone volume tinggi, dan periksa pendengaran rutin."
+  },
+  {
+    "q": "Apa itu asma dan cara mengelolanya?",
+    "a": "Asma adalah penyakit kronis yang menyebabkan peradangan dan penyempitan saluran napas. Gejala: sesak napas, mengi, batuk. Kelola dengan: hindari pemicu, gunakan inhaler sesuai resep, olahraga teratur, dan monitoring rutin."
+  },
+  {
+    "q": "Bagaimana cara mencegah keriput dini?",
+    "a": "Cegah keriput dengan: gunakan sunscreen SPF 30+ setiap hari, hidrasi kulit, hindari rokok, diet kaya antioksidan, tidur cukup, kelola stres, hindari paparan sinar matahari berlebihan, dan gunakan pelembab."
+  },
+  {
+    "q": "Apa manfaat beetroot atau bit merah?",
+    "a": "Bit merah kaya nitrat yang meningkatkan aliran darah, menurunkan tekanan darah, meningkatkan performa olahraga, mendukung detoksifikasi hati, dan kaya antioksidan. Konsumsi sebagai jus atau salad."
+  },
+  {
+    "q": "Mengapa perlu mengelola berat badan yang sehat?",
+    "a": "Berat badan sehat mengurangi risiko diabetes, penyakit jantung, stroke, kanker, artritis, dan sleep apnea. Meningkatkan kualitas hidup, energi, mobilitas, dan kepercayaan diri. Jaga dengan diet seimbang dan olahraga teratur."
+  },
+  {
+    "q": "Apa itu hepatitis dan jenisnya?",
+    "a": "Hepatitis adalah peradangan hati yang disebabkan virus (A, B, C, D, E), alkohol, atau autoimun. Hepatitis B dan C dapat menjadi kronis dan meningkatkan risiko sirosis dan kanker hati. Pencegahan: vaksinasi dan hindari berbagi jarum."
   }
 ]
