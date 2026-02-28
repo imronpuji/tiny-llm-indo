@@ -46,11 +46,19 @@ echo ""
 # ============================================================
 
 echo "📥 Step 4: Installing dependencies..."
-pip install torch torchvision torchaudio
-pip install transformers
-pip install datasets
-pip install tqdm
-pip install accelerate
+
+# Check if requirements.txt exists
+if [ -f "requirements.txt" ]; then
+    echo "Installing from requirements.txt..."
+    pip install -r requirements.txt
+else
+    echo "requirements.txt not found, installing manually..."
+    pip install torch torchvision torchaudio
+    pip install transformers
+    pip install datasets
+    pip install tqdm
+    pip install accelerate
+fi
 
 echo "✓ Dependencies installed"
 echo ""
