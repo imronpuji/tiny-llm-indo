@@ -247,12 +247,10 @@ def ask_question(model, tokenizer, question, device,
         "input_ids": inputs.input_ids,
         "attention_mask": attention_mask,
         "max_new_tokens": 120,
-        "pad_token_id": tokenizer.pad_token_id,
+        "pad_token_id": tokenizer.pad_token_id if tokenizer.pad_token_id is not None else tokenizer.eos_token_id,
         "eos_token_id": tokenizer.eos_token_id,
         "repetition_penalty": 1.3,
         "no_repeat_ngram_size": 3,
-        "length_penalty": 1.0,
-        "early_stopping": True,
     }
     
     if use_beam_search:
@@ -260,18 +258,23 @@ def ask_question(model, tokenizer, question, device,
         gen_params.update({
             "num_beams": 4,
             "do_sample": False,
+            "early_stopping": True,
+            "length_penalty": 1.0,
         })
     else:
         # Sampling - lebih natural
         gen_params.update({
             "do_sample": True,
             "temperature": temperature,
-            "top_k": 50,
-            "top_p": 0.92,
+            "top_k": 40,
+            "top_p": 0.90,
         })
     
-    with torch.no_grad():
-        outputs = model.generate(**gen_params)
+    import warnings
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        with torch.no_grad():
+            outputs = model.generate(**gen_params)
     
     # Decode HANYA bagian jawaban (skip prompt tokens)
     answer_tokens = outputs[0][prompt_length:]
@@ -281,21 +284,30 @@ def ask_question(model, tokenizer, question, device,
     if stop_token in answer:
         answer = answer.split(stop_token)[0].strip()
     
-    # Stop di kalimat pertama atau kedua
+    # Clean: remove incomplete parentheses/brackets di akhir
+    for open_ch, close_ch in [('(', ')'), ('[', ']'), ('{', '}')]:
+        if answer.count(open_ch) > answer.count(close_ch):
+            last_open = answer.rfind(open_ch)
+            answer = answer[:last_open].strip()
+    
+    # Stop di max 3 kalimat yang lengkap
     sentences = []
     current = ""
     for char in answer:
         current += char
         if char in '.!?':
-            sentences.append(current.strip())
+            sent = current.strip()
+            if len(sent) > 3:  # Skip sentensi terlalu pendek
+                sentences.append(sent)
             current = ""
-            if len(sentences) >= 2:  # Max 2 kalimat
+            if len(sentences) >= 3:  # Max 3 kalimat
                 break
     
     if sentences:
         answer = ' '.join(sentences)
     elif current.strip():
-        answer = current.strip()
+        # Jika tidak ada kalimat lengkap, ambil text yang ada
+        answer = current.strip().rstrip(',;:')
     
     return answer
 
