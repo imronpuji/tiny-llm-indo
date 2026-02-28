@@ -16,8 +16,14 @@ tiny-llm-indo-merged/
 # ============================================================
 # DATASET (generated files)
 # ============================================================
-*.json
-!add_qa_data.py
+# Ignore generated dataset files
+dataset/train.json
+dataset/eval.json
+dataset/train_qa.json
+dataset/eval_qa.json
+
+# But keep dataset_topics (source data)
+!dataset_topics/*.json
 
 # ============================================================
 # PYTHON
