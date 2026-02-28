@@ -121,10 +121,10 @@ def load_model(model_path="./tiny-llm-indo-final", use_lora=True, base_model_pat
 
 
 def generate_text(model, tokenizer, prompt, device, 
-                  max_length=100, 
-                  temperature=0.7,
+                  max_length=150, 
+                  temperature=0.75,
                   top_k=50,
-                  top_p=0.9,
+                  top_p=0.92,
                   num_return=1):
     """Generate text dari prompt"""
     
@@ -133,7 +133,7 @@ def generate_text(model, tokenizer, prompt, device,
     with torch.no_grad():
         outputs = model.generate(
             inputs.input_ids,
-            max_length=max_length,
+            max_new_tokens=100,
             temperature=temperature,
             top_k=top_k,
             top_p=top_p,
@@ -141,8 +141,9 @@ def generate_text(model, tokenizer, prompt, device,
             num_return_sequences=num_return,
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.2,
+            repetition_penalty=1.15,
             no_repeat_ngram_size=3,
+            length_penalty=1.0,
         )
     
     results = []
@@ -216,14 +217,17 @@ def batch_test(model, tokenizer, device):
 
 def ask_question(model, tokenizer, question, device, 
                  qa_format="instruction",
-                 max_length=100,
-                 temperature=0.3):
+                 max_length=150,
+                 temperature=0.5,
+                 use_beam_search=False):
     """
     Ajukan pertanyaan ke model
     
     Args:
         question: Pertanyaan dalam bahasa Indonesia
         qa_format: Format template ("simple", "instruction", "chat")
+        temperature: Kontrol kreativitas (0.3=faktual, 0.7=kreatif)
+        use_beam_search: Gunakan beam search untuk jawaban lebih konsisten
     
     Returns:
         Jawaban dari model
@@ -238,17 +242,36 @@ def ask_question(model, tokenizer, question, device,
     # Buat attention mask
     attention_mask = torch.ones_like(inputs.input_ids)
     
+    # Generation parameters bergantung mode
+    gen_params = {
+        "input_ids": inputs.input_ids,
+        "attention_mask": attention_mask,
+        "max_new_tokens": 120,
+        "pad_token_id": tokenizer.pad_token_id,
+        "eos_token_id": tokenizer.eos_token_id,
+        "repetition_penalty": 1.3,
+        "no_repeat_ngram_size": 3,
+        "length_penalty": 1.0,
+        "early_stopping": True,
+    }
+    
+    if use_beam_search:
+        # Beam search - lebih konsisten, tapi kurang natural
+        gen_params.update({
+            "num_beams": 4,
+            "do_sample": False,
+        })
+    else:
+        # Sampling - lebih natural
+        gen_params.update({
+            "do_sample": True,
+            "temperature": temperature,
+            "top_k": 50,
+            "top_p": 0.92,
+        })
+    
     with torch.no_grad():
-        outputs = model.generate(
-            inputs.input_ids,
-            attention_mask=attention_mask,
-            max_new_tokens=60,
-            do_sample=False,                # GREEDY - no sampling!
-            pad_token_id=tokenizer.pad_token_id,
-            eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.5,
-            no_repeat_ngram_size=4,
-        )
+        outputs = model.generate(**gen_params)
     
     # Decode HANYA bagian jawaban (skip prompt tokens)
     answer_tokens = outputs[0][prompt_length:]
@@ -297,7 +320,8 @@ def qa_interactive(model, tokenizer, device, qa_format="instruction"):
         
         print("\n⏳ Berpikir...")
         answer = ask_question(model, tokenizer, question, device, 
-                             qa_format=qa_format)
+                             qa_format=qa_format,
+                             temperature=0.4)
         
         print(f"\n💬 Jawaban: {answer}")
         print("-" * 50)
@@ -327,7 +351,8 @@ def qa_batch_test(model, tokenizer, device, qa_format="instruction"):
         print("-" * 40)
         
         answer = ask_question(model, tokenizer, question, device,
-                             qa_format=qa_format)
+                             qa_format=qa_format,
+                             temperature=0.4)
         
         print(f"💬 {answer}")
 
@@ -365,6 +390,39 @@ def main():
     model_path = "./tiny-llm-indo-final"
     mode = None
     qa_format = "instruction"
+    
+    # Show usage if --help
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print("""
+═══════════════════════════════════════════════════════════
+📖 USAGE: python test_model.py [model_path] [mode] [format]
+═══════════════════════════════════════════════════════════
+
+MODES:
+  --qa              Q&A batch test + interactive
+  --qa-interactive  Interactive Q&A only
+  --qa-batch        Q&A batch test only
+  (default)         Text generation mode
+  
+Q&A FORMATS:
+  instruction       (default) ### Instruksi format
+  simple            Pertanyaan: / Jawaban: format
+  chat              <|user|> / <|assistant|> format
+
+EXAMPLES:
+  python test_model.py ./tiny-llm-indo-qa --qa
+  python test_model.py ./tiny-llm-indo-qa --qa-interactive simple
+  python test_model.py ./my-model --qa-batch instruction
+
+GENERATION PARAMETERS (optimized):
+  • Temperature: 0.4 (factual Q&A) / 0.75 (creative text)
+  • Max tokens: 120 (Q&A) / 100 (text)
+  • Top-p: 0.92, Top-k: 50
+  • Repetition penalty: 1.15-1.3
+  • No-repeat n-gram: 3
+═══════════════════════════════════════════════════════════
+        """)
+        return
     
     args = sys.argv[1:]
     for i, arg in enumerate(args):
