@@ -128,6 +128,12 @@ def main():
         print(f"\n❌ Error loading model: {e}")
         print("   Pastikan model path/name benar dan internet tersambung (untuk HuggingFace)")
         return
+    
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    
+    # Count parameters
+    total_params = sum(p.numel() for p in model.parameters())
     print(f"✓ Model loaded: {total_params/1e6:.1f}M parameters")
     
     # Load datasets
