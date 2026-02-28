@@ -71,8 +71,17 @@ def load_all_qa_from_topics():
             
             if isinstance(data, list):
                 topic_name = json_file.stem
-                print(f"  ✓ {topic_name}: {len(data)} QA pairs")
-                all_qa.extend(data)
+                # Flatten nested lists if any
+                flat_data = []
+                for item in data:
+                    if isinstance(item, dict):
+                        flat_data.append(item)
+                    elif isinstance(item, list):
+                        # Handle nested list
+                        flat_data.extend([i for i in item if isinstance(i, dict)])
+                
+                print(f"  ✓ {topic_name}: {len(flat_data)} QA pairs")
+                all_qa.extend(flat_data)
             else:
                 print(f"  ⚠️  {json_file.name}: Format tidak valid (bukan list)")
         
@@ -88,6 +97,10 @@ def load_all_qa_from_topics():
 
 def convert_qa_to_text(qa_item, template_key="instruction"):
     """Convert QA item ke format text untuk training"""
+    # Validate input is a dictionary
+    if not isinstance(qa_item, dict):
+        return None
+    
     template = TEMPLATES.get(template_key, TEMPLATES["instruction"])
     
     q = qa_item.get("q", "").strip()
