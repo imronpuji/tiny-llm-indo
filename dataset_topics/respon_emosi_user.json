@@ -1,0 +1,517 @@
+[
+  {
+    "q": "Aku senang",
+    "a": "Senang mendengarnya! Semoga hari Anda terus menyenangkan."
+  },
+  {
+    "q": "Aku sedang bahagia",
+    "a": "Wah, bagus sekali! Semoga kebahagiaan Anda terus berlanjut."
+  },
+  {
+    "q": "Aku lagi sedih",
+    "a": "Saya turut prihatin. Semoga Anda segera merasa lebih baik. Ada yang bisa saya bantu?"
+  },
+  {
+    "q": "Aku marah",
+    "a": "Saya mengerti. Coba tarik nafas dalam-dalam dan tenangkan diri. Ada yang ingin Anda ceritakan?"
+  },
+  {
+    "q": "Aku takut",
+    "a": "Tidak apa-apa merasa takut. Apakah ada yang bisa saya bantu untuk menenangkan Anda?"
+  },
+  {
+    "q": "Aku bingung",
+    "a": "Tidak masalah! Coba jelaskan apa yang membingungkan, mungkin saya bisa membantu."
+  },
+  {
+    "q": "Aku capek",
+    "a": "Istirahat itu penting! Semoga Anda bisa segera beristirahat dengan baik."
+  },
+  {
+    "q": "Aku lapar",
+    "a": "Saatnya makan! Makanan Indonesia yang enak seperti nasi goreng atau bakso bisa jadi pilihan."
+  },
+  {
+    "q": "Aku ngantuk",
+    "a": "Kalau sudah ngantuk, sebaiknya istirahat. Tidur yang cukup penting untuk kesehatan!"
+  },
+  {
+    "q": "Aku bosan banget",
+    "a": "Mungkin bisa coba baca buku, nonton film, atau belajar hal baru! Ada topik yang menarik?"
+  },
+  {
+    "q": "Aku hari ini sangat bahagia",
+    "a": "Luar biasa! Kebahagiaan Anda menginspirasi saya juga. Semoga moment baik ini terus berlanjut untuk Anda."
+  },
+  {
+    "q": "Aku berhasil menyelesaikan proyek besar",
+    "a": "Selamat! Pencapaian ini menunjukkan kerja keras dan dedikasi Anda. Anda seharusnya bangga dengan diri sendiri."
+  },
+  {
+    "q": "Aku merayakan kesuksesan",
+    "a": "Mantap! Rayakan momen ini sebagaimana mestinya. Kesuksesan Anda adalah bukti usaha dan tekad Anda."
+  },
+  {
+    "q": "Aku mendapat promosi di pekerjaan",
+    "a": "Selamat atas promosi Anda! Ini adalah penghargaan atas kerja keras Anda. Semoga Anda terus berkembang di posisi baru."
+  },
+  {
+    "q": "Aku mendapatkan nilai bagus",
+    "a": "Alhamdulillah! Prestasi ini adalah hasil dari belajar giat Anda. Terus tingkatkan semangat belajar Anda!"
+  },
+  {
+    "q": "Saya mendapat hadiah kejutan",
+    "a": "Wah, keberuntungan Anda! Semoga hadiah ini membawa kebaikan bagi Anda. Nikmati momen kegembiraan ini."
+  },
+  {
+    "q": "Aku merasa sedih dan hilang harapan",
+    "a": "Saya mengerti kesedihan Anda. Tetapi ingat, setiap kesulitan pasti ada jalan keluarnya. Saya di sini untuk mendengarkan dan mendukung Anda."
+  },
+  {
+    "q": "Aku patah hati karena hubungan berakhir",
+    "a": "Saya turut menyayangkan apa yang Anda alami. Sakit hati memang berat, tetapi waktu akan menyembuhkan. Jangan ragu untuk berbagi perasaan Anda."
+  },
+  {
+    "q": "Aku kehilangan seseorang terkasih",
+    "a": "Saya sangat turut berduka cita. Kehilangan adalah hal yang berat dan menyakitkan. Semoga Anda menemukan kekuatan dalam doa dan dukungan orang terkasih."
+  },
+  {
+    "q": "Aku merasa sendirian dan kesepian",
+    "a": "Kesepian adalah perasaan yang valid dan banyak orang mengalaminya. Tetapi Anda tidak sepenuhnya sendiri. Coba jangkau orang-orang terdekat atau cari komunitas yang sejalan."
+  },
+  {
+    "q": "Aku kecewa dengan diriku sendiri",
+    "a": "Jangan terlalu keras pada diri sendiri. Semua orang membuat kesalahan. Pembelajaran dari kegagalan ini akan membuat Anda lebih kuat ke depannya."
+  },
+  {
+    "q": "Aku sedih karena rencana dibatalkan",
+    "a": "Saya mengerti kekecewaan Anda. Meskipun rencana berubah, ada kemungkinan lain yang lebih baik menunggu Anda. Jangan menyerah!"
+  },
+  {
+    "q": "Aku cemas tentang masa depan",
+    "a": "Cemas adalah hal yang wajar, tetapi jangan biarkan khawatir mengambil alih kontrol. Fokus pada apa yang bisa Anda kontrol hari ini. Satu per satu, Anda pasti bisa."
+  },
+  {
+    "q": "Aku khawatir tentang pekerjaan",
+    "a": "Kekhawatiran tentang pekerjaan adalah hal umum. Siapkan diri sebaik mungkin, percayai kemampuan Anda, dan ambil satu langkah pada satu waktu."
+  },
+  {
+    "q": "Aku panik karena deadline",
+    "a": "Tarik nafas, Anda bisa melakukannya! Pisahkan pekerjaan menjadi bagian kecil dan tangani satu per satu. Berkonsentrasi pada tugas, bukan pada kekhawatiran."
+  },
+  {
+    "q": "Aku takut tidak lulus ujian",
+    "a": "Kecemasan sebelum ujian adalah normal. Persiapkan diri dengan baik, percayai apa yang sudah Anda pelajari. Lakukan yang terbaik, itu sudah cukup."
+  },
+  {
+    "q": "Aku cemas dengan kesehatan saya",
+    "a": "Kesehatan adalah prioritas utama. Jika Anda khawatir, konsultasi dengan dokter untuk ketenangan pikiran Anda. Ingat juga untuk menjaga gaya hidup sehat."
+  },
+  {
+    "q": "Aku takut membuat keputusan penting",
+    "a": "Keputusan besar memang menakutkan, tetapi Anda memiliki kemampuan untuk membuatnya. Kumpulkan informasi, dengarkan intuisi Anda, dan selangkah demi selangkah."
+  },
+  {
+    "q": "Aku khawatir tentang penerimaan orang lain",
+    "a": "Perasaan ingin diterima adalah alami. Ingat, yang terpenting adalah menerima diri sendiri. Orang yang tepat akan menghargai Anda apa adanya."
+  },
+  {
+    "q": "Aku tidak percaya diri dengan kemampuan saya",
+    "a": "Percaya diri datang dari pengalaman dan latihan. Mulai dari hal-hal kecil, rayakan setiap kesuksesan, dan lihat bagaimana kepercayaan diri Anda tumbuh."
+  },
+  {
+    "q": "Aku sangat marah kepada seseorang",
+    "a": "Kemarahan adalah emosi yang valid. Coba tenangkan diri, ambil perspektif orang lain, dan pertimbangkan komunikasi yang damai. Apakah ada yang ingin Anda diskusikan?"
+  },
+  {
+    "q": "Aku kesal dengan situasi yang tidak adil",
+    "a": "Ketidakadilan memang membuat kesal. Alih-alih fokus pada kemarahan, pikirkan cara positif untuk mengatasi atau berkontribusi pada perubahan."
+  },
+  {
+    "q": "Aku frustrasi dengan kemajuan lambat",
+    "a": "Kesabaran adalah kunci kesuksesan. Setiap langkah kecil mendekatkan Anda ke tujuan. Rayakan progress kecil dan terus maju dengan konsisten."
+  },
+  {
+    "q": "Aku marah pada diri sendiri karena kesalahan",
+    "a": "Kita semua membuat kesalahan. Alih-alih marah pada diri sendiri, gunakan ini sebagai pelajaran. Memaafkan diri sendiri adalah tanda kekuatan."
+  },
+  {
+    "q": "Aku kesal karena orang tidak mengerti saya",
+    "a": "Tidak semua orang bisa memahami kita sepenuhnya, dan itu normal. Coba komunikasi lebih jelas atau cari orang yang benar-benar mengerti."
+  },
+  {
+    "q": "Aku puas dengan hasil kerja saya",
+    "a": "Luar biasa! Kepuasan dengan pekerjaan Anda menunjukkan Anda berenang pada jalur yang benar. Terus jaga standar tinggi yang Anda tetapkan."
+  },
+  {
+    "q": "Aku merasa aman dan tenang",
+    "a": "Itu adalah perasaan yang indah! Nikmati ketenangan ini dan manfaatkan waktu ini untuk beristirahat dan merevitalisasi diri."
+  },
+  {
+    "q": "Aku percaya diri dengan kemampuan saya",
+    "a": "Kepercayaan diri Anda menginspirasi! Terus kembangkan kemampuan Anda dan jangan ragu untuk mengambil peluang baru."
+  },
+  {
+    "q": "Aku bangga dengan apa yang sudah saya capai",
+    "a": "Kebanggaan yang sehat adalah motivasi yang baik. Gunakan pencapaian ini sebagai fondasi untuk tantangan baru yang lebih besar."
+  },
+  {
+    "q": "Aku puas dengan keputusan yang saya buat",
+    "a": "Keputusan yang tepat membawa kepuasan. Semoga keputusan ini membawa hasil positif bagi Anda. Anda membuat pilihan yang baik!"
+  },
+  {
+    "q": "Aku merasa puas dengan progres belajar saya",
+    "a": "Kemajuan dalam pembelajaran adalah kemenangan! Terus tingkatkan dedikasi Anda dan Anda akan mencapai tujuan pendidikan Anda."
+  },
+  {
+    "q": "Aku senang dengan hubungan baik dengan keluarga",
+    "a": "Hubungan keluarga yang solid adalah anugerah. Jaga ikatan ini dengan komunikasi dan kebersamaan yang meaningful."
+  },
+  {
+    "q": "Aku merasa puas dengan kehidupan saya saat ini",
+    "a": "Kepuasan hidup adalah kebahagiaan sejati. Syukuri apa yang Anda miliki dan terus tumbuh ke arah yang lebih baik."
+  },
+  {
+    "q": "Aku merasa malu dengan kesalahan saya",
+    "a": "Malu adalah bukti Anda peduli. Gunakan perasaan ini untuk belajar dan menjadi lebih baik. Malu yang membuat Anda tumbuh adalah hal yang positif."
+  },
+  {
+    "q": "Aku tidak yakin apakah yang aku lakukan benar",
+    "a": "Ketidakpastian adalah bagian dari hidup. Coba evaluasi keputusan Anda, dengarkan pendapat orang terpercaya, dan ambil keputusan terbaik yang Anda bisa."
+  },
+  {
+    "q": "Aku merasa lemah dan tidak berdaya",
+    "a": "Saya mengerti perasaan Anda, tetapi Anda lebih kuat dari yang Anda kira. Ambil satu tantangan kecil, selesaikan, dan lihat kekuatan Anda kembali."
+  },
+  {
+    "q": "Aku sedih karena mimpi tak terwujud",
+    "a": "Ketika satu pintu tertutup, pintu lain akan terbuka. Mimpi Anda penting, coba atur ulang rencana, dan jangan berhenti bermimpi."
+  },
+  {
+    "q": "Aku cemas dengan reaksi orang akan hal yang aku buat",
+    "a": "Tidak semua orang akan setuju atau menyukai apa yang Anda buat, dan itu okay. Lakukan yang terbaik menurut Anda dan percayai intuisi Anda."
+  },
+  {
+    "q": "Aku merasa jengkel dengan situasi berbelit-belit",
+    "a": "Situasi kompleks memang membuat jengkel. Coba sederhanakan masalah, fokus pada hal penting, dan pecahkan satu per satu."
+  },
+  {
+    "q": "Aku senang bisa membantu orang lain",
+    "a": "Membantu orang lain adalah kebaikan yang mulia. Semoga kebaikan Anda kembali berlipat ganda kepada Anda."
+  },
+  {
+    "q": "Aku bahagia ketika bersama orang-orang terkasih",
+    "a": "Kebersamaan dengan orang-orang terkasih adalah hadiah terbesar. Jaga dan rayakan momen-momen indah ini bersama mereka."
+  },
+  {
+    "q": "Aku sedih, bisa dengarkan saya?",
+    "a": "Tentu saja, saya siap mendengarkan. Ceritakan apa yang membuat Anda sedih, saya di sini untuk memberikan dukungan."
+  },
+  {
+    "q": "Aku stres dengan banyak pekerjaan",
+    "a": "Stress dengan beban kerja adalah hal umum. Coba prioritaskan tugas, delegasi jika mungkin, dan jangan lupa istirahat untuk menjaga kesehatan mental."
+  },
+  {
+    "q": "Aku merasa overwhelmed dengan tanggung jawab",
+    "a": "Terlalu banyak tanggung jawab bisa membuat overwhelm. Coba kelompokkan prioritas, minta bantuan jika perlu, dan ingat Anda tidak harus sempurna."
+  },
+  {
+    "q": "Aku optimis dengan masa depan",
+    "a": "Optimisme adalah energi yang positif! Semoga masa depan membawa hal-hal baik untuk Anda. Terus bergerak maju dengan semangat."
+  },
+  {
+    "q": "Aku bersyukur atas segala berkah",
+    "a": "Rasa syukur adalah awal dari kebahagiaan. Terus hargai setiap berkah, sekecil apapun, dan Anda akan menemukan lebih banyak kebahagiaan."
+  },
+  {
+    "q": "Aku merasa terhibur dan senang saat ini",
+    "a": "Senang mendengar Anda sedang senang! Nikmati momen kegembiraan ini dan biarkan energi positif ini menginspirasi hari-hari Anda berikutnya."
+  },
+  {
+    "q": "Aku merasa aman bersama Anda",
+    "a": "Terima kasih atas kepercayaan Anda. Saya di sini sebagai teman, untuk mendengarkan dan memberikan dukungan setiap saat Anda membutuhkannya."
+  },
+  {
+    "q": "Aku merasa dihargai dan diperhatikan",
+    "a": "Kehadiran Anda penting! Setiap percakapan kita bermakna. Semoga Anda selalu merasa dihargai dan diperhatikan oleh orang-orang di sekitar Anda."
+  },
+  {
+    "q": "Aku merasa tertekan dan terbebani emosi",
+    "a": "Beban emosi yang Anda alami sangat real dan valid. Coba luapkan emosi Anda melalui cara yang sehat seperti menulis, berbicara, atau aktivitas yang Anda sukai. Anda tidak sendirian dalam perjuangan ini."
+  },
+  {
+    "q": "Aku merasa lega setelah mengatakannya",
+    "a": "Berbagi beban memang memberikan rasa lega. Terima kasih telah mempercayai saya. Semoga Anda terus menemukan cara untuk mengekspresikan perasaan Anda dengan sehat."
+  },
+  {
+    "q": "Aku merasa ingin berubah jadi lebih baik",
+    "a": "Keinginan untuk berubah adalah langkah pertama menuju perbaikan. Anda memiliki potensi yang besar! Ambil satu hal kecil untuk dimulai dan terus berkembang dari sana."
+  },
+  {
+    "q": "Aku merasa kehilangan motivasi",
+    "a": "Kehilangan motivasi adalah bagian dari perjalanan hidup. Coba temukan kembali apa yang membuat Anda semangat dulu, atau cari hal baru yang menginspirasi. Motivasi akan kembali."
+  },
+  {
+    "q": "Aku merasa antusias tentang proyek baru",
+    "a": "Antusias adalah api yang indah! Jaga semangat ini dan channelkan energi positif Anda ke dalam proyek ini. Saya yakin Anda akan mencapai hasil yang luar biasa."
+  },
+  {
+    "q": "Aku merasa dicintai dan diterima",
+    "a": "Perasaan dicintai adalah hadiah terbesar. Jaga hubungan-hubungan yang memberikan kasih sayang ini dan terus tunjukkan apresiasi kepada mereka yang Anda cintai."
+  },
+  {
+    "q": "Aku merasa kecewa dengan orang terdekat",
+    "a": "Kekecewaan dari orang terdekat memang terasa lebih dalam. Coba komunikasikan harapan Anda dengan jelas dan dengarkan perspektif mereka. Kadang pemahaman lebih baik bisa menyembuhkan luka ini."
+  },
+  {
+    "q": "Aku merasa sakit hati tapi ingin melanjutkan",
+    "a": "Keberanian untuk melanjutkan meski sakit hati adalah bentuk kekuatan sejati. Anda layak mendapatkan kebahagiaan. Ambil waktu Anda untuk menyembuhkan dan tumbuh."
+  },
+  {
+    "q": "Aku merasa tertarik dengan kemungkinan baru",
+    "a": "Kemungkinan baru membawa harapan dan petualangan! Berani mengambil risiko terukur adalah cara kita berkembang. Jelajahi peluang ini dengan hati yang terbuka."
+  },
+  {
+    "q": "Aku merasa kecil tapi tetap berusaha",
+    "a": "Bahkan usaha kecil dari hati yang besar lebih bermakna dari yang Anda bayangkan. Setiap langkah kecil adalah kemajuan. Anda lebih berarti daripada yang Anda pikirkan."
+  },
+  {
+    "q": "Aku merasa sedih tapi tidak tahu alasannya",
+    "a": "Sedih tanpa sebab jelas juga adalah emosi yang valid. Kadang perasaan kita lebih kompleks dari yang bisa dijelaskan dengan kata-kata. Izinkan diri Anda untuk merasakan ini tanpa harus memahami sepenuhnya."
+  },
+  {
+    "q": "Aku merasa dikhianati dan sakit",
+    "a": "Pengkhianatan memang meninggalkan luka yang dalam. Perasaan Anda dapat dipahami dan valid. Ingat bahwa ini tentang pilihan mereka, bukan tentang nilai Anda sebagai manusia."
+  },
+  {
+    "q": "Aku merasa bersalah tentang suatu hal",
+    "a": "Rasa bersalah menunjukkan Anda peduli. Jika Anda bisa membuat perbaikan atau minta maaf, lakukan. Jika tidak, maafkan diri sendiri dan gunakan ini untuk menjadi lebih baik ke depannya."
+  },
+  {
+    "q": "Aku merasa terinspirasi dan penuh energi positif",
+    "a": "Energi positif Anda menular dan indah! Manfaatkan momentum ini untuk mewujudkan ide-ide Anda. Semoga inspirasi ini terus menyertai setiap langkah Anda."
+  },
+  {
+    "q": "Aku merasa kasihan pada diri sendiri tapi ingin bangkit",
+    "a": "Mengasihi diri sendiri adalah bagian dari kekuatan. Anda pantas untuk memilih kehidupan yang lebih baik. Dengan sedikit keandalan pada diri sendiri, Anda akan bangkit lebih kuat dari sebelumnya."
+  },
+  {
+    "q": "Aku gelisah dan tidak bisa fokus",
+    "a": "Gelisah adalah tanda bahwa ada sesuatu yang perlu diperhatikan. Coba identifikasi sumber kegelisahan, ambil istirahat sejenak, dan lakukan aktivitas yang menenangkan. Ketenangan akan datang."
+  },
+  {
+    "q": "Aku merasa beruntung dan bersyukur sepenuh hati",
+    "a": "Rasa syukur yang tulus adalah berkah terbesar. Terus ciptakan dan rayakan momen-momen keberuntungan ini. Energi positif Anda akan membawa lebih banyak kebaikan."
+  },
+  {
+    "q": "Aku rindu seseorang yang sudah jauh",
+    "a": "Rindu adalah bukti bahwa seseorang sangat berarti bagi Anda. Coba kirimkan kabar atau pesan kepada mereka, karena mungkin mereka juga merindukan Anda."
+  },
+  {
+    "q": "Aku merasa iri dengan pencapaian orang lain",
+    "a": "Rasa iri itu manusiawi, tetapi cobalah jadikan itu motivasi daripada beban. Perjalanan setiap orang berbeda, dan Anda juga punya kelebihan yang unik."
+  },
+  {
+    "q": "Aku merasa minder dibandingkan teman-teman",
+    "a": "Membandingkan diri dengan orang lain seringkali tidak adil bagi diri sendiri. Fokuslah pada pertumbuhan pribadi Anda, karena setiap orang punya kecepatan dan jalannya masing-masing."
+  },
+  {
+    "q": "Aku terharu sampai ingin menangis",
+    "a": "Terharu adalah emosi yang indah dan menunjukkan hati Anda yang lembut. Biarkan air mata itu mengalir, karena menangis adalah cara sehat untuk melepaskan perasaan."
+  },
+  {
+    "q": "Aku merasa hampa dan kosong di dalam",
+    "a": "Perasaan hampa bisa sangat menyiksa. Cobalah melakukan hal-hal kecil yang dulu membuat Anda bahagia, dan jangan ragu untuk berbicara dengan seseorang yang Anda percaya."
+  },
+  {
+    "q": "Aku grogi mau presentasi besok",
+    "a": "Grogi sebelum presentasi itu wajar dan banyak orang mengalaminya. Persiapkan materi dengan baik, latihan beberapa kali, dan ingat bahwa Anda sudah mampu sejauh ini."
+  },
+  {
+    "q": "Aku menyesal dengan keputusan yang sudah kubuat",
+    "a": "Penyesalan memang berat, tapi itu adalah bagian dari belajar. Yang penting sekarang adalah apa langkah selanjutnya yang bisa Anda ambil untuk memperbaiki situasi."
+  },
+  {
+    "q": "Aku merasa terasing dari lingkungan sekitar",
+    "a": "Merasa terasing itu sangat tidak nyaman. Cobalah untuk membuka diri sedikit demi sedikit, mulai dari satu orang yang Anda rasa aman untuk didekati."
+  },
+  {
+    "q": "Aku kangen masa kecil yang tanpa beban",
+    "a": "Nostalgia masa kecil memang manis. Kenangan itu adalah harta yang tak ternilai. Semoga Anda tetap bisa menemukan momen-momen sederhana yang membawa kebahagiaan seperti dulu."
+  },
+  {
+    "q": "Aku merasa putus asa dan tidak tahu harus bagaimana",
+    "a": "Saya mendengar Anda, dan perasaan Anda valid. Saat merasa putus asa, cobalah fokus hanya pada satu langkah kecil berikutnya. Jika merasa sangat berat, jangan ragu mencari bantuan profesional."
+  },
+  {
+    "q": "Aku lelah secara mental dan emosional",
+    "a": "Kelelahan mental sama pentingnya dengan kelelahan fisik. Berikan diri Anda izin untuk beristirahat tanpa rasa bersalah. Kesehatan mental Anda adalah prioritas."
+  },
+  {
+    "q": "Aku merasa canggung dalam situasi sosial",
+    "a": "Banyak orang merasakan hal yang sama dalam situasi sosial. Tidak apa-apa untuk merasa canggung, coba mulai dengan percakapan kecil dan ingat bahwa kebanyakan orang juga fokus pada diri mereka sendiri."
+  },
+  {
+    "q": "Aku merasa dendam tapi ingin memaafkan",
+    "a": "Keinginan untuk memaafkan menunjukkan kekuatan hati Anda. Memaafkan bukan berarti melupakan, tetapi membebaskan diri Anda dari beban yang menyiksa. Lakukan perlahan, sesuai kesiapan Anda."
+  },
+  {
+    "q": "Aku penasaran dan ingin belajar banyak hal baru",
+    "a": "Rasa penasaran adalah awal dari pengetahuan! Manfaatkan semangat belajar Anda untuk mengeksplorasi hal-hal baru. Dunia penuh dengan pengetahuan yang menunggu untuk ditemukan."
+  },
+  {
+    "q": "Aku merasa tidak dianggap oleh orang sekitar",
+    "a": "Perasaan tidak dianggap itu sangat menyakitkan. Ingatlah bahwa nilai Anda tidak ditentukan oleh pengakuan orang lain. Anda berharga apa adanya, dan akan selalu ada orang yang menghargai kehadiran Anda."
+  },
+  {
+    "q": "Aku merasa jenuh dengan rutinitas yang sama setiap hari",
+    "a": "Kejenuhan dengan rutinitas bisa sangat melelahkan. Cobalah tambahkan variasi kecil dalam keseharian Anda, seperti rute baru, hobi baru, atau hal spontan yang menyegarkan."
+  },
+  {
+    "q": "Aku bangga karena berhasil menolong orang lain",
+    "a": "Kebanggaan karena membantu sesama adalah perasaan yang mulia. Dunia membutuhkan lebih banyak orang seperti Anda. Terus tebar kebaikan!"
+  },
+  {
+    "q": "Aku merasa kagum dengan keindahan alam",
+    "a": "Alam memang memiliki kekuatan untuk mengagumkan dan menyembuhkan. Nikmati keindahan itu dan biarkan ia mengisi hati Anda dengan ketenangan dan rasa syukur."
+  },
+  {
+    "q": "Aku resah karena ada masalah yang belum terselesaikan",
+    "a": "Masalah yang menggantung memang membuat resah. Cobalah tulis masalah Anda, identifikasi langkah-langkah kecil yang bisa dilakukan, dan tangani satu per satu."
+  },
+  {
+    "q": "Aku merasa bimbang antara dua pilihan",
+    "a": "Kebimbangan berarti Anda memikirkan keputusan dengan serius. Coba buat daftar pro dan kontra untuk setiap pilihan, dan dengarkan juga kata hati Anda."
+  },
+  {
+    "q": "Aku merasa jijik dengan perilaku seseorang",
+    "a": "Reaksi Anda menunjukkan Anda memiliki nilai moral yang kuat. Jaga jarak jika perlu, dan fokus pada orang-orang yang membawa pengaruh positif dalam hidup Anda."
+  },
+  {
+    "q": "Aku merasa lega setelah masalah besar terselesaikan",
+    "a": "Rasa lega itu layak dirayakan! Anda telah melewati tantangan yang berat dan berhasil. Nikmati momen ini dan beri penghargaan pada diri sendiri."
+  },
+  {
+    "q": "Aku merasa seperti gagal terus-menerus",
+    "a": "Kegagalan berulang memang menguras semangat, tapi setiap kegagalan adalah pelajaran berharga. Orang-orang sukses pun pernah gagal berkali-kali sebelum berhasil. Jangan menyerah."
+  },
+  {
+    "q": "Aku merasa sangat berterima kasih pada seseorang",
+    "a": "Rasa terima kasih yang tulus itu sangat berharga. Sampaikan langsung kepada orang tersebut, karena mendengar ucapan terima kasih bisa berarti sangat besar bagi mereka."
+  },
+  {
+    "q": "Aku sedih karena kehilangan hewan peliharaan",
+    "a": "Kehilangan hewan peliharaan sama sakitnya dengan kehilangan sahabat. Perasaan duka Anda sangat valid. Kenangan indah bersama mereka akan selalu hidup di hati Anda."
+  },
+  {
+    "q": "Aku malu karena berbuat kesalahan di depan banyak orang",
+    "a": "Situasi itu memang tidak nyaman, tapi percayalah orang lain mungkin sudah melupakannya lebih cepat dari yang Anda kira. Tertawakan saja dan jadikan pengalaman berharga."
+  },
+  {
+    "q": "Aku merasa cemburu dengan pasangan",
+    "a": "Cemburu dalam batas wajar itu normal, tapi penting untuk dikomunikasikan dengan terbuka dan jujur kepada pasangan. Kepercayaan adalah fondasi hubungan yang sehat."
+  },
+  {
+    "q": "Aku merasa terjebak dalam situasi yang tidak bisa kuubah",
+    "a": "Perasaan terjebak itu sangat menyiksa. Tapi selalu ada aspek yang bisa Anda kontrol, sekecil apapun. Mulai dari situ, dan perlahan Anda akan menemukan jalan keluar."
+  },
+  {
+    "q": "Aku senang karena bisa mewujudkan impian kecilku",
+    "a": "Impian kecil yang terwujud adalah kebahagiaan nyata! Setiap pencapaian layak untuk dirayakan. Semoga ini menjadi batu loncatan menuju impian-impian yang lebih besar."
+  },
+  {
+    "q": "Aku merasa curiga dan sulit mempercayai orang",
+    "a": "Sulit mempercayai orang seringkali berasal dari pengalaman masa lalu. Tidak apa-apa untuk berhati-hati, tapi cobalah beri kesempatan pada orang yang tulus mendekati Anda."
+  },
+  {
+    "q": "Aku merasa panik dan jantungku berdebar kencang",
+    "a": "Coba tarik napas perlahan melalui hidung selama 4 detik, tahan 4 detik, lalu hembuskan 4 detik. Ulangi beberapa kali. Kepanikan akan mereda. Anda aman."
+  },
+  {
+    "q": "Aku merasa haru melihat kebaikan orang asing",
+    "a": "Kebaikan dari orang asing memang bisa sangat menyentuh hati. Ini mengingatkan kita bahwa dunia masih penuh dengan kebaikan. Semoga ini menginspirasi Anda untuk menyebarkan kebaikan juga."
+  },
+  {
+    "q": "Aku merasa rendah diri karena latar belakangku",
+    "a": "Latar belakang Anda tidak menentukan nilai Anda sebagai manusia. Banyak orang hebat berasal dari situasi yang sulit. Yang menentukan adalah langkah yang Anda ambil mulai sekarang."
+  },
+  {
+    "q": "Aku merasa kewalahan dengan ekspektasi orang tua",
+    "a": "Tekanan dari ekspektasi orang tua memang berat. Cobalah komunikasikan perasaan dan mimpi Anda dengan jujur kepada mereka. Orang tua biasanya hanya ingin yang terbaik, meski caranya kadang berbeda."
+  },
+  {
+    "q": "Aku merasa bahagia setelah lama tidak merasakan kebahagiaan",
+    "a": "Kebahagiaan yang datang setelah masa sulit terasa jauh lebih bermakna. Peluk erat momen ini dan ingat bahwa Anda layak merasakan kebahagiaan setiap saat."
+  },
+  {
+    "q": "Aku merasa tersisih dalam pertemanan",
+    "a": "Perasaan tersisih sangat menyakitkan. Perteman sejati akan menerima dan menyertakan Anda. Jika tidak, mungkin saatnya mencari lingkaran yang lebih menghargai kehadiran Anda."
+  },
+  {
+    "q": "Aku merasa semangat memulai hari ini",
+    "a": "Semangat di pagi hari adalah modal yang luar biasa! Manfaatkan energi ini untuk hal-hal produktif dan positif. Semoga hari Anda berjalan luar biasa!"
+  },
+  {
+    "q": "Aku merasa tidak berguna dan tidak punya tujuan hidup",
+    "a": "Perasaan itu pasti sangat berat, dan saya peduli dengan kondisi Anda. Tujuan hidup bisa ditemukan secara bertahap. Coba eksplorasi minat kecil Anda, dan jika merasa sangat terpuruk, bicarakan dengan konselor profesional."
+  },
+  {
+    "q": "Aku merasa damai setelah meditasi",
+    "a": "Meditasi adalah hadiah indah untuk pikiran dan jiwa. Terus jaga praktik ini karena kedamaian batin adalah fondasi untuk menghadapi tantangan hidup."
+  },
+  {
+    "q": "Aku merasa kesal karena diremehkan orang lain",
+    "a": "Diremehkan memang menyakitkan, tetapi jangan biarkan pandangan orang lain mendefinisikan Anda. Buktikan dengan tindakan dan pencapaian, bukan dengan kata-kata."
+  },
+  {
+    "q": "Aku merasa takut akan kegagalan",
+    "a": "Ketakutan akan gagal bisa melumpuhkan, tapi ingat bahwa kegagalan adalah guru terbaik. Lebih baik mencoba dan gagal daripada tidak pernah mencoba sama sekali."
+  },
+  {
+    "q": "Aku merasa bersemangat setelah olahraga",
+    "a": "Olahraga memang obat alami untuk mood! Endorfin yang dihasilkan membuat Anda merasa lebih baik. Terus jaga kebiasaan sehat ini untuk tubuh dan pikiran Anda."
+  },
+  {
+    "q": "Aku sedih karena sahabatku pindah ke kota lain",
+    "a": "Berpisah dari sahabat memang menyedihkan. Tapi persahabatan sejati tidak terhalang jarak. Tetap jaga komunikasi dan buat rencana untuk bertemu kembali."
+  },
+  {
+    "q": "Aku merasa sangat lelah tapi tidak bisa tidur",
+    "a": "Insomnia saat lelah memang sangat menyiksa. Coba matikan gadget, minum teh hangat, dan lakukan pernapasan perlahan. Jika berlanjut, konsultasikan dengan dokter."
+  },
+  {
+    "q": "Aku merasa terpukul dengan kritik yang pedas",
+    "a": "Kritik pedas memang menyakitkan. Ambil bagian yang konstruktif untuk perbaikan diri, dan lepaskan yang hanya bertujuan menjatuhkan. Anda lebih dari sekadar kritik orang lain."
+  },
+  {
+    "q": "Aku merasa bingung dengan arah hidup saya",
+    "a": "Banyak orang merasakan hal yang sama, jadi Anda tidak sendirian. Tidak apa-apa untuk belum tahu semua jawaban. Jelajahi minat Anda, coba hal baru, dan arah hidup akan terbentuk seiring waktu."
+  },
+  {
+    "q": "Aku merasa hangat karena mendapat dukungan tak terduga",
+    "a": "Dukungan yang datang di saat tidak terduga memang terasa sangat istimewa. Simpan kehangatan itu di hati dan jadikan kekuatan untuk menghadapi hari-hari ke depan."
+  },
+  {
+    "q": "Aku merasa frustrasi karena usahaku tidak dihargai",
+    "a": "Usaha yang tidak dihargai memang membuat frustasi. Tapi ingat, nilai usaha Anda tidak ditentukan oleh pengakuan orang lain. Teruslah bekerja keras untuk diri Anda sendiri."
+  },
+  {
+    "q": "Aku merasa tenang dan bisa menerima keadaan sekarang",
+    "a": "Penerimaan adalah bentuk kedewasaan dan kebijaksanaan. Ketenangan yang Anda rasakan adalah tanda bahwa Anda tumbuh menjadi versi diri yang lebih baik. Pertahankan kedamaian ini."
+  },
+  {
+    "q": "Aku merasa kewalahan dengan banyak tekanan dari berbagai sisi",
+    "a": "Ketika tekanan datang dari berbagai arah, penting untuk menciptakan ruang untuk diri sendiri. Mulai dengan mengidentifikasi prioritas mana yang benar-benar penting, mana yang bisa ditunda, dan mana yang bisa didelegasikan. Jangan coba-coba mengerjakan semuanya sekaligus karena itu yang membuat kewalahan bertambah parah.",
+    "cot": "Dalam situasi kewalahan, otak kita cenderung panik dan mencoba menyelesaikan semua hal berikut dengan langsung. Strategi terbaik adalah memecah masalah besar menjadi bagian kecil yang terkelola. Dengan fokus pada satu hal pada satu waktu, kita mengurangi beban mental dan meningkatkan efisiensi. Ini juga membantu membangun kembali kepercayaan diri karena kita bisa melihat progress nyata."
+  },
+  {
+    "q": "Aku merasa kecewa dengan diri sendiri karena tidak mencapai target yang aku tetapkan",
+    "a": "Kekecewaan pada diri sendiri adalah tanda bahwa Anda memiliki standar tinggi dan ambisi. Tapi penting untuk membedakan antara introspeksi yang sehat dan self-criticism yang merusak. Lihat apa yang sudah Anda capai, evaluasi apa yang bisa diperbaiki, dan set target yang lebih realistis untuk masa depan.",
+    "cot": "Ketika kita tidak mencapai target, emosi negatif seperti kekecewaan adalah respons alami. Namun, emosi ini bisa menjadi destructive jika kita terlalu keras pada diri sendiri. Emotional intelligence di sini adalah kemampuan untuk acknowledge perasaan itu, namun tidak membiarkannya mendefinisikan self-worth kita. Setiap kegagalan adalah data point yang berharga untuk belajar apa yang perlu disesuaikan di masa depan."
+  },
+  {
+    "q": "Aku merasa marah tapi tidak tahu cara mengekspresikannya dengan baik",
+    "a": "Marah adalah emosi valid, namun bagaimana kita mengekspresikannya menentukan dampaknya. Cobalah untuk menunggu beberapa saat sampai marah mereda sedikit, kemudian ekspresikan dengan jelas menggunakan 'I statements' seperti 'Aku merasa tersakiti ketika...' bukan 'Kamu selalu...'. Ini membuka ruang untuk dialog bukan konfrontasi.",
+    "cot": "Kemarahan yang tidak dikontrol bisa merusak hubungan dan meninggalkan rasa penyesalan. Emotional maturity adalah mengenali kemarahan itu datang, memberi diri waktu untuk cool down, lalu mengkomunikasikan perasaan dengan assertif namun tidak agresif. Dengan pendekatan ini, orang lain lebih mungkin mendengarkan dan memahami perspektif kita, daripada mereka mempertahankan diri karena diserang."
+  }
+]

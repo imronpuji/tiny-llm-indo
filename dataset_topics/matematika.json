@@ -1,0 +1,534 @@
+[
+  {
+    "q": "Berapa hasil 5 + 3?",
+    "a": "Hasil dari 5 + 3 adalah 8."
+  },
+  {
+    "q": "Berapa hasil 10 x 10?",
+    "a": "Hasil dari 10 x 10 adalah 100."
+  },
+  {
+    "q": "Apa rumus luas persegi?",
+    "a": "Rumus luas persegi adalah sisi x sisi atau s²."
+  },
+  {
+    "q": "Apa rumus luas lingkaran?",
+    "a": "Rumus luas lingkaran adalah π x r² (pi dikali jari-jari kuadrat)."
+  },
+  {
+    "q": "Apa itu bilangan prima?",
+    "a": "Bilangan prima adalah bilangan yang hanya bisa dibagi oleh 1 dan dirinya sendiri, contohnya 2, 3, 5, 7, 11."
+  },
+  {
+    "q": "Berapa nilai pi?",
+    "a": "Nilai pi (π) adalah sekitar 3.14159 atau sering dibulatkan menjadi 3.14."
+  },
+  {
+    "q": "Apa rumus keliling lingkaran?",
+    "a": "Rumus keliling lingkaran adalah 2 x π x r atau π x diameter."
+  },
+  {
+    "q": "Apa rumus luas segitiga?",
+    "a": "Rumus luas segitiga adalah ½ x alas x tinggi."
+  },
+  {
+    "q": "Apa itu pecahan?",
+    "a": "Pecahan adalah bilangan yang menyatakan bagian dari keseluruhan, ditulis dalam bentuk pembilang/penyebut."
+  },
+  {
+    "q": "Apa itu persentase?",
+    "a": "Persentase adalah cara menyatakan angka sebagai bagian dari 100, dilambangkan dengan %."
+  },
+  {
+    "q": "Berapa hasil 100 dibagi 4?",
+    "a": "Hasil dari 100 dibagi 4 adalah 25."
+  },
+  {
+    "q": "Berapa hasil 7 x 8?",
+    "a": "Hasil dari 7 x 8 adalah 56."
+  },
+  {
+    "q": "Apa itu akar kuadrat?",
+    "a": "Akar kuadrat adalah bilangan yang jika dikuadratkan menghasilkan bilangan tertentu. Contoh: √9 = 3 karena 3² = 9."
+  },
+  {
+    "q": "Berapa akar kuadrat dari 16?",
+    "a": "Akar kuadrat dari 16 adalah 4."
+  },
+  {
+    "q": "Apa rumus Pythagoras?",
+    "a": "Rumus Pythagoras adalah a² + b² = c², digunakan untuk segitiga siku-siku."
+  },
+  {
+    "q": "Apa itu sudut siku-siku?",
+    "a": "Sudut siku-siku adalah sudut yang besarnya 90 derajat."
+  },
+  {
+    "q": "Berapa derajat dalam satu lingkaran penuh?",
+    "a": "Satu lingkaran penuh adalah 360 derajat."
+  },
+  {
+    "q": "Apa itu rata-rata?",
+    "a": "Rata-rata adalah jumlah semua nilai dibagi dengan banyaknya nilai."
+  },
+  {
+    "q": "Bagaimana cara menyelesaikan persamaan linear 2x + 5 = 13?",
+    "a": "Langkah-langkah penyelesaian: (1) Kurangi kedua sisi dengan 5: 2x + 5 - 5 = 13 - 5, menjadi 2x = 8. (2) Bagi kedua sisi dengan 2: 2x / 2 = 8 / 2. (3) Hasil akhir: x = 4. Verifikasi: 2(4) + 5 = 8 + 5 = 13 ✓"
+  },
+  {
+    "q": "Apa itu sistem persamaan linear dua variabel dan bagaimana cara menyelesaikannya?",
+    "a": "Sistem persamaan linear dua variabel adalah dua atau lebih persamaan yang memuat dua variabel (biasanya x dan y). Contoh: x + y = 5 dan 2x - y = 4. Untuk menyelesaikan, gunakan metode: (1) Substitusi: ekspresikan satu variabel dari persamaan pertama, lalu substitusikan ke persamaan kedua. (2) Eliminasi: kalikan persamaan sehingga koefisien salah satu variabel sama, kemudian kurangi. Dari contoh dengan metode eliminasi: (x+y) + (2x-y) = 5 + 4, diperoleh 3x = 9, x = 3. Substitusi: 3 + y = 5, y = 2. Solusi: (3, 2)."
+  },
+  {
+    "q": "Apa itu faktorisasi dan bagaimana memfaktorkan x² + 5x + 6?",
+    "a": "Faktorisasi adalah menguraikan sebuah ekspresi menjadi perkalian faktor-faktornya. Untuk memfaktorkan x² + 5x + 6: (1) Cari dua bilangan yang hasil perkaliannya 6 dan hasil penjumlahannya 5. Bilangan tersebut adalah 2 dan 3. (2) Faktor bentuknya: (x + 2)(x + 3). (3) Verifikasi dengan mengalikan kembali: (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6 ✓"
+  },
+  {
+    "q": "Bagaimana cara menghitung 2³ × 2²?",
+    "a": "Langkah-langkah menghitung pangkat dengan basis sama: (1) Gunakan aturan eksponen: a^m × a^n = a^(m+n). (2) Dalam hal ini: 2³ × 2² = 2^(3+2) = 2⁵. (3) Hitung 2⁵ = 2 × 2 × 2 × 2 × 2 = 32. Alternatif: 2³ = 8 dan 2² = 4, maka 8 × 4 = 32."
+  },
+  {
+    "q": "Apa rumus volume kubus dan berapa volume kubus dengan sisi 5 cm?",
+    "a": "Rumus volume kubus adalah V = s³ (sisi pangkat tiga). Untuk kubus dengan sisi 5 cm: V = 5³ = 5 × 5 × 5 = 125 cm³. Jadi volume kubus adalah 125 cm³."
+  },
+  {
+    "q": "Apa rumus volume tabung dan berapa volume tabung dengan jari-jari 3 cm dan tinggi 10 cm?",
+    "a": "Rumus volume tabung adalah V = π × r² × t (pi dikali jari-jari kuadrat dikali tinggi). Untuk tabung dengan r = 3 cm dan t = 10 cm: V = π × 3² × 10 = π × 9 × 10 = 90π cm³ ≈ 90 × 3.14 ≈ 282.6 cm³. Jadi volume tabung adalah 90π cm³ atau sekitar 282.6 cm³."
+  },
+  {
+    "q": "Apa itu median dan bagaimana cara menemukannya dari data 3, 7, 2, 9, 5?",
+    "a": "Median adalah nilai tengah dari data yang telah diurutkan dari terkecil ke terbesar. Langkah-langkah: (1) Urutkan data: 2, 3, 5, 7, 9. (2) Karena ada 5 data (ganjil), median adalah nilai di posisi tengah yaitu data ke-3. (3) Median = 5. Catatan: Jika jumlah data genap, median adalah rata-rata dari dua nilai tengah."
+  },
+  {
+    "q": "Apa itu modus dalam statistik dan apa modus dari data 2, 5, 5, 8, 5, 3, 8?",
+    "a": "Modus adalah nilai yang paling sering muncul dalam sebuah dataset. Untuk menemukan modus dari data 2, 5, 5, 8, 5, 3, 8: (1) Hitung frekuensi setiap nilai: 2 muncul 1 kali, 5 muncul 3 kali, 8 muncul 2 kali, 3 muncul 1 kali. (2) Nilai yang paling sering muncul adalah 5 dengan 3 kali kemunculan. (3) Modus = 5."
+  },
+  {
+    "q": "Apa itu range data dan bagaimana cara menghitungnya dari nilai 15, 8, 22, 12, 30?",
+    "a": "Range adalah selisih antara nilai terbesar dan nilai terkecil dalam sebuah dataset, mengukur seberapa tersebar data. Langkah-langkah menghitung range dari data 15, 8, 22, 12, 30: (1) Identifikasi nilai terbesar = 30. (2) Identifikasi nilai terkecil = 8. (3) Range = 30 - 8 = 22. Jadi range data adalah 22."
+  },
+  {
+    "q": "Apa itu trigonometri dan apa itu sin, cos, dan tan dalam segitiga siku-siku?",
+    "a": "Trigonometri adalah cabang matematika yang mempelajari hubungan antara sudut dan sisi dalam segitiga, khususnya segitiga siku-siku. Dalam segitiga siku-siku dengan sudut θ: (1) sin(θ) = sisi depan / sisi miring (opposite / hypotenuse). (2) cos(θ) = sisi samping / sisi miring (adjacent / hypotenuse). (3) tan(θ) = sisi depan / sisi samping (opposite / adjacent). Mudah diingat dengan akronim SOHCAHTOA: Sin=Opposite/Hypotenuse, Cos=Adjacent/Hypotenuse, Tan=Opposite/Adjacent."
+  },
+  {
+    "q": "Dalam segitiga siku-siku dengan sisi depan 3, sisi samping 4, dan sisi miring 5, berapa sin(θ), cos(θ), dan tan(θ)?",
+    "a": "Diberikan segitiga siku-siku dengan sisi depan (opposite) = 3, sisi samping (adjacent) = 4, sisi miring (hypotenuse) = 5: (1) sin(θ) = 3/5 = 0.6. (2) cos(θ) = 4/5 = 0.8. (3) tan(θ) = 3/4 = 0.75. Catatan: Ini adalah segitiga 3-4-5, salah satu segitiga siku-siku khusus yang sering digunakan dalam soal matematika."
+  },
+  {
+    "q": "Apa itu limit dalam kalkulus dan berapa nilai limit x → 2 dari f(x) = x²?",
+    "a": "Limit adalah nilai yang didekati oleh sebuah fungsi ketika variabel mendekati nilai tertentu. Notasi 'lim x→a f(x) = L' berarti nilai f(x) mendekati L ketika x mendekati a. Untuk menghitung limit x → 2 dari f(x) = x²: (1) Substitusikan x = 2 ke dalam fungsi: f(2) = 2² = 4. (2) Jika substitusi langsung memberikan hasil yang terdefinisi (bukan 0/0 atau ∞/∞), maka limit = 4. Jadi lim x→2 x² = 4."
+  },
+  {
+    "q": "Apa itu derivatif (turunan) dan bagaimana cara menemukan turunan dari f(x) = x²?",
+    "a": "Derivatif adalah laju perubahan instan dari sebuah fungsi terhadap variabelnya, dilambangkan f'(x) atau df/dx. Aturan pangkat untuk turunan: jika f(x) = x^n, maka f'(x) = n × x^(n-1). Untuk f(x) = x²: (1) Terapkan aturan pangkat dengan n = 2: f'(x) = 2 × x^(2-1) = 2x^1. (2) Hasil: f'(x) = 2x. Interpretasi: pada titik x = 3, kemiringan kurva y = x² adalah 2(3) = 6."
+  },
+  {
+    "q": "Bagaimana cara menemukan turunan dari f(x) = 3x³ + 2x² - 5x + 7?",
+    "a": "Untuk menemukan turunan dari fungsi polinomial, gunakan aturan pangkat untuk setiap suku: (1) Turunan dari 3x³: 3 × 3x^(3-1) = 9x². (2) Turunan dari 2x²: 2 × 2x^(2-1) = 4x. (3) Turunan dari -5x: -5 × 1x^(1-1) = -5. (4) Turunan dari konstanta 7: 0. (5) Gabungkan semua: f'(x) = 9x² + 4x - 5."
+  },
+  {
+    "q": "Apa itu integral dan bagaimana cara menemukan integral tidak tentu dari f(x) = 3x²?",
+    "a": "Integral adalah operasi kebalikan dari derivatif, juga disebut antiturunan. Integral tidak tentu disimbolkan ∫f(x)dx dan menghasilkan keluarga fungsi dengan konstanta + C. Aturan pangkat untuk integral: ∫x^n dx = [x^(n+1)]/(n+1) + C. Untuk ∫3x² dx: (1) Tarik konstanta 3 keluar: 3∫x² dx. (2) Terapkan aturan pangkat dengan n = 2: 3 × [x^(2+1)]/(2+1) = 3 × [x³/3]. (3) Hasil: ∫3x² dx = x³ + C. Verifikasi: turunan dari x³ + C adalah 3x²."
+  },
+  {
+    "q": "Apa itu segitiga khusus 45-45-90 dan apa karakteristiknya?",
+    "a": "Segitiga 45-45-90 adalah segitiga siku-siku sama kaki dengan dua sudut yang masing-masing 45° dan satu sudut 90°. Karakteristik: (1) Kedua sisi tegak (yang membentuk sudut 90°) memiliki panjang yang sama, misalkan panjang adalah a. (2) Sisi miring (hipotenusa) memiliki panjang a√2. (3) Perbandingan sisi: a : a : a√2. Contoh: jika kedua sisi tegak panjangnya 5, maka sisi miring = 5√2 ≈ 7.07."
+  },
+  {
+    "q": "Apa itu segitiga khusus 30-60-90 dan apa karakteristiknya?",
+    "a": "Segitiga 30-60-90 adalah segitiga siku-siku dengan sudut 30°, 60°, dan 90°. Karakteristik: (1) Sisi terpendek (berhadapan sudut 30°) memiliki panjang a. (2) Sisi menengah (berhadapan sudut 60°) memiliki panjang a√3. (3) Sisi miring (hipotenusa, berhadapan sudut 90°) memiliki panjang 2a. (4) Perbandingan sisi: a : a√3 : 2a atau 1 : √3 : 2. Contoh: jika sisi terpendek = 3, maka sisi menengah = 3√3 ≈ 5.20, dan hipotenusa = 6."
+  },
+  {
+    "q": "Apa itu persegi panjang dan bagaimana rumus luas serta kelilingnya?",
+    "a": "Persegi panjang adalah bangun datar dengan empat sudut siku-siku dan dua pasang sisi yang sama panjang. Rumus: (1) Luas persegi panjang = panjang × lebar atau p × l. (2) Keliling persegi panjang = 2(p + l) atau 2p + 2l. Contoh: persegi panjang dengan panjang 8 cm dan lebar 5 cm memiliki luas = 8 × 5 = 40 cm² dan keliling = 2(8 + 5) = 26 cm."
+  },
+  {
+    "q": "Apa itu jajargenjang dan bagaimana cara menghitung luasnya?",
+    "a": "Jajargenjang adalah bangun datar dengan dua pasang sisi yang sejajar dan sama panjang, tetapi sudutnya bukan siku-siku. Rumus luas jajargenjang = alas × tinggi. Penting: tinggi adalah jarak tegak lurus dari alas ke sisi sejajar yang berlawanan, bukan panjang sisi miring. Contoh: jajargenjang dengan alas 10 cm dan tinggi 6 cm memiliki luas = 10 × 6 = 60 cm²."
+  },
+  {
+    "q": "Apa itu trapesium dan bagaimana cara menghitung luasnya?",
+    "a": "Trapesium adalah bangun datar dengan satu pasang sisi yang sejajar (disebut alas 1 dan alas 2) dan satu pasang sisi yang tidak sejajar. Rumus luas trapesium = ½ × (alas 1 + alas 2) × tinggi. Tinggi adalah jarak tegak lurus antara kedua sisi sejajar. Contoh: trapesium dengan alas 1 = 6 cm, alas 2 = 10 cm, dan tinggi 4 cm memiliki luas = ½ × (6 + 10) × 4 = ½ × 16 × 4 = 32 cm²."
+  },
+  {
+    "q": "Apa itu belah ketupat dan bagaimana cara menghitung luasnya?",
+    "a": "Belah ketupat adalah bangun datar dengan empat sisi yang sama panjang dan dua diagonalnya saling tegak lurus. Rumus luas belah ketupat = ½ × d₁ × d₂, di mana d₁ dan d₂ adalah panjang kedua diagonal. Contoh: belah ketupat dengan diagonal 8 cm dan 6 cm memiliki luas = ½ × 8 × 6 = 24 cm². Keliling belah ketupat = 4 × sisi."
+  },
+  {
+    "q": "Apa itu luas permukaan dan bagaimana cara menghitung luas permukaan kubus dengan sisi 4 cm?",
+    "a": "Luas permukaan adalah total luas semua sisi (wajah) dari sebuah bangun ruang. Untuk kubus dengan sisi s, luas permukaan = 6s² karena kubus memiliki 6 wajah persegi yang identik. Untuk kubus dengan sisi 4 cm: Luas permukaan = 6 × 4² = 6 × 16 = 96 cm²."
+  },
+  {
+    "q": "Bagaimana cara menghitung luas permukaan tabung dengan jari-jari 3 cm dan tinggi 10 cm?",
+    "a": "Luas permukaan tabung terdiri dari dua lingkaran (alas dan tutup) plus selimut tabung. Rumus: Luas permukaan = 2πr² + 2πrt = 2πr(r + t). Untuk r = 3 cm dan t = 10 cm: Luas permukaan = 2π(3)(3 + 10) = 2π(3)(13) = 78π cm² ≈ 245.04 cm²."
+  },
+  {
+    "q": "Apa itu probabilitas dan bagaimana cara menghitung probabilitas sederhana?",
+    "a": "Probabilitas adalah ukuran kemungkinan terjadinya suatu peristiwa, nilainya antara 0 dan 1. Rumus: P(A) = (Jumlah hasil yang menguntungkan) / (Jumlah total hasil yang mungkin). Contoh: Probabilitas mendapatkan angka 4 saat melempar dadu = 1/6 ≈ 0.167 atau 16.7%, karena ada 1 cara mendapatkan 4 dari 6 kemungkinan hasil (1, 2, 3, 4, 5, 6)."
+  },
+  {
+    "q": "Berapa probabilitas mendapatkan salah satu dari dua kartu As atau King dari satu setumpuk kartu standar 52 kartu tanpa pengembalian?",
+    "a": "Dalam satu setumpuk standar: Ada 4 As dan 4 King, total 8 kartu yang menguntungkan. (1) Karena mengambil tanpa pengembalian, probabilitas ini adalah P = 8/52 = 2/13 ≈ 0.154 atau 15.4%. Catatan: Jika mengambil dua kartu sekaligus tanpa pengembalian, perhitungan berbeda: P(pertama As atau King) × P(kedua As atau King | pertama sudah diambil)."
+  },
+  {
+    "q": "Apa itu aturan penjumlahan dan aturan perkalian dalam probabilitas?",
+    "a": "Aturan penjumlahan: P(A atau B) = P(A) + P(B) - P(A dan B). Digunakan ketika ingin menemukan probabilitas dari dua peristiwa yang mungkin terjadi bersamaan. Aturan perkalian: P(A dan B) = P(A) × P(B|A), di mana P(B|A) adalah probabilitas B terjadi setelah A terjadi. Digunakan untuk peristiwa berturut-turut. Contoh aturan perkalian: Probabilitas mengambil 2 bola merah berturut-turut dari tas berisi 5 merah dan 3 biru tanpa pengembalian = (5/8) × (4/7) = 20/56 = 5/14."
+  },
+  {
+    "q": "Apa itu kombinasi dan permutasi, dan berapa banyak cara memilih 3 orang dari 5 orang?",
+    "a": "Permutasi adalah pengaturan di mana urutan penting. Rumus: P(n,r) = n!/(n-r)!. Kombinasi adalah pemilihan di mana urutan tidak penting. Rumus: C(n,r) = n!/(r!(n-r)!). Untuk memilih 3 orang dari 5 (urutan tidak penting): C(5,3) = 5!/(3!×2!) = (5×4)/(2×1) = 10 cara. Jika urutan penting: P(5,3) = 5!/(5-3)! = 5!/2! = 60 cara."
+  },
+  {
+    "q": "Bagaimana cara menghitung standar deviasi dari data 2, 4, 6, 8, 10?",
+    "a": "Standar deviasi mengukur seberapa jauh data tersebar dari rata-rata. Langkah-langkah: (1) Hitung rata-rata: (2+4+6+8+10)/5 = 30/5 = 6. (2) Hitung deviasi setiap data: (-4, -2, 0, 2, 4). (3) Kuadratkan setiap deviasi: (16, 4, 0, 4, 16). (4) Hitung rata-rata kuadrat deviasi (varian): (16+4+0+4+16)/5 = 40/5 = 8. (5) Akar kuadrat varian: √8 ≈ 2.83. Jadi standar deviasi ≈ 2.83."
+  },
+  {
+    "q": "Apa itu distribusi normal dan apa arti kurva lonceng?",
+    "a": "Distribusi normal (atau Gaussian) adalah distribusi probabilitas yang simetris berbentuk lonceng. Karakteristik: (1) Simetris terhadap rata-rata (mean). (2) Sebagian besar data terkonsentrasi di sekitar rata-rata. (3) Diikuti oleh aturan empiris: ~68% data dalam 1 standar deviasi dari mean, ~95% dalam 2 standar deviasi, ~99.7% dalam 3 standar deviasi. Contoh: tinggi badan populasi sering mengikuti distribusi normal. Kurva lonceng memudahkan analisis data karena sifat-sifatnya yang dapat diprediksi."
+  },
+  {
+    "q": "Apa itu korelasi dan bagaimana membedakan antara korelasi positif, negatif, dan tidak ada korelasi?",
+    "a": "Korelasi mengukur hubungan antara dua variabel. (1) Korelasi positif: ketika satu variabel meningkat, yang lain juga meningkat. Contoh: tinggi badan dan berat badan. (2) Korelasi negatif: ketika satu variabel meningkat, yang lain menurun. Contoh: harga barang dan jumlah pembeli. (3) Tidak ada korelasi: tidak ada hubungan sistematis antara kedua variabel. Koefisien korelasi berkisar dari -1 hingga +1, di mana -1 adalah korelasi negatif sempurna, 0 adalah tidak ada korelasi, dan +1 adalah korelasi positif sempurna."
+  },
+  {
+    "q": "Apa itu radian dan bagaimana hubungannya dengan derajat?",
+    "a": "Radian adalah satuan pengukuran sudut berdasarkan panjang busur lingkaran. Satu radian adalah sudut yang dibentuk oleh busur dengan panjang sama dengan jari-jari lingkaran. Hubungan dengan derajat: π radian = 180 derajat. Konversi: (1) Derajat ke radian: radian = derajat × π/180. (2) Radian ke derajat: derajat = radian × 180/π. Contoh: 90° = 90 × π/180 = π/2 radian ≈ 1.57 radian."
+  },
+  {
+    "q": "Berapa nilai sin(π/6), cos(π/4), dan tan(π/3)?",
+    "a": "Nilai trigonometri untuk sudut khusus (dalam radian): (1) sin(π/6) = sin(30°) = 1/2 = 0.5. (2) cos(π/4) = cos(45°) = √2/2 ≈ 0.707. (3) tan(π/3) = tan(60°) = √3 ≈ 1.732. Sudut khusus (0, π/6, π/4, π/3, π/2 atau 0°, 30°, 45°, 60°, 90°) penting untuk diingat karena sering muncul dalam soal."
+  },
+  {
+    "q": "Apa itu identitas trigonometri sin²(x) + cos²(x) = 1 dan bagaimana cara menggunakannya?",
+    "a": "Identitas sin²(x) + cos²(x) = 1 adalah identitas Pythagoras fundamental dalam trigonometri. Cara menggunakannya: (1) Jika sin(x) = 3/5, cari cos(x): (3/5)² + cos²(x) = 1, maka 9/25 + cos²(x) = 1, sehingga cos²(x) = 16/25, dan cos(x) = ±4/5. (2) Identitas ini dapat diubah: tan²(x) + 1 = sec²(x) atau 1 + cot²(x) = csc²(x). Identitas ini penting untuk menyederhanakan ekspresi trigonometri."
+  },
+  {
+    "q": "Apa itu turunan kedua dan bagaimana cara menemukan turunan kedua dari f(x) = x³ - 2x² + 5x?",
+    "a": "Turunan kedua adalah turunan dari turunan pertama, dilambangkan f''(x) atau d²f/dx². Langkah-langkah: (1) Tentukan turunan pertama f'(x): f'(x) = 3x² - 4x + 5. (2) Tentukan turunan kedua dengan menurunkan f'(x): f''(x) = 6x - 4. Interpretasi: f''(x) mengukur tingkat perubahan kemiringan kurva (konkavitas). Jika f''(x) > 0, kurva cekung ke atas (konkav); jika f''(x) < 0, kurva cekung ke bawah (konkaf)."
+  },
+  {
+    "q": "Bagaimana cara menemukan integral dari ∫(2x + 3)dx?",
+    "a": "Untuk menemukan integral ∫(2x + 3)dx, integrasikan setiap suku secara terpisah: (1) Integral dari 2x: 2∫x dx = 2 × [x²/2] = x². (2) Integral dari 3: 3∫1 dx = 3x. (3) Tambahkan konstanta integrasi C: ∫(2x + 3)dx = x² + 3x + C. Verifikasi: turunkan hasil: d/dx(x² + 3x + C) = 2x + 3 ✓"
+  },
+  {
+    "q": "Soal kata: Sebuah toko menjual apel seharga Rp5.000 per kg. Jika seorang pembeli membeli 3 kg apel dan memberikan uang Rp20.000, berapa uang kembalian yang diterima pembeli?",
+    "a": "Solusi: (1) Harga total = harga per kg × jumlah kg = Rp5.000 × 3 = Rp15.000. (2) Uang kembalian = uang yang diberikan - harga total = Rp20.000 - Rp15.000 = Rp5.000. Jadi pembeli menerima kembalian Rp5.000."
+  },
+  {
+    "q": "Soal kata: Seorang tukang kayu ingin membuat bingkai foto berbentuk persegi panjang dengan panjang 40 cm dan lebar 30 cm. Jika biaya bahan kayu adalah Rp50.000 per meter, berapa biaya total untuk membuat bingkai?",
+    "a": "Solusi: (1) Keliling bingkai (perimeter) = 2(panjang + lebar) = 2(40 + 30) = 2(70) = 140 cm = 1.4 meter. (2) Biaya total = keliling × biaya per meter = 1.4 × Rp50.000 = Rp70.000. Jadi biaya total untuk membuat bingkai adalah Rp70.000."
+  },
+  {
+    "q": "Soal kata: Sebuah kolam renang berukuran panjang 15 m, lebar 10 m, dan kedalaman 2 m. Berapa volume air yang dapat ditampung kolam renang tersebut?",
+    "a": "Solusi: Volume = panjang × lebar × kedalaman = 15 × 10 × 2 = 300 m³. Untuk konversi ke liter: 300 m³ × 1.000 liter/m³ = 300.000 liter. Jadi kolam renang dapat menampung 300 m³ atau 300.000 liter air."
+  },
+  {
+    "q": "Soal kata: Rina memiliki umur 12 tahun, dan ibunya berumur 36 tahun. Berapa perbandingan umur Rina dengan ibunya? Dalam berapa tahun umur ibunya menjadi dua kali umur Rina?",
+    "a": "Solusi: (1) Perbandingan umur saat ini = 12 : 36 = 1 : 3. (2) Untuk menemukan kapan ibunya berumur dua kali umur Rina, buat persamaan. Setelah x tahun: umur ibu = 36 + x, umur Rina = 12 + x. Persamaan: 36 + x = 2(12 + x), maka 36 + x = 24 + 2x, sehingga 36 - 24 = 2x - x, maka 12 = x. Jadi dalam 12 tahun, umur ibunya akan menjadi dua kali umur Rina (ibu berumur 48, Rina berumur 24)."
+  },
+  {
+    "q": "Soal kata: Sebuah mobil perjalanan 240 km dalam waktu 4 jam. Berapa kecepatan rata-rata mobil dalam km/jam? Jika mobil melanjutkan dengan kecepatan yang sama, berapa waktu yang dibutuhkan untuk menempuh 360 km?",
+    "a": "Solusi: (1) Kecepatan rata-rata = jarak / waktu = 240 km / 4 jam = 60 km/jam. (2) Untuk menempuh 360 km dengan kecepatan 60 km/jam: Waktu = jarak / kecepatan = 360 km / 60 km/jam = 6 jam. Jadi kecepatan rata-rata adalah 60 km/jam, dan waktu yang dibutuhkan untuk menempuh 360 km adalah 6 jam."
+  },
+  {
+    "q": "Soal kata: Di sebuah toko, harga awal sebuah tas adalah Rp200.000. Tas tersebut mendapat diskon 25%. Berapa harga akhir tas setelah diskon?",
+    "a": "Solusi: (1) Besarnya diskon = 25% × Rp200.000 = 0.25 × Rp200.000 = Rp50.000. (2) Harga akhir = harga awal - diskon = Rp200.000 - Rp50.000 = Rp150.000. Alternatif: Harga akhir = 75% × Rp200.000 = 0.75 × Rp200.000 = Rp150.000. Jadi harga akhir tas setelah diskon adalah Rp150.000."
+  },
+  {
+    "q": "Soal kata: Dalam sebuah kelas terdapat 25 siswa. 60% siswa menyukai matematika, 40% siswa menyukai sains, dan 20% siswa menyukai keduanya. Berapa banyak siswa yang menyukai matematika atau sains (atau keduanya)?",
+    "a": "Solusi menggunakan prinsip inklusi-eksklusi: (1) Siswa yang suka matematika = 60% × 25 = 15 siswa. (2) Siswa yang suka sains = 40% × 25 = 10 siswa. (3) Siswa yang suka keduanya = 20% × 25 = 5 siswa. (4) Siswa yang suka matematika atau sains = (matematika) + (sains) - (keduanya) = 15 + 10 - 5 = 20 siswa. Jadi terdapat 20 siswa yang menyukai matematika atau sains."
+  },
+  {
+    "q": "Apa itu barisan aritmetika dan berapa jumlah dari 10 suku pertama barisan 2, 5, 8, 11, ...?",
+    "a": "Barisan aritmetika adalah barisan bilangan yang memiliki selisih tetap (beda) antara dua suku berurutan. Pada barisan 2, 5, 8, 11, ..., beda (d) = 3. Rumus suku ke-n adalah a_n = a₁ + (n-1)d. Rumus jumlah n suku pertama adalah S_n = n/2 × (2a₁ + (n-1)d) atau S_n = n/2 × (a₁ + a_n). Untuk 10 suku pertama: a₁ = 2, d = 3. S₁₀ = 10/2 × (2(2) + (10-1)3) = 5 × (4 + 27) = 5 × 31 = 155. Jadi jumlah 10 suku pertama adalah 155."
+  },
+  {
+    "q": "Dalam segitiga siku-siku dengan panjang sisi depan sudut 30° adalah 5 cm, berapa panjang hipotenusa?",
+    "a": "Dalam segitiga siku-siku dengan sudut 30°-60°-90°, terdapat perbandingan sisi khusus: sisi depan 30° : sisi depan 60° : hipotenusa = 1 : √3 : 2. Jika sisi depan 30° = 5 cm, maka hipotenusa = 5 × 2 = 10 cm. Alternatif dengan trigonometri: sin(30°) = sisi depan / hipotenusa, maka 1/2 = 5 / hipotenusa, sehingga hipotenusa = 10 cm."
+  },
+  {
+    "q": "Apa itu fungsi kuadrat dan bagaimana cara menemukan titik puncak dari fungsi f(x) = 2x² - 8x + 6?",
+    "a": "Fungsi kuadrat adalah fungsi dengan bentuk umum f(x) = ax² + bx + c, di mana a ≠ 0. Grafik fungsi kuadrat berbentuk parabola. Titik puncak (vertex) dapat ditemukan dengan: (1) Menggunakan rumus x = -b/(2a). Untuk f(x) = 2x² - 8x + 6, a = 2, b = -8, c = 6. x = -(-8)/(2·2) = 8/4 = 2. (2) Substitusi x = 2 ke dalam fungsi: f(2) = 2(2)² - 8(2) + 6 = 8 - 16 + 6 = -2. Jadi titik puncaknya adalah (2, -2), yang merupakan titik minimum karena a > 0."
+  },
+  {
+    "q": "Sebuah dadu bersisi 6 dilempar sekali. Berapa probabilitas mendapatkan angka genap atau angka lebih besar dari 4?",
+    "a": "Solusi: (1) Angka genap pada dadu: 2, 4, 6 (3 kemungkinan). (2) Angka lebih besar dari 4: 5, 6 (2 kemungkinan). (3) Angka yang memenuhi kedua kondisi (irisan): 6 (1 kemungkinan). (4) Gunakan prinsip inklusi-eksklusi: P(genap atau > 4) = P(genap) + P(>4) - P(genap dan >4) = 3/6 + 2/6 - 1/6 = 4/6 = 2/3. Jadi probabilitasnya adalah 2/3 atau sekitar 66.67%."
+  },
+  {
+    "q": "Apa itu KPK dan FPB, dan bagaimana menghitung KPK dan FPB dari 12 dan 18?",
+    "a": "KPK (Kelipatan Persekutuan Terkecil) adalah bilangan terkecil yang habis dibagi oleh dua bilangan. FPB (Faktor Persekutuan Terbesar) adalah faktor terbesar yang dimiliki bersama oleh dua bilangan. Untuk 12 dan 18: Faktorisasi prima: 12 = 2² × 3, dan 18 = 2 × 3². FPB = 2¹ × 3¹ = 6 (ambil pangkat terkecil). KPK = 2² × 3² = 36 (ambil pangkat terbesar)."
+  },
+  {
+    "q": "Apa itu bilangan rasional dan bilangan irasional?",
+    "a": "Bilangan rasional adalah bilangan yang dapat dinyatakan sebagai pecahan a/b di mana a dan b bilangan bulat dan b ≠ 0, contohnya 1/2, 3, -7, 0.75. Bilangan irasional adalah bilangan yang tidak bisa dinyatakan sebagai pecahan, desimalnya tidak berulang dan tidak berhenti, contohnya √2, π, dan e."
+  },
+  {
+    "q": "Apa itu himpunan dan apa saja operasi dasar pada himpunan?",
+    "a": "Himpunan adalah kumpulan objek atau elemen yang terdefinisi dengan jelas. Operasi dasar himpunan: (1) Gabungan (A ∪ B): semua elemen di A atau B. (2) Irisan (A ∩ B): elemen yang ada di A dan B. (3) Selisih (A - B): elemen di A yang tidak ada di B. (4) Komplemen (A'): elemen semesta yang tidak ada di A."
+  },
+  {
+    "q": "Jika A = {1, 2, 3, 4, 5} dan B = {3, 4, 5, 6, 7}, tentukan A ∪ B, A ∩ B, dan A - B!",
+    "a": "Dari himpunan A = {1, 2, 3, 4, 5} dan B = {3, 4, 5, 6, 7}: (1) A ∪ B (gabungan) = {1, 2, 3, 4, 5, 6, 7}. (2) A ∩ B (irisan) = {3, 4, 5}. (3) A - B (selisih) = {1, 2}, yaitu elemen A yang tidak ada di B."
+  },
+  {
+    "q": "Apa itu diagram Venn dan bagaimana cara menggunakannya?",
+    "a": "Diagram Venn adalah diagram yang menggunakan lingkaran untuk merepresentasikan himpunan dan hubungan antar himpunan. Bagian yang saling tumpang tindih menunjukkan irisan (elemen yang sama). Diagram Venn berguna untuk memvisualisasikan gabungan, irisan, selisih, dan komplemen himpunan, serta membantu menyelesaikan soal-soal yang melibatkan beberapa kelompok data."
+  },
+  {
+    "q": "Apa itu barisan geometri dan berapa suku ke-6 dari barisan 2, 6, 18, 54, ...?",
+    "a": "Barisan geometri adalah barisan bilangan yang memiliki rasio tetap antara dua suku berurutan. Pada barisan 2, 6, 18, 54, ... rasio (r) = 6/2 = 3. Rumus suku ke-n: a_n = a₁ × r^(n-1). Suku ke-6: a₆ = 2 × 3^(6-1) = 2 × 3⁵ = 2 × 243 = 486."
+  },
+  {
+    "q": "Bagaimana cara menghitung jumlah deret geometri tak hingga dari 1 + 1/2 + 1/4 + 1/8 + ...?",
+    "a": "Deret geometri tak hingga konvergen jika |r| < 1, dengan rumus jumlah S = a₁ / (1 - r). Pada deret 1 + 1/2 + 1/4 + 1/8 + ..., a₁ = 1 dan r = 1/2. Karena |1/2| < 1, deret konvergen: S = 1 / (1 - 1/2) = 1 / (1/2) = 2. Jadi jumlah deret tak hingganya adalah 2."
+  },
+  {
+    "q": "Apa itu logaritma dan berapa nilai log₂(8)?",
+    "a": "Logaritma adalah operasi kebalikan dari eksponensial. log_b(x) = y berarti b^y = x. Untuk log₂(8): kita cari bilangan y sehingga 2^y = 8. Karena 2³ = 8, maka log₂(8) = 3. Jadi logaritma basis 2 dari 8 adalah 3."
+  },
+  {
+    "q": "Apa saja sifat-sifat logaritma yang penting?",
+    "a": "Sifat-sifat penting logaritma: (1) log_b(xy) = log_b(x) + log_b(y) (perkalian menjadi penjumlahan). (2) log_b(x/y) = log_b(x) - log_b(y) (pembagian menjadi pengurangan). (3) log_b(x^n) = n × log_b(x) (pangkat menjadi koefisien). (4) log_b(b) = 1. (5) log_b(1) = 0. Sifat-sifat ini sangat berguna untuk menyederhanakan ekspresi logaritma."
+  },
+  {
+    "q": "Apa itu matriks dan bagaimana cara menjumlahkan dua matriks?",
+    "a": "Matriks adalah susunan bilangan dalam baris dan kolom berbentuk persegi panjang. Penjumlahan dua matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian (posisi sama). Syaratnya kedua matriks harus berukuran sama. Contoh: [1 2; 3 4] + [5 6; 7 8] = [1+5 2+6; 3+7 4+8] = [6 8; 10 12]."
+  },
+  {
+    "q": "Bagaimana cara mengalikan matriks 2×2?",
+    "a": "Perkalian matriks 2×2: jika A = [a b; c d] dan B = [e f; g h], maka A×B = [ae+bg af+bh; ce+dg cf+dh]. Contoh: [1 2; 3 4] × [5 6; 7 8] = [1×5+2×7 1×6+2×8; 3×5+4×7 3×6+4×8] = [19 22; 43 50]. Penting: perkalian matriks tidak komutatif, A×B ≠ B×A pada umumnya."
+  },
+  {
+    "q": "Apa itu vektor dan bagaimana cara menjumlahkan dua vektor?",
+    "a": "Vektor adalah besaran yang memiliki besar (magnitudo) dan arah. Vektor dapat ditulis sebagai (x, y) dalam 2 dimensi. Penjumlahan dua vektor dilakukan dengan menjumlahkan komponen yang bersesuaian. Contoh: jika u = (3, 2) dan v = (1, 4), maka u + v = (3+1, 2+4) = (4, 6)."
+  },
+  {
+    "q": "Bagaimana cara menghitung panjang (magnitudo) vektor (3, 4)?",
+    "a": "Panjang atau magnitudo vektor (x, y) dihitung dengan rumus |v| = √(x² + y²). Untuk vektor (3, 4): |v| = √(3² + 4²) = √(9 + 16) = √25 = 5. Jadi panjang vektor (3, 4) adalah 5 satuan."
+  },
+  {
+    "q": "Apa itu simetri lipat dan simetri putar?",
+    "a": "Simetri lipat adalah simetri di mana sebuah bangun dapat dilipat menjadi dua bagian yang sama persis sepanjang sumbu simetri. Contoh: persegi memiliki 4 sumbu simetri lipat. Simetri putar adalah simetri di mana sebuah bangun terlihat sama setelah diputar kurang dari 360°. Contoh: segitiga sama sisi memiliki simetri putar tingkat 3 (sama setelah diputar 120°, 240°, 360°)."
+  },
+  {
+    "q": "Berapa banyak sumbu simetri yang dimiliki lingkaran?",
+    "a": "Lingkaran memiliki tak terhingga banyaknya sumbu simetri. Setiap garis yang melewati titik pusat lingkaran merupakan sumbu simetri, karena akan membagi lingkaran menjadi dua bagian yang sama persis. Ini menjadikan lingkaran sebagai bangun datar dengan simetri paling banyak."
+  },
+  {
+    "q": "Bagaimana cara mengonversi suhu dari Celsius ke Fahrenheit?",
+    "a": "Rumus konversi Celsius ke Fahrenheit adalah °F = (°C × 9/5) + 32. Contoh: 100°C = (100 × 9/5) + 32 = 180 + 32 = 212°F. Sebaliknya, Fahrenheit ke Celsius: °C = (°F - 32) × 5/9. Titik beku air adalah 0°C = 32°F, dan titik didih air adalah 100°C = 212°F."
+  },
+  {
+    "q": "Berapa 1 kilometer dalam meter, dan 1 meter dalam sentimeter?",
+    "a": "1 kilometer (km) = 1.000 meter (m), dan 1 meter (m) = 100 sentimeter (cm). Jadi 1 km = 100.000 cm. Tangga konversi panjang dalam sistem metrik: km → hm → dam → m → dm → cm → mm, setiap turun satu tangga dikalikan 10."
+  },
+  {
+    "q": "Bagaimana cara mengonversi satuan luas dari m² ke cm²?",
+    "a": "Untuk mengonversi satuan luas, kuadratkan faktor konversi panjangnya. Karena 1 m = 100 cm, maka 1 m² = (100)² cm² = 10.000 cm². Contoh: 5 m² = 5 × 10.000 = 50.000 cm². Sebaliknya, 30.000 cm² = 30.000 / 10.000 = 3 m²."
+  },
+  {
+    "q": "Berapa 1 liter dalam mililiter, dan bagaimana hubungannya dengan cm³?",
+    "a": "1 liter = 1.000 mililiter (mL). Selain itu, 1 liter = 1.000 cm³ (sentimeter kubik) dan 1 mL = 1 cm³. Hubungan dengan meter kubik: 1 m³ = 1.000 liter. Satuan-satuan ini sering digunakan dalam pengukuran volume cairan."
+  },
+  {
+    "q": "Apa itu bilangan bulat dan bagaimana garis bilangan merepresentasikannya?",
+    "a": "Bilangan bulat adalah himpunan bilangan yang terdiri dari bilangan negatif, nol, dan bilangan positif tanpa pecahan: {..., -3, -2, -1, 0, 1, 2, 3, ...}. Pada garis bilangan, bilangan bulat diletakkan secara berurutan dari kiri (negatif) ke kanan (positif) dengan nol di tengah. Semakin ke kanan, nilai semakin besar."
+  },
+  {
+    "q": "Apa itu bilangan genap dan bilangan ganjil?",
+    "a": "Bilangan genap adalah bilangan bulat yang habis dibagi 2 (sisa 0), contohnya 0, 2, 4, 6, 8. Bilangan ganjil adalah bilangan bulat yang tidak habis dibagi 2 (sisa 1), contohnya 1, 3, 5, 7, 9. Sifat penting: genap + genap = genap, ganjil + ganjil = genap, genap + ganjil = ganjil."
+  },
+  {
+    "q": "Apa rumus volume kerucut dan berapa volume kerucut dengan jari-jari 3 cm dan tinggi 7 cm?",
+    "a": "Rumus volume kerucut adalah V = 1/3 × π × r² × t. Untuk kerucut dengan r = 3 cm dan t = 7 cm: V = 1/3 × π × 3² × 7 = 1/3 × π × 9 × 7 = 21π cm³ ≈ 65.97 cm³. Volume kerucut adalah sepertiga dari volume tabung dengan alas dan tinggi yang sama."
+  },
+  {
+    "q": "Apa rumus volume dan luas permukaan bola dengan jari-jari 6 cm?",
+    "a": "Rumus volume bola: V = 4/3 × π × r³, dan rumus luas permukaan bola: L = 4 × π × r². Untuk bola dengan r = 6 cm: Volume = 4/3 × π × 6³ = 4/3 × π × 216 = 288π ≈ 904.78 cm³. Luas permukaan = 4 × π × 6² = 144π ≈ 452.39 cm²."
+  },
+  {
+    "q": "Apa itu prisma segitiga dan bagaimana menghitung volumenya?",
+    "a": "Prisma segitiga adalah bangun ruang yang memiliki alas dan tutup berbentuk segitiga yang kongruen, serta tiga sisi tegak berbentuk persegi panjang. Rumus volume prisma segitiga: V = luas alas × tinggi prisma = (1/2 × alas segitiga × tinggi segitiga) × tinggi prisma. Contoh: prisma dengan alas segitiga (alas 6 cm, tinggi segitiga 4 cm) dan tinggi prisma 10 cm: V = (1/2 × 6 × 4) × 10 = 12 × 10 = 120 cm³."
+  },
+  {
+    "q": "Apa itu limas segiempat dan bagaimana menghitung volumenya?",
+    "a": "Limas segiempat adalah bangun ruang dengan alas berbentuk segiempat dan empat sisi tegak berbentuk segitiga yang bertemu di satu titik puncak. Rumus volume limas: V = 1/3 × luas alas × tinggi. Contoh: limas segiempat dengan alas persegi sisi 6 cm dan tinggi 9 cm: V = 1/3 × (6 × 6) × 9 = 1/3 × 36 × 9 = 108 cm³."
+  },
+  {
+    "q": "Apa itu pertidaksamaan linear dan bagaimana menyelesaikan 3x - 5 > 7?",
+    "a": "Pertidaksamaan linear adalah kalimat matematika terbuka yang menggunakan tanda ketidaksamaan (<, >, ≤, ≥). Untuk menyelesaikan 3x - 5 > 7: (1) Tambah 5 di kedua sisi: 3x > 12. (2) Bagi kedua sisi dengan 3: x > 4. Jadi himpunan penyelesaiannya adalah {x | x > 4}. Catatan penting: jika mengalikan atau membagi dengan bilangan negatif, tanda ketidaksamaan harus dibalik."
+  },
+  {
+    "q": "Apa itu perbandingan senilai dan berapa harga 5 buku jika 3 buku harganya Rp45.000?",
+    "a": "Perbandingan senilai adalah perbandingan dua besaran yang berubah secara sebanding, jika satu naik maka yang lain juga naik. Untuk menghitung harga 5 buku: harga 1 buku = Rp45.000 / 3 = Rp15.000. Harga 5 buku = 5 × Rp15.000 = Rp75.000. Atau dengan perbandingan: 3/5 = Rp45.000/x, maka x = 5 × Rp45.000 / 3 = Rp75.000."
+  },
+  {
+    "q": "Apa itu perbandingan berbalik nilai dan berikan contohnya!",
+    "a": "Perbandingan berbalik nilai adalah perbandingan dua besaran di mana jika satu besaran bertambah, maka besaran lainnya berkurang secara proporsional. Contoh: jika 6 pekerja menyelesaikan proyek dalam 10 hari, maka 3 pekerja membutuhkan 6 × 10 / 3 = 20 hari. Rumusnya: x₁ × y₁ = x₂ × y₂."
+  },
+  {
+    "q": "Apa itu skala pada peta dan bagaimana cara menghitung jarak sebenarnya?",
+    "a": "Skala peta adalah perbandingan antara jarak pada peta dengan jarak sebenarnya. Contoh: skala 1:100.000 berarti 1 cm pada peta mewakili 100.000 cm (1 km) di dunia nyata. Jika jarak dua kota pada peta 5 cm dengan skala 1:200.000, maka jarak sebenarnya = 5 × 200.000 = 1.000.000 cm = 10 km."
+  },
+  {
+    "q": "Apa itu sudut lancip, sudut tumpul, dan sudut refleks?",
+    "a": "Sudut lancip adalah sudut yang besarnya kurang dari 90° (antara 0° dan 90°). Sudut tumpul adalah sudut yang besarnya lebih dari 90° tetapi kurang dari 180°. Sudut refleks adalah sudut yang besarnya lebih dari 180° tetapi kurang dari 360°. Selain itu, sudut lurus adalah sudut yang besarnya tepat 180°."
+  },
+  {
+    "q": "Berapa jumlah sudut dalam segitiga, segiempat, dan segi-n?",
+    "a": "Jumlah sudut dalam segitiga selalu 180°. Jumlah sudut dalam segiempat selalu 360°. Untuk segi-n (poligon dengan n sisi), rumus jumlah sudut dalam = (n - 2) × 180°. Contoh: segilima (n = 5) memiliki jumlah sudut = (5 - 2) × 180° = 540°. Segienam (n = 6) memiliki jumlah sudut = (6 - 2) × 180° = 720°."
+  },
+  {
+    "q": "Apa rumus jarak antara dua titik pada bidang koordinat?",
+    "a": "Rumus jarak antara dua titik (x₁, y₁) dan (x₂, y₂) pada bidang koordinat adalah d = √[(x₂ - x₁)² + (y₂ - y₁)²]. Contoh: jarak antara titik A(1, 2) dan B(4, 6) adalah d = √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5 satuan. Rumus ini merupakan penerapan teorema Pythagoras."
+  },
+  {
+    "q": "Apa itu titik tengah ruas garis dan bagaimana cara menghitungnya?",
+    "a": "Titik tengah ruas garis adalah titik yang membagi ruas garis menjadi dua bagian sama panjang. Rumus titik tengah dari dua titik (x₁, y₁) dan (x₂, y₂) adalah M = ((x₁ + x₂)/2, (y₁ + y₂)/2). Contoh: titik tengah dari A(2, 4) dan B(8, 10) adalah M = ((2+8)/2, (4+10)/2) = (5, 7)."
+  },
+  {
+    "q": "Apa itu gradien (kemiringan) garis dan bagaimana menghitungnya?",
+    "a": "Gradien atau kemiringan garis menunjukkan seberapa curam sebuah garis, dilambangkan m. Rumus: m = (y₂ - y₁) / (x₂ - x₁). Contoh: gradien garis melalui titik (1, 3) dan (4, 9) adalah m = (9 - 3) / (4 - 1) = 6/3 = 2. Garis dengan gradien positif naik dari kiri ke kanan, gradien negatif turun, dan gradien 0 berarti garis horizontal."
+  },
+  {
+    "q": "Apa itu persamaan garis lurus y = mx + c?",
+    "a": "Persamaan y = mx + c adalah bentuk umum persamaan garis lurus, di mana m adalah gradien (kemiringan) dan c adalah titik potong sumbu-y (y-intercept). Contoh: garis y = 2x + 3 memiliki gradien 2 dan memotong sumbu-y di titik (0, 3). Setiap kenaikan x sebesar 1, nilai y bertambah 2."
+  },
+  {
+    "q": "Apa itu notasi sigma (Σ) dan bagaimana cara membacanya?",
+    "a": "Notasi sigma (Σ) digunakan untuk menyatakan penjumlahan berulang secara ringkas. Σ(i=1 sampai n) aᵢ berarti menjumlahkan aᵢ dari i = 1 hingga i = n. Contoh: Σ(i=1 sampai 4) i = 1 + 2 + 3 + 4 = 10. Contoh lain: Σ(i=1 sampai 3) i² = 1² + 2² + 3² = 1 + 4 + 9 = 14."
+  },
+  {
+    "q": "Bagaimana cara menyelesaikan persamaan kuadrat menggunakan rumus ABC?",
+    "a": "Rumus ABC (rumus kuadrat) untuk persamaan ax² + bx + c = 0 adalah x = (-b ± √(b² - 4ac)) / (2a). Contoh: x² - 5x + 6 = 0, maka a = 1, b = -5, c = 6. Diskriminan D = (-5)² - 4(1)(6) = 25 - 24 = 1. x = (5 ± √1) / 2 = (5 ± 1) / 2. Jadi x₁ = 3 dan x₂ = 2."
+  },
+  {
+    "q": "Apa itu diskriminan dan apa artinya jika D > 0, D = 0, atau D < 0?",
+    "a": "Diskriminan (D) dalam persamaan kuadrat ax² + bx + c = 0 adalah D = b² - 4ac. Jika D > 0, persamaan memiliki dua akar real berbeda. Jika D = 0, persamaan memiliki satu akar real (akar kembar). Jika D < 0, persamaan tidak memiliki akar real (akarnya bilangan kompleks). Diskriminan membantu kita menentukan jenis akar tanpa menghitungnya."
+  },
+  {
+    "q": "Apa itu keliling segitiga dan bagaimana menghitungnya jika sisi-sisinya 5 cm, 7 cm, dan 10 cm?",
+    "a": "Keliling segitiga adalah jumlah panjang semua sisinya. Rumus: K = a + b + c, di mana a, b, c adalah panjang ketiga sisi. Untuk segitiga dengan sisi 5 cm, 7 cm, dan 10 cm: K = 5 + 7 + 10 = 22 cm. Jadi keliling segitiga tersebut adalah 22 cm."
+  },
+  {
+    "q": "Apa itu teorema Heron untuk menghitung luas segitiga?",
+    "a": "Teorema Heron memungkinkan kita menghitung luas segitiga hanya dari panjang ketiga sisinya tanpa perlu tinggi. Rumus: L = √[s(s-a)(s-b)(s-c)], di mana s = (a+b+c)/2 adalah setengah keliling. Contoh: segitiga dengan sisi 3, 4, 5: s = (3+4+5)/2 = 6, L = √[6×3×2×1] = √36 = 6 satuan luas."
+  },
+  {
+    "q": "Apa itu kongruensi pada segitiga?",
+    "a": "Dua segitiga dikatakan kongruen jika bentuk dan ukurannya sama persis. Syarat kongruensi segitiga: (1) SSS (Sisi-Sisi-Sisi): tiga sisi sama panjang. (2) SAS (Sisi-Sudut-Sisi): dua sisi dan sudut apit sama. (3) ASA (Sudut-Sisi-Sudut): dua sudut dan sisi antaranya sama. (4) AAS: dua sudut dan satu sisi bersesuaian sama. (5) HL (Hipotenusa-Kaki): khusus segitiga siku-siku."
+  },
+  {
+    "q": "Apa itu kesebangunan pada segitiga?",
+    "a": "Dua segitiga dikatakan sebangun jika bentuknya sama tetapi ukurannya bisa berbeda (diperbesar atau diperkecil). Syarat kesebangunan: (1) AA (Sudut-Sudut): dua pasang sudut yang sama. (2) SAS kesebangungan: dua sisi sebanding dan sudut apitnya sama. (3) SSS kesebangungan: ketiga sisi sebanding. Pada segitiga sebangun, perbandingan sisi-sisi bersesuaian selalu sama."
+  },
+  {
+    "q": "Bagaimana cara menghitung rata-rata dari data berkelompok?",
+    "a": "Untuk data berkelompok, rata-rata dihitung dengan rumus: rata-rata = Σ(fᵢ × xᵢ) / Σfᵢ, di mana fᵢ adalah frekuensi kelas ke-i dan xᵢ adalah nilai tengah kelas ke-i. Nilai tengah kelas = (batas bawah + batas atas) / 2. Langkah: hitung nilai tengah tiap kelas, kalikan dengan frekuensinya, jumlahkan, lalu bagi dengan total frekuensi."
+  },
+  {
+    "q": "Apa itu diagram batang dan kapan digunakan?",
+    "a": "Diagram batang adalah grafik yang menggunakan batang-batang tegak atau mendatar untuk menampilkan data kategori. Tinggi atau panjang batang menunjukkan frekuensi atau nilai data. Diagram batang cocok untuk membandingkan data antar kategori, misalnya jumlah siswa per kelas, penjualan per bulan, atau suara per kandidat. Jarak antar batang dibuat sama dan terdapat celah antar batang."
+  },
+  {
+    "q": "Apa itu diagram lingkaran dan bagaimana menghitung sudut tiap bagiannya?",
+    "a": "Diagram lingkaran (pie chart) menampilkan data sebagai bagian dari keseluruhan dalam bentuk lingkaran. Sudut tiap bagian dihitung dengan rumus: sudut = (nilai data / total data) × 360°. Contoh: jika dari 40 siswa, 20 suka matematika, 12 suka IPA, dan 8 suka bahasa, maka sudut matematika = (20/40) × 360° = 180°, IPA = 108°, bahasa = 72°."
+  },
+  {
+    "q": "Apa itu koordinat Cartesius dan bagaimana cara menentukan letak titik?",
+    "a": "Koordinat Cartesius adalah sistem koordinat yang menggunakan dua garis bilangan tegak lurus (sumbu-x horizontal dan sumbu-y vertikal) untuk menentukan posisi titik. Setiap titik ditulis (x, y). Bidang koordinat terbagi 4 kuadran: kuadran I (+, +), kuadran II (-, +), kuadran III (-, -), kuadran IV (+, -). Contoh: titik (3, -2) berada di kuadran IV."
+  },
+  {
+    "q": "Apa itu fungsi linear dan berikan contohnya!",
+    "a": "Fungsi linear adalah fungsi dengan bentuk f(x) = ax + b, di mana a dan b adalah konstanta dan a ≠ 0. Grafiknya berupa garis lurus. Contoh: f(x) = 3x - 2, artinya jika x = 0 maka f(0) = -2, jika x = 1 maka f(1) = 1, jika x = 2 maka f(2) = 4. Nilai a menentukan kemiringan garis dan b menentukan titik potong sumbu-y."
+  },
+  {
+    "q": "Apa itu nilai mutlak dan berapa nilai |−7| dan |3 − 8|?",
+    "a": "Nilai mutlak (absolute value) adalah jarak suatu bilangan dari nol pada garis bilangan, selalu bernilai positif atau nol. Ditulis dengan simbol | |. |−7| = 7 karena jarak -7 dari nol adalah 7. |3 − 8| = |−5| = 5. Sifat: |a| ≥ 0 untuk semua a, dan |a| = a jika a ≥ 0, |a| = -a jika a < 0."
+  },
+  {
+    "q": "Apa itu pangkat nol dan pangkat negatif?",
+    "a": "Pangkat nol: setiap bilangan (selain 0) dipangkatkan 0 hasilnya 1, yaitu a⁰ = 1 untuk a ≠ 0. Pangkat negatif: a^(-n) = 1/aⁿ, artinya pangkat negatif mengubah bilangan menjadi kebalikannya. Contoh: 2⁰ = 1, 5⁰ = 1, 2^(-3) = 1/2³ = 1/8 = 0.125, dan 10^(-2) = 1/100 = 0.01."
+  },
+  {
+    "q": "Apa itu notasi ilmiah (scientific notation) dan bagaimana cara menulisnya?",
+    "a": "Notasi ilmiah adalah cara menulis bilangan sangat besar atau sangat kecil dalam bentuk a × 10ⁿ, di mana 1 ≤ a < 10 dan n bilangan bulat. Contoh bilangan besar: 3.500.000 = 3,5 × 10⁶. Contoh bilangan kecil: 0,00042 = 4,2 × 10⁻⁴. Notasi ini memudahkan penulisan dan perhitungan bilangan dengan angka nol yang banyak."
+  },
+  {
+    "q": "Apa itu keliling persegi dan berapa keliling persegi dengan sisi 9 cm?",
+    "a": "Keliling persegi adalah jumlah panjang semua sisinya. Karena persegi memiliki empat sisi yang sama panjang, rumus keliling persegi = 4 × sisi. Untuk persegi dengan sisi 9 cm: K = 4 × 9 = 36 cm. Jadi keliling persegi tersebut adalah 36 cm."
+  },
+  {
+    "q": "Bagaimana cara menghitung volume balok dengan panjang 8 cm, lebar 5 cm, dan tinggi 3 cm?",
+    "a": "Volume balok dihitung dengan rumus V = panjang × lebar × tinggi. Untuk balok dengan p = 8 cm, l = 5 cm, dan t = 3 cm: V = 8 × 5 × 3 = 120 cm³. Luas permukaan balok = 2(pl + pt + lt) = 2(40 + 24 + 15) = 2 × 79 = 158 cm²."
+  },
+  {
+    "q": "Apa itu bilangan Fibonacci dan bagaimana polanya?",
+    "a": "Barisan Fibonacci adalah barisan bilangan di mana setiap suku merupakan jumlah dari dua suku sebelumnya, dimulai dari 0 dan 1. Barisannya: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ... Contoh: 5 + 8 = 13, 8 + 13 = 21. Barisan Fibonacci banyak ditemukan di alam, seperti pada pola bunga matahari dan cangkang keong."
+  },
+  {
+    "q": "Apa itu faktorial dan berapa nilai 6!?",
+    "a": "Faktorial dari bilangan bulat positif n, ditulis n!, adalah hasil perkalian semua bilangan bulat positif dari 1 sampai n. Rumus: n! = n × (n-1) × (n-2) × ... × 2 × 1. Nilai 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720. Catatan: 0! didefinisikan bernilai 1. Faktorial sering digunakan dalam kombinatorika dan probabilitas."
+  },
+  {
+    "q": "Bagaimana cara menyelesaikan persamaan eksponensial seperti 2^x = 32?",
+    "a": "Untuk menyelesaikan persamaan eksponensial 2^x = 32: (1) Ubah 32 menjadi pangkat dengan basis 2: 32 = 2^5. (2) Substitusikan: 2^x = 2^5. (3) Karena basisnya sama, maka pangkatnya juga harus sama: x = 5. Untuk persamaan eksponensial yang lebih kompleks, gunakan logaritma: jika a^x = b, maka x = log_a(b) atau x = ln(b) / ln(a)."
+  },
+  {
+    "q": "Bagaimana cara menyelesaikan persamaan logaritmik seperti log₃(x) = 2?",
+    "a": "Untuk menyelesaikan persamaan logaritmik log₃(x) = 2: (1) Ubah ke bentuk eksponensial menggunakan definisi logaritma: log_b(x) = y ↔ b^y = x. (2) Dari log₃(x) = 2, diperoleh 3² = x. (3) Hitung: x = 9. Verifikasi: log₃(9) = 2 karena 3² = 9 ✓. Selalu periksa bahwa x > 0 karena logaritma hanya terdefinisi untuk bilangan positif."
+  },
+  {
+    "q": "Apa itu fungsi invers dan bagaimana cara menemukan invers dari f(x) = 2x + 3?",
+    "a": "Fungsi invers f⁻¹(x) adalah fungsi yang membatalkan efek dari f(x), sehingga f(f⁻¹(x)) = x. Untuk menemukan invers dari f(x) = 2x + 3: (1) Ganti f(x) dengan y: y = 2x + 3. (2) Tukar x dan y: x = 2y + 3. (3) Selesaikan untuk y: x - 3 = 2y, maka y = (x - 3)/2. (4) Jadi f⁻¹(x) = (x - 3)/2. Verifikasi: f(f⁻¹(x)) = f((x-3)/2) = 2((x-3)/2) + 3 = x ✓"
+  },
+  {
+    "q": "Apa itu komposisi fungsi dan bagaimana menghitung (f ∘ g)(x) dari f(x) = x² dan g(x) = x + 1?",
+    "a": "Komposisi fungsi (f ∘ g)(x) artinya menggunakan output dari g sebagai input untuk f, yaitu f(g(x)). Dari f(x) = x² dan g(x) = x + 1: (1) Hitung g(x) = x + 1. (2) Substitusikan g(x) ke dalam f: (f ∘ g)(x) = f(g(x)) = f(x + 1) = (x + 1)² = x² + 2x + 1. Catatan: f ∘ g tidak sama dengan g ∘ f (komposisi tidak komutatif). Verifikasi: (g ∘ f)(x) = g(x²) = x² + 1, yang berbeda dari x² + 2x + 1."
+  },
+  {
+    "q": "Apa itu domain dan range dari fungsi?",
+    "a": "Domain adalah himpunan semua nilai input (x) yang dapat digunakan untuk fungsi. Range adalah himpunan semua nilai output (y) yang dihasilkan oleh fungsi. Contoh: untuk f(x) = √x, dominnya adalah x ≥ 0 (semua bilangan real non-negatif) karena akar kuadrat hanya terdefinisi untuk bilangan tak negatif. Rangenya adalah y ≥ 0. Untuk f(x) = 1/x, domainnya adalah semua x ≠ 0, dan rangenya juga semua y ≠ 0."
+  },
+  {
+    "q": "Apa itu produk titik (dot product) dari dua vektor dan bagaimana cara menghitungnya?",
+    "a": "Produk titik dari dua vektor u = (u₁, u₂) dan v = (v₁, v₂) ditulis u · v, dan dihitung: u · v = u₁v₁ + u₂v₂. Hasil produk titik adalah bilangan skalar (bukan vektor). Contoh: u = (2, 3) dan v = (4, 1), maka u · v = (2)(4) + (3)(1) = 8 + 3 = 11. Kegunaan: produk titik digunakan untuk menentukan sudut antara dua vektor, menguji apakah vektor tegak lurus (jika u · v = 0), dan proyeksi vektor."
+  },
+  {
+    "q": "Bagaimana cara menghitung sudut antara dua vektor u = (3, 0) dan v = (0, 4)?",
+    "a": "Untuk menghitung sudut θ antara dua vektor, gunakan rumus: cos(θ) = (u · v) / (|u| × |v|). Dari u = (3, 0) dan v = (0, 4): (1) Hitung u · v = (3)(0) + (0)(4) = 0. (2) Hitung |u| = √(3² + 0²) = 3 dan |v| = √(0² + 4²) = 4. (3) cos(θ) = 0 / (3 × 4) = 0. (4) θ = arccos(0) = 90°. Jadi kedua vektor saling tegak lurus."
+  },
+  {
+    "q": "Apa itu transformasi geometri dan sebutkan 4 jenis transformasi dasar!",
+    "a": "Transformasi geometri adalah perubahan posisi, bentuk, atau ukuran dari suatu objek geometri. Empat jenis transformasi dasar: (1) Translasi (pergeseran): menggeser objek ke posisi baru tanpa mengubah bentuk atau ukuran. (2) Rotasi (perputaran): memutar objek terhadap pusat rotasi dengan sudut tertentu. (3) Refleksi (pencerminan): mencerminkan objek terhadap garis atau titik tertentu. (4) Dilatasi (penskalaan): memperbesar atau memperkecil objek dengan faktor skala tertentu."
+  },
+  {
+    "q": "Bagaimana cara menentukan bayangan titik (2, 3) setelah translasi sejauh 5 satuan ke kanan dan 2 satuan ke bawah?",
+    "a": "Untuk translasi, tambahkan vektor translasi ke koordinat titik awal. Jika titik awal adalah (x, y) dan ditranslasi (a, b), maka koordinat bayangan adalah (x + a, y + b). Dari titik (2, 3) dengan translasi 5 ke kanan dan 2 ke bawah: (1) Translasi = (+5, -2). (2) Bayangan = (2 + 5, 3 + (-2)) = (7, 1). Jadi bayangan titik (2, 3) adalah (7, 1)."
+  },
+  {
+    "q": "Bagaimana cara merotasi titik (1, 0) sebesar 90° berlawanan arah jarum jam terhadap pusat (0, 0)?",
+    "a": "Untuk rotasi sebesar θ berlawanan arah jarum jam terhadap pusat (0, 0), gunakan rumus: x' = x cos(θ) - y sin(θ), y' = x sin(θ) + y cos(θ). Untuk rotasi 90°, cos(90°) = 0 dan sin(90°) = 1. Dari titik (1, 0): x' = (1)(0) - (0)(1) = 0, y' = (1)(1) + (0)(0) = 1. Bayangan = (0, 1). Verifikasi: titik (1, 0) pada sumbu-x berputar 90° menjadi (0, 1) pada sumbu-y ✓"
+  },
+  {
+    "q": "Apa itu pencerminan (refleksi) terhadap garis y = x dan bagaimana bayangan titik (3, 5)?",
+    "a": "Pencerminan terhadap garis y = x diperoleh dengan menukar koordinat x dan y. Jika titik awal adalah (a, b), maka bayangannya adalah (b, a). Dari titik (3, 5) dicerminkan terhadap y = x: Bayangan = (5, 3). Contoh refleksi lainnya: pencerminan terhadap garis y = 0 (sumbu-x) mengubah (x, y) menjadi (x, -y), dan pencerminan terhadap garis x = 0 (sumbu-y) mengubah (x, y) menjadi (-x, y)."
+  },
+  {
+    "q": "Apa itu dilatasi dan bagaimana bayangan titik (4, 6) setelah dilatasi dengan faktor skala 1/2 terhadap pusat (0, 0)?",
+    "a": "Dilatasi adalah transformasi yang memperbesar atau memperkecil objek. Untuk dilatasi dengan faktor skala k terhadap pusat (0, 0), rumusnya: (x', y') = (k·x, k·y). Untuk titik (4, 6) dengan faktor skala k = 1/2: x' = (1/2)(4) = 2, y' = (1/2)(6) = 3. Bayangan = (2, 3). Jika k > 1, objek diperbesar; jika 0 < k < 1, objek diperkecil; jika k negatif, terjadi rotasi 180° bersamaan dengan penskalaan."
+  },
+  {
+    "q": "Apa itu garis singgung lingkaran dan bagaimana cara menemukan persamaan garis singgung pada titik?",
+    "a": "Garis singgung lingkaran adalah garis yang menyentuh lingkaran hanya pada satu titik dan tegak lurus dengan jari-jari pada titik singgung itu. Untuk lingkaran dengan pusat (a, b) dan jari-jari r, persamaan garis singgung pada titik (x₁, y₁) yang berada di lingkaran adalah: (x₁ - a)(x - a) + (y₁ - b)(y - b) = r². Contoh: lingkaran x² + y² = 25 (pusat (0,0), r=5) pada titik (3, 4), garis singgungnya adalah 3x + 4y = 25."
+  },
+  {
+    "q": "Apa itu segitiga Pascal dan bagaimana cara membuatnya?",
+    "a": "Segitiga Pascal adalah susunan bilangan berbentuk segitiga di mana setiap bilangan adalah jumlah dari dua bilangan di atasnya. Dimulai dengan 1 di puncak: Baris 0: 1, Baris 1: 1 1, Baris 2: 1 2 1, Baris 3: 1 3 3 1, Baris 4: 1 4 6 4 1, dst. Bilangan dalam baris ke-n, posisi ke-k adalah C(n,k) = n!/(k!(n-k)!). Segitiga Pascal berguna dalam binomial theorem, kombinasi, dan probabilitas."
+  },
+  {
+    "q": "Apa itu binomial theorem dan berapa koefisien x³ dalam pengembangan (x + y)⁵?",
+    "a": "Binomial theorem menyatakan bahwa (x + y)ⁿ = Σ(k=0 sampai n) C(n,k) × x^(n-k) × y^k, di mana C(n,k) adalah koefisien binomial. Untuk (x + y)⁵, suku yang mengandung x³ adalah suku dengan k = 2: C(5,2) × x³ × y² = 10x³y². Jadi koefisien x³ adalah 10. Umumnya, koefisien x^(n-k) dalam (x+y)ⁿ adalah C(n,k) = n!/(k!(n-k)!)."
+  }
+]

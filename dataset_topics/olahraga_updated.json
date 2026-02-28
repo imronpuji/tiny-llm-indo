@@ -1,0 +1,489 @@
+[
+  {
+    "q": "Apa olahraga nasional Indonesia?",
+    "a": "Olahraga nasional Indonesia adalah pencak silat."
+  },
+  {
+    "q": "Berapa pemain dalam satu tim sepak bola?",
+    "a": "Satu tim sepak bola terdiri dari 11 pemain."
+  },
+  {
+    "q": "Berapa pemain dalam satu tim bola basket?",
+    "a": "Satu tim bola basket terdiri dari 5 pemain di lapangan."
+  },
+  {
+    "q": "Berapa pemain dalam satu tim bola voli?",
+    "a": "Satu tim bola voli terdiri dari 6 pemain di lapangan."
+  },
+  {
+    "q": "Apa itu bulutangkis?",
+    "a": "Bulutangkis atau badminton adalah olahraga raket yang dimainkan dengan shuttlecock. Indonesia terkenal sebagai negara kuat di bulutangkis."
+  },
+  {
+    "q": "Siapa atlet bulutangkis legendaris Indonesia?",
+    "a": "Atlet bulutangkis legendaris Indonesia antara lain Susi Susanti, Taufik Hidayat, dan Liem Swie King."
+  },
+  {
+    "q": "Kapan Olimpiade pertama diadakan?",
+    "a": "Olimpiade modern pertama diadakan pada tahun 1896 di Athena, Yunani."
+  },
+  {
+    "q": "Apa itu Piala Dunia?",
+    "a": "Piala Dunia adalah turnamen sepak bola internasional yang diadakan setiap 4 tahun sekali oleh FIFA."
+  },
+  {
+    "q": "Apa itu tenis?",
+    "a": "Tenis adalah olahraga raket yang dimainkan dua pemain atau empat pemain di lapangan persegi panjang. Tujuannya adalah memukul bola melintasi net ke sisi lawan."
+  },
+  {
+    "q": "Siapa pemain tenis terkenal dari Swiss?",
+    "a": "Roger Federer adalah pemain tenis legendaris dari Swiss yang telah memenangkan 20 Grand Slam dan dianggap sebagai salah satu pemain terbaik dalam sejarah tenis."
+  },
+  {
+    "q": "Apa itu karate?",
+    "a": "Karate adalah seni bela diri Jepang yang menggunakan pukulan, tendangan, dan teknik pertahanan tangan kosong. Karate menekankan disiplin, fokus, dan kontrol diri."
+  },
+  {
+    "q": "Apa itu renang?",
+    "a": "Renang adalah olahraga air yang melibatkan pergerakan di dalam air dengan menggunakan anggota badan. Renang adalah olahraga olimpik dengan berbagai gaya termasuk gaya bebas, punggung, dada, dan kupu-kupu."
+  },
+  {
+    "q": "Siapa atlet renang pria terbaik saat ini?",
+    "a": "Caeleb Dressel dari Amerika Serikat adalah salah satu atlet renang pria terbaik saat ini dengan banyak medali emas olimpik dan rekor dunia."
+  },
+  {
+    "q": "Apa itu bulu tangkis dan berapa pemain dalam satu partai?",
+    "a": "Bulu tangkis dapat dimainkan dengan satu pemain lawan satu (tunggal) atau dua pemain lawan dua (ganda). Dalam versi ganda, setiap tim terdiri dari dua pemain."
+  },
+  {
+    "q": "Apa itu tinju?",
+    "a": "Tinju adalah olahraga pertarungan dua orang yang menggunakan pukulan ekspos dengan tangan berkasut. Tujuannya adalah menghantam lawan untuk memenangkan pertandingan berdasarkan skor atau ketaukan."
+  },
+  {
+    "q": "Siapa yang dianggap petinju terbaik dalam sejarah?",
+    "a": "Muhammad Ali (Cassius Clay) banyak dianggap sebagai petinju terbaik dalam sejarah dengan tiga kali menjadi juara dunia dan pengalaman mengagumkan di atas ring."
+  },
+  {
+    "q": "Apa itu atletik?",
+    "a": "Atletik adalah cabang olahraga yang mencakup berbagai aktivitas fisik seperti lari, lompat, dan lempar. Atletik adalah bagian inti dari Olimpiade dengan banyak nomor yang berbeda."
+  },
+  {
+    "q": "Berapa jarak dalam maraton?",
+    "a": "Maraton adalah perlombaan lari jarak jauh sejauh 42,195 kilometer (26.2 mil). Maraton dimulai dari tradisi kuno Grecia dan kini menjadi olahraga populer di seluruh dunia."
+  },
+  {
+    "q": "Siapa atlet lari cepat tercepat dalam sejarah?",
+    "a": "Usain Bolt dari Jamaika adalah atlet lari 100 meter tercepat dengan rekor dunia 9,58 detik. Dia dianggap sebagai manusia tercepat di planet ini."
+  },
+  {
+    "q": "Apa itu hoki?",
+    "a": "Hoki adalah olahraga tim yang dimainkan dengan tongkat dan bola atau puck di atas es (hoki es) atau lapangan rumput (field hockey). Tujuannya adalah memasukkan bola ke gawang lawan."
+  },
+  {
+    "q": "Apa itu senam?",
+    "a": "Senam adalah olahraga yang menggabungkan gerakan akrobatik, keseimbangan, dan fleksibilitas. Senam mencakup berbagai disiplin seperti senam artistik, ritmik, dan trampolin."
+  },
+  {
+    "q": "Apa itu menyelam atau diving?",
+    "a": "Menyelam (diving) adalah olahraga air yang melibatkan lompatan dari platform atau papan dengan gerakan putar atau memutar di udara sebelum masuk air. Ini adalah olahraga yang memerlukan keberanian dan teknik sempurna."
+  },
+  {
+    "q": "Apa itu skateboard?",
+    "a": "Skateboard adalah olahraga rekreasi dan kompetitif yang menggunakan papan beroda untuk meluncur, melakukan trik, dan berkompetisi. Skateboard telah menjadi olahraga populer di kalangan pemuda."
+  },
+  {
+    "q": "Siapa pemain sepak bola pria terbaik saat ini?",
+    "a": "Lionel Messi dan Cristiano Ronaldo adalah dua pemain sepak bola terbaik dalam dekade terakhir, masing-masing dengan banyak penghargaan Ballon d'Or dan prestasi luar biasa."
+  },
+  {
+    "q": "Kapan pertamakali Piala Dunia diadakan?",
+    "a": "Piala Dunia FIFA pertama kali diadakan pada tahun 1930 di Uruguay. Uruguay menjadi juara pertama dengan mengalahkan Argentina di pertandingan final."
+  },
+  {
+    "q": "Apa itu teknik layup dalam bola basket?",
+    "a": "Layup adalah teknik dasar dalam bola basket di mana pemain berlari mendekati ring dan melakukan lemparan dekat dengan papan untuk memasukkan bola ke dalam ring lawan."
+  },
+  {
+    "q": "Apa itu servis dalam tenis?",
+    "a": "Servis adalah pukulan untuk memulai permainan dalam tenis. Pemain harus berdiri di belakang garis dasar dan melempar bola ke atas sebelum memukulnya ke area servis lawan."
+  },
+  {
+    "q": "Apa itu off-side dalam sepak bola?",
+    "a": "Off-side (gawang bersih) adalah peraturan dalam sepak bola di mana pemain penyerang tidak boleh berada di depan bola lebih dekat ke gawang lawan daripada dua pemain lawan terakhir saat bola dimainkan."
+  },
+  {
+    "q": "Apa itu smash dalam bola voli?",
+    "a": "Smash adalah serangan agresif dalam bola voli di mana pemain melompat tinggi dan memukul bola dengan kuat ke bawah ke sisi lawan. Ini adalah salah satu teknik penyerangan paling efektif."
+  },
+  {
+    "q": "Siapa perenang wanita legendaris dari Amerika?",
+    "a": "Katie Ledecky adalah perenang wanita legendaris dari Amerika Serikat dengan 7 medali emas olimpik dan banyak rekor dunia dalam gaya bebas."
+  },
+  {
+    "q": "Apa itu Wimbledon?",
+    "a": "Wimbledon adalah turnamen tenis profesional tertua dan paling prestisius di dunia, diadakan setiap tahun di London, Inggris sejak 1877. Ini adalah satu-satunya Grand Slam yang dimainkan di rumput."
+  },
+  {
+    "q": "Siapa pemain basket terbaik dalam sejarah?",
+    "a": "Michael Jordan dari Amerika Serikat dianggap sebagai pemain basket terbaik sepanjang masa dengan 6 juara NBA, 5 MVP Award, dan pembuat sejarah dalam olahraga basket."
+  },
+  {
+    "q": "Apa itu curling?",
+    "a": "Curling adalah olahraga musim dingin yang dimainkan di atas es dengan keping batu yang digeser ke arah target. Ini adalah olahraga tim yang memerlukan strategi, presisi, dan kerja sama."
+  },
+  {
+    "q": "Apa itu Wimbledon dan mengapa istimewa?",
+    "a": "Wimbledon adalah grand slam tenis tertua (sejak 1877) dan satu-satunya yang dimainkan di rumput putih. Pemain dan penonton perlu mengenakan pakaian putih sesuai tradisi."
+  },
+  {
+    "q": "Siapa juara Olimpiade emas badminton ganda putra terbaru dari Indonesia?",
+    "a": "Kevin Sanjaya Sukamuljo dan Marcus Fernaldi Gideon adalah pasangan badminton ganda putra Indonesia yang memenangkan medali emas di Olimpiade Tokyo 2020."
+  },
+  {
+    "q": "Apa itu pole vault dalam atletik?",
+    "a": "Pole vault adalah nomor atletik lompat dengan menggunakan tiang panjang untuk melompati mistar di atas kepala. Atlet memerlukan kecepatan lari, kekuatan, dan teknik sempurna."
+  },
+  {
+    "q": "Apa perbedaan antara tinju amatir dan profesional?",
+    "a": "Tinju amatir menggunakan sarung tangan lebih besar, helm pelindung, dan pertandingan lebih pendek. Tinju profesional menggunakan sarung tangan lebih kecil dan pertandingan lebih lama tanpa helm."
+  },
+  {
+    "q": "Siapa atlet lompat jauh terbaik saat ini?",
+    "a": "Juan Miguel Echevarría dari Kuba adalah atlet lompat jauh terbaik saat ini dengan rekor personal melebihi 8.5 meter dan berbagai medali internasional."
+  },
+  {
+    "q": "Apa manfaat olahraga untuk kesehatan tubuh?",
+    "a": "Olahraga memberikan banyak manfaat termasuk meningkatkan kekuatan dan daya tahan otot, meningkatkan kesehatan jantung, menurunkan berat badan, meningkatkan fleksibilitas, mengurangi stres, dan meningkatkan kesehatan mental secara keseluruhan."
+  },
+  {
+    "q": "Siapa atlet angkat besi Indonesia yang terkenal?",
+    "a": "Eko Yuli Irawan adalah atlet angkat besi Indonesia yang telah memenangkan medali di Olimpiade dan Kejuaraan Dunia. Dia adalah salah satu atlet angkat besi terkuat dari Asia Tenggara."
+  },
+  {
+    "q": "Apa itu kardio dalam istilah kebugaran?",
+    "a": "Kardio (cardiovascular exercise) adalah latihan yang meningkatkan detak jantung dan pernapasan untuk memperkuat sistem kardiovaskular. Contohnya termasuk lari, bersepeda, berenang, dan lompat tali."
+  },
+  {
+    "q": "Apa perbedaan antara set dan rep dalam latihan beban?",
+    "a": "Rep (repetisi) adalah jumlah kali Anda melakukan satu gerakan latihan. Set adalah kelompok dari beberapa rep yang diikuti dengan istirahat. Misalnya, 3 set x 10 rep berarti melakukan gerakan sebanyak 10 kali, istirahat, lalu ulangi 2 kali lagi."
+  },
+  {
+    "q": "Siapa juara badminton tunggal putri Indonesia yang legendaris?",
+    "a": "Susi Susanti adalah juara badminton tunggal putri Indonesia yang legendaris. Dia memenangkan medali emas Olimpiade Barcelona 1992 dan menjadi pemain wanita Indonesia pertama yang memenangkan medali emas Olimpiade."
+  },
+  {
+    "q": "Apa itu fleksibilitas dalam kebugaran fisik?",
+    "a": "Fleksibilitas adalah kemampuan otot dan sendi untuk bergerak dalam jangkauan gerakan penuh. Fleksibilitas penting untuk mencegah cedera, meningkatkan performa atletik, dan mengurangi ketegangan otot. Stretching dan yoga adalah cara efektif untuk meningkatkan fleksibilitas."
+  },
+  {
+    "q": "Siapa perenang Indonesia yang pernah meraih medali Olimpiade?",
+    "a": "I Gusti Ngurah Oka adalah perenang Indonesia yang meraih medali perunggu di Olimpiade Tokyo 1964 dalam nomor renang gaya bebas 1500 meter. Dia adalah perenang legendaris dari Indonesia."
+  },
+  {
+    "q": "Apa itu warm-up dan mengapa penting sebelum berolahraga?",
+    "a": "Warm-up adalah latihan ringan yang dilakukan sebelum aktivitas olahraga utama untuk meningkatkan suhu tubuh, meningkatkan aliran darah ke otot, dan mempersiapkan tubuh secara mental. Warm-up membantu mencegah cedera dan meningkatkan performa olahraga."
+  },
+  {
+    "q": "Siapa pesilat Indonesia yang terkenal di tingkat internasional?",
+    "a": "Pendekar Besar Pencak Silat Indonesia telah menghasilkan banyak juara dunia dalam berbagai kompetisi internasional. Pencak silat Indonesia terkenal dengan teknik yang efektif dan filosofinya yang mendalam."
+  },
+  {
+    "q": "Apa itu strength training atau latihan beban?",
+    "a": "Strength training adalah latihan fisik yang dirancang untuk meningkatkan kekuatan otot dengan melawan beban atau resistensi. Strength training menggunakan dumbel, barbell, mesin gym, atau berat badan sendiri untuk membangun dan memperkuat otot."
+  },
+  {
+    "q": "Siapa atlet tenis meja Indonesia yang terkenal?",
+    "a": "Taufik Hidayat dan Greysia Polii adalah atlet tenis meja Indonesia yang terkenal. Mereka telah memenangkan berbagai medali dalam kompetisi internasional termasuk Olimpiade dan Kejuaraan Dunia."
+  },
+  {
+    "q": "Apa itu cool-down dan mengapa penting setelah berolahraga?",
+    "a": "Cool-down adalah periode istirahat ringan setelah berolahraga untuk membantu detak jantung dan pernapasan kembali normal secara bertahap. Cool-down membantu mengurangi risiko pusing, mengembalikan fleksibilitas, dan mempercepat pemulihan otot."
+  },
+  {
+    "q": "Siapa juara Olimpiade emas silat dari Indonesia?",
+    "a": "Wayan Eka Alit Kusuma memenangkan medali emas pencak silat di Olimpiade Tokyo 2020 dalam kategori poomsae. Ini adalah pencapaian penting bagi pencak silat Indonesia di tingkat Olimpiade."
+  },
+  {
+    "q": "Apa itu BMI dan bagaimana cara menghitungnya?",
+    "a": "BMI (Body Mass Index) adalah ukuran untuk menentukan status berat badan seseorang. Rumusnya adalah berat badan (kg) dibagi tinggi badan (m) pangkat dua. BMI digunakan untuk mengidentifikasi apakah seseorang kurus, normal, gemuk, atau obese."
+  },
+  {
+    "q": "Siapa pengganda putri terbaik Indonesia dalam bulutangkis?",
+    "a": "Greysia Polii dan Apriyani Rahayu adalah pasangan pengganda putri bulutangkis Indonesia yang memenangkan medali emas Olimpiade Tokyo 2020 dan berbagai turnamen internasional besar lainnya."
+  },
+  {
+    "q": "Apa itu cross-training dalam program kebugaran?",
+    "a": "Cross-training adalah kombinasi berbagai jenis olahraga atau latihan fisik dalam program kebugaran untuk bekerja dengan kelompok otot yang berbeda. Cross-training membantu mencegah cedera berlebih, meningkatkan kebugaran keseluruhan, dan mengatasi kebosanan dalam latihan."
+  },
+  {
+    "q": "Berapa lama durasi latihan yang disarankan setiap hari?",
+    "a": "Organisasi Kesehatan Dunia (WHO) merekomendasikan minimal 150 menit aktivitas fisik sedang per minggu atau 75 menit aktivitas fisik intensitas tinggi per minggu untuk orang dewasa. Ini dapat dibagi menjadi sesi 30 menit per hari selama 5 hari dalam seminggu."
+  },
+  {
+    "q": "Siapa juara gulat Indonesia yang terkenal?",
+    "a": "Reza Madaki adalah pegulat Indonesia yang pernah berkompetisi di Olimpiade. Indonesia memiliki tradisi yang kuat dalam seni bela diri, meskipun gulat Olimpiade belum menjadi fokus utama."
+  },
+  {
+    "q": "Apa itu detraining dan kapan biasanya terjadi?",
+    "a": "Detraining adalah penurunan kebugaran fisik dan performa yang terjadi ketika seseorang berhenti atau mengurangi aktivitas olahraga secara signifikan karena cedera, liburan, atau alasan lain. Efek detraining dapat terlihat setelah beberapa minggu tanpa latihan."
+  },
+  {
+    "q": "Siapa atlet sepak bola Indonesia yang berhasil bermain di level internasional?",
+    "a": "Bima Sakti, Bambang Pamungkas, dan Evan Dimas adalah pemain sepak bola Indonesia yang telah bermain di klub internasional dan mewakili timnas Indonesia dengan prestasi yang mengesankan di tingkat Asia Tenggara."
+  },
+  {
+    "q": "Apa itu MMA (Mixed Martial Arts)?",
+    "a": "MMA adalah olahraga bela diri campuran yang menggabungkan berbagai teknik dari tinju, gulat, jiu-jitsu, muay thai, dan bela diri lainnya. Pertandingan MMA berlangsung di dalam sangkar (octagon) dan diatur oleh aturan ketat untuk keselamatan petarung."
+  },
+  {
+    "q": "Apa itu esports dan apakah termasuk olahraga?",
+    "a": "Esports adalah kompetisi video game yang diselenggarakan secara profesional dengan pemain, tim, dan turnamen berskala besar. Meskipun masih diperdebatkan, esports telah diakui oleh beberapa organisasi olahraga dan pernah dipertandingkan sebagai cabang ekshibisi di Asian Games 2018."
+  },
+  {
+    "q": "Kapan Asian Games pertama kali diselenggarakan?",
+    "a": "Asian Games pertama kali diselenggarakan pada tahun 1951 di New Delhi, India, dengan 11 negara peserta dan 6 cabang olahraga yang dipertandingkan."
+  },
+  {
+    "q": "Apa nama liga sepak bola tertinggi di Indonesia?",
+    "a": "Liga sepak bola tertinggi di Indonesia saat ini bernama BRI Liga 1. Liga ini diikuti oleh 18 klub profesional dari berbagai daerah di Indonesia."
+  },
+  {
+    "q": "Apa itu nutrisi atlet dan mengapa penting?",
+    "a": "Nutrisi atlet adalah pola makan yang dirancang khusus untuk mendukung performa dan pemulihan atlet. Nutrisi yang tepat mencakup keseimbangan karbohidrat, protein, lemak sehat, vitamin, dan mineral untuk mengoptimalkan energi dan mempercepat recovery."
+  },
+  {
+    "q": "Apa cedera olahraga yang paling umum terjadi?",
+    "a": "Cedera olahraga yang paling umum meliputi keseleo (sprain), strain otot, cedera lutut (ACL), shin splints, dan tendinitis. Pemanasan yang baik dan teknik yang benar dapat membantu mencegah cedera-cedera ini."
+  },
+  {
+    "q": "Apa itu sepak takraw?",
+    "a": "Sepak takraw adalah olahraga tradisional Asia Tenggara yang mirip bola voli tetapi menggunakan kaki dan kepala untuk mengembalikan bola rotan ke sisi lawan melewati net. Indonesia, Thailand, dan Malaysia adalah negara-negara kuat dalam olahraga ini."
+  },
+  {
+    "q": "Siapa peraih medali emas Olimpiade terbanyak sepanjang masa?",
+    "a": "Michael Phelps dari Amerika Serikat adalah peraih medali emas Olimpiade terbanyak sepanjang masa dengan 23 medali emas dari cabang renang. Total medali Olimpiade yang diraihnya mencapai 28 medali."
+  },
+  {
+    "q": "Apa itu triathlon dan apa saja yang dipertandingkan?",
+    "a": "Triathlon adalah olahraga multidisiplin yang terdiri dari tiga cabang berturut-turut: renang, bersepeda, dan lari. Dalam triathlon Olimpiade, jarak yang ditempuh adalah renang 1,5 km, bersepeda 40 km, dan lari 10 km."
+  },
+  {
+    "q": "Apa perbedaan antara judo dan taekwondo?",
+    "a": "Judo berfokus pada teknik lemparan dan kuncian yang berasal dari Jepang, sedangkan taekwondo berasal dari Korea dan berfokus pada teknik tendangan tinggi dan pukulan. Keduanya adalah olahraga bela diri yang dipertandingkan di Olimpiade."
+  },
+  {
+    "q": "Apa itu Formula 1 (F1)?",
+    "a": "Formula 1 adalah ajang balap mobil tertinggi di dunia yang diselenggarakan oleh FIA. Balapan F1 berlangsung di sirkuit-sirkuit di berbagai negara dengan mobil yang mampu mencapai kecepatan lebih dari 350 km/jam."
+  },
+  {
+    "q": "Kapan Indonesia pertama kali mengikuti Olimpiade?",
+    "a": "Indonesia pertama kali mengikuti Olimpiade pada tahun 1952 di Helsinki, Finlandia, dengan mengirimkan 3 atlet dalam cabang olahraga renang dan atletik."
+  },
+  {
+    "q": "Apa itu panjat tebing (sport climbing) dan kapan masuk Olimpiade?",
+    "a": "Panjat tebing adalah olahraga memanjat dinding buatan atau tebing alami. Olahraga ini resmi masuk Olimpiade pada edisi Tokyo 2020 dengan tiga disiplin: lead, speed, dan bouldering."
+  },
+  {
+    "q": "Apa itu doping dalam olahraga?",
+    "a": "Doping adalah penggunaan zat atau metode terlarang untuk meningkatkan performa atlet secara tidak sah. WADA (World Anti-Doping Agency) bertanggung jawab mengatur dan menguji doping dalam olahraga internasional."
+  },
+  {
+    "q": "Berapa ukuran lapangan sepak bola standar internasional?",
+    "a": "Lapangan sepak bola standar internasional memiliki panjang 100-110 meter dan lebar 64-75 meter. Untuk pertandingan internasional FIFA, ukuran yang disarankan adalah 105 x 68 meter."
+  },
+  {
+    "q": "Apa itu panahan dan siapa atlet panahan terkenal dari Indonesia?",
+    "a": "Panahan adalah olahraga memanah target dengan busur dan anak panah. Indonesia memiliki beberapa atlet panahan berprestasi, termasuk Riau Ega Agatha dan Diananda Choirunisa yang telah berkompetisi di Olimpiade."
+  },
+  {
+    "q": "Apa itu hat-trick dalam sepak bola?",
+    "a": "Hat-trick adalah istilah ketika seorang pemain mencetak tiga gol dalam satu pertandingan sepak bola. Istilah ini berasal dari kriket di mana pelempar yang mengambil tiga wicket berturut-turut mendapatkan sebuah topi baru."
+  },
+  {
+    "q": "Apa itu surfing dan di mana lokasi surfing terkenal di Indonesia?",
+    "a": "Surfing adalah olahraga berselancar di atas ombak laut menggunakan papan selancar. Indonesia memiliki beberapa lokasi surfing kelas dunia seperti Uluwatu dan Padang Padang di Bali, G-Land di Jawa Timur, dan Mentawai di Sumatera Barat."
+  },
+  {
+    "q": "Apa pencapaian Indonesia di Asian Games 2018?",
+    "a": "Asian Games 2018 diselenggarakan di Jakarta dan Palembang, Indonesia. Indonesia berhasil meraih 31 medali emas dan menempati peringkat keempat klasemen medali secara keseluruhan."
+  },
+  {
+    "q": "Apa fungsi karbohidrat bagi atlet?",
+    "a": "Karbohidrat adalah sumber energi utama bagi atlet selama latihan dan kompetisi. Karbohidrat disimpan sebagai glikogen di otot dan hati, yang diubah menjadi glukosa untuk bahan bakar aktivitas fisik intensitas tinggi."
+  },
+  {
+    "q": "Apa itu cedera ACL dan mengapa sering terjadi pada atlet?",
+    "a": "Cedera ACL (Anterior Cruciate Ligament) adalah robeknya ligamen di lutut yang sering terjadi pada atlet yang melakukan gerakan memutar, berhenti mendadak, atau mendarat tidak sempurna. Olahraga seperti sepak bola, basket, dan ski memiliki risiko tinggi cedera ACL."
+  },
+  {
+    "q": "Siapa peraih medali emas Olimpiade pertama dari Indonesia?",
+    "a": "Susi Susanti meraih medali emas Olimpiade pertama bagi Indonesia di cabang bulutangkis tunggal putri pada Olimpiade Barcelona 1992. Di Olimpiade yang sama, Alan Budikusuma juga meraih emas di tunggal putra."
+  },
+  {
+    "q": "Apa itu olahraga tradisional karapan sapi?",
+    "a": "Karapan sapi adalah olahraga tradisional dari Madura, Jawa Timur, di mana sepasang sapi berlomba menarik joki melintasi lintasan sepanjang sekitar 100 meter. Tradisi ini sudah berusia ratusan tahun dan menjadi bagian penting budaya Madura."
+  },
+  {
+    "q": "Apa itu muay thai?",
+    "a": "Muay thai adalah seni bela diri dari Thailand yang dikenal sebagai seni delapan anggota badan karena menggunakan pukulan, tendangan, sikut, dan lutut. Muay thai populer sebagai olahraga kompetitif dan juga sebagai dasar teknik dalam MMA."
+  },
+  {
+    "q": "Berapa durasi pertandingan sepak bola secara resmi?",
+    "a": "Pertandingan sepak bola terdiri dari dua babak masing-masing 45 menit dengan jeda istirahat 15 menit, sehingga total waktu reguler adalah 90 menit. Wasit dapat menambah injury time di akhir setiap babak."
+  },
+  {
+    "q": "Apa itu olahraga tradisional egrang?",
+    "a": "Egrang adalah olahraga tradisional Indonesia di mana peserta berjalan menggunakan dua tongkat bambu panjang sebagai pijakan kaki. Olahraga ini melatih keseimbangan dan koordinasi, serta sering dipertandingkan dalam lomba 17 Agustus."
+  },
+  {
+    "q": "Apa itu UFC dan siapa petarung MMA terkenal?",
+    "a": "UFC (Ultimate Fighting Championship) adalah organisasi MMA terbesar di dunia. Beberapa petarung terkenal antara lain Conor McGregor, Khabib Nurmagomedov, Jon Jones, dan Amanda Nunes yang telah mendominasi divisi mereka masing-masing."
+  },
+  {
+    "q": "Game esports apa saja yang populer di Indonesia?",
+    "a": "Game esports yang populer di Indonesia antara lain Mobile Legends: Bang Bang, Free Fire, PUBG Mobile, Valorant, dan Dota 2. Indonesia memiliki komunitas esports yang sangat besar dan aktif di tingkat regional maupun internasional."
+  },
+  {
+    "q": "Apa pentingnya hidrasi bagi atlet?",
+    "a": "Hidrasi yang cukup sangat penting bagi atlet karena dehidrasi dapat menurunkan performa, menyebabkan kram otot, dan meningkatkan risiko heat stroke. Atlet disarankan minum air secara teratur sebelum, selama, dan setelah berolahraga."
+  },
+  {
+    "q": "Apa itu Liga Champions UEFA?",
+    "a": "Liga Champions UEFA adalah kompetisi sepak bola antarklub paling bergengsi di Eropa yang mempertemukan klub-klub terbaik dari liga domestik Eropa. Real Madrid adalah klub tersukses dengan 15 gelar juara Liga Champions."
+  },
+  {
+    "q": "Apa itu HIIT (High-Intensity Interval Training)?",
+    "a": "HIIT adalah metode latihan yang menggabungkan interval latihan intensitas tinggi dengan periode istirahat atau latihan intensitas rendah. HIIT efektif untuk membakar lemak, meningkatkan kebugaran kardiovaskular, dan menghemat waktu latihan."
+  },
+  {
+    "q": "Apa arti Ballon d'Or dalam sepak bola?",
+    "a": "Ballon d'Or adalah penghargaan tahunan bergengsi yang diberikan kepada pemain sepak bola terbaik dunia oleh majalah France Football. Lionel Messi memegang rekor dengan 8 kali meraih penghargaan ini."
+  },
+  {
+    "q": "Apa itu olahraga parkour?",
+    "a": "Parkour adalah olahraga yang melibatkan gerakan berpindah dari satu titik ke titik lain dengan mengatasi rintangan secara efisien menggunakan berlari, melompat, memanjat, dan berguling. Parkour berasal dari Prancis dan populer di kalangan anak muda."
+  },
+  {
+    "q": "Siapa Tontowi Ahmad dan Liliyana Natsir?",
+    "a": "Tontowi Ahmad dan Liliyana Natsir adalah pasangan ganda campuran bulutangkis Indonesia yang meraih medali emas Olimpiade Rio 2016. Mereka dikenal sebagai salah satu pasangan ganda campuran terbaik dalam sejarah bulutangkis."
+  },
+  {
+    "q": "Apa itu protein dan mengapa penting bagi atlet?",
+    "a": "Protein adalah nutrisi penting yang berperan dalam pembentukan dan pemulihan otot setelah latihan. Atlet membutuhkan asupan protein lebih tinggi dibanding orang biasa, sekitar 1,2-2,0 gram per kilogram berat badan per hari."
+  },
+  {
+    "q": "Apa peraturan double dribble dalam bola basket?",
+    "a": "Dalam bola basket, pemain harus mendribble (memantulkan) bola saat bergerak. Jika pemain berhenti mendribble dan memegang bola, ia hanya boleh melakukan passing atau shooting, tidak boleh mendribble lagi (double dribble violation)."
+  },
+  {
+    "q": "Apa itu Tour de France?",
+    "a": "Tour de France adalah balapan bersepeda jalan raya paling terkenal di dunia yang diselenggarakan setiap tahun di Prancis selama tiga minggu. Peserta menempuh jarak sekitar 3.500 km melintasi pegunungan dan jalur datar."
+  },
+  {
+    "q": "Bagaimana sistem pertandingan pencak silat?",
+    "a": "Pencak silat memiliki dua kategori pertandingan utama: tanding (pertarungan langsung antar pesilat) dan seni (penampilan jurus tunggal, ganda, atau beregu). Penilaian dilakukan berdasarkan teknik, keindahan gerakan, dan efektivitas serangan."
+  },
+  {
+    "q": "Apa itu kram otot dan bagaimana cara mengatasinya?",
+    "a": "Kram otot adalah kontraksi otot yang terjadi secara tiba-tiba dan menyakitkan, sering dialami saat berolahraga. Cara mengatasinya adalah dengan meregangkan otot yang kram secara perlahan, memijat area tersebut, dan memastikan hidrasi yang cukup."
+  },
+  {
+    "q": "Apa itu Piala Thomas dan Piala Uber dalam bulutangkis?",
+    "a": "Piala Thomas adalah kejuaraan beregu putra bulutangkis dunia, sedangkan Piala Uber adalah kejuaraan beregu putri. Indonesia adalah negara tersukses di Piala Thomas dengan 14 gelar juara."
+  },
+  {
+    "q": "Apa itu olahraga dayung (rowing)?",
+    "a": "Dayung (rowing) adalah olahraga air di mana atlet menggunakan dayung untuk menggerakkan perahu di atas air. Olahraga ini membutuhkan kekuatan, daya tahan, dan kerja tim yang luar biasa, serta telah menjadi bagian dari Olimpiade sejak 1900."
+  },
+  {
+    "q": "Apa tips pemanasan yang baik sebelum lari?",
+    "a": "Pemanasan sebelum lari sebaiknya dimulai dengan jalan cepat selama 5 menit, dilanjutkan dengan dynamic stretching seperti leg swings, high knees, dan butt kicks. Hindari static stretching sebelum lari karena dapat mengurangi kekuatan otot."
+  },
+  {
+    "q": "Apa itu wasit VAR dalam sepak bola?",
+    "a": "VAR (Video Assistant Referee) adalah teknologi bantuan wasit video yang digunakan dalam sepak bola untuk meninjau ulang keputusan penting seperti gol, penalti, kartu merah langsung, dan kesalahan identitas pemain. VAR pertama kali digunakan di Piala Dunia 2018."
+  },
+  {
+    "q": "Siapa Aries Susanti Rahayu dan apa prestasinya?",
+    "a": "Aries Susanti Rahayu adalah atlet panjat tebing speed Indonesia yang dijuluki Spider Woman. Ia pernah memecahkan rekor dunia panjat tebing speed wanita dan meraih medali emas di Asian Games 2018 di Jakarta."
+  },
+  {
+    "q": "Apa itu overtraining syndrome pada atlet?",
+    "a": "Overtraining syndrome adalah kondisi di mana atlet berlatih secara berlebihan tanpa pemulihan yang cukup, menyebabkan penurunan performa, kelelahan kronis, gangguan tidur, dan peningkatan risiko cedera. Istirahat dan periodisasi latihan penting untuk mencegah overtraining."
+  },
+  {
+    "q": "Apa perbedaan antara sprint dan lari jarak jauh?",
+    "a": "Sprint adalah lari cepat dalam jarak pendek (100m, 200m, 400m) yang mengandalkan kekuatan eksplosif dan kecepatan maksimal. Lari jarak jauh (5000m, 10000m, maraton) mengandalkan daya tahan aerobik dan strategi pengaturan kecepatan."
+  },
+  {
+    "q": "Apa itu PON dan kapan pertama kali diselenggarakan?",
+    "a": "PON (Pekan Olahraga Nasional) adalah pesta olahraga terbesar di Indonesia yang diselenggarakan setiap empat tahun sekali. PON pertama kali diselenggarakan pada tahun 1948 di Solo, Jawa Tengah, dengan 600 atlet dari 12 provinsi."
+  },
+  {
+    "q": "Apa itu SEA Games dan berapa kali Indonesia menjadi tuan rumah?",
+    "a": "SEA Games (Southeast Asian Games) adalah kompetisi olahraga regional Asia Tenggara yang diadakan setiap dua tahun. Indonesia telah menjadi tuan rumah SEA Games beberapa kali, termasuk pada tahun 1979, 1987, 1997, dan 2011."
+  },
+  {
+    "q": "Apa manfaat yoga bagi atlet?",
+    "a": "Yoga bermanfaat bagi atlet untuk meningkatkan fleksibilitas, keseimbangan, dan kekuatan inti tubuh. Selain itu, yoga membantu pemulihan otot, mengurangi stres, dan meningkatkan konsentrasi mental yang penting dalam kompetisi."
+  },
+  {
+    "q": "Apa itu golf dan siapa pemain golf terbaik dunia saat ini?",
+    "a": "Golf adalah olahraga yang dilakukan di lapangan rumput luas dengan tujuan memasukkan bola ke dalam lubang menggunakan tongkat golf dalam jumlah pukulan serendah mungkin. Rory McIlroy dari Irlandia Utara dan Jon Rahm dari Spanyol adalah pemain golf terbaik saat ini dalam peringkat dunia."
+  },
+  {
+    "q": "Apa itu kriket dan siapa negara-negara kuat dalam olahraga ini?",
+    "a": "Kriket adalah olahraga yang dimainkan oleh dua tim dengan 11 pemain per tim, menggunakan bola keras, kayu pemukul, dan wicket (tiga batang kayu). India, Pakistan, Australia, dan Inggris adalah negara-negara tradisional yang kuat dalam olahraga kriket."
+  },
+  {
+    "q": "Apa itu olahraga ski dan apa saja jenis-jenisnya?",
+    "a": "Ski adalah olahraga musim dingin di mana peserta meluncur di atas salju menggunakan sepatu dan papan khusus. Jenis-jenisnya termasuk alpine skiing (turun gunung), cross-country skiing (lari jauh), freestyle skiing, dan ski jumping (lompat ski)."
+  },
+  {
+    "q": "Siapa pemain tenis putri terbaik saat ini di dunia?",
+    "a": "Iga Świątek dari Polandia dan Aryna Sabalenka dari Belarus adalah pemain tenis putri terbaik saat ini dalam peringkat dunia. Mereka telah memenangkan beberapa turnamen Grand Slam dalam beberapa tahun terakhir."
+  },
+  {
+    "q": "Apa itu olahraga skeleton dan bagaimana cara bermainnya?",
+    "a": "Skeleton adalah olahraga musim dingin di mana seorang peserta lari sambil mendorong kereta es, kemudian berbaring telungkup di atasnya dan meluncur menuruni lintasan es yang sangat cepat. Olahraga ini memerlukan kecepatan, kekuatan, dan teknik sempurna."
+  },
+  {
+    "q": "Bagaimana sistem pertandingan double pada olahraga tenis?",
+    "a": "Dalam tenis double, setiap tim terdiri dari dua pemain. Pertandingan dianggap sebagai permainan ganda dengan keputusan bersama untuk strategi. Tim yang bermain di garis ganda dan bekerja sama untuk mengalahkan tim lawan. Tenis double baik putra, putri, maupun campuran adalah bagian dari Olimpiade dan Grand Slam."
+  },
+  {
+    "q": "Apa itu American football dan bagaimana perbedaannya dengan rugby?",
+    "a": "American football adalah olahraga kontak yang dimainkan oleh dua tim dengan 11 pemain, menggunakan bola oval, dan tujuannya adalah membawa bola ke zona akhir lawan. Perbedaan dengan rugby adalah American football menggunakan perlengkapan protektif, memiliki aturan yang lebih terstruktur, dan adanya sistem down. Rugby lebih dinamis dan terus-menerus tanpa henti seperti American football."
+  },
+  {
+    "q": "Siapa pemain badminton tunggal putra Indonesia yang sedang berprestasi saat ini?",
+    "a": "Anthony Sinisuka Ginting adalah pemain badminton tunggal putra Indonesia yang sedang aktif dan berprestasi baik. Dia telah memenangkan berbagai turnamen internasional dan secara konsisten berada di peringkat atas dunia badminton.dengan raihan medali di berbagai kompetisi internasional."
+  },
+  {
+    "q": "Apa itu olahraga speed skating dan siapa atlet terkenal dari olahraga ini?",
+    "a": "Speed skating (patin cepat) adalah olahraga musim dingin di mana peserta berlari cepat di atas es menggunakan sepatu khusus bertepi. Speed skating terbagi menjadi short track dan long track. Ireen Wüst dari Belanda adalah atlet speed skating paling sukses dengan 6 medali emas Olimpiade."
+  },
+  {
+    "q": "Siapa atlet loncat indah (diving) Indonesia yang terkenal?",
+    "a": "Pratiwi Sofyan adalah atlet loncat indah putri Indonesia yang pernah berkompetisi di Olimpiade. Indonesia juga memiliki beberapa atlet diving yang berkembang di tingkat regional Asia Tenggara melalui program pelatihan di berbagai federasi."
+  },
+  {
+    "q": "Apa itu Golden Ball atau Ballon Gaun dalam Piala Dunia?",
+    "a": "Golden Ball (Ballon Gaun) adalah penghargaan yang diberikan kepada pemain terbaik dalam turnamen Piala Dunia FIFA. Penghargaan ini diberikan berdasarkan voting oleh juri teknis, ahli media, dan fans. Penghargaan ini diberikan kepada pemain yang menunjukkan performa terbaik selama kompetisi berlangsung."
+  },
+  {
+    "q": "Apa itu futsal dan bagaimana perbedaannya dengan sepak bola?",
+    "a": "Futsal adalah varian olahraga sepak bola yang dimainkan di dalam ruangan pada lapangan yang lebih kecil dengan 5 pemain per tim. Bola futsal lebih berat dan memiliki pantulan yang lebih rendah dibanding bola sepak bola biasa. Perbedaan utama adalah futsal dimainkan indoor, lapangan lebih kecil, tempo permainan lebih cepat, dan tidak ada offside.",
+    "cot": "Futsal merupakan pengembangan dari sepak bola tradisional yang disesuaikan untuk ruangan indoor. Aturan-aturan futsal (5 pemain, tidak ada offside, bola lebih berat) dirancang untuk mempercepat permainan dan meningkatkan skill teknis pemain. Indonesia memiliki program futsal yang aktif dengan banyak klub profesional."
+  },
+  {
+    "q": "Berapa jarak marathon dan apa manfaat berlari marathon bagi kesehatan?",
+    "a": "Marathon adalah perlombaan lari jarak jauh sejauh 42,195 kilometer atau 42,2 km. Manfaat berlari marathon bagi kesehatan antara lain meningkatkan daya tahan kardiovaskular, membakar kalori dan lemak berlebih, memperkuat otot kaki, meningkatkan kesehatan mental, dan mengencerkan darah sehingga mengurangi risiko penyakit jantung.",
+    "cot": "Marathon memerlukan latihan intensity bertahap karena jarak yang sangat jauh. Berlari sejauh 42+ km menguji ketahanan ekstra dari sistem kardiovaskular dan otot. Melalui latihan marathon, tubuh menjadi lebih efisien dalam menggunakan oksigen dan energi. Ini berkaitan dengan adaptasi fisiologis yang meningkatkan kesehatan jantung, paru-paru, dan metabolisme secara keseluruhan."
+  },
+  {
+    "q": "Apa itu angkat besi (weightlifting) dan cabang utamanya dalam olahraga olimpik?",
+    "a": "Angkat besi atau weightlifting adalah olahraga yang bertujuan mengangkat beban (barbell) dengan berat maksimal dalam teknik yang benar. Dalam olimpik, angkat besi memiliki dua cabang utama: snatch (mengangkat barbell sekali gerakan dari lantai ke atas kepala) dan clean & jerk (mengangkat barbell dua gerakan: dari lantai ke bahu kemudian ke atas kepala). Para atlet berkompetisi dalam kategori berat badan yang berbeda-beda.",
+    "cot": "Angkat besi memerlukan kombinasi kekuatan explosive, teknik yang presisi, dan fleksibilitas tubuh. Snatch dan clean & jerk adalah gerakan kompleks yang melibatkan koordinasi seluruh tubuh mulai dari kaki, pinggul, bahu hingga lengan. Atlet weightlifting melatih otot antagonis (seperti kaki, perut, punggung) secara seimbang agar dapat mengangkat beban berat dengan aman dan efisien. Kategori berat badan memastikan kompetisi yang fair antara atlet dengan struktur tubuh berbeda."
+  }
+]

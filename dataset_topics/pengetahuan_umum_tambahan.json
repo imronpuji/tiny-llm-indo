@@ -1,0 +1,454 @@
+[
+  {
+    "q": "Siapa penemu listrik?",
+    "a": "Listrik tidak ditemukan oleh satu orang, tapi Benjamin Franklin dan Michael Faraday adalah tokoh penting dalam pemahaman listrik."
+  },
+  {
+    "q": "Siapa penemu telepon?",
+    "a": "Alexander Graham Bell dikenal sebagai penemu telepon pada tahun 1876."
+  },
+  {
+    "q": "Siapa penemu lampu?",
+    "a": "Thomas Alva Edison dikenal sebagai penemu bola lampu praktis pada tahun 1879."
+  },
+  {
+    "q": "Siapa penemu pesawat?",
+    "a": "Wright bersaudara (Orville dan Wilbur Wright) adalah penemu pesawat terbang pada tahun 1903."
+  },
+  {
+    "q": "Planet apa yang paling besar?",
+    "a": "Planet terbesar di tata surya adalah Jupiter."
+  },
+  {
+    "q": "Planet apa yang paling dekat matahari?",
+    "a": "Planet yang paling dekat dengan matahari adalah Merkurius."
+  },
+  {
+    "q": "Berapa planet di tata surya?",
+    "a": "Ada 8 planet di tata surya: Merkurius, Venus, Bumi, Mars, Jupiter, Saturnus, Uranus, dan Neptunus."
+  },
+  {
+    "q": "Apa warna matahari?",
+    "a": "Matahari sebenarnya berwarna putih, tapi terlihat kuning atau oranye karena atmosfer bumi."
+  },
+  {
+    "q": "Apa itu bulan?",
+    "a": "Bulan adalah satelit alami bumi yang mengorbit bumi dan menyebabkan pasang surut air laut."
+  },
+  {
+    "q": "Kenapa langit biru?",
+    "a": "Langit terlihat biru karena cahaya matahari yang masuk ke atmosfer tersebar, dan warna biru lebih banyak tersebar."
+  },
+  {
+    "q": "Kenapa air laut asin?",
+    "a": "Air laut asin karena mengandung garam mineral yang terbawa dari daratan oleh sungai selama jutaan tahun."
+  },
+  {
+    "q": "Apa itu fotosintesis?",
+    "a": "Fotosintesis adalah proses tumbuhan mengubah cahaya matahari, air, dan karbon dioksida menjadi makanan dan oksigen."
+  },
+  {
+    "q": "Apa itu gravitasi?",
+    "a": "Gravitasi adalah gaya tarik antara benda-benda bermassa. Gravitasi bumi yang membuat kita tetap di permukaan bumi."
+  },
+  {
+    "q": "Hewan apa yang paling cepat di dunia?",
+    "a": "Burung elang peregrine adalah hewan tercepat di dunia dengan kecepatan menyelam mencapai 389 km/jam. Cheetah adalah hewan darat tercepat dengan kecepatan lari hingga 120 km/jam."
+  },
+  {
+    "q": "Mata hewan apa yang paling tajam?",
+    "a": "Elang memiliki penglihatan paling tajam di dunia hewan. Mereka dapat melihat mangsa dari ketinggian lebih dari 3 kilometer jauhnya dengan detail yang sangat jelas."
+  },
+  {
+    "q": "Apa fakta unik tentang gajah?",
+    "a": "Gajah adalah hewan darat terbesar dan memiliki ingatan luar biasa. Mereka dapat mengenali diri mereka sendiri di cermin dan mereka menangis ketika sedih atau menderita sakit."
+  },
+  {
+    "q": "Apakah ubur-ubur memiliki otak?",
+    "a": "Ubur-ubur tidak memiliki otak, jantung, atau darah. Mereka terdiri dari 95% air dan telah hidup di lautan selama lebih dari 500 juta tahun, bahkan sebelum dinosaurus ada."
+  },
+  {
+    "q": "Berapa lama gelang emas dapat bertahan?",
+    "a": "Emas tidak pernah terdegradasi atau berkarat. Semua emas yang pernah ditambang masih ada hingga hari ini, hanya berubah bentuk. Emas yang Anda miliki hari ini mungkin pernah digunakan oleh bangsa-bangsa kuno ribuan tahun lalu."
+  },
+  {
+    "q": "Apa penemuan paling penting Leonardo da Vinci?",
+    "a": "Leonardo da Vinci merancang helikopter, tank, dan mesin-mesin lainnya berabad-abad sebelum teknologi itu diwujudkan. Dia adalah ahli di bidang seni, sains, teknik, dan anatomi tubuh manusia."
+  },
+  {
+    "q": "Kenapa Stonehenge dibangun?",
+    "a": "Stonehenge dibangun sekitar 5.000 tahun lalu oleh masyarakat prasejarah Inggris. Tujuan pastinya masih misterius, tapi kemungkinan digunakan sebagai kalender astronomi atau tempat upacara keagamaan."
+  },
+  {
+    "q": "Siapa yang benar-benar menemukan Amerika?",
+    "a": "Viking Leif Erikson adalah orang Eropa pertama yang mencapai Amerika sekitar 500 tahun sebelum Christopher Columbus. Namun, Native Americans telah tinggal di sana selama ribuan tahun sebelumnya."
+  },
+  {
+    "q": "Apa fakta menarik tentang piramida Mesir?",
+    "a": "Piramida Giza dibangun sekitar 4.500 tahun lalu dengan jutaan blok batu tanpa peralatan modern. Setiap blok beratnya rata-rata 2,5 ton, dan presisi konstruksinya sangat sempurna hingga sekarang."
+  },
+  {
+    "q": "Berapa banyak otot yang diperlukan untuk tersenyum?",
+    "a": "Diperlukan 42 otot wajah untuk mengkerut (ekspresi sedih) namun hanya 17 otot untuk tersenyum. Tersenyum mengaktifkan area otak yang mengeluarkan hormon kebahagiaan yang sama dengan hadiah atau cokelat!"
+  },
+  {
+    "q": "Apakah manusia dapat menahan napas di bawah air selamanya?",
+    "a": "Manusia dapat menahan napas maksimal 10-20 menit dengan latihan khusus. Otak memerlukan oksigen terus-menerus, dan setelah beberapa menit tanpa oksigen, kerusakan otak permanen dapat terjadi."
+  },
+  {
+    "q": "Berapa banyak darah dalam tubuh manusia?",
+    "a": "Tubuh manusia dewasa mengandung sekitar 5 liter darah yang bersirkulasi ke seluruh tubuh. Darah ini membawa oksigen dan nutrisi ke semua organ dan sel dalam tubuh setiap detik."
+  },
+  {
+    "q": "Apa fungsi sidik jari manusia?",
+    "a": "Sidik jari meningkatkan gesekan untuk membantu kami memegang benda dengan lebih baik. Pola sidik jari setiap manusia unik dan tidak berubah sepanjang hidup, oleh karena itu digunakan untuk identifikasi forensik."
+  },
+  {
+    "q": "Mengapa telinga kami berdering?",
+    "a": "Telinga yang berdering atau tinnitus terjadi karena overstimulasi sel-sel pendengaran di telinga dalam. Ini adalah kondisi umum yang dapat disebabkan oleh paparan suara keras, infeksi, atau perubahan tekanan darah."
+  },
+  {
+    "q": "Berapa jumlah tulang dalam tubuh bayi?",
+    "a": "Bayi baru lahir memiliki sekitar 270 tulang yang sebagian besar terbuat dari tulang rawan. Saat tumbuh dewasa, beberapa tulang bersatu, sehingga orang dewasa hanya memiliki 206 tulang."
+  },
+  {
+    "q": "Apa itu fenomena aurora borealis?",
+    "a": "Aurora borealis atau cahaya utara terjadi ketika partikel dari matahari berinteraksi dengan medan magnet bumi, menciptakan cahaya hijau dan ungu di langit malam. Ini terjadi di daerah dekat kutub utara dan telah menginspirasi mitologi budaya selama berabad-abad."
+  },
+  {
+    "q": "Bagaimana geyser dapat mengeluarkan air panas?",
+    "a": "Geyser adalah semacam mata air panas yang mengeluarkan air dan uap bersuhu tinggi secara berkala. Air meresap ke dalam bumi, dipanaskan oleh magma, kemudian meledak kembali ke permukaan. Yellowstone memiliki geyser paling terkenal di dunia."
+  },
+  {
+    "q": "Mengapa tornado sangat berbahaya?",
+    "a": "Tornado adalah angin paling cepat di Bumi dengan kecepatan hingga 480 km/jam. Mereka terbentuk ketika udara panas dan dingin bertabrakan dengan cara yang sempurna, menciptakan rotasi yang sangat kuat yang dapat mengangkat benda-benda berat."
+  },
+  {
+    "q": "Apa itu gempa bumi dan mengapa terjadi?",
+    "a": "Gempa bumi terjadi ketika lempeng tektonik bumi bergeser dan melepaskan energi tersimpan. Bumi mempunyai lapisan luar yang terbagi menjadi beberapa lempeng besar yang terus bergerak perlahan, sehingga gempa adalah proses alami."
+  },
+  {
+    "q": "Bagaimana cara bunga mendapat warna?",
+    "a": "Warna bunga disebabkan oleh pigmen alami seperti antosianin (merah, biru, ungu), karotenoid (oranye, kuning), dan klorofil (hijau). Warna ini membantu bunga menarik serangga penyerbuk untuk reproduksi."
+  },
+  {
+    "q": "Berapa lama bunga dapat hidup?",
+    "a": "Umur bunga bervariasi dari beberapa hari hingga beberapa minggu. Bunga matahari dapat bertahan 12-13 hari setelah mekar, sementara bunga lainnya seperti mawar dapat tahan lebih lama jika dirawat dengan baik."
+  },
+  {
+    "q": "Apa manfaat aromaterapi?",
+    "a": "Aromaterapi menggunakan minyak esensial dari tumbuhan untuk meningkatkan kesehatan fisik dan mental. Bau tertentu seperti lavender dapat menenangkan, peppermint dapat meningkatkan energi, dan lemon dapat meningkatkan fokus dan mood."
+  },
+  {
+    "q": "Bagaimana resep kuno ditemukan?",
+    "a": "Banyak resep kuno berasal dari pengalaman dan eksperimen generasi sebelumnya. Beberapa resep obat atau makanan yang ditemukan dalam tekstur kuno ternyata memiliki manfaat ilmiah yang benar, membuktikan kebijaksanaan nenek moyang kami."
+  },
+  {
+    "q": "Apa itu seni batik dan asal-usulnya?",
+    "a": "Batik adalah seni tradisional membuat pola pada kain menggunakan lilin panas. Batik berasal dari Indonesia, khususnya Jawa, dan telah dipraktikkan selama berabad-abad. UNESCO mengakui batik Indonesia sebagai Masterpiece of Humanity pada 2009."
+  },
+  {
+    "q": "Apa penemuan terbesar dalam sejarah medis?",
+    "a": "Penemuan antibiotik oleh Alexander Fleming pada 1928 adalah terobosan terbesar dalam medis modern. Sebelumnya, infeksi bakteri yang kecil sekalipun dapat berakibat fatal. Antibiotik telah menyelamatkan miliaran nyawa."
+  },
+  {
+    "q": "Siapa penemu vaksin pertama?",
+    "a": "Edward Jenner mengembangkan vaksin cacar pada 1796, menjadi vaksin pertama dalam sejarah. Dia mengamati bahwa pemerah susu yang terkena virus cacar sapi memiliki kekebalan terhadap cacar manusia dan menggunakan pengamatan ini untuk menciptakan vaksin."
+  },
+  {
+    "q": "Bagaimana cara kerja echo sonar pada lumba-lumba?",
+    "a": "Lumba-lumba menggunakan ecolocation (echolocation) untuk menavigasi dan menangkap mangsa. Mereka mengeluarkan suara klik, dan mendengarkan echo yang kembali untuk menentukan jarak, ukuran, dan bentuk objek di sekitar mereka dengan presisi yang menakjubkan."
+  },
+  {
+    "q": "Mengapa kucing selalu jatuh dengan posisi berdiri?",
+    "a": "Kucing memiliki refleks righting yang luar biasa, memungkinkan mereka memutar tubuh di udara saat jatuh. Mereka dapat menyeimbangkan diri dan mendarat dengan empat kaki. Ini adalah adaptasi evolusioner yang membantu mereka bertahan dari jatuh dari pohon tinggi."
+  },
+  {
+    "q": "Apa rahasia ketahanan tardigrade (beruang air)?",
+    "a": "Tardigrade adalah makhluk hidup paling tangguh di Bumi. Mereka dapat bertahan dalam vakum luar angkasa, suhu ekstrem, radiasi tinggi, dan tanpa air selama puluhan tahun. Ilmuwan percaya mereka memiliki DNA repair mechanism yang sangat unik."
+  },
+  {
+    "q": "Berapa lama waktu untuk membusuk mayat?",
+    "a": "Proses pembusukan mayat tergantung pada lingkungan, iklim, dan kondisi lainnya. Pada kondisi normal, mayat memerlukan 1-2 minggu untuk membusuk, sementara pada kondisi dingin dapat bertahan bertahun-tahun. Ini adalah ilmu yang dipelajari dalam forensik."
+  },
+  {
+    "q": "Apa itu efek placebo?",
+    "a": "Efek placebo terjadi ketika seseorang merasa lebih baik setelah menerima pengobatan palsu karena mereka percaya akan kesembuhan. Penelitian menunjukkan otak dapat secara nyata menghasilkan perbaikan kesehatan melalui kekuatan pikiran positif."
+  },
+  {
+    "q": "Bagaimana suara dapat memecahkan kaca?",
+    "a": "Suara dengan frekuensi resonansi yang sama dengan frekuensi alami kaca dapat menyebabkan kaca bergetar semakin kuat hingga pecah. Ini disebut resonansi harmonis dan memerlukan suara yang sangat keras pada frekuensi yang tepat."
+  },
+  {
+    "q": "Apa manfaat tidur siang?",
+    "a": "Tidur siang 20-30 menit dapat meningkatkan produktivitas, memori, kreativitas, dan memperbaiki mood. Beberapa negara seperti Spanyol memiliki tradisi siesta yang mengakui pentingnya waktu istirahat di tengah hari untuk kesehatan optimal."
+  },
+  {
+    "q": "Mengapa langit menjadi merah saat matahari terbenam?",
+    "a": "Saat matahari terbenam, cahayanya melintasi lapisan atmosfer yang lebih tebal. Cahaya biru tersebar lebih jauh (Rayleigh scattering), meninggalkan cahaya merah dan oranye yang mencapai mata kita, menciptakan pemandangan spektakuler."
+  },
+  {
+    "q": "Apa yang membuat komodo menjadi hewan langka dan berbahaya?",
+    "a": "Komodo adalah kadal terbesar di dunia yang hanya ditemukan di Kepulauan Komodo, Indonesia. Mereka dapat tumbuh hingga 3 meter panjang dan 150 kilogram. Komodo adalah predator puncak dengan gigitan beracun yang dapat membunuh mangsa berukuran besar seperti kerbau liar."
+  },
+  {
+    "q": "Mengapa Tembok Besar China dibangun sangat panjang?",
+    "a": "Tembok Besar China dibangun sepanjang lebih dari 21.000 kilometer untuk melindungi kerajaan dari invasi pasukan nomaden dari utara. Konstruksinya memakan waktu lebih dari 2.000 tahun dan merupakan salah satu pencapaian peradaban manusia yang paling mengesankan."
+  },
+  {
+    "q": "Apa penyebab sebenarnya tenggelamnya kapal Titanic?",
+    "a": "Titanic tenggelam pada 1912 karena menabrak gunung es di Samudra Atlantik. Kapal ini dianggap 'tidak tenggelam' karena ukurannya yang besar dan teknologi modern waktu itu, sehingga hanya membawa 20 sekoci untuk 2.224 penumpang, mengakibatkan lebih dari 1.500 orang meninggal."
+  },
+  {
+    "q": "Berapa persen oksigen di Bumi yang dihasilkan dari laut?",
+    "a": "Sekitar 50-80% oksigen di atmosfer bumi dihasilkan oleh fitoplankton dan tumbuhan laut di lautan. Ini sering disebut 'paru-paru planet kita' dan menunjukkan betapa pentingnya ekosistem laut untuk kelangsungan hidup semua makhluk hidup di Bumi."
+  },
+  {
+    "q": "Apa itu PBB dan kapan didirikan?",
+    "a": "PBB (Perserikatan Bangsa-Bangsa) adalah organisasi internasional yang didirikan pada 24 Oktober 1945 setelah Perang Dunia II. Tujuannya adalah menjaga perdamaian dunia, memajukan kerja sama internasional, dan melindungi hak asasi manusia. Saat ini PBB memiliki 193 negara anggota."
+  },
+  {
+    "q": "Apa peran WHO dalam kesehatan dunia?",
+    "a": "WHO (World Health Organization) adalah badan khusus PBB yang bertanggung jawab atas kesehatan masyarakat internasional. Didirikan pada 7 April 1948, WHO memimpin upaya global dalam pemberantasan penyakit, vaksinasi, dan respons terhadap pandemi seperti COVID-19."
+  },
+  {
+    "q": "Apa itu UNESCO dan apa tugasnya?",
+    "a": "UNESCO (United Nations Educational, Scientific and Cultural Organization) adalah badan PBB yang bertugas memajukan pendidikan, ilmu pengetahuan, dan kebudayaan. UNESCO juga menetapkan Situs Warisan Dunia untuk melestarikan tempat-tempat bersejarah dan alam yang bernilai luar biasa."
+  },
+  {
+    "q": "Berapa jumlah benua di dunia dan apa saja namanya?",
+    "a": "Terdapat 7 benua di dunia, yaitu Asia, Afrika, Amerika Utara, Amerika Selatan, Antarktika, Eropa, dan Australia/Oseania. Asia adalah benua terbesar baik dari segi luas wilayah maupun jumlah penduduk."
+  },
+  {
+    "q": "Samudra apa yang paling luas di dunia?",
+    "a": "Samudra Pasifik adalah samudra terluas di dunia dengan luas sekitar 165,25 juta kilometer persegi. Luasnya lebih besar daripada seluruh daratan di bumi digabungkan dan mencakup sekitar sepertiga permukaan bumi."
+  },
+  {
+    "q": "Negara mana yang memiliki wilayah terluas di dunia?",
+    "a": "Rusia adalah negara terluas di dunia dengan luas sekitar 17,1 juta kilometer persegi, membentang dari Eropa Timur hingga Asia Utara. Wilayahnya mencakup 11 zona waktu yang berbeda."
+  },
+  {
+    "q": "Negara mana yang memiliki jumlah penduduk terbanyak di dunia?",
+    "a": "India melampaui Tiongkok sebagai negara berpenduduk terbanyak di dunia pada tahun 2023 dengan populasi lebih dari 1,4 miliar jiwa. Kedua negara ini bersama-sama menampung lebih dari sepertiga populasi dunia."
+  },
+  {
+    "q": "Apa itu Piala Dunia FIFA dan kapan pertama kali diadakan?",
+    "a": "Piala Dunia FIFA adalah turnamen sepak bola internasional terbesar yang diadakan setiap empat tahun sekali. Turnamen pertama diselenggarakan di Uruguay pada tahun 1930 dan dimenangkan oleh tuan rumah Uruguay."
+  },
+  {
+    "q": "Negara mana yang paling sering memenangkan Piala Dunia FIFA?",
+    "a": "Brasil adalah negara yang paling sering memenangkan Piala Dunia FIFA dengan 5 kali kemenangan (1958, 1962, 1970, 1994, 2002). Disusul oleh Jerman dan Italia yang masing-masing meraih 4 gelar juara."
+  },
+  {
+    "q": "Kapan Olimpiade modern pertama kali diadakan?",
+    "a": "Olimpiade modern pertama diadakan di Athena, Yunani, pada tahun 1896 atas prakarsa Baron Pierre de Coubertin. Olimpiade kuno sendiri sudah ada sejak 776 SM di Olympia, Yunani, sebagai festival olahraga dan keagamaan."
+  },
+  {
+    "q": "Apa itu lubang hitam (black hole)?",
+    "a": "Lubang hitam adalah wilayah di luar angkasa dengan gravitasi sangat kuat sehingga tidak ada apapun, termasuk cahaya, yang dapat keluar darinya. Lubang hitam terbentuk ketika bintang raksasa mati dan kolaps ke dalam dirinya sendiri."
+  },
+  {
+    "q": "Siapa manusia pertama yang pergi ke luar angkasa?",
+    "a": "Yuri Gagarin dari Uni Soviet adalah manusia pertama yang pergi ke luar angkasa pada 12 April 1961 dengan pesawat Vostok 1. Penerbangannya mengorbit bumi selama 108 menit dan menjadi tonggak sejarah eksplorasi antariksa."
+  },
+  {
+    "q": "Siapa manusia pertama yang menginjakkan kaki di bulan?",
+    "a": "Neil Armstrong adalah manusia pertama yang menginjakkan kaki di bulan pada 20 Juli 1969 dalam misi Apollo 11. Kata-katanya yang terkenal adalah 'That's one small step for man, one giant leap for mankind.'"
+  },
+  {
+    "q": "Apa itu Stasiun Luar Angkasa Internasional (ISS)?",
+    "a": "ISS adalah laboratorium luar angkasa yang mengorbit bumi pada ketinggian sekitar 408 km dengan kecepatan 28.000 km/jam. Dibangun melalui kerja sama 15 negara, ISS telah dihuni secara terus-menerus sejak November 2000 dan digunakan untuk penelitian ilmiah di lingkungan mikrogravitasi."
+  },
+  {
+    "q": "Apa itu galaksi Bima Sakti (Milky Way)?",
+    "a": "Bima Sakti adalah galaksi tempat tata surya kita berada. Galaksi ini berbentuk spiral dengan diameter sekitar 100.000 tahun cahaya dan mengandung sekitar 100-400 miliar bintang. Matahari kita hanyalah salah satu dari miliaran bintang tersebut."
+  },
+  {
+    "q": "Peradaban apa yang dianggap tertua di dunia?",
+    "a": "Peradaban Sumeria di Mesopotamia (sekarang Irak) dianggap sebagai salah satu peradaban tertua di dunia, muncul sekitar 4500 SM. Mereka menciptakan sistem tulisan pertama (aksara paku), membangun kota-kota pertama, dan mengembangkan sistem matematika dasar."
+  },
+  {
+    "q": "Apa itu Peradaban Maya dan apa pencapaiannya?",
+    "a": "Peradaban Maya berkembang di Amerika Tengah dari sekitar 2000 SM hingga abad ke-16. Mereka dikenal karena sistem kalender yang sangat akurat, arsitektur piramida megah, sistem tulisan hieroglif, dan pengetahuan astronomi yang luar biasa maju untuk zamannya."
+  },
+  {
+    "q": "Siapa itu Mahatma Gandhi dan mengapa ia terkenal?",
+    "a": "Mahatma Gandhi (1869-1948) adalah pemimpin kemerdekaan India yang memperjuangkan kebebasan dari penjajahan Inggris melalui gerakan non-kekerasan (ahimsa). Filosofi perlawanan damainya menginspirasi gerakan hak-hak sipil di seluruh dunia, termasuk Martin Luther King Jr."
+  },
+  {
+    "q": "Siapa itu Nelson Mandela dan apa perjuangannya?",
+    "a": "Nelson Mandela (1918-2013) adalah tokoh anti-apartheid Afrika Selatan yang dipenjara selama 27 tahun karena perjuangannya melawan diskriminasi rasial. Setelah dibebaskan, ia menjadi presiden kulit hitam pertama Afrika Selatan pada 1994 dan menerima Nobel Perdamaian pada 1993."
+  },
+  {
+    "q": "Berapa tinggi Gunung Everest dan di mana letaknya?",
+    "a": "Gunung Everest adalah puncak tertinggi di dunia dengan ketinggian 8.849 meter di atas permukaan laut. Terletak di perbatasan Nepal dan Tibet (Tiongkok) di pegunungan Himalaya. Puncaknya pertama kali dicapai oleh Edmund Hillary dan Tenzing Norgay pada 1953."
+  },
+  {
+    "q": "Sungai apa yang terpanjang di dunia?",
+    "a": "Sungai Nil di Afrika adalah sungai terpanjang di dunia dengan panjang sekitar 6.650 kilometer, mengalir melalui 11 negara. Sungai Amazon di Amerika Selatan menyusul dengan panjang sekitar 6.400 kilometer namun memiliki volume air terbesar di dunia."
+  },
+  {
+    "q": "Danau apa yang terbesar di dunia?",
+    "a": "Laut Kaspia adalah danau terbesar di dunia berdasarkan luas permukaan, yaitu sekitar 371.000 kilometer persegi. Meskipun disebut 'laut', secara teknis Laut Kaspia adalah danau karena tidak terhubung langsung dengan samudra."
+  },
+  {
+    "q": "Gurun apa yang terluas di dunia?",
+    "a": "Gurun Sahara di Afrika Utara adalah gurun panas terluas di dunia dengan luas sekitar 9,2 juta kilometer persegi. Namun, jika termasuk gurun dingin, Gurun Antarktika sebenarnya lebih luas dengan luas sekitar 14 juta kilometer persegi."
+  },
+  {
+    "q": "Apa itu Palung Mariana dan seberapa dalam?",
+    "a": "Palung Mariana adalah titik terdalam di permukaan bumi, terletak di Samudra Pasifik dekat Kepulauan Mariana. Titik terdalamnya, Challenger Deep, mencapai kedalaman sekitar 10.994 meter. Jika Gunung Everest ditempatkan di dalamnya, puncaknya masih akan tenggelam lebih dari 2 kilometer."
+  },
+  {
+    "q": "Negara mana yang terkecil di dunia?",
+    "a": "Vatikan (Kota Vatikan) adalah negara terkecil di dunia dengan luas hanya 0,44 kilometer persegi dan populasi sekitar 800 orang. Terletak di dalam kota Roma, Italia, Vatikan adalah pusat Gereja Katolik Roma dan dipimpin oleh Paus."
+  },
+  {
+    "q": "Apa itu Guinness World Records?",
+    "a": "Guinness World Records adalah buku referensi yang mencatat berbagai rekor dunia, baik pencapaian manusia maupun fenomena alam. Pertama kali diterbitkan pada 1955, buku ini kini menjadi salah satu buku terlaris sepanjang masa dan telah mencatat ribuan rekor dari seluruh dunia."
+  },
+  {
+    "q": "Apa itu DNA dan apa fungsinya?",
+    "a": "DNA (Deoxyribonucleic Acid) adalah molekul yang menyimpan instruksi genetik untuk perkembangan dan fungsi semua makhluk hidup. DNA manusia terdiri dari sekitar 3 miliar pasangan basa dan jika direntangkan akan sepanjang sekitar 2 meter per sel."
+  },
+  {
+    "q": "Siapa yang menciptakan World Wide Web (internet)?",
+    "a": "Tim Berners-Lee, seorang ilmuwan komputer Inggris, menciptakan World Wide Web pada tahun 1989 saat bekerja di CERN. Ia mengembangkan sistem hypertext untuk berbagi informasi antar komputer, yang kemudian mengubah cara dunia berkomunikasi dan mengakses informasi."
+  },
+  {
+    "q": "Apa itu satelit buatan dan untuk apa digunakan?",
+    "a": "Satelit buatan adalah objek yang dibuat manusia dan diluncurkan ke orbit bumi. Sputnik 1, diluncurkan oleh Uni Soviet pada 1957, adalah satelit buatan pertama. Satelit digunakan untuk komunikasi, navigasi GPS, pengamatan cuaca, penelitian ilmiah, dan pemetaan bumi."
+  },
+  {
+    "q": "Apa perbedaan antara meteor, meteoroid, dan meteorit?",
+    "a": "Meteoroid adalah batu kecil yang melayang di luar angkasa. Ketika meteoroid memasuki atmosfer bumi dan terbakar, ia disebut meteor atau 'bintang jatuh'. Jika meteor tidak habis terbakar dan mencapai permukaan bumi, sisanya disebut meteorit."
+  },
+  {
+    "q": "Apa itu zona waktu dan mengapa diperlukan?",
+    "a": "Zona waktu adalah pembagian wilayah bumi berdasarkan perbedaan waktu, masing-masing selebar 15 derajat bujur. Sistem ini diperkenalkan pada 1884 untuk menstandarkan waktu di seluruh dunia. Terdapat 24 zona waktu utama, dan bumi berputar 360 derajat dalam 24 jam."
+  },
+  {
+    "q": "Berapa kecepatan cahaya?",
+    "a": "Kecepatan cahaya dalam ruang hampa adalah sekitar 299.792 kilometer per detik atau sekitar 300.000 km/detik. Cahaya dari matahari membutuhkan waktu sekitar 8 menit 20 detik untuk mencapai bumi, dan tidak ada yang bisa bergerak lebih cepat dari cahaya."
+  },
+  {
+    "q": "Apa itu efek rumah kaca dan bagaimana dampaknya?",
+    "a": "Efek rumah kaca adalah proses dimana gas-gas tertentu di atmosfer (seperti CO2 dan metana) menahan panas matahari, menghangatkan permukaan bumi. Secara alami ini penting untuk kehidupan, tetapi peningkatan gas rumah kaca akibat aktivitas manusia menyebabkan pemanasan global."
+  },
+  {
+    "q": "Apa itu lapisan ozon dan mengapa penting?",
+    "a": "Lapisan ozon adalah lapisan gas ozon (O3) di stratosfer bumi pada ketinggian 15-35 km yang melindungi kehidupan dari radiasi ultraviolet berbahaya matahari. Lubang ozon ditemukan pada 1985, dan Protokol Montreal 1987 berhasil mengurangi penggunaan zat perusak ozon."
+  },
+  {
+    "q": "Siapa itu Albert Einstein dan apa kontribusinya?",
+    "a": "Albert Einstein (1879-1955) adalah fisikawan Jerman-Amerika yang dianggap sebagai ilmuwan terbesar abad ke-20. Ia terkenal dengan teori relativitas (E=mc²) yang mengubah pemahaman manusia tentang ruang, waktu, dan energi. Ia menerima Nobel Fisika pada 1921."
+  },
+  {
+    "q": "Apa itu Perang Dunia I dan kapan terjadi?",
+    "a": "Perang Dunia I berlangsung dari 1914 hingga 1918, melibatkan sebagian besar kekuatan besar dunia yang terbagi menjadi dua aliansi: Sekutu dan Blok Sentral. Dipicu oleh pembunuhan Archduke Franz Ferdinand, perang ini menewaskan sekitar 17 juta orang."
+  },
+  {
+    "q": "Apa itu Perang Dunia II dan apa dampaknya?",
+    "a": "Perang Dunia II (1939-1945) adalah konflik militer terbesar dalam sejarah, melibatkan lebih dari 30 negara. Perang ini menewaskan sekitar 70-85 juta orang dan berakhir dengan jatuhnya bom atom di Hiroshima dan Nagasaki. Dampaknya membentuk tatanan dunia modern."
+  },
+  {
+    "q": "Apa itu NATO dan apa tujuannya?",
+    "a": "NATO (North Atlantic Treaty Organization) adalah aliansi militer yang didirikan pada 1949 oleh negara-negara Barat untuk pertahanan bersama. Prinsip utamanya adalah bahwa serangan terhadap satu anggota dianggap sebagai serangan terhadap semua anggota. NATO kini memiliki 32 negara anggota."
+  },
+  {
+    "q": "Apa itu ASEAN dan siapa saja anggotanya?",
+    "a": "ASEAN (Association of Southeast Asian Nations) adalah organisasi regional yang didirikan pada 8 Agustus 1967 di Bangkok. Anggotanya terdiri dari 10 negara Asia Tenggara: Indonesia, Malaysia, Filipina, Singapura, Thailand, Brunei, Vietnam, Laos, Myanmar, dan Kamboja."
+  },
+  {
+    "q": "Kapan manusia pertama kali menggunakan api?",
+    "a": "Bukti arkeologis menunjukkan bahwa manusia purba mulai mengendalikan api sekitar 1 juta tahun yang lalu. Penggunaan api secara rutin dimulai sekitar 400.000 tahun lalu oleh Homo erectus. Api memungkinkan manusia memasak makanan, menghangatkan diri, dan melindungi diri dari predator."
+  },
+  {
+    "q": "Apa itu Revolusi Industri dan kapan dimulai?",
+    "a": "Revolusi Industri dimulai di Inggris pada akhir abad ke-18 (sekitar 1760-an) dan mengubah masyarakat agraris menjadi masyarakat industri. Penemuan mesin uap oleh James Watt menjadi pendorongnya, memicu perubahan besar dalam manufaktur, transportasi, dan kehidupan sosial."
+  },
+  {
+    "q": "Siapa penemu mesin cetak dan apa dampaknya?",
+    "a": "Johannes Gutenberg dari Jerman menemukan mesin cetak dengan huruf logam bergerak sekitar tahun 1440. Penemuannya merevolusi penyebaran pengetahuan karena buku bisa diproduksi secara massal dengan murah, mendorong Renaisans, Reformasi Protestan, dan revolusi ilmiah."
+  },
+  {
+    "q": "Apa itu Jalur Sutra (Silk Road)?",
+    "a": "Jalur Sutra adalah jaringan rute perdagangan kuno yang menghubungkan Tiongkok dengan Eropa dan Timur Tengah, membentang lebih dari 6.400 kilometer. Selain sutra, jalur ini juga memperdagangkan rempah-rempah, emas, dan ide-ide budaya serta agama selama lebih dari 1.500 tahun."
+  },
+  {
+    "q": "Apa itu Colosseum di Roma dan untuk apa digunakan?",
+    "a": "Colosseum adalah amfiteater raksasa di Roma, Italia, yang dibangun pada tahun 70-80 Masehi. Bangunan ini mampu menampung sekitar 50.000-80.000 penonton dan digunakan untuk pertarungan gladiator, pertunjukan hewan liar, dan hiburan publik lainnya pada masa Kekaisaran Romawi."
+  },
+  {
+    "q": "Berapa jumlah bahasa yang ada di dunia?",
+    "a": "Terdapat sekitar 7.000 bahasa yang masih digunakan di dunia saat ini. Namun, hampir setengahnya terancam punah karena jumlah penuturnya terus menurun. Papua Nugini adalah negara dengan jumlah bahasa terbanyak, yaitu lebih dari 800 bahasa."
+  },
+  {
+    "q": "Apa bahasa yang paling banyak digunakan di dunia?",
+    "a": "Bahasa Inggris adalah bahasa yang paling banyak digunakan di dunia jika menghitung penutur asli dan non-asli, dengan lebih dari 1,5 miliar pengguna. Bahasa Mandarin memiliki penutur asli terbanyak dengan sekitar 920 juta orang."
+  },
+  {
+    "q": "Apa itu tsunami dan bagaimana terjadinya?",
+    "a": "Tsunami adalah gelombang laut raksasa yang disebabkan oleh gempa bumi bawah laut, letusan gunung berapi, atau longsor di dasar laut. Gelombang tsunami dapat mencapai ketinggian lebih dari 30 meter dan bergerak dengan kecepatan hingga 800 km/jam di laut dalam."
+  },
+  {
+    "q": "Apa itu Mars rover dan apa misinya?",
+    "a": "Mars rover adalah kendaraan robotik yang dikirim ke permukaan planet Mars untuk eksplorasi ilmiah. Perseverance, rover NASA yang mendarat di Mars pada 2021, bertugas mencari tanda-tanda kehidupan mikroba purba dan mengumpulkan sampel batuan untuk dibawa ke bumi di masa depan."
+  },
+  {
+    "q": "Siapa itu Marie Curie dan apa pencapaiannya?",
+    "a": "Marie Curie (1867-1934) adalah ilmuwan Polandia-Prancis yang menjadi wanita pertama peraih Nobel dan satu-satunya orang yang meraih Nobel di dua bidang berbeda: Fisika (1903) dan Kimia (1911). Ia menemukan unsur polonium dan radium serta memelopori penelitian radioaktivitas."
+  },
+  {
+    "q": "Apa itu energi terbarukan dan apa saja jenisnya?",
+    "a": "Energi terbarukan adalah energi yang diperoleh dari sumber alam yang tidak akan habis, seperti matahari, angin, air, dan panas bumi. Jenis-jenisnya meliputi tenaga surya, tenaga angin, tenaga air (hidroelektrik), energi panas bumi, dan biomassa. Energi terbarukan penting untuk mengurangi emisi karbon dan dampak perubahan iklim."
+  },
+  {
+    "q": "Siapa itu Stephen Hawking dan apa kontribusinya untuk sains?",
+    "a": "Stephen Hawking (1942-2018) adalah fisikawan Inggris yang terkenal karena penelitiannya tentang lubang hitam dan kosmologi. Meskipun mengidap penyakit motor neuron yang membuat dia lumpuh, dia tetap produktif dan menulis buku 'A Brief History of Time' yang menjadi bestseller. Kontribusinya terhadap pemahaman lubang hitam sangat revolusioner."
+  },
+  {
+    "q": "Apa itu Perpustakaan Aleksandria dan mengapa dikenal penting?",
+    "a": "Perpustakaan Aleksandria adalah perpustakaan kuno terbesar yang pernah ada, dibangun di Alexandria, Mesir sekitar tahun 280 SM. Pada puncaknya, ia menampung lebih dari 500.000 gulungan papirus dan menjadi pusat pembelajaran dan penelitian ilmiah tertinggi di dunia kuno. Perpustakaan ini hilang dalam narasi sejarah setelah terjadi berbagai kebakaran dan bencana alam."
+  },
+  {
+    "q": "Apa itu platinum dan mengapa logam ini berharga?",
+    "a": "Platinum adalah logam mulia yang sangat langka dan berharga. Tahan terhadap korosi, memiliki titik leleh tinggi, dan dapat disimpan tanpa perubahan warna selama ribuan tahun. Platinum digunakan dalam perhiasan, katalis industri, peralatan medis, dan komponen elektronik. Harganya bahkan lebih mahal daripada emas."
+  },
+  {
+    "q": "Apa itu Tujuh Keajaiban Dunia Kuno?",
+    "a": "Tujuh Keajaiban Dunia Kuno adalah struktur megah yang dibangun pada Zaman Kuno: Piramida Giza, Hanging Gardens of Babylon, Patung Zeus di Olympia, Kuil Artemis, Mausoleum di Halicarnassus, Mercusuar di Alexandria, dan Patung Rhodes yang berbentuk Kolossus. Hanya Piramida Giza yang masih berdiri hingga kini."
+  },
+  {
+    "q": "Apa itu dinasaurus dan kapan mereka hidup?",
+    "a": "Dinasaurus adalah kelompok reptil besar yang mendominasi kehidupan darat selama Era Mesozoikum, dari sekitar 230 juta tahun yang lalu hingga 66 juta tahun yang lalu. Mereka punah setelah asteroid besar menghantam Bumi, menciptakan Chixulub crater di Meksiko, yang mengakibatkan perubahan iklim global yang parah."
+  },
+  {
+    "q": "Siapa itu Nikola Tesla dan apa inovasinya?",
+    "a": "Nikola Tesla (1856-1943) adalah insinyur dan penemu Serbia yang berhubungan erat dengan pengembangan listrik modern. Dia menemukan motor induksi AC dan berkontribusi pada sistem tenaga AC yang kita gunakan hari ini. Tesla juga bereksperimen dengan transmisi nirkabel dan teknologi radiasi elektromagnetik yang revolusioner untuk masanya."
+  },
+  {
+    "q": "Berapa jumlah spesies yang ada di Bumi saat ini?",
+    "a": "Para ilmuwan memperkirakan terdapat 8,7 juta spesies eukariota (organisme dengan inti sel) di Bumi, meskipun baru sekitar 1,2 juta telah dideskripsikan dan dinamai. Hutan hujan tropis, savana, dan laut memiliki keragaman hayati terbesar. Diperkirakan 1.000 spesies punah setiap tahunnya karena aktivitas manusia."
+  },
+  {
+    "q": "Apa itu Great Barrier Reef dan mengapa terancam?",
+    "a": "Great Barrier Reef adalah sistem terumbu karang terbesar di dunia, terletak di lepas pantai Queensland, Australia, dengan panjang lebih dari 2.300 kilometer. Terumbu ini adalah habitat ribuan spesies ikan dan organisme laut lainnya. Terancam punah karena pemanasan global yang menyebabkan pemutihan karang, polusi, dan penangkapan ikan berlebih."
+  },
+  {
+    "q": "Apa itu perspektif linear dan siapa yang menemukannya?",
+    "a": "Perspektif linear adalah teknik seni melukis yang menciptakan ilusi kedalaman pada permukaan 2D dengan menggambar garis-garis yang bertemu di satu titik lenyap. Teknik ini ditemukan dan dikembangkan oleh seniman Renaisans Italia seperti Filippo Brunelleschi pada abad ke-15, mengubah cara orang membuat seni visual."
+  },
+  {
+    "q": "Apa itu Rosetta Stone dan mengapa penting untuk sejarah?",
+    "a": "Rosetta Stone adalah batu berbentuk datar dengan tulisan dalam tiga aksara berbeda: hieroglif Mesir, demotik, dan Yunani Kuno. Ditemukan pada 1799, batu ini memberikan kunci untuk menerjemahkan hieroglif Mesir yang telah hilang selama 1.400 tahun, membuka jalan untuk memahami peradaban Mesir Kuno. Sekarang disimpan di British Museum."
+  },
+  {
+    "q": "Apa itu Effek Doppler dalam ilmu fisika?",
+    "a": "Efek Doppler adalah perubahan frekuensi gelombang (suara atau cahaya) yang dirasakan oleh pengamat ketika sumber gelombang bergerak mendekat atau menjauh. Contohnya adalah bunyi ambulans yang terdengar lebih tinggi saat mendekat dan lebih rendah saat menjauh. Efek ini juga digunakan dalam radar, astronomi untuk mengukur pergerakan bintang, dan pengukuran kecepatan."
+  },
+  {
+    "q": "Siapa itu Gregor Mendel dan apa kontribusinya pada biologi?",
+    "a": "Gregor Mendel (1822-1884) adalah biarawan dan botanis Austria yang dikenal sebagai 'Ayah Genetika Modern'. Melalui eksperimen dengan tanaman kacang polong, dia menemukan hukum-hukum pewarisan sifat (hereditas) yang menjadi dasar ilmu genetika modern. Karyanya diabaikan pada saat itu namun dikonfirmasi ulang setelah kematiannya."
+  }
+]

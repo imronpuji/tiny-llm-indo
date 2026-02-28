@@ -1,0 +1,438 @@
+[
+  {
+    "q": "Apa ibu kota Indonesia?",
+    "a": "Ibu kota Indonesia adalah Jakarta."
+  },
+  {
+    "q": "Siapa presiden pertama Indonesia?",
+    "a": "Presiden pertama Indonesia adalah Ir. Soekarno."
+  },
+  {
+    "q": "Siapa presiden kedua Indonesia?",
+    "a": "Presiden kedua Indonesia adalah Soeharto."
+  },
+  {
+    "q": "Siapa presiden ketiga Indonesia?",
+    "a": "Presiden ketiga Indonesia adalah B.J. Habibie."
+  },
+  {
+    "q": "Siapa presiden keempat Indonesia?",
+    "a": "Presiden keempat Indonesia adalah Abdurrahman Wahid (Gus Dur)."
+  },
+  {
+    "q": "Siapa presiden kelima Indonesia?",
+    "a": "Presiden kelima Indonesia adalah Megawati Soekarnoputri."
+  },
+  {
+    "q": "Siapa presiden keenam Indonesia?",
+    "a": "Presiden keenam Indonesia adalah Susilo Bambang Yudhoyono."
+  },
+  {
+    "q": "Siapa presiden ketujuh Indonesia?",
+    "a": "Presiden ketujuh Indonesia adalah Joko Widodo (Jokowi)."
+  },
+  {
+    "q": "Berapa jumlah provinsi di Indonesia?",
+    "a": "Indonesia memiliki 38 provinsi."
+  },
+  {
+    "q": "Apa mata uang Indonesia?",
+    "a": "Mata uang Indonesia adalah Rupiah (IDR)."
+  },
+  {
+    "q": "Kapan Indonesia merdeka?",
+    "a": "Indonesia merdeka pada tanggal 17 Agustus 1945."
+  },
+  {
+    "q": "Apa lambang negara Indonesia?",
+    "a": "Lambang negara Indonesia adalah Garuda Pancasila."
+  },
+  {
+    "q": "Apa bahasa resmi Indonesia?",
+    "a": "Bahasa resmi Indonesia adalah Bahasa Indonesia."
+  },
+  {
+    "q": "Di mana letak Indonesia?",
+    "a": "Indonesia terletak di Asia Tenggara, di antara Samudra Hindia dan Samudra Pasifik."
+  },
+  {
+    "q": "Apa pulau terbesar di Indonesia?",
+    "a": "Pulau terbesar di Indonesia adalah Kalimantan (bagian Indonesia)."
+  },
+  {
+    "q": "Apa gunung tertinggi di Indonesia?",
+    "a": "Gunung tertinggi di Indonesia adalah Puncak Jaya di Papua dengan ketinggian 4.884 meter."
+  },
+  {
+    "q": "Berapa jumlah pulau di Indonesia?",
+    "a": "Indonesia memiliki lebih dari 17.000 pulau."
+  },
+  {
+    "q": "Apa bendera Indonesia?",
+    "a": "Bendera Indonesia adalah Sang Saka Merah Putih, berwarna merah di atas dan putih di bawah."
+  },
+  {
+    "q": "Apa lagu kebangsaan Indonesia?",
+    "a": "Lagu kebangsaan Indonesia adalah Indonesia Raya yang diciptakan oleh W.R. Supratman."
+  },
+  {
+    "q": "Apa semboyan Indonesia?",
+    "a": "Semboyan Indonesia adalah Bhinneka Tunggal Ika yang artinya Berbeda-beda tetapi tetap satu."
+  },
+  {
+    "q": "Berapa jumlah penduduk Indonesia?",
+    "a": "Indonesia memiliki lebih dari 270 juta penduduk, menjadikannya negara dengan penduduk terbanyak keempat di dunia."
+  },
+  {
+    "q": "Apa agama mayoritas di Indonesia?",
+    "a": "Agama mayoritas di Indonesia adalah Islam, dengan sekitar 87% penduduk beragama Islam."
+  },
+  {
+    "q": "Ada berapa agama resmi di Indonesia?",
+    "a": "Indonesia mengakui 6 agama resmi: Islam, Kristen Protestan, Katolik, Hindu, Buddha, dan Konghucu."
+  },
+  {
+    "q": "Apa nama parlemen Indonesia?",
+    "a": "Parlemen Indonesia terdiri dari DPR (Dewan Perwakilan Rakyat) dan DPD (Dewan Perwakilan Daerah)."
+  },
+  {
+    "q": "Apa nama konstitusi Indonesia?",
+    "a": "Konstitusi Indonesia adalah Undang-Undang Dasar 1945 (UUD 1945)."
+  },
+  {
+    "q": "Apa landmark paling terkenal di Indonesia?",
+    "a": "Candi Borobudur adalah landmark paling terkenal Indonesia dan merupakan candi Buddha terbesar di dunia yang terletak di Jawa Tengah."
+  },
+  {
+    "q": "Di mana letak Candi Borobudur?",
+    "a": "Candi Borobudur terletak di Kabupaten Magelang, Provinsi Jawa Tengah, dan merupakan Situs Warisan Dunia UNESCO."
+  },
+  {
+    "q": "Apa itu Candi Prambanan?",
+    "a": "Candi Prambanan adalah candi Hindu terbesar di Indonesia yang didedikasikan untuk dewa Siwa, terletak di Yogyakarta dan juga merupakan Warisan Dunia UNESCO."
+  },
+  {
+    "q": "Berapa luas wilayah Indonesia?",
+    "a": "Indonesia memiliki luas wilayah daratan sekitar 1,9 juta kilometer persegi dan perairan lebih dari 6,3 juta kilometer persegi, menjadikannya negara terbesar di Asia Tenggara."
+  },
+  {
+    "q": "Apa kerajinan tradisional Indonesia yang paling terkenal?",
+    "a": "Batik adalah kerajinan tradisional Indonesia yang paling terkenal, telah diakui UNESCO sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Non-Bendawi."
+  },
+  {
+    "q": "Kapan ASEAN didirikan?",
+    "a": "ASEAN (Association of Southeast Asian Nations) didirikan pada tanggal 8 Agustus 1967 dengan penandatanganan Deklarasi Bangkok oleh lima negara termasuk Indonesia."
+  },
+  {
+    "q": "Apa peran Indonesia dalam ASEAN?",
+    "a": "Indonesia adalah pendiri dan anggota utama ASEAN, memiliki peran strategis dalam mengarahkan politik dan ekonomi kawasan Asia Tenggara."
+  },
+  {
+    "q": "Apa tarian tradisional paling terkenal Indonesia?",
+    "a": "Tari Kecak dari Bali adalah salah satu tarian tradisional paling terkenal Indonesia, menampilkan ratusan penari dengan sinkronisasi yang memukau dan bercerita tentang epos Ramayana."
+  },
+  {
+    "q": "Apa wayang kulit dalam budaya Indonesia?",
+    "a": "Wayang kulit adalah seni pertunjukan tradisional Indonesia yang menggunakan boneka kulit dan cahaya, sering menceritakan kisah dari Mahabharata dan Ramayana, telah diakui UNESCO sebagai Warisan Budaya Tak Benda."
+  },
+  {
+    "q": "Apa saja negara tetangga Indonesia?",
+    "a": "Negara tetangga Indonesia adalah Timor Leste, Papua Nugini, Malaysia, Brunei, dan Singapura berada di wilayah maritim Indonesia."
+  },
+  {
+    "q": "Apa kota terbesar kedua di Indonesia?",
+    "a": "Surabaya adalah kota terbesar kedua di Indonesia setelah Jakarta, terletak di Jawa Timur dan merupakan pusat perdagangan dan industri penting."
+  },
+  {
+    "q": "Apa pulau kedua terbesar di Indonesia?",
+    "a": "Pulau Sumatera adalah pulau kedua terbesar di Indonesia dengan luas lebih dari 470.000 kilometer persegi."
+  },
+  {
+    "q": "Apa yang membuat Indonesia unik secara geografis?",
+    "a": "Indonesia terletak di garis khatulistiwa dan merupakan kepulauan terbesar di dunia dengan keanekaragaman hayati yang luar biasa, disebut juga sebagai megabiodiversity country."
+  },
+  {
+    "q": "Apa itu Pita Emas dan berapa panjangnya?",
+    "a": "Pita Emas adalah batas imajiner garis khatulistiwa yang melewati Indonesia, memberikan iklim tropis sepanjang tahun dan mempengaruhi karakteristik flora dan fauna Indonesia."
+  },
+  {
+    "q": "Apa hewan endemik paling terkenal Indonesia?",
+    "a": "Komodo adalah hewan endemik paling terkenal Indonesia yang hanya ditemukan di Kepulauan Komodo, Nusa Tenggara Timur, dan merupakan kadal terbesar di dunia."
+  },
+  {
+    "q": "Berapa tinggi Danau Toba?",
+    "a": "Danau Toba adalah danau terbesar di Asia Tenggara yang terletak di Sumatera Utara, dengan kedalaman lebih dari 504 meter dan merupakan danau vulkanik terbesar di dunia."
+  },
+  {
+    "q": "Apa adalah Raja Ampat dan mengapa terkenal?",
+    "a": "Raja Ampat adalah kepulauan di Papua Barat yang terkenal sebagai surga biodiversity laut dunia, dengan terumbu karang dan kehidupan laut yang sangat kaya dan menjadi destinasi diving terbaik."
+  },
+  {
+    "q": "Siapa adalah pahlawan nasional Indonesia yang paling terkenal?",
+    "a": "Soekarno adalah pahlawan nasional paling terkenal Indonesia sebagai presiden pertama dan proklamator kemerdekaan, namun ada banyak pahlawan lainnya seperti Sudirman, Diponegoro, dan lainnya."
+  },
+  {
+    "q": "Kapan perang kemerdekaan Indonesia berakhir?",
+    "a": "Perang Kemerdekaan Indonesia berakhir dengan pengakuan kedaulatan pada tanggal 27 Desember 1949, setelah perjuangan selama 4 tahun melawan penjajah Belanda."
+  },
+  {
+    "q": "Apa saja lima sila dalam Pancasila?",
+    "a": "Lima sila dalam Pancasila adalah: (1) Ketuhanan Yang Maha Esa, (2) Kemanusiaan yang Adil dan Beradab, (3) Persatuan Indonesia, (4) Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan, dan (5) Keadilan Sosial bagi Seluruh Rakyat Indonesia."
+  },
+  {
+    "q": "Apa makna simbol-simbol pada perisai Garuda Pancasila?",
+    "a": "Perisai Garuda Pancasila memuat lima simbol: bintang emas (Ketuhanan), rantai emas (Kemanusiaan), pohon beringin (Persatuan), kepala banteng (Kerakyatan), serta padi dan kapas (Keadilan Sosial). Kelima simbol ini merepresentasikan sila-sila Pancasila."
+  },
+  {
+    "q": "Berapa jumlah bulu pada sayap Garuda Pancasila dan apa maknanya?",
+    "a": "Garuda Pancasila memiliki 17 bulu pada setiap sayap, 8 bulu pada ekor, 19 bulu pada pangkal ekor, dan 45 bulu pada leher. Angka-angka ini melambangkan tanggal kemerdekaan Indonesia yaitu 17 Agustus 1945."
+  },
+  {
+    "q": "Apa arti padi dan kapas pada lambang Garuda Pancasila?",
+    "a": "Padi dan kapas pada lambang Garuda Pancasila melambangkan sila kelima Pancasila yaitu Keadilan Sosial bagi Seluruh Rakyat Indonesia. Padi melambangkan pangan dan kapas melambangkan sandang, yang merupakan kebutuhan dasar rakyat."
+  },
+  {
+    "q": "Siapa penggubah lagu Indonesia Raya dan kapan pertama kali diperdengarkan?",
+    "a": "Lagu Indonesia Raya digubah oleh Wage Rudolf Supratman dan pertama kali diperdengarkan pada Kongres Pemuda II tanggal 28 Oktober 1928 di Jakarta."
+  },
+  {
+    "q": "Apa itu Sumpah Pemuda dan kapan diperingati?",
+    "a": "Sumpah Pemuda adalah ikrar pemuda-pemudi Indonesia yang diucapkan pada 28 Oktober 1928, berisi tiga ikrar: bertanah air satu, berbangsa satu, dan berbahasa satu yaitu Indonesia. Hari Sumpah Pemuda diperingati setiap tanggal 28 Oktober."
+  },
+  {
+    "q": "Kapan Hari Pahlawan diperingati dan apa latar belakangnya?",
+    "a": "Hari Pahlawan diperingati setiap tanggal 10 November untuk mengenang peristiwa Pertempuran Surabaya tahun 1945, di mana rakyat Surabaya melawan pasukan Sekutu dan Belanda dalam perjuangan mempertahankan kemerdekaan."
+  },
+  {
+    "q": "Kapan Hari Kartini diperingati dan siapa R.A. Kartini?",
+    "a": "Hari Kartini diperingati setiap tanggal 21 April untuk mengenang Raden Ajeng Kartini, pahlawan nasional yang dikenal sebagai pelopor emansipasi wanita Indonesia. Beliau memperjuangkan hak pendidikan bagi perempuan melalui surat-suratnya."
+  },
+  {
+    "q": "Kapan Hari Pendidikan Nasional diperingati?",
+    "a": "Hari Pendidikan Nasional diperingati setiap tanggal 2 Mei, bertepatan dengan hari lahir Ki Hajar Dewantara, Bapak Pendidikan Indonesia dan pendiri Taman Siswa."
+  },
+  {
+    "q": "Kapan Hari Kebangkitan Nasional diperingati dan apa maknanya?",
+    "a": "Hari Kebangkitan Nasional diperingati setiap tanggal 20 Mei untuk mengenang berdirinya organisasi Budi Utomo pada tahun 1908, yang dianggap sebagai awal pergerakan nasional Indonesia menuju kemerdekaan."
+  },
+  {
+    "q": "Siapa itu Mohammad Hatta dan apa perannya?",
+    "a": "Mohammad Hatta adalah proklamator kemerdekaan Indonesia bersama Soekarno dan menjabat sebagai Wakil Presiden pertama Indonesia. Beliau dikenal sebagai Bapak Koperasi Indonesia karena jasanya dalam mengembangkan gerakan koperasi."
+  },
+  {
+    "q": "Siapa itu Pangeran Diponegoro?",
+    "a": "Pangeran Diponegoro adalah pahlawan nasional Indonesia yang memimpin Perang Diponegoro (1825-1830) melawan penjajah Belanda di Jawa. Perang ini merupakan salah satu perang terbesar yang dihadapi Belanda di Nusantara."
+  },
+  {
+    "q": "Siapa itu Cut Nyak Dhien?",
+    "a": "Cut Nyak Dhien adalah pahlawan nasional dari Aceh yang memimpin perlawanan terhadap penjajah Belanda dalam Perang Aceh. Beliau dikenal karena keberaniannya dan semangat juangnya yang pantang menyerah hingga akhirnya ditangkap pada tahun 1905."
+  },
+  {
+    "q": "Siapa itu Ki Hajar Dewantara?",
+    "a": "Ki Hajar Dewantara, yang bernama asli Raden Mas Soewardi Soerjaningrat, adalah Bapak Pendidikan Indonesia dan pendiri perguruan Taman Siswa pada tahun 1922. Semboyannya yang terkenal adalah Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tut Wuri Handayani."
+  },
+  {
+    "q": "Siapa itu Jenderal Sudirman?",
+    "a": "Jenderal Sudirman adalah Panglima Besar TNI pertama yang memimpin perang gerilya melawan Belanda meskipun dalam kondisi sakit parah. Beliau diangkat sebagai pahlawan nasional dan merupakan simbol semangat perjuangan militer Indonesia."
+  },
+  {
+    "q": "Apa fungsi dan tugas MPR (Majelis Permusyawaratan Rakyat)?",
+    "a": "MPR adalah lembaga tinggi negara yang berwenang mengubah dan menetapkan UUD, melantik Presiden dan Wakil Presiden, serta memberhentikan Presiden dan/atau Wakil Presiden sesuai dengan UUD 1945."
+  },
+  {
+    "q": "Apa itu BPK (Badan Pemeriksa Keuangan)?",
+    "a": "BPK adalah lembaga tinggi negara yang bertugas memeriksa pengelolaan dan tanggung jawab keuangan negara. BPK bersifat independen dan bebas dari pengaruh pemerintah dalam menjalankan tugasnya."
+  },
+  {
+    "q": "Apa itu Mahkamah Konstitusi (MK)?",
+    "a": "Mahkamah Konstitusi adalah lembaga peradilan yang berwenang mengadili sengketa konstitusional, termasuk menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan antar lembaga negara, dan memutus perselisihan hasil pemilu."
+  },
+  {
+    "q": "Apa itu Mahkamah Agung (MA)?",
+    "a": "Mahkamah Agung adalah lembaga peradilan tertinggi di Indonesia yang membawahi badan peradilan umum, agama, militer, dan tata usaha negara. MA berwenang mengadili pada tingkat kasasi dan menguji peraturan perundang-undangan di bawah undang-undang."
+  },
+  {
+    "q": "Apa itu Komisi Pemilihan Umum (KPU)?",
+    "a": "KPU adalah lembaga negara yang bertugas menyelenggarakan pemilihan umum di Indonesia, baik pemilihan presiden, legislatif, maupun pemilihan kepala daerah. KPU bersifat nasional, tetap, dan mandiri."
+  },
+  {
+    "q": "Apa itu Bank Indonesia dan apa tugasnya?",
+    "a": "Bank Indonesia (BI) adalah bank sentral Republik Indonesia yang bertugas menjaga stabilitas nilai Rupiah, mengatur sistem pembayaran, serta menjaga stabilitas sistem keuangan. BI bersifat independen dan bebas dari campur tangan pemerintah."
+  },
+  {
+    "q": "Apa denominasi uang kertas Rupiah yang beredar saat ini?",
+    "a": "Uang kertas Rupiah yang beredar saat ini memiliki denominasi Rp1.000, Rp2.000, Rp5.000, Rp10.000, Rp20.000, Rp50.000, dan Rp100.000. Masing-masing menampilkan gambar pahlawan nasional Indonesia."
+  },
+  {
+    "q": "Apa itu Perum Peruri?",
+    "a": "Perum Peruri (Perusahaan Umum Percetakan Uang Republik Indonesia) adalah BUMN yang bertugas mencetak uang kertas dan uang logam Rupiah serta dokumen keamanan negara seperti paspor, materai, dan dokumen penting lainnya."
+  },
+  {
+    "q": "Apa itu BUMN dan sebutkan contohnya?",
+    "a": "BUMN (Badan Usaha Milik Negara) adalah perusahaan yang seluruh atau sebagian besar modalnya dimiliki oleh negara. Contohnya antara lain Pertamina, PLN, Telkom, Garuda Indonesia, dan Bank Mandiri."
+  },
+  {
+    "q": "Apa itu TNI dan apa saja matra yang ada?",
+    "a": "TNI (Tentara Nasional Indonesia) adalah alat pertahanan negara yang terdiri dari tiga matra, yaitu TNI Angkatan Darat (AD), TNI Angkatan Laut (AL), dan TNI Angkatan Udara (AU). TNI bertugas menjaga kedaulatan dan keutuhan wilayah NKRI."
+  },
+  {
+    "q": "Apa itu Polri dan apa fungsinya?",
+    "a": "Polri (Kepolisian Negara Republik Indonesia) adalah institusi yang bertugas memelihara keamanan dan ketertiban masyarakat, menegakkan hukum, serta memberikan perlindungan, pengayoman, dan pelayanan kepada masyarakat."
+  },
+  {
+    "q": "Apa itu BPJS Kesehatan?",
+    "a": "BPJS Kesehatan (Badan Penyelenggara Jaminan Sosial Kesehatan) adalah badan hukum publik yang menyelenggarakan program jaminan kesehatan nasional bagi seluruh rakyat Indonesia. Program ini diluncurkan pada 1 Januari 2014."
+  },
+  {
+    "q": "Berapa zona waktu yang ada di Indonesia?",
+    "a": "Indonesia memiliki tiga zona waktu, yaitu WIB (Waktu Indonesia Barat/GMT+7), WITA (Waktu Indonesia Tengah/GMT+8), dan WIT (Waktu Indonesia Timur/GMT+9)."
+  },
+  {
+    "q": "Apa suku bangsa terbesar di Indonesia?",
+    "a": "Suku Jawa adalah suku bangsa terbesar di Indonesia dengan populasi sekitar 40% dari total penduduk. Indonesia memiliki lebih dari 1.300 suku bangsa yang tersebar di seluruh kepulauan."
+  },
+  {
+    "q": "Berapa jumlah bahasa daerah yang ada di Indonesia?",
+    "a": "Indonesia memiliki lebih dari 700 bahasa daerah yang tersebar di seluruh kepulauan. Bahasa daerah dengan penutur terbanyak adalah bahasa Jawa, bahasa Sunda, dan bahasa Madura."
+  },
+  {
+    "q": "Kapan sensus penduduk terakhir dilaksanakan di Indonesia?",
+    "a": "Sensus penduduk terakhir di Indonesia dilaksanakan pada tahun 2020 oleh Badan Pusat Statistik (BPS). Sensus ini merupakan sensus ketujuh sejak Indonesia merdeka dan menggunakan metode sensus daring untuk pertama kalinya."
+  },
+  {
+    "q": "Apa itu Badan Pusat Statistik (BPS)?",
+    "a": "BPS (Badan Pusat Statistik) adalah lembaga pemerintah non-kementerian yang bertugas menyediakan data statistik nasional, termasuk menyelenggarakan sensus penduduk, survei ekonomi, dan berbagai statistik lainnya."
+  },
+  {
+    "q": "Apa nama bandara internasional utama di Jakarta?",
+    "a": "Bandara internasional utama di Jakarta adalah Bandara Internasional Soekarno-Hatta yang terletak di Tangerang, Banten. Bandara ini merupakan bandara tersibuk di Indonesia dan salah satu yang tersibuk di Asia Tenggara."
+  },
+  {
+    "q": "Apa nama maskapai penerbangan nasional Indonesia?",
+    "a": "Maskapai penerbangan nasional Indonesia adalah Garuda Indonesia yang didirikan pada 26 Januari 1949. Garuda Indonesia merupakan maskapai flag carrier yang melayani penerbangan domestik dan internasional."
+  },
+  {
+    "q": "Apa itu MRT Jakarta?",
+    "a": "MRT Jakarta (Mass Rapid Transit) adalah sistem transportasi massal berbasis rel yang beroperasi di Jakarta sejak 24 Maret 2019. MRT Jakarta menjadi sistem angkutan cepat bawah tanah pertama di Indonesia."
+  },
+  {
+    "q": "Apa itu Kereta Cepat Whoosh?",
+    "a": "Kereta Cepat Whoosh adalah kereta api berkecepatan tinggi pertama di Indonesia dan Asia Tenggara yang menghubungkan Jakarta dan Bandung. Kereta ini diresmikan pada Oktober 2023 dengan kecepatan operasional hingga 350 km/jam."
+  },
+  {
+    "q": "Apa itu Jalan Tol Trans Jawa?",
+    "a": "Jalan Tol Trans Jawa adalah jaringan jalan tol yang menghubungkan Anyer di Banten hingga Surabaya di Jawa Timur sepanjang sekitar 1.150 kilometer. Proyek ini bertujuan memperlancar arus logistik dan transportasi di Pulau Jawa."
+  },
+  {
+    "q": "Apa itu IKN (Ibu Kota Nusantara)?",
+    "a": "IKN atau Ibu Kota Nusantara adalah ibu kota baru Indonesia yang terletak di Kabupaten Penajam Paser Utara dan sebagian Kutai Kartanegara, Kalimantan Timur. Pemindahan ibu kota dari Jakarta ditetapkan melalui UU Nomor 3 Tahun 2022."
+  },
+  {
+    "q": "Apa nama pelabuhan terbesar di Indonesia?",
+    "a": "Pelabuhan Tanjung Priok di Jakarta Utara adalah pelabuhan terbesar dan tersibuk di Indonesia. Pelabuhan ini menangani sekitar 50% dari total arus barang ekspor-impor Indonesia."
+  },
+  {
+    "q": "Apa nama selat yang memisahkan Pulau Jawa dan Sumatera?",
+    "a": "Selat Sunda adalah selat yang memisahkan Pulau Jawa dan Pulau Sumatera. Selat ini memiliki lebar sekitar 24 kilometer pada titik tersempitnya."
+  },
+  {
+    "q": "Apa sumber daya alam utama Indonesia?",
+    "a": "Indonesia kaya akan sumber daya alam seperti minyak bumi, gas alam, batu bara, timah, nikel, tembaga, emas, dan kelapa sawit. Indonesia merupakan produsen kelapa sawit dan nikel terbesar di dunia."
+  },
+  {
+    "q": "Apa itu Gelora Bung Karno?",
+    "a": "Gelora Bung Karno (GBK) adalah kompleks olahraga terbesar di Indonesia yang terletak di Senayan, Jakarta. Stadion utamanya berkapasitas sekitar 77.000 penonton dan digunakan untuk berbagai acara olahraga dan konser besar."
+  },
+  {
+    "q": "Kapan Indonesia pertama kali menjadi tuan rumah Asian Games?",
+    "a": "Indonesia pertama kali menjadi tuan rumah Asian Games pada tahun 1962 (Asian Games ke-4) di Jakarta. Indonesia juga menjadi tuan rumah Asian Games ke-18 pada tahun 2018 di Jakarta dan Palembang."
+  },
+  {
+    "q": "Apa sistem pemerintahan yang dianut Indonesia?",
+    "a": "Indonesia menganut sistem pemerintahan presidensial, di mana Presiden berperan sebagai kepala negara sekaligus kepala pemerintahan. Presiden dipilih langsung oleh rakyat untuk masa jabatan 5 tahun dan dapat dipilih kembali satu kali."
+  },
+  {
+    "q": "Apa itu Pemilu di Indonesia dan kapan dilaksanakan?",
+    "a": "Pemilu (Pemilihan Umum) di Indonesia dilaksanakan setiap 5 tahun sekali untuk memilih Presiden, anggota DPR, DPD, dan DPRD. Pemilu terakhir diselenggarakan pada 14 Februari 2024."
+  },
+  {
+    "q": "Apa tradisi yang dilakukan saat Hari Kemerdekaan Indonesia?",
+    "a": "Pada Hari Kemerdekaan 17 Agustus, masyarakat Indonesia mengadakan upacara bendera, lomba panjat pinang, lomba makan kerupuk, balap karung, dan berbagai perlombaan tradisional lainnya yang disebut lomba 17-an."
+  },
+  {
+    "q": "Apa itu Hari Kesaktian Pancasila?",
+    "a": "Hari Kesaktian Pancasila diperingati setiap tanggal 1 Oktober untuk mengenang peristiwa G30S/PKI tahun 1965. Pada hari ini dilakukan upacara di Monumen Pancasila Sakti di Lubang Buaya, Jakarta Timur."
+  },
+  {
+    "q": "Apa itu Monas dan di mana letaknya?",
+    "a": "Monas (Monumen Nasional) adalah tugu peringatan setinggi 132 meter yang terletak di pusat Lapangan Merdeka, Jakarta Pusat. Monas dibangun untuk mengenang perjuangan kemerdekaan Indonesia dan diresmikan pada tahun 1975."
+  },
+  {
+    "q": "Apa itu ASEAN dan berapa jumlah anggotanya saat ini?",
+    "a": "ASEAN (Association of Southeast Asian Nations) adalah organisasi kerja sama regional yang beranggotakan 10 negara Asia Tenggara: Indonesia, Malaysia, Filipina, Singapura, Thailand, Brunei, Vietnam, Laos, Myanmar, dan Kamboja."
+  },
+  {
+    "q": "Apa makna warna-warna pada bendera Indonesia?",
+    "a": "Bendera Indonesia berwarna merah putih dengan makna: merah melambangkan keberanian dan putih melambangkan kesucian. Kedua warna ini juga mencerminkan aspek spiritual dari bangsa Indonesia."
+  },
+  {
+    "q": "Siapa itu Tjokorda Gde Agung Sukawati dan apa kontribusinya?",
+    "a": "Tjokorda Gde Agung Sukawati adalah tokoh cendekiawan dan diplomat Indonesia yang memainkan peran penting dalam diplomasi Indonesia pasca kemerdekaan. Beliau juga dikenal sebagai tokoh dalam pelestarian budaya Bali."
+  },
+  {
+    "q": "Apa itu Taman Nasional Komodo dan mengapa penting?",
+    "a": "Taman Nasional Komodo adalah area konservasi di Nusa Tenggara Timur yang melindungi komodo dan ekosistemnya. Taman ini ditetapkan sebagai Situs Warisan Dunia UNESCO pada tahun 1991 karena signifikansi ekologisnya yang luar biasa."
+  },
+  {
+    "q": "Apa itu Cagar Alam Ujung Kulon dan hewan langka yang dilindunginya?",
+    "a": "Cagar Alam Ujung Kulon adalah cagar alam di Banten yang melindungi badak bercula satu Jawa (Javan Rhino), salah satu mamalia paling terancam punah di dunia. Area ini juga dilindungi sebagai Situs Warisan Dunia UNESCO."
+  },
+  {
+    "q": "Apa nama batik Indonesia yang terkenal dan dari mana asalnya?",
+    "a": "Batik Tulis Lasem dari Jawa Tengah, Batik Cirebon dari Jawa Barat, dan Batik Madura dari Madura adalah beberapa batik terkenal Indonesia. Setiap daerah memiliki motif batik yang unik dan menceritakan kisah budaya setempat."
+  },
+  {
+    "q": "Apa itu Garuda Indonesia dan mengapa dipilih sebagai maskapai flag carrier?",
+    "a": "Garuda Indonesia dipilih sebagai maskapai penerbangan flag carrier karena lambang Garuda adalah simbol nasional Indonesia. Maskapai ini didirikan untuk mewakili negara dalam penerbangan internasional dan meningkatkan prestise Indonesia."
+  },
+  {
+    "q": "Berapa panjang Jembatan Suramadu yang menghubungkan Surabaya dan Madura?",
+    "a": "Jembatan Suramadu memiliki panjang total 5.438 meter dan menghubungkan Kota Surabaya dan Pulau Madura. Jembatan ini diresmikan pada tahun 2009 dan merupakan jembatan terpanjang di Indonesia untuk melintasi laut."
+  },
+  {
+    "q": "Apa nama panitia yang merancang Pancasila dan siapa tokoh utamanya?",
+    "a": "Panitia Persiapan Kemerdekaan Indonesia (PPKI) yang didukung Dokuritsu Junbi Cosakai merancang Pancasila. Tokoh utamanya adalah Soekarno, Mohammad Hatta, Ahmad Sukarno, dan tokoh-tokoh lainnya dalam sidang-sidang persiapan kemerdekaan."
+  },
+  {
+    "q": "Apa itu Deklarasi Bangkok yang mendirikan ASEAN?",
+    "a": "Deklarasi Bangkok adalah dokumen pendirian ASEAN yang ditandatangani pada 8 Agustus 1967 oleh lima negara pendiri yaitu Indonesia, Filipina, Malaysia, Singapura, dan Thailand. Deklarasi ini menetapkan tujuan dan prinsip-prinsip kerja sama ASEAN."
+  },
+  {
+    "q": "Siapa tokoh wanita pejuang kemerdekaan Indonesia yang paling terkenal selain Cut Nyak Dhien?",
+    "a": "Dewi Sartika adalah tokoh pejuang wanita yang terkenal di Indonesia, memperjuangkan pendidikan bagi kaum perempuan di Bandung dengan mendirikan sekolah untuk anak perempuan. Beliau diperingati pada tanggal 4 Desember yang disebut Hari Santri."
+  },
+  {
+    "q": "Apa itu Tari Pendet dan dari provinsi mana asalnya?",
+    "a": "Tari Pendet adalah tari tradisional dari Bali yang biasanya dipersembahkan pada acara upacara keagamaan. Tari ini menampilkan gerakan graceful dengan properti bunga dan sering disebut sebagai tari penyambutan atau tari pemberi berkah."
+  },
+  {
+    "q": "Apa arti dari Bhinneka Tunggal Ika yang merupakan semboyan Indonesia?",
+    "a": "Bhinneka Tunggal Ika berasal dari bahasa Sanskerta yang artinya 'Berbeda-beda tetapi tetap satu.' Semboyan ini mencerminkan kebhinekaan Indonesia dalam hal suku, agama, budaya, dan bahasa namun bersatu dalam satu bangsa dan negara."
+  },
+  {
+    "q": "Apa nama ibukota dari masing-masing provinsi di Indonesia yang terbesar?",
+    "a": "Ibukota provinsi terbesar termasuk Jakarta (DKI Jakarta), Medan (Sumatera Utara), Palembang (Sumatera Selatan), Bandung (Jawa Barat), Semarang (Jawa Tengah), Surabaya (Jawa Timur), Denpasar (Bali), Banjarmasin (Kalimantan Selatan), dan Makassar (Sulawesi Selatan)."
+  },
+  {
+    "q": "Apa makna 17-45 yang sering ditemukan pada lambang dan peringatan nasional Indonesia?",
+    "a": "Angka 17-45 melambangkan tanggal kemerdekaan Indonesia yaitu 17 Agustus 1945. Angka-angka ini sering digunakan pada lambang negara, panitia, dan peringatan nasional untuk mengenang momen bersejarah proklamasi kemerdekaan."
+  },
+  {
+    "q": "Apa itu Gedung Juang 45 dan di mana letaknya?",
+    "a": "Gedung Juang 45 adalah gedung bersejarah di Jakarta yang menjadi markas militer selama masa revolusi kemerdekaan Indonesia. Gedung ini kini menjadi museum yang menyimpan arsenal, dokumen, dan barang-barang bersejarah dari perjuangan kemerdekaan."
+  },
+  {
+    "q": "Berapa lama durasi pembelauan PKI di Indonesia dan bagaimana dampaknya terhadap negara?",
+    "a": "Peristiwa G30S/PKI terjadi pada 1965 dan menjadi titik balik sejarah Indonesia yang menyebabkan penggantian zaman dari Orde Lama (Soekarno) menjadi Orde Baru (Soeharto). Peristiwa ini memiliki dampak signifikan terhadap struktur politik dan masyarakat Indonesia selama puluhan tahun."
+  }
+]

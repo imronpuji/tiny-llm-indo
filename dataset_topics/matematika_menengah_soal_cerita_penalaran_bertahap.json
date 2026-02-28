@@ -1,0 +1,229 @@
+[
+  {
+    "q": "Pak Budi membeli 5 kg apel dengan harga Rp18.000 per kg dan 3 kg jeruk dengan harga Rp12.000 per kg. Ia membayar dengan uang Rp200.000. Berapa kembalian yang ia terima?",
+    "a": "Diketahui:\n- Apel: 5 kg × Rp18.000 = Rp90.000\n- Jeruk: 3 kg × Rp12.000 = Rp36.000\n- Uang yang dibayarkan: Rp200.000\n\nDitanya: Berapa kembalian?\n\nPenyelesaian:\nTotal belanja = Rp90.000 + Rp36.000 = Rp126.000\nKembalian = Rp200.000 - Rp126.000 = Rp74.000\n\nJadi, jawabannya adalah Pak Budi menerima kembalian sebesar Rp74.000."
+  },
+  {
+    "q": "Sebuah mobil menempuh jarak 240 km dalam waktu 3 jam. Jika kecepatan mobil dinaikkan 20 km/jam, berapa waktu yang diperlukan untuk menempuh jarak yang sama?",
+    "a": "Diketahui:\n- Jarak: 240 km\n- Waktu awal: 3 jam\n- Kecepatan awal: 240 ÷ 3 = 80 km/jam\n- Kecepatan baru: 80 + 20 = 100 km/jam\n\nDitanya: Waktu dengan kecepatan baru?\n\nPenyelesaian:\nWaktu = Jarak ÷ Kecepatan = 240 ÷ 100 = 2,4 jam = 2 jam 24 menit\n\nJadi, jawabannya adalah waktu yang diperlukan adalah 2 jam 24 menit."
+  },
+  {
+    "q": "Nilai ulangan matematika 6 siswa adalah 70, 85, 90, 75, 80, dan 60. Berapa rata-rata nilai mereka? Apakah rata-rata tersebut di atas 75?",
+    "a": "Diketahui:\n- Nilai: 70, 85, 90, 75, 80, 60\n- Jumlah siswa: 6\n\nDitanya: Rata-rata nilai dan apakah di atas 75?\n\nPenyelesaian:\nJumlah nilai = 70 + 85 + 90 + 75 + 80 + 60 = 460\nRata-rata = 460 ÷ 6 = 76,67\n\nKarena 76,67 > 75, maka rata-rata berada di atas 75.\n\nJadi, jawabannya adalah rata-rata nilai adalah 76,67 dan ya, nilainya di atas 75."
+  },
+  {
+    "q": "Seorang pedagang membeli 50 buah mangga dengan harga Rp3.000 per buah. Ia menjual 40 buah dengan harga Rp5.000 per buah, dan sisanya rusak. Berapa keuntungan atau kerugian pedagang tersebut?",
+    "a": "Diketahui:\n- Modal: 50 × Rp3.000 = Rp150.000\n- Penjualan: 40 × Rp5.000 = Rp200.000\n- 10 buah rusak (tidak terjual)\n\nDitanya: Untung atau rugi?\n\nPenyelesaian:\nKeuntungan = Hasil jual - Modal = Rp200.000 - Rp150.000 = Rp50.000\n\nJadi, jawabannya adalah pedagang mendapat keuntungan sebesar Rp50.000."
+  },
+  {
+    "q": "Sebuah kolam renang dapat diisi oleh pipa A dalam 6 jam dan pipa B dalam 4 jam. Jika kedua pipa dibuka bersamaan, berapa jam kolam akan penuh?",
+    "a": "Diketahui:\n- Pipa A mengisi 1/6 kolam per jam\n- Pipa B mengisi 1/4 kolam per jam\n\nDitanya: Waktu pengisian jika kedua pipa dibuka bersama?\n\nPenyelesaian:\nKecepatan gabungan = 1/6 + 1/4 = 2/12 + 3/12 = 5/12 kolam per jam\nWaktu = 1 ÷ (5/12) = 12/5 = 2,4 jam = 2 jam 24 menit\n\nJadi, jawabannya adalah kolam akan penuh dalam 2 jam 24 menit."
+  },
+  {
+    "q": "Toko A menjual baju seharga Rp120.000 dengan diskon 25%. Toko B menjual baju yang sama seharga Rp100.000 dengan diskon 10%. Manakah yang lebih murah?",
+    "a": "Diketahui:\n- Toko A: Rp120.000 diskon 25%\n- Toko B: Rp100.000 diskon 10%\n\nDitanya: Mana yang lebih murah?\n\nPenyelesaian:\nHarga Toko A setelah diskon = Rp120.000 × (1 - 0,25) = Rp120.000 × 0,75 = Rp90.000\nHarga Toko B setelah diskon = Rp100.000 × (1 - 0,10) = Rp100.000 × 0,90 = Rp90.000\n\nKedua harga sama setelah diskon.\n\nJadi, jawabannya adalah kedua toko sama-sama menjual dengan harga Rp90.000 setelah diskon."
+  },
+  {
+    "q": "Sebuah kereta berangkat pukul 07.30 dan tiba pukul 11.15. Jarak yang ditempuh 285 km. Berapa kecepatan rata-rata kereta tersebut?",
+    "a": "Diketahui:\n- Berangkat: 07.30, tiba: 11.15\n- Jarak: 285 km\n\nDitanya: Kecepatan rata-rata?\n\nPenyelesaian:\nLama perjalanan = 11.15 - 07.30 = 3 jam 45 menit = 3,75 jam\nKecepatan = Jarak ÷ Waktu = 285 ÷ 3,75 = 76 km/jam\n\nJadi, jawabannya adalah kecepatan rata-rata kereta adalah 76 km/jam."
+  },
+  {
+    "q": "Ibu menabung Rp500.000 di bank dengan bunga sederhana 8% per tahun. Berapa total uang ibu setelah 3 tahun?",
+    "a": "Diketahui:\n- Modal awal (P): Rp500.000\n- Suku bunga (r): 8% per tahun\n- Waktu (t): 3 tahun\n\nDitanya: Total uang setelah 3 tahun?\n\nPenyelesaian:\nBunga = P × r × t = Rp500.000 × 0,08 × 3 = Rp120.000\nTotal = Modal + Bunga = Rp500.000 + Rp120.000 = Rp620.000\n\nJadi, jawabannya adalah total uang ibu setelah 3 tahun adalah Rp620.000."
+  },
+  {
+    "q": "Sebuah persegi panjang memiliki keliling 54 cm. Jika panjangnya dua kali lebarnya, berapakah luas persegi panjang tersebut?",
+    "a": "Diketahui:\n- Keliling = 54 cm\n- Panjang (p) = 2 × lebar (l)\n\nDitanya: Luas persegi panjang?\n\nPenyelesaian:\nKeliling = 2 × (p + l)\n54 = 2 × (2l + l)\n54 = 2 × 3l\n54 = 6l\nl = 9 cm, sehingga p = 18 cm\n\nLuas = p × l = 18 × 9 = 162 cm²\n\nJadi, jawabannya adalah luas persegi panjang tersebut adalah 162 cm²."
+  },
+  {
+    "q": "Ayah berjalan ke pasar dengan kecepatan 4 km/jam, lalu pulang naik ojek dengan kecepatan 20 km/jam. Jika jarak rumah ke pasar 2 km, berapa total waktu perjalanan ayah?",
+    "a": "Diketahui:\n- Jarak = 2 km\n- Kecepatan jalan kaki = 4 km/jam\n- Kecepatan ojek = 20 km/jam\n\nDitanya: Total waktu perjalanan?\n\nPenyelesaian:\nWaktu pergi (jalan kaki) = 2 ÷ 4 = 0,5 jam = 30 menit\nWaktu pulang (ojek) = 2 ÷ 20 = 0,1 jam = 6 menit\nTotal waktu = 30 + 6 = 36 menit\n\nJadi, jawabannya adalah total waktu perjalanan ayah adalah 36 menit."
+  },
+  {
+    "q": "Dalam sebuah kelas ada 30 siswa. Sebanyak 18 siswa suka matematika, 14 siswa suka IPA, dan 8 siswa suka keduanya. Berapa siswa yang tidak suka keduanya?",
+    "a": "Diketahui:\n- Total siswa: 30\n- Suka matematika: 18\n- Suka IPA: 14\n- Suka keduanya: 8\n\nDitanya: Siswa yang tidak suka keduanya?\n\nPenyelesaian (menggunakan diagram Venn):\nSiswa yang suka salah satu atau keduanya = 18 + 14 - 8 = 24\nSiswa yang tidak suka keduanya = 30 - 24 = 6\n\nJadi, jawabannya adalah 6 siswa tidak suka keduanya."
+  },
+  {
+    "q": "Harga sebuah sepeda motor turun 15% menjadi Rp17.000.000. Berapa harga sepeda motor sebelum turun?",
+    "a": "Diketahui:\n- Harga setelah turun: Rp17.000.000\n- Persentase penurunan: 15%\n\nDitanya: Harga sebelum turun?\n\nPenyelesaian:\nHarga setelah turun = 85% dari harga awal\nRp17.000.000 = 85% × Harga awal\nHarga awal = Rp17.000.000 ÷ 0,85 = Rp20.000.000\n\nJadi, jawabannya adalah harga sepeda motor sebelum turun adalah Rp20.000.000."
+  },
+  {
+    "q": "Seorang pekerja dibayar Rp120.000 per hari. Ia bekerja 22 hari dalam sebulan, namun dipotong pajak 5%. Berapa gaji bersih yang ia terima?",
+    "a": "Diketahui:\n- Upah per hari: Rp120.000\n- Hari kerja: 22 hari\n- Pajak: 5%\n\nDitanya: Gaji bersih?\n\nPenyelesaian:\nGaji kotor = Rp120.000 × 22 = Rp2.640.000\nPotongan pajak = 5% × Rp2.640.000 = Rp132.000\nGaji bersih = Rp2.640.000 - Rp132.000 = Rp2.508.000\n\nJadi, jawabannya adalah gaji bersih yang diterima adalah Rp2.508.000."
+  },
+  {
+    "q": "Dua kota A dan B berjarak 300 km. Mobil I berangkat dari A dan mobil II berangkat dari B secara bersamaan menuju satu sama lain. Kecepatan mobil I 60 km/jam dan mobil II 90 km/jam. Berapa lama sampai keduanya bertemu?",
+    "a": "Diketahui:\n- Jarak A ke B: 300 km\n- Kecepatan mobil I: 60 km/jam\n- Kecepatan mobil II: 90 km/jam\n- Berangkat bersamaan dari arah berlawanan\n\nDitanya: Waktu hingga bertemu?\n\nPenyelesaian:\nKecepatan pendekatan = 60 + 90 = 150 km/jam\nWaktu bertemu = 300 ÷ 150 = 2 jam\n\nJadi, jawabannya adalah kedua mobil akan bertemu setelah 2 jam."
+  },
+  {
+    "q": "Sebuah toko memberikan diskon kedua sebesar 10% setelah diskon pertama 20% dari harga asli Rp500.000. Berapa harga akhir barang tersebut?",
+    "a": "Diketahui:\n- Harga asli: Rp500.000\n- Diskon pertama: 20%\n- Diskon kedua: 10% dari harga setelah diskon pertama\n\nDitanya: Harga akhir?\n\nPenyelesaian:\nSetelah diskon pertama = Rp500.000 × (1 - 0,20) = Rp400.000\nSetelah diskon kedua = Rp400.000 × (1 - 0,10) = Rp360.000\n\nJadi, jawabannya adalah harga akhir barang tersebut adalah Rp360.000."
+  },
+  {
+    "q": "Sebuah tangki air berbentuk balok berukuran panjang 2 m, lebar 1,5 m, dan tinggi 1 m. Jika tangki terisi 3/4 penuh, berapa liter air di dalamnya? (1 m³ = 1000 liter)",
+    "a": "Diketahui:\n- Panjang: 2 m, Lebar: 1,5 m, Tinggi: 1 m\n- Terisi 3/4 penuh\n- 1 m³ = 1000 liter\n\nDitanya: Jumlah air dalam liter?\n\nPenyelesaian:\nVolume tangki = 2 × 1,5 × 1 = 3 m³\nVolume air = 3/4 × 3 = 2,25 m³\nDalam liter = 2,25 × 1000 = 2.250 liter\n\nJadi, jawabannya adalah tangki berisi 2.250 liter air."
+  },
+  {
+    "q": "Rini menyelesaikan 2/5 pekerjaan rumah pada hari pertama dan 1/3 sisanya pada hari kedua. Berapa bagian pekerjaan yang belum selesai?",
+    "a": "Diketahui:\n- Hari pertama: 2/5 dari total pekerjaan\n- Hari kedua: 1/3 dari sisa pekerjaan\n\nDitanya: Bagian pekerjaan yang belum selesai?\n\nPenyelesaian:\nSisa setelah hari pertama = 1 - 2/5 = 3/5\nYang dikerjakan hari kedua = 1/3 × 3/5 = 1/5\nTotal selesai = 2/5 + 1/5 = 3/5\nBelum selesai = 1 - 3/5 = 2/5\n\nJadi, jawabannya adalah 2/5 pekerjaan belum selesai."
+  },
+  {
+    "q": "Suatu tempat wisata dikunjungi 1.200 orang selama 5 hari berturut-turut dengan rata-rata 240 orang per hari. Pada hari ke-6, jumlah pengunjung 300 orang. Berapa rata-rata pengunjung selama 6 hari?",
+    "a": "Diketahui:\n- Total pengunjung 5 hari: 1.200 orang\n- Hari ke-6: 300 orang\n\nDitanya: Rata-rata selama 6 hari?\n\nPenyelesaian:\nTotal pengunjung 6 hari = 1.200 + 300 = 1.500 orang\nRata-rata = 1.500 ÷ 6 = 250 orang per hari\n\nJadi, jawabannya adalah rata-rata pengunjung selama 6 hari adalah 250 orang per hari."
+  },
+  {
+    "q": "Sebuah pipa bocor mengeluarkan 50 ml air per menit. Berapa liter air yang terbuang sia-sia dalam satu hari?",
+    "a": "Diketahui:\n- Kebocoran: 50 ml per menit\n- Waktu: 1 hari = 24 jam = 1.440 menit\n\nDitanya: Total air yang terbuang dalam liter?\n\nPenyelesaian:\nTotal air = 50 ml × 1.440 = 72.000 ml\nDalam liter = 72.000 ÷ 1.000 = 72 liter\n\nJadi, jawabannya adalah 72 liter air terbuang sia-sia setiap harinya."
+  },
+  {
+    "q": "Di sebuah sekolah, perbandingan siswa laki-laki dan perempuan adalah 3 : 5. Jika jumlah siswa perempuan 200 orang, berapa total seluruh siswa?",
+    "a": "Diketahui:\n- Perbandingan laki-laki : perempuan = 3 : 5\n- Jumlah perempuan: 200 orang\n\nDitanya: Total seluruh siswa?\n\nPenyelesaian:\nSatu bagian = 200 ÷ 5 = 40 orang\nJumlah laki-laki = 3 × 40 = 120 orang\nTotal siswa = 120 + 200 = 320 orang\n\nJadi, jawabannya adalah total seluruh siswa adalah 320 orang."
+  },
+  {
+    "q": "Seorang penjahit dapat membuat 3 baju dalam 2 hari. Berapa baju yang bisa dibuat dalam 30 hari? Dan berapa hari untuk membuat 45 baju?",
+    "a": "Diketahui:\n- 3 baju dalam 2 hari\n- Target 1: berapa baju dalam 30 hari\n- Target 2: berapa hari untuk 45 baju\n\nDitanya: Jumlah baju dan hari yang diperlukan?\n\nPenyelesaian:\nLaju kerja = 3/2 baju per hari = 1,5 baju per hari\n\nBaju dalam 30 hari = 1,5 × 30 = 45 baju\nHari untuk 45 baju = 45 ÷ 1,5 = 30 hari\n\nJadi, jawabannya adalah penjahit bisa membuat 45 baju dalam 30 hari, dan untuk membuat 45 baju dibutuhkan 30 hari."
+  },
+  {
+    "q": "Hana memiliki uang Rp350.000. Ia menghabiskan 40% untuk buku, 25% untuk alat tulis, dan sisanya ia tabung. Berapa rupiah yang ditabung Hana?",
+    "a": "Diketahui:\n- Total uang: Rp350.000\n- Untuk buku: 40%\n- Untuk alat tulis: 25%\n- Sisanya ditabung\n\nDitanya: Uang yang ditabung?\n\nPenyelesaian:\nPersentase ditabung = 100% - 40% - 25% = 35%\nUang yang ditabung = 35% × Rp350.000 = 0,35 × Rp350.000 = Rp122.500\n\nJadi, jawabannya adalah Hana menabung sebesar Rp122.500."
+  },
+  {
+    "q": "Sebuah proyek dijadwalkan selesai dalam 20 hari dengan 15 pekerja. Setelah 8 hari, 5 pekerja sakit dan tidak bisa bekerja. Berapa hari tambahan yang diperlukan untuk menyelesaikan proyek?",
+    "a": "Diketahui:\n- Rencana: 20 hari × 15 pekerja = 300 hari-orang (total pekerjaan)\n- Sudah dikerjakan: 8 hari × 15 pekerja = 120 hari-orang\n- Sisa pekerjaan: 300 - 120 = 180 hari-orang\n- Pekerja tersisa: 15 - 5 = 10 pekerja\n\nDitanya: Berapa hari untuk menyelesaikan sisa pekerjaan?\n\nPenyelesaian:\nHari yang diperlukan = 180 ÷ 10 = 18 hari\nRencana sisa hari = 20 - 8 = 12 hari\nTambahan hari = 18 - 12 = 6 hari\n\nJadi, jawabannya adalah proyek membutuhkan 6 hari tambahan dari jadwal semula."
+  },
+  {
+    "q": "Nilai median dari data berikut: 45, 72, 38, 91, 56, 64, 38. Tentukan juga nilai modusnya.",
+    "a": "Diketahui:\n- Data: 45, 72, 38, 91, 56, 64, 38\n- Jumlah data: 7\n\nDitanya: Median dan modus?\n\nPenyelesaian:\nUrutkan data: 38, 38, 45, 56, 64, 72, 91\nMedian = nilai tengah = data ke-4 = 56\nModus = nilai yang paling sering muncul = 38 (muncul 2 kali)\n\nJadi, jawabannya adalah median data tersebut adalah 56 dan modusnya adalah 38."
+  },
+  {
+    "q": "Sebuah becak melaju sejauh 1,8 km dalam 12 menit. Sebuah sepeda melaju dengan kecepatan 15 km/jam. Manakah yang lebih cepat dan berapa selisih kecepatannya?",
+    "a": "Diketahui:\n- Becak: 1,8 km dalam 12 menit\n- Sepeda: 15 km/jam\n\nDitanya: Mana yang lebih cepat dan berapa selisihnya?\n\nPenyelesaian:\nKecepatan becak = 1,8 km ÷ (12/60) jam = 1,8 ÷ 0,2 = 9 km/jam\nKecepatan sepeda = 15 km/jam\n\nSepeda lebih cepat.\nSelisih kecepatan = 15 - 9 = 6 km/jam\n\nJadi, jawabannya adalah sepeda lebih cepat dengan selisih kecepatan 6 km/jam dibandingkan becak."
+  },
+  {
+    "q": "Selesaikan persamaan aljabar: 3x + 5 = 2x + 12. Tentukan nilai x dan buktikan jawabanmu.",
+    "a": "Diketahui:\n- Persamaan: 3x + 5 = 2x + 12\n\nDitanya: Nilai x?\n\nPenyelesaian:\n3x + 5 = 2x + 12\n3x - 2x = 12 - 5\nx = 7\n\nBuktikan:\nSisi kiri: 3(7) + 5 = 21 + 5 = 26\nSisi kanan: 2(7) + 12 = 14 + 12 = 26\nKedua sisi sama, maka x = 7 benar.\n\nJadi, jawabannya adalah x = 7."
+  },
+  {
+    "q": "Dani membeli beberapa pensil dan penghapus. Jika ia membeli 3 pensil dan 2 penghapus dengan harga Rp35.000, dan 2 pensil dan 3 penghapus dengan harga Rp30.000, berapa harga satu pensil dan satu penghapus?",
+    "a": "Diketahui:\n- 3 pensil + 2 penghapus = Rp35.000 ... (1)\n- 2 pensil + 3 penghapus = Rp30.000 ... (2)\n\nDitanya: Harga 1 pensil dan 1 penghapus?\n\nPenyelesaian:\nMisalkan: p = harga pensil, g = harga penghapus\n\nPersamaan (1): 3p + 2g = 35.000\nPersamaan (2): 2p + 3g = 30.000\n\nKalikan (1) dengan 3: 9p + 6g = 105.000\nKalikan (2) dengan 2: 4p + 6g = 60.000\n\nKurangi: (9p + 6g) - (4p + 6g) = 105.000 - 60.000\n5p = 45.000\np = 9.000 (harga pensil)\n\nSubstitusi ke (2): 2(9.000) + 3g = 30.000\n18.000 + 3g = 30.000\n3g = 12.000\ng = 4.000 (harga penghapus)\n\nHarga 1 pensil + 1 penghapus = 9.000 + 4.000 = Rp13.000\n\nJadi, jawabannya adalah 1 pensil harganya Rp9.000 dan 1 penghapus Rp4.000, total Rp13.000."
+  },
+  {
+    "q": "Sebuah segitiga siku-siku memiliki panjang kedua sisi tegak lurus (kaki) adalah 12 cm dan 9 cm. Tentukan panjang sisi miring (hipotenusa) segitiga tersebut.",
+    "a": "Diketahui:\n- Sisi tegak lurus pertama (a) = 12 cm\n- Sisi tegak lurus kedua (b) = 9 cm\n\nDitanya: Panjang hipotenusa (c)?\n\nPenyelesaian:\nMenggunakan Teorema Pythagoras: c² = a² + b²\nc² = 12² + 9²\nc² = 144 + 81\nc² = 225\nc = √225 = 15 cm\n\nJadi, jawabannya adalah panjang sisi miring (hipotenusa) segitiga adalah 15 cm."
+  },
+  {
+    "q": "Sebuah lingkaran memiliki jari-jari 14 cm. Hitung keliling dan luas lingkaran tersebut. (Gunakan π = 22/7)",
+    "a": "Diketahui:\n- Jari-jari (r) = 14 cm\n- π = 22/7\n\nDitanya: Keliling dan luas lingkaran?\n\nPenyelesaian:\nKeliling = 2πr = 2 × (22/7) × 14 = 2 × 22 × 2 = 88 cm\n\nLuas = πr² = (22/7) × 14² = (22/7) × 196\n     = 22 × 28 = 616 cm²\n\nJadi, jawabannya adalah keliling lingkaran 88 cm dan luasnya 616 cm²."
+  },
+  {
+    "q": "Dalam sebuah kompetisi logika, ada 6 orang peserta (A, B, C, D, E, F). Jika setiap dua orang harus berjabat tangan tepat satu kali, berapa total jabat tangan yang terjadi?",
+    "a": "Diketahui:\n- 6 orang peserta: A, B, C, D, E, F\n- Setiap dua orang berjabat tangan 1 kali\n\nDitanya: Total jabat tangan?\n\nPenyelesaian:\nIni adalah masalah kombinasi (memilih 2 dari 6 orang).\nTotal jabat tangan = C(6,2) = 6!/(2!(6-2)!) = (6 × 5)/2 = 15\n\nAtau bisa dihitung:\nA berjabat dengan B, C, D, E, F = 5 jabat tangan\nB berjabat dengan C, D, E, F = 4 jabat tangan\nC berjabat dengan D, E, F = 3 jabat tangan\nD berjabat dengan E, F = 2 jabat tangan\nE berjabat dengan F = 1 jabat tangan\nTotal = 5 + 4 + 3 + 2 + 1 = 15 jabat tangan\n\nJadi, jawabannya adalah ada 15 jabat tangan."
+  },
+  {
+    "q": "Pak Ahmad memiliki kebun berbentuk persegi panjang dengan panjang 25 m dan lebar 15 m. Ia ingin membuat pagar di sekeliling kebun. Jika biaya pagar adalah Rp85.000 per meter, berapa total biaya untuk membuat pagar?",
+    "a": "Diketahui:\n- Panjang kebun (p) = 25 m\n- Lebar kebun (l) = 15 m\n- Biaya pagar = Rp85.000 per meter\n\nDitanya: Total biaya pagar?\n\nPenyelesaian:\nKeliling kebun = 2 × (p + l) = 2 × (25 + 15) = 2 × 40 = 80 m\nTotal biaya = 80 × Rp85.000 = Rp6.800.000\n\nJadi, jawabannya adalah total biaya untuk membuat pagar adalah Rp6.800.000."
+  },
+  {
+    "q": "Tiga siswa mendapat nilai ulangan berturut-turut 78, 85, dan 92. Jika mereka akan mengikuti ulangan susulan dengan target rata-rata 85, berapa nilai minimal yang harus didapat siswa pertama?",
+    "a": "Diketahui:\n- Nilai siswa 1: 78\n- Nilai siswa 2: 85\n- Nilai siswa 3: 92\n- Target rata-rata: 85 untuk 3 orang\n\nDitanya: Nilai minimal siswa 1 untuk mencapai target?\n\nPenyelesaian:\nTotal nilai yang diperlukan = 85 × 3 = 255\nTotal nilai sekarang = 78 + 85 + 92 = 255\n\nKarena total nilai sudah mencapai target (255), maka siswa 1 sudah memenuhi tanpa nilai tambahan. Namun jika pertanyaan dimaksudkan untuk ulangan susulan:\n\nNilai yang perlu dicapai oleh siswa 1 = 255 - 85 - 92 = 78\n\nJadi, jawabannya adalah siswa pertama sudah memenuhi target dengan nilai 78."
+  },
+  {
+    "q": "Sebuah kotak berisi 5 kelereng merah, 3 kelereng biru, dan 2 kelereng hijau. Jika diambil 1 kelereng secara acak, berapa peluang terambil kelereng merah atau biru?",
+    "a": "Diketahui:\n- Kelereng merah: 5\n- Kelereng biru: 3\n- Kelereng hijau: 2\n- Total kelereng: 5 + 3 + 2 = 10\n\nDitanya: Peluang terambil merah atau biru?\n\nPenyelesaian:\nKelereng merah atau biru = 5 + 3 = 8\nPeluang (merah atau biru) = 8/10 = 4/5 = 0,8 = 80%\n\nJadi, jawabannya adalah peluang terambil kelereng merah atau biru adalah 4/5 atau 80%."
+  },
+  {
+    "q": "Seorang pengusaha panen 250 kg kopi. Setelah dikeringkan, berat kopi berkurang 20%. Jika harga kopi kering Rp50.000 per kg, berapa pendapatan dari penjualan kopi kering?",
+    "a": "Diketahui:\n- Berat kopi segar: 250 kg\n- Pengurangan berat saat pengeringan: 20%\n- Harga kopi kering: Rp50.000 per kg\n\nDitanya: Pendapatan dari penjualan?\n\nPenyelesaian:\nPengurangan berat = 20% × 250 = 0,2 × 250 = 50 kg\nBerat kopi kering = 250 - 50 = 200 kg\nPendapatan = 200 × Rp50.000 = Rp10.000.000\n\nJadi, jawabannya adalah pendapatan dari penjualan kopi kering adalah Rp10.000.000."
+  },
+  {
+    "q": "Sebuah tinggi segitiga adalah 10 cm dan alasnya 16 cm. Jika luas segitiga yang lain 45 cm² dengan alas 9 cm, berapa tinggi segitiga yang kedua?",
+    "a": "Diketahui:\n- Segitiga 1: tinggi = 10 cm, alas = 16 cm\n- Segitiga 2: luas = 45 cm², alas = 9 cm, tinggi = ?\n\nDitanya: Tinggi segitiga kedua?\n\nPenyelesaian:\nLuas segitiga = (1/2) × alas × tinggi\n\nUntuk segitiga kedua:\n45 = (1/2) × 9 × tinggi\n45 = 4,5 × tinggi\ntinggi = 45 ÷ 4,5 = 10 cm\n\nJadi, jawabannya adalah tinggi segitiga kedua adalah 10 cm."
+  },
+  {
+    "q": "Dalam sebuah pesta, jumlah tamu pria dan wanita dalam perbandingan 4:5. Jika selisih tamu pria dan wanita adalah 6 orang, berapa total tamu?",
+    "a": "Diketahui:\n- Perbandingan pria : wanita = 4 : 5\n- Selisih pria dan wanita = 6 orang\n\nDitanya: Total tamu?\n\nPenyelesaian:\nMisalkan: Pria = 4k, Wanita = 5k\nSelisih = 5k - 4k = k = 6\nMaka: k = 6\n\nPria = 4 × 6 = 24 orang\nWanita = 5 × 6 = 30 orang\nTotal tamu = 24 + 30 = 54 orang\n\nJadi, jawabannya adalah total tamu adalah 54 orang."
+  },
+  {
+    "q": "Dua buah pipa A dan B dapat mengisi sebuah tangki. Pipa A dapat mengisi 1/3 tangki per jam dan pipa B dapat mengisi 1/4 tangki per jam. Namun ada pipa C yang bisa mengeluarkan 1/6 tangki per jam. Jika ketiga pipa dibuka bersamaan, berapa jam tangki akan penuh?",
+    "a": "Diketahui:\n- Pipa A: 1/3 tangki per jam (mengisi)\n- Pipa B: 1/4 tangki per jam (mengisi)\n- Pipa C: 1/6 tangki per jam (mengeluarkan)\n\nDitanya: Waktu untuk mengisi penuh?\n\nPenyelesaian:\nKecepatan gabungan = 1/3 + 1/4 - 1/6\n\nSamakan penyebut (KPK dari 3, 4, 6 adalah 12):\n= 4/12 + 3/12 - 2/12\n= 5/12 tangki per jam\n\nWaktu = 1 ÷ (5/12) = 1 × (12/5) = 12/5 = 2,4 jam = 2 jam 24 menit\n\nJadi, jawabannya adalah tangki akan penuh dalam 2 jam 24 menit."
+  },
+  {
+    "q": "Seorang siswa mengikuti 4 kali ujian dengan nilai 75, 80, 85, dan 90. Jika nilai kelima akan dimasukkan dengan bobot khusus (dihitung 2 kali), berapa nilai minimal ujian kelima agar rata-rata 5 ujian tersebut minimal 82?",
+    "a": "Diketahui:\n- Empat ujian: 75, 80, 85, 90\n- Ujian kelima dihitung 2 kali (bobot 2)\n- Target rata-rata 5 ujian: minimal 82\n\nDitanya: Nilai minimal ujian kelima (x)?\n\nPenyelesaian:\nTotal nilai yang diperlukan untuk rata-rata 82:\nTotal harus = 82 × 6 = 492 (karena ujian kelima dihitung 2 kali, total ada 6 hitungan)\n\nTotal nilai 4 ujian pertama = 75 + 80 + 85 + 90 = 330\nNilai ujian kelima (dihitung 2 kali) = 492 - 330 = 162\nNilai ujian kelima = 162 ÷ 2 = 81\n\nJadi, jawabannya adalah nilai minimal ujian kelima adalah 81."
+  },
+  {
+    "q": "Seorang petani memiliki lahan yang dapat ditanami padi atau jagung. Jika menanam padi menghasilkan Rp8.000 per m² dan jagung menghasilkan Rp6.000 per m², dan lahan seluas 1.000 m², berapa pendapatan maksimal yang bisa didapat petani?",
+    "a": "Diketahui:\n- Total lahan: 1.000 m²\n- Hasil padi: Rp8.000 per m²\n- Hasil jagung: Rp6.000 per m²\n\nDitanya: Pendapatan maksimal?\n\nPenyelesaian:\nKarena padi memberikan keuntungan lebih besar (Rp8.000) dibanding jagung (Rp6.000), maka untuk memaksimalkan pendapatan, petani harus menanam seluruh lahan dengan padi.\n\nPendapatan maksimal = 1.000 × Rp8.000 = Rp8.000.000\n\nJadi, jawabannya adalah pendapatan maksimal yang bisa didapat adalah Rp8.000.000 dengan menanam seluruh lahan dengan padi."
+  },
+  {
+    "q": "Sebuah bola basket dijatuhkan dari ketinggian 200 cm. Setiap kali memantul, ketinggian pantulan adalah 3/4 dari tinggi sebelumnya. Berapa ketinggian pantulan pada pantulan ketiga?",
+    "a": "Diketahui:\n- Ketinggian awal: 200 cm\n- Setiap pantulan: 3/4 dari tinggi sebelumnya\n\nDitanya: Ketinggian pantulan ketiga?\n\nPenyelesaian:\nPantulan pertama = 3/4 × 200 = 150 cm\nPantulan kedua = 3/4 × 150 = 112,5 cm\nPantulan ketiga = 3/4 × 112,5 = 84,375 cm\n\nJadi, jawabannya adalah ketinggian pantulan ketiga adalah 84,375 cm atau 84,38 cm (dibulatkan)."
+  },
+  {
+    "q": "Sebuah toko membeli barang dengan harga Rp400.000. Barang tersebut dijual dengan keuntungan 25%. Namun, kemudian harga dijual turun 10% karena promo. Berapa harga jual akhir barang tersebut?",
+    "a": "Diketahui:\n- Harga beli (modal): Rp400.000\n- Keuntungan awal: 25%\n- Penurunan harga untuk promo: 10%\n\nDitanya: Harga jual akhir?\n\nPenyelesaian:\nHarga jual awal = Harga beli × (1 + keuntungan)\nHarga jual awal = Rp400.000 × 1,25 = Rp500.000\n\nHarga jual akhir (setelah promo 10%) = Rp500.000 × (1 - 0,10)\nHarga jual akhir = Rp500.000 × 0,90 = Rp450.000\n\nJadi, jawabannya adalah harga jual akhir barang adalah Rp450.000."
+  },
+  {
+    "q": "Andi memiliki sebuah ruang kelas dengan ukuran panjang 8 m, lebar 6 m, dan tinggi 3,5 m. Jika dinding kelas akan dicat (tanpa lantai dan atap), dan setiap 10 m² memerlukan 1 liter cat, berapa liter cat yang diperlukan?",
+    "a": "Diketahui:\n- Panjang ruang: 8 m\n- Lebar ruang: 6 m\n- Tinggi ruang: 3,5 m\n- Kebutuhan cat: 1 liter per 10 m²\n\nDitanya: Berapa liter cat yang diperlukan?\n\nPenyelesaian:\nLuas dinding = 2 × (panjang × tinggi) + 2 × (lebar × tinggi)\nLuas dinding = 2 × (8 × 3,5) + 2 × (6 × 3,5)\nLuas dinding = 2 × 28 + 2 × 21\nLuas dinding = 56 + 42 = 98 m²\n\nKebutuhan cat = 98 ÷ 10 = 9,8 liter ≈ 10 liter\n\nJadi, jawabannya adalah diperlukan 10 liter cat untuk mengecat seluruh dinding kelas."
+  },
+  {
+    "q": "Seorang penjual minyak goreng memiliki stok awal 150 liter. Hari pertama menjual 35% stok, hari kedua menjual 40% dari sisa hari pertama, dan hari ketiga menjual sisanya. Berapa liter yang terjual pada hari ketiga?",
+    "a": "Diketahui:\n- Stok awal: 150 liter\n- Hari pertama: menjual 35%\n- Hari kedua: menjual 40% dari sisa hari pertama\n- Hari ketiga: menjual sisanya\n\nDitanya: Berapa liter yang terjual hari ketiga?\n\nPenyelesaian:\nHari pertama terjual = 35% × 150 = 0,35 × 150 = 52,5 liter\nSisa setelah hari pertama = 150 - 52,5 = 97,5 liter\n\nHari kedua terjual = 40% × 97,5 = 0,40 × 97,5 = 39 liter\nSisa setelah hari kedua = 97,5 - 39 = 58,5 liter\n\nHari ketiga terjual = 58,5 liter\n\nJadi, jawabannya adalah pada hari ketiga terjual 58,5 liter minyak goreng."
+  },
+  {
+    "q": "Dua buah drum berbentuk silinier akan digunakan untuk menyimpan air. Drum A memiliki jari-jari 40 cm dan tinggi 150 cm, sedangkan drum B memiliki jari-jari 50 cm dan tinggi 120 cm. Kapasitas drum mana yang lebih besar? (Gunakan π = 3,14)",
+    "a": "Diketahui:\n- Drum A: jari-jari = 40 cm, tinggi = 150 cm\n- Drum B: jari-jari = 50 cm, tinggi = 120 cm\n- π = 3,14\n\nDitanya: Kapasitas drum mana yang lebih besar?\n\nPenyelesaian:\nVolume silinder = πr²t\n\nVolume Drum A = 3,14 × 40² × 150\nVolume Drum A = 3,14 × 1.600 × 150 = 753.600 cm³\n\nVolume Drum B = 3,14 × 50² × 120\nVolume Drum B = 3,14 × 2.500 × 120 = 942.000 cm³\n\nKarena 942.000 > 753.600, Drum B memiliki kapasitas lebih besar.\n\nJadi, jawabannya adalah Drum B memiliki kapasitas lebih besar karena 942.000 cm³ > 753.600 cm³."
+  },
+  {
+    "q": "Sebuah peta memiliki skala 1 : 50.000. Pada peta tersebut, jarak kota A ke kota B adalah 12 cm. Berapa km jarak sebenarnya antara kota A dan kota B?",
+    "a": "Diketahui:\n- Skala peta: 1 : 50.000\n- Jarak pada peta: 12 cm\n\nDitanya: Jarak sebenarnya dalam km?\n\nPenyelesaian:\nJarak sebenarnya = Jarak pada peta × Skala\nJarak sebenarnya = 12 × 50.000 = 600.000 cm\n\nMengubah ke km:\n600.000 cm = 600.000 ÷ 100.000 = 6 km\n\nJadi, jawabannya adalah jarak sebenarnya antara kota A dan kota B adalah 6 km."
+  },
+  {
+    "q": "Sebuah barisan aritmetika memiliki suku pertama 5 dan beda antar suku 4. Berapa jumlah 15 suku pertama dari barisan tersebut?",
+    "a": "Diketahui:\n- Suku pertama (a) = 5\n- Beda antar suku (b) = 4\n- n = 15 (jumlah suku yang dicari)\n\nDitanya: Jumlah 15 suku pertama?\n\nPenyelesaian:\nRumus suku ke-n: Un = a + (n-1)b\nSuku ke-15: U15 = 5 + (15-1) × 4 = 5 + 56 = 61\n\nRumus jumlah n suku pertama: Sn = n/2 × (a + Un)\nS15 = 15/2 × (5 + 61)\nS15 = 7,5 × 66 = 495\n\nJadi, jawabannya adalah jumlah 15 suku pertama dari barisan tersebut adalah 495."
+  },
+  {
+    "q": "Seorang siswa meminjam uang sebesar Rp2.000.000 dengan bunga majemuk 5% per tahun. Berapa banyak uang yang harus dikembalikan setelah 2 tahun?",
+    "a": "Diketahui:\n- Modal awal (P): Rp2.000.000\n- Suku bunga (r): 5% per tahun\n- Waktu (t): 2 tahun\n\nDitanya: Total uang yang harus dikembalikan?\n\nPenyelesaian:\nRumus bunga majemuk: A = P × (1 + r)^t\nA = Rp2.000.000 × (1 + 0,05)²\nA = Rp2.000.000 × (1,05)²\nA = Rp2.000.000 × 1,1025\nA = Rp2.205.000\n\nJadi, jawabannya adalah total uang yang harus dikembalikan setelah 2 tahun adalah Rp2.205.000."
+  },
+  {
+    "q": "Sebuah perusahaan memproduksi barang dengan rata-rata 500 unit per hari. Jika bulan pertama (30 hari) mencapai target, bulan kedua naik 10%, dan bulan ketiga naik lagi 8% dari bulan kedua, berapa total produksi dalam 3 bulan?",
+    "a": "Diketahui:\n- Produksi bulan pertama: 500 unit/hari × 30 hari = 15.000 unit\n- Bulan kedua: naik 10%\n- Bulan ketiga: naik 8% dari bulan kedua\n- Asumsi: bulan kedua dan ketiga juga 30 hari\n\nDitanya: Total produksi dalam 3 bulan?\n\nPenyelesaian:\nBulan pertama = 15.000 unit\n\nBulan kedua = 15.000 × (1 + 0,10) = 15.000 × 1,10 = 16.500 unit\n\nBulan ketiga = 16.500 × (1 + 0,08) = 16.500 × 1,08 = 17.820 unit\n\nTotal produksi 3 bulan = 15.000 + 16.500 + 17.820 = 49.320 unit\n\nJadi, jawabannya adalah total produksi dalam 3 bulan adalah 49.320 unit."
+  },
+  {
+    "q": "Sebuah trapesium memiliki alas atas 8 cm, alas bawah 14 cm, dan tinggi 6 cm. Berapakah luasnya? Jika trapesium tersebut diperbesar dengan skala 2, berapa luas trapesium yang baru?",
+    "a": "Diketahui:\n- Alas atas (a₁): 8 cm\n- Alas bawah (a₂): 14 cm\n- Tinggi (t): 6 cm\n- Skala pembesaran: 2\n\nDitanya: Luas trapesium awal dan luas setelah pembesaran?\n\nPenyelesaian:\nLuas trapesium = (1/2) × (a₁ + a₂) × t\nLuas awal = (1/2) × (8 + 14) × 6\nLuas awal = (1/2) × 22 × 6 = 66 cm²\n\nSaat trapesium diperbesar dengan skala 2, semua ukuran diperbesar 2 kali.\nLuas baru = 66 × 2² = 66 × 4 = 264 cm²\n\nJadi, jawabannya adalah luas trapesium awal adalah 66 cm² dan setelah pembesaran skala 2 menjadi 264 cm²."
+  },
+  {
+    "q": "Seorang pengusaha memiliki modal awal Rp10.000.000. Ia menginvestasikan 60% modalnya dalam bisnis A dengan profit 15% per tahun, dan 40% dalam bisnis B dengan profit 10% per tahun. Berapa total modal dan profit setelah 1 tahun?",
+    "a": "Diketahui:\n- Modal awal: Rp10.000.000\n- Modal bisnis A: 60% dari awal\n- Profit bisnis A: 15% per tahun\n- Modal bisnis B: 40% dari awal\n- Profit bisnis B: 10% per tahun\n\nDitanya: Total modal dan profit setelah 1 tahun?\n\nPenyelesaian:\nModal bisnis A = 60% × Rp10.000.000 = Rp6.000.000\nProfit bisnis A = 15% × Rp6.000.000 = Rp900.000\nTotal bisnis A = Rp6.000.000 + Rp900.000 = Rp6.900.000\n\nModal bisnis B = 40% × Rp10.000.000 = Rp4.000.000\nProfit bisnis B = 10% × Rp4.000.000 = Rp400.000\nTotal bisnis B = Rp4.000.000 + Rp400.000 = Rp4.400.000\n\nTotal modal dan profit = Rp6.900.000 + Rp4.400.000 = Rp11.300.000\nTotal profit = Rp900.000 + Rp400.000 = Rp1.300.000\n\nJadi, jawabannya adalah total modal dan profit setelah 1 tahun adalah Rp11.300.000 (profit sebesar Rp1.300.000)."
+  },
+  {
+    "q": "Tiga buah truk dapat mengangkut 180 ton barang dalam 5 hari. Berapa ton barang dapat diangkut oleh 5 buah truk dalam 8 hari? (Dengan asumsi setiap truk memiliki kapasitas dan produktivitas yang sama)",
+    "a": "Diketahui:\n- 3 truk dapat mengangkut 180 ton dalam 5 hari\n- Ditanya: 5 truk dalam 8 hari\n- Setiap truk memiliki kapasitas sama\n\nDitanya: Berapa ton yang dapat diangkut?\n\nPenyelesaian:\nKapasitas per truk per hari = 180 ÷ 3 ÷ 5 = 180 ÷ 15 = 12 ton per truk per hari\n\nCapacity 5 truk dalam 8 hari = 5 × 8 × 12 = 480 ton\n\nJadi, jawabannya adalah 5 buah truk dapat mengangkut 480 ton barang dalam 8 hari."
+  },
+  {
+    "q": "Seorang pencuri 18% lebih cepat berlari dibanding polisi. Jika polisi berlari dengan kecepatan 60 km/jam dan pencuri sudah berjarak 100 meter di depan, dalam berapa lama polisi dapat menangkap pencuri? (Asumsikan mereka berlari dalam garis lurus untuk jarak yang cukup panjang)",
+    "a": "Diketahui:\n- Kecepatan polisi: 60 km/jam\n- Kecepatan pencuri: 18% lebih cepat = 60 × 1,18 = 70,8 km/jam\n- Jarak awal pencuri: 100 meter = 0,1 km\n\nDitanya: Waktu hingga polisi menangkap pencuri?\n\nPenyelesaian:\nKecepatan relatif (pengurangan jarak) = 70,8 - 60 = 10,8 km/jam\n\nWaktu yang dibutuhkan = Jarak ÷ Kecepatan relatif\nWaktu = 0,1 ÷ 10,8 = 0,00926 jam\n\nMengubah ke menit dan detik:\n0,00926 jam × 60 = 0,556 menit ≈ 33,3 detik\n\nJadi, jawabannya adalah polisi akan menangkap pencuri dalam waktu sekitar 33,3 detik."
+  },
+  {
+    "q": "Sebuah toko elektronik memiliki stok barang yang dihitung dengan sistem FIFO (First In First Out). Pada bulan pertama, ada 100 unit dengan harga Rp500.000 per unit. Bulan kedua, restock sebanyak 150 unit dengan harga Rp480.000 per unit. Jika bulan ketiga terjual 120 unit dengan harga Rp600.000 per unit, berapa keuntungan yang didapat?",
+    "a": "Diketahui:\n- Bulan 1: 100 unit × Rp500.000 = Rp50.000.000 (stok awal)\n- Bulan 2: 150 unit × Rp480.000 = Rp72.000.000 (restock)\n- Bulan 3: terjual 120 unit × Rp600.000 = Rp72.000.000 (penjualan)\n- Sistem: FIFO (barang pertama dijual dulu)\n\nDitanya: Keuntungan dari penjualan?\n\nPenyelesaian (Menggunakan FIFO):\nDari stok bulan pertama (Rp500.000): 100 unit terjual\nBiaya penjualan stok bulan 1 = 100 × Rp500.000 = Rp50.000.000\n\nDari stok bulan kedua (Rp480.000): 20 unit terjual (120 - 100 = 20)\nBiaya penjualan stok bulan 2 = 20 × Rp480.000 = Rp9.600.000\n\nTotal modal untuk 120 unit terjual = Rp50.000.000 + Rp9.600.000 = Rp59.600.000\nPendapatan penjualan = Rp72.000.000\n\nKeuntungan = Rp72.000.000 - Rp59.600.000 = Rp12.400.000\n\nJadi, jawabannya adalah keuntungan yang didapat adalah Rp12.400.000."
+  },
+  {
+    "q": "Dua laboratorium menggunakan mesin fotokopi. Mesin A dapat menyelesaikan 300 lembar dalam 8 menit, sedangkan mesin B dapat menyelesaikan 400 lembar dalam 12 menit. Jika kedua mesin bekerja bersamaan selama 1 jam, berapa total lembar yang dapat difotokopi? Setelah itu, mesin A rusak dan hanya mesin B yang bekerja selama 30 menit tambahan. Berapakah total keseluruhan?",
+    "a": "Diketahui:\n- Mesin A: 300 lembar dalam 8 menit\n- Mesin B: 400 lembar dalam 12 menit\n- Fase 1: kedua mesin bekerja 1 jam (60 menit)\n- Fase 2: hanya mesin B bekerja 30 menit\n\nDitanya: Total lembar yang difotokopi?\n\nPenyelesaian:\nLangkah 1 - Hitung kecepatan masing-masing mesin:\nKecepatan mesin A = 300 ÷ 8 = 37,5 lembar/menit\nKecepatan mesin B = 400 ÷ 12 = 33,33 lembar/menit\n\nLangkah 2 - Hitung produksi fase 1 (keduanya bekerja 60 menit):\nMesin A selama 60 menit = 37,5 × 60 = 2.250 lembar\nMesin B selama 60 menit = 33,33 × 60 = 2.000 lembar\nTotal fase 1 = 2.250 + 2.000 = 4.250 lembar\n\nLangkah 3 - Hitung produksi fase 2 (hanya mesin B 30 menit):\nMesin B selama 30 menit = 33,33 × 30 = 1.000 lembar\n\nLangkah 4 - Hitung total keseluruhan:\nTotal = 4.250 + 1.000 = 5.250 lembar\n\nJadi, jawabannya adalah total keseluruhan lembar yang difotokopi adalah 5.250 lembar.",
+    "cot": "Langkah 1: Identifikasi data - Mesin A: 300 lembar/8 menit, Mesin B: 400 lembar/12 menit.\nLangkah 2: Konversi ke satuan yang sama - Kecepatan mesin A = 37,5 lembar/menit, Mesin B = 33,33 lembar/menit.\nLangkah 3: Hitung produksi bersama dalam 60 menit - Mesin A: 2.250, Mesin B: 2.000, Total: 4.250 lembar.\nLangkah 4: Tambahkan produksi mesin B solo 30 menit - 33,33 × 30 = 1.000 lembar.\nLangkah 5: Jumlahkan semua hasil - 4.250 + 1.000 = 5.250 lembar."
+  },
+  {
+    "q": "Sebuah perusahaan memproduksi dua tipe produk: Premium dan Standar. Biaya produksi Premium adalah Rp45.000 per unit dengan harga jual Rp75.000, sedangkan Standar biaya Rp25.000 dengan harga jual Rp50.000. Dalam sebulan, perusahaan dapat memproduksi maksimal 500 unit dengan total kapasitas. Jika rasio produksi Premium : Standar adalah 2 : 3, berapa keuntungan maksimal yang dapat diperoleh?",
+    "a": "Diketahui:\n- Produk Premium: biaya Rp45.000, harga Rp75.000, keuntungan = Rp30.000 per unit\n- Produk Standar: biaya Rp25.000, harga Rp50.000, keuntungan = Rp25.000 per unit\n- Total kapasitas: 500 unit per bulan\n- Rasio Premium : Standar = 2 : 3\n\nDitanya: Keuntungan maksimal?\n\nPenyelesaian:\nLangkah 1 - Hitung jumlah unit setiap tipe:\nRasio 2 : 3 artinya dari 5 bagian total\nPremium = (2/5) × 500 = 200 unit\nStandar = (3/5) × 500 = 300 unit\n\nLangkah 2 - Hitung keuntungan dari produk Premium:\nKeuntungan Premium = Rp30.000 × 200 = Rp6.000.000\n\nLangkah 3 - Hitung keuntungan dari produk Standar:\nKeuntungan Standar = Rp25.000 × 300 = Rp7.500.000\n\nLangkah 4 - Hitung total keuntungan:\nTotal keuntungan = Rp6.000.000 + Rp7.500.000 = Rp13.500.000\n\nJadi, jawabannya adalah keuntungan maksimal yang dapat diperoleh adalah Rp13.500.000 per bulan.",
+    "cot": "Langkah 1: Hitung keuntungan per unit - Premium: 75.000 - 45.000 = 30.000, Standar: 50.000 - 25.000 = 25.000.\nLangkah 2: Tentukan proporsi dari rasio 2:3 - Total 5 bagian, Premium = (2/5)×500 = 200 unit, Standar = (3/5)×500 = 300 unit.\nLangkah 3: Hitung keuntungan setiap tipe - Premium: 30.000 × 200 = 6.000.000, Standar: 25.000 × 300 = 7.500.000.\nLangkah 4: Jumlahkan total keuntungan - 6.000.000 + 7.500.000 = 13.500.000 rupiah per bulan."
+  },
+  {
+    "q": "Seorang peternak ayam memiliki 400 ekor ayam. Setiap ayam menghasilkan telur rata-rata 0,8 butir per hari. Dari hasil telur harian, 5% rusak dan tidak bisa dijual. Telur yang baik dijual Rp2.000 per butir. Menjelang hari raya, peternak memberikan diskon khusus 15% untuk pembelian dalam jumlah besar (minimal 1.000 butir). Berapa pendapatan dalam 10 hari jika penjualan memenuhi syarat diskon?",
+    "a": "Diketahui:\n- Jumlah ayam: 400 ekor\n- Produksi per ayam: 0,8 butir/hari\n- Tingkat kerusakan: 5%\n- Harga normal: Rp2.000 per butir\n- Diskon khusus: 15% untuk pembelian minimal 1.000 butir\n- Periode: 10 hari\n\nDitanya: Total pendapatan 10 hari dengan diskon?\n\nPenyelesaian:\nLangkah 1 - Hitung total produksi telur harian:\nTotal telur per hari = 400 × 0,8 = 320 butir\n\nLangkah 2 - Hitung telur yang rusak:\nTelur rusak per hari = 5% × 320 = 16 butir\n\nLangkah 3 - Hitung telur yang layak jual per hari:\nTelur baik per hari = 320 - 16 = 304 butir\n\nLangkah 4 - Hitung total telur baik dalam 10 hari:\nTotal 10 hari = 304 × 10 = 3.040 butir\n\nLangkah 5 - Verifikasi persyaratan diskon:\n3.040 butir > 1.000 butir ✓ (memenuhi syarat)\n\nLangkah 6 - Hitung harga dengan diskon 15%:\nHarga setelah diskon = Rp2.000 × (1 - 0,15) = Rp2.000 × 0,85 = Rp1.700 per butir\n\nLangkah 7 - Hitung total pendapatan:\nPendapatan = 3.040 × Rp1.700 = Rp5.168.000\n\nJadi, jawabannya adalah pendapatan dalam 10 hari dengan diskon adalah Rp5.168.000.",
+    "cot": "Langkah 1: Hitung produksi harian - 400 ekor × 0,8 butir/ekor = 320 butir/hari.\nLangkah 2: Kurangi kerusakan - 5% × 320 = 16 butir, tersisa 304 butir baik.\nLangkah 3: Kalikan periode 10 hari - 304 × 10 = 3.040 butir total.\nLangkah 4: Verifikasi syarat diskon - 3.040 > 1.000, memenuhi syarat diskon 15%.\nLangkah 5: Hitung harga diskon - Rp2.000 × (1 - 0,15) = Rp1.700 per butir.\nLangkah 6: Kalkulasi pendapatan final - 3.040 × Rp1.700 = Rp5.168.000."
+  }
+]

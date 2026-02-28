@@ -1,0 +1,366 @@
+[
+  {
+    "q": "Apa itu Python?",
+    "a": "Python adalah bahasa pemrograman tingkat tinggi yang mudah dipelajari dan banyak digunakan untuk AI, web development, dan data science."
+  },
+  {
+    "q": "Apa itu JavaScript?",
+    "a": "JavaScript adalah bahasa pemrograman yang digunakan untuk membuat website interaktif dan aplikasi web."
+  },
+  {
+    "q": "Apa itu HTML?",
+    "a": "HTML (HyperText Markup Language) adalah bahasa markup untuk membuat struktur halaman web."
+  },
+  {
+    "q": "Apa itu CSS?",
+    "a": "CSS (Cascading Style Sheets) adalah bahasa untuk mengatur tampilan dan desain halaman web."
+  },
+  {
+    "q": "Apa itu Java?",
+    "a": "Java adalah bahasa pemrograman yang banyak digunakan untuk aplikasi enterprise dan Android."
+  },
+  {
+    "q": "Apa itu variabel?",
+    "a": "Variabel adalah tempat untuk menyimpan data dalam program yang nilainya bisa berubah."
+  },
+  {
+    "q": "Apa itu function?",
+    "a": "Function atau fungsi adalah blok kode yang dapat dipanggil berulang kali untuk melakukan tugas tertentu."
+  },
+  {
+    "q": "Apa itu loop?",
+    "a": "Loop adalah struktur pengulangan dalam programming yang menjalankan kode berulang kali sampai kondisi terpenuhi."
+  },
+  {
+    "q": "Apa itu array?",
+    "a": "Array adalah struktur data yang menyimpan kumpulan nilai dengan tipe yang sama dalam satu variabel."
+  },
+  {
+    "q": "Apa itu object?",
+    "a": "Object adalah struktur data yang menyimpan data dan fungsi terkait dalam satu unit."
+  },
+  {
+    "q": "Apa itu API?",
+    "a": "API (Application Programming Interface) adalah kontrak yang memungkinkan aplikasi berkomunikasi dan berbagi data. Contoh: weather API memberikan data cuaca, payment API menghandle transaksi, social media API mengakses user data. API mendefinisikan endpoints, request/response format, dan authentication requirements. REST, GraphQL, dan SOAP adalah arsitektur API populer."
+  },
+  {
+    "q": "Apa itu framework?",
+    "a": "Framework adalah kerangka kerja yang menyediakan struktur dan komponen siap pakai untuk membangun aplikasi."
+  },
+  {
+    "q": "Apa itu Git?",
+    "a": "Git adalah sistem version control terdistribusi yang melacak perubahan kode dan memfasilitasi kolaborasi tim. Setiap developer memiliki copy lengkap repository, memungkinkan bekerja offline. Fitur utama: branching, merging, commit history, dan revert changes. Git adalah standard industri dalam development modern."
+  },
+  {
+    "q": "Apa itu GitHub?",
+    "a": "GitHub adalah platform hosting untuk proyek Git yang memungkinkan kolaborasi dan berbagi kode."
+  },
+  {
+    "q": "Apa itu debugging?",
+    "a": "Debugging adalah proses menemukan dan memperbaiki error atau bug dalam kode program."
+  },
+  {
+    "q": "Apa itu algoritma?",
+    "a": "Algoritma adalah serangkaian langkah terstruktur untuk menyelesaikan masalah atau mencapai tujuan tertentu."
+  },
+  {
+    "q": "Apa itu SQL?",
+    "a": "SQL (Structured Query Language) adalah bahasa standard untuk mengelola dan mengakses data dalam database relasional. Operasi dasar: SELECT untuk query, INSERT untuk tambah data, UPDATE untuk ubah, DELETE untuk hapus. SQL juga mendukung JOIN untuk relasi antar tabel, aggregation functions (COUNT, SUM, AVG), dan transactions untuk data consistency."
+  },
+  {
+    "q": "Apa itu backend?",
+    "a": "Backend adalah bagian dari aplikasi yang berjalan di server dan menangani logika, database, dan keamanan."
+  },
+  {
+    "q": "Apa itu frontend?",
+    "a": "Frontend adalah bagian dari aplikasi yang dilihat dan digunakan langsung oleh pengguna."
+  },
+  {
+    "q": "Apa itu full stack?",
+    "a": "Full stack developer adalah programmer yang menguasai baik frontend maupun backend development."
+  },
+  {
+    "q": "Apa keunggulan utama Python dalam AI dan machine learning?",
+    "a": "Python memiliki banyak library powerful seperti TensorFlow, PyTorch, dan scikit-learn. Syntax yang sederhana memudahkan prototype cepat, dan komunitas ML yang besar menyediakan countless resources dan best practices."
+  },
+  {
+    "q": "Jelaskan perbedaan antara let, const, dan var di JavaScript?",
+    "a": "var memiliki function scope dan dapat dideklarasikan ulang, let memiliki block scope dan tidak dapat dideklarasikan ulang, const memiliki block scope dan nilainya tidak dapat diubah setelah deklarasi. Penggunaan let dan const lebih disarankan di JavaScript modern untuk menghindari bugs."
+  },
+  {
+    "q": "Apa itu TypeScript dan mengapa orang menggunakannya?",
+    "a": "TypeScript adalah superset dari JavaScript yang menambahkan static type checking. Ini membantu menangkap errors pada development time, meningkatkan code quality, dan membuat refactoring lebih aman terutama untuk proyek besar."
+  },
+  {
+    "q": "Apa perbedaan Java dan JavaScript?",
+    "a": "Java adalah bahasa compiled untuk backend dan aplikasi native, sementara JavaScript adalah bahasa interpreted untuk browser dan runtime environments seperti Node.js. Java lebih cocok untuk sistem besar, sementara JavaScript lebih fleksibel dan cepat untuk web development."
+  },
+  {
+    "q": "Jelaskan konsep Virtual DOM di React?",
+    "a": "Virtual DOM adalah representasi in-memory dari DOM asli. React menggunakan Virtual DOM untuk batch updates dan membandingkan perubahan sebelum update ke DOM real. Ini meningkatkan performance karena DOM manipulations mahal dan Virtual DOM updates lebih cepat."
+  },
+  {
+    "q": "Apa itu React hooks dan sebutkan contohnya?",
+    "a": "React hooks adalah functions yang memungkinkan menggunakan state dan features React lainnya tanpa membuat class components. Contoh: useState untuk manage state, useEffect untuk side effects, useContext untuk akses context, dan useReducer untuk complex state logic."
+  },
+  {
+    "q": "Jelaskan cara kerja REST API?",
+    "a": "REST API menggunakan HTTP methods (GET, POST, PUT, DELETE) untuk melakukan operasi pada resources yang diidentifikasi oleh URL. Server mengembalikan data dalam format JSON/XML. Konsep stateless membuat setiap request independen dan mudah di-scale."
+  },
+  {
+    "q": "Apa perbedaan antara SQL dan NoSQL database?",
+    "a": "SQL databases menggunakan schema relasional dengan tabel dan joins, cocok untuk data terstruktur. NoSQL databases seperti MongoDB menggunakan dokumen/key-value, lebih fleksibel untuk data unstructured dan horizontal scaling yang lebih mudah."
+  },
+  {
+    "q": "Jelaskan normalisasi dalam database design?",
+    "a": "Normalisasi adalah proses mengorganisir data dalam database untuk mengurangi redundansi dan meningkatkan integritas. Terdapat beberapa normal forms (1NF, 2NF, 3NF) masing-masing dengan rule untuk eliminasi dependency yang tidak diinginkan."
+  },
+  {
+    "q": "Apa itu Git branching dan mengapa penting?",
+    "a": "Git branching memungkinkan development parallel pada features berbeda. Setiap branch untuk feature/bug-fix terpisah, dan dapat di-merge ke main branch setelah review. Ini mencegah conflicts, memfasilitasi kolaborasi, dan membuat rollback lebih mudah."
+  },
+  {
+    "q": "Jelaskan konsep merge dan rebase di Git?",
+    "a": "Merge menggabungkan dua branches dengan membuat commit merge baru. Rebase mengapply commits dari satu branch ke branch lain secara sequential, menghasilkan history yang lebih linear. Rebase cocok untuk personal branches, merge untuk shared branches."
+  },
+  {
+    "q": "Apa perbedaan unit test, integration test, dan end-to-end test?",
+    "a": "Unit test menguji individual functions/methods, integration test menguji multiple components bekerja sama, e2e test menguji aplikasi dari user perspective. Pyramid testing merekomendasikan banyak unit tests, beberapa integration tests, sedikit e2e tests."
+  },
+  {
+    "q": "Apa itu TDD (Test-Driven Development) dan keuntaannya?",
+    "a": "TDD adalah metodologi menulis test sebelum kode actual. Write test yang gagal, kemudian tulis kode minimal untuk pass. Keuntaannya: enforce design thinking, reduce bugs, improve code quality, dan documentation yang lebih baik."
+  },
+  {
+    "q": "Jelaskan konsep async/await di JavaScript?",
+    "a": "Async/await adalah syntax sugar untuk handling promises yang membuat asynchronous code terlihat synchronous. Async function mengembalikan promise, await menunggu promise resolve sebelum lanjut execution. Ini membuat error handling lebih mudah dengan try/catch."
+  },
+  {
+    "q": "Apa itu middleware dalam web frameworks?",
+    "a": "Middleware adalah fungsi yang memiliki akses ke request, response, dan next middleware dalam request-response cycle. Digunakan untuk logging, authentication, validation, error handling. Middleware dieksekusi sequential sesuai order registrasi."
+  },
+  {
+    "q": "Jelaskan MVC (Model-View-Controller) architecture?",
+    "a": "MVC memisahkan aplikasi jadi 3 components: Model (data logic), View (user interface), Controller (business logic). Pemisahan concern ini membuat kode lebih maintainable, testable, dan memungkinkan kolaborasi antara developers dan designers."
+  },
+  {
+    "q": "Apa itu microservices architecture dan keuntagannya?",
+    "a": "Microservices memecah aplikasi monolithic menjadi services kecil independent yang communicate via APIs. Keuntungan: scalability independent, deployment lebih cepat, fault isolation, tech stack flexibility. Tantangan: distributed system complexity dan network latency."
+  },
+  {
+    "q": "Jelaskan konsep dependency injection?",
+    "a": "Dependency injection adalah pattern untuk inject dependencies ke component daripada component menciptakannya sendiri. Meningkatkan testability karena dependencies dapat di-mock, mengurangi coupling, dan membuat kode lebih flexible dan reusable."
+  },
+  {
+    "q": "Apa itu OOP (Object-Oriented Programming) dan prinsip utamanya?",
+    "a": "OOP adalah paradigma programming berbasis objects yang memiliki properties dan methods. Prinsip utama: Encapsulation (bundling data dan methods), Inheritance (hierarchy dan reusability), Polymorphism (flexibility dalam implementation), Abstraction (hide complexity)."
+  },
+  {
+    "q": "Jelaskan perbedaan throw vs return dalam error handling?",
+    "a": "Return mengembalikan nilai normal dari function, sedangkan throw membuat exception yang menghentikan normal execution flow. Throw digunakan untuk error scenarios dan harus di-handle dengan try-catch. Throw lebih baik untuk error handling daripada return status codes."
+  },
+  {
+    "q": "Apa itu closures di JavaScript dan kegunaannya?",
+    "a": "Closure adalah function yang memiliki akses ke outer function's variables bahkan setelah outer function execute. Kegunaan: data privacy, factory functions, callbacks, dan event handlers. Closures penting untuk functional programming patterns."
+  },
+  {
+    "q": "Apa itu design pattern dan berikan contoh yang umum digunakan?",
+    "a": "Design pattern adalah solusi reusable untuk masalah umum dalam software design. Contoh populer: Singleton (satu instance global), Factory (membuat objects tanpa specify class konkret), Observer (notify multiple subscribers tentang perubahan), Strategy (encapsulate berbagai algorithms), Decorator (menambah functionality ke object dinamis). Design patterns membuat kode lebih maintainable dan scalable."
+  },
+  {
+    "q": "Jelaskan Singleton design pattern dan kapan menggunakannya?",
+    "a": "Singleton pattern memastikan hanya satu instance dari class yang ada di seluruh aplikasi. Implementasi: private constructor, static method untuk akses instance, lazy initialization. Contoh penggunaan: database connections, logger, configuration manager. Hati-hati dengan thread safety di multi-threaded environments dan testability issues karena global state."
+  },
+  {
+    "q": "Apa itu Factory pattern dan bagaimana implementasinya?",
+    "a": "Factory pattern menyediakan interface untuk membuat objects tanpa specify class konkret. Contoh: PaymentFactory membuat Stripe, PayPal, atau GooglePay objects berdasarkan parameter. Keuntungan: decoupling client dari class konkret, centralized object creation logic, mudah menambah payment types baru. Factory method dan abstract factory adalah variasi populer."
+  },
+  {
+    "q": "Jelaskan Observer pattern dengan contoh praktis?",
+    "a": "Observer pattern mendefinisikan one-to-many dependency dimana ketika subject berubah, observers notified otomatis. Contoh: event listener di JavaScript - button click (subject) notify event handlers (observers). Implementasi: subject maintain list of observers, observers register/unregister, subject call notify() ketika state berubah. Keuntungan: loose coupling, dynamic relationships."
+  },
+  {
+    "q": "Git workflows mana yang lebih baik: Gitflow atau Trunk-Based Development?",
+    "a": "Gitflow menggunakan main branch, develop branch, feature/release/hotfix branches dengan strict rules. Cocok untuk scheduled releases dan besar teams. Trunk-Based Development menggunakan single main branch dengan frequent small commits dan feature flags untuk incomplete features. Cocok untuk continuous deployment dan modern DevOps practices. Pilihan tergantung release cadence dan team maturity."
+  },
+  {
+    "q": "Jelaskan perbedaan Git reset, revert, dan cherry-pick?",
+    "a": "Git reset mengubah commit history (--soft keep changes, --mixed modify staging area, --hard discard) - gunakan di local branches saja. Git revert membuat commit baru yang undo changes commit sebelumnya - aman untuk shared branches. Git cherry-pick mengapply specific commit ke branch lain - berguna untuk selective bug fixes atau feature adoption. Reset mengubah history, revert dan cherry-pick aman untuk public branches."
+  },
+  {
+    "q": "Bagaimana cara menggunakan Git stash dan kapan berguna?",
+    "a": "Git stash menyimpan working directory changes sementara tanpa commit. Contoh: sedang develop feature A, urgent bug fix datang - stash changes A, fix bug, kemudian pop stash untuk lanjut A. Commands: git stash save, git stash list, git stash pop, git stash apply. Stash berguna untuk context switching cepat tanpa commit incompletes atau janky commits."
+  },
+  {
+    "q": "Apa itu database indexes dan mengapa penting untuk performance?",
+    "a": "Database indexes adalah struktur data (biasanya B-tree) untuk mempercepat query lookups. Tanpa index, database scan semua rows (O(n)). Dengan index, pencarian menjadi O(log n). Contoh: SELECT * FROM users WHERE email = 'test@gmail.com' jauh lebih cepat dengan index di email column. Trade-off: indexes mempercepat reads tapi memperlambat writes dan memerlukan storage. Index strategically pada frequently queried columns."
+  },
+  {
+    "q": "Jelaskan properti ACID dalam database transactions?",
+    "a": "ACID adalah guarantees untuk reliable database transactions: Atomicity (semua atau nothing - jika satu step fail, seluruh transaction rollback), Consistency (database move dari valid state ke valid state), Isolation (concurrent transactions tidak interfere), Durability (committed data persisten walau system crash). Contoh: transfer uang dari account A ke B harus atomic - debit A dan credit B sukses bersama atau rollback bersama."
+  },
+  {
+    "q": "Apa itu database transactions dan bagaimana cara menggunakannya?",
+    "a": "Transaction adalah sequence of database operations yang treated sebagai single unit. Implementasi: BEGIN TRANSACTION, execute SQLs, COMMIT (jika sukses) atau ROLLBACK (jika error). Contoh: update inventory dan create order harus bersama - jika order gagal, inventory revert. Transactions protect data consistency dan mencegah race conditions di concurrent environments dengan lock mechanisms."
+  },
+  {
+    "q": "Bagaimana cara mengoptimasi SQL queries untuk performance yang lebih baik?",
+    "a": "SQL optimization techniques: (1) Use indexes pada WHERE, JOIN, ORDER BY columns, (2) Avoid SELECT *, retrieve hanya columns yang dibutuhkan, (3) Minimize JOINs dan gunakan EXISTS daripada IN untuk subqueries, (4) Use EXPLAIN PLAN untuk analyze query execution, (5) Partition large tables, (6) Denormalize untuk read-heavy workloads, (7) Cache frequently accessed data. Monitoring slow queries dengan query logs essential untuk identify optimization opportunities."
+  },
+  {
+    "q": "Jelaskan RESTful API best practices dan HTTP status codes?",
+    "a": "REST best practices: (1) Use resource-based URLs (/users, /posts/123), (2) Use HTTP methods appropriately (GET read, POST create, PUT update, DELETE remove), (3) Return proper status codes: 200 OK, 201 Created, 204 No Content, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 500 Internal Error. (4) Version API (/v1/users), (5) Use pagination dan filtering untuk large datasets, (6) Implement rate limiting untuk prevent abuse."
+  },
+  {
+    "q": "Apa itu HATEOAS dalam REST API dan mengapa penting?",
+    "a": "HATEOAS (Hypermedia As The Engine Of Application State) adalah REST constraint bahwa API responses berisi hyperlinks untuk navigasi ke related resources. Contoh: GET /users/1 return user data plus links ke orders user, update endpoint, delete endpoint. Keuntungan: clients discover available actions dinamis, decouple client dari server URLs hardcoded. Implementasi: include 'links' array dalam JSON responses dengan 'rel' dan 'href'."
+  },
+  {
+    "q": "Bagaimana cara mengimplementasikan pagination dan rate limiting di API?",
+    "a": "Pagination: implement limit/offset atau cursor-based pagination. Contoh: GET /posts?limit=10&offset=20. Rate limiting: track requests per client (IP address atau API key), reject requests exceeding limit. Headers: X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset. Implementasi: use middleware di backend, atau service seperti Akamai. Keuntungan: protect backend dari overload, fair resource sharing antar clients."
+  },
+  {
+    "q": "Apa itu mocking dalam unit testing dan kapan menggunakannya?",
+    "a": "Mocking membuat fake objects yang meniru behavior dari real objects untuk isolate code under test. Contoh: test checkout function tanpa actually charge credit card - mock payment service. Libraries: Jest (JavaScript), Mockito (Java), unittest.mock (Python). Gunakan mocks untuk: external services (payment, email), databases, APIs. Benefits: faster tests, no side effects, predictable behavior. Overuse mocks membuat tests brittle dan tightly coupled ke implementation details."
+  },
+  {
+    "q": "Jelaskan test fixtures dan bagaimana cara mengatur test data?",
+    "a": "Fixtures adalah setup dan teardown code untuk prepare test environment dengan test data. Contoh: sebelum test, create user di database; setelah test, delete user. Implementasi: beforeEach/afterEach hooks (Jest), @Before/@After (JUnit), setUp/tearDown (unittest). Strategies: use factories untuk generate objects, seed minimal data, use database transactions untuk rollback setelah test. Good fixtures membuat tests independent dan repeatable."
+  },
+  {
+    "q": "Apa itu Polymorphism dan bagaimana mengimplementasikannya di OOP?",
+    "a": "Polymorphism memungkinkan objects dari classes berbeda respond ke same interface. Dua types: (1) Compile-time (method overloading) - multiple methods same name dengan parameter berbeda. (2) Runtime (method overriding) - subclass override parent class method. Contoh: Shape classes (Circle, Square, Triangle) semua implement draw() method berbeda. Gunakan abstract classes atau interfaces untuk define contracts. Polymorphism enable flexible, extensible code dan respect liskov substitution principle."
+  },
+  {
+    "q": "Jelaskan Encapsulation dalam OOP dan pentingnya untuk security?",
+    "a": "Encapsulation bundling data (properties) dan methods (behaviors) dalam single unit dengan access control. Hiden internal implementation (private), expose public interface (public methods). Contoh: BankAccount class dengan private balance, public deposit() dan withdraw() dengan validation. Benefits: data protection (prevent invalid states), control how data accessed/modified, change internals tanpa affect external code. Access modifiers: public, protected, private memastikan proper data hiding."
+  },
+  {
+    "q": "Apa itu Abstraction dan bagaimana membuat abstract classes?",
+    "a": "Abstraction menyembunyikan complexity dan expose hanya essential features. Abstract classes dan interfaces mendefinisikan contracts tanpa implementation details. Contoh: abstract Animal class dengan abstract method sound() - subclasses Dog, Cat implement konkret sounds. Gunakan abstract ketika multiple classes share common interface tapi implementation berbeda. Benefits: define common behavior, force subclasses implement required methods, reduce code duplication, improve maintainability dan extensibility architect."
+  },
+  {
+    "q": "Jelaskan konsep Inheritance dan class hierarchy dalam OOP?",
+    "a": "Inheritance memungkinkan child classes mewarisi properties dan methods dari parent class, promoting code reuse. Single inheritance (Java, C#) vs multiple inheritance (C++) - Java menggunakan interfaces untuk multiple behavior inheritance. Contoh: Employee parent class, Manager dan Developer child classes mewarisi name, salary properties. Benefits: code reuse, hierarchical organization, polymorphism. Caution: deeply nested hierarchies sulit maintain - prefer composition over inheritance untuk flexibility."
+  },
+  {
+    "q": "Bagaimana cara menulis testable code dan apa role dari dependency injection?",
+    "a": "Testable code memiliki loose coupling, single responsibility, dan dependencies injected daripada hardcoded. Contoh problematic: class OrderService membuat PaymentService directly - sulit mock di tests. Better: inject PaymentService via constructor atau setter. Frameworks: Spring (Java), NestJS (Node), pytest (Python). Benefits: easy mocking, flexible configuration untuk different environments, follow SOLID principles. Write code dengan testability in mind dari awal, bukan afterthought."
+  },
+  {
+    "q": "Apa perbedaan interface dan abstract class dalam OOP?",
+    "a": "Abstract class adalah template dengan state dan behavior mixed - child class extend one abstract class (single inheritance). Interface adalah contract pure untuk behavior - class implement multiple interfaces. Abstract class pas untuk related classes dengan shared code (Employee parent), interface untuk unrelated classes sharing behavior (Comparable, Iterable). Modern languages (Java 8+, C# 8+) blur lines dengan default methods di interfaces. Choose interface untuk behavior contracts, abstract class untuk shared state/code."
+  },
+  {
+    "q": "Jelaskan prinsip DRY (Don't Repeat Yourself) dan refactoring techniques?",
+    "a": "DRY principle: avoid code duplication untuk reduce bugs dan maintenance burden. Teknik refactoring: (1) Extract method - refactor duplicated code jadi fungsi reusable, (2) Extract class - group related fields/methods jadi class terpisah, (3) Introduce parent class - common behavior di parent (inheritance), (4) Template method pattern - define skeleton di parent, let child customize steps. Tools: IDE refactoring tools streamline process. Benefits: smaller changesets, easier testing, better readability."
+  },
+  {
+    "q": "Apa itu code coverage dalam testing dan berapa target ideal?",
+    "a": "Code coverage mengukur percentage code lines executed oleh tests. Tools: Istanbul (JavaScript), JaCoCo (Java), Coverage.py (Python). Types: line coverage, branch coverage, function coverage. Target ideal: 80%+ untuk production code, focus pada critical paths daripada 100% coverage mechanically. High coverage tidak guarantee good tests - tests quality matters lebih dari quantity. Aim untuk meaningful tests covering happy paths, edge cases, dan error handling."
+  },
+  {
+    "q": "Apa itu Golang (Go) dan mengapa banyak perusahaan menggunakannya?",
+    "a": "Go adalah bahasa compiled yang dikembangkan Google dengan syntax sederhana dan built-in support untuk concurrency menggunakan goroutines dan channels. Go ideal untuk backend services, cloud infrastructure, dan microservices karena fast compilation, efficient memory usage, dan pembuatan binary single file. Contoh penggunaan: Docker, Kubernetes, Prometheus dikembangkan di Go. Keuntungan: cross-platform compilation mudah, excellent standard library, strong concurrency primitives, garbage collection yang efficient."
+  },
+  {
+    "q": "Apa itu Rust dan keamanannya dalam memory management?",
+    "a": "Rust adalah systems programming language dengan fokus pada safety, speed, dan concurrency tanpa garbage collection. Ownership dan borrowing system Rust ensure memory safety di compile-time, eliminating common bugs seperti null pointer dereference dan data races. Rust cocok untuk high-performance applications, embedded systems, dan security-critical code. Contoh penggunaan: WebAssembly, blockchain, game engines. Trade-off: steep learning curve dan verbose syntax dibanding Python, tapi hasil yang aman dan efficient."
+  },
+  {
+    "q": "Apa itu Kotlin dan bagaimana hubungannya dengan Java?",
+    "a": "Kotlin adalah modern language yang berjalan di JVM dan fully interoperable dengan Java. Kotlin menambahkan features: null safety (prevent null pointer exceptions), extension functions, coroutines untuk asynchronous programming, dan concise syntax. Kotlin resmi didukung Google untuk Android development sejak 2019. Migrasi dari Java ke Kotlin gradual - dapat mix both languages di project. Keuntungan: safer code, less boilerplate, better readability, leverage existing Java libraries dan infrastructure."
+  },
+  {
+    "q": "Apa itu Docker dan bagaimana containerization mengubah deployment?",
+    "a": "Docker mengemas application dengan dependencies, libraries, dan runtime ke dalam containers - lightweight, isolated environments. Dockerfile define image layers, docker-compose orchestrate multiple containers, Docker Hub share images. Keuntungan: consistent behavior across dev/test/production, fast deployment, resource efficiency vs virtual machines, microservices enablement. Container standardization mengubah DevOps - reproducible deployments dan infrastructure as code menjadi praktik standar."
+  },
+  {
+    "q": "Apa itu Kubernetes dan apa perannya dalam container orchestration?",
+    "a": "Kubernetes (K8s) adalah open-source platform untuk automating deployment, scaling, dan management dari containerized applications. Fitur utama: auto-scaling berdasarkan resource usage, self-healing restart containers yang gagal, rolling updates untuk zero-downtime deployments, service discovery, persistent storage orchestration. K8s adalah container orchestration standard industri untuk production workloads. Kompleksitas: steep learning curve, membutuhkan infrastructure expertise, tapi powerful untuk large-scale systems seperti yang digunakan Google, AWS, dan Netflix."
+  },
+  {
+    "q": "Bagaimana cara membuat effective CI/CD pipelines untuk modern development?",
+    "a": "CI/CD (Continuous Integration/Continuous Deployment) adalah culture dan tools untuk automating testing, building, dan deploying code changes. Workflow: developer push ke repository, automated tests run, if pass build artifact, deploy ke staging/production. Tools: GitHub Actions, GitLab CI/CD, Jenkins, CircleCI. Best practices: fast feedback (tests complete dalam minutes), idempotent deployments, automated rollback capability, monitoring dan alerting. CI/CD enable rapid iteration dan high quality karena setiap change tested otomatis."
+  },
+  {
+    "q": "Apa itu serverless computing dan bagaimana berbeda dari traditional servers?",
+    "a": "Serverless computing (Function-as-a-Service) seperti AWS Lambda, Google Cloud Functions memungkinkan run code tanpa manage infrastructure. Developer menulis functions yang trigger oleh events, cloud provider handle scaling, availability. Keuntungan: pay-per-use pricing, automatic scaling, reduced operational overhead, faster time-to-market. Trade-off: vendor lock-in, cold starts latency, complex debugging, stateless nature. Cocok untuk event-driven workloads seperti data processing, webhooks, scheduled tasks, tapi kurang ideal untuk long-running, stateful applications."
+  },
+  {
+    "q": "Apa itu GraphQL dan bagaimana dibandingkan dengan REST API?",
+    "a": "GraphQL adalah query language untuk APIs yang memungkinkan clients request exact data yang dibutuhkan, bukan fixed structure seperti REST. Client define queries, server return JSON matching structure. Keuntungan: reduce over-fetching data (efficiency), under-fetching (no multiple requests), strong typing dengan schema, real-time capabilities dengan subscriptions. Challenges: steeper learning curve dari REST, backend complexity untuk resolve queries efficiently, caching lebih tricky, requires proper error handling. GraphQL cocok untuk complex data relationships dan mobile clients dengan bandwidth constraints."
+  },
+  {
+    "q": "Apa itu WebAssembly (WASM) dan use cases-nya dalam modern web?",
+    "a": "WebAssembly adalah binary instruction format untuk web browsers yang memungkinkan run high-performance compiled code menggunakan bahasa seperti Rust, C++, C#. Programs compile ke WASM bytecode berjalan di browser dengan performance mendekati native. Use cases: computationally intensive applications (image processing, 3D graphics), game engines, scientific computing, desktop app ports. Keuntungan: performance, code reuse dari existing codebases, sandboxed execution. Limitations: tidak langsung akses DOM, require JavaScript glue code, file size lebih besar dari JavaScript."
+  },
+  {
+    "q": "Bagaimana mengimplementasikan observability dan monitoring di production systems?",
+    "a": "Observability adalah kemampuan understand system internals dari external outputs. Tiga pillars: (1) Metrics - quantitative measurements (CPU, requests per second, latency), (2) Logs - detailed events dan state changes, (3) Traces - request flow across services. Tools: Prometheus + Grafana (metrics), ELK Stack atau Datadog (logging), Jaeger atau Zipkin (distributed tracing). Best practices: instrument code dengan metrics, structured logging dengan context, alerting rules meaningful, dashboards actionable. Observability essential untuk troubleshoot issues cepat dan understand performance bottlenecks di distributed systems."
+  },
+  {
+    "q": "Apa itu npm dan apa fungsinya dalam Node.js development?",
+    "a": "npm (Node Package Manager) adalah default package manager untuk Node.js yang mengelola dependencies dalam proyek. File package.json mendefinisikan project metadata dan dependencies dengan version constraints. Commands: npm install (install all dependencies), npm install package-name (add new package), npm update (upgrade packages), npm scripts untuk automate tasks. npm memudahkan dependency management, versioning, dan building reproducible environments. Alternative package managers: yarn, pnpm dengan features seperti faster installation dan better disk usage."
+  },
+  {
+    "q": "Jelaskan Docker dan containerization dalam development?",
+    "a": "Docker adalah platform untuk containerize aplikasi dengan semua dependencies (code, runtime, libraries) dalam single package. Container lebih lightweight dari virtual machines - share host OS kernel. Dockerfile mendefinisikan image dengan base image, copy files, install dependencies, set entry point. Benefits: consistency antara local development dan production, easy scaling, simplified deployment, isolate applications. Docker Compose untuk multi-container applications. Image vs Container: image adalah blueprint, container adalah running instance dari image."
+  },
+  {
+    "q": "Apa itu CI/CD dan bagaimana implementation best practices?",
+    "a": "CI/CD (Continuous Integration/Continuous Deployment) adalah practice automatisasi: CI automatic testing setiap push, CD automatic deployment ke production. Pipeline stages: code push → build → test → deploy. Tools: GitHub Actions, Jenkins, GitLab CI, CircleCI. Best practices: (1) Run automated tests sebelum merge, (2) Keep builds fast (<10 min), (3) Deploy frequently untuk reduce risk, (4) Automatic rollback jika deployment fails, (5) Monitor production setelah deployment. CI/CD reduce manual errors, speed releases, improve reliability dengan fast feedback loops."
+  },
+  {
+    "q": "Jelaskan semaphores, mutexes, dan race conditions dalam concurrent programming?",
+    "a": "Race condition terjadi ketika threads mengakses shared data concurrently dan hasil depend pada execution order. Mutex (mutual exclusion lock) memastikan hanya satu thread mengakses resource pada waktu bersamaan - lock before access, unlock after done. Semaphore adalah counter untuk manage access ke resources - acquire mengurangi counter, release menambah. Binary semaphore sama dengan mutex. Issues: deadlock (threads tunggu forever), livelock (progress tanpa maju), starvation (threads tidak pernah access resource). Solutions: use thread-safe data structures, minimize lock holding, avoid nested locks, use higher-level abstractions seperti thread pools dan message queues."
+  },
+  {
+    "q": "Apa itu regular expressions dan bagaimana menggunakannya untuk pattern matching?",
+    "a": "Regular expressions (regex) adalah powerful tool untuk matching, searching, replacing string patterns. Syntax: . (any char), * (0+ repeat), + (1+ repeat), ? (0-1 repeat), [] (character class), ^ (start), $ (end), | (OR). Contoh: email validation /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/, phone /^\\d{3}-\\d{3}-\\d{4}$/. Most languages support regex (JavaScript, Python, Java). Tools: test regex di regex101.com. Use cases: validation, extraction, replacement. Caution: complex regex hard to maintain - document dan test thoroughly untuk clarity."
+  },
+  {
+    "q": "Jelaskan perbedaan antara whitebox testing dan blackbox testing?",
+    "a": "Whitebox testing (glass box) menguji internal implementation dengan pengetahuan source code. Tester bisa see logic, data structures, algorithms dan create targeted tests. Tools: coverage analysis untuk identify untested code paths. Cocok untuk: unit tests, developers testing own code. Blackbox testing menguji dari user perspective tanpa knowledge code internals - focus pada inputs dan outputs. Tester hanya tahu specification. Cocok untuk: integration tests, system tests, QA testing. Best practice: combine keduanya - developers lakukan whitebox unit tests, QA lakukan blackbox functional tests untuk comprehensive coverage."
+  },
+  {
+    "q": "Apa itu JWT (JSON Web Token) dan bagaimana digunakan untuk authentication?",
+    "a": "JWT adalah standard untuk transmitting information securely antara parties sebagai JSON object. Struktur: header.payload.signature - masing-masing base64 encoded. Header specify token type dan algorithm, payload berisi claims (user info, roles, permissions), signature untuk verify integritas. Flow: user login → server generate JWT → client store token → include di Authorization header untuk requests → server verify signature. Keuntungan: stateless (no server session storage), scalable untuk distributed systems, dapat embed permissions. Caution: token tidak encrypted (base64 encoded) jadi jangan store sensitive data, always use HTTPS, set expiration times, implement refresh tokens untuk long-lived sessions."
+  },
+  {
+    "q": "Jelaskan OAuth 2.0 dan bagaimana flow untuk third-party authentication?",
+    "a": "OAuth 2.0 memungkinkan users authorize third-party applications access resource tanpa share passwords langsung dengan aplikasi. Flow: (1) User click 'Login with Google', (2) Redirect ke Google authorization page, (3) User grant permissions, (4) Google redirect ke aplikasi dengan authorization code, (5) Aplikasi backend exchange code untuk access token, (6) Aplikasi access Google APIs menggunakan token, (7) User authenticated tanpa share password dengan aplikasi. Keuntungan: users never share passwords dengan third-party, granular permissions, users dapat revoke access. Standard modern untuk social login dan API access delegation. Berbeda dengan JWT yang adalah token format, OAuth adalah authorization protocol."
+  },
+  {
+    "q": "Apa itu memory leak dan bagaimana cara mengidentifikasi serta mencegahnya?",
+    "a": "Memory leak terjadi ketika program allocate memory tapi tidak deallocate/release - memory usage terus naik causing eventual out-of-memory crash. Typical causes: (1) Unreferenced objects tidak garbage collected (JavaScript closures, circular references), (2) Event listeners tidak di-remove, (3) Timers tidak di-clear, (4) Large objects dalam global scope. Detection: browser DevTools memory tab (Chrome), heap snapshots, memory profilers. Prevention: (1) Clear event listeners dengan removeEventListener(), (2) Clear timers dengan clearTimeout/clearInterval(), (3) Nullify references ke large objects ketika tidak digunakan, (4) Avoid circular references, (5) Use weak references jika language support. Monitoring production memory usage essential untuk identify memory leaks early."
+  },
+  {
+    "q": "Jelaskan functional programming concepts: pure functions, immutability, dan side effects?",
+    "a": "Pure functions memiliki consistent output untuk same input dan tidak cause side effects - depend hanya pada arguments, tidak access global state. Contoh: add(2,3) always returns 5. Impure function: getTime() depends pada system state. Immutability berarti data tidak berubah setelah creation - data structures baru dibuat untuk changes. Contoh: array map() return new array daripada mutate original. Side effects adalah modifications ke external state: IO operations, modify global variables, database calls. Functional programming minimize side effects dan use pure functions untuk correctness, testability, dan composability. Benefits: easier reasoning tentang code, concurrency-friendly (no race conditions), better optimization oleh compilers. Languages: Haskell (pure), Lisp, Scala. Modern languages support functional paradigm: JavaScript, Python, Java."
+  },
+  {
+    "q": "Bagaimana cara mengoptimasi aplikasi untuk kecepatan dan performa?",
+    "a": "Performance optimization adalah iterative process: measure → identify bottlenecks → optimize → verify improvements. Frontend optimization: (1) Minimize JavaScript/CSS bundles dengan minification dan tree-shaking, (2) Lazy load images/components, (3) Use CSS-in-JS atau critical CSS, (4) Cache assets di service workers, (5) Use CDN untuk static content. Backend optimization: (1) Database indexes dan query optimization, (2) Caching layer (Redis, Memcached), (3) Asynchronous processing untuk heavy tasks, (4) Load balancing untuk distribute traffic, (5) Compress API responses dengan gzip. Monitoring: use tools seperti Lighthouse, WebPageTest untuk frontend, APM tools untuk backend. Profile code dengan profilers untuk identify CPU/memory bottlenecks. Prioritize optimizations dengan biggest impact first."
+  },
+  {
+    "q": "Apa itu heap dan stack dalam memory management dan bagaimana perbedaannya?",
+    "a": "Stack dan heap adalah memory regions dengan characteristics berbeda. Stack menyimpan local variables, function parameters, return addresses - automatic memory management dengan LIFO (Last In First Out) order. Stack memory automatically freed ketika function returns. Size terbatas, faster access. Heap menyimpan dynamic objects (arrays, objects) yang allocated di runtime - manual atau garbage collected memory management. Size lebih besar, slower access, fragmentation possible. Stack overflow terjadi jika recursion terlalu dalam atau local variables terlalu besar. OutOfMemory terjadi jika heap exhausted. Languages handle berbeda: C/C++ manual allocation dengan malloc/free, Java/Python automatic garbage collection. Understanding stack vs heap penting untuk debugging memory issues dan writing efficient code."
+  },
+  {
+    "q": "Jelaskan konsep caching strategy: LRU, LFU, TTL dan kapan menggunakan masing-masing?",
+    "a": "Caching menyimpan frequently accessed data untuk reduce latency dan improve performance. LRU (Least Recently Used) evict cache entry yang least recently accessed ketika cache full - cocok untuk balancing recency dan frequency. LFU (Least Frequently Used) evict entry yang least frequently accessed - better untuk skewed access patterns. TTL (Time To Live) set expiration time untuk cache entries - important untuk data yang mungkin change. Combination strategies: LRU dengan TTL untuk balance. Use cases: database query caching, HTTP response caching (dengan ETags, Cache-Control headers), API response caching, session caching. Redis popular untuk in-memory caching. Implementation: use hash map untuk O(1) lookup, doubly linked list untuk LRU tracking. Caution: stale data dengan caching - need invalidation strategies atau appropriate TTLs."
+  },
+  {
+    "q": "Apa itu load balancing dan bagaimana cara kerja untuk distribusi traffic?",
+    "a": "Load balancing mendistribusi incoming requests ke multiple servers untuk balance load, increase reliability, dan improve scalability. Algorithms: (1) Round-robin (sequential distribution), (2) Least connections (send ke server dengan least active connections), (3) Weighted (prefer higher-capacity servers), (4) IP hash (same IP → same server untuk session persistence). Types: (1) Hardware load balancers (dedicated devices), (2) Software load balancers (nginx, HAProxy), (3) Cloud load balancers (AWS ELB, GCP Load Balancer). Health checks monitor server status - remove unhealthy servers dari rotation. Session persistence/sticky sessions untuk maintain state across requests. Benefits: increase availability, handle traffic spikes, transparent server updates. Deployment: load balancer di front, multiple application servers behind, separate database/cache layers untuk scaling."
+  },
+  {
+    "q": "Jelaskan semantic versioning (semver) dan pentingnya dalam package management?",
+    "a": "Semantic versioning menentukan version format MAJOR.MINOR.PATCH (contoh: 2.1.3). MAJOR increments untuk incompatible API changes (breaking changes) - clients harus update code. MINOR increments untuk backward-compatible functionality additions (new features). PATCH increments untuk backward-compatible bug fixes. Pre-release: 2.1.3-alpha, 2.1.3-beta. In package.json: ^ (caret) allow changes compatible dengan latest minor (^2.1.3 → 2.x.x), ~ (tilde) allow only patch updates (~2.1.3 → 2.1.x). Best practice: declare version constraints clearly untuk avoid breaking updates. Semver enable: understand compatibility, predictable upgrades, communicate changes clearly. Tools: semantic-release automate versioning dan changelog generation berdasarkan commits."
+  },
+  {
+    "q": "Bagaimana cara melakukan code review secara efektif dan apa best practices-nya?",
+    "a": "Code review adalah process dimana developers examine code dari developer lain sebelum merge. Best practices: (1) Review promptly (within 24 hours) untuk maintain momentum, (2) Focus pada logic dan architecture, bukan style (use linters untuk style), (3) Be respectful dan constructive dalam feedback, (4) Suggest improvements dengan examples atau links ke documentation, (5) Approve ketika satisfied dengan quality, (6) Request changes jika issues significant. Reviewer harus: understand context (read PR description, related tickets), check logic correctness, verify no security issues, ensure tests adequate. Author harus: respond to feedback professionally, make requested changes atau discuss if disagree, self-review sebelum submitting untuk catch obvious issues. Benefits: knowledge sharing, catch bugs early, enforce quality standards, improve code readability dan maintainability."
+  }
+]

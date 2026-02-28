@@ -1,0 +1,249 @@
+[
+  {
+    "q": "Apa itu komputer?",
+    "a": "Komputer adalah perangkat elektronik yang dapat memproses, menyimpan, dan menampilkan data serta informasi."
+  },
+  {
+    "q": "Apa itu internet?",
+    "a": "Internet adalah jaringan komputer global yang menghubungkan jutaan perangkat di seluruh dunia untuk bertukar informasi."
+  },
+  {
+    "q": "Apa itu artificial intelligence?",
+    "a": "Artificial intelligence atau kecerdasan buatan adalah teknologi yang memungkinkan mesin untuk belajar dan membuat keputusan seperti manusia."
+  },
+  {
+    "q": "Apa itu machine learning?",
+    "a": "Machine learning adalah cabang dari AI yang memungkinkan sistem belajar dan meningkatkan kemampuannya dari data tanpa diprogram secara eksplisit."
+  },
+  {
+    "q": "Apa itu programming?",
+    "a": "Programming atau pemrograman adalah proses membuat instruksi untuk komputer menggunakan bahasa pemrograman."
+  },
+  {
+    "q": "Apa itu database?",
+    "a": "Database adalah sistem untuk menyimpan, mengelola, dan mengambil data secara terstruktur."
+  },
+  {
+    "q": "Apa itu cloud computing?",
+    "a": "Cloud computing adalah layanan komputasi seperti server, penyimpanan, dan software yang disediakan melalui internet."
+  },
+  {
+    "q": "Apa itu smartphone?",
+    "a": "Smartphone adalah telepon genggam yang memiliki kemampuan komputasi dan konektivitas canggih seperti komputer mini."
+  },
+  {
+    "q": "Apa itu website?",
+    "a": "Website adalah kumpulan halaman web yang dapat diakses melalui internet menggunakan browser."
+  },
+  {
+    "q": "Apa itu aplikasi?",
+    "a": "Aplikasi adalah program komputer yang dirancang untuk melakukan tugas tertentu bagi pengguna."
+  },
+  {
+    "q": "Apa itu CPU?",
+    "a": "CPU (Central Processing Unit) adalah otak komputer yang memproses instruksi dan melakukan perhitungan."
+  },
+  {
+    "q": "Apa itu RAM?",
+    "a": "RAM (Random Access Memory) adalah memori sementara komputer yang menyimpan data yang sedang digunakan."
+  },
+  {
+    "q": "Apa itu hard disk?",
+    "a": "Hard disk adalah perangkat penyimpanan data permanen di komputer."
+  },
+  {
+    "q": "Apa itu SSD?",
+    "a": "SSD (Solid State Drive) adalah perangkat penyimpanan data yang lebih cepat dari hard disk karena tidak memiliki bagian bergerak."
+  },
+  {
+    "q": "Apa itu operating system?",
+    "a": "Operating system atau sistem operasi adalah software yang mengelola hardware dan software komputer, contohnya Windows, macOS, dan Linux."
+  },
+  {
+    "q": "Apa itu browser?",
+    "a": "Browser adalah aplikasi untuk mengakses dan menampilkan halaman web, contohnya Chrome, Firefox, dan Safari."
+  },
+  {
+    "q": "Apa itu virus komputer?",
+    "a": "Virus komputer adalah program berbahaya yang dapat merusak data atau sistem komputer."
+  },
+  {
+    "q": "Apa itu firewall?",
+    "a": "Firewall adalah sistem keamanan yang memantau dan mengontrol lalu lintas jaringan untuk melindungi komputer dari ancaman."
+  },
+  {
+    "q": "Apa itu Wi-Fi?",
+    "a": "Wi-Fi adalah teknologi jaringan nirkabel yang memungkinkan perangkat terhubung ke internet tanpa kabel."
+  },
+  {
+    "q": "Apa itu Bluetooth?",
+    "a": "Bluetooth adalah teknologi nirkabel untuk menghubungkan perangkat dalam jarak dekat, seperti headphone atau keyboard."
+  },
+  {
+    "q": "Apa itu USB?",
+    "a": "USB (Universal Serial Bus) adalah standar koneksi untuk menghubungkan perangkat ke komputer."
+  },
+  {
+    "q": "Apa itu GPU?",
+    "a": "GPU (Graphics Processing Unit) adalah prosesor khusus untuk mengolah grafis dan tampilan visual."
+  },
+  {
+    "q": "Apa perbedaan antara RAM dan hard disk?",
+    "a": "RAM adalah memori sementara yang cepat tapi terhapus saat komputer mati, sedangkan hard disk adalah penyimpanan permanen tapi lebih lambat."
+  },
+  {
+    "q": "Apa itu motherboard?",
+    "a": "Motherboard adalah papan sirkuit utama yang menghubungkan semua komponen hardware komputer seperti CPU, RAM, dan graphics card."
+  },
+  {
+    "q": "Apa itu power supply?",
+    "a": "Power supply adalah perangkat yang mengubah arus listrik AC menjadi DC untuk mensuplai daya ke semua komponen komputer."
+  },
+  {
+    "q": "Apa itu cooling system?",
+    "a": "Cooling system adalah sistem pendingin yang menjaga suhu komputer tetap normal, bisa berupa kipas atau liquid cooling untuk mencegah overheating."
+  },
+  {
+    "q": "Apa itu driver?",
+    "a": "Driver adalah software yang memungkinkan operating system untuk berkomunikasi dan mengontrol hardware seperti printer, graphics card, atau keyboard."
+  },
+  {
+    "q": "Apa itu antivirus?",
+    "a": "Antivirus adalah software keamanan yang mendeteksi, mencegah, dan menghapus virus serta malware dari komputer."
+  },
+  {
+    "q": "Apa itu malware?",
+    "a": "Malware adalah software berbahaya yang dirancang untuk merusak atau mengakses komputer tanpa izin, termasuk virus, spyware, dan ransomware."
+  },
+  {
+    "q": "Apa itu password strength dan mengapa penting?",
+    "a": "Password strength adalah ukuran ketangguhan password dari serangan brute force. Password kuat harus panjang, kompleks dengan kombinasi huruf, angka, dan simbol, dan penting untuk melindungi akun dari peretas."
+  },
+  {
+    "q": "Apa itu encryption dan bagaimana cara kerjanya?",
+    "a": "Encryption adalah proses mengubah data menjadi bentuk kode yang tidak dapat dibaca tanpa kunci khusus. Ini melindungi data dengan mengubahnya menjadi gibberish yang hanya dapat didekripsi dengan kunci atau password yang benar."
+  },
+  {
+    "q": "Apa itu VPN dan apa manfaatnya?",
+    "a": "VPN (Virtual Private Network) adalah layanan yang membuat koneksi internet Anda aman dan pribadi dengan menyembunyikan IP address dan mengenkripsi data, berguna saat menggunakan Wi-Fi publik."
+  },
+  {
+    "q": "Apa itu IP address?",
+    "a": "IP address adalah alamat unik yang diberikan ke setiap perangkat di jaringan untuk mengidentifikasi dan berkomunikasi satu sama lain."
+  },
+  {
+    "q": "Apa itu DNS?",
+    "a": "DNS (Domain Name System) adalah sistem yang menerjemahkan nama domain (seperti google.com) menjadi IP address sehingga browser dapat menemukan website."
+  },
+  {
+    "q": "Bagaimana cara mengatasi komputer yang lambat?",
+    "a": "Langkah-langkah: 1) Hapus file temporary, 2) Nonaktifkan program startup yang tidak perlu, 3) Tingkatkan RAM jika diperlukan, 4) Periksa virus dengan antivirus, 5) Defrag hard disk (data lama), atau gunakan SSD untuk performa lebih baik."
+  },
+  {
+    "q": "Apa yang harus dilakukan jika komputer tidak bisa menyala?",
+    "a": "Langkah-langkah troubleshooting: 1) Periksa koneksi listrik dan power supply, 2) Cek apakah lampu indikator menyala, 3) Coba hardwire reset dengan melepas dan pasang kembali RAM, 4) Bawa ke teknisi jika masih tidak bisa menyala."
+  },
+  {
+    "q": "Apa itu blue screen of death (BSOD)?",
+    "a": "BSOD adalah error kritis Windows yang menampilkan layar biru dan teks pesan error, menunjukkan ada masalah hardware atau driver yang serius. Solusinya update driver, periksa RAM, atau jika perlu lakukan system restore."
+  },
+  {
+    "q": "Apa itu backup dan mengapa penting?",
+    "a": "Backup adalah salinan file penting yang disimpan di lokasi berbeda. Penting untuk melindungi data dari kehilangan akibat kerusakan hardware, virus, atau accident, bisa menggunakan external drive atau cloud storage."
+  },
+  {
+    "q": "Apa itu CPU cores dan threads? Mengapa penting untuk performa?",
+    "a": "CPU cores adalah unit pemrosesan independen dalam processor. Threads adalah tugas yang dapat dijalankan oleh setiap core. Lebih banyak cores dan threads berarti processor dapat menangani lebih banyak tugas sekaligus, meningkatkan performa multitasking. Contoh: AMD Ryzen 9 5950X memiliki 16 cores dan 32 threads, cocok untuk rendering dan gaming."
+  },
+  {
+    "q": "Apa perbedaan antara GPU dedikasi dan GPU terintegrasi?",
+    "a": "GPU terintegrasi adalah graphics processor yang tertanam di CPU, menggunakan memori sistem, cocok untuk tugas ringan. GPU dedikasi adalah kartu terpisah (seperti NVIDIA RTX 4090) dengan VRAM sendiri, memberikan performa grafis jauh lebih baik untuk gaming, video editing, dan machine learning."
+  },
+  {
+    "q": "Apa itu thermal paste dan overclocking pada PC gaming?",
+    "a": "Thermal paste adalah zat antara CPU dan heatsink untuk memaksimalkan transfer panas. Overclocking adalah meningkatkan kecepatan clock CPU/GPU di atas spesifikasi standar untuk performa lebih tinggi, tetapi meningkatkan panas dan risiko kerusakan. Memerlukan cooling system yang baik seperti liquid cooling AIO (All-In-One)."
+  },
+  {
+    "q": "Apa itu API (Application Programming Interface) dan apa kegunaannya?",
+    "a": "API adalah set instruksi yang memungkinkan aplikasi berbeda untuk berkomunikasi satu sama lain. Contoh: Google Maps API memungkinkan website lain mengintegrasikan peta, atau Twitter API untuk mengambil tweet. API memudahkan developer membangun aplikasi yang kompleks dengan memanfaatkan layanan pihak ketiga."
+  },
+  {
+    "q": "Apa perbedaan antara open source dan proprietary software?",
+    "a": "Open source software (seperti Linux, Firefox, VS Code) memiliki kode sumber yang terbuka untuk umum, bebas diunduh dan dimodifikasi. Proprietary software (seperti Windows, Photoshop) memiliki kode tertutup, hanya tersedia dengan lisensi berbayar. Open source lebih fleksibel, proprietary sering memiliki support lebih baik."
+  },
+  {
+    "q": "Apa itu containerization dan Docker? Bagaimana aplikasinya?",
+    "a": "Containerization adalah teknologi untuk mengemas aplikasi beserta dependensinya dalam unit terisolasi. Docker adalah platform populer untuk membuat dan menjalankan container. Keuntungan: aplikasi berjalan konsisten di berbagai environment (laptop, server, cloud), memudahkan deployment. Digunakan oleh Netflix, Spotify, dan banyak perusahaan tech besar."
+  },
+  {
+    "q": "Apa itu HTTP dan HTTPS? Apa bedanya?",
+    "a": "HTTP (HyperText Transfer Protocol) adalah protokol untuk mengirim data web, tapi data tidak dienkripsi sehingga tidak aman. HTTPS menambahkan enkripsi SSL/TLS, melindungi data dari pembajakan. Semua website modern menggunakan HTTPS karena lebih aman, terutama untuk login dan transaksi online."
+  },
+  {
+    "q": "Apa itu bandwidth dan latency dalam jaringan?",
+    "a": "Bandwidth adalah jumlah data yang dapat ditransmisikan per detik (Mbps), menentukan kecepatan download/upload. Latency adalah waktu yang diperlukan paket data untuk sampai dari sumber ke tujuan (milliseconds), mempengaruhi responsiveness. Gaming memerlukan latency rendah, streaming memerlukan bandwidth tinggi."
+  },
+  {
+    "q": "Apa itu CDN (Content Delivery Network) dan mengapa penting?",
+    "a": "CDN adalah jaringan server yang tersebar geografis untuk mendistribusikan konten lebih cepat ke pengguna. Ketika pengguna di Indonesia mengakses website AS, CDN mengirimkan konten dari server lokal terdekat daripada dari server jauh. Digunakan oleh Netflix, YouTube, Cloudflare untuk streaming cepat dan website loading lebih ringan."
+  },
+  {
+    "q": "Apa itu router dan switch dalam jaringan komputer?",
+    "a": "Router adalah perangkat yang menghubungkan jaringan berbeda dan mengarahkan data ke tujuan yang tepat, contoh router Wi-Fi di rumah. Switch adalah perangkat yang menghubungkan beberapa device dalam jaringan lokal dengan kabel Ethernet untuk komunikasi yang lebih cepat dan stabil dibanding Wi-Fi."
+  },
+  {
+    "q": "Apa itu phishing dan social engineering? Bagaimana cara menghindari?",
+    "a": "Phishing adalah serangan untuk mengelabuhi pengguna memberikan informasi sensitif melalui email palsu atau website palsu. Social engineering memanipulasi orang untuk membuka akses. Cara menghindari: jangan klik link mencurigakan, periksa URL website, gunakan two-factor authentication, waspada terhadap permintaan password dari support yang tidak terdaftar."
+  },
+  {
+    "q": "Apa itu two-factor authentication (2FA) dan mengapa penting?",
+    "a": "2FA adalah metode keamanan berlapis yang memerlukan dua verifikasi berbeda untuk login: sesuatu yang Anda ketahui (password) dan sesuatu yang Anda miliki (phone/authenticator app atau biometric). Contoh: Google menggunakan SMS, authenticator apps seperti Google Authenticator atau Authy. Sangat efektif mencegah unauthorized access meski password dicuri."
+  },
+  {
+    "q": "Apa itu zero-day vulnerability? Mengapa berbahaya?",
+    "a": "Zero-day vulnerability adalah kerentanan keamanan dalam software yang belum diketahui developer dan belum ada patch/fix. Hacker dapat memanfaatkannya untuk menyerang sebelum ada update keamanan. Sangat berbahaya karena pengguna tidak bisa melindungi diri. Windows dan browser seperti Chrome sering menjadi target zero-day attacks."
+  },
+  {
+    "q": "Apa yang harus dilakukan jika data pribadi Anda terlibat dalam data breach?",
+    "a": "Langkah-langkah: 1) Ganti password yang terkena breach dan semua akun penting, 2) Aktifkan two-factor authentication, 3) Perhatikan aktivitas akun mencurigakan, 4) Daftar di credit monitoring service untuk cek fraud, 5) Pertimbangkan freeze credit jika data kartu kredit terekspos. Contoh besar: Facebook 2019 exposure 500 juta pengguna."
+  },
+  {
+    "q": "Apa itu quantum computing dan bagaimana perbedaannya dengan komputer biasa?",
+    "a": "Quantum computing menggunakan quantum bits (qubits) yang dapat berada di multiple states sekaligus (superposition), bukan hanya 0 atau 1. Ini memberikan daya komputasi eksponensial lebih besar untuk masalah kompleks. Aplikasi: kriptografi, drug discovery, optimisasi. Contoh: IBM Q, Google Quantum AI. Masih dalam tahap pengembangan, belum tersedia komersial luas."
+  },
+  {
+    "q": "Apa itu edge computing dan apa keuntungannya?",
+    "a": "Edge computing memproses data di lokal (di edge device atau server terdekat) daripada mengirim ke cloud pusat. Keuntungan: latency lebih rendah, privacy lebih baik, bandwidth lebih efisien. Aplikasi: autonomous vehicles, smart cities, industrial IoT. Contoh: smartphone memproses pengenalan wajah lokal, bukan di cloud."
+  },
+  {
+    "q": "Apa itu 5G technology dan bagaimana perbedaannya dengan 4G?",
+    "a": "5G adalah standar jaringan mobile generasi kelima dengan kecepatan hingga 10 Gbps (100x lebih cepat dari 4G), latency ultra-rendah (<1ms), dan kapasitas lebih besar. Memungkinkan aplikasi seperti autonomous vehicles, telemedicine, virtual reality real-time, IoT massif. Belum tersedia di semua area, Indonesia sedang rollout secara bertahap."
+  },
+  {
+    "q": "Apa itu blockchain dan bagaimana teknologinya bekerja?",
+    "a": "Blockchain adalah teknologi buku besar terdesentralisasi yang mencatat transaksi dalam blok-blok yang saling terhubung dan dienkripsi. Setiap transaksi harus diverifikasi oleh jaringan, membuatnya sangat aman dan transparan. Aplikasi: cryptocurrency (Bitcoin, Ethereum), supply chain tracking, smart contracts. Teknologi di balik Web3 dan future of internet."
+  },
+  {
+    "q": "Apa itu artificial neural networks dan bagaimana hubungannya dengan AI modern?",
+    "a": "Artificial neural networks adalah model komputasi terinspirasi dari otak manusia, terdiri dari layer neuron yang saling terhubung. Deep learning menggunakan neural networks berlapis-lapis. Teknologi ini mendasari AI modern seperti ChatGPT, DALL-E, AlphaGo. Dapat belajar dari data besar untuk pattern recognition, language processing, dan computer vision."
+  },
+  {
+    "q": "Apa itu remote work technology dan tools apa yang populer?",
+    "a": "Remote work technology mencakup tools untuk kolaborasi virtual: video conferencing (Zoom, Google Meet), project management (Asana, Jira), file sharing (Google Drive, Dropbox), communication (Slack, Teams). Kunci sukses remote work: internet stabil, security tools (VPN), dan timezone synchronization. Tren post-pandemic yang tinggi permintaannya."
+  },
+  {
+    "q": "Apa perbedaan antara SSD dan HDD, dan mana yang lebih baik?",
+    "a": "SSD (Solid State Drive) menggunakan chip memory tanpa bagian mekanik, lebih cepat (500-3500 MB/s), tahan lama, hemat daya. HDD (Hard Disk Drive) menggunakan piringan berputar dengan kepala baca/tulis, lebih lambat (100-200 MB/s), kapasitas besar, lebih murah. SSD lebih baik untuk performa, HDD lebih ekonomis untuk penyimpanan besar. Tren modern: SSD untuk sistem operasi dan aplikasi, HDD untuk backup/archiving.",
+    "cot": "Untuk membandingkan SSD vs HDD, saya perlu pertimbangkan: 1) Mekanisme kerja - SSD elektronik tanpa pergerakan mekanik, HDD mekanis dengan piringan. 2) Implikasi performa - tanpa gerakan mekanik = akses data lebih cepat di SSD. 3) Keandalan - fewer moving parts = lebih reliable untuk SSD. 4) Biaya - HDD masih lebih murah per GB. 5) Use case modern - kombinasi keduanya optimal (SSD untuk OS, HDD untuk storage). Kesimpulan: SSD unggul dalam performa tapi HDD masih relevan untuk kapasitas besar dengan budget terbatas."
+  },
+  {
+    "q": "Apa itu GPU dan bagaimana peran GPU dalam gaming dan AI?",
+    "a": "GPU (Graphics Processing Unit) atau kartu grafis adalah processor khusus untuk memproses grafis dan operasi parallel masif. Awalnya untuk rendering grafis games dan video, sekarang juga esensial untuk AI/machine learning karena kemampuan memproses ribuan operasi simultan. GPU modern (NVIDIA RTX, AMD Radeon, Apple Silicon) menjalankan training dan inference model neural networks berkali-kali lebih cepat dari CPU. Aplikasi: gaming, 3D rendering, deep learning, cryptocurrency mining.",
+    "cot": "Menganalisis peran GPU: 1) Design architecture - GPU memiliki ribuan cores kecil vs CPU yang punya beberapa cores besar, cocok untuk task parallelizable. 2) Penggunaan historis - dirancang untuk render graphis karena pixel processing parallel. 3) Kesamaan dengan AI - neural network operations mirip dengan graphics parallel processing. 4) Performance advantage - GPU dapat 100x lebih cepat untuk matrix operations yang dipakai AI. 5) Trend modern - GPU jadi bottleneck dalam AI arms race (OpenAI, Google mempersaingi GPU supply). Kesimpulan: GPU optimal untuk workload data-parallel seperti gaming graphics dan AI training."
+  },
+  {
+    "q": "Apa itu Cybersecurity best practices untuk melindungi komputer pribadi dari ancaman digital?",
+    "a": "Best practices untuk cybersecurity: 1) Gunakan password kuat dan unique per akun, atau password manager (1Password, Bitwarden). 2) Enable 2FA/MFA di semua akun penting (email, banking, social media). 3) Update OS dan software secara berkala untuk patch security vulnerabilities. 4) Instalasi antivirus/antimalware terpercaya dan scan berkala. 5) Jangan buka email attachment atau klik link dari sender tidak dikenal (phishing). 6) Gunakan VPN di network publik untuk enkripsi traffic. 7) Backup data penting secara regular. 8) Monitor aktivitas akun dan laporan kreditmu.",
+    "cot": "Untuk memberikan cybersecurity best practices yang comprehensive: 1) Identifikasi threat vectors utama - weak passwords, malware, phishing, unpatched software. 2) Untuk setiap threat, tentukan mitigation: passwords → use strong/unique + 2FA. 3) Malware → antivirus + safe browsing habits. 4) Phishing → user awareness + 2FA protection. 5) Unpatched software → automatic updates. 6) Data loss → backup strategy. 7) Public networks → VPN encryption. 8) Account monitoring → early detection. Kesimpulan: kombinasi technical measures (tools) + user awareness + regular maintenance menciptakan defense in depth yang effective melawan cyber threats modern."
+  }
+]

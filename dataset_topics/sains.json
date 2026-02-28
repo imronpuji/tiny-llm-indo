@@ -1,0 +1,534 @@
+[
+  {
+    "q": "Apa itu fotosintesis?",
+    "a": "Fotosintesis adalah proses tumbuhan mengubah cahaya matahari, air, dan karbon dioksida menjadi makanan dan oksigen."
+  },
+  {
+    "q": "Berapa jumlah planet di tata surya?",
+    "a": "Tata surya memiliki 8 planet yaitu Merkurius, Venus, Bumi, Mars, Jupiter, Saturnus, Uranus, dan Neptunus."
+  },
+  {
+    "q": "Apa rumus kimia air?",
+    "a": "Rumus kimia air adalah H2O, terdiri dari 2 atom hidrogen dan 1 atom oksigen."
+  },
+  {
+    "q": "Siapa penemu listrik?",
+    "a": "Listrik ditemukan dan dikembangkan oleh banyak ilmuwan, namun Thomas Edison dan Nikola Tesla adalah yang paling terkenal dalam pengembangan listrik modern."
+  },
+  {
+    "q": "Apa itu gravitasi?",
+    "a": "Gravitasi adalah gaya tarik menarik antara benda-benda yang memiliki massa. Gravitasi bumi membuat benda jatuh ke tanah."
+  },
+  {
+    "q": "Apa fungsi jantung?",
+    "a": "Jantung berfungsi memompa darah ke seluruh tubuh untuk mengalirkan oksigen dan nutrisi ke sel-sel tubuh."
+  },
+  {
+    "q": "Apa itu DNA?",
+    "a": "DNA adalah molekul yang membawa informasi genetik makhluk hidup dan menentukan karakteristik yang diwariskan."
+  },
+  {
+    "q": "Apa itu atom?",
+    "a": "Atom adalah unit terkecil dari materi yang memiliki sifat unsur kimia, terdiri dari proton, neutron, dan elektron."
+  },
+  {
+    "q": "Apa itu sel?",
+    "a": "Sel adalah unit terkecil dari makhluk hidup yang dapat melakukan semua fungsi kehidupan."
+  },
+  {
+    "q": "Apa fungsi paru-paru?",
+    "a": "Paru-paru berfungsi untuk pertukaran gas, mengambil oksigen dari udara dan mengeluarkan karbon dioksida."
+  },
+  {
+    "q": "Apa fungsi otak?",
+    "a": "Otak adalah pusat kendali tubuh yang mengatur pikiran, emosi, gerakan, dan semua fungsi tubuh lainnya."
+  },
+  {
+    "q": "Apa itu evolusi?",
+    "a": "Evolusi adalah proses perubahan makhluk hidup secara bertahap selama jutaan tahun melalui seleksi alam."
+  },
+  {
+    "q": "Siapa penemu teori relativitas?",
+    "a": "Teori relativitas ditemukan oleh Albert Einstein."
+  },
+  {
+    "q": "Apa itu cahaya?",
+    "a": "Cahaya adalah bentuk energi elektromagnetik yang dapat dilihat oleh mata manusia."
+  },
+  {
+    "q": "Apa itu suhu?",
+    "a": "Suhu adalah ukuran tingkat panas atau dingin suatu benda atau lingkungan."
+  },
+  {
+    "q": "Apa perbedaan Celcius dan Fahrenheit?",
+    "a": "Celcius dan Fahrenheit adalah skala pengukuran suhu. Air membeku di 0°C atau 32°F dan mendidih di 100°C atau 212°F."
+  },
+  {
+    "q": "Apa itu ekosistem?",
+    "a": "Ekosistem adalah sistem yang terdiri dari makhluk hidup dan lingkungannya yang saling berinteraksi."
+  },
+  {
+    "q": "Apa itu rantai makanan?",
+    "a": "Rantai makanan adalah urutan perpindahan energi dari produsen ke konsumen dalam ekosistem."
+  },
+  {
+    "q": "Apa itu metamorfosis?",
+    "a": "Metamorfosis adalah proses perubahan bentuk tubuh hewan secara drastis, seperti ulat menjadi kupu-kupu."
+  },
+  {
+    "q": "Apa planet terdekat dengan matahari?",
+    "a": "Planet terdekat dengan matahari adalah Merkurius."
+  },
+  {
+    "q": "Apa planet terbesar di tata surya?",
+    "a": "Planet terbesar di tata surya adalah Jupiter."
+  },
+  {
+    "q": "Jelaskan struktur atom secara detail",
+    "a": "Atom terdiri dari inti (nucleus) yang berisi proton bermuatan positif dan neutron tanpa muatan, dikelilingi oleh elektron bermuatan negatif yang mengorbit dalam kulit atom. Proton dan neutron memiliki massa yang hampir sama, sedangkan elektron jauh lebih ringan."
+  },
+  {
+    "q": "Apa perbedaan proton, neutron, dan elektron?",
+    "a": "Proton adalah partikel bermuatan positif di inti atom, neutron adalah partikel tanpa muatan di inti atom, dan elektron adalah partikel bermuatan negatif yang mengorbit inti. Proton dan neutron menentukan massa atom, sedangkan elektron menentukan sifat kimia."
+  },
+  {
+    "q": "Apa itu reaksi kimia?",
+    "a": "Reaksi kimia adalah proses di mana zat-zat awal (reaktan) berubah menjadi zat-zat baru (produk) dengan susunan atom yang berbeda. Dalam reaksi kimia, ikatan antara atom putus dan terbentuk ikatan baru."
+  },
+  {
+    "q": "Apa perbedaan reaksi endotermik dan eksotermik?",
+    "a": "Reaksi endotermik adalah reaksi yang menyerap energi dari lingkungan sehingga produk lebih tinggi energinya daripada reaktan, menyebabkan suhu lingkungan turun. Reaksi eksotermik adalah reaksi yang melepaskan energi ke lingkungan, menyebabkan suhu naik."
+  },
+  {
+    "q": "Apa itu asam dan basa dalam kimia?",
+    "a": "Asam adalah zat yang menghasilkan ion hidrogen (H+) dalam larutan dan terasa asam, merah pada lakmus merah. Basa adalah zat yang menghasilkan ion hidroksil (OH-) dan terasa licin pada sentuhan, merah pada lakmus biru. Keduanya bereaksi untuk membentuk garam dan air."
+  },
+  {
+    "q": "Apa skala pH dan apa artinya?",
+    "a": "Skala pH mengukur tingkat keasaman atau kebasaan suatu larutan, berkisar dari 0-14. pH 7 adalah netral, pH kurang dari 7 adalah asam, dan pH lebih besar dari 7 adalah basa. Semakin rendah pH, semakin asam; semakin tinggi pH, semakin basa."
+  },
+  {
+    "q": "Jelaskan hukum Newton pertama tentang gerak",
+    "a": "Hukum Newton pertama menyatakan bahwa benda yang diam akan tetap diam dan benda yang bergerak akan tetap bergerak dengan kecepatan konstan, kecuali ada gaya luar yang bekerja padanya. Ini disebut juga hukum inersia."
+  },
+  {
+    "q": "Jelaskan hukum Newton kedua tentang gerak",
+    "a": "Hukum Newton kedua menyatakan bahwa percepatan suatu benda sebanding dengan gaya yang bekerja padanya dan berbanding terbalik dengan massanya. Secara matematis ditulis sebagai F = m × a, di mana F adalah gaya, m adalah massa, dan a adalah percepatan."
+  },
+  {
+    "q": "Apa itu momentum dan bagaimana cara menghitungnya?",
+    "a": "Momentum adalah ukuran jumlah gerak yang dimiliki suatu benda, dihasilkan dari perkalian massa dan kecepatan. Rumusnya adalah p = m × v. Momentum adalah vektor, berarti memiliki arah dan besaran, serta kekal dalam sistem terisolasi."
+  },
+  {
+    "q": "Apa itu mitosis dan apa fungsinya?",
+    "a": "Mitosis adalah proses pembelahan sel yang menghasilkan dua sel anak yang identik dengan sel induk. Setiap sel anak memiliki jumlah kromosom yang sama dengan sel induk. Mitosis berfungsi untuk pertumbuhan, perbaikan jaringan, dan reproduksi aseksual."
+  },
+  {
+    "q": "Apa itu meiosis dan apa fungsinya?",
+    "a": "Meiosis adalah proses pembelahan sel khusus yang menghasilkan empat sel anak dengan jumlah kromosom setengah dari sel induk. Sel anak disebut gamet (sel kelamin). Meiosis berfungsi untuk reproduksi seksual dan menghasilkan variasi genetik."
+  },
+  {
+    "q": "Jelaskan sistem pencernaan manusia",
+    "a": "Sistem pencernaan dimulai dari mulut di mana makanan dikunyah dan bercampur saliva, lalu melalui esofagus ke lambung untuk dicerna lebih lanjut. Kemudian makanan masuk ke usus halus tempat nutrisi diserap, dan sisa makanan masuk usus besar untuk diserap air dan dikeluarkan sebagai feses."
+  },
+  {
+    "q": "Apa fungsi enzim dalam proses pencernaan?",
+    "a": "Enzim adalah protein yang mempercepat proses pencernaan dengan memecah makromolekul menjadi molekul lebih kecil yang dapat diserap. Misalnya amilase memecah pati, protease memecah protein, dan lipase memecah lemak."
+  },
+  {
+    "q": "Jelaskan sistem reproduksi manusia",
+    "a": "Pada pria, sistem reproduksi menghasilkan sperma di testis, disimpan di vesikula seminalis, dan dikeluarkan melalui penis. Pada wanita, ovarium menghasilkan ovum, yang bergerak melalui tuba falopi. Jika terjadi pembuahan, ovum yang telah dibuahi berkembang menjadi embrio di rahim."
+  },
+  {
+    "q": "Apa itu seleksi alam dan bagaimana hubungannya dengan evolusi?",
+    "a": "Seleksi alam adalah mekanisme utama evolusi di mana organisme dengan sifat yang lebih sesuai dengan lingkungan memiliki kesempatan hidup dan berkembang biak lebih besar. Seiring waktu, sifat-sifat menguntungkan menjadi lebih umum dalam populasi, menyebabkan perubahan spesies secara bertahap."
+  },
+  {
+    "q": "Apa itu adaptasi dalam biologi?",
+    "a": "Adaptasi adalah sifat atau perilaku yang dipelajari atau diwariskan oleh organisme untuk membantu mereka bertahan hidup dan berkembang biak di lingkungannya. Contoh: bulu kutub pada beruang kutub untuk menjaga panas, mulut panjang kolibri untuk menyedot nektar bunga."
+  },
+  {
+    "q": "Apa itu ikatan kovalen dan ikatan ionik?",
+    "a": "Ikatan kovalen terbentuk ketika dua atom berbagi elektron untuk mencapai stabilitas, biasanya terjadi antara non-logam. Ikatan ionik terbentuk ketika satu atom mendonasikan elektron ke atom lain, menciptakan ion bermuatan berlawanan yang saling tarik, biasanya antara logam dan non-logam."
+  },
+  {
+    "q": "Apa itu kecepatan dan percepatan dalam mekanika?",
+    "a": "Kecepatan adalah laju perubahan posisi benda terhadap waktu, dinyatakan dalam meter per detik (m/s). Percepatan adalah laju perubahan kecepatan terhadap waktu. Jika kecepatan meningkat, percepatan positif; jika kecepatan menurun, percepatan negatif (deselerasi)."
+  },
+  {
+    "q": "Apa itu energi kinetik dan energi potensial?",
+    "a": "Energi kinetik adalah energi yang dimiliki benda karena gerakannya, dihitung dengan rumus Ek = 1/2 × m × v². Energi potensial adalah energi yang tersimpan dalam benda karena posisinya atau keadaannya, seperti gravitasi potensial Ep = m × g × h. Keduanya dapat saling berkonversi."
+  },
+  {
+    "q": "Jelaskan konsep konservasi energi",
+    "a": "Konservasi energi menyatakan bahwa energi tidak dapat diciptakan atau dimusnahkan, hanya dapat berubah dari satu bentuk ke bentuk lain. Energi total dalam sistem tertutup selalu konstan. Contoh: energi kimia bahan bakar berubah menjadi panas dan gerak di mesin."
+  },
+  {
+    "q": "Apa itu gelombang dan sebutkan jenis-jenisnya",
+    "a": "Gelombang adalah perpindahan energi melalui medium atau ruang tanpa disertai perpindahan materi secara keseluruhan. Gelombang dibagi menjadi: 1) Gelombang mekanik (memerlukan medium, seperti gelombang air dan suara), 2) Gelombang elektromagnetik (tidak memerlukan medium, seperti cahaya dan gelombang radio). Gelombang dapat bersifat transversal (getaran tegak lurus arah rambat) atau longitudinal (getaran sejajar arah rambat)."
+  },
+  {
+    "q": "Jelaskan hubungan antara frekuensi, panjang gelombang, dan kecepatan gelombang",
+    "a": "Hubungan antara ketiga besaran dinyatakan dengan rumus v = f × λ, di mana v adalah kecepatan gelombang, f adalah frekuensi (jumlah gelombang per detik), dan λ adalah panjang gelombang (jarak satu gelombang lengkap). Semakin tinggi frekuensi gelombang dengan kecepatan tetap, semakin pendek panjang gelombangnya."
+  },
+  {
+    "q": "Apa itu resonansi dan berikan contohnya dalam kehidupan sehari-hari",
+    "a": "Resonansi terjadi ketika suatu sistem dipaksa berosilasi pada frekuensi alaminya, menyebabkan amplitudo getaran meningkat drastis. Contoh: jembatan yang roboh karena getaran langkah pasukan yang beriringan, atau kaca pecah ketika frekuensi suara yang dipancarkan speaker sama dengan frekuensi alami kaca. Resonansi juga digunakan dalam alat musik untuk memperkuat suara."
+  },
+  {
+    "q": "Jelaskan mekanisme penglihatan manusia dari mata hingga otak",
+    "a": "Cahaya masuk melalui kornea dan lensa mata yang memfokusnya pada retina. Retina mengandung sel fotoreseptor (batang dan kerucut) yang menangkap cahaya dan mengubahnya menjadi sinyal saraf. Sinyal ini diteruskan melalui saraf optik ke otak bagian visual occipital untuk diproses dan diinterpretasi menjadi gambar yang kita lihat."
+  },
+  {
+    "q": "Apa itu refraksi dan difraksi cahaya?",
+    "a": "Refraksi adalah pembelokan cahaya ketika memasuki medium dengan kepadatan berbeda (contoh: cahaya di air terlihat lebih dekat daripada sebenarnya). Difraksi adalah pembengkokan gelombang cahaya ketika melewati celah atau tepi penghalang, menciptakan pola gelap terang. Kedua fenomena terjadi karena cahaya adalah gelombang yang berinteraksi dengan materi dan penghalang."
+  },
+  {
+    "q": "Jelaskan hukum Newton ketiga tentang aksi-reaksi",
+    "a": "Hukum Newton ketiga menyatakan bahwa untuk setiap aksi terdapat reaksi yang sama besar namun berlawanan arah. Contoh: ketika Anda meloncat, kaki Anda mendorong tanah ke bawah (aksi) dan tanah mendorong kaki Anda ke atas (reaksi) dengan gaya yang sama besar. Kedua gaya bekerja pada benda berbeda dan tidak saling meniadakan."
+  },
+  {
+    "q": "Apa itu tekanan dan bagaimana perhitungannya?",
+    "a": "Tekanan adalah gaya yang bekerja per satuan luas, dihitung dengan rumus P = F/A di mana P adalah tekanan (Pascal), F adalah gaya (Newton), dan A adalah luas (m²). Tekanan dalam fluida tergantung pada kedalaman: P = ρ × g × h, di mana ρ adalah kerapatan fluida, g adalah gravitasi, dan h adalah kedalaman. Semakin dalam posisi dalam fluida, semakin tinggi tekanannya."
+  },
+  {
+    "q": "Apa itu usaha dalam fisika dan bagaimana perhitungannya?",
+    "a": "Usaha adalah hasil kali gaya dan perpindahan dalam arah yang sama, dihitung dengan rumus W = F × d × cos(θ), di mana W adalah usaha (Joule), F adalah gaya, d adalah perpindahan, dan θ adalah sudut antara gaya dan perpindahan. Hanya komponen gaya yang sejajar dengan perpindahan yang melakukan usaha. Jika gaya tegak lurus perpindahan, usaha yang dilakukan nol."
+  },
+  {
+    "q": "Apa itu daya dalam fisika dan apa bedanya dengan energi?",
+    "a": "Daya adalah laju perubahan energi atau laju perubahan usaha terhadap waktu, dihitung dengan P = W/t atau P = E/t (Watt). Energi adalah kemampuan untuk melakukan usaha dan bersifat scalar berbentuk state function (bergantung posisi awal dan akhir). Daya menunjukkan seberapa cepat energi digunakan atau ditransfer. Contoh: dua orang naik tangga dengan tinggi sama, jika satu naik lebih cepat maka ia mempunyai daya lebih besar."
+  },
+  {
+    "q": "Apa itu bioteknologi dan sebutkan contoh penerapannya",
+    "a": "Bioteknologi adalah pemanfaatan makhluk hidup atau proses biologis untuk menghasilkan produk yang bermanfaat. Contoh penerapannya: 1) Rekayasa genetika (modifikasi gen untuk tanaman lebih produktif), 2) Produksi insulin menggunakan bakteri, 3) Pembuatan vaksin, 4) Fermentasi untuk yogurt dan tempe, 5) Kloning hewan, 6) Terapi gen untuk penyakit genetik."
+  },
+  {
+    "q": "Jelaskan siklus air dan tahap-tahapnya",
+    "a": "Siklus air adalah pergerakan air antara bumi dan atmosfer. Tahapnya: 1) Penguapan: air dari permukaan laut, danau, dan sungai menguap menjadi uap air karena panas matahari. 2) Transpirasi: tumbuhan melepaskan uap air melalui daun. 3) Kondensasi: uap air naik ke atmosfer dan mendingin membentuk awan. 4) Presipitasi: air jatuh sebagai hujan, salju, atau es. 5) Aliran permukaan dan infiltrasi: air mengalir ke laut atau meresap ke tanah melalui akar tumbuhan. Siklus ini berkelanjutan dan penting untuk kehidupan."
+  },
+  {
+    "q": "Apa itu lempeng tektonik dan bagaimana gerakannya?",
+    "a": "Lempeng tektonik adalah potongan-potongan besar kulit bumi yang mengapung di mantel yang panas dan bergerak lambat. Ada tiga jenis gerakan: 1) Konvergen (dua lempeng saling mendekat, menyebabkan subduksi dan pembentukan gunung), 2) Divergen (dua lempeng saling menjauh, menciptakan celah dan magma naik membentuk kerak baru), 3) Transform (dua lempeng saling bergeser horizontal, menyebabkan gempa bumi). Gerakan lempeng ini menyebabkan gempa, letusan gunung berapi, dan pembentukan topografi bumi."
+  },
+  {
+    "q": "Apa itu gempa bumi dan apa penyebabnya?",
+    "a": "Gempa bumi adalah getaran atau guncangan pada kulit bumi yang disebabkan oleh pelepasan energi yang tiba-tiba. Penyebab utama adalah pergeseran lempeng tektonik, terutama di batas lempeng yang disebut zona subduksi. Ketika dua lempeng saling bergesekan, terjadi akumulasi tegangan hingga akhirnya terlepas dalam bentuk energi seismik. Gempa juga dapat disebabkan oleh letusan gunung berapi atau aktivitas manusia seperti penggalian tambang."
+  },
+  {
+    "q": "Jelaskan tiga jenis batuan utama dan cara terbentuknya",
+    "a": "1) Batuan beku atau magmatik: terbentuk dari pendinginan dan pemadatan magma, dibagi menjadi intrusive (membeku di dalam bumi, seperti granit) dan extrusive (membeku di permukaan, seperti basalt). 2) Batuan sedimen: terbentuk dari pengendapan dan kompaksi fragmen batuan yang tererosi, seperti batu pasir dan batu kapur. 3) Batuan metamorf: terbentuk ketika batuan existing hangat dan tertekan di dalam bumi tanpa meleleh sepenuhnya, seperti marmer dari batu kapur. Ketiga jenis batuan saling berubah dalam siklus batuan."
+  },
+  {
+    "q": "Apa itu respirasi seluler dan bedanya dengan fotosintesis?",
+    "a": "Respirasi seluler adalah proses mendapatkan energi dari nutrisi (glukosa) dengan mengoksidasi untuk menghasilkan ATP. Proses ini terjadi dalam mitokondria dan melibatkan glikolisis, siklus Krebs, dan rantai transpor elektron. Fotosintesis adalah kebalikannya: menggunakan energi cahaya untuk membuat glukosa dari CO2 dan H2O, terjadi di kloroplas. Respirasi melepaskan energi (katabolik), fotosintesis menyimpan energi (anabolik). Fotosintesis menghasilkan oksigen yang digunakan respirasi."
+  },
+  {
+    "q": "Apa itu sistem imun dan bagaimana cara kerjanya?",
+    "a": "Sistem imun adalah pertahanan tubuh terhadap patogen (bakteri, virus, jamur). Terdiri dari: 1) Imun innate (bawaan): kulit, asam lambung, sel fagosit yang nonspesifik. 2) Imun adaptif (spesifik): sel T dan B yang mempelajari patogen spesifik dan membuat antibodi. Ketika antigen (benda asing) masuk, sel B menghasilkan antibodi yang melapisi patogen, memudahkan sel fagosit melenyapkannya. Sel T memory mengingat patogen untuk respons cepat jika patogen kembali."
+  },
+  {
+    "q": "Apa itu hormon dan sebutkan beberapa jenis hormon penting dalam tubuh manusia?",
+    "a": "Hormon adalah zat kimia yang dihasilkan kelenjar endokrin dan bersirkulasi dalam darah untuk mengatur fungsi tubuh. Jenis-jenis penting: 1) Insulin (pankreas) - mengatur gula darah. 2) Tiroksin (tiroid) - mengatur metabolisme. 3) Testosteron dan estrogen (gonad) - mengatur seks dan reproduksi. 4) Kortisol (adrenal) - respons stres. 5) Oksitrosin dan vasopressin (hipofisis) - kontriksi uterus dan penyimpanan air. Hormon bekerja melalui reseptor spesifik di sel target dan dalam konsentrasi sangat kecil tetapi efektif."
+  },
+  {
+    "q": "Apa itu osmosis dan apa pentingnya dalam sel hidup?",
+    "a": "Osmosis adalah pergerakan molekul air melintasi membran semipermeabel dari daerah konsentrasi air tinggi (solut rendah) ke daerah konsentrasi air rendah (solut tinggi). Proses ini tidak memerlukan energi (pasif) dan terjadi karena perbedaan potensial air. Osmosis penting dalam sel karena: menjaga volume sel tetap konstan, memungkinkan penyerapan air dan nutrisi, dan mencegah sel lisis atau krenasi. Contoh: sel kulit dalam larutan hipertonis akan berkerut, dalam larutan hipotonis akan bengkak."
+  },
+  {
+    "q": "Apa itu transpirasi pada tumbuhan dan mengapa penting?",
+    "a": "Transpirasi adalah proses penguapan air dari permukaan daun tumbuhan melalui stomata (celah kecil). Proses ini penting karena: 1) Membawa hara mineral dari akar ke seluruh tubuh tumbuhan melalui aliran transpiratif. 2) Mendinginkan tumbuhan pada hari yang panas. 3) Mempertahankan turgor sel sehingga tumbuhan tetap tegak. 4) Membantu penyerapan nutrisi dari tanah. Laju transpirasi dipengaruhi oleh suhu, kelembaban, kecepatan angin, dan intensitas cahaya matahari."
+  },
+  {
+    "q": "Jelaskan lapisan-lapisan atmosfer bumi",
+    "a": "Atmosfer bumi terdiri dari lima lapisan utama: 1) Troposfer (0-12 km) - lapisan terbawah tempat cuaca terjadi, suhu menurun seiring ketinggian. 2) Stratosfer (12-50 km) - berisi lapisan ozon yang melindungi dari UV, suhu meningkat. 3) Mesosfer (50-80 km) - suhu menurun drastis, tempat meteor terbakar. 4) Termosfer (80-700 km) - sangat panas, lapisan ionosfer untuk komunikasi radio. 5) Eksosfer (di atas 700 km) - lapisan terluar menuju ruang angkasa. Setiap lapisan memiliki fungsi dan karakteristik unik."
+  },
+  {
+    "q": "Apa itu oxidasi dan reduksi dalam reaksi kimia?",
+    "a": "Oksidasi adalah proses kehilangan elektron atau penambahan oksigen oleh suatu zat. Reduksi adalah proses penambahan elektron atau pengurangan oksigen oleh suatu zat. Kedua proses selalu terjadi bersamaan dalam reaksi redoks (oksidasi-reduksi). Contoh: dalam reaksi antara besi dan oksigen membentuk oksida besi, besi mengalami oksidasi (kehilangan elektron) dan oksigen mengalami reduksi (menambah elektron). Bilangan oksidasi menunjukkan jumlah elektron yang telah dipindahkan atau dibagi dalam ikatan."
+  },
+  {
+    "q": "Apa itu polimer dan kontribusinya dalam kehidupan modern?",
+    "a": "Polimer adalah makromolekul yang terdiri dari banyak unit kecil (monomer) yang terikat dalam rantai panjang. Polimer dapat: 1) Alami: selulosa (kayu, kertas), protein (daging, rambut), DNA (materi genetik). 2) Sintetis: plastik (polietilen, poliester), karet sintetis, nilon. Kontribusi polimer: kemasan plastik, pakaian sintetis, ban kendaraan, insulasi elektrik, peralatan elektronik. Polimer sintetis memudahkan vida sehari-hari tetapi juga menyebabkan masalah limbah dan polusi lingkungan karena sulit terurai."
+  },
+  {
+    "q": "Apa itu elektrolit dan apa bedanya dengan non-elektrolit?",
+    "a": "Elektrolit adalah zat yang ketika dilarutkan dalam air atau cairan lain akan terurai menjadi ion dan dapat menghantarkan arus listrik. Dibagi menjadi: 1) Elektrolit kuat - sepenuhnya terurai (garam, asam kuat, basa kuat). 2) Elektrolit lemah - sebagian terurai (asam lemah, basa lemah). Non-elektrolit adalah zat yang tidak terurai menjadi ion ketika dilarutkan sehingga tidak menghantarkan listrik, contoh: gula dan alkohol. Kemampuan menghantarkan listrik tergantung pada konsentrasi ion dalam larutan."
+  },
+  {
+    "q": "Apa itu mekanika kuantum?",
+    "a": "Mekanika kuantum adalah cabang fisika yang mempelajari perilaku partikel pada skala sangat kecil, seperti atom dan subatom. Dalam mekanika kuantum, partikel memiliki sifat gelombang-partikel ganda dan posisinya tidak dapat ditentukan secara pasti, hanya probabilitasnya. Teori ini dikembangkan oleh ilmuwan seperti Max Planck, Werner Heisenberg, dan Erwin Schrödinger."
+  },
+  {
+    "q": "Apa itu prinsip ketidakpastian Heisenberg?",
+    "a": "Prinsip ketidakpastian Heisenberg menyatakan bahwa kita tidak bisa secara bersamaan mengetahui posisi dan momentum suatu partikel subatom dengan presisi sempurna. Semakin tepat kita mengukur posisi partikel, semakin tidak pasti momentumnya, dan sebaliknya. Prinsip ini merupakan fondasi dari mekanika kuantum dan menunjukkan batas fundamental pengukuran di dunia mikroskopis."
+  },
+  {
+    "q": "Apa itu lubang hitam (black hole)?",
+    "a": "Lubang hitam adalah objek di luar angkasa dengan gravitasi sangat kuat sehingga tidak ada apapun, termasuk cahaya, yang bisa lepas darinya. Lubang hitam terbentuk dari bintang masif yang kehabisan bahan bakar dan runtuh karena gravitasinya sendiri. Batas di mana cahaya tidak bisa lepas disebut horizon peristiwa (event horizon)."
+  },
+  {
+    "q": "Apa itu termodinamika dan apa hukum utamanya?",
+    "a": "Termodinamika adalah cabang fisika yang mempelajari hubungan antara panas, kerja, dan energi. Hukum utamanya: Hukum ke-0 (keseimbangan termal), Hukum ke-1 (energi kekal, tidak dapat diciptakan atau dimusnahkan), Hukum ke-2 (entropi sistem tertutup selalu meningkat), dan Hukum ke-3 (entropi mendekati nol pada suhu nol mutlak)."
+  },
+  {
+    "q": "Apa itu entropi dalam termodinamika?",
+    "a": "Entropi adalah ukuran ketidakteraturan atau ketidakpastian dalam suatu sistem. Menurut hukum kedua termodinamika, entropi suatu sistem tertutup selalu meningkat atau tetap, tidak pernah berkurang secara spontan. Contohnya, es yang mencair di ruangan menjadi air adalah proses peningkatan entropi karena molekul air lebih tidak teratur daripada molekul es."
+  },
+  {
+    "q": "Apa itu spektrum elektromagnetik?",
+    "a": "Spektrum elektromagnetik adalah rentang seluruh jenis radiasi elektromagnetik berdasarkan panjang gelombang dan frekuensinya. Urutannya dari energi terendah ke tertinggi: gelombang radio, gelombang mikro, inframerah, cahaya tampak, ultraviolet, sinar-X, dan sinar gamma. Cahaya tampak hanya merupakan bagian sangat kecil dari spektrum keseluruhan."
+  },
+  {
+    "q": "Apa itu superkonduktor?",
+    "a": "Superkonduktor adalah material yang dapat menghantarkan listrik tanpa hambatan (resistansi nol) ketika didinginkan di bawah suhu kritis tertentu. Pada kondisi superkonduktif, arus listrik mengalir tanpa kehilangan energi. Superkonduktor digunakan dalam MRI di rumah sakit, akselerator partikel, dan kereta maglev."
+  },
+  {
+    "q": "Apa itu efek Doppler?",
+    "a": "Efek Doppler adalah perubahan frekuensi gelombang (suara atau cahaya) yang diamati ketika sumber gelombang dan pengamat bergerak relatif satu sama lain. Ketika sumber mendekati pengamat, frekuensi terdengar lebih tinggi; ketika menjauh, frekuensi terdengar lebih rendah. Contohnya, bunyi sirene ambulans yang berubah nadanya saat mendekat dan menjauh."
+  },
+  {
+    "q": "Apa itu nanoteknologi?",
+    "a": "Nanoteknologi adalah ilmu dan rekayasa yang memanipulasi materi pada skala nanometer (1 nanometer = sepermiliar meter). Pada skala ini, material sering menunjukkan sifat unik yang berbeda dari skala lebih besar. Penerapannya meliputi obat-obatan tertarget, material ultra-kuat, sensor nano, dan pelapis anti-bakteri."
+  },
+  {
+    "q": "Apa itu CRISPR-Cas9 dalam genetika?",
+    "a": "CRISPR-Cas9 adalah teknologi penyuntingan gen yang memungkinkan ilmuwan memotong dan memodifikasi DNA dengan presisi tinggi. Teknologi ini bekerja seperti gunting molekuler yang dapat menghapus, menambah, atau mengubah urutan DNA pada lokasi tertentu. CRISPR digunakan dalam penelitian penyakit genetik, pengembangan tanaman tahan hama, dan terapi gen."
+  },
+  {
+    "q": "Apa itu isotop dalam kimia?",
+    "a": "Isotop adalah atom-atom dari unsur yang sama yang memiliki jumlah proton sama tetapi jumlah neutron berbeda, sehingga memiliki massa atom berbeda. Contoh: karbon-12 dan karbon-14 adalah isotop karbon. Karbon-14 bersifat radioaktif dan digunakan dalam penanggalan karbon untuk menentukan usia fosil dan artefak."
+  },
+  {
+    "q": "Apa itu neutrino dalam fisika partikel?",
+    "a": "Neutrino adalah partikel subatom yang sangat ringan, tidak bermuatan listrik, dan jarang berinteraksi dengan materi. Neutrino dihasilkan dari reaksi nuklir di matahari, reaktor nuklir, dan supernova. Triliunan neutrino melewati tubuh kita setiap detik tanpa efek apapun karena interaksinya dengan materi sangat lemah."
+  },
+  {
+    "q": "Apa itu fusi nuklir dan mengapa penting?",
+    "a": "Fusi nuklir adalah proses penggabungan dua inti atom ringan (seperti hidrogen) menjadi inti atom lebih berat (helium) sambil melepaskan energi yang sangat besar. Proses ini menjadi sumber energi matahari dan bintang-bintang. Fusi nuklir diteliti sebagai sumber energi masa depan karena bahan bakarnya melimpah dan menghasilkan limbah radioaktif jauh lebih sedikit dibanding fisi nuklir."
+  },
+  {
+    "q": "Apa perbedaan fisi nuklir dan fusi nuklir?",
+    "a": "Fisi nuklir adalah pemecahan inti atom berat (seperti uranium) menjadi inti-inti lebih ringan, melepaskan energi. Fusi nuklir adalah penggabungan inti atom ringan menjadi inti lebih berat. Keduanya melepaskan energi besar, tetapi fusi menghasilkan lebih banyak energi per massa bahan bakar dan limbah lebih sedikit. Fisi digunakan di pembangkit listrik tenaga nuklir dan bom atom, sedangkan fusi terjadi di matahari dan masih dalam tahap penelitian untuk pembangkit energi."
+  },
+  {
+    "q": "Apa itu tabel periodik unsur dan bagaimana cara membacanya?",
+    "a": "Tabel periodik adalah susunan sistematis semua unsur kimia berdasarkan nomor atom (jumlah proton). Unsur disusun dalam baris (periode) dan kolom (golongan). Unsur dalam golongan yang sama memiliki sifat kimia serupa. Dari kiri ke kanan, sifat berubah dari logam ke non-logam. Nomor atom meningkat dari kiri ke kanan dan atas ke bawah."
+  },
+  {
+    "q": "Apa itu katalis dalam reaksi kimia?",
+    "a": "Katalis adalah zat yang mempercepat laju reaksi kimia tanpa ikut bereaksi atau habis dalam prosesnya. Katalis bekerja dengan menurunkan energi aktivasi yang diperlukan agar reaksi berlangsung. Contoh katalis biologis adalah enzim yang mempercepat reaksi metabolisme dalam tubuh. Katalis industri seperti platinum digunakan dalam konverter katalitik knalpot mobil."
+  },
+  {
+    "q": "Apa itu kromosom dan bagaimana hubungannya dengan gen?",
+    "a": "Kromosom adalah struktur benang-benang DNA yang tergulung rapat dan berada di dalam inti sel. Manusia memiliki 23 pasang kromosom (46 total). Gen adalah segmen-segmen DNA pada kromosom yang mengkode informasi untuk membuat protein tertentu. Satu kromosom mengandung ratusan hingga ribuan gen yang menentukan sifat-sifat organisme."
+  },
+  {
+    "q": "Apa itu mutasi genetik dan apa akibatnya?",
+    "a": "Mutasi genetik adalah perubahan pada urutan DNA yang dapat terjadi secara spontan atau akibat faktor lingkungan seperti radiasi dan bahan kimia. Mutasi dapat bersifat: netral (tidak berpengaruh), menguntungkan (memberikan keunggulan adaptif), atau merugikan (menyebabkan penyakit genetik seperti anemia sel sabit). Mutasi juga merupakan sumber variasi genetik yang mendorong evolusi."
+  },
+  {
+    "q": "Apa itu virus dan bagaimana cara kerjanya?",
+    "a": "Virus adalah partikel mikroskopis yang terdiri dari materi genetik (DNA atau RNA) yang dibungkus selubung protein. Virus tidak dianggap makhluk hidup karena tidak dapat bereproduksi sendiri. Virus menginfeksi sel inang, menyuntikkan materi genetiknya, dan membajak mesin sel untuk membuat salinan virus baru. Contoh penyakit akibat virus: influenza, COVID-19, dan HIV."
+  },
+  {
+    "q": "Apa itu bakteri dan apa perbedaannya dengan virus?",
+    "a": "Bakteri adalah organisme bersel satu prokariotik yang dapat hidup mandiri dan bereproduksi sendiri melalui pembelahan biner. Perbedaannya dengan virus: bakteri memiliki sel lengkap dan dapat hidup di luar inang, sedangkan virus memerlukan sel inang untuk berkembang biak. Bakteri diobati dengan antibiotik, sedangkan virus diobati dengan antivirus. Tidak semua bakteri berbahaya; banyak yang bermanfaat seperti bakteri pencernaan."
+  },
+  {
+    "q": "Apa itu antibiotik dan bagaimana cara kerjanya?",
+    "a": "Antibiotik adalah obat yang digunakan untuk membunuh atau menghambat pertumbuhan bakteri. Antibiotik bekerja dengan cara merusak dinding sel bakteri, mengganggu sintesis protein, atau menghambat replikasi DNA bakteri. Antibiotik tidak efektif melawan virus. Penggunaan antibiotik yang berlebihan atau tidak tepat dapat menyebabkan resistensi antibiotik, di mana bakteri bermutasi dan menjadi kebal terhadap obat."
+  },
+  {
+    "q": "Apa itu efek rumah kaca?",
+    "a": "Efek rumah kaca adalah proses di mana gas-gas tertentu di atmosfer (CO2, metana, uap air) menyerap dan memancarkan kembali radiasi inframerah dari permukaan bumi, menyebabkan pemanasan atmosfer. Proses ini alami dan penting untuk menjaga suhu bumi tetap hangat. Namun, peningkatan gas rumah kaca akibat aktivitas manusia memperkuat efek ini dan menyebabkan pemanasan global."
+  },
+  {
+    "q": "Apa itu lapisan ozon dan mengapa penting?",
+    "a": "Lapisan ozon adalah lapisan gas ozon (O3) di stratosfer pada ketinggian sekitar 15-35 km dari permukaan bumi. Lapisan ini berfungsi menyerap sebagian besar radiasi ultraviolet (UV) berbahaya dari matahari yang dapat menyebabkan kanker kulit, kerusakan mata, dan merusak ekosistem. Penggunaan bahan kimia CFC (klorofluorokarbon) telah menyebabkan penipisan lapisan ozon, terutama di Antartika."
+  },
+  {
+    "q": "Apa itu suksesi ekologi?",
+    "a": "Suksesi ekologi adalah proses perubahan bertahap komunitas organisme di suatu habitat seiring waktu. Suksesi primer terjadi di habitat baru yang belum ada kehidupan (misalnya lava yang mendingin), dimulai dari lumut dan lichen. Suksesi sekunder terjadi di area yang pernah ada kehidupan tetapi rusak (misalnya setelah kebakaran hutan), dan berlangsung lebih cepat karena tanah dan biji sudah tersedia."
+  },
+  {
+    "q": "Apa itu simbiosis dan sebutkan jenis-jenisnya?",
+    "a": "Simbiosis adalah hubungan erat antara dua organisme berbeda spesies. Jenisnya: 1) Mutualisme - kedua pihak diuntungkan (lebah dan bunga). 2) Parasitisme - satu pihak diuntungkan dan yang lain dirugikan (kutu di rambut manusia). 3) Komensalisme - satu pihak diuntungkan dan yang lain tidak terpengaruh (ikan remora menempel pada hiu). 4) Amensalisme - satu pihak dirugikan tanpa keuntungan bagi yang lain."
+  },
+  {
+    "q": "Apa itu biodiversitas dan mengapa harus dijaga?",
+    "a": "Biodiversitas atau keanekaragaman hayati adalah variasi kehidupan di bumi, mencakup keragaman gen, spesies, dan ekosistem. Biodiversitas penting karena menjaga keseimbangan ekosistem, menyediakan sumber makanan dan obat-obatan, mendukung layanan ekosistem seperti penyerbukan dan pemurnian air, serta memiliki nilai estetika dan budaya. Hilangnya biodiversitas dapat menyebabkan runtuhnya rantai makanan dan ekosistem."
+  },
+  {
+    "q": "Apa itu pemanasan global dan apa dampaknya?",
+    "a": "Pemanasan global adalah peningkatan suhu rata-rata bumi akibat meningkatnya konsentrasi gas rumah kaca di atmosfer dari pembakaran bahan bakar fosil dan deforestasi. Dampaknya meliputi: mencairnya es kutub dan naiknya permukaan laut, cuaca ekstrem yang lebih sering, kerusakan ekosistem dan terumbu karang, serta ancaman terhadap ketahanan pangan dan kesehatan manusia."
+  },
+  {
+    "q": "Apa itu medan magnet bumi dan apa fungsinya?",
+    "a": "Medan magnet bumi (magnetosfer) dihasilkan oleh pergerakan besi cair di inti luar bumi melalui proses geodinamo. Medan magnet ini membentang dari inti bumi ke luar angkasa dan berfungsi melindungi bumi dari angin matahari dan partikel bermuatan yang berbahaya. Tanpa magnetosfer, atmosfer bumi bisa tergerus oleh angin matahari, seperti yang terjadi pada Mars."
+  },
+  {
+    "q": "Apa itu efek fotolistrik?",
+    "a": "Efek fotolistrik adalah fenomena di mana elektron terlepas dari permukaan logam ketika disinari cahaya dengan frekuensi tertentu. Albert Einstein menjelaskan fenomena ini pada tahun 1905 dan menerima Nobel Fisika karenanya. Efek fotolistrik membuktikan bahwa cahaya memiliki sifat partikel (foton) dan energi foton bergantung pada frekuensinya, bukan intensitas cahaya."
+  },
+  {
+    "q": "Apa itu interferensi gelombang?",
+    "a": "Interferensi gelombang adalah fenomena ketika dua atau lebih gelombang bertemu dan saling mempengaruhi. Interferensi konstruktif terjadi saat puncak gelombang bertemu puncak, menghasilkan amplitudo lebih besar. Interferensi destruktif terjadi saat puncak bertemu lembah, menghasilkan amplitudo lebih kecil atau nol. Interferensi membuktikan sifat gelombang cahaya dan diterapkan dalam teknologi seperti holografi."
+  },
+  {
+    "q": "Apa itu semikonduktor dan apa kegunaannya?",
+    "a": "Semikonduktor adalah material yang konduktivitas listriknya berada di antara konduktor dan isolator, seperti silikon dan germanium. Sifat listriknya dapat diatur dengan doping (penambahan unsur lain). Semikonduktor adalah dasar dari elektronika modern, digunakan dalam transistor, dioda, LED, sel surya, dan chip komputer yang menjalankan semua perangkat digital."
+  },
+  {
+    "q": "Apa itu hukum Ohm?",
+    "a": "Hukum Ohm menyatakan bahwa arus listrik yang mengalir dalam suatu penghantar berbanding lurus dengan beda potensial (tegangan) dan berbanding terbalik dengan hambatan. Rumusnya V = I × R, di mana V adalah tegangan (Volt), I adalah arus (Ampere), dan R adalah hambatan (Ohm). Hukum ini berlaku untuk penghantar ohmik pada suhu konstan."
+  },
+  {
+    "q": "Apa itu kapasitor dan bagaimana cara kerjanya?",
+    "a": "Kapasitor adalah komponen elektronik yang menyimpan energi dalam bentuk medan listrik. Kapasitor terdiri dari dua pelat konduktor yang dipisahkan oleh bahan isolator (dielektrik). Saat diberi tegangan, muatan listrik menumpuk di pelat-pelat tersebut. Kapasitor digunakan dalam rangkaian listrik untuk penyaringan sinyal, penyimpanan energi sementara, dan stabilisasi tegangan."
+  },
+  {
+    "q": "Apa itu fotón dan sifat dualitas gelombang-partikel cahaya?",
+    "a": "Foton adalah kuantum (paket energi terkecil) dari radiasi elektromagnetik, termasuk cahaya. Cahaya menunjukkan dualitas gelombang-partikel: dalam eksperimen tertentu cahaya berperilaku sebagai gelombang (difraksi, interferensi), sedangkan dalam eksperimen lain berperilaku sebagai partikel (efek fotolistrik). Energi foton ditentukan oleh frekuensinya: E = h × f, di mana h adalah konstanta Planck."
+  },
+  {
+    "q": "Apa itu teori relativitas khusus Einstein?",
+    "a": "Teori relativitas khusus Einstein (1905) menyatakan bahwa hukum fisika sama di semua kerangka acuan inersia dan kecepatan cahaya dalam vakum selalu konstan. Konsekuensinya mencakup dilatasi waktu (waktu berjalan lebih lambat pada kecepatan tinggi), kontraksi panjang, dan kesetaraan massa-energi (E = mc²). Teori ini berlaku untuk benda yang bergerak mendekati kecepatan cahaya."
+  },
+  {
+    "q": "Apa itu teori relativitas umum Einstein?",
+    "a": "Teori relativitas umum (1915) menjelaskan gravitasi bukan sebagai gaya tarik, melainkan sebagai kelengkungan ruang-waktu yang disebabkan oleh massa dan energi. Benda bermassa besar seperti bintang melengkungkan ruang-waktu di sekitarnya, dan benda lain bergerak mengikuti kelengkungan tersebut. Teori ini memprediksi lubang hitam, gelombang gravitasi, dan pembengkokan cahaya oleh gravitasi."
+  },
+  {
+    "q": "Apa itu gelombang gravitasi?",
+    "a": "Gelombang gravitasi adalah riak dalam ruang-waktu yang merambat dengan kecepatan cahaya, diprediksi oleh Einstein dan pertama kali terdeteksi langsung oleh LIGO pada tahun 2015. Gelombang ini dihasilkan oleh peristiwa kosmik dahsyat seperti tabrakan lubang hitam atau bintang neutron. Deteksi gelombang gravitasi membuka era baru astronomi untuk mengamati alam semesta."
+  },
+  {
+    "q": "Apa itu bintang neutron?",
+    "a": "Bintang neutron adalah sisa bintang masif yang telah meledak sebagai supernova. Saat inti bintang runtuh, proton dan elektron bergabung membentuk neutron, menghasilkan objek yang sangat padat. Bintang neutron memiliki diameter sekitar 20 km tetapi massanya bisa 1,4-2 kali massa matahari. Satu sendok teh materi bintang neutron beratnya sekitar satu miliar ton."
+  },
+  {
+    "q": "Apa itu materi gelap (dark matter)?",
+    "a": "Materi gelap adalah bentuk materi misterius yang tidak memancarkan atau menyerap cahaya sehingga tidak dapat diamati langsung. Keberadaannya diketahui dari pengaruh gravitasinya terhadap galaksi dan struktur kosmis. Materi gelap diperkirakan menyusun sekitar 27% dari total energi-massa alam semesta, sedangkan materi biasa hanya sekitar 5%."
+  },
+  {
+    "q": "Apa itu energi gelap (dark energy)?",
+    "a": "Energi gelap adalah bentuk energi misterius yang diperkirakan menyusun sekitar 68% dari total energi alam semesta dan bertanggung jawab atas percepatan ekspansi alam semesta. Energi gelap bekerja berlawanan dengan gravitasi, mendorong galaksi-galaksi saling menjauh dengan kecepatan yang semakin meningkat. Sifat dasarnya masih menjadi salah satu misteri terbesar dalam fisika modern."
+  },
+  {
+    "q": "Apa itu teori Big Bang?",
+    "a": "Teori Big Bang menyatakan bahwa alam semesta bermula dari kondisi sangat panas dan padat sekitar 13,8 miliar tahun lalu, kemudian mengembang dan mendingin secara bertahap. Bukti pendukungnya meliputi radiasi latar belakang kosmik (CMB), pergeseran merah galaksi-galaksi yang menunjukkan ekspansi alam semesta, dan kelimpahan unsur ringan (hidrogen dan helium) yang sesuai prediksi."
+  },
+  {
+    "q": "Apa itu sel punca (stem cell) dan apa potensinya?",
+    "a": "Sel punca adalah sel yang belum terdiferensiasi dan memiliki kemampuan untuk berkembang menjadi berbagai jenis sel tubuh. Ada dua jenis utama: sel punca embrionik (dapat menjadi semua jenis sel) dan sel punca dewasa (lebih terbatas). Potensi penggunaannya meliputi regenerasi jaringan rusak, pengobatan penyakit degeneratif seperti Parkinson dan Alzheimer, serta pengembangan organ transplantasi."
+  },
+  {
+    "q": "Apa itu PCR (Polymerase Chain Reaction)?",
+    "a": "PCR adalah teknik laboratorium untuk memperbanyak fragmen DNA tertentu secara eksponensial dalam waktu singkat. Prosesnya melibatkan tiga tahap berulang: denaturasi (pemisahan untai DNA dengan pemanasan), annealing (penempelan primer), dan ekstensi (sintesis DNA baru oleh enzim polimerase). PCR digunakan dalam forensik, diagnosis penyakit, uji COVID-19, dan penelitian genetik."
+  },
+  {
+    "q": "Apa itu elektrolisis?",
+    "a": "Elektrolisis adalah proses penggunaan arus listrik untuk mendorong reaksi kimia yang tidak spontan. Dalam elektrolisis, energi listrik diubah menjadi energi kimia. Proses ini melibatkan katoda (elektroda negatif) tempat terjadi reduksi dan anoda (elektroda positif) tempat terjadi oksidasi. Elektrolisis digunakan dalam pelapisan logam, pemurnian logam, dan produksi hidrogen dari air."
+  },
+  {
+    "q": "Apa itu larutan koloid dan contohnya?",
+    "a": "Larutan koloid adalah campuran heterogen di mana partikel-partikel halus (1-1000 nm) tersebar merata dalam medium pendispersi tanpa mengendap. Koloid berada di antara larutan sejati dan suspensi. Contoh koloid: susu (emulsi lemak dalam air), kabut (tetesan air dalam udara), gel (cairan dalam padatan), dan asap (padatan dalam gas). Koloid menunjukkan efek Tyndall yaitu penghamburan cahaya."
+  },
+  {
+    "q": "Apa itu hukum kekekalan massa (Lavoisier)?",
+    "a": "Hukum kekekalan massa yang dikemukakan oleh Antoine Lavoisier menyatakan bahwa massa total zat-zat sebelum reaksi kimia sama dengan massa total zat-zat setelah reaksi. Artinya, materi tidak dapat diciptakan atau dimusnahkan dalam reaksi kimia biasa, hanya berubah bentuk. Hukum ini menjadi dasar stoikiometri dalam kimia untuk menghitung jumlah reaktan dan produk."
+  },
+  {
+    "q": "Apa itu kesetimbangan kimia?",
+    "a": "Kesetimbangan kimia adalah keadaan di mana laju reaksi maju sama dengan laju reaksi balik, sehingga konsentrasi reaktan dan produk tetap konstan. Kesetimbangan bersifat dinamis, artinya reaksi masih berlangsung tetapi tidak ada perubahan bersih. Menurut prinsip Le Chatelier, jika sistem kesetimbangan diganggu (suhu, tekanan, konsentrasi berubah), sistem akan bergeser untuk mengurangi gangguan tersebut."
+  },
+  {
+    "q": "Apa itu hukum Gay-Lussac tentang gas?",
+    "a": "Hukum Gay-Lussac menyatakan bahwa tekanan gas berbanding lurus dengan suhu absolutnya pada volume tetap (P/T = konstan). Artinya, jika suhu gas dinaikkan pada wadah tertutup, tekanannya akan meningkat secara proporsional. Hukum ini menjelaskan mengapa ban mobil bisa meletus saat cuaca sangat panas, karena tekanan udara di dalamnya meningkat akibat suhu naik."
+  },
+  {
+    "q": "Apa itu klorofil dan perannya dalam fotosintesis?",
+    "a": "Klorofil adalah pigmen hijau yang terdapat di kloroplas sel tumbuhan dan berfungsi menyerap energi cahaya matahari untuk fotosintesis. Klorofil paling banyak menyerap cahaya merah dan biru, memantulkan cahaya hijau sehingga daun tampak berwarna hijau. Ada beberapa jenis klorofil, dengan klorofil a dan b sebagai yang paling umum pada tumbuhan tingkat tinggi."
+  },
+  {
+    "q": "Apa itu difusi dan bagaimana prosesnya?",
+    "a": "Difusi adalah perpindahan molekul atau partikel dari daerah konsentrasi tinggi ke daerah konsentrasi rendah secara pasif tanpa memerlukan energi. Proses ini terjadi karena gerakan acak (Brownian motion) molekul-molekul. Contoh difusi: aroma parfum yang menyebar di ruangan, tinta yang menyebar dalam air, dan pertukaran gas oksigen-karbon dioksida di paru-paru."
+  },
+  {
+    "q": "Apa itu plasticitas otak (neuroplastisitas)?",
+    "a": "Neuroplastisitas adalah kemampuan otak untuk mengubah struktur dan fungsinya sebagai respons terhadap pengalaman, pembelajaran, atau cedera. Otak dapat membentuk koneksi saraf baru (sinapsis), memperkuat koneksi yang sering digunakan, dan melemahkan yang jarang dipakai. Neuroplastisitas menjelaskan mengapa kita bisa belajar keterampilan baru sepanjang hidup dan mengapa rehabilitasi setelah stroke bisa berhasil."
+  },
+  {
+    "q": "Apa itu radioaktivitas dan apa jenis-jenis radiasinya?",
+    "a": "Radioaktivitas adalah peluruhan spontan inti atom yang tidak stabil dengan memancarkan radiasi. Tiga jenis utama: 1) Radiasi alfa - inti helium, daya tembus rendah, berbahaya jika terhirup. 2) Radiasi beta - elektron berkecepatan tinggi, daya tembus sedang. 3) Radiasi gamma - gelombang elektromagnetik energi tinggi, daya tembus sangat tinggi. Radioaktivitas digunakan dalam kedokteran, pembangkit listrik, dan penanggalan fosil."
+  },
+  {
+    "q": "Apa itu waktu paruh (half-life) dalam fisika nuklir?",
+    "a": "Waktu paruh adalah waktu yang dibutuhkan agar setengah dari jumlah atom radioaktif dalam suatu sampel meluruh menjadi unsur lain. Setiap isotop radioaktif memiliki waktu paruh yang berbeda, mulai dari sepersekian detik hingga miliaran tahun. Contoh: karbon-14 memiliki waktu paruh 5.730 tahun, uranium-238 memiliki waktu paruh 4,5 miliar tahun. Konsep ini digunakan dalam penanggalan radiometrik."
+  },
+  {
+    "q": "Apa itu fotoperiodisme pada tumbuhan?",
+    "a": "Fotoperiodisme adalah respons biologis tumbuhan terhadap panjang hari (durasi cahaya dan gelap). Tumbuhan dibagi menjadi: tumbuhan hari pendek (berbunga ketika malam lebih panjang dari hari, seperti padi), tumbuhan hari panjang (berbunga ketika hari lebih panjang, seperti bayam), dan tumbuhan hari netral (berbunga tidak tergantung panjang hari, seperti tomat). Fotoperiodisme dikendalikan oleh pigmen fitokrom."
+  },
+  {
+    "q": "Apa itu sel prokariotik dan eukariotik, serta perbedaannya?",
+    "a": "Sel prokariotik adalah sel tanpa nucleus yang terdapat pada bakteri dan archaea, sedangkan sel eukariotik memiliki nucleus yang terdapat pada tumbuhan, hewan, fungi, dan protista. Perbedaan utama: sel prokariotik lebih kecil dan sederhana tanpa organel membran, sedangkan sel eukariotik lebih besar dan kompleks dengan berbagai organel seperti mitokondria dan kloroplas. DNA pada sel prokariotik tersebar di sitoplasma, pada sel eukariotik tersimpan dalam nucleus. Sel eukariotik umumnya lebih besar dan dapat melakukan spesialisasi organ yang lebih kompleks."
+  },
+  {
+    "q": "Apa itu konduktivitas termal dan bagaimana cara mengukurnya?",
+    "a": "Konduktivitas termal adalah kemampuan material untuk menghantarkan panas, diukur dengan koefisien konduktivitas termal (k) dalam satuan W/(m·K). Material dengan konduktivitas tinggi seperti tembaga dan aluminium menghantarkan panas dengan cepat, sedangkan material dengan konduktivitas rendah seperti kayu dan udara merupakan isolator panas yang baik. Hukum Fourier menyatakan bahwa laju perpindahan panas sebanding dengan gradien suhu dan luas permukaan: Q = -k × A × (ΔT/Δx)."
+  },
+  {
+    "q": "Apa itu denaturasi protein dan apa penyebabnya?",
+    "a": "Denaturasi protein adalah pengrusakan struktur tiga dimensi protein tanpa memutus ikatan peptida, sehingga protein kehilangan fungsinya. Penyebab denaturasi: suhu tinggi (melenturkan ikatan hydrogen), pH ekstrem (merusak muatan ion), bahan kimia tertentu (urea, formaldehida), atau tekanan mekanis. Contoh: putih telur yang bening menjadi putih pekat saat diisi air panas, atau susu yang terkoagulasi oleh asam. Denaturasi dapat bersifat reversibel (dapat pulih) atau irreversibel (permanen)."
+  },
+  {
+    "q": "Apa itu osmolalitas dan apa perbedaannya dengan osmolarity?",
+    "a": "Osmolalitas adalah jumlah zat terlarut per kilogram pelarut, dinyatakan dalam osmol/kg, sementara osmolarity adalah jumlah zat terlarut per liter larutan, dinyatakan dalam osmol/L. Osmolalitas lebih sering digunakan dalam bidang medis dan biokimia karena tidak tergantung pada suhu larutan. Kedua besaran ini penting untuk memahami gerakan air antara kompartemen cairan tubuh dan dalam sel hidup, terutama dalam kondisi klinis seperti dehidrasi dan hipernatremia."
+  },
+  {
+    "q": "Apa itu nadi dan bagaimana cara menghitungnya?",
+    "a": "Nadi adalah getaran denyutan arteri yang dapat dirasakan di permukaan kulit saat darah dipompa oleh jantung. Nadi dapat dirasakan di beberapa lokasi: pergelangan tangan (arteri radial), leher (arteri karotis), dan paha (arteri femoral). Detak jantung normal pada orang dewasa saat istirahat adalah 60-100 kali per menit. Nadi dapat dipengaruhi oleh aktivitas fisik, emosi, suhu tubuh, dan kondisi kesehatan. Irama dan kekuatan nadi memberikan informasi penting tentang kesehatan kardiovaskular seseorang."
+  },
+  {
+    "q": "Apa itu kompresi adiabatik dan ekspansi adiabatik?",
+    "a": "Kompresi adiabatik adalah pengurangan volume gas tanpa ada pertukaran panas dengan lingkungan, menyebabkan suhu gas meningkat. Ekspansi adiabatik adalah peningkatan volume gas tanpa pertukaran panas, menyebabkan suhu menurun. Proses adiabatik dijelaskan dalam hukum keadaan gas ideal adiabatik. Contoh alami: udara yang naik ke atmosfer mengalami ekspansi adiabatik dan mendingin, membentuk awan dan cuaca, atau pompa sepeda yang menjadi panas saat dikompres."
+  },
+  {
+    "q": "Apa itu bioakkumulasi dan bagaimana pengaruhnya terhadap ekosistem?",
+    "a": "Bioakkumulasi adalah proses penumpukan zat kimia berbahaya (misalnya merkuri, DDT, logam berat) dalam tubuh organisme seiring waktu karena konsumsi atau penyerapan dari lingkungan. Zat yang bioakumulatif tidak mudah dikeluarkan dari tubuh, sehingga konsentrasinya semakin tinggi seiring waktu. Dalam rantai makanan, konsentrasi zat toksik meningkat pada setiap tingkat trofik (biomagnifikasi), sehingga predator puncak terpengaruh paling berat. Ini menjadi masalah lingkungan serius yang mempengaruhi kesehatan hewan dan manusia."
+  },
+  {
+    "q": "Apa itu fotolisis air dalam fotosintesis?",
+    "a": "Fotolisis air (pemecahan air oleh cahaya) adalah reaksi kunci dalam fase terang fotosintesis yang terjadi di membran tilakoid kloroplas. Air dipecah oleh energi cahaya menjadi hydrogen ions (H+), elektron, dan oksigen (O2). Elektron yang dilepaskan mengalami serangkaian transfer energi yang menghasilkan NADPH dan menyebabkan pompa proton untuk menghasilkan ATP. Oksigen yang diproduksi dilepaskan sebagai produk sampingan (limbah) melalui stomata. Proses ini sangat penting karena oksigen di atmosfer berasal dari fotolisis air oleh tumbuhan, alga, dan cyanobacteria."
+  },
+  {
+    "q": "Apa itu plasmid dan perannya dalam transfer gen pada bakteri?",
+    "a": "Plasmid adalah molekul DNA sirkuler kecil yang ditemukan dalam sel bakteri secara independen dari kromosom utama. Plasmid dapat mereplikasi diri dan membawa gen-gen penting, termasuk gen untuk resistensi antibiotik atau kemampuan metabolisme khusus. Bakteri dapat mentransfer plasmid ke bakteri lain melalui konjugasi (kontak langsung) atau transformasi (penyerapan DNA dari lingkungan). Plasmid sangat penting dalam bioteknologi karena digunakan sebagai vektor untuk memasukkan gen tertentu ke dalam bakteri dalam rekayasa genetika."
+  },
+  {
+    "q": "Apa itu fototropisme dan geotropisme pada tumbuhan?",
+    "a": "Fototropisme adalah gerakan pertumbuhan tumbuhan menuju sumber cahaya, sedangkan geotropisme adalah gerakan pertumbuhan tumbuhan berdasarkan gravitasi. Kedua fenomena diatur oleh hormon tumbuhan auxin yang didistribusikan secara tidak merata dalam merespons stimulus. Pada fototropisme, cahaya menyebabkan auxin bergeser ke sisi tumbuhan yang gelap, mempercepat pertumbuhan di sisi gelap sehingga tumbuhan membengkok ke arah cahaya. Pada geotropisme, gravitasi menyebabkan auxin terakumulasi di bagian bawah akar, menghambat pertumbuhan di sisi bawah sehingga akar tumbuh ke bawah."
+  },
+  {
+    "q": "Apa itu tekanan turgor dan apa pentingnya bagi tumbuhan?",
+    "a": "Tekanan turgor adalah tekanan yang dihasilkan oleh cairan sel (vakuola) terhadap dinding sel tumbuhan dari dalam. Tekanan ini menjaga kekakuan dan bentuk sel serta seluruh tumbuhan. Ketika tumbuhan mendapat cukup air, tekanan turgor tinggi dan tumbuhan tetap tegak dan segar. Ketika tumbuhan kekurangan air, tekanan turgor menurun dan tumbuhan akan layu karena fleksibilitas dinding sel. Proses osmosis air yang masuk ke vakuola melalui membran semipermeabel menyebabkan tekanan turgor. Tanpa tekanan turgor, tumbuhan tidak dapat mempertahankan bentuk dan ketegakkannya."
+  },
+  {
+    "q": "Apa itu hukum Stefan-Boltzmann dan apa aplikasinya?",
+    "a": "Hukum Stefan-Boltzmann menyatakan bahwa daya radiasi yang dipancarkan suatu benda hitam sebanding dengan pangkat empat dari suhu absolutnya: P = σ × A × T⁴, di mana σ adalah konstanta Stefan-Boltzmann, A adalah luas permukaan, dan T adalah suhu mutlak. Hukum ini menunjukkan bahwa benda yang lebih panas memancarkan jauh lebih banyak radiasi. Aplikasinya meliputi perhitungan energi yang dipancarkan matahari, pemodelan iklim bumi, desain sistem pemanas radiasi, dan studi tentang pemanasan global akibat efek rumah kaca."
+  },
+  {
+    "q": "Apa itu pencemaran air dan sebutkan sumber-sumbernya?",
+    "a": "Pencemaran air adalah masuknya zat atau energi yang tidak diinginkan ke dalam badan air sehingga mengurangi kualitas air. Sumber pencemaran air dibagi menjadi: 1) Point source (sumber terpusat) - limbah industri langsung, limbah domestik dari WWTP. 2) Non-point source (sumber tersebar) - limpasan pertanian, hujan asam, endapan dari jalan. 3) Pencemar organik - limbah feses, detergent. 4) Pencemar anorganik - logam berat, pupuk berlebihan (eutrofikasi). 5) Pencemar biologis - bakteri patogen, virus. Pencemaran air serius mengancam kesehatan manusia dan ekosistem akuatik."
+  },
+  {
+    "q": "Apa itu nitrifikasi dan denitrifikasi dalam siklus nitrogen?",
+    "a": "Nitrifikasi adalah proses oksidasi ammonia (NH3) menjadi nitrit (NO2-) dan kemudian nitrat (NO3-) oleh bakteri nitrifikas seperti Nitrosomonas dan Nitrobacter di tanah. Proses ini merupakan bagian penting dari siklus nitrogen karena mengubah nitrogen yang dapat digunakan tanaman. Denitrifikasi adalah proses sebaliknya di mana bakteri denitrifikasi (seperti Pseudomonas) mengurangi nitrat kembali menjadi gas nitrogen (N2) yang kembali ke atmosfer. Keseimbangan antara nitrifikasi dan denitrifikasi penting untuk menjaga kesuburan tanah dan mencegah pencemaran air dari kelebihan nitrat."
+  },
+  {
+    "q": "Apa itu indeks bias dan bagaimana dampaknya terhadap cahaya?",
+    "a": "Indeks bias adalah perbandingan kecepatan cahaya dalam vakum terhadap kecepatan cahaya dalam medium tertentu, dinyatakan dengan simbol n. Rumusnya n = c/v, di mana c adalah kecepatan cahaya dalam vakum (3×10⁸ m/s) dan v adalah kecepatan cahaya dalam medium. Indeks bias medium menentukan berapa banyak cahaya akan dibelokkan atau refraksi ketika memasuki medium tersebut. Contoh: air memiliki indeks bias 1,33, kaca 1,5, berlian 2,42. Indeks bias yang lebih tinggi menyebabkan pembelokan cahaya lebih besar dan material lebih bersinar (kilau tinggi). Konsep ini penting untuk pembuatan lensa, serat optik, dan pemahaman fenomena optikal seperti efek terang pada berlian."
+  }
+]

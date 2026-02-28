@@ -1,0 +1,462 @@
+[
+  {
+    "q": "Apa itu turunan (derivative) dalam kalkulus?",
+    "a": "Turunan adalah laju perubahan fungsi pada titik tertentu. Secara matematis, turunan dari f(x) didefinisikan sebagai: f'(x) = lim(h→0) [f(x+h) - f(x)] / h. Contoh: turunan dari f(x) = x² adalah f'(x) = 2x, yang menunjukkan tingkat perubahan fungsi kuadrat pada setiap titik x."
+  },
+  {
+    "q": "Bagaimana cara menghitung turunan menggunakan power rule?",
+    "a": "Power rule menyatakan bahwa jika f(x) = x^n, maka f'(x) = n·x^(n-1). Contoh: (1) f(x) = x³ → f'(x) = 3x², (2) f(x) = x⁵ → f'(x) = 5x⁴, (3) f(x) = x^(-2) → f'(x) = -2x^(-3). Power rule sangat berguna untuk menghitung turunan polinomial dengan cepat."
+  },
+  {
+    "q": "Apa perbedaan antara turunan pertama dan kedua?",
+    "a": "Turunan pertama f'(x) menunjukkan laju perubahan fungsi. Turunan kedua f''(x) adalah turunan dari turunan pertama, menunjukkan laju perubahan kecepatan (akselerasi). Contoh: jika posisi s(t) = t³, maka v(t) = s'(t) = 3t² (kecepatan), dan a(t) = v'(t) = 6t (akselerasi). Turunan kedua digunakan untuk menentukan kecekungan kurva."
+  },
+  {
+    "q": "Bagaimana menggunakan chain rule untuk menghitung turunan?",
+    "a": "Chain rule menyatakan: jika y = f(g(x)), maka dy/dx = f'(g(x))·g'(x). Contoh: untuk y = (3x² + 2)⁵, misalkan u = 3x² + 2 (inner function) dan y = u⁵ (outer function), maka dy/dx = 5u⁴·(6x) = 5(3x² + 2)⁴·6x = 30x(3x² + 2)⁴. Chain rule sangat penting untuk fungsi komposit."
+  },
+  {
+    "q": "Apa itu integral dan bagaimana hubungannya dengan turunan?",
+    "a": "Integral adalah operasi invers dari turunan. Jika F'(x) = f(x), maka ∫f(x)dx = F(x) + C, di mana C adalah konstanta integrasi. Hubungan ini disebut Fundamental Theorem of Calculus. Contoh: ∫2x dx = x² + C, karena turunan dari x² adalah 2x. Integral tak tentu menghasilkan keluarga fungsi, sementara integral tentu menghasilkan nilai numerik."
+  },
+  {
+    "q": "Bagaimana cara menghitung integral menggunakan power rule untuk integrasi?",
+    "a": "Power rule untuk integrasi: ∫x^n dx = x^(n+1)/(n+1) + C, dengan n ≠ -1. Contoh: (1) ∫x⁴ dx = x⁵/5 + C, (2) ∫x^(-3) dx = x^(-2)/(-2) + C = -1/(2x²) + C, (3) ∫3x² dx = x³ + C (koefisien 3 dapat dikeluarkan). Penting untuk selalu menambahkan konstanta integrasi C untuk integral tak tentu."
+  },
+  {
+    "q": "Apa itu integral parsial (integration by parts) dan kapan digunakan?",
+    "a": "Integration by parts adalah teknik integrasi untuk produk dua fungsi. Formula: ∫u dv = uv - ∫v du. Digunakan ketika integran adalah produk dua fungsi yang berbeda jenis (misal polinomial × eksponensial). Contoh: ∫x·e^x dx. Misalkan u = x, dv = e^x dx, maka du = dx, v = e^x. Hasil: x·e^x - ∫e^x dx = x·e^x - e^x + C = e^x(x-1) + C."
+  },
+  {
+    "q": "Bagaimana menghitung integral tentu (definite integral)?",
+    "a": "Integral tentu ∫[a,b] f(x)dx menghitung area di bawah kurva antara x = a dan x = b. Dihitung menggunakan: ∫[a,b] f(x)dx = F(b) - F(a), di mana F adalah antiturunan f. Contoh: ∫[0,3] x² dx = [x³/3] dari 0 ke 3 = 27/3 - 0/3 = 9. Nilai integral tentu adalah angka tunggal, tidak ada konstanta integrasi."
+  },
+  {
+    "q": "Apa itu limit dalam kalkulus dan bagaimana cara menghitungnya?",
+    "a": "Limit menggambarkan nilai yang didekati fungsi saat variabel mendekati nilai tertentu. Notasi: lim(x→a) f(x) = L. Contoh: lim(x→2) (x² + 1) = 5, karena saat x mendekati 2, x² + 1 mendekati 5. Cara menghitung: (1) substitusi langsung (jika tidak ada pembagian 0), (2) faktorisasi, (3) rationalisasi, (4) aturan L'Hôpital untuk bentuk tak tentu 0/0."
+  },
+  {
+    "q": "Bagaimana mengatasi bentuk tak tentu (indeterminate form) dalam limit?",
+    "a": "Bentuk tak tentu, seperti 0/0, ∞/∞, atau 0·∞, memerlukan teknik khusus. Teknik: (1) Faktorisasi: lim(x→1) (x²-1)/(x-1) = lim(x→1) (x+1)(x-1)/(x-1) = 2. (2) Aturan L'Hôpital: jika lim f(x)/g(x) = 0/0, maka sama dengan lim f'(x)/g'(x). (3) Ekspansi Taylor untuk deret pangkat. Contoh: lim(x→0) sin(x)/x = 1 menggunakan L'Hôpital: cos(x)/1 = 1."
+  },
+  {
+    "q": "Apa itu kontinuitas fungsi dan syarat-syaratnya?",
+    "a": "Fungsi f(x) kontinu di titik x = a jika tiga syarat terpenuhi: (1) f(a) terdefinisi, (2) lim(x→a) f(x) ada, (3) lim(x→a) f(x) = f(a). Contoh fungsi kontinu: f(x) = x² (polinomial selalu kontinu), f(x) = sin(x). Fungsi tidak kontinu (diskontinu) jika salah satu syarat tidak terpenuhi, seperti f(x) = 1/x di x = 0 (f(0) tidak terdefinisi). Kontinuitas penting untuk menerapkan teorema kalkulus."
+  },
+  {
+    "q": "Apa itu matriks dan bagaimana cara menyatakannya?",
+    "a": "Matriks adalah susunan bilangan dalam baris dan kolom. Notasi: A = [a_ij], di mana i adalah baris dan j adalah kolom. Contoh matriks 2×3: A = [[1, 2, 3], [4, 5, 6]]. Elemen a₁₂ = 2 (baris 1, kolom 2). Ukuran matriks dinyatakan sebagai m×n (m baris, n kolom). Jenis matriks: (1) matriks persegi (m=n), (2) matriks identitas I (diagonal utama 1, sisanya 0), (3) matriks nol (semua elemen 0)."
+  },
+  {
+    "q": "Bagaimana cara melakukan penjumlahan dan pengurangan matriks?",
+    "a": "Penjumlahan/pengurangan matriks hanya mungkin pada matriks dengan ukuran sama. Operasi dilakukan elemen per elemen: (A ± B)_ij = A_ij ± B_ij. Contoh: [[1, 2], [3, 4]] + [[5, 6], [7, 8]] = [[1+5, 2+6], [3+7, 4+8]] = [[6, 8], [10, 12]]. Penjumlahan matriks bersifat komutatif (A+B = B+A) dan asosiatif ((A+B)+C = A+(B+C)). Hasil penjumlahan matriks adalah matriks dengan ukuran sama."
+  },
+  {
+    "q": "Bagaimana cara melakukan perkalian matriks?",
+    "a": "Perkalian matriks A (m×p) dengan B (p×n) menghasilkan matriks C (m×n). Elemen C_ij = Σ(k=1 to p) A_ik·B_kj. Contoh: A = [[1, 2], [3, 4]] (2×2), B = [[5, 6], [7, 8]] (2×2). C₁₁ = 1·5 + 2·7 = 19, C₁₂ = 1·6 + 2·8 = 22, C₂₁ = 3·5 + 4·7 = 43, C₂₂ = 3·6 + 4·8 = 50. Hasil: C = [[19, 22], [43, 50]]. Perkalian matriks TIDAK komutatif (AB ≠ BA)."
+  },
+  {
+    "q": "Apa itu determinan matriks dan bagaimana menghitungnya untuk matriks 2×2?",
+    "a": "Determinan adalah nilai skalar yang mewakili sifat matriks. Notasi: det(A) atau |A|. Untuk matriks 2×2: A = [[a, b], [c, d]], det(A) = ad - bc. Contoh: A = [[3, 8], [4, 6]], det(A) = 3·6 - 8·4 = 18 - 32 = -14. Determinan berguna untuk: (1) menentukan apakah matriks dapat diinvers (det ≠ 0), (2) menghitung volume transformasi linear, (3) menyelesaikan sistem persamaan linear dengan Cramer's rule."
+  },
+  {
+    "q": "Bagaimana menghitung determinan matriks 3×3 menggunakan ekspansi kofaktor?",
+    "a": "Untuk matriks 3×3 A = [[a, b, c], [d, e, f], [g, h, i]], determinan dihitung dengan ekspansi baris pertama: det(A) = a·(ei - fh) - b·(di - fg) + c·(dh - eg). Contoh: A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]], det(A) = 1·(1·0 - 4·6) - 2·(0·0 - 4·5) + 3·(0·6 - 1·5) = 1·(-24) - 2·(-20) + 3·(-5) = -24 + 40 - 15 = 1. Metode ekspansi dapat digunakan untuk baris atau kolom manapun."
+  },
+  {
+    "q": "Apa itu matriks invers dan bagaimana cara menghitungnya?",
+    "a": "Matriks invers A⁻¹ adalah matriks yang memenuhi A·A⁻¹ = A⁻¹·A = I (matriks identitas). Hanya matriks persegi dengan det(A) ≠ 0 yang memiliki invers. Untuk matriks 2×2: A = [[a, b], [c, d]], A⁻¹ = (1/det(A)) · [[d, -b], [-c, a]]. Contoh: A = [[4, 7], [2, 6]], det(A) = 24-14 = 10, A⁻¹ = (1/10)[[6, -7], [-2, 4]] = [[0.6, -0.7], [-0.2, 0.4]]. Invers digunakan untuk menyelesaikan persamaan matriks."
+  },
+  {
+    "q": "Apa itu vektor dalam aljabar linear dan bagaimana operasinya?",
+    "a": "Vektor adalah besaran dengan besar dan arah, diwakili sebagai susunan bilangan. Contoh: v = [3, 4] (vektor 2D), w = [1, 2, 5] (vektor 3D). Operasi vektor: (1) Penjumlahan: u + v = [u₁+v₁, u₂+v₂]. (2) Perkalian skalar: k·v = [k·v₁, k·v₂]. (3) Dot product (hasil skalar): u·v = u₁v₁ + u₂v₂. Contoh: [1, 2]·[3, 4] = 1·3 + 2·4 = 11. Vektor digunakan untuk merepresentasikan posisi, kecepatan, gaya dalam fisika."
+  },
+  {
+    "q": "Bagaimana menghitung panjang (magnitude) vektor?",
+    "a": "Panjang vektor v = [v₁, v₂, ..., vₙ] dihitung sebagai: ||v|| = √(v₁² + v₂² + ... + vₙ²). Contoh: (1) v = [3, 4], ||v|| = √(9 + 16) = √25 = 5. (2) v = [1, 2, 2], ||v|| = √(1 + 4 + 4) = √9 = 3. Vektor dengan panjang 1 disebut unit vector (vektor satuan). Vektor satuan dapat dibuat dengan membagi vektor dengan panjangnya: û = v/||v||. Contoh: û = [3, 4]/5 = [0.6, 0.8]."
+  },
+  {
+    "q": "Apa itu dot product dan apa interpretasi geometrisnya?",
+    "a": "Dot product (scalar product) dari dua vektor u dan v dihitung sebagai: u·v = ||u|| · ||v|| · cos(θ), di mana θ adalah sudut antara vektor. Rumus aljabar: u·v = u₁v₁ + u₂v₂ + u₃v₃. Contoh: u = [1, 0], v = [1, 1], u·v = 1·1 + 0·1 = 1. ||u|| = 1, ||v|| = √2, jadi cos(θ) = 1/(1·√2) = 1/√2, θ = 45°. Interpretasi: dot product mengukur seberapa 'sejalan' dua vektor. Jika dot product = 0, vektor orthogonal (tegak lurus)."
+  },
+  {
+    "q": "Apa itu cross product dan bagaimana menghitungnya?",
+    "a": "Cross product (vector product) dari vektor u dan v di ruang 3D menghasilkan vektor baru yang tegak lurus keduanya. Notasi: u × v. Rumus: u × v = [u₂v₃ - u₃v₂, u₃v₁ - u₁v₃, u₁v₂ - u₂v₁]. Contoh: u = [1, 0, 0], v = [0, 1, 0], u × v = [0·0 - 0·1, 0·0 - 1·0, 1·1 - 0·0] = [0, 0, 1]. Panjang cross product: ||u × v|| = ||u|| · ||v|| · sin(θ). Aplikasi: menghitung normal bidang, luas paralelogram, torsi dalam fisika."
+  },
+  {
+    "q": "Apa itu transformasi linear dan bagaimana merepresentasikannya dengan matriks?",
+    "a": "Transformasi linear adalah fungsi T: V → W yang memenuhi: (1) T(u + v) = T(u) + T(v), (2) T(k·u) = k·T(u) untuk skalar k. Transformasi linear dapat direpresentasikan sebagai perkalian matriks. Jika T(x) = Ax, di mana A adalah matriks, maka T adalah transformasi linear. Contoh: rotasi 90° berlawanan arah jarum jam di 2D: T(x) = [[0, -1], [1, 0]] · [x₁, x₂]. Vektor [1, 0] ditransformasi menjadi [0, 1]. Transformasi linear menjaga struktur ruang vektor."
+  },
+  {
+    "q": "Apa itu eigenvalue dan eigenvector serta bagaimana cara menemukannya?",
+    "a": "Eigenvalue (λ) dan eigenvector (v) dari matriks A memenuhi: A·v = λ·v, dengan v ≠ 0. Untuk menemukannya: (1) Hitung det(A - λI) = 0 (karakteristik polinomial), selesaikan untuk λ (eigenvalue). (2) Untuk setiap λ, selesaikan (A - λI)v = 0 untuk v (eigenvector). Contoh: A = [[3, 1], [1, 3]]. det(A - λI) = (3-λ)² - 1 = 0, λ² - 6λ + 8 = 0, λ = 4 atau 2. Untuk λ = 4: (A - 4I)v = 0 menghasilkan v = [1, -1]. Eigenvalue digunakan dalam analisis stabilitas, diagonalisasi matriks."
+  },
+  {
+    "q": "Apa itu diagonalisasi matriks dan apa manfaatnya?",
+    "a": "Diagonalisasi adalah proses mengubah matriks A menjadi bentuk diagonal D menggunakan matriks eigenvector P: A = P·D·P⁻¹, di mana D adalah matriks diagonal dengan eigenvalue di diagonal utama. Syarat: A harus memiliki n eigenvector bebas linear (untuk matriks n×n). Manfaat: (1) Mudah menghitung A^n untuk pangkat besar: A^n = P·D^n·P⁻¹. (2) Menyederhanakan analisis sistem dinamik. (3) Mempercepat komputasi. Contoh: A = [[3, 1], [1, 3]] dengan eigenvalue 4, 2 dan eigenvector [1, -1], [1, 1], D = [[4, 0], [0, 2]]."
+  },
+  {
+    "q": "Apa itu persamaan diferensial dan bagaimana cara mengklasifikasikannya?",
+    "a": "Persamaan diferensial adalah persamaan yang melibatkan fungsi dan turunannya. Klasifikasi: (1) Order: tingkat turunan tertinggi (orde 1, 2, dll). Contoh: dy/dx = 2x (orde 1), d²y/dx² + 3dy/dx + y = 0 (orde 2). (2) Tipe: ODE (ordinary, satu variabel) vs PDE (partial, banyak variabel). (3) Linearitas: linear vs non-linear. dy/dx + y = sin(x) adalah ODE linear orde 1. Persamaan diferensial digunakan untuk memodelkan pertumbuhan populasi, perubahan suhu, gerak osilasi."
+  },
+  {
+    "q": "Bagaimana menyelesaikan persamaan diferensial orde 1 dengan separasi variabel?",
+    "a": "Separasi variabel adalah metode untuk ODE orde 1 dalam bentuk dy/dx = f(x)g(y). Langkah: (1) Pisahkan: dy/g(y) = f(x)dx. (2) Integralkan kedua sisi: ∫dy/g(y) = ∫f(x)dx. (3) Selesaikan untuk y. Contoh: dy/dx = xy. Pisahkan: dy/y = x dx. Integralkan: ln|y| = x²/2 + C. Solusi: y = A·e^(x²/2), dengan A = e^C. Metode ini efektif ketika variabel dapat dipisahkan dengan jelas dan kedua sisi dapat diintegralkan."
+  },
+  {
+    "q": "Apa itu persamaan diferensial linear orde 1 dan bagaimana menyelesaikannya?",
+    "a": "Persamaan diferensial linear orde 1 memiliki bentuk: dy/dx + P(x)y = Q(x). Solusi menggunakan integrating factor: μ(x) = e^(∫P(x)dx). Kalikan persamaan dengan μ(x): μ(x)dy/dx + μ(x)P(x)y = μ(x)Q(x), yang menjadi d/dx[μ(x)y] = μ(x)Q(x). Integralkan: μ(x)y = ∫μ(x)Q(x)dx + C. Contoh: dy/dx + 2y = 4. P(x) = 2, μ(x) = e^(2x). Solusi: e^(2x)·y = ∫4e^(2x)dx = 2e^(2x) + C, jadi y = 2 + C·e^(-2x)."
+  },
+  {
+    "q": "Bagaimana menyelesaikan persamaan diferensial homogen orde 2 dengan koefisien konstan?",
+    "a": "Persamaan diferensial homogen orde 2: a·d²y/dx² + b·dy/dx + c·y = 0. Asumsikan y = e^(rx). Substitusi menghasilkan karakteristik persamaan: ar² + br + c = 0. Solusi umum tergantung pada diskriminan Δ = b² - 4ac: (1) Δ > 0: dua akar r₁, r₂ real, y = C₁e^(r₁x) + C₂e^(r₂x). (2) Δ = 0: akar ganda r, y = (C₁ + C₂x)e^(rx). (3) Δ < 0: akar kompleks α ± βi, y = e^(αx)(C₁cos(βx) + C₂sin(βx)). Contoh: d²y/dx² - 5dy/dx + 6y = 0, r² - 5r + 6 = 0, r = 2, 3, y = C₁e^(2x) + C₂e^(3x)."
+  },
+  {
+    "q": "Bagaimana menyelesaikan persamaan diferensial non-homogen orde 2?",
+    "a": "Persamaan non-homogen: a·d²y/dx² + b·dy/dx + c·y = f(x). Solusi umum: y = y_h + y_p, di mana y_h adalah solusi homogen, y_p adalah solusi partikulir. Metode mencari y_p: (1) Undetermined coefficients: asumsikan bentuk y_p berdasarkan f(x). Jika f(x) = e^(αx), coba y_p = Ae^(αx). Jika f(x) = sin(βx), coba y_p = A·sin(βx) + B·cos(βx). (2) Variation of parameters: formula umum untuk semua f(x). Contoh: d²y/dx² + y = sin(x). y_h = C₁cos(x) + C₂sin(x). Untuk y_p, coba y_p = Ax·cos(x) + Bx·sin(x), selesaikan untuk A, B."
+  },
+  {
+    "q": "Apa itu sistem persamaan diferensial dan bagaimana cara menyelesaikannya?",
+    "a": "Sistem persamaan diferensial melibatkan banyak persamaan dengan banyak fungsi. Bentuk umum: dx/dt = ax + by, dy/dt = cx + dy. Representasi matriks: d/dt[x, y]^T = [[a, b], [c, d]][x, y]^T. Solusi: (1) Cari eigenvalue dan eigenvector. (2) Solusi umum: [x, y]^T = C₁·v₁·e^(λ₁t) + C₂·v₂·e^(λ₂t), di mana v_i adalah eigenvector, λ_i adalah eigenvalue. Contoh: dx/dt = 3x + y, dy/dt = x + 3y. Matriks karakteristik: λ = 4, 2. Solusi: x = C₁e^(4t) + C₂e^(2t), y = C₁e^(4t) - C₂e^(2t) (dengan eigenvector [1,1] dan [1,-1])."
+  },
+  {
+    "q": "Bagaimana menggunakan persamaan diferensial untuk memodelkan pertumbuhan populasi?",
+    "a": "Model pertumbuhan populasi paling sederhana: dP/dt = kP, di mana P adalah populasi, k adalah laju pertumbuhan. Solusi: P(t) = P₀·e^(kt), P₀ adalah populasi awal. Contoh: jika populasi bakteri berlipat ganda setiap 2 jam, k = ln(2)/2 ≈ 0.347/jam. Model lebih realistis: dP/dt = kP(1 - P/K) (logistik). K adalah carrying capacity (kapasitas maksimal lingkungan). Solusi: P(t) = K/(1 + (K/P₀ - 1)e^(-kt)). Model logistik menunjukkan bahwa populasi awalnya tumbuh eksponensial, kemudian melambat mendekati K."
+  },
+  {
+    "q": "Bagaimana menggunakan persamaan diferensial untuk memodelkan peluruhan radioaktif?",
+    "a": "Model peluruhan radioaktif: dN/dt = -λN, di mana N adalah jumlah atom radioaktif, λ adalah konstanta peluruhan. Solusi: N(t) = N₀·e^(-λt). Half-life (t_half) adalah waktu untuk N menjadi setengah N₀: N₀/2 = N₀·e^(-λ·t_half), t_half = ln(2)/λ. Contoh: Carbon-14 memiliki t_half ≈ 5730 tahun (λ ≈ 1.2 × 10⁻⁴/tahun). Untuk sampel dengan N₀ = 100g, setelah 5730 tahun ada 50g. Aplikasi: penentuan umur artefak budaya menggunakan radiochron dating."
+  },
+  {
+    "q": "Bagaimana menggunakan persamaan diferensial untuk memodelkan penyebaran penyakit (epidemiologi)?",
+    "a": "Model SIR (Susceptible-Infected-Recovered): dS/dt = -βSI, dI/dt = βSI - γI, dR/dt = γI. S adalah populasi rentan, I adalah terinfeksi, R adalah pulih. β adalah laju transmisi, γ adalah laju pemulihan. Contoh: untuk influenza, β ≈ 0.0001/hari·orang, γ ≈ 0.1/hari. Model memprediksi puncak infeksi, total yang terinfeksi (Area under I curve). Jika R₀ = β(S+I+R)/γ > 1, penyakit menyebar epidemi. Jika R₀ < 1, penyakit hilang. Model ini membantu merencanakan vaksinasi dan intervensi kesehatan publik."
+  },
+  {
+    "q": "Bagaimana menggunakan transformasi Laplace dalam menyelesaikan persamaan diferensial?",
+    "a": "Transformasi Laplace mengubah persamaan diferensial menjadi persamaan aljabar. Definisi: F(s) = L{f(t)} = ∫₀^∞ e^(-st)·f(t)dt. Sifat penting: L{df/dt} = s·F(s) - f(0), L{d²f/dt²} = s²·F(s) - s·f(0) - f'(0). Langkah penyelesaian: (1) Terapkan Laplace ke persamaan diferensial. (2) Selesaikan untuk F(s). (3) Terapkan inverse Laplace. Contoh: dy/dt + 2y = 0, y(0) = 1. Apply Laplace: sY(s) - 1 + 2Y(s) = 0, Y(s) = 1/(s+2), y(t) = e^(-2t). Metode ini efektif untuk masalah nilai awal dengan input impulsif atau step."
+  },
+  {
+    "q": "Apa itu persamaan Laplace dan apa aplikasinya?",
+    "a": "Persamaan Laplace adalah PDE: ∇²u = 0, atau dalam 2D: ∂²u/∂x² + ∂²u/∂y² = 0. Solusi u(x,y) disebut harmonic function. Contoh solusi: u(x,y) = ax + by + c (linear), u(x,y) = x² - y² (polinomial). Aplikasi: (1) Potensial elektrostatis di region tanpa muatan. (2) Distribusi suhu steady-state (tidak berubah waktu). (3) Aliran fluida irrotational. (4) Potensial gravitasi. Persamaan Laplace adalah basis teori potensial. Penyelesaiannya memerlukan kondisi batas (boundary conditions) yang ditentukan oleh masalah fisik spesifik."
+  },
+  {
+    "q": "Bagaimana menyelesaikan persamaan gelombang (wave equation)?",
+    "a": "Persamaan gelombang: ∂²u/∂t² = c²·∇²u. Dalam 1D dengan c = 1: ∂²u/∂t² = ∂²u/∂x². Solusi umum d'Alembert: u(x,t) = f(x-t) + g(x+t), di mana f, g adalah fungsi arbitrary yang ditentukan oleh kondisi awal dan batas. Contoh: string yang dipetik dengan u(x,0) = sin(πx) (posisi awal), ∂u/∂t(x,0) = 0 (kecepatan awal nol). Solusi: u(x,t) = (1/2)[sin(π(x-t)) + sin(π(x+t))] = sin(πx)cos(πt). Persamaan gelombang ditemukan dalam: getaran string, perambatan suara, gelombang elektromagnetik."
+  },
+  {
+    "q": "Bagaimana menyelesaikan persamaan difusi (heat equation)?",
+    "a": "Persamaan difusi/panas: ∂u/∂t = α·∇²u. Dalam 1D: ∂u/∂t = α·∂²u/∂x². Solusi untuk domain infinite dengan kondisi awal u(x,0) = f(x): u(x,t) = ∫₋∞^∞ f(ξ)·G(x-ξ,t)dξ, di mana G(x,t) = (1/√(4παt))·e^(-x²/(4αt)) adalah Green's function (fundamental solution). Contoh: distribusi suhu awal u(x,0) = δ(x) (impuls di x=0) menghasilkan u(x,t) = G(x,t). Persamaan difusi menunjukkan smoothing: sudut tajam dalam kondisi awal menjadi halus seiring waktu. Aplikasi: perpindahan panas, difusi kimia, proses stochastic (random walk)."
+  },
+  {
+    "q": "Apa itu separasi variabel untuk menyelesaikan PDE?",
+    "a": "Separasi variabel adalah teknik mengasumsikan u(x,t) = X(x)·T(t) (produk fungsi satu variabel). Substitusi ke PDE menghasilkan dua ODE terpisah. Contoh: ∂u/∂t = α·∂²u/∂x² dengan u(x,t) = X(x)·T(t). Peroleh: T'/T = α·X''/X = -λ (konstanta separasi). Hasilkan: T' + αλT = 0 dan X'' + λX = 0. Solusi: X(x) = A·sin(√λ·x) + B·cos(√λ·x), T(t) = C·e^(-αλt). Kondisi batas menentukan eigenvalue λ. Solusi umum adalah superposisi: u(x,t) = Σ(A_n·sin(nπx/L)·e^(-α(nπ/L)²t)). Metode ini fundamental dalam menyelesaikan PDE klasik."
+  },
+  {
+    "q": "Apa itu deret Fourier dan bagaimana cara menghitungnya?",
+    "a": "Deret Fourier merepresentasikan fungsi periodik sebagai jumlah gelombang sinus dan kosinus: f(x) = a₀/2 + Σ(aₙ·cos(nπx/L) + bₙ·sin(nπx/L)). Koefisien Fourier dihitung sebagai: a₀ = (1/L)∫₍₋ₗ₎^L f(x)dx, aₙ = (1/L)∫₍₋ₗ₎^L f(x)cos(nπx/L)dx, bₙ = (1/L)∫₍₋ₗ₎^L f(x)sin(nπx/L)dx. Contoh: f(x) = x pada [-π, π]. a₀ = 0, aₙ = 0 (fungsi ganjil), bₙ = 2(-1)^(n+1)/n. Deret: x = 2Σ((-1)^(n+1)/n·sin(nx)). Deret Fourier aplikasinya luas dalam analisis sinyal, pemrosesan gambar, solusi PDE."
+  },
+  {
+    "q": "Bagaimana cara menghitung deret Taylor dan deret Maclaurin?",
+    "a": "Deret Taylor merepresentasikan fungsi sebagai deret pangkat di sekitar titik a: f(x) = Σ(f^(n)(a)/n!·(x-a)^n). Deret Maclaurin adalah kasus khusus dengan a = 0: f(x) = Σ(f^(n)(0)/n!·x^n). Contoh deret Maclaurin: e^x = 1 + x + x²/2! + x³/3! + ..., sin(x) = x - x³/3! + x⁵/5! - ..., cos(x) = 1 - x²/2! + x⁴/4! - .... Konvergensi deret ditentukan oleh radius konvergensi R. Contoh: deret geometric 1/(1-x) = 1 + x + x² + ... konvergen untuk |x| < 1. Deret Taylor berguna untuk aproksimasi fungsi, integrasi numerik, menyelesaikan persamaan diferensial."
+  },
+  {
+    "q": "Apa itu bilangan kompleks dan bagaimana operasi aritmetikanya?",
+    "a": "Bilangan kompleks z = a + bi, di mana a adalah bagian real, b adalah bagian imajiner, i² = -1. Bentuk polar: z = r(cos(θ) + i·sin(θ)) = r·e^(iθ), di mana r = |z| = √(a² + b²) (modulus), θ = arg(z) (argument). Operasi aritmetik: (1) Penjumlahan: (a+bi) + (c+di) = (a+c) + (b+d)i. (2) Perkalian: (a+bi)(c+di) = (ac-bd) + (ad+bc)i. (3) Dalam bentuk polar: z₁·z₂ = r₁r₂·e^(i(θ₁+θ₂)). (4) Pembagian: z₁/z₂ = (r₁/r₂)·e^(i(θ₁-θ₂)). Contoh: (3+4i)(1-2i) = 3 - 6i + 4i - 8i² = 11 - 2i. Bilangan kompleks aplikasinya dalam analitik kompleks, pemrosesan sinyal, getaran mekanik."
+  },
+  {
+    "q": "Bagaimana menggunakan teorema residue untuk menghitung integral kompleks?",
+    "a": "Teorema residue menyatakan: ∫_C f(z)dz = 2πi·Σ(residue dari f di singular point dalam C). Residue di pole sederhana z = z₀: Res(f, z₀) = lim(z→z₀) (z-z₀)f(z). Untuk pole orde n: Res(f, z₀) = (1/(n-1)!)·lim(z→z₀) d^(n-1)/dz^(n-1)[(z-z₀)^n·f(z)]. Contoh: f(z) = 1/(z(z²+1)), singular point: z = 0, i, -i. Residue di z = 0: Res = lim(z→0) z/(z(z²+1)) = 1. Integral ∫_{-∞}^∞ 1/(x(x²+1))dx = 2πi(1) = 2πi (dengan closing di upper half-plane). Teorema residue mempermudah perhitungan integral sulit, terutama untuk integral real dengan denominator polinomial."
+  },
+  {
+    "q": "Bagaimana cara menggunakan product rule (aturan perkalian) untuk menghitung turunan?",
+    "a": "Product rule menyatakan bahwa jika y = u(x)·v(x), maka y' = u'·v + u·v'. Aturan ini digunakan ketika dua fungsi dikalikan bersama. Contoh: untuk y = x²·sin(x), maka y' = 2x·sin(x) + x²·cos(x). Product rule dapat diperluas untuk tiga fungsi: (uvw)' = u'vw + uv'w + uvw'."
+  },
+  {
+    "q": "Bagaimana cara menggunakan quotient rule (aturan pembagian) untuk menghitung turunan?",
+    "a": "Quotient rule menyatakan bahwa jika y = u(x)/v(x), maka y' = (u'·v - u·v') / v². Aturan ini digunakan untuk fungsi berbentuk pecahan. Contoh: untuk y = sin(x)/x, maka y' = (cos(x)·x - sin(x)·1) / x² = (x·cos(x) - sin(x)) / x². Penting diingat bahwa quotient rule memerlukan v(x) ≠ 0 di titik yang dihitung."
+  },
+  {
+    "q": "Apa itu turunan implisit (implicit differentiation) dan bagaimana cara menggunakannya?",
+    "a": "Turunan implisit digunakan ketika y tidak dapat dinyatakan secara eksplisit sebagai fungsi x, misalnya x² + y² = 25 (lingkaran). Caranya: turunkan setiap suku terhadap x, perlakukan y sebagai fungsi x sehingga dy/dx muncul, lalu selesaikan untuk dy/dx. Contoh: d/dx(x² + y²) = d/dx(25) → 2x + 2y·(dy/dx) = 0 → dy/dx = -x/y. Teknik ini penting untuk kurva yang tidak bisa ditulis y = f(x)."
+  },
+  {
+    "q": "Apa itu diferensiasi logaritmik (logarithmic differentiation) dan kapan digunakan?",
+    "a": "Diferensiasi logaritmik dilakukan dengan mengambil logaritma natural kedua sisi persamaan, lalu menurunkannya. Teknik ini berguna untuk fungsi bentuk y = f(x)^g(x) atau produk/hasil bagi banyak fungsi. Contoh: y = x^x. Ambil ln: ln(y) = x·ln(x). Turunkan: (1/y)·dy/dx = ln(x) + 1. Jadi dy/dx = x^x·(ln(x) + 1). Metode ini menyederhanakan turunan fungsi kompleks yang sulit dihitung langsung."
+  },
+  {
+    "q": "Bagaimana cara menggunakan teknik substitusi (u-substitution) dalam integrasi?",
+    "a": "Substitusi u adalah teknik integrasi yang merupakan kebalikan dari chain rule. Langkah: (1) Pilih u = g(x), hitung du = g'(x)dx. (2) Ganti integran dalam variabel u. (3) Integralkan dalam u. (4) Substitusikan kembali x. Contoh: ∫2x·cos(x²)dx. Misalkan u = x², du = 2x dx. Maka ∫cos(u)du = sin(u) + C = sin(x²) + C. Kunci keberhasilan teknik ini adalah pemilihan u yang tepat."
+  },
+  {
+    "q": "Bagaimana teknik substitusi trigonometri digunakan untuk menghitung integral?",
+    "a": "Substitusi trigonometri digunakan untuk integral yang melibatkan √(a²-x²), √(a²+x²), atau √(x²-a²). Aturan: (1) Untuk √(a²-x²), gunakan x = a·sin(θ). (2) Untuk √(a²+x²), gunakan x = a·tan(θ). (3) Untuk √(x²-a²), gunakan x = a·sec(θ). Contoh: ∫dx/√(4-x²). Substitusi x = 2sin(θ), dx = 2cos(θ)dθ. Hasilnya: ∫dθ = θ + C = arcsin(x/2) + C. Teknik ini mengubah ekspresi akar menjadi bentuk trigonometri yang lebih mudah diintegralkan."
+  },
+  {
+    "q": "Bagaimana teknik pecahan parsial (partial fractions) digunakan dalam integrasi?",
+    "a": "Pecahan parsial memecah fungsi rasional menjadi jumlah pecahan sederhana yang lebih mudah diintegralkan. Contoh: ∫dx/(x²-1) = ∫dx/((x-1)(x+1)). Dekomposisi: 1/((x-1)(x+1)) = A/(x-1) + B/(x+1). Selesaikan: A = 1/2, B = -1/2. Maka ∫(1/2)/(x-1)dx - ∫(1/2)/(x+1)dx = (1/2)ln|x-1| - (1/2)ln|x+1| + C. Teknik ini berlaku untuk semua fungsi rasional di mana derajat pembilang lebih kecil dari penyebut."
+  },
+  {
+    "q": "Apa itu integral tak wajar (improper integral) dan bagaimana cara menghitungnya?",
+    "a": "Integral tak wajar adalah integral tentu dengan batas ∞ atau integran tidak terbatas pada interval. Dihitung menggunakan limit. Tipe 1 (batas tak hingga): ∫₁^∞ 1/x² dx = lim(b→∞) [-1/x]₁ᵇ = lim(b→∞) (-1/b + 1) = 1 (konvergen). Tipe 2 (integran tak terbatas): ∫₀¹ 1/√x dx = lim(a→0⁺) [2√x]ₐ¹ = 2 (konvergen). Integral tak wajar konvergen jika limitnya ada dan berhingga; jika tidak, disebut divergen."
+  },
+  {
+    "q": "Apa itu integral ganda (double integral) dan bagaimana cara menghitungnya?",
+    "a": "Integral ganda ∬_R f(x,y) dA menghitung volume di bawah permukaan f(x,y) di atas daerah R. Dihitung secara iteratif: ∬_R f(x,y) dA = ∫ₐᵇ ∫_{g₁(x)}^{g₂(x)} f(x,y) dy dx. Contoh: ∬_R xy dA di mana R = [0,1]×[0,2]. Hitung: ∫₀¹ ∫₀² xy dy dx = ∫₀¹ [xy²/2]₀² dx = ∫₀¹ 2x dx = [x²]₀¹ = 1. Integral ganda juga digunakan untuk menghitung massa, pusat massa, dan momen inersia."
+  },
+  {
+    "q": "Apa itu integral lipat tiga (triple integral) dan apa aplikasinya?",
+    "a": "Integral lipat tiga ∭_E f(x,y,z) dV menghitung integral fungsi atas daerah tiga dimensi E. Dihitung iteratif: ∭_E f dV = ∫∫∫ f(x,y,z) dz dy dx. Contoh: volume bola r ≤ a dalam koordinat bola: ∫₀²π ∫₀π ∫₀ᵃ r²sin(φ) dr dφ dθ = (4/3)πa³. Aplikasi: menghitung massa objek 3D dengan densitas variabel ρ(x,y,z), pusat massa, momen inersia 3D, dan fluks muatan listrik."
+  },
+  {
+    "q": "Apa itu integral garis (line integral) dan bagaimana cara menghitungnya?",
+    "a": "Integral garis menghitung integral fungsi sepanjang kurva C. Untuk skalar: ∫_C f ds = ∫ₐᵇ f(r(t))·||r'(t)|| dt. Untuk vektor: ∫_C F·dr = ∫ₐᵇ F(r(t))·r'(t) dt. Contoh: F = [y, x], C: r(t) = [cos(t), sin(t)] untuk t ∈ [0, π]. ∫_C F·dr = ∫₀π [sin(t), cos(t)]·[-sin(t), cos(t)] dt = ∫₀π (-sin²t + cos²t) dt = ∫₀π cos(2t) dt = 0. Integral garis vektor mengukur kerja (work) yang dilakukan gaya sepanjang lintasan."
+  },
+  {
+    "q": "Apa itu integral permukaan (surface integral) dan apa kegunaannya?",
+    "a": "Integral permukaan menghitung integral fungsi atas permukaan S di ruang 3D. Untuk skalar: ∬_S f dS = ∬_D f(r(u,v))·||rᵤ × rᵥ|| du dv. Untuk vektor (flux): ∬_S F·dS = ∬_D F·(rᵤ × rᵥ) du dv. Contoh: flux F = [0, 0, z] melalui bidang z = 1, 0 ≤ x,y ≤ 1. Normal n = [0,0,1], F·n = 1. Flux = ∬ 1 dA = 1. Integral permukaan digunakan dalam elektromagnetisme (hukum Gauss) dan dinamika fluida."
+  },
+  {
+    "q": "Apa itu Teorema Green dan bagaimana penggunaannya?",
+    "a": "Teorema Green menghubungkan integral garis di sekeliling kurva tertutup C dengan integral ganda di daerah D yang dibatasi C: ∮_C (P dx + Q dy) = ∬_D (∂Q/∂x - ∂P/∂y) dA. Contoh: hitung ∮_C (x² dx + xy dy) di mana C adalah lingkaran x²+y² = 1. ∂Q/∂x - ∂P/∂y = y - 0 = y. ∬_D y dA = 0 (karena simetri). Teorema Green menyederhanakan perhitungan integral garis menjadi integral ganda, dan juga digunakan untuk menghitung luas daerah."
+  },
+  {
+    "q": "Apa itu Teorema Stokes dan apa hubungannya dengan Teorema Green?",
+    "a": "Teorema Stokes menyatakan: ∮_C F·dr = ∬_S (∇ × F)·dS, di mana C adalah kurva batas permukaan S dan ∇ × F adalah curl dari F. Teorema ini adalah generalisasi Teorema Green ke tiga dimensi. Contoh: jika F = [-y, x, 0], ∇ × F = [0, 0, 2]. Integral permukaan ∬_S 2 dS = 2·(luas S). Teorema Stokes sangat berguna dalam fisika, terutama dalam hukum Faraday dan hukum Ampere dalam elektromagnetisme."
+  },
+  {
+    "q": "Apa itu Teorema Divergensi (Gauss) dan bagaimana aplikasinya?",
+    "a": "Teorema Divergensi menyatakan: ∬_S F·dS = ∭_V (∇·F) dV, di mana S adalah permukaan tertutup yang membatasi volume V, dan ∇·F adalah divergensi F. Contoh: F = [x, y, z], ∇·F = 3. Flux melalui bola r = a: ∭_V 3 dV = 3·(4/3)πa³ = 4πa³. Teorema ini menghubungkan flux vektor melalui permukaan tertutup dengan integral divergensi di volume dalamnya. Aplikasi: hukum Gauss dalam elektrostatika dan persamaan kontinuitas fluida."
+  },
+  {
+    "q": "Apa itu gradient, divergensi, dan curl dalam kalkulus vektor?",
+    "a": "Gradient (∇f) menunjukkan arah kenaikan tercepat fungsi skalar: ∇f = [∂f/∂x, ∂f/∂y, ∂f/∂z]. Divergensi (∇·F) mengukur 'sumber' medan vektor: ∇·F = ∂F₁/∂x + ∂F₂/∂y + ∂F₃/∂z. Curl (∇ × F) mengukur rotasi medan vektor. Contoh: f = x² + y², ∇f = [2x, 2y, 0]. Untuk F = [-y, x, 0], ∇·F = 0 (incompressible), ∇ × F = [0, 0, 2] (berputar). Ketiga operator ini fundamental dalam fisika matematika."
+  },
+  {
+    "q": "Apa itu metode pengali Lagrange (Lagrange multipliers) untuk optimisasi?",
+    "a": "Metode Lagrange multipliers digunakan untuk mencari ekstremum fungsi f(x,y) dengan kendala g(x,y) = 0. Syarat: ∇f = λ·∇g dan g(x,y) = 0. Contoh: maksimumkan f(x,y) = xy dengan kendala x² + y² = 1. ∇f = [y, x], ∇g = [2x, 2y]. Sistem: y = 2λx, x = 2λy, x² + y² = 1. Dari persamaan 1 dan 2: x² = y², sehingga x = ±y. Substitusi: 2x² = 1, x = ±1/√2. Maksimum f = 1/2 di (1/√2, 1/√2). Metode ini penting dalam optimisasi teknik dan ekonomi."
+  },
+  {
+    "q": "Apa itu rank (peringkat) matriks dan bagaimana cara menentukannya?",
+    "a": "Rank matriks adalah jumlah baris (atau kolom) yang linearly independent, atau equivalen, jumlah baris non-nol setelah eliminasi Gauss. Contoh: A = [[1, 2, 3], [2, 4, 6], [1, 3, 5]]. Setelah eliminasi: R₂ - 2R₁ → [0, 0, 0], R₃ - R₁ → [0, 1, 2]. Hasil reduced: [[1, 2, 3], [0, 1, 2], [0, 0, 0]]. Rank(A) = 2. Rank menentukan dimensi ruang kolom, apakah sistem persamaan memiliki solusi, dan jumlah variabel bebas dalam solusi."
+  },
+  {
+    "q": "Apa itu null space dan column space dari sebuah matriks?",
+    "a": "Null space (kernel) dari matriks A adalah himpunan semua vektor x sehingga Ax = 0. Column space (range) adalah himpunan semua kombinasi linear dari kolom A. Contoh: A = [[1, 2], [2, 4]]. Null space: x₁ + 2x₂ = 0, jadi N(A) = span{[-2, 1]}. Column space: C(A) = span{[1, 2]}. Hubungan penting: dim(N(A)) + dim(C(A)) = jumlah kolom (Rank-Nullity Theorem). Konsep ini fundamental dalam teori sistem persamaan linear."
+  },
+  {
+    "q": "Apa itu proses Gram-Schmidt dan bagaimana cara kerjanya?",
+    "a": "Proses Gram-Schmidt mengubah himpunan vektor linearly independent menjadi himpunan orthonormal. Langkah: (1) u₁ = v₁, e₁ = u₁/||u₁||. (2) u₂ = v₂ - (v₂·e₁)e₁, e₂ = u₂/||u₂||. (3) Ulangi: uₖ = vₖ - Σ(vₖ·eⱼ)eⱼ. Contoh: v₁ = [1, 1, 0], v₂ = [1, 0, 1]. u₁ = [1, 1, 0], e₁ = [1/√2, 1/√2, 0]. u₂ = [1,0,1] - (1/√2)[1/√2, 1/√2, 0] = [1/2, -1/2, 1], e₂ = u₂/||u₂||. Proses ini adalah dasar dekomposisi QR dan penting dalam aljabar linear numerik."
+  },
+  {
+    "q": "Apa itu dekomposisi QR dan apa kegunaannya?",
+    "a": "Dekomposisi QR memfaktorkan matriks A menjadi A = QR, di mana Q adalah matriks orthogonal (Q^TQ = I) dan R adalah matriks segitiga atas. Q diperoleh dari proses Gram-Schmidt pada kolom A, sedangkan R = Q^T·A. Kegunaan: (1) Menyelesaikan sistem persamaan linear Ax = b menjadi Rx = Q^Tb (lebih stabil secara numerik). (2) Metode QR untuk menghitung eigenvalue secara iteratif. (3) Least squares: meminimumkan ||Ax - b||². Dekomposisi QR lebih stabil numerik dibanding eliminasi Gauss untuk matriks ill-conditioned."
+  },
+  {
+    "q": "Apa itu Singular Value Decomposition (SVD) dan apa aplikasinya?",
+    "a": "SVD memfaktorkan matriks A (m×n) menjadi A = UΣV^T, di mana U (m×m) dan V (n×n) adalah matriks orthogonal, dan Σ (m×n) adalah matriks diagonal berisi singular values σ₁ ≥ σ₂ ≥ ... ≥ 0. Singular values dihitung dari √(eigenvalue dari A^TA). Aplikasi SVD sangat luas: (1) kompresi gambar (mempertahankan singular values terbesar), (2) pseudoinverse untuk least squares, (3) analisis komponen utama (PCA) dalam data science, (4) menentukan rank numerik matriks."
+  },
+  {
+    "q": "Apa itu dekomposisi LU dan bagaimana digunakan untuk menyelesaikan sistem persamaan?",
+    "a": "Dekomposisi LU memfaktorkan matriks A menjadi A = LU, di mana L adalah matriks segitiga bawah dan U adalah matriks segitiga atas. Untuk menyelesaikan Ax = b: (1) Pecah menjadi Ly = b (forward substitution), lalu Ux = y (back substitution). Contoh: A = [[2, 1], [4, 3]], L = [[1, 0], [2, 1]], U = [[2, 1], [0, 1]]. Keuntungan: jika A tetap dan b berubah, faktorisasi hanya dihitung sekali. LU digunakan luas dalam komputasi numerik dan simulasi teknik."
+  },
+  {
+    "q": "Apa itu Teorema Cayley-Hamilton dan apa implikasinya?",
+    "a": "Teorema Cayley-Hamilton menyatakan bahwa setiap matriks persegi memenuhi persamaan karakteristiknya sendiri. Jika p(λ) = det(A - λI) adalah polinomial karakteristik A, maka p(A) = 0 (matriks nol). Contoh: A = [[1, 2], [3, 4]], p(λ) = λ² - 5λ - 2. Maka A² - 5A - 2I = 0. Implikasi: A⁻¹ dapat dihitung dari persamaan ini: A⁻¹ = (1/2)(5I - A). Teorema ini juga berguna untuk menyederhanakan pangkat matriks tinggi menjadi kombinasi linear A dan I."
+  },
+  {
+    "q": "Apa itu bentuk normal Jordan (Jordan Normal Form) dari sebuah matriks?",
+    "a": "Bentuk normal Jordan adalah representasi kanonik matriks yang tidak dapat didiagonalisasi sepenuhnya. Bentuk J = P⁻¹AP terdiri dari blok Jordan Jₖ = [[λ, 1, 0], [0, λ, 1], [0, 0, λ]] pada diagonal. Setiap blok berisi eigenvalue λ di diagonal utama dan 1 di superdiagonal. Contoh: A = [[5, 4, 2], [0, 1, -1], [-1, -1, 0]] dengan eigenvalue berulang memiliki blok Jordan non-trivial. Jordan form digunakan untuk mengklasifikasikan matriks hingga kesamaan, menghitung e^(At), dan menganalisis sistem dinamik."
+  },
+  {
+    "q": "Apa saja sifat-sifat logaritma tingkat lanjut dan bagaimana penerapannya?",
+    "a": "Sifat logaritma dasar: log_b(xy) = log_b(x) + log_b(y), log_b(x/y) = log_b(x) - log_b(y), log_b(x^n) = n·log_b(x). Rumus ganti basis: log_b(x) = ln(x)/ln(b). Sifat lanjut: (1) log_b(b^x) = x, (2) b^(log_b(x)) = x, (3) log_{b^n}(x) = (1/n)log_b(x). Contoh penerapan: menyelesaikan persamaan 2^x = 5 → x = log₂(5) = ln(5)/ln(2) ≈ 2.322. Logaritma digunakan dalam analisis kompleksitas algoritma, skala desibel, dan skala pH."
+  },
+  {
+    "q": "Apa itu logaritma kompleks dan bagaimana cara menghitungnya?",
+    "a": "Logaritma kompleks didefinisikan sebagai: Log(z) = ln|z| + i·Arg(z), di mana |z| adalah modulus dan Arg(z) adalah argumen utama. Karena argumen bersifat multi-valued (θ + 2kπ), logaritma kompleks juga multi-valued: log(z) = ln|z| + i(θ + 2kπ). Contoh: log(-1) = ln(1) + i(π + 2kπ) = iπ + 2kπi. Nilai utama: Log(-1) = iπ. Logaritma kompleks penting dalam analisis kompleks dan memiliki branch cut di sumbu real negatif."
+  },
+  {
+    "q": "Apa itu rumus Euler dan mengapa dianggap sebagai rumus terindah dalam matematika?",
+    "a": "Rumus Euler menyatakan e^(iθ) = cos(θ) + i·sin(θ), menghubungkan fungsi eksponensial dengan fungsi trigonometri melalui bilangan imajiner. Kasus khusus θ = π menghasilkan identitas Euler: e^(iπ) + 1 = 0, yang menghubungkan lima konstanta fundamental: e, i, π, 1, dan 0. Rumus ini dianggap indah karena menyatukan aljabar, geometri, analisis, dan bilangan kompleks dalam satu persamaan. Aplikasinya meliputi analisis sinyal, mekanika kuantum, dan representasi bilangan kompleks dalam bentuk polar."
+  },
+  {
+    "q": "Apa itu Teorema De Moivre dan bagaimana penggunaannya?",
+    "a": "Teorema De Moivre menyatakan: (cos(θ) + i·sin(θ))^n = cos(nθ) + i·sin(nθ), atau equivalen (e^(iθ))^n = e^(inθ). Penggunaan: (1) Menghitung pangkat bilangan kompleks: (1+i)^6. Dalam polar: 1+i = √2·e^(iπ/4). Maka (1+i)^6 = (√2)^6·e^(i·6π/4) = 8·e^(i·3π/2) = 8·(-i) = -8i. (2) Menurunkan identitas trigonometri: cos(3θ) = Re[(cos(θ) + i·sin(θ))³] = cos³θ - 3cos(θ)sin²(θ). Teorema ini menyederhanakan komputasi dengan bilangan kompleks."
+  },
+  {
+    "q": "Bagaimana cara mencari akar ke-n dari bilangan kompleks?",
+    "a": "Akar ke-n dari z = r·e^(iθ) diberikan oleh: z^(1/n) = r^(1/n)·e^(i(θ + 2kπ)/n), untuk k = 0, 1, ..., n-1. Ini menghasilkan tepat n akar berbeda. Contoh: akar ketiga dari 8 (yaitu ³√8): z = 8·e^(i·0), akar: 2·e^(i·2kπ/3) untuk k = 0,1,2. Hasilnya: z₀ = 2, z₁ = 2·e^(i·2π/3) = -1 + i√3, z₂ = 2·e^(i·4π/3) = -1 - i√3. Ketiga akar membentuk segitiga sama sisi di bidang kompleks."
+  },
+  {
+    "q": "Apa saja identitas trigonometri tingkat lanjut yang penting?",
+    "a": "Identitas trigonometri lanjut meliputi: (1) Jumlah-ke-produk: sin(A) + sin(B) = 2sin((A+B)/2)cos((A-B)/2). (2) Produk-ke-jumlah: sin(A)cos(B) = (1/2)[sin(A+B) + sin(A-B)]. (3) Pangkat: sin²(x) = (1-cos(2x))/2, cos²(x) = (1+cos(2x))/2. (4) Triple angle: sin(3x) = 3sin(x) - 4sin³(x). Identitas ini sangat penting dalam integrasi trigonometri, analisis Fourier, dan pemrosesan sinyal."
+  },
+  {
+    "q": "Apa itu fungsi hiperbolik dan apa hubungannya dengan fungsi eksponensial?",
+    "a": "Fungsi hiperbolik didefinisikan menggunakan eksponensial: sinh(x) = (e^x - e^(-x))/2, cosh(x) = (e^x + e^(-x))/2, tanh(x) = sinh(x)/cosh(x). Identitas penting: cosh²(x) - sinh²(x) = 1 (analog dengan cos²+sin²=1). Turunan: d/dx sinh(x) = cosh(x), d/dx cosh(x) = sinh(x). Fungsi hiperbolik muncul dalam solusi persamaan diferensial, bentuk rantai gantung (catenary y = a·cosh(x/a)), dan teori relativitas khusus."
+  },
+  {
+    "q": "Apa itu bilangan prima dan bagaimana Teorema Fundamental Aritmetika menjelaskan perannya?",
+    "a": "Bilangan prima adalah bilangan bulat positif lebih dari 1 yang hanya habis dibagi 1 dan dirinya sendiri (2, 3, 5, 7, 11, ...). Teorema Fundamental Aritmetika menyatakan bahwa setiap bilangan bulat > 1 dapat ditulis secara unik sebagai produk bilangan prima (hingga urutan). Contoh: 60 = 2² × 3 × 5. Euclid membuktikan ada tak hingga bilangan prima. Distribusi prima digambarkan oleh Prime Number Theorem: π(x) ≈ x/ln(x), di mana π(x) adalah jumlah prima ≤ x."
+  },
+  {
+    "q": "Apa itu aritmetika modular dan bagaimana cara kerjanya?",
+    "a": "Aritmetika modular bekerja dengan sisa pembagian. Notasi: a ≡ b (mod n) artinya n membagi (a-b). Contoh: 17 ≡ 2 (mod 5) karena 17 - 2 = 15 habis dibagi 5. Operasi: (1) Penjumlahan: (a+b) mod n = ((a mod n) + (b mod n)) mod n. (2) Perkalian serupa. Contoh: 7 × 8 mod 5 = (2 × 3) mod 5 = 6 mod 5 = 1. Aritmetika modular digunakan luas dalam kriptografi (RSA), checksum, dan hash function."
+  },
+  {
+    "q": "Apa itu Teorema Kecil Fermat (Fermat's Little Theorem) dan apa aplikasinya?",
+    "a": "Teorema Kecil Fermat menyatakan: jika p adalah bilangan prima dan a tidak habis dibagi p, maka a^(p-1) ≡ 1 (mod p). Equivalen: a^p ≡ a (mod p) untuk semua a. Contoh: 3^6 mod 7 = 729 mod 7. Menurut teorema: 3^6 ≡ 1 (mod 7), terbukti karena 729 = 104 × 7 + 1. Aplikasi: (1) Menyederhanakan komputasi pangkat besar dalam modular. (2) Dasar uji primalitas (Fermat primality test). (3) Fondasi algoritma kriptografi RSA."
+  },
+  {
+    "q": "Apa itu fungsi totient Euler φ(n) dan apa sifat-sifatnya?",
+    "a": "Fungsi totient Euler φ(n) menghitung jumlah bilangan bulat dari 1 hingga n yang relatif prima dengan n (GCD = 1). Contoh: φ(12) = 4 (yaitu 1, 5, 7, 11). Sifat: (1) φ(p) = p-1 untuk p prima. (2) φ(p^k) = p^k - p^(k-1). (3) Untuk m, n relatif prima: φ(mn) = φ(m)φ(n) (multiplikatif). Teorema Euler: a^φ(n) ≡ 1 (mod n) jika GCD(a,n) = 1. Contoh: φ(12) = 4, maka 5^4 = 625 ≡ 1 (mod 12). Fungsi ini fundamental dalam kriptografi RSA."
+  },
+  {
+    "q": "Apa itu Chinese Remainder Theorem (CRT) dan bagaimana penggunaannya?",
+    "a": "CRT menyatakan: jika n₁, n₂, ..., nₖ saling relatif prima, maka sistem kongruensi x ≡ a₁ (mod n₁), x ≡ a₂ (mod n₂), ..., x ≡ aₖ (mod nₖ) memiliki solusi unik modulo N = n₁n₂...nₖ. Contoh: x ≡ 2 (mod 3), x ≡ 3 (mod 5). N = 15. Solusi: x = 8 (cek: 8 mod 3 = 2 ✓, 8 mod 5 = 3 ✓). Solusi umum: x = 8 + 15k. CRT digunakan dalam kriptografi RSA untuk mempercepat dekripsi dan dalam representasi bilangan besar."
+  },
+  {
+    "q": "Apa itu irisan kerucut (conic sections) dalam geometri analitik?",
+    "a": "Irisan kerucut adalah kurva yang dihasilkan dari perpotongan bidang dengan kerucut ganda. Empat jenis utama: (1) Lingkaran: x² + y² = r² (eksentrisitas e = 0). (2) Elips: x²/a² + y²/b² = 1 (0 < e < 1). (3) Parabola: y² = 4ax (e = 1). (4) Hiperbola: x²/a² - y²/b² = 1 (e > 1). Persamaan umum: Ax² + Bxy + Cy² + Dx + Ey + F = 0. Jenis kurva ditentukan oleh diskriminan B² - 4AC: negatif (elips), nol (parabola), positif (hiperbola)."
+  },
+  {
+    "q": "Apa itu persamaan parametrik dan bagaimana cara menggunakannya?",
+    "a": "Persamaan parametrik menyatakan koordinat kurva sebagai fungsi parameter t: x = f(t), y = g(t). Contoh: lingkaran x² + y² = r² → x = r·cos(t), y = r·sin(t), 0 ≤ t ≤ 2π. Turunan parametrik: dy/dx = (dy/dt)/(dx/dt). Panjang kurva: L = ∫ₐᵇ √((dx/dt)² + (dy/dt)²) dt. Contoh: cycloid x = t - sin(t), y = 1 - cos(t) menggambarkan jejak titik pada roda bergulir. Persamaan parametrik sangat berguna ketika kurva tidak bisa dinyatakan sebagai y = f(x)."
+  },
+  {
+    "q": "Bagaimana sistem koordinat polar bekerja dan apa hubungannya dengan koordinat Kartesian?",
+    "a": "Koordinat polar menyatakan posisi titik sebagai (r, θ), di mana r adalah jarak dari pusat dan θ adalah sudut dari sumbu positif-x. Konversi: x = r·cos(θ), y = r·sin(θ), r = √(x²+y²), θ = arctan(y/x). Contoh kurva polar: r = a (lingkaran), r = a·cos(θ) (lingkaran melalui pusat), r = a(1 + cos(θ)) (cardioid), r = a·cos(2θ) (rose curve 4-daun). Luas daerah polar: A = (1/2)∫ r² dθ. Koordinat polar menyederhanakan analisis kurva dengan simetri radial."
+  },
+  {
+    "q": "Apa itu barisan (sequence) dan bagaimana menentukan konvergensinya?",
+    "a": "Barisan {aₙ} adalah fungsi dari bilangan asli ke bilangan real. Barisan konvergen jika lim(n→∞) aₙ = L (limit ada dan berhingga). Contoh konvergen: aₙ = 1/n → 0, aₙ = (n+1)/n → 1. Contoh divergen: aₙ = (-1)ⁿ (osilasi), aₙ = n² (→ ∞). Uji konvergensi: (1) Monotone Convergence Theorem: barisan monoton dan terbatas pasti konvergen. (2) Squeeze Theorem: jika bₙ ≤ aₙ ≤ cₙ dan bₙ, cₙ → L, maka aₙ → L. Konvergensi barisan adalah dasar untuk memahami deret."
+  },
+  {
+    "q": "Apa saja uji konvergensi deret (series convergence tests) yang penting?",
+    "a": "Uji konvergensi deret Σaₙ meliputi: (1) Uji divergensi: jika lim aₙ ≠ 0, deret divergen. (2) Uji rasio: lim|aₙ₊₁/aₙ| < 1 → konvergen, > 1 → divergen. (3) Uji akar: lim|aₙ|^(1/n) < 1 → konvergen. (4) Uji integral: Σf(n) konvergen ⟺ ∫f(x)dx konvergen. (5) Uji perbandingan: jika 0 ≤ aₙ ≤ bₙ dan Σbₙ konvergen, maka Σaₙ konvergen. Contoh: Σ(1/n²) konvergen (uji integral: ∫1/x²dx konvergen), Σ(1/n) divergen (deret harmonik)."
+  },
+  {
+    "q": "Bagaimana menentukan radius konvergensi deret pangkat?",
+    "a": "Deret pangkat Σcₙ(x-a)ⁿ memiliki radius konvergensi R yang dihitung dengan: R = 1/lim(n→∞)|cₙ₊₁/cₙ| (uji rasio) atau R = 1/lim(n→∞)|cₙ|^(1/n) (uji akar). Deret konvergen absolut untuk |x-a| < R dan divergen untuk |x-a| > R. Contoh: Σxⁿ/n! (deret eksponensial). |cₙ₊₁/cₙ| = 1/(n+1) → 0, jadi R = ∞ (konvergen untuk semua x). Contoh lain: Σnxⁿ. |cₙ₊₁/cₙ| = (n+1)/n → 1, jadi R = 1. Konvergensi di titik batas x = a ± R harus dicek terpisah."
+  },
+  {
+    "q": "Apa itu fungsi Gamma dan bagaimana kaitannya dengan faktorial?",
+    "a": "Fungsi Gamma Γ(z) = ∫₀^∞ t^(z-1)·e^(-t) dt adalah generalisasi faktorial ke bilangan real dan kompleks. Sifat utama: Γ(n) = (n-1)! untuk n bilangan bulat positif. Rekursi: Γ(z+1) = z·Γ(z). Nilai khusus: Γ(1) = 1, Γ(1/2) = √π. Contoh: Γ(5) = 4! = 24, Γ(3/2) = (1/2)·Γ(1/2) = √π/2. Fungsi Gamma muncul dalam distribusi probabilitas (chi-squared, Student-t), fisika statistik, dan kombinatorika kontinu."
+  },
+  {
+    "q": "Apa itu fungsi Beta dan bagaimana hubungannya dengan fungsi Gamma?",
+    "a": "Fungsi Beta didefinisikan sebagai B(p,q) = ∫₀¹ t^(p-1)·(1-t)^(q-1) dt untuk p, q > 0. Hubungan dengan Gamma: B(p,q) = Γ(p)·Γ(q)/Γ(p+q). Sifat: B(p,q) = B(q,p) (simetris). Contoh: B(2,3) = Γ(2)Γ(3)/Γ(5) = 1!·2!/4! = 2/24 = 1/12. Fungsi Beta muncul dalam distribusi Beta, distribusi binomial, dan berbagai integral yang melibatkan pangkat x dan (1-x). Transformasi B(p,q) = 2∫₀^(π/2) sin^(2p-1)(θ)cos^(2q-1)(θ)dθ berguna untuk integral trigonometri."
+  },
+  {
+    "q": "Bagaimana Teorema Bayes diterapkan dalam probabilitas lanjut?",
+    "a": "Teorema Bayes: P(A|B) = P(B|A)·P(A)/P(B), di mana P(B) = ΣP(B|Aᵢ)P(Aᵢ) (total probability). Contoh: tes penyakit memiliki sensitivitas 99% (P(+|sakit) = 0.99) dan spesifisitas 95% (P(-|sehat) = 0.95). Prevalensi sakit 1% (P(sakit) = 0.01). P(sakit|+) = (0.99×0.01)/(0.99×0.01 + 0.05×0.99) = 0.0099/0.0594 ≈ 16.7%. Meskipun tes akurat, probabilitas benar-benar sakit hanya ~17% karena prevalensi rendah. Bayes digunakan dalam machine learning, filter spam, dan pengambilan keputusan medis."
+  },
+  {
+    "q": "Apa saja distribusi probabilitas kontinu yang penting dan sifat-sifatnya?",
+    "a": "Distribusi kontinu penting: (1) Normal N(μ,σ²): f(x) = (1/(σ√(2π)))e^(-(x-μ)²/(2σ²)), simetris berbentuk lonceng. (2) Eksponensial Exp(λ): f(x) = λe^(-λx) untuk x ≥ 0, memoryless, model waktu tunggu. (3) Uniform U(a,b): f(x) = 1/(b-a), probabilitas sama di interval. (4) Gamma Γ(α,β): generalisasi eksponensial, model waktu sampai α kejadian. Setiap distribusi memiliki mean, variansi, dan moment generating function unik yang menentukan karakteristiknya."
+  },
+  {
+    "q": "Apa itu Central Limit Theorem (CLT) dan mengapa sangat penting dalam statistika?",
+    "a": "CLT menyatakan bahwa rata-rata sampel X̄ dari n observasi independen dengan mean μ dan variansi σ² mendekati distribusi normal N(μ, σ²/n) saat n → ∞, terlepas dari distribusi asli populasi. Contoh: lempar dadu 100 kali, rata-rata hasilnya mendekati normal dengan μ = 3.5 dan σ²/n = (35/12)/100 ≈ 0.029. CLT penting karena: (1) membenarkan penggunaan distribusi normal dalam inferensi statistik, (2) mendasari confidence interval dan uji hipotesis, (3) berlaku untuk sebagian besar distribusi populasi."
+  },
+  {
+    "q": "Apa itu moment generating function (MGF) dan bagaimana kegunaannya?",
+    "a": "MGF dari variabel acak X didefinisikan sebagai M_X(t) = E[e^(tX)]. MGF menentukan distribusi secara unik dan memudahkan perhitungan momen: E[X^n] = M_X^(n)(0) (turunan ke-n dievaluasi di t = 0). Contoh: untuk X ~ N(μ,σ²), M_X(t) = e^(μt + σ²t²/2). E[X] = M'(0) = μ, E[X²] = M''(0) = μ² + σ². Kegunaan lain: jumlah variabel acak independen: M_{X+Y}(t) = M_X(t)·M_Y(t). MGF menyederhanakan pembuktian CLT."
+  },
+  {
+    "q": "Apa itu turunan parsial dan bagaimana cara menghitungnya?",
+    "a": "Turunan parsial mengukur laju perubahan fungsi multivariabel terhadap satu variabel, dengan variabel lain dianggap konstan. Notasi: ∂f/∂x. Contoh: f(x,y) = x²y + 3xy². ∂f/∂x = 2xy + 3y² (y dianggap konstan), ∂f/∂y = x² + 6xy (x dianggap konstan). Turunan parsial orde dua: ∂²f/∂x² = 2y, ∂²f/∂y² = 6x, ∂²f/∂x∂y = 2x + 6y. Teorema Clairaut: ∂²f/∂x∂y = ∂²f/∂y∂x jika keduanya kontinu."
+  },
+  {
+    "q": "Apa itu aturan rantai multivariabel (multivariable chain rule)?",
+    "a": "Aturan rantai multivariabel digunakan ketika variabel dalam fungsi bergantung pada variabel lain. Jika z = f(x,y) dengan x = g(t), y = h(t), maka dz/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). Contoh: z = x²y, x = cos(t), y = sin(t). dz/dt = 2xy·(-sin(t)) + x²·cos(t) = -2cos(t)sin²(t) + cos³(t). Untuk kasus lebih umum z = f(x,y), x = g(s,t), y = h(s,t): ∂z/∂s = (∂f/∂x)(∂x/∂s) + (∂f/∂y)(∂y/∂s)."
+  },
+  {
+    "q": "Apa itu Jacobian dan bagaimana penggunaannya dalam transformasi variabel?",
+    "a": "Jacobian adalah matriks turunan parsial J = [[∂x/∂u, ∂x/∂v], [∂y/∂u, ∂y/∂v]] untuk transformasi (x,y) = T(u,v). Determinan Jacobian |J| digunakan saat mengganti variabel dalam integral: ∬f(x,y)dxdy = ∬f(T(u,v))·|det(J)|dudv. Contoh: transformasi polar x = r·cos(θ), y = r·sin(θ). J = [[cos(θ), -r·sin(θ)], [sin(θ), r·cos(θ)]], det(J) = r. Sehingga dxdy = r·drdθ. Jacobian penting dalam integral ganda/lipat tiga dengan substitusi koordinat."
+  },
+  {
+    "q": "Apa itu Hessian matrix dan bagaimana digunakan untuk uji titik kritis?",
+    "a": "Hessian matrix H adalah matriks turunan parsial orde dua: H = [[∂²f/∂x², ∂²f/∂x∂y], [∂²f/∂y∂x, ∂²f/∂y²]]. Di titik kritis (∂f/∂x = 0 dan ∂f/∂y = 0), determinan Hessian D = det(H) menentukan sifat titik: (1) D > 0 dan ∂²f/∂x² > 0 → minimum lokal. (2) D > 0 dan ∂²f/∂x² < 0 → maksimum lokal. (3) D < 0 → saddle point. (4) D = 0 → uji tidak meyakinkan. Contoh: f(x,y) = x² + y² memiliki minimum di (0,0) karena D = 4 > 0 dan fₓₓ = 2 > 0."
+  },
+  {
+    "q": "Apa itu kongruensi dalam teori bilangan dan bagaimana menyelesaikan kongruensi linear?",
+    "a": "Kongruensi linear ax ≡ b (mod n) memiliki solusi jika dan hanya jika GCD(a,n) membagi b. Jika d = GCD(a,n) | b, ada tepat d solusi modulo n. Langkah: (1) Bagi semua dengan d: (a/d)x ≡ (b/d) (mod n/d). (2) Cari invers (a/d) modulo (n/d). Contoh: 6x ≡ 4 (mod 10). GCD(6,10) = 2 | 4 ✓. Sederhanakan: 3x ≡ 2 (mod 5). Invers 3 mod 5 adalah 2 (karena 3×2 = 6 ≡ 1). Jadi x ≡ 4 (mod 5). Solusi: x = 4 dan x = 9 (mod 10)."
+  },
+  {
+    "q": "Apa itu ruang vektor (vector space) dan aksioma-aksiomanya?",
+    "a": "Ruang vektor V atas field F adalah himpunan dengan operasi penjumlahan dan perkalian skalar yang memenuhi 8 aksioma: (1) komutatif u+v = v+u, (2) asosiatif (u+v)+w = u+(v+w), (3) ada vektor nol 0, (4) ada negatif -u, (5) 1·u = u, (6) a(bu) = (ab)u, (7) a(u+v) = au+av, (8) (a+b)u = au+bu. Contoh ruang vektor: Rⁿ, ruang polinomial P_n, ruang fungsi kontinu C[a,b], ruang matriks M_{m×n}. Konsep basis, dimensi, dan subruang didefinisikan dalam kerangka ruang vektor."
+  },
+  {
+    "q": "Apa itu transformasi Fourier dan apa perbedaannya dengan deret Fourier?",
+    "a": "Transformasi Fourier mengubah fungsi dari domain waktu ke domain frekuensi: F(ω) = ∫_{-∞}^{∞} f(t)·e^(-iωt) dt. Invers: f(t) = (1/2π)∫_{-∞}^{∞} F(ω)·e^(iωt) dω. Perbedaan: deret Fourier untuk fungsi periodik (menghasilkan koefisien diskrit), transformasi Fourier untuk fungsi non-periodik (menghasilkan spektrum kontinu). Contoh: f(t) = e^(-|t|), F(ω) = 2/(1+ω²). Transformasi Fourier digunakan dalam pemrosesan sinyal digital, analisis spektral, dan teori komunikasi."
+  },
+  {
+    "q": "Apa itu deret Laurent dan bagaimana perbedaannya dengan deret Taylor?",
+    "a": "Deret Laurent merepresentasikan fungsi kompleks sebagai f(z) = Σ_{n=-∞}^{∞} cₙ(z-z₀)ⁿ, yang mencakup pangkat negatif. Berbeda dengan deret Taylor yang hanya memiliki pangkat non-negatif, deret Laurent berlaku di annulus (cincin) di sekitar singular point. Contoh: f(z) = 1/(z(z-1)) di sekitar z = 0: f(z) = -1/z - 1 - z - z² - .... Koefisien c₋₁ disebut residue, penting dalam integral kompleks. Deret Laurent memungkinkan klasifikasi singularitas: pole (jika ada pangkat negatif hingga) atau essential singularity (jika ada tak hingga)."
+  },
+  {
+    "q": "Apa itu persamaan Cauchy-Riemann dan apa implikasinya untuk fungsi analitik?",
+    "a": "Persamaan Cauchy-Riemann (CR) untuk f(z) = u(x,y) + iv(x,y) adalah: ∂u/∂x = ∂v/∂y dan ∂u/∂y = -∂v/∂x. Fungsi yang memenuhi CR di suatu daerah adalah analitik (holomorphic) di daerah tersebut. Contoh: f(z) = z² = (x² - y²) + i(2xy). u = x² - y², v = 2xy. ∂u/∂x = 2x = ∂v/∂y ✓, ∂u/∂y = -2y = -∂v/∂x ✓. Jadi f analitik. Implikasi: fungsi analitik dapat diturunkan kompleks Cauchy-Riemann menjamin kontinuitas dan analitisitas di domain buka, dan fungsi analitik memiliki deret Laurent unik."
+  },
+  {
+    "q": "Apa itu pemetaan konformal (conformal mapping) dan apa aplikasinya?",
+    "a": "Pemetaan konformal w = f(z) adalah fungsi kompleks analitik yang mempertahankan sudut lokal antara kurva (isogonal). Syarat: f'(z) ≠ 0 di domain. Contoh pemetaan konformal: (1) w = z + c (translasi), (2) w = az (rotasi/skala, a ≠ 0), (3) w = 1/z (inversi), (4) w = e^z (eksponensial). Aplikasi: (1) Mengubah domain sulit menjadi sederhana untuk menyelesaikan PDE (solusi potensial electrostatics). (2) Analisis aliran fluida di sekitar objek dengan mentransformasi ke aliran uniform. (3) Cartography untuk memetakan permukaan bola ke bidang dengan menjaga angle."
+  },
+  {
+    "q": "Bagaimana teknik integrasi kontur digunakan untuk menghitung integral real?",
+    "a": "Integrasi kontur menghitung integral real dengan memperluas ke bidang kompleks, memilih kontur tertutup yang sesuai, dan menggunakan teorema residue. Contoh: ∫₀^∞ 1/(1+x⁴)dx. Gauss kontur setengah lingkaran di upper half-plane. Singularitas: z = e^(iπ/4), e^(i3π/4) di dalam kontur. Residue di z₁ = e^(iπ/4): Res = 1/(4z₁³) = e^(-i3π/4)/4. Total integral = 2πi Σ residue = π/(2√2). Teknik integrasi kontur jauh lebih efisien dibanding metode real calculus untuk integral sulit."
+  },
+  {
+    "q": "Apa itu fungsi polikhromi (polylogarithm) dan bagaimana definisinya?",
+    "a": "Fungsi polilogaritma didefinisikan sebagai Li_s(z) = Σ_{n=1}^∞ z^n/n^s untuk |z| ≤ 1, atau melalui integral Li_s(z) = (1/Γ(s))∫₀^∞ t^(s-1)/(e^t - z) dt. Kasus khusus: Li₁(z) = -ln(1-z) (logaritma), Li₂(z) = dilogaritma (integral Clausius). Contoh: Li₂(1) = π²/6 (Basel problem). Polilogaritma muncul dalam: teori nomor kuantum, evaluasi integral, modular form, dan fisika partikel (distribusi Bose-Einstein)."
+  },
+  {
+    "q": "Apa itu relasi rekurensi dan bagaimana cara menyelesaikannya?",
+    "a": "Relasi rekurensi adalah persamaan yang menghubungkan suku-suku barisan. Bentuk: aₙ = f(aₙ₋₁, aₙ₋₂, ...). Contoh linear homogen: aₙ = 3aₙ₋₁ - 2aₙ₋₂. Untuk menyelesaikan: (1) Asumsikan aₙ = r^n, diperoleh persamaan karakteristik r² - 3r + 2 = 0, r = 1, 2. (2) Solusi umum: aₙ = C₁ + C₂·2ⁿ. (3) Gunakan kondisi awal untuk C₁, C₂. Contoh non-homogen: aₙ + 2aₙ₋₁ = 3. Solusi: homogen aₙ^h = C·(-2)ⁿ, particular aₙ^p = 1, total aₙ = C·(-2)ⁿ + 1. Relasi rekurensi digunakan dalam algoritma, struktur data, dan combinatorics generating function."
+  },
+  {
+    "q": "Apa itu generating function dan bagaimana kegunaannya dalam menghitung kombinasi?",
+    "a": "Generating function untuk barisan {aₙ} adalah deret pangkat A(x) = Σaₙxⁿ. Konsep ini mengubah masalah kombinatorik menjadi manipulasi aljabar. Contoh: kombinasi dengan pengulangan C(n+k-1, k) memiliki generating function 1/(1-x)ⁿ. Contoh Fibonacci: F(x) = Σ F_n x^n. Dari F_n = F_{n-1} + F_{n-2}: F(x) = x + xF(x) + x²F(x), diperoleh F(x) = x/(1 - x - x²). Ekspansi menghasilkan F_n = (φ^n - ψ^n)/√5, φ = (1+√5)/2. Generating function powerful dalam counting problems, permutations, partitions, dan graph enumeration."
+  },
+  {
+    "q": "Apa itu polinomial ortogonal dan contoh-contohnya?",
+    "a": "Polinomial ortogonal P_n(x) memenuhi ∫ P_m(x)P_n(x)w(x)dx = 0 untuk m ≠ n, di mana w(x) adalah fungsi bobot. Contoh penting: (1) Polinomial Legendre P_n(x) dengan w = 1 pada [-1,1], muncul dalam PDE spherical. (2) Polinomial Hermite H_n(x) dengan w = e^(-x²), muncul dalam mekanika kuantum (harmonic oscillator). (3) Polinomial Laguerre L_n(x) dengan w = e^(-x), muncul dalam atom hydrogen. (4) Polinomial Chebyshev T_n(x) dengan w = 1/√(1-x²), optimal untuk interpolasi numerik. Polinomial ortogonal memiliki sifat rekursi dan generating function yang berguna untuk perhitungan."
+  },
+  {
+    "q": "Apa itu spline dan bagaimana digunakan dalam interpolasi numerik?",
+    "a": "Spline adalah polinomial piecewise yang smooth menghubungkan data points. Cubic spline paling umum: terdiri dari polinomial derajat 3 di setiap interval [xᵢ, xᵢ₊₁], dengan kontinuitas hingga turunan kedua di junction points. Representasi: S_i(x) = aᵢ + bᵢ(x-xᵢ) + cᵢ(x-xᵢ)² + dᵢ(x-xᵢ)³. Syarat: kontinu S_i(xᵢ₊₁) = S_{i+1}(xᵢ₊₁), smooth S'_i(xᵢ₊₁) = S'_{i+1}(xᵢ₊₁), S''_i(xᵢ₊₁) = S''_{i+1}(xᵢ₊₁). Keuntungan: menghindari Runge's phenomenon (oscillasi pada interpolasi polinomial derajat tinggi). Aplikasi: CAD, image processing, data visualization."
+  },
+  {
+    "q": "Apa itu metrik ruang (metric space) dan bagaimana konsep jarak didefinisikan?",
+    "a": "Metrik ruang (M, d) adalah himpunan M dengan fungsi jarak d: M × M → ℝ yang memenuhi 4 aksioma: (1) d(x,y) ≥ 0 (non-negatif), (2) d(x,y) = 0 ⟺ x = y (identitas), (3) d(x,y) = d(y,x) (simetri), (4) d(x,z) ≤ d(x,y) + d(y,z) (pertidaksamaan segitiga). Contoh metrik: (1) Euclidean d(x,y) = √(Σ(xᵢ-yᵢ)²) di ℝⁿ. (2) Manhattan d(x,y) = Σ|xᵢ-yᵢ|. (3) Chebyshev d(x,y) = max|xᵢ-yᵢ|. (4) p-norm d(x,y) = (Σ|xᵢ-yᵢ|^p)^(1/p). Konsep metrik memungkinkan mendefinisikan konvergensi, kontinuitas, kompleteness di ruang abstrak."
+  },
+  {
+    "q": "Apa itu teorema titik tetap (fixed point theorem) dan aplikasinya?",
+    "a": "Teorema fixed point Banach menyatakan: jika f adalah kontraksi pada ruang metrik lengkap (d(f(x), f(y)) ≤ cd(x,y) dengan 0 < c < 1), maka f memiliki unique fixed point x* = f(x*). Iterasi x_{n+1} = f(xₙ) konvergen ke x*. Contoh: menyelesaikan x = cos(x). f(x) = cos(x), f'(x) = -sin(x), |f'(x)| ≤ sin(1) ≈ 0.84 < 1. Jadi f kontraksi pada ℝ. Starting dari x₀ = 0: x₁ ≈ 0.7391, x₂ ≈ 0.7391, konvergen. Aplikasi: (1) Menyelesaikan persamaan non-linear. (2) Menganalisis sistem dinamik. (3) Membuktikan eksistensi solusi PDE dan ODE."
+  },
+  {
+    "q": "Apa itu kalkulus variasi (calculus of variations) dan apa tujuannya?",
+    "a": "Kalkulus variasi memaksimalkan atau meminimalkan functional J[y] = ∫ₐᵇ F(x, y, y')dx di mana y(x) adalah fungsi unknown. Kondisi optimal (Euler-Lagrange equation): ∂F/∂y - d/dx(∂F/∂y') = 0. Contoh: temukan kurva terpendek (geodesic) antara dua titik. F = √(1 + y'²), Euler-Lagrange memberikan y'' = 0, jadi y = ax + b (garis lurus). Contoh lain: brachistochrone (kurva tercepat untuk benda jatuh). Solusi: cycloid. Aplikasi: (1) Classical mechanics (Lagrangian formalism). (2) Optimal control. (3) Image processing (energy minimization). (4) Quantum mechanics (path integral Feynman)."
+  },
+  {
+    "q": "Apa itu fungsi Bessel dan di mana munculnya?",
+    "a": "Fungsi Bessel J_n(x) adalah solusi persamaan diferensial Bessel: x²y'' + xy' + (x² - n²)y = 0. Didefinisikan melalui deret: J_n(x) = Σ_{k=0}^∞ (-1)^k/(k!(k+n)!) · (x/2)^(2k+n). Sifat: J_0(0) = 1, J_n(0) = 0 untuk n > 0. Rekursi: J'_n(x) = J_{n-1}(x) - (n/x)J_n(x). Aplikasi: (1) Getar membran melingkar: solusi u(r,θ,t) melibatkan J_0(λ_mn · r). (2) Perambatan gelombang dalam waveguide. (3) Diffraction (pola Airy disk dalam optik). (4) Besar-kecil struktur atom dalam quantum mechanics (radial wave functions)."
+  },
+  {
+    "q": "Bagaimana Greatest Common Divisor (GCD) dihitung menggunakan algoritma Euclidean?",
+    "a": "Algoritma Euclidean menghitung GCD(a,b) melalui pembagian berulang: GCD(a,b) = GCD(b, a mod b) sampai remainder = 0. Contoh: GCD(1071, 462). 1071 = 2·462 + 147, GCD(1071, 462) = GCD(462, 147). 462 = 3·147 + 21, GCD(462, 147) = GCD(147, 21). 147 = 7·21 + 0, GCD(147, 21) = GCD(21, 0) = 21. Kompleksitas: O(log min(a,b)). Extended Euclidean Algorithm juga menghitung koefisien Bézout x, y sehingga ax + by = GCD(a,b), berguna dalam kriptografi RSA dan modular inverses. Dari contoh: 1071(-1) + 462(2) + 147 = 0, atau via extended form: 21 = 147 - 7·21 = 147 - 7(462 - 3·147)."
+  },
+  {
+    "q": "Apa itu aljabar Boolean dan bagaimana aplikasinya?",
+    "a": "Aljabar Boolean adalah sistem aljabar dengan dua elemen {0, 1} yang mematuhi operasi: AND (·), OR (+), NOT ('). Hukum-hukum dasar: (1) Identitas: a + 0 = a, a·1 = a. (2) Dominasi: a + 1 = 1, a·0 = 0. (3) Idempoten: a + a = a, a·a = a. (4) De Morgan: (a+b)' = a'·b', (a·b)' = a'+b'. (5) Asosiatif, komutatif, distributif. Contoh: sederhanakan (a+b)·(a+c) = a + (b·c). Aplikasi: (1) Digital circuit design (logic gates). (2) Computer architecture (CPU design). (3) Database queries (Boolean search). (4) Program verification dan static analysis. (5) Set theory (union, intersection, complement)."
+  },
+  {
+    "q": "Apa itu analisis kontinu (continuum mechanics) dan persamaan pokok-pokok dasarnya?",
+    "a": "Analisis kontinu mempelajari deformasi dan aliran materi kontinyu. Persamaan dasar: (1) Conservation of mass: ∂ρ/∂t + ∇·(ρv) = 0 (continuity equation). (2) Conservation of momentum: ρ(Dv/Dt) = ∇·σ + f, di mana σ adalah stress tensor, Dv/Dt adalah material derivative = ∂v/∂t + (v·∇)v. (3) Constitutive relation: untuk fluida Newtonian σ = -pI + μ(∇v + ∇v^T). Persamaan momentum untuk fluida ideal: ρ(Dv/Dt) = -∇p + f (Euler equation). Untuk fluida viskos: Navier-Stokes ρ(Dv/Dt) = -∇p + μ∇²v + f. Aplikasi: aerodynamics, weather modeling, ocean currents, blood flow."
+  },
+  {
+    "q": "Apa itu analitik lanjutan (analytic continuation) dalam analisis kompleks?",
+    "a": "Analitik lanjutan adalah proses memperluas domain fungsi analitik f yang awalnya didefinisikan di daerah D ke domain yang lebih besar. Jika ada dua fungsi f₁ (analitik di D₁) dan f₂ (analitik di D₂) dengan f₁ = f₂ di D₁ ∩ D₂ ≠ ∅, maka f₂ adalah analitik lanjutan f₁ ke D₂. Contoh: deret geometri Σz^n = 1/(1-z) berlaku untuk |z| < 1. Analitik lanjutan adalah 1/(1-z) untuk z ≠ 1 (entire complex plane minus 1). Aplikasi: (1) Mendefinisikan fungsi special (Gamma, zeta) untuk argument lebih luas. (2) Analytic continuation dari deret Dirichlet mendefinisikan fungsi zeta Riemann untuk Re(s) > 0 (tidak hanya Re(s) > 1). (3) Quantum field theory (analytic continuation waktu Euclidean ke Minkowski)."
+  }
+]

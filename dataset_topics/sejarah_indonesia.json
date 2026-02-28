@@ -1,0 +1,490 @@
+[
+  {
+    "q": "Siapa yang membacakan teks proklamasi?",
+    "a": "Teks proklamasi dibacakan oleh Ir. Soekarno didampingi Mohammad Hatta."
+  },
+  {
+    "q": "Kapan Sumpah Pemuda diperingati?",
+    "a": "Sumpah Pemuda diperingati setiap tanggal 28 Oktober."
+  },
+  {
+    "q": "Apa isi Sumpah Pemuda?",
+    "a": "Sumpah Pemuda berisi ikrar satu tanah air, satu bangsa, dan satu bahasa yaitu Indonesia."
+  },
+  {
+    "q": "Siapa pahlawan nasional dari Aceh?",
+    "a": "Pahlawan nasional dari Aceh antara lain Cut Nyak Dien dan Teuku Umar."
+  },
+  {
+    "q": "Kapan perang Diponegoro terjadi?",
+    "a": "Perang Diponegoro terjadi pada tahun 1825-1830."
+  },
+  {
+    "q": "Siapa pendiri Nahdlatul Ulama?",
+    "a": "Nahdlatul Ulama didirikan oleh KH. Hasyim Asy'ari pada tahun 1926."
+  },
+  {
+    "q": "Kapan VOC didirikan?",
+    "a": "VOC (Vereenigde Oostindische Compagnie) didirikan pada tahun 1602."
+  },
+  {
+    "q": "Siapa pendiri Muhammadiyah?",
+    "a": "Muhammadiyah didirikan oleh KH. Ahmad Dahlan pada tahun 1912 di Yogyakarta."
+  },
+  {
+    "q": "Kapan Jepang menjajah Indonesia?",
+    "a": "Jepang menjajah Indonesia dari tahun 1942 sampai 1945."
+  },
+  {
+    "q": "Kapan Belanda mulai menjajah Indonesia?",
+    "a": "Belanda mulai menjajah Indonesia sejak kedatangan VOC pada tahun 1602."
+  },
+  {
+    "q": "Siapa pencipta lagu Indonesia Raya?",
+    "a": "Lagu Indonesia Raya diciptakan oleh Wage Rudolf Supratman (W.R. Supratman)."
+  },
+  {
+    "q": "Kapan Konferensi Asia Afrika diadakan?",
+    "a": "Konferensi Asia Afrika diadakan pada tanggal 18-24 April 1955 di Bandung."
+  },
+  {
+    "q": "Siapa tokoh yang dijuluki Bapak Koperasi Indonesia?",
+    "a": "Bapak Koperasi Indonesia adalah Mohammad Hatta."
+  },
+  {
+    "q": "Siapa tokoh yang dijuluki Bapak Pendidikan Indonesia?",
+    "a": "Bapak Pendidikan Indonesia adalah Ki Hajar Dewantara."
+  },
+  {
+    "q": "Kapan Hari Pendidikan Nasional diperingati?",
+    "a": "Hari Pendidikan Nasional diperingati setiap tanggal 2 Mei, bertepatan dengan hari lahir Ki Hajar Dewantara."
+  },
+  {
+    "q": "Apa nama kerajaan Hindu tertua di Indonesia?",
+    "a": "Kerajaan Hindu tertua di Indonesia adalah Kerajaan Kutai di Kalimantan Timur."
+  },
+  {
+    "q": "Apa nama kerajaan Buddha terbesar di Indonesia?",
+    "a": "Kerajaan Buddha terbesar di Indonesia adalah Kerajaan Sriwijaya."
+  },
+  {
+    "q": "Siapa pendiri kerajaan Majapahit?",
+    "a": "Kerajaan Majapahit didirikan oleh Raden Wijaya pada tahun 1293."
+  },
+  {
+    "q": "Siapa Mahapatih terkenal dari Majapahit?",
+    "a": "Mahapatih terkenal dari Majapahit adalah Gajah Mada."
+  },
+  {
+    "q": "Apa isi Sumpah Palapa?",
+    "a": "Sumpah Palapa adalah sumpah Gajah Mada untuk tidak makan buah palapa sebelum berhasil menyatukan Nusantara."
+  },
+  {
+    "q": "Kapan G30S/PKI terjadi?",
+    "a": "Gerakan 30 September (G30S/PKI) terjadi pada tanggal 30 September 1965."
+  },
+  {
+    "q": "Kapan reformasi Indonesia terjadi?",
+    "a": "Reformasi Indonesia terjadi pada tahun 1998, ditandai dengan lengsernya Presiden Soeharto."
+  },
+  {
+    "q": "Siapa pendiri kerajaan Sailendra?",
+    "a": "Kerajaan Sailendra didirikan oleh Syailendra pada abad ke-8. Mereka adalah dinasti Buddha yang berkuasa di Jawa Tengah dan membangun Candi Borobudur."
+  },
+  {
+    "q": "Apa peninggalan arkeologi terpenting dari kerajaan Sailendra?",
+    "a": "Peninggalan terpenting dari Sailendra adalah Candi Borobudur yang dibangun pada abad ke-8, merupakan candi Buddha terbesar di dunia."
+  },
+  {
+    "q": "Kapan Candi Borobudur dibangun?",
+    "a": "Candi Borobudur dibangun pada masa dinasti Sailendra sekitar tahun 760-830 Masehi selama masa pemerintahan Raja Samaratungga."
+  },
+  {
+    "q": "Siapa pahlawan dari Sulawesi Selatan yang melawan Belanda?",
+    "a": "Sultan Hasanuddin adalah pahlawan dari Sulawesi Selatan yang terkenal melawan Belanda. Dia juga dikenal sebagai 'Ayam Jantan dari Timur'."
+  },
+  {
+    "q": "Apa penyebab utama terjadinya Perang Diponegoro?",
+    "a": "Perang Diponegoro disebabkan oleh ketidakpuasan Pangeran Diponegoro terhadap kebijakan Belanda yang mengintervensi agama dan melanggar hak-hak keturunan Jawa."
+  },
+  {
+    "q": "Berapa lama durasi Perang Diponegoro berlangsung?",
+    "a": "Perang Diponegoro berlangsung selama 5 tahun (1825-1830) dan menelan korban jiwa mencapai ribuan dari pihak sipil dan militer."
+  },
+  {
+    "q": "Siapa tokoh penting dalam Kebangkitan Nasional Indonesia?",
+    "a": "Tokoh penting dalam Kebangkitan Nasional antara lain Dr. Wahidin Sudirohusodo pendiri Budi Utomo, dan Serikat Islam yang didirikan oleh H.O.S. Tjokroaminoto."
+  },
+  {
+    "q": "Kapan Budi Utomo didirikan?",
+    "a": "Budi Utomo didirikan pada tanggal 20 Mei 1908 dengan tujuan memajukan pendidikan dan kesehatan rakyat Indonesia."
+  },
+  {
+    "q": "Siapa pendiri Indische Partij?",
+    "a": "Indische Partij didirikan oleh Ernest François Eugène Douwes Dekker (Danudirja) pada tahun 1912, merupakan partai tertua yang memperjuangkan kemerdekaan."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Agresi Militer Belanda?",
+    "a": "Agresi Militer Belanda adalah serangan militer yang dilakukan Belanda terhadap Indonesia pasca proklamasi kemerdekaan, terjadi pada tahun 1947 dan 1948."
+  },
+  {
+    "q": "Kapan Perjanjian Renville ditandatangani?",
+    "a": "Perjanjian Renville ditandatangani pada tanggal 17 Januari 1948 antara Indonesia dan Belanda, menghasilkan garis demarkasi yang merugikan Indonesia."
+  },
+  {
+    "q": "Siapa Presiden Indonesia pertama?",
+    "a": "Presiden Indonesia pertama adalah Ir. Soekarno yang menjabat dari tahun 1945 hingga 1967."
+  },
+  {
+    "q": "Siapa Wakil Presiden Indonesia yang pertama?",
+    "a": "Wakil Presiden Indonesia pertama adalah Mohammad Hatta yang mendampingi Presiden Soekarno."
+  },
+  {
+    "q": "Apa tujuan dari Undang-Undang Dasar 1945?",
+    "a": "UUD 1945 adalah konstitusi pertama Indonesia yang menjadi dasar hukum negara, menetapkan sistem pemerintahan presidensial dan berdasarkan Pancasila."
+  },
+  {
+    "q": "Siapa pendiri Kediri yang pertama?",
+    "a": "Kediri atau Kadiri didirikan oleh Rajapatni atau Gayatri pada tahun 1042, menjadi pusat kerajaan Hindu-Buddha yang penting di Jawa Timur."
+  },
+  {
+    "q": "Apa warisan budaya terpenting dari kerajaan Singhasari?",
+    "a": "Kerajaan Singhasari (1222-1292) meninggalkan warisan budaya berupa candi-candi megah seperti Candi Singhasari dan seni patung yang berkembang pesat."
+  },
+  {
+    "q": "Siapa pendiri Kesultanan Demak dan kapan didirikan?",
+    "a": "Kesultanan Demak didirikan oleh Raden Fatah pada tahun 1478. Ini merupakan kesultanan Islam pertama di Jawa yang menjadi pusat penyebaran Islam dan menandai awal era depredasi terhadap kerajaan Hindu-Buddha."
+  },
+  {
+    "q": "Apa pengaruh Kesultanan Mataram terhadap Indonesia?",
+    "a": "Kesultanan Mataram (1588-1755) di bawah Sultan Agung berhasil menyatukan hampir seluruh Jawa dan menjadi negara yang kuat. Warisan politiknya mempengaruhi struktur pemerintahan daerah Indonesia hingga saat ini."
+  },
+  {
+    "q": "Kapan dan di mana pertempuran Surabaya terjadi?",
+    "a": "Pertempuran Surabaya terjadi pada 10-29 November 1945 antara rakyat Indonesia dan tentara Inggris. Peristiwa heroik ini menunjukkan semangat perlawanan rakyat Indonesia dan menjadi momen penting dalam perjuangan kemerdekaan."
+  },
+  {
+    "q": "Apa isi Perjanjian Linggajati dan bagaimana dampaknya?",
+    "a": "Perjanjian Linggajati (25 Maret 1947) adalah kesepakatan antara Indonesia dan Belanda yang mengakui kemerdekaan Indonesia di Jawa dan Sumatera sementara. Dampaknya Indonesia harus mengakui Uni Indonesia-Belanda, yang dinilai merugikan kedaulatan Indonesia."
+  },
+  {
+    "q": "Kapan Belanda secara resmi mengakui kemerdekaan Indonesia?",
+    "a": "Belanda secara resmi mengakui kemerdekaan Indonesia pada Konferensi Meja Bundar (KMB) di Den Haag pada tanggal 27 Desember 1949. Pengakuan ini menyudahi perjuangan kemerdekaan fisik Indonesia setelah lebih dari 3 abad penjajahan Belanda."
+  },
+  {
+    "q": "Berapa lama Indonesia menjadi bagian dari Republik Indonesia Serikat (RIS)?",
+    "a": "Indonesia menjadi RIS dari 27 Desember 1949 hingga 17 Agustus 1950. RIS dibentuk atas desakan Belanda dan terdiri dari berbagai negara bagian. Sistem federasi ini segera ditinggalkan ketika Indonesia kembali menjadi negara kesatuan."
+  },
+  {
+    "q": "Mengapa Yogyakarta menjadi ibukota sementara Indonesia?",
+    "a": "Yogyakarta menjadi ibukota sementara Indonesia (1946-1950) karena Jakarta masih diduduki tentara Belanda. Yogyakarta juga menjadi pusat perlawanan kemerdekaan dan simbol nasionalisme Indonesia selama agresi militer Belanda."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Negara Pasundan dan kapan berdiri?",
+    "a": "Negara Pasundan adalah negara bagian RIS yang berdiri dari Agustus 1948 hingga Juli 1950, mencakup Jawa Barat kecuali Jakarta. Didirikan atas desakan Belanda sebagai bagian dari strategi diplomasi untuk memecah belah Indonesia, tapi akhirnya reintegrasi dengan Indonesia."
+  },
+  {
+    "q": "Apa Perjanjian Paris 1954 dan pengaruhnya terhadap Indonesia?",
+    "a": "Meskipun Indonesia tidak menandatangani, Perjanjian Paris 1954 tentang Indo-Cina mempengaruhi posisi Indonesia di kawasan. Indonesia kemudian memposisikan diri sebagai pemimpin dunia ketiga tanpa komitmen pada blok Barat atau Timur (Gerakan Non-Blok)."
+  },
+  {
+    "q": "Siapa saja pendiri Organisasi Asean dan apa visi awalnya?",
+    "a": "ASEAN didirikan pada 8 Agustus 1967 dengan Deklarasi Bangkok. Pendiri termasuk Indonesia (Soekarno), Thailand, Filipina, Malaysia, dan Singapura. Visinya adalah menciptakan kerjasama regional untuk stabilitas, pertumbuhan ekonomi, dan perdamaian di Asia Tenggara."
+  },
+  {
+    "q": "Apa peran Indonesia dalam Konferensi Non-Blok pertama?",
+    "a": "Indonesia di bawah Presiden Soekarno memimpin Konferensi Bandung (1955) yang melahirkan Gerakan Non-Blok. Konferensi ini menghasilkan Dasa Sila Bandung dan menjadikan Indonesia sebagai pemimpin dunia ketiga dalam melawan kolonialisme dan imperialisme."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Dwi Fungsi ABRI dan konsekuensinya?",
+    "a": "Dwi Fungsi ABRI adalah doktrin yang ditetapkan pada 1960-an bahwa militer memiliki dua fungsi: pertahanan dan sosial-politik. Ini memungkinkan militer mendominasi pemerintahan dan masyarakat sipil Indonesia selama puluhan tahun hingga reformasi 1998."
+  },
+  {
+    "q": "Apa isi Tritura dan bagaimana pengaruhnya terhadap pergantian kekuasaan?",
+    "a": "Tritura (Tiga Tuntutan Rakyat) adalah tuntutan mahasiswa pada 1966 yang meminta pembubaran PKI, pembersihan kabinet, dan perbaikan ekonomi. Tritura mendukung Soeharto untuk melemahkan Soekarno dan menjadi presiden, mengakhiri era Soekarno dan memulai Orde Baru."
+  },
+  {
+    "q": "Kapan masalah Irian Barat/Papua selesai dan bagaimana cara penyelesaiannya?",
+    "a": "Masalah Irian Barat selesai pada 1963 setelah Perjanjian New York (1962). Indonesia berhasil mengintegrasikan Papua melalui penyelesaian damai dengan mediasi PBB. Namun, status Papua tetap menjadi isu sensitif dalam hubungan Indonesia-Barat hingga sekarang."
+  },
+  {
+    "q": "Siapa tokoh-tokoh penting yang disingkirkan saat dimulainya Orde Baru?",
+    "a": "Tokoh-tokoh penting yang disingkirkan adalah Soekarno (lengser dari kekuasaan), Dipa Nusantara Aidit (sekjen PKI, dibunuh), dan berbagai tokoh kiri lainnya. Dihilangkannya tokoh-tokoh ini menandai perubahan drastis dalam ideologi dan orientasi Indonesia dari arah kiri ke arah pro-Barat."
+  },
+  {
+    "q": "Apa kebijakan Otonomi Daerah dan kapan diimplementasikan?",
+    "a": "Otonomi Daerah adalah kebijakan desentralisasi yang dimulai tahun 2001 melalui UU 22/1999 dan UU 25/1999. Kebijakan ini memberikan kekuasaan lebih besar kepada pemerintah daerah. Dampaknya termasuk peningkatan layanan lokal tetapi juga tantangan dalam koordinasi nasional dan korupsi daerah."
+  },
+  {
+    "q": "Apa yang terjadi dalam amandemen UUD 1945 (1999-2002) dan signifikansinya?",
+    "a": "Amandemen UUD 1945 (1999-2002) menghasilkan perubahan fundamental: pembatasan masa jabatan presiden, penciptaan Dewan Perwakilan Daerah, penguatan struktur checks and balances. Amandemen ini merupakan puncak reformasi demokratisasi Indonesia pasca-1998 dan membentuk sistem pemerintahan modern Indonesia."
+  },
+  {
+    "q": "Siapa Sultan Agung dan apa prestasi terbesarnya?",
+    "a": "Sultan Agung (1613-1645) adalah penguasa Mataram yang memperluas kekuasaan hingga mencakup hampir seluruh Jawa. Prestasi terbesarnya adalah menyatukan berbagai kerajaan Jawa di bawah satu komando pusat dan mengembangkan sistem administrasi yang terorganisir. Ekspansinya mengakhiri era kerajaan-kerajaan kecil yang saling bersaing di Jawa."
+  },
+  {
+    "q": "Apa dampak Pax Niederlandica terhadap pembentukan identitas nasional Indonesia?",
+    "a": "Pax Niederlandica (1900-1942), era stabilitas di bawah pemerintahan Belanda, paradoksnya menjadi wadah terbentuknya kesadaran nasional Indonesia. Pendidikan modern, transportasi terintegrasi, dan administrasi bersatu menghasilkan generasi intelektual Indonesia yang kemudian memimpin gerakan kemerdekaan. Perkembangan ini menunjukkan bahwa penjajahan, meski menindas, memainkan peran dalam pembentukan negara-bangsa modern."
+  },
+  {
+    "q": "Apa itu Kerajaan Tarumanagara dan siapa raja terkenalnya?",
+    "a": "Kerajaan Tarumanagara adalah kerajaan Hindu tertua di Jawa Barat yang berdiri sekitar abad ke-4 hingga ke-7 Masehi. Raja terkenalnya adalah Purnawarman yang meninggalkan banyak prasasti, termasuk Prasasti Ciaruteun yang memuat jejak kakinya."
+  },
+  {
+    "q": "Apa yang diketahui tentang Kerajaan Kalingga di Jawa Tengah?",
+    "a": "Kerajaan Kalingga (abad ke-6 hingga ke-7) adalah kerajaan Buddha di Jawa Tengah yang diperintah oleh Ratu Shima. Ratu Shima terkenal karena menegakkan hukum secara tegas dan adil sehingga kerajaan ini dikenal sangat aman."
+  },
+  {
+    "q": "Apa peran Kerajaan Mataram Kuno dalam sejarah Indonesia?",
+    "a": "Kerajaan Mataram Kuno (abad ke-8 hingga ke-10) berkuasa di Jawa Tengah dan meninggalkan warisan besar berupa Candi Prambanan dan Candi Borobudur. Kerajaan ini terdiri dari dua dinasti, yaitu Dinasti Sanjaya (Hindu) dan Dinasti Sailendra (Buddha)."
+  },
+  {
+    "q": "Siapa Hayam Wuruk dan mengapa ia penting bagi Majapahit?",
+    "a": "Hayam Wuruk (1350-1389) adalah raja Majapahit yang memerintah pada masa kejayaan kerajaan tersebut. Di bawah pemerintahannya bersama Mahapatih Gajah Mada, wilayah Majapahit meluas hingga mencakup hampir seluruh Nusantara."
+  },
+  {
+    "q": "Apa itu Kitab Negarakertagama dan siapa penulisnya?",
+    "a": "Kitab Negarakertagama adalah karya sastra yang ditulis oleh Mpu Prapanca pada tahun 1365. Kitab ini menggambarkan kejayaan Kerajaan Majapahit di bawah Hayam Wuruk dan menjadi sumber sejarah penting tentang wilayah kekuasaan Majapahit."
+  },
+  {
+    "q": "Apa isi Kitab Sutasoma dan siapa pengarangnya?",
+    "a": "Kitab Sutasoma adalah karya Mpu Tantular dari masa Majapahit yang berisi ajaran toleransi antarumat beragama. Frasa terkenal 'Bhinneka Tunggal Ika' yang menjadi semboyan Indonesia berasal dari kitab ini."
+  },
+  {
+    "q": "Apa peran Kerajaan Ternate dan Tidore dalam sejarah Nusantara?",
+    "a": "Kerajaan Ternate dan Tidore adalah dua kesultanan Islam di Maluku yang berkuasa pada abad ke-15 hingga ke-17. Keduanya menjadi pusat perdagangan rempah-rempah dunia dan sering bersaing memperebutkan pengaruh di wilayah Maluku."
+  },
+  {
+    "q": "Bagaimana sejarah Kesultanan Aceh Darussalam?",
+    "a": "Kesultanan Aceh Darussalam berdiri pada awal abad ke-16 dan mencapai puncak kejayaan di bawah Sultan Iskandar Muda (1607-1636). Kesultanan ini merupakan pusat perdagangan dan penyebaran Islam di Asia Tenggara serta terkenal karena perlawanan sengit terhadap penjajah Belanda."
+  },
+  {
+    "q": "Apa itu Perang Padri dan kapan berlangsung?",
+    "a": "Perang Padri (1803-1837) adalah konflik di Sumatera Barat antara kaum Padri yang ingin memurnikan Islam dengan kaum Adat. Belanda ikut campur mendukung kaum Adat, sehingga perang ini berubah menjadi perlawanan terhadap kolonialisme Belanda yang dipimpin oleh Tuanku Imam Bonjol."
+  },
+  {
+    "q": "Siapa Tuanku Imam Bonjol dan apa perannya dalam sejarah?",
+    "a": "Tuanku Imam Bonjol adalah pemimpin kaum Padri dalam Perang Padri di Sumatera Barat. Ia memimpin perlawanan terhadap Belanda selama bertahun-tahun hingga ditangkap pada tahun 1837 dan diasingkan ke Manado. Ia ditetapkan sebagai Pahlawan Nasional Indonesia."
+  },
+  {
+    "q": "Apa itu Perang Banjar dan apa penyebabnya?",
+    "a": "Perang Banjar (1859-1905) adalah perang antara Kesultanan Banjar di Kalimantan Selatan melawan Belanda. Penyebabnya adalah campur tangan Belanda dalam urusan suksesi tahta kerajaan dan eksploitasi sumber daya alam wilayah Banjar."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Perang Puputan di Bali?",
+    "a": "Perang Puputan adalah perang habis-habisan rakyat Bali melawan Belanda pada tahun 1906 dan 1908. Raja dan rakyat Bali memilih bertempur sampai mati daripada menyerah kepada Belanda, menunjukkan semangat juang yang luar biasa."
+  },
+  {
+    "q": "Apa itu sistem Tanam Paksa dan siapa yang menerapkannya?",
+    "a": "Sistem Tanam Paksa (Cultuurstelsel) diterapkan oleh Gubernur Jenderal Johannes van den Bosch pada tahun 1830. Rakyat dipaksa menanam tanaman ekspor seperti kopi, tebu, dan nila di seperlima lahan mereka untuk diserahkan kepada pemerintah kolonial."
+  },
+  {
+    "q": "Apa dampak sistem Tanam Paksa terhadap rakyat Indonesia?",
+    "a": "Sistem Tanam Paksa menyebabkan penderitaan luar biasa bagi rakyat Indonesia berupa kelaparan, kemiskinan, dan kematian massal. Di sisi lain, sistem ini menghasilkan keuntungan besar bagi Belanda yang dikenal sebagai 'Batig Slot'."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Politik Etis dan kapan diterapkan?",
+    "a": "Politik Etis adalah kebijakan pemerintah kolonial Belanda yang diterapkan sejak 1901 atas gagasan Van Deventer. Kebijakan ini memiliki tiga program utama: irigasi (pengairan), edukasi (pendidikan), dan emigrasi (perpindahan penduduk)."
+  },
+  {
+    "q": "Siapa R.A. Kartini dan apa perjuangannya?",
+    "a": "Raden Ajeng Kartini (1879-1904) adalah pahlawan emansipasi wanita Indonesia dari Jepara, Jawa Tengah. Melalui surat-suratnya yang dikumpulkan dalam buku 'Habis Gelap Terbitlah Terang', ia memperjuangkan kesetaraan pendidikan dan hak-hak perempuan."
+  },
+  {
+    "q": "Kapan dan bagaimana Taman Siswa didirikan?",
+    "a": "Taman Siswa didirikan oleh Ki Hajar Dewantara pada tanggal 3 Juli 1922 di Yogyakarta. Lembaga pendidikan ini bertujuan memberikan pendidikan bagi rakyat Indonesia dengan semboyan 'Ing Ngarsa Sung Tulada, Ing Madya Mangun Karsa, Tut Wuri Handayani'."
+  },
+  {
+    "q": "Apa itu BPUPKI dan apa perannya?",
+    "a": "BPUPKI (Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan Indonesia) dibentuk pada 1 Maret 1945 oleh Jepang. Badan ini bertugas mempersiapkan kemerdekaan Indonesia, termasuk merumuskan dasar negara Pancasila dan rancangan UUD 1945."
+  },
+  {
+    "q": "Apa itu PPKI dan siapa ketuanya?",
+    "a": "PPKI (Panitia Persiapan Kemerdekaan Indonesia) dibentuk pada 7 Agustus 1945 dengan ketua Ir. Soekarno dan wakil ketua Mohammad Hatta. PPKI bertugas mempersiapkan segala sesuatu yang diperlukan untuk berdirinya negara Indonesia merdeka."
+  },
+  {
+    "q": "Apa itu Piagam Jakarta dan mengapa kontroversial?",
+    "a": "Piagam Jakarta (Jakarta Charter) disusun pada 22 Juni 1945 sebagai rancangan pembukaan UUD. Kontroversinya terletak pada frasa 'dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' yang akhirnya dihapus demi persatuan bangsa pada 18 Agustus 1945."
+  },
+  {
+    "q": "Apa yang terjadi dalam peristiwa Rengasdengklok?",
+    "a": "Peristiwa Rengasdengklok terjadi pada 16 Agustus 1945 ketika para pemuda menculik Soekarno dan Hatta ke Rengasdengklok, Karawang. Tujuannya adalah mendesak kedua tokoh tersebut agar segera memproklamasikan kemerdekaan Indonesia tanpa menunggu izin Jepang."
+  },
+  {
+    "q": "Bagaimana teks proklamasi kemerdekaan Indonesia disusun?",
+    "a": "Teks proklamasi disusun pada malam 16 Agustus 1945 di rumah Laksamana Maeda, Jakarta. Soekarno, Hatta, dan Ahmad Soebardjo merumuskan teksnya, lalu Sayuti Melik mengetiknya. Proklamasi dibacakan keesokan harinya, 17 Agustus 1945, di Jalan Pegangsaan Timur 56."
+  },
+  {
+    "q": "Apa yang terjadi dalam Pertempuran Ambarawa?",
+    "a": "Pertempuran Ambarawa terjadi pada 20 November - 15 Desember 1945 di Ambarawa, Jawa Tengah. Pasukan Indonesia di bawah pimpinan Kolonel Soedirman berhasil mengusir tentara Sekutu. Kemenangan ini diperingati sebagai Hari Infanteri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan peristiwa Bandung Lautan Api?",
+    "a": "Bandung Lautan Api terjadi pada 23 Maret 1946 ketika para pejuang Indonesia membakar kota Bandung bagian selatan. Pembakaran ini dilakukan agar kota tidak jatuh ke tangan Sekutu dan Belanda, sesuai strategi bumi hangus."
+  },
+  {
+    "q": "Apa peristiwa yang terjadi di Hotel Yamato Surabaya?",
+    "a": "Pada 19 September 1945, sekelompok orang Belanda mengibarkan bendera Merah-Putih-Biru di Hotel Yamato (sekarang Hotel Majapahit) Surabaya. Pemuda Indonesia merobek bagian biru bendera tersebut sehingga menjadi Merah-Putih, memicu semangat perjuangan di Surabaya."
+  },
+  {
+    "q": "Siapa Jenderal Soedirman dan apa perannya?",
+    "a": "Jenderal Soedirman (1916-1950) adalah Panglima Besar TNI pertama. Meskipun sakit tuberkulosis, ia memimpin perang gerilya melawan Belanda pada masa Agresi Militer Belanda II. Keberaniannya menjadi simbol semangat pantang menyerah pejuang Indonesia."
+  },
+  {
+    "q": "Apa yang terjadi dalam Serangan Umum 1 Maret 1949?",
+    "a": "Serangan Umum 1 Maret 1949 adalah serangan besar-besaran terhadap kota Yogyakarta yang diduduki Belanda, dipimpin oleh Letkol Soeharto. Serangan ini bertujuan membuktikan kepada dunia internasional bahwa TNI dan pemerintah RI masih eksis."
+  },
+  {
+    "q": "Siapa Fatahillah dan apa kontribusinya?",
+    "a": "Fatahillah adalah panglima perang dari Kesultanan Demak yang berhasil merebut Sunda Kelapa dari Portugis pada 22 Juni 1527. Ia kemudian mengganti nama Sunda Kelapa menjadi Jayakarta, yang menjadi cikal bakal kota Jakarta."
+  },
+  {
+    "q": "Siapa Jan Pieterszoon Coen dan apa perannya dalam sejarah Indonesia?",
+    "a": "Jan Pieterszoon Coen adalah Gubernur Jenderal VOC yang mendirikan Batavia (sekarang Jakarta) pada tahun 1619. Ia dikenal kejam karena melakukan pembantaian di Banda untuk menguasai perdagangan pala dan membangun monopoli rempah-rempah VOC."
+  },
+  {
+    "q": "Siapa Herman Willem Daendels dan apa kebijakan utamanya?",
+    "a": "Herman Willem Daendels adalah Gubernur Jenderal Hindia Belanda (1808-1811) yang ditugaskan mempertahankan Jawa dari Inggris. Kebijakan utamanya adalah pembangunan Jalan Raya Pos (Anyer-Panarukan) sepanjang sekitar 1.000 km dengan kerja paksa yang menelan banyak korban jiwa."
+  },
+  {
+    "q": "Apa peran Thomas Stamford Raffles saat berkuasa di Jawa?",
+    "a": "Thomas Stamford Raffles memerintah Jawa dari 1811-1816 selama pendudukan Inggris. Ia memperkenalkan sistem sewa tanah (landrente), menemukan kembali Candi Borobudur, dan menulis buku 'The History of Java' yang menjadi referensi penting tentang sejarah Jawa."
+  },
+  {
+    "q": "Apa itu sistem Romusha pada masa pendudukan Jepang?",
+    "a": "Romusha adalah sistem kerja paksa yang diterapkan Jepang selama pendudukan Indonesia (1942-1945). Ratusan ribu rakyat Indonesia dipaksa bekerja membangun infrastruktur militer Jepang seperti jalan, rel kereta, dan benteng pertahanan dengan kondisi sangat menyengsarakan."
+  },
+  {
+    "q": "Apa itu PETA dan apa perannya dalam kemerdekaan Indonesia?",
+    "a": "PETA (Pembela Tanah Air) adalah tentara sukarela bentukan Jepang pada Oktober 1943. Meskipun dibentuk untuk kepentingan Jepang, PETA justru menjadi cikal bakal tentara nasional Indonesia dan banyak anggotanya menjadi pejuang kemerdekaan."
+  },
+  {
+    "q": "Siapa Kapitan Pattimura dan apa perjuangannya?",
+    "a": "Kapitan Pattimura (Thomas Matulessy) adalah pahlawan nasional dari Maluku yang memimpin pemberontakan melawan Belanda pada tahun 1817. Ia berhasil merebut Benteng Duurstede di Saparua sebelum akhirnya tertangkap dan dihukum mati oleh Belanda."
+  },
+  {
+    "q": "Siapa Pangeran Antasari dan apa perjuangannya?",
+    "a": "Pangeran Antasari adalah pahlawan nasional dari Kalimantan Selatan yang memimpin Perang Banjar melawan Belanda sejak 1859. Ia berjuang mempertahankan kedaulatan Kesultanan Banjar dan menjadi simbol perlawanan rakyat Kalimantan terhadap penjajahan."
+  },
+  {
+    "q": "Siapa Sisingamangaraja XII dan bagaimana perjuangannya?",
+    "a": "Sisingamangaraja XII adalah raja Batak yang memimpin perlawanan terhadap Belanda di Sumatera Utara selama hampir 30 tahun (1878-1907). Ia gugur dalam pertempuran di Dairi dan ditetapkan sebagai Pahlawan Nasional Indonesia."
+  },
+  {
+    "q": "Apa sejarah Kerajaan Gowa-Tallo di Sulawesi Selatan?",
+    "a": "Kerajaan Gowa-Tallo adalah kerajaan kembar di Sulawesi Selatan yang mencapai puncak kejayaan pada abad ke-17 di bawah Sultan Hasanuddin. Kerajaan ini menguasai perdagangan maritim di Indonesia timur sebelum akhirnya dikalahkan Belanda melalui Perjanjian Bongaya 1667."
+  },
+  {
+    "q": "Apa isi Perjanjian Bongaya 1667?",
+    "a": "Perjanjian Bongaya ditandatangani pada 18 November 1667 antara Kerajaan Gowa dan VOC. Isinya sangat merugikan Gowa, termasuk kewajiban menyerahkan monopoli perdagangan kepada VOC dan mengusir pedagang asing lainnya dari Makassar."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Konfrontasi Indonesia-Malaysia?",
+    "a": "Konfrontasi (1963-1966) adalah kebijakan penentangan Presiden Soekarno terhadap pembentukan Federasi Malaysia. Indonesia menganggap Malaysia sebagai proyek neokolonialisme Inggris. Konfrontasi berakhir setelah Soeharto berkuasa dan menormalisasi hubungan Indonesia-Malaysia."
+  },
+  {
+    "q": "Apa itu Operasi Trikora?",
+    "a": "Operasi Trikora (Tri Komando Rakyat) adalah operasi militer Indonesia pada 1961-1962 untuk merebut Irian Barat dari Belanda. Tiga komando tersebut dicetuskan oleh Presiden Soekarno yaitu gagalkan pembentukan negara Papua, kibarkan Merah Putih di Irian Barat, dan bersiaplah untuk mobilisasi umum."
+  },
+  {
+    "q": "Apa itu pemberontakan PRRI/Permesta?",
+    "a": "PRRI (Pemerintahan Revolusioner Republik Indonesia) dan Permesta (Piagam Perjuangan Semesta) adalah pemberontakan daerah pada tahun 1958 di Sumatera Barat dan Sulawesi Utara. Pemberontakan ini dipicu oleh ketidakpuasan terhadap kebijakan pusat dan berhasil ditumpas oleh TNI."
+  },
+  {
+    "q": "Apa isi Dekrit Presiden 5 Juli 1959?",
+    "a": "Dekrit Presiden 5 Juli 1959 berisi pembubaran Konstituante, berlakunya kembali UUD 1945, dan pembentukan MPRS serta DPAS. Dekrit ini mengakhiri masa Demokrasi Liberal dan memulai era Demokrasi Terpimpin di bawah Presiden Soekarno."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Demokrasi Terpimpin?",
+    "a": "Demokrasi Terpimpin (1959-1965) adalah sistem pemerintahan di mana kekuasaan terpusat pada Presiden Soekarno. Pada masa ini, Soekarno menerapkan konsep Nasakom (Nasionalisme, Agama, Komunisme) dan menjalankan politik luar negeri yang konfrontatif."
+  },
+  {
+    "q": "Apa itu Supersemar dan apa dampaknya?",
+    "a": "Supersemar (Surat Perintah Sebelas Maret) dikeluarkan pada 11 Maret 1966 oleh Presiden Soekarno kepada Letjen Soeharto. Surat ini memberikan wewenang kepada Soeharto untuk mengambil tindakan menjaga keamanan dan ketertiban negara, yang kemudian digunakan untuk mengambil alih kekuasaan secara bertahap."
+  },
+  {
+    "q": "Apa itu Pelita pada masa Orde Baru?",
+    "a": "Pelita (Pembangunan Lima Tahun) adalah program pembangunan jangka panjang pada masa Orde Baru yang dimulai tahun 1969. Pelita I-VI berfokus pada pembangunan infrastruktur, pertanian, industri, dan sumber daya manusia. Program Swasembada Beras berhasil dicapai pada Pelita III tahun 1984."
+  },
+  {
+    "q": "Apa penyebab krisis ekonomi 1997-1998 di Indonesia?",
+    "a": "Krisis ekonomi 1997-1998 dipicu oleh krisis finansial Asia yang menyebabkan nilai tukar rupiah jatuh drastis. Penyebab internalnya meliputi utang luar negeri yang besar, korupsi, kolusi, nepotisme (KKN), dan lemahnya sistem perbankan. Krisis ini akhirnya memicu gerakan reformasi."
+  },
+  {
+    "q": "Apa peristiwa Tragedi Trisakti dan dampaknya?",
+    "a": "Tragedi Trisakti terjadi pada 12 Mei 1998 ketika empat mahasiswa Universitas Trisakti ditembak saat demonstrasi menuntut reformasi. Peristiwa ini memicu kerusuhan Mei 1998 dan mempercepat mundurnya Presiden Soeharto pada 21 Mei 1998."
+  },
+  {
+    "q": "Apa itu Candi Prambanan dan kapan dibangun?",
+    "a": "Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia yang terletak di perbatasan Jawa Tengah dan Yogyakarta. Dibangun pada abad ke-9 pada masa Dinasti Sanjaya, candi ini didedikasikan untuk Trimurti: Brahma, Wisnu, dan Siwa."
+  },
+  {
+    "q": "Apa itu Prasasti Yupa dan dari kerajaan mana?",
+    "a": "Prasasti Yupa adalah tujuh buah prasasti batu berbentuk tiang yang ditemukan di Kutai, Kalimantan Timur. Prasasti ini berasal dari Kerajaan Kutai pada abad ke-4 Masehi dan merupakan prasasti tertua di Indonesia, berisi tentang Raja Mulawarman."
+  },
+  {
+    "q": "Apa peran Serikat Islam dalam pergerakan nasional?",
+    "a": "Serikat Islam (SI) didirikan pada 1911 oleh H. Samanhudi dan kemudian dipimpin H.O.S. Tjokroaminoto. SI adalah organisasi massa pertama di Indonesia yang memiliki anggota ratusan ribu dan berperan penting dalam membangkitkan kesadaran politik rakyat Indonesia."
+  },
+  {
+    "q": "Apa peran Perhimpunan Indonesia dalam gerakan kemerdekaan?",
+    "a": "Perhimpunan Indonesia (PI) adalah organisasi mahasiswa Indonesia di Belanda yang berdiri sejak 1908. PI berperan penting dalam memperjuangkan kemerdekaan Indonesia di forum internasional dan melahirkan tokoh-tokoh seperti Mohammad Hatta dan Sutan Sjahrir."
+  },
+  {
+    "q": "Apa isi Dasa Sila Bandung yang dihasilkan Konferensi Asia Afrika?",
+    "a": "Dasa Sila Bandung berisi sepuluh prinsip perdamaian dunia, antara lain penghormatan terhadap hak asasi manusia, kedaulatan negara, kesetaraan ras dan bangsa, penyelesaian konflik secara damai, dan kerja sama internasional. Prinsip ini menjadi dasar Gerakan Non-Blok."
+  },
+  {
+    "q": "Siapa Tan Malaka dan apa perannya dalam sejarah Indonesia?",
+    "a": "Tan Malaka (1897-1949) adalah tokoh revolusioner dan pemikir politik Indonesia yang dikenal dengan konsep 'Madilog' (Materialisme, Dialektika, Logika). Ia memperjuangkan kemerdekaan Indonesia secara penuh tanpa kompromi dengan Belanda dan ditetapkan sebagai Pahlawan Nasional."
+  },
+  {
+    "q": "Apa yang terjadi dalam peristiwa Madiun 1948?",
+    "a": "Peristiwa Madiun terjadi pada September 1948 ketika PKI di bawah Musso melakukan pemberontakan terhadap pemerintah RI di Madiun, Jawa Timur. Pemberontakan ini berhasil ditumpas oleh TNI di bawah komando Kolonel Gatot Soebroto dan Musso tewas dalam operasi penumpasan."
+  },
+  {
+    "q": "Bagaimana proses terbentuknya Pancasila sebagai dasar negara?",
+    "a": "Pancasila dirumuskan melalui sidang BPUPKI pada 1 Juni 1945 ketika Soekarno menyampaikan pidato tentang dasar negara. Lima sila tersebut kemudian disempurnakan oleh Panitia Sembilan dan disahkan pada 18 Agustus 1945 oleh PPKI sebagai dasar negara Republik Indonesia."
+  },
+  {
+    "q": "Siapa presiden pertama Indonesia yang dipilih melalui pemilihan langsung?",
+    "a": "Presiden Susilo Bambang Yudhoyono (SBY) adalah presiden pertama Indonesia yang dipilih melalui pemilihan presiden langsung pada 5 Juli 2004. Pemilihan presiden langsung ini merupakan bagian dari reformasi demokratisasi Indonesia pasca-1998."
+  },
+  {
+    "q": "Kapan KPK (Komisi Pemberantasan Korupsi) didirikan dan apa fungsinya?",
+    "a": "KPK didirikan pada 16 Desember 2002 berdasarkan UU No. 30 Tahun 2002. Lembaga independen ini bertugas menyelidiki, menuntut, dan mengadili tindak pidana korupsi. KPK telah menangkap dan mengadili ribuan koruptor termasuk para pejabat tinggi dan pengusaha besar."
+  },
+  {
+    "q": "Apa itu Pemilu 2009 dan signifikansinya dalam demokrasi Indonesia?",
+    "a": "Pemilu 2009 adalah pemilihan umum legislatif dan presiden yang diikuti oleh puluhan partai politik. Pemilu ini menandai sistem baru dengan waktu pemilihan presiden dan legislatif yang dipisah. Hasilnya adalah Susilo Bambang Yudhoyono terpilih kembali sebagai presiden untuk periode kedua."
+  },
+  {
+    "q": "Kapan pertama kali Indonesia mengadakan Pemilu Serentak dan apa dampaknya?",
+    "a": "Pemilu Serentak pertama kali dilaksanakan pada 9 April 2014. Pada pemilu ini, pemilihan DPR, DPD, DPRD, dan Presiden dilakukan pada hari yang sama untuk pertama kalinya, bertujuan menghemat biaya dan meningkatkan partisipasi pemilih. Hasilnya Joko Widodo terpilih menjadi presiden."
+  },
+  {
+    "q": "Siapa Joko Widodo (Jokowi) dan apa program unggulannya sebagai presiden?",
+    "a": "Joko Widodo adalah presiden Indonesia ke-7 yang menjabat 2014-2024. Program unggulannya meliputi pembangunan infrastruktur besar-besaran (Jembatan Suramadu, MRT Jakarta, kereta cepat Jakarta-Bandung), program 1 Juta Rumah, dan pendidikan gratis. Jokowi dipilih kembali pada 2019 dengan wakil presiden Ma'ruf Amin."
+  },
+  {
+    "q": "Apa itu rencana perpindahan Ibu Kota Negara ke Nusantara?",
+    "a": "Pada 2022, Presiden Jokowi mengumumkan rencana perpindahan ibu kota dari Jakarta ke Nusantara di Kalimantan Timur. Perpindahan ini dimulai pada tahun 2024 dengan pembangunan infrastruktur baru. Tujuannya adalah mengurangi beban Jakarta yang sudah terlalu padat dan mengembangkan kawasan timur Indonesia."
+  },
+  {
+    "q": "Bagaimana dampak Pandemi COVID-19 terhadap Indonesia?",
+    "a": "Pandemi COVID-19 melanda Indonesia sejak Maret 2020, menyebabkan lebih dari 600 ribu kematian dan jutaan kasus positif. Pemerintah menerapkan Pembatasan Sosial Berskala Besar (PSBB), menutup sekolah dan bisnis. Vaksinasi dimulai akhir 2020. Pandemi memberikan dampak besar pada ekonomi, pendidikan, dan kesehatan masyarakat Indonesia."
+  },
+  {
+    "q": "Apa itu Tragedi Kanjuruhan 2022 dan apa penyebabnya?",
+    "a": "Tragedi Kanjuruhan terjadi pada 1 Oktober 2022 di Stadion Kanjuruhan Malang saat pertandingan sepak bola. Kerusuhan terjadi setelah pertandingan berakhir, menyebabkan 135 orang tewas dan ratusan luka-luka. Penyebabnya adalah penanganan keamanan yang buruk saat penonton keluar stadium. Tragedi ini mengingatkan pentingnya manajemen keamanan yang baik dalam acara massal."
+  },
+  {
+    "q": "Siapa presiden Indonesia kelima dan program utamanya?",
+    "a": "Presiden Megawati Soekarnoputri adalah presiden Indonesia ke-5 yang menjabat 2001-2004. Program utamanya meliputi perbaikan ekonomi pasca-krisis 1998, pembentukan Mahkamah Konstitusi, revisi UUD 1945, dan otonomi daerah. Megawati adalah wanita pertama yang menjabat sebagai presiden di Indonesia dan Asia Tenggara."
+  },
+  {
+    "q": "Bagaimana latar belakang dan dampak pemilihan Prabowo Subianto sebagai presiden 2024?",
+    "a": "Prabowo Subianto terpilih menjadi presiden Indonesia ke-8 pada pemilihan 14 Februari 2024 dengan menjanjikan perbaikan ekonomi dan kesejahteraan rakyat. Dampak pemilihannya termasuk fokus pada pertahanan maritim, industri dalam negeri, dan rencana revisi infrastruktur. Prabowo sebagai mantan jenderal militer membawa perspektif militer ke dalam kebijakan pemerintahan."
+  }
+]

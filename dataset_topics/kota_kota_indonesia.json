@@ -1,0 +1,482 @@
+[
+  {
+    "q": "Apa itu Jakarta?",
+    "a": "Jakarta adalah ibu kota Indonesia dan kota terbesar di Indonesia, terletak di pulau Jawa."
+  },
+  {
+    "q": "Jakarta itu apa?",
+    "a": "Jakarta adalah ibu kota negara Indonesia, pusat pemerintahan dan ekonomi nasional."
+  },
+  {
+    "q": "Apa itu Surabaya?",
+    "a": "Surabaya adalah kota terbesar kedua di Indonesia, ibu kota Jawa Timur, dijuluki Kota Pahlawan."
+  },
+  {
+    "q": "Apa itu Bandung?",
+    "a": "Bandung adalah ibu kota Jawa Barat, terkenal dengan wisata alam dan kulinernya."
+  },
+  {
+    "q": "Apa itu Medan?",
+    "a": "Medan adalah kota terbesar di Sumatera, ibu kota Sumatera Utara."
+  },
+  {
+    "q": "Apa itu Semarang?",
+    "a": "Semarang adalah ibu kota Jawa Tengah, terkenal dengan Lawang Sewu dan lumpia."
+  },
+  {
+    "q": "Apa itu Yogyakarta?",
+    "a": "Yogyakarta adalah daerah istimewa di Indonesia, terkenal dengan budaya Jawa, Candi Borobudur, dan pendidikan."
+  },
+  {
+    "q": "Apa itu Bali?",
+    "a": "Bali adalah provinsi di Indonesia yang terkenal sebagai pulau wisata dengan keindahan alam dan budayanya."
+  },
+  {
+    "q": "Apa itu Makassar?",
+    "a": "Makassar adalah kota terbesar di Indonesia Timur, ibu kota Sulawesi Selatan."
+  },
+  {
+    "q": "Apa itu Palembang?",
+    "a": "Palembang adalah ibu kota Sumatera Selatan, terkenal dengan Jembatan Ampera dan pempek."
+  },
+  {
+    "q": "Apa itu Denpasar?",
+    "a": "Denpasar adalah ibu kota provinsi Bali, pusat kegiatan bisnis dan pemerintahan di Bali."
+  },
+  {
+    "q": "Apa itu Malang?",
+    "a": "Malang adalah kota di Jawa Timur yang terkenal dengan udara sejuk dan apelnya."
+  },
+  {
+    "q": "Apa itu Bogor?",
+    "a": "Bogor adalah kota di Jawa Barat yang terkenal dengan Kebun Raya Bogor dan hujannya."
+  },
+  {
+    "q": "Apa itu Tangerang?",
+    "a": "Tangerang adalah kota di Banten yang berbatasan dengan Jakarta, bagian dari Jabodetabek."
+  },
+  {
+    "q": "Apa itu Depok?",
+    "a": "Depok adalah kota di Jawa Barat yang berbatasan dengan Jakarta, terkenal dengan Universitas Indonesia."
+  },
+  {
+    "q": "Apa itu Balikpapan?",
+    "a": "Balikpapan adalah kota di Kalimantan Timur yang dikenal sebagai pusat industri minyak dan gas alam."
+  },
+  {
+    "q": "Apa itu Manado?",
+    "a": "Manado adalah ibu kota Sulawesi Utara, terkenal dengan wisata laut Bunaken dan kekayaan biota lautnya."
+  },
+  {
+    "q": "Apa itu Pontianak?",
+    "a": "Pontianak adalah ibu kota Kalimantan Barat yang terletak di garis khatulistiwa, dikenal sebagai Kota Dua Iklim."
+  },
+  {
+    "q": "Apa itu Padang?",
+    "a": "Padang adalah ibu kota Sumatera Barat, pusat kuliner Indonesia dengan masakan rendang yang terkenal."
+  },
+  {
+    "q": "Apa itu Samarinda?",
+    "a": "Samarinda adalah ibu kota Kalimantan Timur yang dilintasi Sungai Mahakam dan menjadi pusat perdagangan kayu."
+  },
+  {
+    "q": "Mengapa Surabaya dijuluki Kota Pahlawan?",
+    "a": "Surabaya dijuluki Kota Pahlawan karena peran heroiknya dalam Pertempuran Surabaya pada 10 November 1945, saat melawan penjajah Belanda dengan gigih."
+  },
+  {
+    "q": "Apa yang terkenal di Bandung selain alam?",
+    "a": "Di Bandung terkenal industri tekstil, pendidikan teknologi (ITB), wisata kuliner sunda, dan suasana sejuk pegunungan yang membuatnya populer sebagai kota wisata akhir pekan dari Jakarta."
+  },
+  {
+    "q": "Apa keunikan Yogyakarta sebagai daerah istimewa?",
+    "a": "Yogyakarta memiliki keunikan sebagai daerah istimewa dengan otonomi khusus, dipimpin oleh Sultan, serta menjadi pusat pelestarian budaya dan seni Jawa."
+  },
+  {
+    "q": "Apa yang membuat Bogor terkenal dengan hujan?",
+    "a": "Bogor terkenal dengan intensitas hujan yang tinggi karena letak geografisnya di pegunungan Jawa Barat yang menghadap Laut Jawa, menciptakan pola cuaca dengan curah hujan sepanjang tahun."
+  },
+  {
+    "q": "Siapa yang memimpin Daerah Istimewa Yogyakarta?",
+    "a": "Daerah Istimewa Yogyakarta dipimpin oleh seorang Sultan yang sekaligus menjadi Gubernur, merupakan pemimpin tradisional dan administratif dalam satu posisi."
+  },
+  {
+    "q": "Apa ibukota Provinsi Riau?",
+    "a": "Ibukota Provinsi Riau adalah Pekanbaru, kota yang menjadi pusat perdagangan dan industri minyak di Sumatera Tengah."
+  },
+  {
+    "q": "Apa ibukota Provinsi Lampung?",
+    "a": "Ibukota Provinsi Lampung adalah Bandar Lampung, terletak di ujung selatan Sumatera dan menjadi gerbang menuju Pulau Jawa."
+  },
+  {
+    "q": "Apa ibukota Provinsi Jambi?",
+    "a": "Ibukota Provinsi Jambi adalah Kota Jambi, terletak di Sungai Batang Hari dan merupakan pusat perdagangan hasil bumi."
+  },
+  {
+    "q": "Apa ibukota Provinsi Sulawesi Tengah?",
+    "a": "Ibukota Provinsi Sulawesi Tengah adalah Palu, terkenal dengan pantai dan potensi wisata bahari yang besar."
+  },
+  {
+    "q": "Apa ibukota Provinsi Papua?",
+    "a": "Ibukota Provinsi Papua adalah Jayapura, terletak di bagian timur Indonesia dan menjadi gerbang menuju Asia Pasifik."
+  },
+  {
+    "q": "Apa keunikan geografis Kota Jakarta?",
+    "a": "Jakarta memiliki letak geografis strategis di teluk Jakarta dengan empat sungai besar, namun juga menghadapi tantangan banjir dan penurunan muka tanah karena penimbunan."
+  },
+  {
+    "q": "Sungai apa yang melintasi Palembang?",
+    "a": "Sungai Musi melintasi Palembang dan menjadi simbol identitas kota, dihubungkan oleh Jembatan Ampera yang ikonik."
+  },
+  {
+    "q": "Apa yang membedakan Bali dari provinsi Indonesia lainnya?",
+    "a": "Bali berbeda karena mayoritas penduduknya menganut agama Hindu, memiliki budaya Bali yang unik, serta menjadi destinasi wisata dunia dengan keindahan alam dan tradisi yang kuat."
+  },
+  {
+    "q": "Mengapa Malang terkenal dengan apel?",
+    "a": "Malang terkenal dengan apel karena ketinggian dan iklim sejuknya cocok untuk perkebunan apel, serta menjadi penghasil apel terbesar di Indonesia."
+  },
+  {
+    "q": "Apa landmark terkenal di Semarang?",
+    "a": "Semarang terkenal dengan Lawang Sewu (Pintu Seribu), sebuah bangunan bersejarah peninggalan Hindia Belanda yang kini menjadi pusat kebudayaan dan wisata."
+  },
+  {
+    "q": "Kota mana yang dikenal sebagai Kota Lumpia?",
+    "a": "Semarang dikenal sebagai Kota Lumpia karena lumpia semarang adalah makanan khas yang terkenal, menjadi ciri khas kuliner kota ini."
+  },
+  {
+    "q": "Apa sejarah pembentukan Kota Jakarta?",
+    "a": "Jakarta berawal dari Batavia, kota bentukan Belanda pada 1619 yang menjadi pusat Hindia Belanda. Setelah kemerdekaan, nama berubah menjadi Jakarta pada 1794 dan menjadi ibu kota Indonesia sejak 1945."
+  },
+  {
+    "q": "Mengapa Tangerang dikenal sebagai bagian Jabodetabek?",
+    "a": "Tangerang dikenal sebagai bagian Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi) karena menjadi bagian integral aglomerasi urban Jakarta dengan konektivitas tinggi dan pertumbuhan ekonomi yang pesat."
+  },
+  {
+    "q": "Apa ciri khas kuliner Padang?",
+    "a": "Ciri khas kuliner Padang adalah rendang, masakan dengan santan dan rempah yang kaya, serta hidangan pake yang disajikan dengan berbagai lauk pauk tradisional."
+  },
+  {
+    "q": "Kota mana yang dilalui garis khatulistiwa?",
+    "a": "Pontianak adalah kota yang dilalui garis khatulistiwa, menjadikannya tempat yang unik karena berada di persimpangan antara belahan bumi utara dan selatan."
+  },
+  {
+    "q": "Apa peran ekonomi penting Medan?",
+    "a": "Medan berperan sebagai pusat perdagangan dan industri di Sumatera Utara, dengan pelabuhan Belawan yang menjadi terminal kapal laut dan pusat ekspor hasil pertanian."
+  },
+  {
+    "q": "Apa landmark bersejarah di Makassar?",
+    "a": "Fort Rotterdam adalah landmark bersejarah di Makassar, benteng peninggalan Belanda yang kini menjadi museum penting menampilkan sejarah perdagangan rempah dan kolonialisme."
+  },
+  {
+    "q": "Mengapa Cirebon dikenal dalam seni dan budaya?",
+    "a": "Cirebon dikenal sebagai pusat seni batik dan gerabah tradisional, dengan warisan budaya Jawa dan Sunda yang kuat, serta memiliki Istana Kesepuhan sebagai simbol ketradisionalan."
+  },
+  {
+    "q": "Apa singkatan Jabodetabek dan kota mana saja yang termasuk?",
+    "a": "Jabodetabek adalah singkatan dari Jakarta, Bogor, Depok, Tangerang, dan Bekasi, yang membentuk megapolitan dengan integrasi ekonomi dan transportasi yang kuat."
+  },
+  {
+    "q": "Apa keunikan ekonomi Batam?",
+    "a": "Batam adalah zona perdagangan bebas Indonesia, menjadi pusat industri elektronik, manufaktur, dan pariwisata dengan peraturan bea cukai khusus yang menarik investasi."
+  },
+  {
+    "q": "Apa ibukota Nusa Tenggara Timur dan keunikannya?",
+    "a": "Kupang adalah ibukota Nusa Tenggara Timur, berperan sebagai gerbang ekonomi kawasan timur dengan pelabuhan penting dan pusat administrasi untuk pulau-pulau timur Indonesia."
+  },
+  {
+    "q": "Apa landmark terkenal di Yogyakarta selain Borobudur?",
+    "a": "Yogyakarta terkenal dengan Candi Prambanan (Kuil Roro Jonggrang) yang merupakan candi Hindu terbesar di Indonesia, dibangun abad 10 dan menjadi situs warisan dunia UNESCO."
+  },
+  {
+    "q": "Mengapa Banjarmasin dijuluki Kota Permata?",
+    "a": "Banjarmasin dijuluki Kota Permata karena merupakan pusat penghasil berlian dan batu mulia di Indonesia, serta karakteristik kota yang dibangun di atas sungai dengan rumah-rumah tradisional."
+  },
+  {
+    "q": "Apa industri utama yang berkembang di Bekasi?",
+    "a": "Bekasi adalah pusat manufaktur dan industri di Jabodetabek, dengan kawasan industri besar yang memproduksi elektronik, tekstil, dan berbagai barang konsumer untuk pasar lokal dan ekspor."
+  },
+  {
+    "q": "Apa sejarah Ambon dalam perdagangan rempah?",
+    "a": "Ambon memiliki sejarah penting sebagai pusat perdagangan rempah (pala, cengkeh) pada era kolonial, yang menjadikannya kota yang diperebutkan dan menjadi simbol Kepulauan Maluku yang kaya alam."
+  },
+  {
+    "q": "Mengapa Bali menjadi pusat pariwisata terbesar di Indonesia?",
+    "a": "Bali menjadi pusat pariwisata karena kombinasi keindahan alam pantai, budaya Hindu yang unik, seni tradisional yang kaya, infrastruktur wisata lengkap, dan penempatan strategis dengan bandara internasional."
+  },
+  {
+    "q": "Apa peran Surabaya dalam industri maritim Indonesia?",
+    "a": "Surabaya memiliki industri maritim yang kuat dengan galangan kapal besar, pelabuhan Tanjung Perak yang strategis, serta menjadi pusat transportasi laut dan logistik untuk kawasan timur Indonesia."
+  },
+  {
+    "q": "Apa yang membuat Bandung menjadi kota tujuan akhir pekan?",
+    "a": "Bandung menjadi kota tujuan akhir pekan karena jarak dekat dari Jakarta (3 jam), iklim sejuk di ketinggian 700 meter, banyak destinasi wisata alam (kawah putih, tangkuban perahu), outlet fashion, dan kuliner sunda."
+  },
+  {
+    "q": "Apa kaitan Yogyakarta dengan pendidikan tinggi Indonesia?",
+    "a": "Yogyakarta adalah kota pendidikan dengan universitas-universitas ternama seperti Universitas Gadjah Mada (UGM), Universitas Islam Indonesia (UII), dan berbagai institusi lainnya, menjadikannya pusat akademik nasional."
+  },
+  {
+    "q": "Apa perbedaan antara Lombok dan Bali?",
+    "a": "Lombok berbeda dengan Bali karena mayoritas penduduknya Muslim (Sasak), memiliki tiga gili (pulau kecil) terkenal, pantai yang lebih tersembunyi, dan infrastruktur wisata yang lebih berkembang belakangan dibanding Bali."
+  },
+  {
+    "q": "Apa fungsi pelabuhan Belawan bagi Medan?",
+    "a": "Pelabuhan Belawan adalah pelabuhan utama di Medan yang menangani ekspor-impor cargo besar, menjadi pintu keluar produk pertanian Sumatera Utara (kelapa sawit, karet, teh) ke pasar dunia."
+  },
+  {
+    "q": "Apa keunikan arsitektur Yogyakarta sebagai istana kerajaan?",
+    "a": "Istana Yogyakarta memiliki desain arsitektur unik yang menggabungkan filosofi Jawa, Hindu-Buddha, dan Islam, dengan tata letak yang mengikuti kosmologi Jawa dengan makna spiritual dan praktis untuk pemerintahan."
+  },
+  {
+    "q": "Apa pentingnya Palembang sebagai pusat energi Indonesia?",
+    "a": "Palembang penting sebagai pusat produksi minyak dan gas alam, dengan kilang minyak Pertamina yang besar dan terminal ekspor, menjadi kontributor signifikan terhadap devisa negara dari sektor energi."
+  },
+  {
+    "q": "Apa yang membedakan Medan dengan kota-kota besar lainnya?",
+    "a": "Medan memiliki keunikan sebagai kota kosmopolitan dengan keragaman etnis (Melayu, Tionghoa, Batak), pengaruh budaya Malaysia yang kuat, makanan tradisional yang kaya (soto Medan), dan menjadi gerbang ke Malaysia."
+  },
+  {
+    "q": "Apa julukan kota Solo?",
+    "a": "Solo atau Surakarta dijuluki sebagai Kota Batik dan Kota Budaya karena menjadi pusat kerajinan batik tradisional serta pelestarian seni dan budaya Jawa yang kental."
+  },
+  {
+    "q": "Apa kuliner khas Manado yang terkenal?",
+    "a": "Kuliner khas Manado antara lain tinutuan (bubur Manado), cakalang fufu (ikan asap), rica-rica, dan paniki. Masakan Manado dikenal dengan cita rasa pedas dan penggunaan rempah yang kuat."
+  },
+  {
+    "q": "Apa hubungan Balikpapan dengan Ibu Kota Nusantara (IKN)?",
+    "a": "Balikpapan merupakan kota terdekat dengan lokasi Ibu Kota Nusantara (IKN) di Penajam Paser Utara, sehingga menjadi pintu gerbang utama menuju ibu kota baru Indonesia."
+  },
+  {
+    "q": "Apa festival seni terkenal yang diadakan di Denpasar?",
+    "a": "Pesta Kesenian Bali (PKB) adalah festival seni tahunan yang diadakan di Denpasar, menampilkan kesenian tradisional Bali seperti tari, musik gamelan, dan pameran seni rupa selama sebulan penuh."
+  },
+  {
+    "q": "Apa itu Tugu Khatulistiwa di Pontianak?",
+    "a": "Tugu Khatulistiwa adalah monumen yang menandai titik nol garis khatulistiwa di Pontianak, Kalimantan Barat. Tugu ini menjadi landmark ikonik dan daya tarik wisata utama kota tersebut."
+  },
+  {
+    "q": "Apa keunikan pasar terapung di Banjarmasin?",
+    "a": "Pasar Terapung Banjarmasin adalah pasar tradisional yang berlangsung di atas Sungai Barito, tempat pedagang menggunakan perahu jukung untuk menjual sayuran, buah, dan makanan. Pasar ini sudah berlangsung sejak ratusan tahun."
+  },
+  {
+    "q": "Apa makanan khas Makassar yang wajib dicoba?",
+    "a": "Makanan khas Makassar yang terkenal adalah coto Makassar (sup daging sapi dengan bumbu rempah), konro (sup iga bakar), dan pallubasa. Kuliner Makassar dikenal dengan cita rasa gurih dan kaya rempah."
+  },
+  {
+    "q": "Apa saja sistem transportasi massal yang ada di Jakarta?",
+    "a": "Jakarta memiliki beberapa sistem transportasi massal modern yaitu MRT (Mass Rapid Transit), LRT (Light Rail Transit), TransJakarta (bus rapid transit), dan KRL Commuter Line yang menghubungkan Jakarta dengan kota-kota sekitarnya."
+  },
+  {
+    "q": "Apa itu Tugu Pahlawan di Surabaya?",
+    "a": "Tugu Pahlawan adalah monumen setinggi 41,15 meter di Surabaya yang dibangun untuk mengenang Pertempuran 10 November 1945. Di bawahnya terdapat museum yang menyimpan koleksi sejarah perjuangan kemerdekaan."
+  },
+  {
+    "q": "Apa itu Gedung Sate di Bandung?",
+    "a": "Gedung Sate adalah landmark ikonik Bandung yang dibangun pada tahun 1920, dinamai karena ornamen tusuk sate di menaranya. Gedung ini berfungsi sebagai kantor Gubernur Jawa Barat."
+  },
+  {
+    "q": "Apa itu Jalan Malioboro di Yogyakarta?",
+    "a": "Jalan Malioboro adalah jalan utama di pusat Yogyakarta yang menjadi pusat perbelanjaan, kuliner, dan wisata. Jalan ini terkenal dengan pedagang kaki lima, seniman jalanan, dan suasana malam yang ramai."
+  },
+  {
+    "q": "Apa itu Klenteng Sam Poo Kong di Semarang?",
+    "a": "Klenteng Sam Poo Kong adalah kompleks kelenteng bersejarah di Semarang yang didirikan untuk menghormati Laksamana Cheng Ho. Tempat ini menjadi simbol akulturasi budaya Tionghoa-Jawa dan merupakan cagar budaya nasional."
+  },
+  {
+    "q": "Apa itu Istana Maimun di Medan?",
+    "a": "Istana Maimun adalah istana Kesultanan Deli yang dibangun tahun 1888 di Medan. Arsitekturnya memadukan gaya Melayu, Islam, Spanyol, India, dan Italia, menjadikannya salah satu istana tercantik di Indonesia."
+  },
+  {
+    "q": "Apa event olahraga internasional besar yang pernah diadakan di Palembang?",
+    "a": "Palembang menjadi tuan rumah bersama Jakarta untuk Asian Games 2018. Kota ini memiliki Jakabaring Sport City, kompleks olahraga besar yang digunakan untuk berbagai cabang olahraga dalam ajang tersebut."
+  },
+  {
+    "q": "Apa destinasi wisata populer di kawasan Malang dan Batu?",
+    "a": "Kawasan Malang dan Batu terkenal dengan Jatim Park 1, 2, dan 3, Museum Angkut, Coban Rondo, dan kebun apel. Kota Batu bahkan dijuluki sebagai Kota Wisata karena banyaknya wahana rekreasi."
+  },
+  {
+    "q": "Apa itu Jam Gadang di Bukittinggi?",
+    "a": "Jam Gadang adalah menara jam ikonik setinggi 26 meter di Bukittinggi, Sumatera Barat, dibangun pada tahun 1926. Jam ini menjadi simbol kota Bukittinggi dan landmark terkenal Sumatera Barat."
+  },
+  {
+    "q": "Apa keunikan batik Solo dibanding batik daerah lain?",
+    "a": "Batik Solo dikenal dengan corak klasik bermotif tradisional Jawa seperti parang, kawung, dan truntum dengan warna dominan cokelat sogan dan krem. Prosesnya masih banyak menggunakan teknik tulis tangan yang mempertahankan keaslian warisan budaya."
+  },
+  {
+    "q": "Apa yang membuat Taman Nasional Bunaken di Manado terkenal?",
+    "a": "Taman Nasional Bunaken terkenal sebagai salah satu spot diving dan snorkeling terbaik dunia dengan keanekaragaman terumbu karang dan biota laut yang sangat tinggi, mencakup lebih dari 390 spesies karang."
+  },
+  {
+    "q": "Apa julukan kota Bandung dan mengapa?",
+    "a": "Bandung dijuluki Paris van Java karena keindahan dan kemiripan suasananya dengan Paris pada masa kolonial Belanda. Bandung juga dijuluki Kota Kembang karena dahulu kota ini dipenuhi bunga dan taman yang indah."
+  },
+  {
+    "q": "Mengapa Bogor dijuluki Kota Hujan?",
+    "a": "Bogor dijuluki Kota Hujan karena memiliki curah hujan yang sangat tinggi sepanjang tahun, rata-rata lebih dari 3.000 mm per tahun, menjadikannya salah satu kota dengan frekuensi hujan tertinggi di Indonesia."
+  },
+  {
+    "q": "Apa itu Monumen Nasional (Monas) di Jakarta?",
+    "a": "Monas adalah tugu setinggi 132 meter yang terletak di pusat Jakarta sebagai simbol perjuangan kemerdekaan Indonesia. Puncaknya dilapisi emas seberat 35 kilogram berbentuk lidah api yang melambangkan semangat rakyat."
+  },
+  {
+    "q": "Apa makanan khas Yogyakarta yang paling terkenal?",
+    "a": "Gudeg adalah makanan khas Yogyakarta yang paling terkenal, terbuat dari nangka muda yang dimasak dengan santan dan gula jawa hingga berwarna cokelat. Gudeg biasanya disajikan dengan ayam, telur, dan sambal krecek."
+  },
+  {
+    "q": "Apa makanan khas Surabaya yang terkenal?",
+    "a": "Makanan khas Surabaya yang terkenal antara lain rawon (sup daging berkuah hitam dari kluwek), rujak cingur (rujak dengan irisan hidung sapi), lontong balap, dan tahu campur."
+  },
+  {
+    "q": "Apa makanan khas Bandung yang populer?",
+    "a": "Makanan khas Bandung yang populer antara lain surabi (serabi), batagor (bakso tahu goreng), mie kocok, seblak, dan siomay Bandung. Kota ini juga terkenal dengan aneka jajanan dan factory outlet."
+  },
+  {
+    "q": "Apa perbedaan budaya antara Solo dan Yogyakarta?",
+    "a": "Solo dan Yogyakarta sama-sama pusat budaya Jawa, namun Solo cenderung melestarikan tradisi keraton Kasunanan yang lebih konservatif, sementara Yogyakarta lebih progresif dengan Kesultanan yang aktif dalam pemerintahan modern."
+  },
+  {
+    "q": "Apa itu kawasan Kota Tua Jakarta?",
+    "a": "Kota Tua Jakarta adalah kawasan bersejarah peninggalan era VOC dan kolonial Belanda di Jakarta Utara. Kawasan ini memiliki bangunan-bangunan kuno seperti Museum Fatahillah, Museum Bank Indonesia, dan Cafe Batavia."
+  },
+  {
+    "q": "Apa itu Pantai Losari di Makassar?",
+    "a": "Pantai Losari adalah landmark terkenal di Makassar yang dijuluki sebagai ruang tamu Makassar. Pantai ini menjadi tempat favorit warga untuk menikmati sunset dan kuliner pisang epe, serta menjadi ikon kota Makassar."
+  },
+  {
+    "q": "Apa ibukota Provinsi Aceh dan keunikannya?",
+    "a": "Banda Aceh adalah ibukota Provinsi Aceh yang terletak di ujung barat Indonesia. Kota ini terkenal dengan Masjid Raya Baiturrahman, penerapan syariat Islam, dan museum tsunami sebagai pengingat bencana tahun 2004."
+  },
+  {
+    "q": "Apa ibukota Provinsi Gorontalo?",
+    "a": "Ibukota Provinsi Gorontalo adalah Kota Gorontalo, terletak di bagian utara Pulau Sulawesi. Kota ini dikenal sebagai Serambi Madinah karena kuatnya nuansa Islam dalam kehidupan masyarakatnya."
+  },
+  {
+    "q": "Apa keunikan Kota Ternate di Maluku Utara?",
+    "a": "Ternate adalah kota pulau vulkanik di Maluku Utara yang memiliki sejarah panjang sebagai pusat perdagangan rempah dunia. Kota ini memiliki Gunung Gamalama yang aktif dan Kedaton Sultan Ternate yang bersejarah."
+  },
+  {
+    "q": "Apa peran Kota Sorong bagi pariwisata Papua Barat?",
+    "a": "Sorong merupakan gerbang utama menuju Raja Ampat, salah satu destinasi diving terbaik dunia. Hampir semua wisatawan yang mengunjungi Raja Ampat harus transit melalui Kota Sorong terlebih dahulu."
+  },
+  {
+    "q": "Apa transportasi tradisional khas Yogyakarta?",
+    "a": "Yogyakarta terkenal dengan andong (kereta kuda) dan becak sebagai transportasi tradisional yang masih beroperasi. Keduanya menjadi daya tarik wisata tersendiri dan simbol budaya kota Yogyakarta."
+  },
+  {
+    "q": "Apa itu Taman Mini Indonesia Indah (TMII) di Jakarta?",
+    "a": "TMII adalah taman budaya seluas 150 hektar di Jakarta Timur yang menampilkan miniatur budaya seluruh provinsi di Indonesia. Taman ini memiliki anjungan daerah, museum, dan wahana rekreasi edukatif."
+  },
+  {
+    "q": "Apa keunikan Kota Batu di Jawa Timur?",
+    "a": "Kota Batu adalah kota wisata di dataran tinggi Jawa Timur yang terkenal dengan udara sejuk, perkebunan apel, dan wahana wisata modern seperti Jatim Park, Museum Angkut, dan Selecta."
+  },
+  {
+    "q": "Apa bandara internasional utama di Surabaya?",
+    "a": "Bandara Internasional Juanda adalah bandara utama di Surabaya yang melayani penerbangan domestik dan internasional. Bandara ini merupakan bandara tersibuk kedua di Indonesia setelah Soekarno-Hatta."
+  },
+  {
+    "q": "Apa bandara internasional utama di Bali?",
+    "a": "Bandara Internasional I Gusti Ngurah Rai adalah bandara utama di Bali yang terletak di Tuban, dekat Kuta. Bandara ini merupakan bandara tersibuk ketiga di Indonesia dan menjadi gerbang utama wisatawan mancanegara."
+  },
+  {
+    "q": "Apa universitas terkemuka di Surabaya?",
+    "a": "Surabaya memiliki beberapa universitas terkemuka seperti Institut Teknologi Sepuluh Nopember (ITS) dan Universitas Airlangga (Unair) yang dikenal di bidang teknik, kedokteran, dan sains."
+  },
+  {
+    "q": "Berapa perkiraan jumlah penduduk Jakarta?",
+    "a": "Jakarta memiliki populasi sekitar 10-11 juta jiwa di wilayah administrasinya. Namun, jika dihitung bersama kawasan metropolitan Jabodetabek, populasinya mencapai lebih dari 30 juta jiwa."
+  },
+  {
+    "q": "Apa keunikan arsitektur kolonial di Semarang?",
+    "a": "Semarang memiliki kawasan Kota Lama yang dijuluki Little Netherlands karena deretan bangunan bergaya arsitektur kolonial Belanda yang terawat baik, termasuk Gereja Blenduk yang dibangun pada tahun 1753."
+  },
+  {
+    "q": "Mengapa Banjarmasin juga dikenal sebagai Kota Seribu Sungai?",
+    "a": "Banjarmasin dijuluki Kota Seribu Sungai karena dilintasi banyak sungai dan kanal yang menjadi jalur transportasi dan kehidupan sehari-hari warganya. Rumah-rumah lanting (rumah terapung) di tepi sungai menjadi ciri khas kota ini."
+  },
+  {
+    "q": "Apa hubungan Danau Toba dengan Kota Medan?",
+    "a": "Danau Toba, danau vulkanik terbesar di dunia, terletak sekitar 175 km dari Medan. Medan menjadi gerbang utama wisatawan yang ingin mengunjungi Danau Toba dan Pulau Samosir di tengahnya."
+  },
+  {
+    "q": "Apa keunikan Kota Samarinda sebagai ibukota Kalimantan Timur?",
+    "a": "Samarinda unik karena dibelah oleh Sungai Mahakam yang menjadi jalur transportasi utama. Kota ini juga memiliki Masjid Islamic Center yang megah dan menjadi pusat perdagangan hasil tambang dan kayu Kalimantan."
+  },
+  {
+    "q": "Apa itu Benteng Vredeburg di Yogyakarta?",
+    "a": "Benteng Vredeburg adalah benteng peninggalan kolonial Belanda di pusat Yogyakarta yang dibangun tahun 1760. Kini benteng ini menjadi museum perjuangan yang menyimpan diorama sejarah kemerdekaan Indonesia."
+  },
+  {
+    "q": "Apa keunikan Kota Pekanbaru sebagai ibukota Riau?",
+    "a": "Pekanbaru dijuluki Kota Bertuah dan berkembang pesat berkat industri minyak bumi dan kelapa sawit. Kota ini juga menjadi pusat budaya Melayu Riau dengan Masjid Agung An-Nur yang megah sebagai landmarknya."
+  },
+  {
+    "q": "Apa yang terkenal dari Kota Cirebon di Jawa Barat?",
+    "a": "Cirebon terkenal dengan perpaduan budaya Jawa dan Sunda, batik mega mendung yang khas, serta kuliner seperti nasi jamblang dan empal gentong. Kota ini juga memiliki empat keraton bersejarah."
+  },
+  {
+    "q": "Apa itu Sungai Kapuas dan hubungannya dengan Pontianak?",
+    "a": "Sungai Kapuas adalah sungai terpanjang di Indonesia dengan panjang sekitar 1.143 km yang bermuara di Pontianak. Sungai ini menjadi jalur transportasi utama dan sumber kehidupan masyarakat Kalimantan Barat."
+  },
+  {
+    "q": "Apa peran Kota Batam dalam perekonomian Indonesia?",
+    "a": "Batam berperan sebagai zona perdagangan bebas dan kawasan industri strategis yang berhadapan langsung dengan Singapura. Kota ini menjadi pusat manufaktur elektronik, galangan kapal, dan pariwisata belanja."
+  },
+  {
+    "q": "Apa itu Masjid Raya Baiturrahman di Banda Aceh?",
+    "a": "Masjid Raya Baiturrahman adalah masjid bersejarah di Banda Aceh yang dibangun pada masa Kesultanan Aceh dan direnovasi Belanda tahun 1883. Masjid ini selamat dari tsunami 2004 dan menjadi simbol ketangguhan rakyat Aceh."
+  },
+  {
+    "q": "Kota mana di Indonesia yang terkenal dengan industri rokok kretek?",
+    "a": "Kudus di Jawa Tengah terkenal sebagai pusat industri rokok kretek Indonesia, dengan pabrik-pabrik besar seperti Djarum dan Nojorono. Kota ini dijuluki Kota Kretek karena sejarah panjangnya dalam produksi rokok."
+  },
+  {
+    "q": "Apa itu Pelabuhan Tanjung Priok di Jakarta?",
+    "a": "Tanjung Priok adalah pelabuhan utama dan terbesar di Indonesia yang terletak di Jakarta Utara. Pelabuhan ini menangani lebih dari 50% arus barang ekspor-impor Indonesia dan menjadi nadi logistik nasional."
+  },
+  {
+    "q": "Apa itu Kota Mataram di Lombok?",
+    "a": "Mataram adalah ibu kota Provinsi Nusa Tenggara Barat yang terletak di Pulau Lombok. Kota ini menjadi pusat pemerintahan, pendidikan, dan ekonomi Lombok dengan pelabuhan dan bandara internasional yang melayani wisatawan."
+  },
+  {
+    "q": "Apa keunikan Kota Tanjungpinang di Kepulauan Riau?",
+    "a": "Tanjungpinang adalah ibu kota Kepulauan Riau yang terletak di Pulau Bintan. Kota ini memiliki pelabuhan yang strategis, kehidupan nelayan yang kaya, serta menjadi pusat perdagangan dan wisata bahari di kawasan Kepulauan Riau."
+  },
+  {
+    "q": "Apa itu Kota Palu dan letak geografisnya?",
+    "a": "Palu adalah ibu kota Provinsi Sulawesi Tengah yang terletak di Teluk Palu. Kota ini dikenal dengan keunikan geografis berupa Palu Strait (Selat Palu) yang dalam, serta merupakan pusat ekonomi wilayah Sulawesi Tengah."
+  },
+  {
+    "q": "Apa keunikan Kota Tasikmalaya di Jawa Barat?",
+    "a": "Tasikmalaya terkenal sebagai pusat industri tas dan kerajinan tangan di Jawa Barat. Kota ini juga dikenal dengan produksi bandeng, wisata air panas, dan menjadi kota wisata dengan keindahan alam pegunungan."
+  },
+  {
+    "q": "Apa itu Kota Cilacap dan peran ekonominya?",
+    "a": "Cilacap adalah kota pelabuhan di Jawa Tengah yang terkenal dengan Pelabuhan Cilacap yang besar. Kota ini juga memiliki kilang minyak Pertamina dan menjadi pusat industri petrokim serta logistik nasional."
+  },
+  {
+    "q": "Apa keunikan Kota Tebing Tinggi di Sumatera Utara?",
+    "a": "Tebing Tinggi adalah kota industri di Sumatera Utara yang terkenal dengan perkebunan kelapa sawit, pisang, dan pabrik minyak kelapa sawit. Kota ini menjadi pusat perdagangan hasil pertanian Sumatera Tengah."
+  },
+  {
+    "q": "Apa itu Kota Pematangsiantar dan keunikannya?",
+    "a": "Pematangsiantar adalah kota di Sumatera Utara yang terkenal dengan seni dan budayanya yang kaya. Kota ini memiliki Istana Maimun yang megah dan menjadi pusat perdagangan tembakau Sumatera Utara pada masa kolonial."
+  },
+  {
+    "q": "Apa itu Kota Sibolga dan hubungannya dengan laut?",
+    "a": "Sibolga adalah kota pelabuhan di pantai barat Sumatera Utara yang terkenal dengan perikanan dan pengolahan ikan. Kota ini juga merupakan gerbang menuju Kepulauan Nias dan menjadi pusat pendaratan ikan tuna."
+  },
+  {
+    "q": "Apa keunikan Kota Dumai di Provinsi Riau?",
+    "a": "Dumai adalah kota pelabuhan dan pusat industri minyak bumi di Riau. Kota ini memiliki terminal minyak terbesar di Indonesia dan menjadi pusat ekspor minyak mentah dan produk petrokim."
+  },
+  {
+    "q": "Apa itu Kota Pangkalanbulan dan peranannya di Kepulauan Bangka Belitung?",
+    "a": "Pangkalanbulan adalah kota pelabuhan di Kepulauan Bangka Belitung yang terkenal dengan industri timah. Kota ini menjadi pusat ekspor timah Indonesia dengan pelabuhan yang melayani kapal-kapal pengangkut komoditas."
+  },
+  {
+    "q": "Apa keunikan Kota Sorong sebagai gerbang Timur Indonesia?",
+    "a": "Sorong adalah kota paling timur di Pulau Papua yang menjadi gerbang utama ke Raja Ampat sebagai destinasi diving terbaik dunia. Kota ini juga memiliki industri perikanan yang berkembang dan menjadi pusat perdagangan kawasan Timur Indonesia."
+  }
+]

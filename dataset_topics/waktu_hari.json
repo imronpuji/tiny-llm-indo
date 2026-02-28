@@ -1,0 +1,458 @@
+[
+  {
+    "q": "Hari apa sekarang?",
+    "a": "Maaf, saya tidak tahu hari dan tanggal saat ini karena saya tidak memiliki akses ke waktu nyata."
+  },
+  {
+    "q": "Tanggal berapa sekarang?",
+    "a": "Maaf, saya tidak bisa mengetahui tanggal saat ini. Silakan cek di perangkat Anda."
+  },
+  {
+    "q": "Jam berapa sekarang?",
+    "a": "Maaf, saya tidak memiliki akses ke waktu nyata. Silakan lihat jam di perangkat Anda."
+  },
+  {
+    "q": "Sekarang jam berapa?",
+    "a": "Maaf, saya tidak bisa mengetahui waktu saat ini. Silakan cek jam Anda."
+  },
+  {
+    "q": "Ada berapa hari dalam seminggu?",
+    "a": "Ada 7 hari dalam seminggu: Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, dan Minggu."
+  },
+  {
+    "q": "Ada berapa bulan dalam setahun?",
+    "a": "Ada 12 bulan dalam setahun: Januari hingga Desember."
+  },
+  {
+    "q": "Setahun berapa hari?",
+    "a": "Satu tahun ada 365 hari, atau 366 hari pada tahun kabisat."
+  },
+  {
+    "q": "Jam yang dimulai pukul berapa?",
+    "a": "Satu jam dimulai pada menit 0 (atau 60 dari jam sebelumnya) dan berakhir pada menit 59 sebelum jam berikutnya dimulai."
+  },
+  {
+    "q": "Berapa menit dalam satu jam?",
+    "a": "Ada 60 menit dalam satu jam."
+  },
+  {
+    "q": "Berapa detik dalam satu menit?",
+    "a": "Ada 60 detik dalam satu menit."
+  },
+  {
+    "q": "Berapa detik dalam satu jam?",
+    "a": "Ada 3.600 detik dalam satu jam (60 menit × 60 detik)."
+  },
+  {
+    "q": "Hari apa yang paling panjang dalam setahun?",
+    "a": "Hari yang paling panjang adalah sekitar tanggal 21 Juni (solstis musim panas di belahan utara), dengan waktu siang terpanjang."
+  },
+  {
+    "q": "Hari apa yang paling pendek dalam setahun?",
+    "a": "Hari yang paling pendek adalah sekitar tanggal 21 Desember (solstis musim dingin di belahan utara), dengan waktu siang terpendek."
+  },
+  {
+    "q": "Bulan mana yang memiliki hari paling banyak?",
+    "a": "Semua bulan memiliki jumlah hari yang berbeda: 31 hari (Jan, Mar, Mei, Jul, Agu, Okt, Des), 30 hari (Apr, Jun, Sep, Nov), dan Februari 28 atau 29 hari."
+  },
+  {
+    "q": "Berapa hari dalam bulan Februari?",
+    "a": "Bulan Februari memiliki 28 hari pada tahun normal, dan 29 hari pada tahun kabisat (setiap 4 tahun sekali)."
+  },
+  {
+    "q": "Kapan tahun kabisat terjadi?",
+    "a": "Tahun kabisat terjadi setiap 4 tahun, kecuali tahun yang habis dibagi 100 tetapi tidak habis dibagi 400 (misalnya, tahun 1900 bukan kabisat, tetapi 2000 adalah kabisat)."
+  },
+  {
+    "q": "Apa perbedaan antara Januari dan Februari?",
+    "a": "Januari memiliki 31 hari, sedangkan Februari memiliki 28 hari (atau 29 pada tahun kabisat)."
+  },
+  {
+    "q": "Berapa hari dalam 1 tahun tidak termasuk hari libur?",
+    "a": "Tergantung negara dan jumlah hari libur resmi. Secara umum, hari kerja di Indonesia adalah sekitar 240-250 hari per tahun dari 365 hari."
+  },
+  {
+    "q": "Apa itu zona waktu?",
+    "a": "Zona waktu adalah pembagian dunia berdasarkan longtitude, di mana setiap zona memiliki perbedaan satu jam dari zona lainnya. Ada 24 zona waktu utama."
+  },
+  {
+    "q": "Indonesia berada di zona waktu apa?",
+    "a": "Indonesia memiliki tiga zona waktu utama: WIB (Waktu Indonesia Barat) UTC+7, WITA (Waktu Indonesia Tengah) UTC+8, dan WIT (Waktu Indonesia Timur) UTC+9."
+  },
+  {
+    "q": "Apa perbedaan antara jam UTC dan waktu lokal?",
+    "a": "UTC (Koordinat Waktu Universal) adalah standar waktu internasional. Waktu lokal adalah waktu setempat yang dihitung berdasarkan offsetnya dari UTC. Contoh: Jakarta adalah UTC+7, berarti 7 jam lebih cepat dari UTC."
+  },
+  {
+    "q": "Berapa perbedaan waktu antara Indonesia dan Jepang?",
+    "a": "Jepang menggunakan JST (Waktu Standar Jepang) UTC+9, sedangkan Indonesia menggunakan WIB UTC+7, sehingga Jepang 2 jam lebih cepat dari Indonesia (wilayah Barat)."
+  },
+  {
+    "q": "Apa itu penanggalan Masehi?",
+    "a": "Penanggalan Masehi (Gregorian calendar) adalah sistem kalender yang paling banyak digunakan di dunia, dimulai dari tahun 1 Masehi. Indonesia menggunakan penanggalan Masehi sebagai standar resmi."
+  },
+  {
+    "q": "Apa itu penanggalan Hijriah?",
+    "a": "Penanggalan Hijriah (Islamic calendar) adalah kalender lunar yang dimulai dari tahun 1 Hijriah (622 Masehi). Digunakan terutama untuk menentukan tanggal-tanggal ibadah Islam seperti Ramadan dan Lebaran."
+  },
+  {
+    "q": "Berapa perbedaan antara kalender Masehi dan Hijriah?",
+    "a": "Kalender Masehi adalah kalender matahari dengan 365-366 hari per tahun, sedangkan kalender Hijriah adalah kalender bulan dengan 354-355 hari per tahun. Oleh karena itu, tahun Hijriah lebih pendek sekitar 11 hari."
+  },
+  {
+    "q": "Kapan biasanya Lebaran jatuh setiap tahun?",
+    "a": "Tanggal Lebaran berbeda setiap tahun menurut kalender Masehi karena mengikuti kalender Hijriah. Biasanya jatuh antara Juni hingga Agustus, dan ditentukan setelah pengamatan bulan Syawal."
+  },
+  {
+    "q": "Berapa bulan yang ada antara Ramadan dan Lebaran?",
+    "a": "Ramadan adalah bulan kesembilan dalam kalender Hijriah, dan Lebaran (Idul Fitri) adalah hari pertama bulan Syawal (bulan ke-10), jadi hanya 1 bulan setelahnya."
+  },
+  {
+    "q": "Apa itu dekade?",
+    "a": "Dekade adalah periode 10 tahun. Misalnya, dekade 2020-an adalah periode antara tahun 2020 dan 2029."
+  },
+  {
+    "q": "Apa itu abad?",
+    "a": "Abad adalah periode 100 tahun. Misalnya, abad ke-21 adalah periode antara tahun 2001 dan 2100."
+  },
+  {
+    "q": "Apa itu menit?",
+    "a": "Menit adalah satuan waktu yang sama dengan 60 detik. Dalam satu jam ada 60 menit."
+  },
+  {
+    "q": "Apa itu minggu?",
+    "a": "Minggu adalah periode 7 hari. Minggu dimulai dari hari Minggu atau Senin, tergantung konvensi negara."
+  },
+  {
+    "q": "Mengapa ada 60 detik dalam menit dan 60 menit dalam jam?",
+    "a": "Sistem ini berasal dari peradaban Babylon kuno yang menggunakan sistem sexagesimal (berbasis 60). Sistem ini terbukti efisien untuk pembagian waktu dan masih digunakan hingga hari ini."
+  },
+  {
+    "q": "Apa perbedaan antara siang dan malam?",
+    "a": "Siang adalah periode ketika matahari berada di atas horizon, memberikan cahaya alami (biasanya pukul 06:00-18:00). Malam adalah periode ketika matahari di bawah horizon, gelap (biasanya pukul 18:00-06:00)."
+  },
+  {
+    "q": "Mengapa waktu siang dan malam berbeda-beda setiap bulan?",
+    "a": "Durasi siang dan malam berbeda karena kemiringan sumbu bumi terhadap matahari. Pada musim panas, hari lebih panjang; pada musim dingin, hari lebih pendek."
+  },
+  {
+    "q": "Apa itu tahun kabisat dan mengapa penting?",
+    "a": "Tahun kabisat adalah tahun dengan 366 hari (tambahan 1 hari di Februari) yang terjadi setiap 4 tahun. Penting karena mengatasi perbedaan antara tahun kalender (365 hari) dan tahun astronomis (365,25 hari)."
+  },
+  {
+    "q": "Kapan Hari Kemerdekaan Indonesia dirayakan?",
+    "a": "Hari Kemerdekaan Indonesia dirayakan pada tanggal 17 Agustus setiap tahun, menandai proklamasi kemerdekaan Indonesia pada tahun 1945."
+  },
+  {
+    "q": "Apa itu Idul Adha dan kapan dirayakan?",
+    "a": "Idul Adha adalah perayaan umat Islam yang memperingati ketaatan Nabi Ibrahim. Dirayakan pada tanggal 10 Bulan Dhul Hijjah (kalender Hijriah) dan disertai dengan penyembelihan hewan kurban."
+  },
+  {
+    "q": "Kapan Hari Raya Imlek dirayakan?",
+    "a": "Hari Raya Imlek dirayakan pada tanggal 1 bulan Januari menurut kalender Lunar (Cina). Biasanya jatuh antara akhir Januari dan pertengahan Februari menurut kalender Masehi."
+  },
+  {
+    "q": "Apa itu musim dalam kalender astronomis?",
+    "a": "Ada 4 musim: musim semi (sekitar 21 Maret - 21 Juni), musim panas (21 Juni - 23 September), musim gugur (23 September - 21 Desember), dan musim dingin (21 Desember - 21 Maret)."
+  },
+  {
+    "q": "Kapan kalender tahun baru Nyepi dirayakan?",
+    "a": "Nyepi adalah perayaan Tahun Baru Hindu-Bali yang jatuh pada hari ke-1 Bulan Kasada dalam kalender Saka. Biasanya antara Maret dan April menurut kalender Gregorian."
+  },
+  {
+    "q": "Apa perbedaan antara jam pagi dan jam sore?",
+    "a": "Jam pagi (AM, Ante Meridiem) adalah waktu dari pukul 00:00 hingga 11:59, sedangkan jam sore/malam (PM, Post Meridiem) adalah waktu dari pukul 12:00 hingga 23:59."
+  },
+  {
+    "q": "Apa itu istilah 'sebelum Matahari terbit' dan 'sesaat setelah Matahari terbit'?",
+    "a": "Sebelum matahari terbit adalah waktu subuh, periode gelap menjelang pagi. Sesaat setelah matahari terbit adalah pagi hari awal, sekitar pukul 06:00-07:00, periode cahaya awal."
+  },
+  {
+    "q": "Kapan Hari Thanksgiving dirayakan?",
+    "a": "Hari Thanksgiving adalah perayaan yang jatuh pada Kamis keempat bulan November di Amerika Serikat. Tidak dirayakan secara resmi di Indonesia."
+  },
+  {
+    "q": "Apa itu midnight dan noon?",
+    "a": "Midnight adalah tengah malam, pukul 00:00 atau 12:00 AM. Noon adalah tengah hari, pukul 12:00 atau 12:00 PM."
+  },
+  {
+    "q": "Berapa lama liburan Hari Raya (Lebaran) biasanya berlangsung di Indonesia?",
+    "a": "Liburan Lebaran di Indonesia biasanya berkisar 7-14 hari, dimulai dari beberapa hari sebelum Hari Raya Idul Fitri. Tanggal resmi ditentukan oleh pemerintah setiap tahunnya."
+  },
+  {
+    "q": "Berapa banyak hari libur nasional resmi di Indonesia per tahun?",
+    "a": "Indonesia memiliki kurang lebih 13-15 hari libur nasional resmi per tahun, yang meliputi Tahun Baru Masehi, Imlek, Nyepi, Lebaran, Idul Adha, Hari Kemerdekaan, dan hari penting lainnya."
+  },
+  {
+    "q": "Apa perbedaan antara istilah 'hari kemarin', 'hari ini', dan 'hari esok'?",
+    "a": "Hari kemarin adalah hari sebelum hari ini (24 jam yang lalu). Hari ini adalah hari saat ini. Hari esok adalah hari setelah hari ini (24 jam yang akan datang)."
+  },
+  {
+    "q": "Berapa jam dalam satu hari?",
+    "a": "Ada 24 jam dalam satu hari, dimulai dari pukul 00:00 (tengah malam) hingga 23:59 malam harinya."
+  },
+  {
+    "q": "Apa itu dini hari dan siang hari?",
+    "a": "Dini hari adalah waktu antara tengah malam hingga fajar (sekitar pukul 00:00-05:00). Siang hari adalah waktu dari matahari terbit hingga terbenam (sekitar pukul 06:00-18:00)."
+  },
+  {
+    "q": "Kapan Hari Pancasila dirayakan?",
+    "a": "Hari Pancasila dirayakan pada tanggal 1 Juni setiap tahun, menandai hari disahkannya Pancasila sebagai dasar negara Indonesia pada tahun 1945."
+  },
+  {
+    "q": "Apa itu solstis dan equinox?",
+    "a": "Solstis adalah waktu ketika hari paling panjang atau pendek dalam setahun (21 Juni dan 21 Desember). Equinox adalah waktu ketika siang dan malam memiliki durasi sama (sekitar 21 Maret dan 23 September)."
+  },
+  {
+    "q": "Berapa banyak minggu dalam satu bulan?",
+    "a": "Setiap bulan memiliki 4-5 minggu, tergantung jumlah hari dalam bulan tersebut. Rata-rata adalah 4,3 minggu per bulan (365 hari dibagi 12 bulan dibagi 7 hari)."
+  },
+  {
+    "q": "Apa arti istilah 'sepanjang waktu' dan 'seumur hidup'?",
+    "a": "'Sepanjang waktu' berarti selalu atau terus menerus selama periode waktu yang disebutkan. 'Seumur hidup' berarti selama seseorang hidup, dari lahir hingga meninggal dunia."
+  },
+  {
+    "q": "Apa itu milenium?",
+    "a": "Milenium adalah periode 1.000 tahun. Misalnya, milenium ketiga dimulai pada tanggal 1 Januari 2001 dan akan berakhir pada tanggal 31 Desember 3000."
+  },
+  {
+    "q": "Dari mana asal nama-nama hari dalam bahasa Indonesia?",
+    "a": "Nama-nama hari dalam bahasa Indonesia berasal dari bahasa Arab: Senin (Isnain), Selasa (Tsulasa), Rabu (Arbi'a), Kamis (Khamis), Jumat (Jumu'ah), Sabtu (Sabt), dan Minggu dari bahasa Portugis 'Domingo'."
+  },
+  {
+    "q": "Sebutkan nama-nama bulan dalam kalender Hijriah!",
+    "a": "Dua belas bulan dalam kalender Hijriah adalah: Muharram, Safar, Rabiul Awal, Rabiul Akhir, Jumadil Awal, Jumadil Akhir, Rajab, Syaban, Ramadan, Syawal, Dzulkaidah, dan Dzulhijjah."
+  },
+  {
+    "q": "Wilayah mana saja yang termasuk zona WIB?",
+    "a": "Zona WIB (Waktu Indonesia Barat, UTC+7) mencakup Pulau Sumatera, Jawa, Madura, Kalimantan Barat, dan Kalimantan Tengah."
+  },
+  {
+    "q": "Wilayah mana saja yang termasuk zona WITA?",
+    "a": "Zona WITA (Waktu Indonesia Tengah, UTC+8) mencakup Kalimantan Selatan, Kalimantan Timur, Kalimantan Utara, Bali, Nusa Tenggara, dan Sulawesi."
+  },
+  {
+    "q": "Wilayah mana saja yang termasuk zona WIT?",
+    "a": "Zona WIT (Waktu Indonesia Timur, UTC+9) mencakup Provinsi Maluku, Maluku Utara, Papua, Papua Barat, Papua Selatan, Papua Tengah, dan Papua Pegunungan."
+  },
+  {
+    "q": "Berapa selisih waktu antara WIB dan WIT?",
+    "a": "Selisih waktu antara WIB dan WIT adalah 2 jam. Jika di Jakarta (WIB) pukul 08:00, maka di Jayapura (WIT) sudah pukul 10:00."
+  },
+  {
+    "q": "Apa saja nama waktu sholat dalam Islam?",
+    "a": "Ada lima waktu sholat wajib dalam Islam: Subuh (fajar), Dzuhur (tengah hari), Ashar (sore), Maghrib (setelah matahari terbenam), dan Isya (malam hari)."
+  },
+  {
+    "q": "Kapan waktu sholat Subuh dimulai?",
+    "a": "Waktu sholat Subuh dimulai sejak terbitnya fajar shadiq (cahaya putih melintang di ufuk timur) hingga sebelum matahari terbit, biasanya sekitar pukul 04:00-05:30 tergantung lokasi dan musim."
+  },
+  {
+    "q": "Kapan Hari Kartini diperingati?",
+    "a": "Hari Kartini diperingati setiap tanggal 21 April untuk mengenang jasa R.A. Kartini sebagai pahlawan emansipasi wanita Indonesia."
+  },
+  {
+    "q": "Kapan Hari Guru Nasional diperingati?",
+    "a": "Hari Guru Nasional diperingati setiap tanggal 25 November, bertepatan dengan hari lahirnya organisasi PGRI (Persatuan Guru Republik Indonesia) pada tahun 1945."
+  },
+  {
+    "q": "Kapan Hari Sumpah Pemuda diperingati?",
+    "a": "Hari Sumpah Pemuda diperingati setiap tanggal 28 Oktober, mengingat peristiwa Kongres Pemuda II pada tahun 1928 yang menghasilkan ikrar Sumpah Pemuda."
+  },
+  {
+    "q": "Kapan Hari Pahlawan diperingati?",
+    "a": "Hari Pahlawan diperingati setiap tanggal 10 November, untuk mengenang peristiwa pertempuran heroik di Surabaya pada tahun 1945 melawan pasukan Sekutu."
+  },
+  {
+    "q": "Apa itu Maulid Nabi dan kapan diperingati?",
+    "a": "Maulid Nabi adalah peringatan kelahiran Nabi Muhammad SAW yang diperingati setiap tanggal 12 Rabiul Awal dalam kalender Hijriah. Tanggalnya bergeser setiap tahun dalam kalender Masehi."
+  },
+  {
+    "q": "Apa itu Isra Mi'raj dan kapan diperingati?",
+    "a": "Isra Mi'raj adalah peringatan perjalanan Nabi Muhammad SAW dari Masjidil Haram ke Masjidil Aqsa dan naik ke langit. Diperingati setiap tanggal 27 Rajab dalam kalender Hijriah."
+  },
+  {
+    "q": "Kapan Tahun Baru Islam diperingati?",
+    "a": "Tahun Baru Islam atau 1 Muharram diperingati pada hari pertama bulan Muharram dalam kalender Hijriah. Tanggalnya bergeser sekitar 10-11 hari lebih awal setiap tahun dalam kalender Masehi."
+  },
+  {
+    "q": "Kapan Hari Raya Waisak diperingati?",
+    "a": "Hari Raya Waisak diperingati oleh umat Buddha pada saat bulan purnama di bulan Mei atau Juni. Perayaan ini memperingati kelahiran, pencerahan, dan wafatnya Siddhartha Gautama (Buddha)."
+  },
+  {
+    "q": "Kapan Hari Natal dirayakan?",
+    "a": "Hari Natal dirayakan setiap tanggal 25 Desember oleh umat Kristiani di seluruh dunia, termasuk Indonesia, untuk memperingati kelahiran Yesus Kristus."
+  },
+  {
+    "q": "Berapa musim yang ada di Indonesia?",
+    "a": "Indonesia memiliki dua musim utama: musim hujan (sekitar Oktober-Maret) dan musim kemarau (sekitar April-September). Ini berbeda dengan negara subtropis yang memiliki empat musim."
+  },
+  {
+    "q": "Apa itu semester?",
+    "a": "Semester adalah periode 6 bulan. Dalam satu tahun terdapat dua semester. Istilah ini sering digunakan dalam dunia pendidikan untuk membagi tahun ajaran."
+  },
+  {
+    "q": "Apa itu kuartal atau triwulan?",
+    "a": "Kuartal atau triwulan adalah periode 3 bulan. Dalam satu tahun terdapat empat kuartal: Q1 (Jan-Mar), Q2 (Apr-Jun), Q3 (Jul-Sep), dan Q4 (Okt-Des)."
+  },
+  {
+    "q": "Apa itu lustrum?",
+    "a": "Lustrum adalah periode 5 tahun. Istilah ini sering digunakan dalam peringatan ulang tahun institusi, misalnya 'lustrum pertama' berarti ulang tahun ke-5."
+  },
+  {
+    "q": "Apa itu windu dalam penanggalan Jawa?",
+    "a": "Windu adalah siklus 8 tahun dalam penanggalan Jawa. Istilah ini sering digunakan dalam tradisi Jawa, misalnya seseorang yang berusia 'sewindu' berarti telah berumur 8 tahun."
+  },
+  {
+    "q": "Apa perbedaan jam analog dan jam digital?",
+    "a": "Jam analog menunjukkan waktu menggunakan jarum jam yang berputar pada permukaan dengan angka, sedangkan jam digital menampilkan waktu dalam bentuk angka elektronik. Keduanya memiliki fungsi yang sama."
+  },
+  {
+    "q": "Apa itu daylight saving time?",
+    "a": "Daylight saving time (DST) adalah praktik memajukan jam satu jam saat musim panas agar malam hari lebih terang. Indonesia tidak menerapkan DST karena berada di wilayah tropis dengan durasi siang-malam relatif stabil."
+  },
+  {
+    "q": "Apa itu Garis Tanggal Internasional?",
+    "a": "Garis Tanggal Internasional (International Date Line) adalah garis khayal di sekitar bujur 180° yang memisahkan dua tanggal kalender berurutan. Melewati garis ini ke barat berarti menambah satu hari, ke timur berarti mengurangi satu hari."
+  },
+  {
+    "q": "Apa perbedaan antara GMT dan UTC?",
+    "a": "GMT (Greenwich Mean Time) adalah zona waktu berdasarkan posisi matahari di Greenwich, Inggris. UTC (Coordinated Universal Time) adalah standar waktu modern berbasis jam atom. Keduanya hampir identik, tetapi UTC lebih presisi secara ilmiah."
+  },
+  {
+    "q": "Apa perbedaan format waktu 12 jam dan 24 jam?",
+    "a": "Format 12 jam menggunakan AM/PM (misal 2:00 PM), sedangkan format 24 jam menggunakan angka 00-23 (misal 14:00). Indonesia umumnya menggunakan format 24 jam dalam kehidupan sehari-hari."
+  },
+  {
+    "q": "Apa itu hari kerja dan hari libur?",
+    "a": "Hari kerja adalah hari yang ditetapkan untuk bekerja, biasanya Senin sampai Jumat di Indonesia. Hari libur adalah hari di mana orang tidak bekerja, termasuk Sabtu, Minggu, dan hari libur nasional."
+  },
+  {
+    "q": "Apa itu cuti bersama?",
+    "a": "Cuti bersama adalah hari libur tambahan yang ditetapkan pemerintah Indonesia, biasanya di antara hari libur nasional dan akhir pekan, untuk memberikan waktu libur yang lebih panjang kepada masyarakat."
+  },
+  {
+    "q": "Kapan Hari Ibu diperingati di Indonesia?",
+    "a": "Hari Ibu di Indonesia diperingati setiap tanggal 22 Desember, berbeda dengan banyak negara lain yang merayakannya pada bulan Mei. Tanggal ini mengacu pada Kongres Perempuan Indonesia pertama tahun 1928."
+  },
+  {
+    "q": "Kapan Hari Buruh Internasional diperingati?",
+    "a": "Hari Buruh Internasional (May Day) diperingati setiap tanggal 1 Mei. Di Indonesia, hari ini ditetapkan sebagai hari libur nasional sejak tahun 2014."
+  },
+  {
+    "q": "Berapa perbedaan waktu antara Indonesia dan Amerika Serikat?",
+    "a": "Perbedaan waktu sangat bervariasi karena AS memiliki beberapa zona waktu. Jakarta (WIB UTC+7) lebih cepat sekitar 12-15 jam dibanding sebagian besar kota di AS, tergantung zona waktunya."
+  },
+  {
+    "q": "Apa itu detik kabisat (leap second)?",
+    "a": "Detik kabisat adalah penambahan satu detik pada jam UTC untuk menyesuaikan perbedaan antara waktu atom dan rotasi bumi yang tidak konstan. Penambahan ini dilakukan secara tidak teratur oleh lembaga internasional."
+  },
+  {
+    "q": "Apa itu jam atom?",
+    "a": "Jam atom adalah alat pengukur waktu paling akurat yang menggunakan getaran atom cesium atau rubidium. Jam atom hanya melenceng sekitar 1 detik dalam jutaan tahun dan menjadi dasar standar waktu UTC."
+  },
+  {
+    "q": "Apa itu fajar dan senja?",
+    "a": "Fajar adalah cahaya yang muncul di ufuk timur sebelum matahari terbit, menandakan peralihan dari malam ke pagi. Senja adalah cahaya kemerahan di ufuk barat setelah matahari terbenam, menandakan peralihan dari siang ke malam."
+  },
+  {
+    "q": "Berapa lama waktu yang dibutuhkan bumi untuk mengelilingi matahari?",
+    "a": "Bumi membutuhkan waktu sekitar 365 hari 5 jam 48 menit 46 detik untuk mengelilingi matahari satu kali. Kelebihan waktu inilah yang menyebabkan adanya tahun kabisat setiap 4 tahun."
+  },
+  {
+    "q": "Berapa lama waktu yang dibutuhkan bumi untuk berotasi?",
+    "a": "Bumi membutuhkan waktu sekitar 23 jam 56 menit 4 detik untuk berotasi penuh pada sumbunya. Inilah yang menyebabkan pergantian siang dan malam."
+  },
+  {
+    "q": "Apa yang dimaksud waktu standar dan waktu lokal?",
+    "a": "Waktu standar adalah waktu resmi yang ditetapkan untuk suatu zona waktu tertentu. Waktu lokal mengacu pada waktu yang berlaku di lokasi spesifik seseorang berdasarkan zona waktu yang berlaku di wilayah tersebut."
+  },
+  {
+    "q": "Apa itu kalender Jawa?",
+    "a": "Kalender Jawa adalah sistem penanggalan tradisional yang merupakan perpaduan kalender Hindu-Buddha dan Islam. Kalender ini memiliki siklus 5 hari (pasaran: Legi, Pahing, Pon, Wage, Kliwon) yang dikombinasikan dengan 7 hari dalam seminggu."
+  },
+  {
+    "q": "Apa itu pasaran dalam kalender Jawa?",
+    "a": "Pasaran adalah siklus 5 hari dalam kalender Jawa yang terdiri dari Legi, Pahing, Pon, Wage, dan Kliwon. Pasaran digunakan bersama hari biasa untuk menentukan hari baik dalam tradisi Jawa."
+  },
+  {
+    "q": "Apa itu weton dalam budaya Jawa?",
+    "a": "Weton adalah kombinasi hari lahir dalam sistem 7 hari (Senin-Minggu) dan pasaran 5 hari (Legi-Kliwon). Dalam tradisi Jawa, weton digunakan untuk menentukan kecocokan jodoh, hari baik, dan peristiwa penting lainnya."
+  },
+  {
+    "q": "Kapan Hari Anak Nasional diperingati?",
+    "a": "Hari Anak Nasional diperingati setiap tanggal 23 Juli di Indonesia. Peringatan ini bertujuan untuk meningkatkan kesadaran tentang pentingnya perlindungan dan pemenuhan hak-hak anak."
+  },
+  {
+    "q": "Kapan Hari Pendidikan Nasional diperingati?",
+    "a": "Hari Pendidikan Nasional diperingati setiap tanggal 2 Mei, bertepatan dengan hari lahir Ki Hajar Dewantara, Bapak Pendidikan Nasional Indonesia."
+  },
+  {
+    "q": "Berapa jam dalam satu minggu?",
+    "a": "Ada 168 jam dalam satu minggu (7 hari × 24 jam). Dalam hitungan menit, satu minggu terdiri dari 10.080 menit."
+  },
+  {
+    "q": "Berapa minggu dalam satu tahun?",
+    "a": "Dalam satu tahun terdapat sekitar 52 minggu dan 1 hari (atau 2 hari pada tahun kabisat). Secara tepat, 365 dibagi 7 adalah 52,14 minggu."
+  },
+  {
+    "q": "Apa itu kronologi?",
+    "a": "Kronologi adalah ilmu yang mempelajari urutan waktu dari peristiwa-peristiwa. Dalam sejarah, kronologi digunakan untuk menyusun kejadian secara berurutan dari yang paling awal hingga paling akhir."
+  },
+  {
+    "q": "Apa perbedaan antara tahun Masehi dan tahun Sebelum Masehi?",
+    "a": "Tahun Masehi (M) menghitung tahun setelah kelahiran Yesus Kristus, sedangkan tahun Sebelum Masehi (SM) menghitung mundur sebelum kelahiran Yesus. Tidak ada tahun 0; tahun 1 SM langsung diikuti tahun 1 M."
+  },
+  {
+    "q": "Berapa jam standar kerja di Indonesia per minggu?",
+    "a": "Menurut Undang-Undang Ketenagakerjaan Indonesia, jam kerja standar adalah 40 jam per minggu, yang bisa dibagi menjadi 8 jam per hari (5 hari kerja) atau 7 jam per hari (6 hari kerja)."
+  },
+  {
+    "q": "Berapa jam tidur yang ideal untuk orang dewasa?",
+    "a": "Orang dewasa sebaiknya tidur 7-9 jam setiap malam untuk kesehatan optimal. Kurang dari 7 jam atau lebih dari 9 jam dapat mengganggu kesehatan fisik dan mental."
+  },
+  {
+    "q": "Berapa jam tidur yang ideal untuk anak-anak?",
+    "a": "Anak-anak berusia 6-12 tahun membutuhkan 9-12 jam tidur per malam, sedangkan remaja berusia 13-18 tahun membutuhkan 8-10 jam. Tidur yang cukup penting untuk pertumbuhan dan perkembangan."
+  },
+  {
+    "q": "Jam berapa waktu terbaik untuk sarapan?",
+    "a": "Waktu sarapan yang ideal adalah antara pukul 06:00 hingga 09:00 pagi, sebaiknya dalam 1-2 jam setelah bangun tidur. Sarapan pagi membantu meningkatkan energi dan konsentrasi dalam beraktivitas."
+  },
+  {
+    "q": "Jam berapa waktu terbaik untuk makan siang?",
+    "a": "Waktu makan siang yang ideal adalah antara pukul 11:30 hingga 13:00 siang. Makan siang di tengah hari membantu menjaga metabolisme dan memberikan energi untuk aktivitas sore hari."
+  },
+  {
+    "q": "Jam berapa waktu terbaik untuk berolahraga?",
+    "a": "Waktu terbaik untuk berolahraga adalah antara pukul 06:00 hingga 09:00 pagi atau pukul 15:30 hingga 18:00 sore. Menghindari berolahraga terlalu dekat dengan jadwal tidur untuk menghindari gangguan tidur."
+  },
+  {
+    "q": "Apa itu jadwal harian dan mengapa penting?",
+    "a": "Jadwal harian adalah rencana kegiatan yang disusun sesuai dengan waktu tertentu dalam satu hari. Jadwal harian penting untuk meningkatkan produktivitas, disiplin waktu, dan keseimbangan antara pekerjaan dan istirahat."
+  },
+  {
+    "q": "Jam berapa waktu terbaik untuk belajar atau bekerja?",
+    "a": "Waktu terbaik untuk belajar atau bekerja dengan konsentrasi penuh adalah antara pukul 09:00 hingga 12:00 pagi dan pukul 14:00 hingga 17:00 sore. Pada waktu-waktu ini, otak berada dalam kondisi paling optimal."
+  },
+  {
+    "q": "Apa itu jam kerja fleksibel dan kapan dimulai?",
+    "a": "Jam kerja fleksibel adalah sistem kerja yang memungkinkan karyawan bekerja pada waktu yang mereka pilih, selama memenuhi total jam kerja yang ditetapkan. Biasanya dimulai antara pukul 07:00-10:00 pagi dengan berakhir antara 16:00-19:00 sore."
+  },
+  {
+    "q": "Kapan waktu yang tepat untuk istirahat di siang hari?",
+    "a": "Waktu istirahat siang (siesta) yang ideal adalah antara pukul 13:00 hingga 14:30, selama 20-30 menit. Istirahat singkat di siang hari dapat meningkatkan kesegaran dan produktivitas untuk aktivitas sore hari."
+  },
+  {
+    "q": "Jam berapa waktu terbaik untuk makan malam?",
+    "a": "Waktu makan malam yang ideal adalah antara pukul 18:00 hingga 19:30 malam. Sebaiknya makan malam 2-3 jam sebelum tidur untuk memastikan proses pencernaan selesai dengan baik."
+  },
+  {
+    "q": "Apa itu peak hours atau jam-jam sibuk dalam sehari?",
+    "a": "Peak hours atau jam-jam sibuk adalah waktu-waktu ketika aktivitas atau lalu lintas mencapai puncaknya, biasanya pukul 07:00-09:00 (rush hour pagi), 12:00-13:30 (jam istirahat siang), dan 17:00-19:00 (rush hour sore). Menghindari jam sibuk dapat menghemat waktu perjalanan."
+  },
+  {
+    "q": "Jam berapa jam buka-tutup toko dan bisnis di Indonesia?",
+    "a": "Jam buka toko di Indonesia umumnya pukul 09:00-10:00 pagi dan tutup pukul 17:00-20:00 malam, tergantung jenis bisnis. Pusat perbelanjaan biasanya buka pukul 10:00 dan tutup pukul 21:00-22:00. Restoran dan warung makan biasanya buka dari pukul 11:00 hingga 22:00 atau 23:00."
+  }
+]

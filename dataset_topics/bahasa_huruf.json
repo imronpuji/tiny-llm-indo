@@ -1,0 +1,430 @@
+[
+  {
+    "q": "Berapa jumlah huruf dalam alfabet bahasa Indonesia?",
+    "a": "Terdapat 26 huruf dalam alfabet bahasa Indonesia, yaitu A sampai Z. Urutan lengkapnya adalah A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z."
+  },
+  {
+    "q": "Sebutkan lima huruf vokal dalam bahasa Indonesia.",
+    "a": "Huruf vokalnya adalah A, I, U, E, O. Kelima huruf ini melambangkan bunyi terbuka yang keluar dari mulut tanpa hambatan. Cara mengingat: Awal kata untuk vokal adalah A-I-U-E-O (berurutan dari depan ke belakang mulut)."
+  },
+  {
+    "q": "Apa yang dimaksud huruf konsonan?",
+    "a": "Huruf konsonan adalah huruf yang diucapkan dengan hambatan aliran udara, seperti B, C, D, F, G, H, J, K, L, M, N, P, R, S, T, V, W, X, Y, Z. Total ada 21 huruf konsonan (26 huruf - 5 vokal)."
+  },
+  {
+    "q": "Bagaimana cara menulis huruf kapital di awal kalimat?",
+    "a": "Tuliskan huruf pertama pada awal kalimat sebagai huruf kapital atau huruf besar, diikuti dengan huruf-huruf lainnya dalam bentuk kecil. Ingatan: Kapital (besar) dimulai setiap Kalimat baru."
+  },
+  {
+    "q": "Apa perbedaan antara huruf besar dan huruf kecil?",
+    "a": "Huruf besar (kapital) digunakan untuk nama diri dan awal kalimat, sedangkan huruf kecil untuk kata lainnya dalam sebuah teks. Kapital menunjukkan pentingnya dan awal sesuatu yang baru."
+  },
+  {
+    "q": "Sebutkan contoh digraf yang sering muncul dalam bahasa Indonesia.",
+    "a": "Contoh digraf yang sering muncul adalah 'ng' (bunyi ŋ seperti dalam 'pang'), 'ny' (bunyi ɲ seperti dalam 'nyenyak'), 'kh' (bunyi khop seperti dalam 'khusus'), dan 'sy' (bunyi ʃ seperti dalam 'syarat')."
+  },
+  {
+    "q": "Huruf mana yang mewakili bunyi /ɲ/ dalam tulisan Indonesia?",
+    "a": "Bunyi /ɲ/ biasanya ditulis dengan digraf 'ny', seperti pada kata 'nyanyian', 'nyamuk', dan 'bulan'. Ingatan: /ny/ = bunyi seperti 'ni-ya' diucapkan cepat."
+  },
+  {
+    "q": "Bagaimana cara mengeja singkatan dengan huruf?",
+    "a": "Singkatan dieja dengan menyebut huruf-hurufnya satu per satu. Contoh: 'DNA' dieja D-E-N-A, 'USA' dieja U-S-A. Setiap huruf diucapkan terpisah dengan jelas."
+  },
+  {
+    "q": "Kenapa tanda baca bukan termasuk huruf?",
+    "a": "Karena tanda baca berfungsi untuk struktur dan intonasi kalimat, bukan untuk mewakili bunyi bahasa seperti yang dilakukan huruf. Huruf adalah representasi bunyi, tanda baca adalah panduan membaca."
+  },
+  {
+    "q": "Apa fungsi alfabet dalam bahasa tertulis?",
+    "a": "Alfabet digunakan untuk merekam bunyi bahasa dan membentuk kata-kata tertulis sehingga dapat dibaca dan dipahami. Alfabet adalah jembatan antara bunyi lisan dan bentuk tertulis."
+  },
+  {
+    "q": "Apa itu huruf kapital?",
+    "a": "Huruf kapital adalah huruf besar yang digunakan di awal kalimat, nama diri (orang, tempat, kota), nama hari, dan awal paragraf untuk menunjukkan pentingnya kata tersebut."
+  },
+  {
+    "q": "Apa itu huruf vokal?",
+    "a": "Huruf vokal adalah huruf yang melambangkan bunyi vokal (bunyi terbuka), yaitu A, I, U, E, O. Vokal tidak memiliki hambatan udara saat diucapkan."
+  },
+  {
+    "q": "Apa itu huruf konsonan?",
+    "a": "Huruf konsonan adalah huruf selain vokal yang diucapkan dengan hambatan atau penyempitan saluran udara, seperti B, C, D, F, G, dan seterusnya. Konsonan membutuhkan artikulasi khusus."
+  },
+  {
+    "q": "Apa itu abjad?",
+    "a": "Abjad adalah urutan huruf dalam sistem tulisan tertentu, seperti urutan A-B-C-D-E dalam bahasa Indonesia. Abjad dari bahasa Arab juga berbeda dengan urutan huruf Indonesia."
+  },
+  {
+    "q": "Apa itu ejaan?",
+    "a": "Ejaan adalah cara penulisan kata sesuai dengan aturan dan kaidah bahasa yang berlaku, termasuk penggunaan huruf, tanda baca, dan spasi. Ejaan Indonesia mengikuti pedoman resmi KBBI dan Tata Bahasa Indonesia Baku."
+  },
+  {
+    "q": "Apa perbedaan fonologi dan fonemetik?",
+    "a": "Fonologi mempelajari fungsi bunyi dalam bahasa dan pola-polanya, sementara fonetik mempelajari produksi, transmisi, dan persepsi bunyi secara fisik. Fonetik fokus pada aspek 'bagaimana', fonologi fokus pada 'mengapa'."
+  },
+  {
+    "q": "Apa itu aksara?",
+    "a": "Aksara adalah sistem tulisan yang terdiri dari lambang-lambang untuk mewakili bunyi bahasa. Contoh: aksara Jawa (Hanacaraka), aksara Sunda, aksara Batak, dan aksara Latin yang digunakan Indonesia."
+  },
+  {
+    "q": "Sebutkan contoh aksara non-Latin yang digunakan di Indonesia.",
+    "a": "Contoh aksara non-Latin di Indonesia adalah aksara Jawa (Hanacaraka), aksara Sunda (Sundanese script), aksara Batak, aksara Buginese, dan aksara Lampung. Setiap aksara memiliki karakteristik unik."
+  },
+  {
+    "q": "Apa itu suku kata?",
+    "a": "Suku kata adalah unit terkecil dalam pengucapan kata yang biasanya terdiri dari satu huruf vokal beserta konsonan pendampingnya. Contoh: 'ba-gu' (2 suku), 'pe-la-jar' (3 suku). Setiap suku kata pasti mengandung minimal satu vokal."
+  },
+  {
+    "q": "Berapa jumlah suku kata dalam kata 'pendidikan'?",
+    "a": "Kata 'pendidikan' memiliki empat suku kata: pen-di-di-kan. Cara menghitung: hitung jumlah vokal yang diucapkan, maka itulah jumlah suku kata."
+  },
+  {
+    "q": "Apa itu diftong?",
+    "a": "Diftong adalah kombinasi dua vokal dalam satu suku kata yang diucapkan bersambung. Contoh: 'ai' dalam 'sampai', 'au' dalam 'atau', 'oi' dalam 'boiboi'. Diftong dihitung sebagai satu suku kata."
+  },
+  {
+    "q": "Apa itu konsonan gugur di akhir kata?",
+    "a": "Konsonan gugur adalah konsonan yang hilang atau tidak terucapkan jelas di akhir kata dalam pengucapan sehari-hari, meskipun tertulis. Contoh: 'k' dalam 'anak' sering tidak terucap jelas menjadi 'ana'. Ini sering terjadi pada huruf 'k' dan 't' di akhir kata."
+  },
+  {
+    "q": "Bagaimana cara penulisan kata berimbuhan?",
+    "a": "Kata berimbuhan ditulis tanpa spasi antara akar kata dan imbuhannya. Contoh: 'membaca' (me+baca), 'bacaan' (baca+an), 'dibaca' (di+baca), 'kebacaan' (ke+baca+an). Semua imbuhan menyatu dengan akar kata."
+  },
+  {
+    "q": "Apa itu prefiks dalam bahasa Indonesia?",
+    "a": "Prefiks adalah imbuhan yang ditambahkan di depan kata dasar untuk mengubah makna atau bentuk kata. Contoh: 'me-' dalam 'membaca', 'pe-' dalam 'pelari', 'ber-' dalam 'berjalan', 'di-' dalam 'dibaca', 'ter-' dalam 'terbaik'."
+  },
+  {
+    "q": "Apa itu sufiks dalam bahasa Indonesia?",
+    "a": "Sufiks adalah imbuhan yang ditambahkan di akhir kata dasar untuk mengubah makna atau bentuk kata. Contoh: '-an' dalam 'bacaan', '-kan' dalam 'membacakan', '-i' dalam 'mengambili', '-nya' dalam 'rumahnya', '-er' dalam 'pelari'."
+  },
+  {
+    "q": "Apa itu infiks dalam bahasa Indonesia?",
+    "a": "Infiks adalah imbuhan yang ditambahkan di tengah kata dasar. Contoh: '-el-' dalam 'gelang' (dari 'gang'), '-em-' dalam 'gemuruh' (dari 'guruh'), '-er-' dalam 'terang' (dari 'tang'). Infiks jarang digunakan dalam bahasa Indonesia modern."
+  },
+  {
+    "q": "Apa perbedaan antara huruf dan bunyi?",
+    "a": "Huruf adalah simbol tulisan yang mewakili bunyi, sedangkan bunyi adalah suara yang dihasilkan dari pengucapan. Satu huruf dapat mewakili berbagai bunyi tergantuk konteks. Contoh: 'c' dalam 'cinta' dan 'cicak' keduanya diucapkan /k/."
+  },
+  {
+    "q": "Bagaimana penulisan huruf 'c' dalam bahasa Indonesia?",
+    "a": "Huruf 'c' dalam bahasa Indonesia selalu diucapkan sebagai bunyi /k/ seperti dalam kata 'cinta', 'cacar', 'cucuk', 'cyclone' (disitir dari bahasa asing). Tidak ada bunyi /ts/ atau /s/ untuk huruf 'c' di Indonesia."
+  },
+  {
+    "q": "Sebutkan aturan penulisan kata hubung atau konjungsi.",
+    "a": "Kata hubung seperti 'dan', 'atau', 'jika', 'karena', 'tetapi', 'sehingga' ditulis sebagai kata terpisah dan tidak dirangkaikan dengan tanda penghubung. Contoh: 'Ani dan Budi pergi' (bukan 'Ani-Budi' atau 'Ani, Budi')."
+  },
+  {
+    "q": "Apa itu artikulasi dalam fonologi bahasa?",
+    "a": "Artikulasi adalah cara udara dilewatkan dan dimodifikasi di saluran vokal saat menghasilkan bunyi bahasa, melibatkan posisi lidah, bibir, dan gigi. Contoh: bunyi /b/ adalah artikulasi dengan memejamkan dua bibir."
+  },
+  {
+    "q": "Apa itu resonansi dalam pengucapan?",
+    "a": "Resonansi adalah getaran rongga mulut dan hidung yang memperkaya bunyi saat diucapkan. Bunyi nasal seperti /m/, /n/, /ng/ adalah bunyi resonan karena udara melalui hidung. Belajar merasakan vibrasI di hidung saat mengucapkan /ng/ dalam 'pang'."
+  },
+  {
+    "q": "Bagaimana cara menghafal urutan alphabet?",
+    "a": "Cara efektif menghafal alphabet adalah dengan lagu atau melodi (seperti lagu 'Twinkle Twinkle Little Star'). Cara lain: kelompokkan menjadi 5-7 huruf sekaligus dan ulangi sampai lancar. Praktik setiap hari dengan mengeja kata-kata sederhana."
+  },
+  {
+    "q": "Apa itu stress atau penekanan dalam pengucapan suku kata?",
+    "a": "Stress adalah penekanan atau aksentuasi pada suku kata tertentu dalam sebuah kata. Contoh: kata 'makan' diucapkan dengan penekanan pada suku pertama 'MA-kan'. Penekanan yang salah dapat mengubah makna persepsi bunyi."
+  },
+  {
+    "q": "Sebutkan aturan kapitalisasi nama hari dan bulan.",
+    "a": "Nama hari dan bulan selalu ditulis dengan huruf kapital di awal. Contoh: Senin, Selasa, Januari, Februari. Jika berada di awal kalimat, tetap menggunakan kapital seperti biasa: 'Senin pagi saya pergi.'"
+  },
+  {
+    "q": "Apa itu gemasi atau penggandaan huruf?",
+    "a": "Gemasi adalah penggandaan huruf atau suku kata dalam sebuah kata untuk tujuan fonologi atau semantik. Contoh dalam bahasa Indonesia jarang, tetapi dalam bahasa Jawa sering dijumpai. Ingatan: ganda = double, gemasi = penggandaan konsonan untuk perubahan makna atau kelas kata."
+  },
+  {
+    "q": "Bagaimana cara membedakan pengucapan huruf 'r' dengan 'l'?",
+    "a": "Huruf 'r' diucapkan dengan lidah getaran/terguncang di udara (alveolar), sedangkan 'l' diucapkan dengan lidah menyentuh langit-langit mulut (lateral). Ingatan: 'r' = rolling (berguncang), 'l' = lateral (sampingan). Latihan: ucapkan 'rr-ll-rr-ll' berulang kali."
+  },
+  {
+    "q": "Apa itu transisi bunyi antar huruf?",
+    "a": "Transisi bunyi adalah perubahan bunyi saat berpindah dari satu huruf ke huruf berikutnya. Contoh: 'pt' dalam 'kapt' memerlukan transisi halus dari /p/ ke /t/. Bunyi transisi yang alami membantu pengucapan lancar dan natural."
+  },
+  {
+    "q": "Sebutkan aturan penggunaan tanda hubung (-) dalam penulisan.",
+    "a": "Tanda hubung digunakan untuk: (1) memisahkan suku kata saat memecah kata di akhir baris, (2) menghubungkan awalan atau akhiran yang terpisah (mis. 'ber-' + kata dasar), (3) kata majemuk tertentu (mis. 'ibu-ibu', 'anak-anak'). Ingatan: hubung = connect, jadi digunakan untuk menghubungkan elemen."
+  },
+  {
+    "q": "Apa itu enklitik dan proklitik dalam bahasa?",
+    "a": "Enklitik adalah kata yang menurun/bergabung dengan kata sebelumnya, seperti '-nya', '-ku', '-mu' (contoh: rumahnya). Proklitik adalah kata yang naik/bergabung dengan kata sesudahnya, seperti 'di-', 'ke-' (contoh: dibaca, keluar). Kedua jenis ini menulis tanpa spasi."
+  },
+  {
+    "q": "Apa yang dimaksud dengan sinonim?",
+    "a": "Sinonim adalah kata-kata yang memiliki makna sama atau mirip. Contoh: 'besar' dan 'raksasa', 'cantik' dan 'elok', 'pintar' dan 'cerdas'. Sinonim berguna untuk menghindari pengulangan kata dalam tulisan."
+  },
+  {
+    "q": "Apa yang dimaksud dengan antonim?",
+    "a": "Antonim adalah kata-kata yang memiliki makna berlawanan. Contoh: 'besar' dan 'kecil', 'panas' dan 'dingin', 'tinggi' dan 'rendah'. Antonim sering digunakan untuk membuat perbandingan dalam kalimat."
+  },
+  {
+    "q": "Apa itu homonim dalam bahasa Indonesia?",
+    "a": "Homonim adalah kata yang ejaan dan pengucapannya sama tetapi memiliki makna berbeda. Contoh: 'bisa' bisa berarti 'racun ular' atau 'mampu/dapat'. Makna homonim ditentukan oleh konteks kalimat."
+  },
+  {
+    "q": "Apa perbedaan homofon dan homograf?",
+    "a": "Homofon adalah kata yang pengucapannya sama tetapi ejaan dan maknanya berbeda, misalnya 'bang' (panggilan) dan 'bank' (lembaga keuangan). Homograf adalah kata yang ejaannya sama tetapi pengucapan dan maknanya berbeda, misalnya 'teras' (bagian depan rumah) dan 'teras' (inti)."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata baku?",
+    "a": "Kata baku adalah kata yang sesuai dengan kaidah bahasa Indonesia yang berlaku dan tercantum dalam KBBI. Contoh: 'apotek' (baku) bukan 'apotik', 'pikir' (baku) bukan 'fikir'. Kata baku digunakan dalam penulisan formal dan resmi."
+  },
+  {
+    "q": "Sebutkan contoh kata tidak baku dan padanan bakunya.",
+    "a": "Beberapa contoh: 'apotik' → 'apotek', 'nasehat' → 'nasihat', 'ijin' → 'izin', 'jaman' → 'zaman', 'fikir' → 'pikir', 'karir' → 'karier'. Kata baku mengikuti pedoman ejaan resmi bahasa Indonesia."
+  },
+  {
+    "q": "Apa fungsi tanda titik (.) dalam penulisan?",
+    "a": "Tanda titik digunakan untuk mengakhiri kalimat berita atau pernyataan, di belakang angka atau huruf dalam penomoran, dan pada singkatan tertentu seperti 'dll.', 'dsb.', 'Prof.'. Tanda titik menandakan jeda penuh saat membaca."
+  },
+  {
+    "q": "Bagaimana aturan penggunaan tanda koma (,)?",
+    "a": "Tanda koma digunakan untuk memisahkan unsur-unsur dalam suatu perincian, memisahkan anak kalimat yang mendahului induk kalimat, dan setelah kata penghubung antarkalimat seperti 'oleh karena itu,' dan 'namun,'. Tanda koma menandakan jeda sebentar saat membaca."
+  },
+  {
+    "q": "Kapan kita menggunakan tanda tanya (?)?",
+    "a": "Tanda tanya digunakan di akhir kalimat tanya atau kalimat interogatif. Contoh: 'Siapa namamu?', 'Kapan kamu datang?'. Tanda tanya tidak digunakan pada kalimat tanya tidak langsung, seperti 'Dia bertanya kapan saya datang.'"
+  },
+  {
+    "q": "Kapan kita menggunakan tanda seru (!)?",
+    "a": "Tanda seru digunakan di akhir kalimat perintah, seruan, atau ungkapan yang menunjukkan emosi kuat. Contoh: 'Pergi sekarang!', 'Wah, indah sekali!', 'Tolong!'. Tanda seru menandakan intonasi tinggi dan tegas."
+  },
+  {
+    "q": "Apa fungsi tanda titik dua (:) dalam penulisan?",
+    "a": "Tanda titik dua digunakan sebelum perincian atau penjelasan, setelah kata seperti 'yaitu', 'misalnya', atau 'sebagai berikut'. Contoh: 'Huruf vokal ada lima, yaitu: a, i, u, e, o.' Tanda ini menandakan bahwa informasi rinci akan mengikuti."
+  },
+  {
+    "q": "Apa fungsi tanda titik koma (;) dalam kalimat?",
+    "a": "Tanda titik koma digunakan untuk memisahkan bagian-bagian kalimat yang setara, memisahkan kalimat yang setara dalam kalimat majemuk, atau sebagai pengganti kata penghubung. Contoh: 'Ayah bekerja di kantor; ibu memasak di dapur.'"
+  },
+  {
+    "q": "Bagaimana aturan penggunaan tanda petik (\"...\") dalam bahasa Indonesia?",
+    "a": "Tanda petik ganda digunakan untuk mengapit petikan langsung, judul karangan, dan istilah khusus. Contoh: Ibu berkata, \"Ayo makan.\" Tanda petik tunggal ('...') digunakan untuk petikan di dalam petikan atau terjemahan kata asing."
+  },
+  {
+    "q": "Apa yang dimaksud dengan paragraf?",
+    "a": "Paragraf adalah kumpulan kalimat yang saling berkaitan dan membahas satu gagasan pokok. Paragraf biasanya dimulai dengan kalimat utama diikuti kalimat-kalimat penjelas. Paragraf baru ditandai dengan menjorok ke dalam atau jarak antarbaris."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kalimat efektif?",
+    "a": "Kalimat efektif adalah kalimat yang dapat menyampaikan gagasan atau pesan secara tepat dan jelas sesuai yang dimaksud penulis. Ciri-cirinya: memiliki subjek dan predikat, tidak bermakna ganda, hemat kata, dan logis."
+  },
+  {
+    "q": "Sebutkan jenis-jenis kalimat berdasarkan fungsinya.",
+    "a": "Ada empat jenis: (1) kalimat deklaratif/berita untuk menyampaikan informasi, (2) kalimat interogatif/tanya untuk bertanya, (3) kalimat imperatif/perintah untuk menyuruh, dan (4) kalimat eksklamatif/seru untuk menyatakan perasaan kuat."
+  },
+  {
+    "q": "Apa perbedaan 'di' sebagai kata depan dan 'di-' sebagai imbuhan?",
+    "a": "'Di' sebagai kata depan menunjukkan tempat dan ditulis terpisah, contoh: 'di rumah', 'di sekolah'. Sedangkan 'di-' sebagai imbuhan (prefiks) menunjukkan kata kerja pasif dan ditulis serangkai, contoh: 'dibaca', 'dimakan', 'ditulis'."
+  },
+  {
+    "q": "Apa perbedaan 'ke' sebagai kata depan dan 'ke-' sebagai imbuhan?",
+    "a": "'Ke' sebagai kata depan menunjukkan arah/tujuan dan ditulis terpisah, contoh: 'ke pasar', 'ke sekolah'. Sedangkan 'ke-' sebagai imbuhan ditulis serangkai, contoh: 'ketua', 'kehujanan', 'ketiga'."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata depan atau preposisi?",
+    "a": "Kata depan adalah kata yang digunakan sebelum kata benda untuk menunjukkan hubungan tempat, waktu, atau arah. Contoh: 'di' (tempat), 'ke' (arah), 'dari' (asal), 'pada' (waktu), 'untuk' (tujuan), 'dengan' (alat/cara)."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata sifat atau adjektiva?",
+    "a": "Kata sifat adalah kata yang menjelaskan sifat, keadaan, atau ciri suatu benda atau orang. Contoh: 'cantik', 'besar', 'rajin', 'malas', 'merah'. Kata sifat biasanya bisa didahului kata 'sangat' atau 'paling'."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata kerja atau verba?",
+    "a": "Kata kerja adalah kata yang menyatakan tindakan, proses, atau keadaan. Contoh: 'menulis', 'berlari', 'tidur', 'berpikir'. Kata kerja merupakan inti predikat dalam sebuah kalimat bahasa Indonesia."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata benda atau nomina?",
+    "a": "Kata benda adalah kata yang mengacu pada orang, tempat, benda, atau konsep. Contoh: 'guru', 'Jakarta', 'meja', 'kebahagiaan'. Kata benda biasanya bisa didahului kata 'sebuah', 'seorang', atau 'suatu'."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata keterangan atau adverbia?",
+    "a": "Kata keterangan adalah kata yang memberikan informasi tambahan tentang kata kerja, kata sifat, atau kata keterangan lain. Contoh: 'sangat' dalam 'sangat cepat', 'kemarin' dalam 'datang kemarin', 'selalu' dalam 'selalu rajin'."
+  },
+  {
+    "q": "Apa yang dimaksud dengan reduplikasi dalam bahasa Indonesia?",
+    "a": "Reduplikasi adalah pengulangan kata baik seluruhnya maupun sebagian. Ada tiga jenis: reduplikasi penuh ('rumah-rumah'), reduplikasi sebagian ('dedaunan'), dan reduplikasi berubah bunyi ('sayur-mayur', 'lauk-pauk')."
+  },
+  {
+    "q": "Apa yang dimaksud dengan konfiks?",
+    "a": "Konfiks adalah imbuhan gabungan yang terdiri dari prefiks dan sufiks yang ditambahkan secara bersamaan pada kata dasar. Contoh: 'ke-...-an' dalam 'keindahan', 'per-...-an' dalam 'perjalanan', 'pe-...-an' dalam 'pelayanan'."
+  },
+  {
+    "q": "Apa itu PUEBI dan apa fungsinya?",
+    "a": "PUEBI adalah singkatan dari Pedoman Umum Ejaan Bahasa Indonesia, yaitu pedoman resmi yang mengatur tata cara penulisan bahasa Indonesia yang benar. PUEBI menggantikan EYD (Ejaan Yang Disempurnakan) dan menjadi acuan utama penulisan resmi."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata serapan?",
+    "a": "Kata serapan adalah kata yang dipinjam dari bahasa asing dan disesuaikan dengan ejaan bahasa Indonesia. Contoh: 'televisi' dari 'television', 'komputer' dari 'computer', 'musik' dari 'music'. Penyesuaian dilakukan pada ejaan dan pengucapan."
+  },
+  {
+    "q": "Apa yang dimaksud dengan polisemi?",
+    "a": "Polisemi adalah kata yang memiliki banyak makna yang masih berkaitan satu sama lain. Contoh: 'kepala' bisa bermakna bagian tubuh, pemimpin, atau bagian atas sesuatu. Berbeda dengan homonim yang makna-maknanya tidak berkaitan."
+  },
+  {
+    "q": "Apa perbedaan antara frasa dan klausa?",
+    "a": "Frasa adalah gabungan dua kata atau lebih yang tidak memiliki hubungan subjek-predikat, contoh: 'rumah besar', 'sangat indah'. Klausa adalah gabungan kata yang memiliki subjek dan predikat, contoh: 'Adik tidur', 'Ibu memasak nasi'."
+  },
+  {
+    "q": "Apa yang dimaksud dengan struktur kalimat S-P-O-K?",
+    "a": "S-P-O-K adalah pola dasar kalimat bahasa Indonesia: Subjek (pelaku), Predikat (tindakan), Objek (yang dikenai tindakan), dan Keterangan (informasi tambahan). Contoh: 'Ani (S) membaca (P) buku (O) di perpustakaan (K).'"
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata ganti atau pronomina?",
+    "a": "Kata ganti adalah kata yang digunakan untuk menggantikan kata benda. Contoh: kata ganti orang ('saya', 'kamu', 'dia'), kata ganti penunjuk ('ini', 'itu'), dan kata ganti penanya ('siapa', 'apa'). Kata ganti menghindari pengulangan kata benda."
+  },
+  {
+    "q": "Kapan huruf miring digunakan dalam penulisan?",
+    "a": "Huruf miring digunakan untuk menuliskan kata atau istilah asing yang belum diserap ke bahasa Indonesia, judul buku atau karya, dan penekanan khusus. Contoh: 'Buku bestseller itu sangat menarik.' Dalam tulisan tangan, huruf miring diganti dengan garis bawah."
+  },
+  {
+    "q": "Bagaimana aturan penulisan huruf kapital pada gelar dan jabatan?",
+    "a": "Gelar akademik, keagamaan, dan kehormatan ditulis dengan huruf kapital jika diikuti nama orang. Contoh: 'Profesor Budi', 'Dokter Ani'. Jika tidak diikuti nama, ditulis huruf kecil: 'Dia adalah seorang profesor.'"
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata majemuk?",
+    "a": "Kata majemuk adalah gabungan dua kata atau lebih yang membentuk makna baru. Contoh: 'rumah sakit' (bukan rumah yang sakit), 'mata pelajaran' (bukan mata yang belajar), 'kerja sama' (bukan kerja sendiri). Kata majemuk ditulis terpisah atau dengan tanda hubung."
+  },
+  {
+    "q": "Apa yang dimaksud dengan morfem?",
+    "a": "Morfem adalah satuan bahasa terkecil yang memiliki makna. Ada dua jenis: morfem bebas yang dapat berdiri sendiri sebagai kata (contoh: 'rumah', 'makan') dan morfem terikat yang harus melekat pada morfem lain (contoh: 'me-', '-kan', '-an')."
+  },
+  {
+    "q": "Apa yang dimaksud dengan sintaksis?",
+    "a": "Sintaksis adalah cabang ilmu bahasa yang mempelajari susunan kata dalam kalimat dan hubungan antarkata. Sintaksis membahas bagaimana kata-kata disusun menjadi frasa, klausa, dan kalimat yang bermakna dan gramatikal."
+  },
+  {
+    "q": "Apa yang dimaksud dengan semantik?",
+    "a": "Semantik adalah cabang ilmu bahasa yang mempelajari makna kata, frasa, dan kalimat. Semantik mengkaji bagaimana makna terbentuk, hubungan makna antarkata (sinonim, antonim, polisemi), dan perubahan makna seiring waktu."
+  },
+  {
+    "q": "Apa yang dimaksud dengan fonem?",
+    "a": "Fonem adalah satuan bunyi terkecil yang dapat membedakan makna kata. Contoh: /b/ dan /p/ adalah dua fonem berbeda karena 'baku' dan 'paku' memiliki makna berbeda. Bahasa Indonesia memiliki sekitar 33 fonem."
+  },
+  {
+    "q": "Apa yang dimaksud dengan tanda elipsis (...)?",
+    "a": "Tanda elipsis adalah tiga titik berturut-turut (...) yang menunjukkan bagian kalimat yang sengaja dihilangkan atau menandakan kalimat yang terputus. Contoh: 'Jika saja aku tahu...' atau 'Buah-buahan seperti apel, jeruk, mangga, ... dijual di pasar.'"
+  },
+  {
+    "q": "Bagaimana aturan penggunaan tanda kurung dalam penulisan?",
+    "a": "Tanda kurung digunakan untuk mengapit keterangan tambahan atau penjelasan. Contoh: 'KBBI (Kamus Besar Bahasa Indonesia) adalah rujukan utama.' Tanda kurung juga digunakan untuk mengapit huruf atau angka dalam perincian."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata sandang?",
+    "a": "Kata sandang adalah kata yang mendahului kata benda untuk menunjukkan bahwa kata berikutnya adalah nomina. Dalam bahasa Indonesia, kata sandang yang umum adalah 'sang' (Sang Merah Putih), 'si' (si kecil), dan 'para' (para guru)."
+  },
+  {
+    "q": "Apa yang dimaksud dengan majas atau gaya bahasa?",
+    "a": "Majas adalah cara pengungkapan pikiran melalui bahasa secara khas untuk memperoleh efek tertentu. Contoh: majas metafora ('hati baja'), majas hiperbola ('menunggu sejuta tahun'), majas personifikasi ('angin berbisik'). Majas memperkaya ekspresi dalam tulisan."
+  },
+  {
+    "q": "Apa perbedaan kalimat aktif dan kalimat pasif?",
+    "a": "Kalimat aktif memiliki subjek yang melakukan tindakan dan predikatnya berawalan 'me-', contoh: 'Ani membaca buku.' Kalimat pasif memiliki subjek yang dikenai tindakan dan predikatnya berawalan 'di-', contoh: 'Buku dibaca oleh Ani.'"
+  },
+  {
+    "q": "Apa yang dimaksud dengan konjungsi atau kata penghubung?",
+    "a": "Konjungsi adalah kata yang menghubungkan kata, frasa, klausa, atau kalimat. Contoh: konjungsi koordinatif ('dan', 'atau', 'tetapi'), konjungsi subordinatif ('karena', 'jika', 'ketika'), dan konjungsi antarkalimat ('oleh karena itu', 'namun')."
+  },
+  {
+    "q": "Apa yang dimaksud dengan dialek?",
+    "a": "Dialek adalah variasi bahasa yang digunakan oleh sekelompok penutur di daerah tertentu. Contoh: bahasa Indonesia dialek Jakarta menggunakan 'gue-lu', dialek Jawa menggunakan 'aku-kamu' dengan intonasi khas. Dialek mencerminkan keberagaman budaya."
+  },
+  {
+    "q": "Apa perbedaan antara bahasa lisan dan bahasa tulis?",
+    "a": "Bahasa lisan disampaikan melalui ucapan dengan bantuan intonasi, mimik, dan gestur. Bahasa tulis disampaikan melalui tulisan dengan bantuan tanda baca dan ejaan. Bahasa tulis umumnya lebih formal dan terstruktur dibanding bahasa lisan."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kalimat majemuk?",
+    "a": "Kalimat majemuk adalah kalimat yang terdiri dari dua klausa atau lebih. Ada dua jenis: kalimat majemuk setara (dihubungkan dengan 'dan', 'atau', 'tetapi') dan kalimat majemuk bertingkat (dihubungkan dengan 'karena', 'jika', 'ketika')."
+  },
+  {
+    "q": "Apa yang dimaksud dengan imbuhan dalam bahasa Indonesia?",
+    "a": "Imbuhan adalah morfem terikat yang ditambahkan pada kata dasar untuk membentuk kata baru. Jenis imbuhan meliputi prefiks (awalan: me-, ber-, di-), sufiks (akhiran: -kan, -an, -i), infiks (sisipan: -el-, -em-), dan konfiks (gabungan: ke-...-an, pe-...-an)."
+  },
+  {
+    "q": "Bagaimana cara menentukan kalimat utama dalam sebuah paragraf?",
+    "a": "Kalimat utama adalah kalimat yang mengandung gagasan pokok paragraf. Cara menentukannya: cari kalimat yang paling umum dan mencakup isi seluruh paragraf. Kalimat utama biasanya berada di awal (deduktif) atau akhir (induktif) paragraf."
+  },
+  {
+    "q": "Apa yang dimaksud dengan kata berimbuhan me-N?",
+    "a": "Me-N adalah prefiks 'me-' yang mengalami perubahan nasal sesuai huruf awal kata dasar. Contoh: me- + tulis → menulis (N=n), me- + baca → membaca (N=m), me- + sapu → menyapu (N=ny), me- + ganggu → mengganggu (N=ng)."
+  },
+  {
+    "q": "Apa yang dimaksud dengan akronim?",
+    "a": "Akronim adalah singkatan yang dibentuk dari huruf awal atau suku kata dan dilafalkan sebagai sebuah kata. Contoh: 'ABRI' (Angkatan Bersenjata Republik Indonesia), 'tilang' (bukti pelanggaran), 'rudal' (peluru kendali). Berbeda dengan singkatan yang dieja huruf per huruf."
+  },
+  {
+    "q": "Apa perbedaan antara singkatan dan akronim?",
+    "a": "Singkatan dieja huruf per huruf, contoh: 'PBB' dieja Pe-Be-Be. Akronim dibaca sebagai kata utuh, contoh: 'NATO' dibaca /nato/ bukan /en-ei-ti-ou/. Dalam bahasa Indonesia, contoh singkatan: 'DPR', contoh akronim: 'radar' (radio detection and ranging)."
+  },
+  {
+    "q": "Apa yang dimaksud dengan diftongisasi dalam bahasa Indonesia?",
+    "a": "Diftongisasi adalah perubahan bunyi vokal tunggal menjadi diftong (kombinasi dua vokal). Contoh: kata 'air' awalnya /air/ menjadi diftong /aj/. Proses ini sering terjadi dalam penyebaran bahasa regional dan perubahan dialektal dari waktu ke waktu."
+  },
+  {
+    "q": "Apa itu huruf mati dalam sistem penulisan aksara silabis?",
+    "a": "Huruf mati adalah aksara yang mewakili konsonan tanpa vokal inheren, berbeda dengan sistem aksara Jawa atau Sunda yang melekat vokal 'a' secara otomatis. Dalam aksara Latin yang digunakan Indonesia, huruf tidak memiliki vokal melekat, sehingga setiap konsonan harus diikuti vokal eksplisit untuk membentuk suku kata."
+  },
+  {
+    "q": "Bagaimana aturan penulisan bilangan dalam bahasa Indonesia?",
+    "a": "Bilangan nol sampai sembilan ditulis dengan huruf, contoh: 'lima buku'. Bilangan sepuluh ke atas dapat ditulis dengan angka, contoh: '15 orang'. Bilangan yang digunakan pada awal kalimat selalu ditulis dengan huruf, contoh: 'lima belas siswa datang.' Angka jutaan dan miliaran dapat ditulis dengan kombinasi angka dan huruf untuk kejelasan."
+  },
+  {
+    "q": "Apa yang dimaksud dengan huruf 'q' dan kapan digunakan dalam bahasa Indonesia?",
+    "a": "Huruf 'q' jarang digunakan dalam bahasa Indonesia dan biasanya hanya muncul dalam kata serapan dari bahasa Arab atau asing. Contoh: 'qaum' (bangsa), 'qipao' (baju tradisional Cina). Dalam ejaan bahasa Indonesia baku, 'q' diganti dengan 'k' atau kombinasi huruf lain untuk sebagian besar kata."
+  },
+  {
+    "q": "Apa yang dimaksud dengan ligatur dalam penulisan?",
+    "a": "Ligatur adalah kombinasi dua atau lebih huruf yang ditulis menyatu sebagai satu unit dalam tipografi tertentu. Contoh: 'fi', 'fl', 'ff' dalam bahasa Inggris sering ditulis menyatu dalam font tertentu. Dalam bahasa Indonesia, ligatur jarang digunakan, tetapi penting dalam pengetahuan tipografi dan desain teks."
+  },
+  {
+    "q": "Apa itu transkripsi fonetik dan bagaimana kegunaannya?",
+    "a": "Transkripsi fonetik adalah cara menulis bunyi bahasa menggunakan simbol khusus (IPA - International Phonetic Alphabet). Contoh: kata 'anak' dalam IPA ditulis /ˈa.nak/ menunjukkan stres pada suku pertama. Transkripsi fonetik membantu linguist mempelajari dan membandingkan bunyi antar bahasa."
+  },
+  {
+    "q": "Bagaimana cara membedakan penggunaan 'x' dalam bahasa Indonesia?",
+    "a": "Huruf 'x' jarang digunakan dalam bahasa Indonesia baku. Jika muncul, biasanya dalam kata serapan asing seperti 'eksamen', 'ekspor', 'maksimum'. Dalam penggunaan modern, 'x' sering digunakan dalam istilah teknologi seperti 'x-ray' atau nama brand. Alternatif bahasa Indonesia adalah mengganti dengan 'ks' atau 'kh'."
+  },
+  {
+    "q": "Apa yang dimaksud dengan heteronym dalam bahasa?",
+    "a": "Heteronym adalah kata yang memiliki ejaan dan pengucapan sama tetapi makna berbeda dan berasal dari asal-usul berbeda. Contoh dalam bahasa Inggris: 'bow' (membungkuk) vs 'bow' (tali busur). Dalam bahasa Indonesia, contoh: 'peran' (peranan) vs 'paran' (jarang digunakan). Heteronym berbeda dengan homonim karena asal-usulnya berbeda."
+  },
+  {
+    "q": "Apa yang dimaksud dengan bahasa baku dan bahasa non-baku?",
+    "a": "Bahasa baku adalah bahasa yang mengikuti kaidah, tata bahasa, dan ejaan resmi yang ditetapkan oleh lembaga terkait seperti BADAN BAHASA. Bahasa non-baku adalah bahasa yang menyimpang dari aturan, termasuk dialek regional atau bahasa percakapan sehari-hari. Bahasa baku digunakan dalam penulisan formal dan media massa."
+  },
+  {
+    "q": "Bagaimana cara mengidentifikasi suku kata terbuka dan suku kata tertutup?",
+    "a": "Suku kata terbuka adalah suku yang berakhir dengan vokal, contoh: 'ba-gu' (ba dan gu keduanya terbuka). Suku kata tertutup berakhir dengan konsonan, contoh: 'nak' dalam 'anak' adalah suku tertutup karena berakhir 'k'. Bahasa Indonesia didominasi suku terbuka, yang mempengaruhi ritme dan intonasi pengucapan."
+  },
+  {
+    "q": "Apa yang dimaksud dengan afiksasi dalam pembentukan kata?",
+    "a": "Afiksasi adalah proses penambahan afiks (imbuhan) pada kata dasar untuk membentuk kata baru. Jenis afiksasi meliputi: (1) prefiks 'me- +baca → membaca', (2) sufiks 'rumah + -an → rumahan', (3) konfiks 'ke- + indah + -an → keindahan'. Afiksasi adalah cara paling produktif pembentukan kata baru dalam bahasa Indonesia."
+  },
+  {
+    "q": "Apa itu aproksiman atau bunyi hampiran dalam fonologi?",
+    "a": "Aproksiman adalah bunyi yang dihasilkan dengan penyempitan saluran vokal tetapi tidak cukup untuk menyebabkan gesekan. Contoh: bunyi 'w' dalam 'warna', 'y' dalam 'yang', 'r' dalam 'rapi'. Aproksiman lebih sengau daripada konsonan penuh tetapi bukan vokal. Bunyi aproksiman penting dalam struktur suku kata."
+  },
+  {
+    "q": "Bagaimana cara menentukan jumlah morfem dalam sebuah kata?",
+    "a": "Untuk menentukan jumlah morfem, pisahkan kata menjadi unit-unit bermakna terkecil. Contoh: 'ketidaksengajaan' terdiri dari 4 morfem: 'ke-' + 'tidak' + 'sengaja' + '-an'. Kata yang hanya terdiri dari akar tanpa imbuhan memiliki 1 morfem seperti 'meja'. Semakin banyak imbuhan, semakin banyak morfem dalam sebuah kata."
+  },
+  {
+    "q": "Apa yang dimaksud dengan asimilasi dalam pengucapan antar huruf?",
+    "a": "Asimilasi adalah perubahan bunyi saat bersebelahan dengan bunyi lain, sehingga satu bunyi menyerupai bunyi lainnya. Contoh: 'menjadi' dalam pengucapan cepat seringkali '/mənjadi/' menjadi lebih homogen. Asimilasi sering terjadi dalam bahasa lisan dan mempengaruhi pengucapan alami dalam percakapan sehari-hari."
+  },
+  {
+    "q": "Apa yang dimaksud dengan derivan atau kata turunan?",
+    "a": "Derivan adalah kata yang terbentuk dari cara dasar melalui proses pembentukan kata seperti afiksasi, reduplikasi, atau komposisi. Contoh: 'rumahan' adalah derivan dari 'rumah', 'keindahan' adalah derivan dari 'indah'. Derivan memiliki makna yang berbeda atau diperluas dari kata dasarnya."
+  },
+  {
+    "q": "Bagaimana aturan penulisan setiap jenis kata depan yang berbeda?",
+    "a": "Kata depan ditulis terpisah dari kata yang mengikutinya: 'di' (tempat: di rumah), 'ke' (arah: ke sekolah), 'dari' (asal: dari Jakarta), 'pada' (waktu: pada Januari), 'untuk' (tujuan: untuk pembelajaran), 'dengan' (alat/cara: dengan mobil), 'oleh' (pelaku pasif: oleh guru). Penulisan terpisah ini membedakan mereka dari imbuhan."
+  }
+]

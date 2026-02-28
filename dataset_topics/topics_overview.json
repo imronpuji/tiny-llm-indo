@@ -1,0 +1,187 @@
+[
+  {
+    "topic": "CONVERSATIONAL / CHATBOT",
+    "file": "conversational_chatbot.json",
+    "samples": 30
+  },
+  {
+    "topic": "PENGETAHUAN UMUM INDONESIA",
+    "file": "pengetahuan_umum_indonesia.json",
+    "samples": 25
+  },
+  {
+    "topic": "GEOGRAFI INDONESIA",
+    "file": "geografi_indonesia.json",
+    "samples": 22
+  },
+  {
+    "topic": "SEJARAH INDONESIA",
+    "file": "sejarah_indonesia.json",
+    "samples": 22
+  },
+  {
+    "topic": "BUDAYA INDONESIA",
+    "file": "budaya_indonesia.json",
+    "samples": 20
+  },
+  {
+    "topic": "TEKNOLOGI & KOMPUTER",
+    "file": "teknologi_komputer.json",
+    "samples": 22
+  },
+  {
+    "topic": "PROGRAMMING",
+    "file": "programming.json",
+    "samples": 20
+  },
+  {
+    "topic": "TEKNOLOGI & AI — PENJELASAN MENDALAM",
+    "file": "teknologi_ai_penjelasan_mendalam.json",
+    "samples": 26
+  },
+  {
+    "topic": "SAINS",
+    "file": "sains.json",
+    "samples": 21
+  },
+  {
+    "topic": "MATEMATIKA",
+    "file": "matematika.json",
+    "samples": 18
+  },
+  {
+    "topic": "BAHASA",
+    "file": "bahasa.json",
+    "samples": 10
+  },
+  {
+    "topic": "KESEHATAN",
+    "file": "kesehatan.json",
+    "samples": 15
+  },
+  {
+    "topic": "KEHIDUPAN SEHARI-HARI",
+    "file": "kehidupan_sehari_hari.json",
+    "samples": 8
+  },
+  {
+    "topic": "EKONOMI",
+    "file": "ekonomi.json",
+    "samples": 10
+  },
+  {
+    "topic": "PENDIDIKAN",
+    "file": "pendidikan.json",
+    "samples": 6
+  },
+  {
+    "topic": "PANCASILA & KEWARGANEGARAAN",
+    "file": "pancasila_kewarganegaraan.json",
+    "samples": 14
+  },
+  {
+    "topic": "OLAHRAGA",
+    "file": "olahraga.json",
+    "samples": 8
+  },
+  {
+    "topic": "MUSIK & SENI",
+    "file": "musik_seni.json",
+    "samples": 8
+  },
+  {
+    "topic": "ALAM & LINGKUNGAN",
+    "file": "alam_lingkungan.json",
+    "samples": 10
+  },
+  {
+    "topic": "KETERBATASAN & KEJUJURAN AI",
+    "file": "keterbatasan_kejujuran_ai.json",
+    "samples": 21
+  },
+  {
+    "topic": "JAWABAN \"TIDAK TAHU\" UNTUK PERTANYAAN RANDOM",
+    "file": "jawaban_tidak_tahu_untuk_pertanyaan_random.json",
+    "samples": 23
+  },
+  {
+    "topic": "KOTA-KOTA INDONESIA",
+    "file": "kota_kota_indonesia.json",
+    "samples": 15
+  },
+  {
+    "topic": "MAKANAN INDONESIA",
+    "file": "makanan_indonesia.json",
+    "samples": 14
+  },
+  {
+    "topic": "PERCAKAPAN LEBIH NATURAL",
+    "file": "percakapan_lebih_natural.json",
+    "samples": 21
+  },
+  {
+    "topic": "ANGKA & MATEMATIKA DASAR",
+    "file": "angka_matematika_dasar.json",
+    "samples": 10
+  },
+  {
+    "topic": "WAKTU & HARI",
+    "file": "waktu_hari.json",
+    "samples": 7
+  },
+  {
+    "topic": "PENGETAHUAN UMUM TAMBAHAN",
+    "file": "pengetahuan_umum_tambahan.json",
+    "samples": 13
+  },
+  {
+    "topic": "BAHASA & HURUF",
+    "file": "bahasa_huruf.json",
+    "samples": 5
+  },
+  {
+    "topic": "RESPON EMOSI USER",
+    "file": "respon_emosi_user.json",
+    "samples": 10
+  },
+  {
+    "topic": "PERTANYAAN YES/NO",
+    "file": "pertanyaan_yes_no.json",
+    "samples": 7
+  },
+  {
+    "topic": "MATEMATIKA MENENGAH - SOAL CERITA & PENALARAN BERTAHAP",
+    "file": "matematika_menengah_soal_cerita_penalaran_bertahap.json",
+    "samples": 25
+  },
+  {
+    "topic": "KESEHATAN & KEDOKTERAN (PENJELASAN MEKANISME)",
+    "file": "kesehatan_kedokteran_penjelasan_mekanisme.json",
+    "samples": 26
+  },
+  {
+    "topic": "BAHASA INDONESIA & LINGUISTIK ANALITIS",
+    "file": "bahasa_indonesia_linguistik_analitis.json",
+    "samples": 25
+  },
+  {
+    "topic": "UMKM PERCAKAPAN PRAKTIS",
+    "file": "umkm_percakapan.json",
+    "samples": 60
+  },
+  {
+    "q": "Berapa jumlah topik utama yang tercakup dalam dataset ini?",
+    "a": "Dataset ini mencakup 34 topik utama, mulai dari percakapan/chatbot, pengetahuan umum Indonesia, geografi, sejarah, hingga topik spesifik seperti UMKM percakapan yang memiliki 60 sampel. Topik-topik ini dirancang untuk memberikan cakupan luas tentang berbagai aspek pengetahuan dan keterampilan komunikasi.",
+    "cot": "Untuk menjawab pertanyaan ini, saya perlu menghitung seluruh topik yang terdaftar dalam dataset. Dimulai dari 1) CONVERSATIONAL/CHATBOT hingga 34) UMKM PERCAKAPAN PRAKTIS. Setiap topik memiliki jumlah sampel yang bervariasi, dengan total sampel mencapai ratusan pasangan QA untuk pelatihan model."
+  },
+  {
+    "q": "Topik mana yang memiliki jumlah sampel paling banyak dalam dataset ini?",
+    "a": "Topik UMKM PERCAKAPAN PRAKTIS memiliki jumlah sampel terbanyak dengan 60 pasangan QA. Ini diikuti oleh topik CONVERSATIONAL/CHATBOT dengan 30 sampel dan MATEMATIKA MENENGAH - SOAL CERITA & PENALARAN BERTAHAP serta KESEHATAN & KEDOKTERAN (PENJELASAN MEKANISME) yang masing-masing memiliki 25-26 sampel.",
+    "cot": "Strategi untuk menemukan topik dengan sampel terbanyak adalah dengan membandingkan nilai 'samples' di setiap entri. Melalui scanning systematic, UMKM PERCAKAPAN PRAKTIS dengan 60 sampel menonjol sebagai yang terbesar. Topik ini likely didukung dengan banyak variasi karena pentingnya dalam pelatihan conversational AI untuk konteks bisnis lokal Indonesia."
+  },
+  {
+    "q": "Apa saja kategori utama pengetahuan yang direpresentasikan dalam dataset ini?",
+    "a": "Dataset ini merepresentasikan enam kategori utama pengetahuan: 1) Percakapan & Komunikasi (conversational, natural, UMKM), 2) Pengetahuan Indonesia (geografi, sejarah, budaya, kota, makanan), 3) Pendidikan Formal (matematika, bahasa, sains, pendidikan, kewarganegaraan), 4) Teknologi & Programming, 5) Kesehatan & Sains, serta 6) Topik Khusus (emosi, AI limitations, respon natural).",
+    "cot": "Dengan mengelompokkan 34 topik berdasarkan kategori semantik mereka, saya identifikasi pola struktural dalam dataset. Grouping ini membantu memahami philosophy di balik kurasi dataset - menciptakan model AI yang versatile untuk menjawab pertanyaan spesifik Indonesia sambil tetap mampu berpartisipasi dalam percakapan natural. Kategorisasi ini ensures balanced representation across multiple domains of knowledge and skills."
+  }
+]

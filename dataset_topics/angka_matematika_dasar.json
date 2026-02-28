@@ -1,0 +1,514 @@
+[
+  {
+    "q": "Berapa 1+1?",
+    "a": "1+1 sama dengan 2."
+  },
+  {
+    "q": "Berapa 2+2?",
+    "a": "2+2 sama dengan 4."
+  },
+  {
+    "q": "Berapa 5+5?",
+    "a": "5+5 sama dengan 10."
+  },
+  {
+    "q": "Berapa 10+10?",
+    "a": "10+10 sama dengan 20."
+  },
+  {
+    "q": "Berapa 2x2?",
+    "a": "2x2 sama dengan 4."
+  },
+  {
+    "q": "Berapa 3x3?",
+    "a": "3x3 sama dengan 9."
+  },
+  {
+    "q": "Berapa 5x5?",
+    "a": "5x5 sama dengan 25."
+  },
+  {
+    "q": "Berapa 10x10?",
+    "a": "10x10 sama dengan 100."
+  },
+  {
+    "q": "Berapa 100-50?",
+    "a": "100-50 sama dengan 50."
+  },
+  {
+    "q": "Berapa 10/2?",
+    "a": "10/2 sama dengan 5."
+  },
+  {
+    "q": "Berapa hasil 7 + 5?",
+    "a": "Hasilnya adalah 12."
+  },
+  {
+    "q": "Jika ada 10 apel dan diambil 3, berapa tersisa?",
+    "a": "Tersisa 7 apel."
+  },
+  {
+    "q": "Berapakah hasil 9 × 6?",
+    "a": "Hasilnya 54."
+  },
+  {
+    "q": "Berapakah hasil 20 ÷ 4?",
+    "a": "Hasilnya 5."
+  },
+  {
+    "q": "Apa itu bilangan genap?",
+    "a": "Bilangan genap adalah bilangan yang habis dibagi 2."
+  },
+  {
+    "q": "Apa itu bilangan ganjil?",
+    "a": "Bilangan ganjil adalah bilangan yang tidak habis dibagi 2."
+  },
+  {
+    "q": "Jika panjang 5 dan lebar 3, berapa luas persegi panjang?",
+    "a": "Luasnya 15 satuan persegi."
+  },
+  {
+    "q": "Berapakah nilai 2^3?",
+    "a": "Nilainya 8."
+  },
+  {
+    "q": "Jika membeli 4 buku seharga 15.000 tiap buku, berapa totalnya?",
+    "a": "Totalnya 60.000 rupiah."
+  },
+  {
+    "q": "Bagaimana cara menghitung rata-rata dari 4, 6, dan 8?",
+    "a": "Jumlahkan ketiganya lalu bagi 3 sehingga rata-ratanya 6."
+  },
+  {
+    "q": "Berapa hasil 8-3?",
+    "a": "8-3 sama dengan 5."
+  },
+  {
+    "q": "Berapa hasil 6x7?",
+    "a": "6x7 sama dengan 42."
+  },
+  {
+    "q": "Apa itu bilangan bulat?",
+    "a": "Bilangan bulat adalah bilangan tanpa pecahan, bisa positif, negatif, atau nol."
+  },
+  {
+    "q": "Apa itu pecahan?",
+    "a": "Pecahan adalah bilangan yang menyatakan bagian dari keseluruhan, misal 1/2, 3/4."
+  },
+  {
+    "q": "Berapa hasil 15 dibagi 3?",
+    "a": "15 dibagi 3 sama dengan 5."
+  },
+  {
+    "q": "Jika ada 12 permen dan ditambah 8 permen, berapa jumlahnya?",
+    "a": "Jumlahnya adalah 12 + 8 = 20 permen."
+  },
+  {
+    "q": "Berapa hasil 25 + 15?",
+    "a": "25 + 15 sama dengan 40."
+  },
+  {
+    "q": "Jika tabungan 50.000 rupiah dan ditambah 30.000 rupiah, berapa total tabungan?",
+    "a": "Total tabungan adalah 50.000 + 30.000 = 80.000 rupiah."
+  },
+  {
+    "q": "Jika ada 40 bunga dan 12 bunga layu, berapa bunga yang masih segar?",
+    "a": "Bunga yang masih segar adalah 40 - 12 = 28 bunga."
+  },
+  {
+    "q": "Berapa hasil 75 - 25?",
+    "a": "75 - 25 sama dengan 50."
+  },
+  {
+    "q": "Jika harga barang 100.000 rupiah dan diskon 20.000 rupiah, berapa harga akhirnya?",
+    "a": "Harga akhir adalah 100.000 - 20.000 = 80.000 rupiah."
+  },
+  {
+    "q": "Satu kotak berisi 12 telur. Jika ada 3 kotak, berapa jumlah telur seluruhnya?",
+    "a": "Jumlah telur seluruhnya adalah 12 × 3 = 36 telur."
+  },
+  {
+    "q": "Berapa hasil 8 × 9?",
+    "a": "8 × 9 sama dengan 72."
+  },
+  {
+    "q": "Jika 1 jam memiliki 60 menit, berapa menit dalam 5 jam?",
+    "a": "Dalam 5 jam ada 60 × 5 = 300 menit."
+  },
+  {
+    "q": "Jika 24 kue dibagi ke 4 anak sama banyak, berapa kue bagian masing-masing anak?",
+    "a": "Bagian masing-masing anak adalah 24 ÷ 4 = 6 kue."
+  },
+  {
+    "q": "Berapa hasil 84 ÷ 7?",
+    "a": "84 ÷ 7 sama dengan 12."
+  },
+  {
+    "q": "Jika 200 kilometer ditempuh dalam 4 jam, berapa kilometer per jam kecepatan rata-ratanya?",
+    "a": "Kecepatan rata-rata adalah 200 ÷ 4 = 50 kilometer per jam."
+  },
+  {
+    "q": "Berapa nilai 1/2 (satu per dua) dalam bentuk desimal?",
+    "a": "1/2 dalam bentuk desimal sama dengan 0,5."
+  },
+  {
+    "q": "Jika ada satu kue utuh dan dimakan 1/4 bagian, berapa bagian yang tersisa?",
+    "a": "Bagian yang tersisa adalah 1 - 1/4 = 3/4 dari kue."
+  },
+  {
+    "q": "Mana yang lebih besar, 1/3 atau 1/4?",
+    "a": "1/3 lebih besar dari 1/4 karena 1/3 = 0,333... dan 1/4 = 0,25."
+  },
+  {
+    "q": "Apa itu persentase?",
+    "a": "Persentase adalah cara menyatakan bagian dari seratus. Simbol persentase adalah %. Misalnya, 50% berarti 50 dari 100."
+  },
+  {
+    "q": "Jika 50 dari 100, itu berapa persen?",
+    "a": "50 dari 100 adalah 50% (lima puluh persen)."
+  },
+  {
+    "q": "Jika potongan harga adalah 20% dari 100.000 rupiah, berapa rupiahnya?",
+    "a": "Potongan harga adalah 20% × 100.000 = (20/100) × 100.000 = 20.000 rupiah."
+  },
+  {
+    "q": "Andi punya 5 kelereng, Budi punya 5 kelereng, berapa total kelereng mereka?",
+    "a": "Total kelereng adalah 5 + 5 = 10 kelereng. Ini adalah contoh menggandakan bilangan (double)."
+  },
+  {
+    "q": "Jika uang Rini 45.000 rupiah dan uang Siti 55.000 rupiah, berapa total uang mereka?",
+    "a": "Total uang adalah 45.000 + 55.000 = 100.000 rupiah."
+  },
+  {
+    "q": "Berapa 7 + 8?",
+    "a": "7 + 8 sama dengan 15. Cara mudahnya, ambil 3 dari 8 untuk membuat 7 menjadi 10, lalu tambahkan 5 sisanya, jadi 10 + 5 = 15."
+  },
+  {
+    "q": "Jika ada 20 buah jeruk dan ibu membeli 12 buah lagi, berapa total jeruk sekarang?",
+    "a": "Total jeruk adalah 20 + 12 = 32 buah jeruk."
+  },
+  {
+    "q": "Bilangan mana yang lebih besar: 37 atau 73?",
+    "a": "73 lebih besar dari 37. Karena angka puluhan pada 73 yaitu 7 lebih besar dari 3."
+  },
+  {
+    "q": "Jika pulpen berharga 2.500 rupiah dan membeli 6 pulpen, berapa totalnya?",
+    "a": "Total harga adalah 2.500 × 6 = 15.000 rupiah."
+  },
+  {
+    "q": "Apa artinya 3 × 4? Jelaskan dengan contoh.",
+    "a": "3 × 4 artinya 3 kelompok yang masing-masing berisi 4 benda. Misalnya 3 keranjang berisi 4 buah apel, totalnya 12 apel. Jadi 3 × 4 = 12."
+  },
+  {
+    "q": "Jika sebelum ada 18 pensil dan hilang 5 pensil, berapa yang tersisa?",
+    "a": "Pensil yang tersisa adalah 18 - 5 = 13 pensil."
+  },
+  {
+    "q": "Urutan bilangan dari terkecil: 45, 24, 52, 18. Bagaimana urutan yang benar?",
+    "a": "Urutan dari terkecil adalah: 18, 24, 45, 52."
+  },
+  {
+    "q": "Berapa 6 + 6 + 6? Hubungkan dengan perkalian.",
+    "a": "6 + 6 + 6 = 18. Ini adalah perkalian 3 × 6 = 18 (tiga kali enam)."
+  },
+  {
+    "q": "Jika satu kemasan cokelat berisi 8 cokelat dan ada 5 kemasan, berapa total cokelat?",
+    "a": "Total cokelat adalah 8 × 5 = 40 cokelat."
+  },
+  {
+    "q": "Apa itu nilai tempat? Jelaskan nilai tempat di angka 24.",
+    "a": "Nilai tempat menunjukkan berapa banyak setiap digit bernilai. Pada angka 24, angka 2 adalah puluhan (20) dan angka 4 adalah satuan (4)."
+  },
+  {
+    "q": "Jika 36 permen dibagi sama rata ke 6 anak, per anak dapat berapa permen?",
+    "a": "Setiap anak mendapat 36 ÷ 6 = 6 permen."
+  },
+  {
+    "q": "Mana yang lebih berat: 15 kg atau 51 kg?",
+    "a": "51 kg lebih berat dari 15 kg. 51 adalah bilangan yang lebih besar dari 15."
+  },
+  {
+    "q": "Berapa setengah dari 30? Jelaskan dengan contoh.",
+    "a": "Setengah dari 30 adalah 15. Contohnya, jika kamu punya 30 mainan dan memberi teman setengahnya, maka temanmu dapat 15 mainan."
+  },
+  {
+    "q": "Jika kamu punya 3 uang seribuan dan 4 uang lima ratusan, berapa total uangmu?",
+    "a": "Total adalah (3 × 1.000) + (4 × 500) = 3.000 + 2.000 = 5.000 rupiah."
+  },
+  {
+    "q": "Tuliskan bilangan berikutnya dalam pola: 2, 4, 6, 8, ?",
+    "a": "Bilangan berikutnya adalah 10. Ini adalah pola bilangan genap yang bertambah 2 setiap kali."
+  },
+  {
+    "q": "Jika dua pizza dibagi menjadi 8 potongan total, berapa potongan per pizza?",
+    "a": "Setiap pizza memiliki 8 ÷ 2 = 4 potongan."
+  },
+  {
+    "q": "Apa yang terjadi jika sebuah bilangan dikalikan 0? Berikan contoh.",
+    "a": "Hasilnya selalu 0. Misalnya 7 × 0 = 0, 15 × 0 = 0. Ini karena tidak ada kelompok benda yang dihitung."
+  },
+  {
+    "q": "Jika ada 29 mangga dan dibagi sama rata ke 5 orang, berapa mangga per orang dan berapa sisanya?",
+    "a": "Setiap orang mendapat 29 ÷ 5 = 5 mangga dengan sisa 4. Karena 5 × 5 = 25 dan 29 - 25 = 4."
+  },
+  {
+    "q": "Jika suatu bilangan dikalikan 10, apa yang terjadi pada angka-angkanya?",
+    "a": "Ketika bilangan dikalikan 10, angka-angkanya bergeser satu tempat ke kiri dan ditambahkan 0 di belakang. Misalnya 25 × 10 = 250."
+  },
+  {
+    "q": "Tuliskan bilangan berikutnya dalam pola: 1, 1, 2, 3, 5, 8, ?",
+    "a": "Bilangan berikutnya adalah 13. Ini adalah pola Fibonacci di mana setiap bilangan adalah jumlah dua bilangan sebelumnya (5 + 8 = 13)."
+  },
+  {
+    "q": "Apa perbedaan antara bilangan prima dan bilangan komposit? Berikan masing-masing satu contoh.",
+    "a": "Bilangan prima hanya bisa dibagi 1 dan dirinya sendiri, contohnya 7. Bilangan komposit bisa dibagi oleh bilangan lain selain 1 dan dirinya, contohnya 12 (bisa dibagi 2, 3, 4, 6)."
+  },
+  {
+    "q": "Jika satu liter air dibagi sama rata ke 4 gelas, berapa liter per gelas?",
+    "a": "Setiap gelas mendapat 1 ÷ 4 = 1/4 liter atau 0,25 liter (250 mililiter)."
+  },
+  {
+    "q": "Sebutkan 5 bilangan prima pertama!",
+    "a": "Lima bilangan prima pertama adalah 2, 3, 5, 7, dan 11. Bilangan prima adalah bilangan yang hanya memiliki dua faktor, yaitu 1 dan dirinya sendiri."
+  },
+  {
+    "q": "Apakah angka 1 termasuk bilangan prima?",
+    "a": "Tidak, angka 1 bukan bilangan prima. Bilangan prima harus memiliki tepat dua faktor berbeda, sedangkan 1 hanya memiliki satu faktor yaitu dirinya sendiri."
+  },
+  {
+    "q": "Berapa KPK (Kelipatan Persekutuan Terkecil) dari 4 dan 6?",
+    "a": "KPK dari 4 dan 6 adalah 12. Kelipatan 4: 4, 8, 12, 16, ... dan kelipatan 6: 6, 12, 18, ... Kelipatan persekutuan terkecilnya adalah 12."
+  },
+  {
+    "q": "Berapa FPB (Faktor Persekutuan Terbesar) dari 12 dan 18?",
+    "a": "FPB dari 12 dan 18 adalah 6. Faktor 12: 1, 2, 3, 4, 6, 12 dan faktor 18: 1, 2, 3, 6, 9, 18. Faktor persekutuan terbesarnya adalah 6."
+  },
+  {
+    "q": "Bagaimana cara mengubah pecahan 3/4 menjadi persen?",
+    "a": "Untuk mengubah 3/4 menjadi persen, bagi 3 dengan 4 lalu kalikan 100. Jadi 3 ÷ 4 = 0,75, kemudian 0,75 × 100 = 75%."
+  },
+  {
+    "q": "Berapa akar kuadrat dari 49?",
+    "a": "Akar kuadrat dari 49 adalah 7, karena 7 × 7 = 49."
+  },
+  {
+    "q": "Apa itu bilangan negatif? Berikan contohnya.",
+    "a": "Bilangan negatif adalah bilangan yang nilainya kurang dari nol, ditandai dengan simbol minus (-). Contohnya -3, -10, -25. Bilangan negatif sering digunakan untuk menyatakan suhu di bawah nol atau utang."
+  },
+  {
+    "q": "Berapa hasil dari -5 + 3?",
+    "a": "Hasil dari -5 + 3 adalah -2. Bayangkan kamu berada di posisi -5 pada garis bilangan, lalu bergerak 3 langkah ke kanan, sehingga sampai di -2."
+  },
+  {
+    "q": "Berapa keliling persegi dengan sisi 8 cm?",
+    "a": "Keliling persegi adalah 4 × sisi = 4 × 8 = 32 cm."
+  },
+  {
+    "q": "Berapa luas segitiga dengan alas 10 cm dan tinggi 6 cm?",
+    "a": "Luas segitiga = 1/2 × alas × tinggi = 1/2 × 10 × 6 = 30 cm²."
+  },
+  {
+    "q": "Berapa keliling lingkaran dengan jari-jari 7 cm? Gunakan π = 22/7.",
+    "a": "Keliling lingkaran = 2 × π × r = 2 × 22/7 × 7 = 44 cm."
+  },
+  {
+    "q": "Berapa luas lingkaran dengan jari-jari 7 cm? Gunakan π = 22/7.",
+    "a": "Luas lingkaran = π × r² = 22/7 × 7 × 7 = 154 cm²."
+  },
+  {
+    "q": "1 kilometer sama dengan berapa meter?",
+    "a": "1 kilometer sama dengan 1.000 meter. Awalan 'kilo' berarti seribu."
+  },
+  {
+    "q": "1 kilogram sama dengan berapa gram?",
+    "a": "1 kilogram sama dengan 1.000 gram. Awalan 'kilo' dalam satuan metrik selalu berarti seribu."
+  },
+  {
+    "q": "Bagaimana cara mengubah 2,5 km menjadi meter?",
+    "a": "Kalikan dengan 1.000, jadi 2,5 km = 2,5 × 1.000 = 2.500 meter."
+  },
+  {
+    "q": "Berapa hasil dari 3 + 5 × 2?",
+    "a": "Hasilnya adalah 13. Menurut aturan operasi hitung, perkalian dikerjakan terlebih dahulu: 5 × 2 = 10, lalu 3 + 10 = 13."
+  },
+  {
+    "q": "Berapa hasil dari (3 + 5) × 2?",
+    "a": "Hasilnya adalah 16. Dalam kurung dikerjakan terlebih dahulu: 3 + 5 = 8, lalu 8 × 2 = 16."
+  },
+  {
+    "q": "Apa itu sifat komutatif dalam penjumlahan?",
+    "a": "Sifat komutatif berarti urutan bilangan yang dijumlahkan boleh ditukar tanpa mengubah hasilnya. Misalnya 3 + 7 = 7 + 3 = 10."
+  },
+  {
+    "q": "Apa itu sifat distributif dalam perkalian terhadap penjumlahan?",
+    "a": "Sifat distributif berarti a × (b + c) = (a × b) + (a × c). Contoh: 3 × (4 + 5) = (3 × 4) + (3 × 5) = 12 + 15 = 27."
+  },
+  {
+    "q": "Berapa 25% dari 200?",
+    "a": "25% dari 200 = 25/100 × 200 = 50."
+  },
+  {
+    "q": "Bagaimana cara mengubah desimal 0,75 menjadi pecahan?",
+    "a": "0,75 = 75/100. Sederhanakan dengan membagi pembilang dan penyebut dengan 25, menjadi 3/4."
+  },
+  {
+    "q": "Berapa hasil dari 1/3 + 1/6?",
+    "a": "Samakan penyebutnya terlebih dahulu. 1/3 = 2/6, lalu 2/6 + 1/6 = 3/6 = 1/2."
+  },
+  {
+    "q": "Pecahan campuran 2 1/2 sama dengan pecahan biasa berapa?",
+    "a": "2 1/2 = (2 × 2 + 1)/2 = 5/2. Caranya, kalikan bilangan bulat dengan penyebut lalu tambahkan pembilang."
+  },
+  {
+    "q": "Berapa hasil dari 0,3 + 0,7?",
+    "a": "0,3 + 0,7 = 1,0 atau sama dengan 1."
+  },
+  {
+    "q": "Berapa hasil dari 2,5 × 4?",
+    "a": "2,5 × 4 = 10. Cara mudahnya, 2 × 4 = 8 dan 0,5 × 4 = 2, lalu 8 + 2 = 10."
+  },
+  {
+    "q": "Tuliskan angka 14 dalam bilangan Romawi.",
+    "a": "14 dalam bilangan Romawi ditulis XIV. X = 10, IV = 4 (5 dikurangi 1), jadi X + IV = XIV."
+  },
+  {
+    "q": "Bilangan Romawi XXVII sama dengan berapa?",
+    "a": "XXVII = 27. XX = 20, V = 5, II = 2. Jadi 20 + 5 + 2 = 27."
+  },
+  {
+    "q": "Berapa hasil dari 5 pangkat 3 (5³)?",
+    "a": "5³ = 5 × 5 × 5 = 125. Artinya angka 5 dikalikan dengan dirinya sendiri sebanyak 3 kali."
+  },
+  {
+    "q": "Berapa akar kuadrat dari 144?",
+    "a": "Akar kuadrat dari 144 adalah 12, karena 12 × 12 = 144."
+  },
+  {
+    "q": "Jika perbandingan anak laki-laki dan perempuan di kelas adalah 3:2 dan total siswa 30, berapa jumlah anak perempuan?",
+    "a": "Total rasio = 3 + 2 = 5. Bagian perempuan = 2/5 × 30 = 12. Jadi ada 12 anak perempuan."
+  },
+  {
+    "q": "Apa itu bilangan kelipatan? Berikan contoh kelipatan 3.",
+    "a": "Bilangan kelipatan adalah hasil perkalian suatu bilangan dengan bilangan bulat positif. Kelipatan 3 adalah 3, 6, 9, 12, 15, 18, dan seterusnya."
+  },
+  {
+    "q": "Sebutkan semua faktor dari bilangan 24.",
+    "a": "Faktor dari 24 adalah 1, 2, 3, 4, 6, 8, 12, dan 24. Faktor adalah bilangan yang dapat membagi habis bilangan tersebut."
+  },
+  {
+    "q": "Berapa hasil dari 12 × 11?",
+    "a": "12 × 11 = 132. Cara cepatnya: 12 × 10 = 120, lalu tambah 12 × 1 = 12, sehingga 120 + 12 = 132."
+  },
+  {
+    "q": "Jika suhu pagi hari 18°C dan siang hari naik 15°C, berapa suhu siang hari?",
+    "a": "Suhu siang hari adalah 18 + 15 = 33°C."
+  },
+  {
+    "q": "Berapa hasil dari 1.000 ÷ 8?",
+    "a": "1.000 ÷ 8 = 125."
+  },
+  {
+    "q": "Apa perbedaan antara luas dan keliling?",
+    "a": "Keliling adalah panjang total sisi-sisi luar suatu bangun datar, sedangkan luas adalah ukuran besar permukaan di dalam bangun datar tersebut. Keliling diukur dalam satuan panjang (cm), sedangkan luas dalam satuan persegi (cm²)."
+  },
+  {
+    "q": "Berapa jumlah sudut dalam segitiga?",
+    "a": "Jumlah ketiga sudut dalam segitiga selalu 180 derajat. Misalnya, jika dua sudut adalah 60° dan 70°, maka sudut ketiga adalah 180° - 60° - 70° = 50°."
+  },
+  {
+    "q": "Apa itu bilangan kuadrat sempurna? Sebutkan 5 contohnya.",
+    "a": "Bilangan kuadrat sempurna adalah bilangan yang merupakan hasil perkalian suatu bilangan bulat dengan dirinya sendiri. Lima contohnya: 1 (1×1), 4 (2×2), 9 (3×3), 16 (4×4), dan 25 (5×5)."
+  },
+  {
+    "q": "Jika sebuah mobil berjalan 60 km/jam selama 2,5 jam, berapa jarak yang ditempuh?",
+    "a": "Jarak = kecepatan × waktu = 60 × 2,5 = 150 km."
+  },
+  {
+    "q": "Berapa 3/5 dari 100?",
+    "a": "3/5 dari 100 = 3/5 × 100 = 60."
+  },
+  {
+    "q": "Bagaimana cara menghitung volume balok dengan panjang 5 cm, lebar 3 cm, dan tinggi 4 cm?",
+    "a": "Volume balok = panjang × lebar × tinggi = 5 × 3 × 4 = 60 cm³."
+  },
+  {
+    "q": "Berapa volume kubus dengan sisi 6 cm?",
+    "a": "Volume kubus = sisi × sisi × sisi = 6 × 6 × 6 = 216 cm³."
+  },
+  {
+    "q": "1 jam berapa detik?",
+    "a": "1 jam = 60 menit, dan 1 menit = 60 detik. Jadi 1 jam = 60 × 60 = 3.600 detik."
+  },
+  {
+    "q": "Berapa hasil dari -3 × (-4)?",
+    "a": "Hasilnya adalah 12. Perkalian dua bilangan negatif menghasilkan bilangan positif, jadi -3 × (-4) = 12."
+  },
+  {
+    "q": "Apa yang dimaksud dengan bilangan cacah?",
+    "a": "Bilangan cacah adalah bilangan bulat yang dimulai dari nol, yaitu 0, 1, 2, 3, 4, dan seterusnya. Bilangan cacah tidak termasuk bilangan negatif."
+  },
+  {
+    "q": "Bilangan berikutnya dalam pola 3, 6, 12, 24, ... adalah berapa?",
+    "a": "Bilangan berikutnya adalah 48. Pola ini adalah deret geometri dengan rasio 2, artinya setiap bilangan dikalikan 2 untuk mendapatkan bilangan berikutnya."
+  },
+  {
+    "q": "Berapa hasil dari 2/3 × 3/4?",
+    "a": "2/3 × 3/4 = (2×3)/(3×4) = 6/12 = 1/2. Kalikan pembilang dengan pembilang dan penyebut dengan penyebut, lalu sederhanakan."
+  },
+  {
+    "q": "Berapa hasil dari 1/2 ÷ 1/4?",
+    "a": "1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2. Pembagian pecahan dilakukan dengan mengalikan pecahan pertama dengan kebalikan pecahan kedua."
+  },
+  {
+    "q": "Jika 5 orang bisa menyelesaikan pekerjaan dalam 12 hari, berapa hari jika dikerjakan 10 orang?",
+    "a": "Ini adalah perbandingan berbalik nilai. 5 × 12 = 10 × x, maka x = 60/10 = 6 hari. Jadi 10 orang bisa menyelesaikan pekerjaan dalam 6 hari."
+  },
+  {
+    "q": "Apa itu median? Berapa median dari data 3, 7, 1, 9, 5?",
+    "a": "Median adalah nilai tengah setelah data diurutkan. Urutan: 1, 3, 5, 7, 9. Karena ada 5 data, mediannya adalah data ke-3 yaitu 5."
+  },
+  {
+    "q": "Apa itu modus dalam statistik? Berapa modus dari data 2, 3, 3, 5, 3, 7?",
+    "a": "Modus adalah nilai yang paling sering muncul dalam data. Dari data 2, 3, 3, 5, 3, 7, angka 3 muncul 3 kali, yang paling banyak. Jadi modusnya adalah 3."
+  },
+  {
+    "q": "Apa artinya membulatkan bilangan? Bulatkan 47 ke puluhan terdekat.",
+    "a": "Membulatkan adalah menyederhanakan bilangan ke nilai yang lebih bulat. 47 lebih dekat ke 50 daripada 40, maka 47 dibulatkan menjadi 50."
+  },
+  {
+    "q": "Bulatkan 123 ke ratusan terdekat.",
+    "a": "123 lebih dekat ke 100 daripada 200, karena selisih ke 100 adalah 23 sedangkan ke 200 adalah 77. Jadi 123 dibulatkan menjadi 100."
+  },
+  {
+    "q": "Jika ada 30 siswa yang terdiri dari 12 siswa laki-laki, berapa rasio siswa perempuan terhadap total siswa?",
+    "a": "Siswa perempuan = 30 - 12 = 18. Rasio siswa perempuan terhadap total adalah 18:30, yang dapat disederhanakan menjadi 3:5."
+  },
+  {
+    "q": "Bilangan berapa jika ditambah 18 hasilnya 50?",
+    "a": "Bilangan tersebut adalah 32. Karena 32 + 18 = 50. Cara menemukannya: 50 - 18 = 32."
+  },
+  {
+    "q": "Jika sebuah bilangan dikalikan 7 hasilnya 63, bilangan berapa itu?",
+    "a": "Bilangan tersebut adalah 9. Karena 9 × 7 = 63. Cara menemukannya: 63 ÷ 7 = 9."
+  },
+  {
+    "q": "Jika harga satu buah buku 8.500 rupiah dan Ani membeli 3 buku dengan uang 50.000 rupiah, berapa kembaliannya?",
+    "a": "Total harga = 8.500 × 3 = 25.500 rupiah. Kembalian = 50.000 - 25.500 = 24.500 rupiah."
+  },
+  {
+    "q": "Berapa hasil dari 14 × 13?",
+    "a": "14 × 13 = 182. Cara mudahnya, 14 × 10 = 140 dan 14 × 3 = 42, lalu 140 + 42 = 182."
+  },
+  {
+    "q": "Jika 1 meter = 100 sentimeter, maka 2,5 meter sama dengan berapa sentimeter?",
+    "a": "2,5 meter = 2,5 × 100 = 250 sentimeter."
+  },
+  {
+    "q": "Berapa hasil dari 96 ÷ 6?",
+    "a": "96 ÷ 6 = 16. Karena 6 × 16 = 96."
+  },
+  {
+    "q": "Berapa hasil dari 5 + 4 × 3 - 2? (Perhatikan urutan operasi hitung)",
+    "a": "Hasilnya adalah 15. Menurut aturan PEMDAS, perkalian dilakukan terlebih dahulu: 4 × 3 = 12, lalu dari kiri ke kanan: 5 + 12 = 17, kemudian 17 - 2 = 15."
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "q": "Apakah bumi bulat?",
+    "a": "Ya, bumi berbentuk bulat (lebih tepatnya elips), bukan datar."
+  },
+  {
+    "q": "Apakah matahari adalah bintang?",
+    "a": "Ya, matahari adalah bintang terdekat dari bumi."
+  },
+  {
+    "q": "Apakah air bisa membeku?",
+    "a": "Ya, air membeku menjadi es pada suhu 0 derajat Celsius."
+  },
+  {
+    "q": "Apakah manusia butuh oksigen?",
+    "a": "Ya, manusia membutuhkan oksigen untuk bernapas dan bertahan hidup."
+  },
+  {
+    "q": "Apakah Indonesia negara kepulauan?",
+    "a": "Ya, Indonesia adalah negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau."
+  },
+  {
+    "q": "Apakah kamu pintar?",
+    "a": "Saya hanya AI yang dilatih dari data. Saya bisa membantu menjawab pertanyaan, tapi juga bisa salah."
+  },
+  {
+    "q": "Apakah kamu bisa belajar?",
+    "a": "Saya tidak bisa belajar dari percakapan ini. Pengetahuan saya tetap dari data training awal."
+  },
+  {
+    "q": "Apakah dinosaurus masih hidup?",
+    "a": "Tidak, dinosaurus punah sekitar 66 juta tahun lalu karena asteroid menabrak bumi."
+  },
+  {
+    "q": "Apakah emas adalah logam?",
+    "a": "Ya, emas adalah logam mulia yang bersifat lentur dan tahan korosi."
+  },
+  {
+    "q": "Apakah suara bisa merambat di ruang hampa?",
+    "a": "Tidak, suara memerlukan medium (udara, air, atau benda padat) untuk merambat."
+  },
+  {
+    "q": "Apakah Jepang adalah pulau?",
+    "a": "Ya, Jepang adalah kepulauan yang terdiri dari 4 pulau utama: Honshu, Hokkaido, Kyushu, dan Shikoku."
+  },
+  {
+    "q": "Apakah Pancasila adalah ideologi Indonesia?",
+    "a": "Ya, Pancasila adalah dasar negara dan ideologi nasional Indonesia."
+  },
+  {
+    "q": "Apakah Indonesia pernah dijajah?",
+    "a": "Ya, Indonesia dijajah oleh Belanda selama lebih dari 3 abad sebelum merdeka pada 1945."
+  },
+  {
+    "q": "Apakah Batik adalah warisan budaya Indonesia?",
+    "a": "Ya, batik Indonesia telah ditetapkan sebagai warisan budaya kemanusiaan oleh UNESCO pada 2009."
+  },
+  {
+    "q": "Apakah Bahasa Indonesia memiliki huruf sendiri?",
+    "a": "Tidak, Bahasa Indonesia menggunakan huruf Latin (alfabet A-Z)."
+  },
+  {
+    "q": "Apakah Internet ditemukan di Indonesia?",
+    "a": "Tidak, Internet ditemukan oleh Tim Berners-Lee di CERN, Swiss pada 1989."
+  },
+  {
+    "q": "Apakah Bali adalah ibu kota Indonesia?",
+    "a": "Tidak, ibu kota Indonesia adalah Jakarta. Bali adalah provinsi yang terkenal dengan pariwisata."
+  },
+  {
+    "q": "Apakah DNA semua manusia berbeda?",
+    "a": "Tidak, manusia berbagi 99,9% DNA, tetapi sisanya membuat kita unik."
+  },
+  {
+    "q": "Apakah gula menyebabkan diabetes?",
+    "a": "Konsumsi gula berlebih dapat meningkatkan risiko diabetes tipe 2, tapi bukan satu-satunya penyebab."
+  },
+  {
+    "q": "Apakah planet Mars memiliki kehidupan?",
+    "a": "Belum ada bukti kehadiran kehidupan di Mars saat ini, meski penelitian masih berlanjut."
+  },
+  {
+    "q": "Apakah Krakatau adalah gunung berapi?",
+    "a": "Ya, Krakatau adalah gunung berapi aktif yang terletak di selat Sunda antara Jawa dan Sumatra."
+  },
+  {
+    "q": "Apakah Borobudur adalah candi tertua di Indonesia?",
+    "a": "Tidak, Borobudur dibangun abad ke-8, tetapi ada candi-candi Hindu lain yang lebih tua."
+  },
+  {
+    "q": "Apakah kopi berasal dari Indonesia?",
+    "a": "Tidak, kopi berasal dari Ethiopia, tetapi Indonesia adalah produsen kopi terbesar di dunia."
+  },
+  {
+    "q": "Apakah Rendang adalah masakan Indonesia?",
+    "a": "Ya, rendang adalah masakan tradisional dari Minangkabau, Sumatera Barat."
+  },
+  {
+    "q": "Apakah Teluk Tonkin ada di Indonesia?",
+    "a": "Tidak, Teluk Tonkin ada di Vietnam dan Tiongkok."
+  },
+  {
+    "q": "Apakah Samudra Hindia yang terbesar di dunia?",
+    "a": "Tidak, Samudra Pasifik adalah yang terbesar, Hindia adalah yang ketiga."
+  },
+  {
+    "q": "Apakah gravitasi menarik semua benda?",
+    "a": "Ya, gravitasi adalah gaya tarik-menarik yang ada di semua benda dengan massa."
+  },
+  {
+    "q": "Apakah kamera digital menggunakan film?",
+    "a": "Tidak, kamera digital menggunakan sensor elektronik untuk menangkap gambar."
+  },
+  {
+    "q": "Apakah Artificial Intelligence bisa menggantikan manusia?",
+    "a": "AI dapat menggantikan tugas tertentu, tetapi kreativitas manusia masih sulit ditiru sepenuhnya."
+  },
+  {
+    "q": "Apakah Python adalah bahasa pemrograman?",
+    "a": "Ya, Python adalah bahasa pemrograman populer yang banyak digunakan dalam data science dan AI."
+  },
+  {
+    "q": "Apakah Cloud computing menyimpan data di awan?",
+    "a": "Tidak, cloud computing menyimpan data di server jauh. 'Cloud' hanya istilah metafora."
+  },
+  {
+    "q": "Apakah Soekarno adalah presiden pertama Indonesia?",
+    "a": "Ya, Soekarno adalah presiden pertama Indonesia dari 1945 hingga 1967."
+  },
+  {
+    "q": "Apakah Proklamasi kemerdekaan diumumkan pada 1945?",
+    "a": "Ya, Proklamasi Kemerdekaan Indonesia diumumkan pada 17 Agustus 1945."
+  },
+  {
+    "q": "Apakah Perang Diponegoro terjadi di Jawa?",
+    "a": "Ya, Perang Diponegoro (1825-1830) terjadi di Jawa Tengah melawan penjajahan Belanda."
+  },
+  {
+    "q": "Apakah Bahasa Inggris adalah bahasa global?",
+    "a": "Ya, Bahasa Inggris adalah bahasa internasional yang paling banyak digunakan dalam bisnis dan sains."
+  },
+  {
+    "q": "Apakah Aksara Jawa masih digunakan?",
+    "a": "Ya, aksara Jawa masih digunakan terutama dalam konteks budaya dan pendidikan tradisional."
+  },
+  {
+    "q": "Apakah Wayang Kulit berasal dari Indonesia?",
+    "a": "Ya, wayang kulit adalah seni pertunjukan tradisional dari Jawa yang kaya akan nilai budaya."
+  },
+  {
+    "q": "Apakah Danau Toba adalah danau terbesar di Asia Tenggara?",
+    "a": "Ya, Danau Toba di Sumatera Utara adalah danau terbesar di Asia Tenggara."
+  },
+  {
+    "q": "Apakah Kalimantan adalah pulau terbesar ketiga di dunia?",
+    "a": "Ya, Kalimantan adalah pulau terbesar ketiga di dunia setelah Greenland dan New Guinea."
+  },
+  {
+    "q": "Apakah Rajawali adalah burung Indonesia?",
+    "a": "Ya, rajawali adalah burung elang besar yang menjadi lambang negara Indonesia."
+  },
+  {
+    "q": "Apakah Orang Utan adalah endemik Indonesia?",
+    "a": "Ya, orang utan hanya ditemukan di Kalimantan dan Sumatera, pulau-pulau Indonesia."
+  },
+  {
+    "q": "Apakah Komodo adalah hewan Indonesia?",
+    "a": "Ya, komodo adalah kadal raksasa endemik dari pulau Komodo, Nusa Tenggara."
+  },
+  {
+    "q": "Apakah Wayang Golek berasal dari Sunda?",
+    "a": "Ya, wayang golek adalah puppetry tradisional dari Jawa Barat."
+  },
+  {
+    "q": "Apakah Nusa Dua adalah resort di Bali?",
+    "a": "Ya, Nusa Dua adalah kawasan pariwisata terintegrasi di Bali."
+  },
+  {
+    "q": "Apakah Angkor Wat adalah kuil di Kamboja?",
+    "a": "Ya, Angkor Wat adalah kuil Buddha terbesar di Kamboja dan situs warisan dunia."
+  },
+  {
+    "q": "Apakah Sumber Energi Terbarukan lebih ramah lingkungan?",
+    "a": "Ya, energi terbarukan seperti matahari dan angin lebih ramah lingkungan dibanding fosil."
+  },
+  {
+    "q": "Apakah Perubahan Iklim nyata terjadi?",
+    "a": "Ya, ada bukti ilmiah kuat bahwa perubahan iklim sedang terjadi akibat aktivitas manusia."
+  },
+  {
+    "q": "Apakah Badak Jawa masih ada?",
+    "a": "Ya, tetapi jumlahnya sangat langka, hanya sekitar 70 ekor tersisa di Ujung Kulon."
+  },
+  {
+    "q": "Apakah Candi Prambanan adalah candi Hindu?",
+    "a": "Ya, Candi Prambanan adalah candi Hindu terbesar di Indonesia, dibangun abad ke-10."
+  },
+  {
+    "q": "Apakah Wastra adalah kain tradisional?",
+    "a": "Ya, wastra adalah istilah umum untuk kain atau tekstil dalam budaya Indonesia."
+  },
+  {
+    "q": "Apakah Saat Sunrise terbit dari Timur?",
+    "a": "Ya, matahari selalu terbit dari arah Timur dan tenggelam di arah Barat."
+  },
+  {
+    "q": "Apakah Vaksin COVID-19 aman digunakan?",
+    "a": "Ya, vaksin COVID-19 telah melalui uji klinis ketat dan disetujui oleh lembaga kesehatan internasional seperti WHO. Miliaran dosis telah diberikan dengan sistem pemantauan keamanan yang ketat."
+  },
+  {
+    "q": "Apakah Bersekolah Online lebih baik dari sekolah tatap muka?",
+    "a": "Ini adalah pertanyaan opini. Sekolah online memiliki kelebihannya sendiri, tetapi penelitian menunjukkan bahwa pembelajaran tatap muka memiliki manfaat sosial dan interaksi yang lebih baik untuk perkembangan anak."
+  },
+  {
+    "q": "Apakah Jika anda punya waktu luang, apakah anda akan merekomendasikan membaca buku?",
+    "a": "Ya, membaca buku sangat bermanfaat karena memperluas wawasan, meningkatkan konsentrasi, mengurangi stres, dan membantu pengembangan diri. Berbagai genre buku dapat memberikan hiburan sekaligus pengetahuan."
+  },
+  {
+    "q": "Apakah Laut Merah benar-benar berwarna merah?",
+    "a": "Tidak, Laut Merah sebenarnya berwarna biru seperti laut lainnya. Nama 'merah' berasal dari ganggang merah yang kadang berkembang di permukaannya atau dari terminologi kuno yang merujuk pada arah mata angin."
+  },
+  {
+    "q": "Apakah Jika seseorang vegetarian, apakah mereka bisa mendapat protein yang cukup?",
+    "a": "Ya, seseorang yang vegetarian dapat memenuhi kebutuhan protein melalui makanan nabati seperti kacang-kacangan, tahu, tempe, biji-bijian, dan produk susu. Kombinasi makanan yang tepat dapat menyediakan semua asam amino esensial."
+  },
+  {
+    "q": "Apakah Merpati dapat menemukan jalan pulang dari mana saja?",
+    "a": "Ya, merpati memiliki kemampuan navigasi luar biasa menggunakan medan magnet bumi, posisi matahari, dan pengenalan visual lokal. Ini sebabnya mereka sering digunakan dalam olahraga balap merpati."
+  },
+  {
+    "q": "Apakah Pekerjaan AI akan menggantikan semua pekerjaan manusia di masa depan?",
+    "a": "Ini masih menjadi perdebatan. AI akan mengotomatisasi banyak tugas, tetapi juga menciptakan pekerjaan baru. Bukti historis menunjukkan teknologi menciptakan peluang kerja meskipun juga menggantikan beberapa."
+  },
+  {
+    "q": "Apakah Hewan Peliharaan dapat meningkatkan kesehatan mental pemiliknya?",
+    "a": "Ya, penelitian menunjukkan bahwa memelihara hewan peliharaan seperti anjing atau kucing dapat mengurangi stres, kecemasan, dan depresi sambil meningkatkan rasa tanggung jawab dan kebahagiaan."
+  },
+  {
+    "q": "Apakah Jika seseorang belajar bahasa sejak kecil, apakah akan lebih mudah menguasai bahasa lainnya?",
+    "a": "Ya, penelitian neurolinguistik menunjukkan bahwa anak yang tumbuh dengan dua bahasa atau lebih memiliki fleksibilitas kognitif lebih baik dan lebih mudah mempelajari bahasa ketiga."
+  },
+  {
+    "q": "Apakah Makanan Organik selalu lebih sehat dari makanan konvensional?",
+    "a": "Tidak, meskipun makanan organik menghindari pestisida sintetis, hal itu tidak otomatis berarti lebih bergizi. Nilai gizi tergantung pada ketinggian, jenis tanah, dan penanganan pasca panen lebih dari status organiknya."
+  },
+  {
+    "q": "Apakah Hutan Hujan Tropis adalah paru-paru bumi?",
+    "a": "Sebagian benar. Hutan hujan menghasilkan oksigen, tetapi sebagian besar oksigen bumi sebenarnya diproduksi oleh laut. Namun, hutan hujan penting untuk menyerap karbon dioksida dan mengatur iklim global."
+  },
+  {
+    "q": "Apakah Perempuan lebih baik dalam multitasking dari laki-laki?",
+    "a": "Ini adalah mito yang dipopulerkan. Penelitian ilmiah belum menemukan perbedaan signifikan dalam kemampuan multitasking antara jenis kelamin. Perbedaan individu lebih besar daripada perbedaan gender."
+  },
+  {
+    "q": "Apakah Jika manusia tidak pernah menemukan listrik, apakah peradaban akan berkembang?",
+    "a": "Ya, peradaban akan tetap berkembang, tetapi dengan kecepatan berbeda. Tanpa listrik, kemungkinan revolusi industri dan teknologi modern akan terjadi berlanjut melalui sumber energi alternatif seperti mekanik atau kimia."
+  },
+  {
+    "q": "Apakah Musik dapat mempengaruhi pertumbuhan tanaman?",
+    "a": "Ada beberapa bukti anekdotal dan penelitian terbatas bahwa getaran frekuensi tertentu dapat mempengaruhi perkembangan tanaman, tetapi bukti ilmiah yang ketat masih terbatas dan memerlukan penelitian lebih lanjut."
+  },
+  {
+    "q": "Apakah Tidur Cukup lebih penting daripada olahraga untuk kesehatan?",
+    "a": "Keduanya sama pentingnya dan saling melengkapi. Tidur yang cukup (7-9 jam) dan olahraga teratur keduanya penting untuk kesehatan fisik dan mental yang optimal."
+  },
+  {
+    "q": "Apakah Teknologi 5G bisa menyebabkan kanker?",
+    "a": "Tidak, berdasarkan penelitian ilmiah saat ini, 5G tidak menyebabkan kanker. Spektrum frekuensi yang digunakan 5G adalah non-ionizing, artinya tidak memiliki cukup energi untuk merusak DNA sel tubuh."
+  },
+  {
+    "q": "Apakah Jika kita menghentikan semua emisi karbon hari ini, apakah perubahan iklim akan berhenti langsung?",
+    "a": "Tidak, bahkan jika emisi berhenti hari ini, efek perubahan iklim akan berlanjut selama puluhan tahun karena karbon dioksida sudah ada di atmosfer. Namun menghentikan emisi akan mencegah memburuknya situasi lebih jauh."
+  },
+  {
+    "q": "Apakah Memori Manusia dapat disimpan seperti data digital?",
+    "a": "Secara teknologi belum bisa dilakukan sepenuhnya. Meskipun neuroscience telah membuat kemajuan dalam memahami memori, transferring memori manusia masih merupakan fiksi ilmiah dan tidak mungkin dilakukan dengan teknologi saat ini."
+  },
+  {
+    "q": "Apakah Singapura adalah negara tetangga Indonesia?",
+    "a": "Ya, Singapura adalah negara tetangga Indonesia yang terletak di ujung Semenanjung Malaya dengan jarak dekat dari Indonesia."
+  },
+  {
+    "q": "Apakah Perbatasan Indonesia dengan Malaysia terletak di Pulau Kalimantan?",
+    "a": "Ya, perbatasan darat Indonesia dengan Malaysia terletak di tengah Pulau Kalimantan yang dibagi antara kedua negara."
+  },
+  {
+    "q": "Apakah Durian berasal dari Indonesia?",
+    "a": "Tidak, durian berasal dari Malaysia dan Thailand, meskipun Indonesia juga memproduksi durian berkualitas tinggi."
+  },
+  {
+    "q": "Apakah Indonesia memiliki banyak gunung berapi?",
+    "a": "Ya, Indonesia memiliki lebih dari 130 gunung berapi aktif dan merupakan negara dengan vulkanisme paling tinggi di dunia."
+  },
+  {
+    "q": "Apakah Bandar Udara Internasional Soekarno-Hatta terletak di Jakarta?",
+    "a": "Ya, Bandar Udara Internasional Soekarno-Hatta adalah bandara utama Indonesia yang melayani wilayah Jakarta dan sekitarnya."
+  },
+  {
+    "q": "Apakah Indonesia adalah anggota ASEAN?",
+    "a": "Ya, Indonesia adalah salah satu negara pendiri ASEAN (Association of Southeast Asian Nations) pada 1967."
+  },
+  {
+    "q": "Apakah Pulau Jawa memiliki populasi terbanyak di Indonesia?",
+    "a": "Ya, Pulau Jawa adalah pulau paling padat penduduk di Indonesia dengan lebih dari setengah populasi Indonesia."
+  },
+  {
+    "q": "Apakah Timor Leste adalah bagian dari Indonesia?",
+    "a": "Tidak, Timor Leste adalah negara independen yang merdeka dari Indonesia pada 2002."
+  },
+  {
+    "q": "Apakah Sate adalah makanan tradisional Indonesia?",
+    "a": "Ya, sate (atau satay) adalah makanan tradisional Indonesia berupa daging tusuk yang dipanggang dan disajikan dengan bumbu kacang atau saus lainnya."
+  },
+  {
+    "q": "Apakah Indonesia memiliki populasi muslim terbesar di dunia?",
+    "a": "Ya berdasarkan jumlah penduduk. Indonesia memiliki populasi muslim sekitar 230 juta orang, merupakan negara dengan populasi muslim terbanyak di dunia."
+  },
+  {
+    "q": "Apakah Pinisi adalah kapal tradisional Indonesia?",
+    "a": "Ya, pinisi adalah kapal berlayar tradisional yang berasal dari Sulawesi Selatan dan terkenal dalam sejarah perjalanan maritim."
+  },
+  {
+    "q": "Apakah Indonesia adalah anggota Perserikatan Bangsa-Bangsa (PBB)?",
+    "a": "Ya, Indonesia adalah anggota aktif PBB sejak 1950 dan berperan penting dalam organisasi internasional ini."
+  },
+  {
+    "q": "Apakah Kepulauan Riau adalah bagian dari Indonesia?",
+    "a": "Ya, Kepulauan Riau adalah provinsi Indonesia yang terdiri dari ratusan pulau di Selat Malaka."
+  },
+  {
+    "q": "Apakah Wayang Kulit telah ditetapkan sebagai warisan budaya oleh UNESCO?",
+    "a": "Ya, wayang kulit Indonesia diakui oleh UNESCO sebagai Masterpiece of the Oral and Intangible Heritage of Humanity pada 2003."
+  },
+  {
+    "q": "Apakah Badminton adalah olahraga unggulan Indonesia?",
+    "a": "Ya, badminton adalah salah satu olahraga yang sukses bagi Indonesia dalam kompetisi internasional dengan banyak medali emas dari atlet-atlet berbakat."
+  },
+  {
+    "q": "Apakah Gado-gado menggunakan saus kacang tanah?",
+    "a": "Ya, gado-gado adalah makanan tradisional Indonesia yang menggunakan saus kacang tanah sebagai bahan utama yang memberikan cita rasa gurih."
+  },
+  {
+    "q": "Apakah Pocong adalah mitos atau tradisi budaya Indonesia?",
+    "a": "Pocong adalah bagian dari folklor dan tradisi budaya Indonesia, khususnya di Jawa. Ini adalah konsep mistis yang terkait dengan kepercayaan lokal, bukan bukti ilmiah."
+  },
+  {
+    "q": "Apakah Pohon Kelapa Sawit berasal dari Indonesia?",
+    "a": "Tidak, kelapa sawit berasal dari Afrika Barat, meskipun sekarang Indonesia adalah produsen minyak kelapa sawit terbesar di dunia."
+  },
+  {
+    "q": "Apakah Bintang Jatuh adalah bintang yang benar-benar jatuh dari langit?",
+    "a": "Tidak, 'bintang jatuh' atau meteor adalah bongkahan batu angkasa yang memasuki atmosfer bumi. Bintang itu sendiri jauh terlalu jauh untuk jatuh ke bumi."
+  },
+  {
+    "q": "Apakah Laskar Pelangi adalah karya tulis Andrea Hirata?",
+    "a": "Ya, Laskar Pelangi adalah novel bestseller karya Andrea Hirata yang telah diterjemahkan ke berbagai bahasa dan menjadi fenomena literatur Indonesia."
+  },
+  {
+    "q": "Apakah Sultan Hasanuddin melawan terhadap penjajahan Belanda?",
+    "a": "Ya, Sultan Hasanuddin dari Kesultanan Makassar adalah salah satu pahlawan nasional yang berjuang melawan penjajahan Belanda pada abad ke-17."
+  },
+  {
+    "q": "Apakah UMKM adalah bagian penting ekonomi Indonesia?",
+    "a": "Ya, UMKM (Usaha Mikro Kecil Menengah) adalah tulang punggung ekonomi Indonesia, menyumbang lebih dari 60% PDB dan mempekerjakan jutaan orang."
+  },
+  {
+    "q": "Apakah Jayapura adalah ibu kota provinsi Papua?",
+    "a": "Ya, Jayapura adalah ibu kota dari provinsi Papua di Indonesia, terletak di bagian timur nusantara."
+  },
+  {
+    "q": "Apakah Bekerja dari rumah dapat meningkatkan produktivitas?",
+    "a": "Ini bervariasi untuk setiap individu. Beberapa orang lebih produktif bekerja dari rumah tanpa gangguan kantor, sementara lainnya membutuhkan suasana kantor untuk konsentrasi optimal."
+  },
+  {
+    "q": "Apakah Padi adalah tanaman utama Indonesia?",
+    "a": "Ya, padi adalah tanaman pangan utama Indonesia dan tersebar di seluruh pulau-pulau dengan hasil panen yang melimpah terutama di musim hujan."
+  }
+]

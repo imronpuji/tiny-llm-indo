@@ -1,0 +1,589 @@
+[
+  {
+    "q": "Berapa suhu tubuh normal manusia?",
+    "a": "Suhu tubuh normal manusia adalah sekitar 36.5 - 37.5 derajat Celsius."
+  },
+  {
+    "q": "Berapa jam tidur yang dibutuhkan orang dewasa?",
+    "a": "Orang dewasa membutuhkan tidur sekitar 7-9 jam per hari untuk kesehatan optimal."
+  },
+  {
+    "q": "Apa manfaat olahraga?",
+    "a": "Olahraga bermanfaat untuk menjaga kesehatan jantung, mengontrol berat badan, meningkatkan stamina, dan mengurangi stres."
+  },
+  {
+    "q": "Apa itu vitamin C?",
+    "a": "Vitamin C adalah nutrisi penting untuk daya tahan tubuh, kesehatan kulit, dan penyembuhan luka. Banyak terdapat di buah jeruk."
+  },
+  {
+    "q": "Bagaimana cara mencegah flu?",
+    "a": "Cara mencegah flu antara lain mencuci tangan, menjaga daya tahan tubuh, menghindari kontak dengan orang sakit, dan vaksinasi."
+  },
+  {
+    "q": "Apa itu protein?",
+    "a": "Protein adalah nutrisi penting untuk membangun dan memperbaiki jaringan tubuh. Sumbernya antara lain daging, telur, dan kacang-kacangan."
+  },
+  {
+    "q": "Apa itu karbohidrat?",
+    "a": "Karbohidrat adalah sumber energi utama tubuh, terdapat dalam nasi, roti, dan kentang."
+  },
+  {
+    "q": "Apa manfaat minum air putih?",
+    "a": "Minum air putih bermanfaat untuk menjaga hidrasi, membantu pencernaan, dan menjaga fungsi organ tubuh."
+  },
+  {
+    "q": "Berapa gelas air yang dibutuhkan per hari?",
+    "a": "Orang dewasa disarankan minum 8 gelas atau sekitar 2 liter air per hari."
+  },
+  {
+    "q": "Apa itu vaksin?",
+    "a": "Vaksin adalah zat yang merangsang sistem kekebalan tubuh untuk melawan penyakit tertentu."
+  },
+  {
+    "q": "Apa fungsi vitamin D?",
+    "a": "Vitamin D berfungsi untuk kesehatan tulang dan gigi dengan membantu penyerapan kalsium. Sumbernya adalah sinar matahari dan ikan."
+  },
+  {
+    "q": "Apa itu anemia?",
+    "a": "Anemia adalah kondisi kekurangan sel darah merah atau hemoglobin sehingga tubuh mudah lelah."
+  },
+  {
+    "q": "Apa itu demam?",
+    "a": "Demam adalah kondisi suhu tubuh meningkat di atas normal sebagai respons terhadap infeksi atau penyakit."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan mata?",
+    "a": "Jaga jarak pandang saat membaca, istirahatkan mata, dan konsumsi makanan bergizi seperti wortel dan bayam."
+  },
+  {
+    "q": "Apa itu alergi?",
+    "a": "Alergi adalah reaksi berlebihan sistem imun terhadap zat tertentu yang biasanya tidak berbahaya."
+  },
+  {
+    "q": "Apa itu stres?",
+    "a": "Stres adalah kondisi tekanan mental atau emosional yang dapat mempengaruhi kesehatan fisik dan psikologis."
+  },
+  {
+    "q": "Apa itu kolesterol?",
+    "a": "Kolesterol adalah zat lemak dalam darah yang dibutuhkan tubuh, namun jika berlebihan dapat menyumbat pembuluh darah."
+  },
+  {
+    "q": "Apa itu diabetes?",
+    "a": "Diabetes adalah penyakit ketika tubuh tidak dapat mengontrol kadar gula darah dengan baik."
+  },
+  {
+    "q": "Apa itu hipertensi?",
+    "a": "Hipertensi atau tekanan darah tinggi adalah kondisi ketika tekanan darah di atas normal (lebih dari 140/90 mmHg)."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan jantung?",
+    "a": "Cara menjaga kesehatan jantung: olahraga teratur, makan makanan sehat, tidak merokok, dan mengelola stres."
+  },
+  {
+    "q": "Apa itu lemak sehat dan di mana menemukannya?",
+    "a": "Lemak sehat seperti omega-3 dan omega-6 penting untuk kesehatan otak dan jantung. Ditemukan di ikan salmon, alpukat, kacang-kacangan, dan minyak zaitun."
+  },
+  {
+    "q": "Apa pentingnya serat dalam diet?",
+    "a": "Serat penting untuk kesehatan pencernaan, membantu melancarkan buang air besar, dan menjaga kadar gula darah. Sumbernya: sayuran, buah-buahan, dan biji-bijian utuh."
+  },
+  {
+    "q": "Apa itu metabolisme dan bagaimana meningkatkannya?",
+    "a": "Metabolisme adalah proses tubuh mengubah makanan menjadi energi. Dapat ditingkatkan dengan olahraga teratur, makan protein cukup, dan istirahat yang baik."
+  },
+  {
+    "q": "Berapa frekuensi olahraga yang ideal per minggu?",
+    "a": "Orang dewasa disarankan berolahraga minimal 150 menit intensitas sedang atau 75 menit intensitas tinggi per minggu, ditambah latihan kekuatan 2 hari per minggu."
+  },
+  {
+    "q": "Apa itu asma dan bagaimana cara mengelolanya?",
+    "a": "Asma adalah penyakit peradangan saluran napas yang menyebabkan kesulitan bernapas. Dikelola dengan inhaler, menghindari pemicu, dan menjaga kesehatan paru-paru."
+  },
+  {
+    "q": "Apa itu GERD atau maag?",
+    "a": "GERD (Gastroesophageal Reflux Disease) adalah kondisi asam lambung naik ke kerongkongan menyebabkan nyeri dada. Diatasi dengan diet teratur, hindari makanan pedas dan asam."
+  },
+  {
+    "q": "Bagaimana cara meningkatkan daya tahan tubuh secara alami?",
+    "a": "Cara meningkatkan imunitas: istirahat cukup, konsumsi makanan bergizi (buah-buahan, sayuran), olahraga, kelola stres, dan hindari merokok."
+  },
+  {
+    "q": "Apa itu osteoporosis dan siapa yang berisiko?",
+    "a": "Osteoporosis adalah kondisi tulang menjadi rapuh akibat kekurangan kalsium. Berisiko pada wanita menopause, lansia, dan mereka yang kurang aktivitas."
+  },
+  {
+    "q": "Bagaimana pentingnya keseimbangan nutrisi dalam diet?",
+    "a": "Nutrisi seimbang meliputi protein, karbohidrat, lemak sehat, vitamin, dan mineral dalam porsi tepat. Penting untuk kesehatan optimal dan mencegah penyakit."
+  },
+  {
+    "q": "Apa itu depresi dan bagaimana penanganannya?",
+    "a": "Depresi adalah gangguan mental yang menyebabkan perasaan sedih berkepanjangan. Ditangani dengan konseling, terapi, obat-obatan, dan dukungan sosial."
+  },
+  {
+    "q": "Apa itu kecemasan dan cara mengatasinya?",
+    "a": "Kecemasan adalah perasaan khawatir berlebihan. Dapat diatasi dengan meditasi, olahraga, pernapasan dalam, terapi kognitif, dan dukungan profesional jika perlu."
+  },
+  {
+    "q": "Bagaimana cara menciptakan rutinitas tidur yang sehat?",
+    "a": "Rutinitas tidur sehat: tidur dan bangun jam sama, hindari gadget sebelum tidur, ciptakan kamar gelap dan sejuk, batasi kafein, dan lakukan relaksasi."
+  },
+  {
+    "q": "Apa manfaat meditasi untuk kesehatan mental?",
+    "a": "Meditasi membantu mengurangi stres, meningkatkan fokus, menenangkan pikiran, dan meningkatkan kesadaran diri. Dapat dilakukan 10-20 menit setiap hari."
+  },
+  {
+    "q": "Apa itu burnout dan bagaimana mencegahnya?",
+    "a": "Burnout adalah kelelahan fisik dan mental akibat stres kerja berkelanjutan. Dicegah dengan: istirahat cukup, hobi, work-life balance, dan dukungan sosial."
+  },
+  {
+    "q": "Bagaimana cara mengatasi pilek secara alami?",
+    "a": "Mengatasi pilek: istirahat, minum air hangat, konsumsi vitamin C, gunakan uap hangat, minum teh jahe, dan hindari polusi udara."
+  },
+  {
+    "q": "Apa pentingnya postur tubuh yang baik?",
+    "a": "Postur baik mencegah nyeri punggung, meningkatkan pernapasan, meningkatkan kepercayaan diri, dan mengurangi kelelahan. Penting saat duduk lama di depan layar."
+  },
+  {
+    "q": "Apa itu tekanan darah dan bagaimana cara mengukurnya?",
+    "a": "Tekanan darah adalah kekuatan darah mendorong dinding pembuluh darah. Diukur dengan tensimeter dan dinyatakan sebagai sistolik/diastolik. Normal: kurang dari 120/80 mmHg."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan gigi dan mulut?",
+    "a": "Cara menjaga kesehatan gigi: gosok gigi 2x sehari dengan pasta fluoride, gunakan benang gigi, hindari makanan manis, minum air putih, dan periksakan ke dokter gigi rutin."
+  },
+  {
+    "q": "Apa manfaat yoga untuk kesehatan keseluruhan?",
+    "a": "Yoga meningkatkan fleksibilitas, kekuatan, keseimbangan, pernapasan, dan kesehatan mental. Menggabungkan gerakan, pernapasan, dan meditasi untuk kesejahteraan holistik."
+  },
+  {
+    "q": "Berapa kebutuhan protein harian dan sumber terbaiknya?",
+    "a": "Kebutuhan protein: 0.8-1.0 gram per kg berat badan per hari untuk orang normal. Sumber terbaik: daging tanpa lemak, ikan, telur, produk susu, kacang-kacangan, dan tahu. Penting untuk pertumbuhan dan perbaikan jaringan."
+  },
+  {
+    "q": "Apa itu makro nutrisi dan berapa komposisi ideal untuk diet sehat?",
+    "a": "Makro nutrisi meliputi karbohidrat (45-65%), protein (10-35%), dan lemak (20-35%). Proporsi ideal tergantung pada tujuan kesehatan individual. Penting untuk keseimbangan energi dan fungsi tubuh."
+  },
+  {
+    "q": "Bagaimana cara memulai program kebugaran untuk pemula?",
+    "a": "Mulai program kebugaran: konsultasi dokter, tentukan tujuan, mulai dengan 3x seminggu 20-30 menit, gabungkan cardio dan latihan kekuatan, tingkatkan secara bertahap, dan istirahat cukup. Konsistensi lebih penting dari intensitas tinggi."
+  },
+  {
+    "q": "Apa pentingnya pemanasan sebelum olahraga dan pendinginan sesudahnya?",
+    "a": "Pemanasan meningkatkan suhu tubuh, mempersiapkan otot, dan mengurangi cedera. Pendinginan menurunkan detak jantung secara gradual dan mengurangi pusing. Lakukan masing-masing 5-10 menit untuk olahraga optimal."
+  },
+  {
+    "q": "Bagaimana cara mencegah dan mengatasi cedera saat berolahraga?",
+    "a": "Pencegahan: pemanasan, teknik yang benar, equipment sesuai, dan progresif training. Jika cedera: istirahat, kompres es 15-20 menit, kompresi, elevasi, dan konsultasi dokter jika parah."
+  },
+  {
+    "q": "Apa perbedaan antara kelelahan fisik dan overtraining?",
+    "a": "Kelelahan fisik normal dan hilang dengan istirahat cukup. Overtraining: performa menurun, lelah kronis, sleep disruption, dan mood buruk. Solusi: kurangi intensitas, perbaiki nutrisi, dan istirahat lebih lama."
+  },
+  {
+    "q": "Bagaimana pengaruh tidur terhadap kebugaran dan pemulihan otot?",
+    "a": "Tidur berkualitas penting untuk pemulihan otot, pertumbuhan, dan sintesis hormon. Otot berkembang saat istirahat, bukan saat latihan. Kurang tidur menurunkan performa, meningkatkan cedera, dan menghambat progress."
+  },
+  {
+    "q": "Apa itu penyakit mental dan bagaimana cara mencari bantuan?",
+    "a": "Penyakit mental meliputi depresi, kecemasan, bipolar, dan lainnya. Jika mengalami gejala berkelanjutan, segera konsultasi psikolog atau psikiater. Pengobatan bisa meliputi terapi, obat, dan dukungan sosial."
+  },
+  {
+    "q": "Bagaimana cara mengatasi stres di tempat kerja secara efektif?",
+    "a": "Atasi stres kerja: atur prioritas, istirahat berkala, pisahkan jam kerja dan pribadi, olahraga, hobi, komunikasi dengan atasan, dan kelola ekspektasi. Beristirahatlah minimal 1 hari per minggu."
+  },
+  {
+    "q": "Apa itu mindfulness dan bagaimana menerapkannya sehari-hari?",
+    "a": "Mindfulness adalah fokus penuh pada momen sekarang tanpa penilaian. Terapkan: meditasi 10 menit harian, perhatian pada aktivitas sehari-hari, pernapasan dalam, dan observasi sensasi tanpa reaksi. Mengurangi stres dan meningkatkan kesadaran."
+  },
+  {
+    "q": "Bagaimana cara menjaga pola makan sehat saat sedang sibuk atau stres?",
+    "a": "Tips makan sehat saat sibuk: meal prep di akhir pekan, bawa makanan sehat, hindari fast food, makan 3x per hari, minum air cukup, makan snack sehat (buah, kacang), dan jangan skip sarapan."
+  },
+  {
+    "q": "Apa itu superfood dan apakah benar-benar efektif untuk kesehatan?",
+    "a": "Superfood adalah makanan padat nutrisi seperti beri, ikan salmon, sayuran hijau, dan kacang-kacangan. Bermanfaat tapi bukan obat ajaib. Kunci: konsumsi beragam, porsi tepat, dan gaya hidup sehat keseluruhan."
+  },
+  {
+    "q": "Bagaimana cara melakukan pertolongan pertama pada luka terbuka?",
+    "a": "Pertolongan pertama luka terbuka: cuci tangan, hentikan perdarahan dengan tekan lembut dengan kasa bersih 10-15 menit, bersihkan luka dengan air bersih, oleskan antiseptic, tutupi dengan plester steril, dan ganti setiap hari."
+  },
+  {
+    "q": "Bagaimana cara menangani tersedak dan kapan perlu panggil ambulans?",
+    "a": "Tersedat: coba batuk kuat terlebih dahulu. Jika tidak bisa napas: lakukan Heimlich maneuver (tekanan ke diafragma dari belakang). Jika masih tidak merespons setelah 1-2 menit, hubungi 119 atau ambulans segera."
+  },
+  {
+    "q": "Apa itu pertolongan pertama pada serangan jantung dan tanda-tandanya?",
+    "a": "Tanda serangan jantung: nyeri dada meremas, nyeri lengan kiri, sesak napas, keringat dingin, pusing. Tindakan: hubungi ambulans segera, duduk nyaman, kunyah aspirin jika tersedia, tunggu bantuan medis, jangan mengganggu dan jangan biarkan orang tersebut sendiri."
+  },
+  {
+    "q": "Bagaimana cara mengatasi hiperventilasi dan serangan panik dengan teknik pernapasan?",
+    "a": "Teknik pernapasan untuk panik: tarik napas 4 detik, tahan 4 detik, hembuskan 4 detik, tahan 4 detik. Ulangi 5-10 menit. Duduk tenang, fokus pada napas, hindari overthinking. Jika sering, konsultasi profesional kesehatan mental."
+  },
+  {
+    "q": "Bagaimana cara mencegah infeksi dan penyakit melalui kebersihan dasar?",
+    "a": "Cegah infeksi: cuci tangan dengan sabun terutama sebelum makan dan setelah toilet, ganti pakaian dalam harian, mandi rutin, jaga kebersihan area intim, gunakan toilet yang bersih, dan hindari berbagi peralatan pribadi."
+  },
+  {
+    "q": "Apa itu screening medis preventif dan berapa sering perlu dilakukan?",
+    "a": "Screening preventif: cek tekanan darah (tahunan), kolesterol (setiap 4-6 tahun), gula darah (3 tahun jika normal), mammogram untuk wanita 40+ (tahunan), pap smear 21+ (3 tahun), dan kolonoskopi 50+ (10 tahun)."
+  },
+  {
+    "q": "Bagaimana cara menjaga sistem imun tetap kuat di musim perubahan cuaca?",
+    "a": "Jaga imunitas saat perubahan musim: konsumsi vitamin C dan D cukup, makan makanan bergizi setiap hari, olahraga teratur, tidur 7-9 jam, kelola stres, hindari merokok dan alkohol berlebih, gunakan masker di tempat ramai."
+  },
+  {
+    "q": "Apa itu akomodasi ergonomis dan mengapa penting saat bekerja dari rumah?",
+    "a": "Ergonomis kerja rumah: meja setinggi siku saat ditekuk, monitor setara pandangan, kursi dengan support lumbal, kaki menempel lantai, istirahat setiap jam, ubah posisi, dan lakukan stretching. Mencegah nyeri punggung dan cedera jangka panjang."
+  },
+  {
+    "q": "Bagaimana cara membangun kebiasaan hidup sehat yang berkelanjutan?",
+    "a": "Bangun kebiasaan sehat: mulai kecil, fokus satu perubahan dulu, buatlah rutinitas, tracking progress, cari dukungan sosial, berikan reward positif, dan sabar dengan diri sendiri. Butuh 21-66 hari untuk membentuk kebiasaan baru."
+  },
+  {
+    "q": "Apa itu hipertensi dan bagaimana cara mencegahnya?",
+    "a": "Hipertensi adalah tekanan darah tinggi (≥140/90 mmHg). Cegah dengan: mengurangi garam, olahraga rutin, berat badan ideal, hindari stres, kurangi alkohol dan kafein, tidur cukup, dan makan makanan kaya potassium seperi pisang dan sayuran hijau."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan mata di era digital?",
+    "a": "Jaga mata dari layar: aplikasikan aturan 20-20-20 (setiap 20 menit, istirahat 20 detik, lihat benda 20 meter), kurangi brightness, gunakan blue light glasses, letakkan layar 50-70 cm dari mata, dan lakukan eye exercises. Konsultasi dokter jika sering pusing atau mata kering."
+  },
+  {
+    "q": "Apa peran probiotik bagi kesehatan pencernaan?",
+    "a": "Probiotik adalah bakteri baik yang menjaga keseimbangan flora usus, meningkatkan pencernaan, memperkuat imun, dan mengurangi perut kembung. Sumber alami: yogurt, tempe, miso, dan kimchi. Minum 1-2 porsi sehari untuk hasil optimal."
+  },
+  {
+    "q": "Bagaimana cara mengatasi insomnia tanpa obat-obatan?",
+    "a": "Atasi insomnia: atur jadwal tidur konsisten, hindari kafein 6 jam sebelum tidur, olahraga pagi/siang, ciptakan kamar gelap dan sejuk, hindari layar 1 jam sebelum tidur, coba meditasi atau teknik relaksasi, dan jangan terlalu khawatir soal tidur. Jika berlanjut konsultasi dokter."
+  },
+  {
+    "q": "Apa manfaat walk-in clinic atau klinik 24 jam untuk kesehatan preventif?",
+    "a": "Walk-in clinic memudahkan: akses cepat untuk masalah kesehatan ringan, tidak perlu appointment, jam operasional panjang, pemeriksaan preventif, vaksinasi, dan konsultasi. Hemat waktu dibanding kunjungan ke rumah sakit dan lebih ekonomis untuk pencegahan penyakit sejak dini."
+  },
+  {
+    "q": "Apa itu migrain dan bagaimana cara mengatasinya?",
+    "a": "Migrain adalah sakit kepala intens berdenyut, sering disertai mual, kepekaan cahaya, dan gangguan penglihatan. Penyebab: stress, kurang tidur, makanan tertentu, perubahan hormon. Atasi: istirahat di tempat gelap sejuk, minum air, kompres dingin, hindari pemicu, dan minum obat pereda nyeri. Konsultasi dokter untuk migrain sering atau severe."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan kulit wajah dan tubuh secara holistik?",
+    "a": "Jaga kesehatan kulit: pembersihan 2x sehari, gunakan sunscreen SPF 30+, minum air 8 gelas per hari, makan makanan bergizi (omega-3, vitamin C, E), tidur 7-9 jam, kelola stres, hindari merokok dan alkohol berlebih, olahraga rutin, dan gunakan produk sesuai tipe kulit. Eksfoliasi 1-2 kali per minggu untuk kulit mati dan pores yang sehat."
+  },
+  {
+    "q": "Apa masalah kesehatan yang sering terjadi pada gangguan tiroid?",
+    "a": "Gangguan tiroid menyebabkan: hipotiroidisme (metabolisme lambat, lelah, berat badan naik, depresi), hipertiroidisme (jantung cepat, gelisah, keringat berlebih, penurunan berat badan, tremor). Diagnosis dengan tes TSH dan antibodi tiroid. Pengobatan: obat pengganti hormon untuk hipotiroidisme, atau penekan hormon untuk hipertiroidisme. Pantau dengan dokter spesialis endokrin."
+  },
+  {
+    "q": "Bagaimana cara mendeteksi dini dan mencegah kanker?",
+    "a": "Cegah kanker: hindari merokok dan alkohol berlebih, makan makanan sehat (sayur, buah, biji-bijian), olahraga rutin, jaga berat badan ideal, hindari paparan sinar UV berlebih, deteksi dini dengan screening rutin (mammogram, PAP smear, colonoscopy), dan hindari zat kimia berbahaya. Faktor genetik juga berperan, jadi diskusikan riwayat keluarga dengan dokter."
+  },
+  {
+    "q": "Apa fungsi vitamin A dan dari mana sumbernya?",
+    "a": "Vitamin A penting untuk kesehatan mata, sistem imun, dan pertumbuhan sel. Sumber terbaik: wortel, ubi jalar, bayam, hati sapi, telur, dan mangga. Kekurangan vitamin A dapat menyebabkan gangguan penglihatan malam hari."
+  },
+  {
+    "q": "Apa manfaat vitamin E bagi tubuh?",
+    "a": "Vitamin E adalah antioksidan yang melindungi sel dari kerusakan, menjaga kesehatan kulit, dan mendukung sistem imun. Sumbernya: kacang almond, biji bunga matahari, minyak zaitun, dan alpukat."
+  },
+  {
+    "q": "Apa itu vitamin B kompleks dan mengapa penting?",
+    "a": "Vitamin B kompleks terdiri dari 8 jenis vitamin B yang berperan dalam metabolisme energi, fungsi saraf, dan pembentukan sel darah merah. Sumber: daging, telur, kacang-kacangan, biji-bijian, dan sayuran hijau."
+  },
+  {
+    "q": "Apa dampak kekurangan zat besi bagi tubuh?",
+    "a": "Kekurangan zat besi menyebabkan anemia defisiensi besi dengan gejala lelah, pucat, sesak napas, dan pusing. Sumber zat besi: daging merah, bayam, kacang-kacangan, dan sereal yang diperkaya. Konsumsi bersama vitamin C untuk penyerapan optimal."
+  },
+  {
+    "q": "Mengapa kalsium penting dan berapa kebutuhan hariannya?",
+    "a": "Kalsium penting untuk tulang dan gigi yang kuat, fungsi otot, serta pembekuan darah. Orang dewasa membutuhkan sekitar 1000 mg per hari. Sumber: susu, keju, yogurt, brokoli, tahu, dan ikan teri."
+  },
+  {
+    "q": "Apa fungsi magnesium dalam tubuh?",
+    "a": "Magnesium berperan dalam lebih dari 300 reaksi enzim tubuh, termasuk fungsi otot dan saraf, regulasi gula darah, serta kesehatan tulang. Sumber: kacang-kacangan, biji-bijian, cokelat hitam, dan pisang."
+  },
+  {
+    "q": "Apa peran zinc untuk kesehatan dan imunitas?",
+    "a": "Zinc penting untuk sistem imun, penyembuhan luka, dan indera pengecap serta penciuman. Kekurangan zinc meningkatkan risiko infeksi. Sumber: daging, kerang, kacang-kacangan, biji labu, dan produk susu."
+  },
+  {
+    "q": "Apa itu antioksidan dan mengapa tubuh membutuhkannya?",
+    "a": "Antioksidan adalah senyawa yang melindungi sel tubuh dari kerusakan akibat radikal bebas. Radikal bebas dikaitkan dengan penuaan dan penyakit kronis. Sumber antioksidan: buah beri, teh hijau, cokelat hitam, sayuran berwarna, dan kacang-kacangan."
+  },
+  {
+    "q": "Apa tanda-tanda dehidrasi dan bagaimana cara mengatasinya?",
+    "a": "Tanda dehidrasi: haus, urin berwarna gelap, mulut kering, pusing, dan kelelahan. Atasi dengan minum air putih secara bertahap, mengonsumsi buah berair seperti semangka, dan hindari minuman berkafein. Dehidrasi berat memerlukan penanganan medis segera."
+  },
+  {
+    "q": "Apa itu keracunan makanan dan bagaimana penanganannya?",
+    "a": "Keracunan makanan disebabkan bakteri, virus, atau toksin pada makanan yang terkontaminasi. Gejala: mual, muntah, diare, dan kram perut. Penanganan: istirahat, minum banyak cairan untuk cegah dehidrasi, makan makanan ringan, dan ke dokter jika gejala berat atau berlangsung lebih dari 2 hari."
+  },
+  {
+    "q": "Bagaimana cara mengatasi diare secara tepat?",
+    "a": "Atasi diare: minum oralit atau larutan gula garam untuk cegah dehidrasi, makan makanan lunak seperti bubur atau pisang, hindari makanan berminyak dan pedas, serta istirahat cukup. Segera ke dokter jika disertai darah, demam tinggi, atau berlangsung lebih dari 3 hari."
+  },
+  {
+    "q": "Apa penyebab sembelit dan bagaimana cara mengatasinya?",
+    "a": "Sembelit disebabkan kurang serat, kurang minum, kurang gerak, dan stres. Atasi dengan perbanyak serat dari sayur dan buah, minum air 8 gelas per hari, olahraga teratur, dan jangan menahan BAB. Jika berlanjut lebih dari seminggu, konsultasikan ke dokter."
+  },
+  {
+    "q": "Apa itu penyakit asam urat dan bagaimana pencegahannya?",
+    "a": "Asam urat adalah penyakit radang sendi akibat penumpukan kristal asam urat. Gejala: nyeri hebat pada sendi, terutama jempol kaki. Cegah dengan: batasi makanan tinggi purin (jeroan, seafood), minum air cukup, hindari alkohol, dan jaga berat badan ideal."
+  },
+  {
+    "q": "Apa perbedaan antara radang sendi osteoarthritis dan rheumatoid arthritis?",
+    "a": "Osteoarthritis disebabkan keausan tulang rawan akibat usia dan penggunaan berlebihan. Rheumatoid arthritis adalah penyakit autoimun di mana sistem imun menyerang sendi sendiri. Keduanya menyebabkan nyeri dan kaku sendi, namun penanganannya berbeda sehingga perlu diagnosis dokter."
+  },
+  {
+    "q": "Apa itu vertigo dan apa penyebabnya?",
+    "a": "Vertigo adalah sensasi pusing berputar yang bukan sekadar pusing biasa. Penyebab umum: gangguan telinga dalam (BPPV), infeksi telinga, penyakit Meniere, atau masalah saraf. Penanganan tergantung penyebab, bisa dengan manuver Epley, obat, atau terapi vestibular."
+  },
+  {
+    "q": "Apa itu tifus dan bagaimana cara mencegahnya?",
+    "a": "Tifus (demam tifoid) disebabkan bakteri Salmonella typhi melalui makanan atau air terkontaminasi. Gejala: demam tinggi bertahap, sakit kepala, nyeri perut, dan lemas. Cegah dengan: jaga kebersihan makanan, cuci tangan, minum air matang, dan vaksinasi tifoid."
+  },
+  {
+    "q": "Bagaimana cara mencegah demam berdarah dengue (DBD)?",
+    "a": "Cegah DBD dengan pemberantasan sarang nyamuk (3M Plus): menguras tempat penampungan air, menutup wadah air, dan mendaur ulang barang bekas. Gunakan kelambu, losion anti nyamuk, dan pastikan rumah bebas genangan air. Segera ke dokter jika demam tinggi disertai nyeri di belakang mata."
+  },
+  {
+    "q": "Apa itu TBC dan bagaimana cara penularannya?",
+    "a": "TBC (tuberkulosis) adalah infeksi bakteri Mycobacterium tuberculosis yang menyerang paru-paru. Menular melalui percikan dahak saat batuk atau bersin. Gejala: batuk lebih dari 2 minggu, demam, keringat malam, dan penurunan berat badan. Pengobatan dengan antibiotik selama 6-9 bulan dan harus tuntas."
+  },
+  {
+    "q": "Apa saja jenis hepatitis dan bagaimana pencegahannya?",
+    "a": "Hepatitis A menular melalui makanan terkontaminasi, hepatitis B melalui darah dan cairan tubuh, dan hepatitis C melalui darah. Pencegahan: vaksinasi hepatitis A dan B, menjaga kebersihan makanan, tidak berbagi jarum suntik, dan hubungan seksual aman."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan ginjal?",
+    "a": "Jaga kesehatan ginjal: minum air putih cukup, batasi garam dan gula, kontrol tekanan darah dan gula darah, hindari obat penghilang nyeri berlebihan, tidak merokok, dan periksakan fungsi ginjal secara rutin terutama jika memiliki riwayat diabetes atau hipertensi."
+  },
+  {
+    "q": "Apa itu penyakit liver dan bagaimana menjaga kesehatan hati?",
+    "a": "Penyakit liver meliputi hepatitis, sirosis, dan perlemakan hati. Jaga kesehatan hati: batasi alkohol, hindari obat berlebihan, vaksinasi hepatitis, jaga berat badan ideal, makan makanan sehat, dan hindari paparan zat kimia berbahaya."
+  },
+  {
+    "q": "Apa itu cacar air dan apakah orang dewasa bisa terkena?",
+    "a": "Cacar air disebabkan virus varicella-zoster dengan gejala ruam melepuh dan demam. Umumnya menyerang anak-anak, tapi orang dewasa yang belum pernah terkena atau belum divaksin juga bisa tertular dengan gejala yang lebih berat. Vaksinasi varicella sangat disarankan."
+  },
+  {
+    "q": "Apa itu campak dan mengapa vaksinasi penting?",
+    "a": "Campak adalah penyakit virus sangat menular yang menyebabkan demam, ruam, batuk, dan mata merah. Komplikasi bisa serius termasuk pneumonia dan radang otak. Vaksinasi MMR sangat efektif mencegah campak dan direkomendasikan untuk semua anak."
+  },
+  {
+    "q": "Kapan seseorang perlu suntikan tetanus?",
+    "a": "Vaksin tetanus dibutuhkan jika terluka oleh benda berkarat atau kotor dan belum divaksin dalam 5 tahun terakhir. Tetanus disebabkan bakteri Clostridium tetani yang masuk melalui luka dan menyebabkan kekakuan otot. Vaksin booster tetanus dianjurkan setiap 10 tahun."
+  },
+  {
+    "q": "Apa yang harus dilakukan jika digigit hewan yang dicurigai rabies?",
+    "a": "Jika digigit hewan dugaan rabies: segera cuci luka dengan sabun dan air mengalir selama 15 menit, berikan antiseptik, dan pergi ke rumah sakit untuk vaksin anti-rabies. Rabies hampir selalu fatal jika tidak ditangani, jadi penanganan cepat sangat penting."
+  },
+  {
+    "q": "Bagaimana cara menangani luka bakar ringan di rumah?",
+    "a": "Untuk luka bakar ringan: segera alirkan air dingin ke area luka selama 10-20 menit, jangan gunakan es atau mentega. Oleskan gel lidah buaya atau salep luka bakar, tutup dengan perban steril longgar. Ke dokter jika luka bakar luas, melepuh parah, atau di wajah dan sendi."
+  },
+  {
+    "q": "Apa tanda-tanda patah tulang dan pertolongan pertamanya?",
+    "a": "Tanda patah tulang: nyeri hebat, bengkak, bentuk tidak normal, tidak bisa digerakkan, dan memar. Pertolongan pertama: jangan gerakkan area cedera, pasang bidai atau penyangga, kompres es untuk kurangi bengkak, dan segera bawa ke rumah sakit untuk rontgen dan penanganan."
+  },
+  {
+    "q": "Bagaimana cara menangani keseleo atau terkilir?",
+    "a": "Tangani keseleo dengan metode RICE: Rest (istirahat), Ice (kompres es 15-20 menit), Compression (balut elastis), dan Elevation (tinggikan area cedera). Hindari aktivitas berat selama 48-72 jam. Ke dokter jika bengkak parah atau tidak membaik dalam beberapa hari."
+  },
+  {
+    "q": "Apa penyebab mimisan dan bagaimana cara menghentikannya?",
+    "a": "Mimisan disebabkan udara kering, mengorek hidung, alergi, atau tekanan darah tinggi. Cara menghentikan: duduk tegak dengan kepala sedikit menunduk, tekan cuping hidung selama 10-15 menit, bernapas melalui mulut. Jangan mendongakkan kepala. Ke dokter jika tidak berhenti dalam 20 menit."
+  },
+  {
+    "q": "Bagaimana cara menangani gigitan atau sengatan serangga?",
+    "a": "Tangani gigitan serangga: bersihkan area dengan sabun dan air, kompres es untuk kurangi bengkak, oleskan krim anti-gatal atau calamine lotion. Jika muncul reaksi alergi berat seperti sesak napas, bengkak wajah, atau pusing hebat, segera hubungi layanan darurat."
+  },
+  {
+    "q": "Apa itu sunburn dan bagaimana cara mencegahnya?",
+    "a": "Sunburn adalah kulit terbakar akibat paparan sinar UV berlebihan. Gejala: kulit merah, perih, dan mengelupas. Cegah dengan: gunakan sunscreen SPF 30+ setiap 2 jam, pakai topi dan pakaian pelindung, hindari matahari pukul 10-14, dan cari tempat teduh."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan telinga?",
+    "a": "Jaga kesehatan telinga: jangan masukkan benda ke telinga termasuk cotton bud terlalu dalam, keringkan telinga setelah berenang, kurangi volume earphone (di bawah 60%), istirahatkan telinga dari kebisingan, dan periksakan ke dokter jika ada gangguan pendengaran atau nyeri."
+  },
+  {
+    "q": "Bagaimana cara merawat kesehatan kaki agar terhindar dari masalah?",
+    "a": "Rawat kaki: cuci dan keringkan setiap hari terutama sela jari, gunakan sepatu yang pas dan nyaman, ganti kaus kaki setiap hari, potong kuku kaki lurus, gunakan pelembap untuk cegah pecah-pecah, dan periksa kaki rutin terutama bagi penderita diabetes."
+  },
+  {
+    "q": "Apa penyebab rambut rontok dan cara mengatasinya?",
+    "a": "Rambut rontok disebabkan stres, kekurangan nutrisi (zat besi, biotin, protein), perubahan hormon, atau genetik. Atasi dengan: makan bergizi seimbang, hindari penataan rambut berlebihan, gunakan sampo lembut, kelola stres, dan konsultasi dokter kulit jika rontok parah."
+  },
+  {
+    "q": "Apa penyebab sakit punggung bawah dan cara mencegahnya?",
+    "a": "Sakit punggung bawah disebabkan postur buruk, duduk terlalu lama, angkat beban salah, atau otot lemah. Cegah dengan: jaga postur baik, olahraga penguatan otot inti, peregangan rutin, gunakan kursi ergonomis, dan angkat beban dengan teknik yang benar menggunakan kaki bukan punggung."
+  },
+  {
+    "q": "Apa itu carpal tunnel syndrome dan bagaimana mencegahnya?",
+    "a": "Carpal tunnel syndrome adalah nyeri dan mati rasa di tangan akibat tekanan pada saraf median di pergelangan tangan. Sering dialami pekerja yang banyak mengetik. Cegah dengan: istirahatkan tangan berkala, gunakan wrist rest, jaga posisi pergelangan tangan netral, dan lakukan peregangan tangan."
+  },
+  {
+    "q": "Apa perbedaan kolesterol HDL dan LDL?",
+    "a": "HDL (High Density Lipoprotein) adalah kolesterol baik yang membersihkan kolesterol dari pembuluh darah. LDL (Low Density Lipoprotein) adalah kolesterol jahat yang bisa menumpuk dan menyumbat pembuluh darah. Idealnya HDL tinggi (>60 mg/dL) dan LDL rendah (<100 mg/dL)."
+  },
+  {
+    "q": "Apa itu Indeks Massa Tubuh (BMI) dan bagaimana menghitungnya?",
+    "a": "BMI dihitung dengan rumus berat badan (kg) dibagi tinggi badan (m) kuadrat. Kategori: <18.5 (kurus), 18.5-24.9 (normal), 25-29.9 (kelebihan berat badan), ≥30 (obesitas). BMI adalah indikator umum, namun tidak memperhitungkan komposisi otot dan lemak."
+  },
+  {
+    "q": "Apakah puasa bermanfaat bagi kesehatan?",
+    "a": "Puasa intermiten dapat membantu menurunkan berat badan, meningkatkan sensitivitas insulin, dan mendorong proses autophagy (pembersihan sel rusak). Namun, tidak cocok untuk semua orang terutama ibu hamil, anak-anak, dan penderita penyakit tertentu. Konsultasi dokter sebelum memulai."
+  },
+  {
+    "q": "Apakah program detoks tubuh benar-benar diperlukan?",
+    "a": "Tubuh sudah memiliki sistem detoks alami melalui hati, ginjal, dan kulit. Program detoks komersial umumnya tidak didukung bukti ilmiah kuat. Cara terbaik mendukung detoks alami: minum air cukup, makan sayur dan buah, olahraga, tidur cukup, dan hindari alkohol serta makanan olahan berlebih."
+  },
+  {
+    "q": "Kapan seseorang perlu mengonsumsi suplemen dan kapan tidak?",
+    "a": "Suplemen diperlukan jika ada kekurangan nutrisi tertentu yang terdeteksi melalui tes darah, atau pada kondisi khusus seperti kehamilan (asam folat) dan lansia (vitamin D, kalsium). Jika pola makan sudah seimbang, suplemen biasanya tidak diperlukan. Konsultasikan dengan dokter sebelum mengonsumsi."
+  },
+  {
+    "q": "Apa manfaat makanan fermentasi bagi kesehatan pencernaan?",
+    "a": "Makanan fermentasi seperti tempe, yogurt, kimchi, dan kefir mengandung bakteri baik yang mendukung kesehatan usus. Manfaatnya meliputi: memperbaiki pencernaan, meningkatkan penyerapan nutrisi, memperkuat imunitas, dan mengurangi peradangan di saluran pencernaan."
+  },
+  {
+    "q": "Apa dampak konsumsi kafein berlebihan bagi tubuh?",
+    "a": "Kafein berlebihan (lebih dari 400 mg/hari atau sekitar 4 cangkir kopi) dapat menyebabkan jantung berdebar, gelisah, insomnia, sakit kepala, dan gangguan pencernaan. Konsumsi kafein wajar umumnya aman, namun kurangi jika mengalami efek samping tersebut."
+  },
+  {
+    "q": "Bagaimana cara menjaga kadar gula darah tetap stabil?",
+    "a": "Jaga gula darah stabil: makan teratur dengan porsi kecil tapi sering, pilih karbohidrat kompleks (nasi merah, oat), perbanyak serat, kombinasikan dengan protein dan lemak sehat, olahraga teratur, kelola stres, dan batasi makanan manis serta minuman bergula."
+  },
+  {
+    "q": "Bagaimana polusi udara mempengaruhi kesehatan?",
+    "a": "Polusi udara meningkatkan risiko penyakit pernapasan (asma, ISPA, kanker paru), penyakit jantung, dan stroke. Lindungi diri: gunakan masker saat polusi tinggi, kurangi aktivitas luar ruangan, gunakan pembersih udara di rumah, dan tanam tanaman penyerap polutan di lingkungan."
+  },
+  {
+    "q": "Kapan antibiotik diperlukan dan mengapa tidak boleh sembarangan?",
+    "a": "Antibiotik hanya efektif untuk infeksi bakteri, bukan virus seperti flu atau pilek. Penggunaan antibiotik sembarangan menyebabkan resistensi bakteri sehingga obat tidak lagi efektif. Selalu gunakan antibiotik sesuai resep dokter dan habiskan seluruh dosis yang diberikan."
+  },
+  {
+    "q": "Apa yang perlu diperhatikan tentang efek samping obat?",
+    "a": "Baca label dan brosur obat sebelum mengonsumsi, perhatikan dosis dan frekuensi, waspadai interaksi antar obat, dan laporkan efek samping ke dokter. Jangan mengonsumsi obat resep orang lain, dan simpan obat sesuai petunjuk penyimpanan yang tertera."
+  },
+  {
+    "q": "Apa saja masalah kesehatan umum pada lansia dan cara menjaganya?",
+    "a": "Lansia rentan mengalami osteoporosis, hipertensi, diabetes, gangguan pendengaran, dan demensia. Jaga kesehatan lansia: aktivitas fisik ringan rutin, pola makan bergizi, pemeriksaan kesehatan berkala, interaksi sosial aktif, dan menjaga kesehatan mental melalui hobi dan kegiatan kognitif."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan anak usia sekolah?",
+    "a": "Jaga kesehatan anak: pastikan nutrisi seimbang dengan sarapan, batasi makanan manis dan junk food, dorong aktivitas fisik minimal 60 menit per hari, pastikan tidur 9-12 jam, ajarkan kebiasaan cuci tangan, lengkapi imunisasi, dan perhatikan kesehatan mental serta pergaulan mereka."
+  },
+  {
+    "q": "Apa itu penyakit pneumonia dan siapa yang berisiko tinggi?",
+    "a": "Pneumonia adalah infeksi paru-paru yang menyebabkan kantung udara meradang dan terisi cairan. Gejala: batuk berdahak, demam, sesak napas, dan nyeri dada. Berisiko tinggi: bayi, lansia, perokok, dan orang dengan daya tahan tubuh lemah. Vaksinasi pneumokokus dapat mencegahnya."
+  },
+  {
+    "q": "Apa itu penyakit autoimun dan contoh-contohnya?",
+    "a": "Penyakit autoimun terjadi ketika sistem imun menyerang sel tubuh sendiri. Contoh: lupus, rheumatoid arthritis, diabetes tipe 1, dan multiple sclerosis. Penyebab pasti belum diketahui, diduga kombinasi genetik dan lingkungan. Penanganan biasanya dengan obat imunosupresan dan gaya hidup sehat."
+  },
+  {
+    "q": "Bagaimana cara mengenali gejala stroke dan tindakan darurat apa yang harus dilakukan?",
+    "a": "Kenali stroke dengan metode FAST: Face (wajah turun sebelah), Arms (lengan lemah sebelah), Speech (bicara pelo), Time (segera hubungi ambulans). Stroke adalah keadaan darurat medis, setiap menit sangat berharga. Jangan tunggu gejala membaik sendiri, langsung bawa ke IGD terdekat."
+  },
+  {
+    "q": "Apa itu mindfulness dan bagaimana manfaatnya untuk kesehatan mental?",
+    "a": "Mindfulness adalah praktik fokus penuh pada momen sekarang tanpa penilaian. Manfaatnya untuk kesehatan mental: mengurangi stres dan kecemasan, meningkatkan konsentrasi, memperbaiki tidur, dan meningkatkan regulasi emosi. Dapat dipraktikkan melalui meditasi, yoga, atau aktivitas sehari-hari seperti makan dengan sadar."
+  },
+  {
+    "q": "Apa saja tanda-tanda depresi dan kapan harus mencari bantuan profesional?",
+    "a": "Tanda depresi: perasaan sedih berkepanjangan, kehilangan minat pada aktivitas, gangguan tidur, perubahan nafsu makan, kelelahan, sulit konsentrasi, dan pikiran tentang kematian. Segera cari bantuan profesional jika gejala berlangsung lebih dari 2 minggu atau mengganggu fungsi sehari-hari. Konsultasi dengan psikolog atau psikiater sangat penting."
+  },
+  {
+    "q": "Apa itu telemedicine dan apa keuntungannya untuk akses kesehatan?",
+    "a": "Telemedicine adalah konsultasi kesehatan secara daring dengan dokter melalui video call, telepon, atau chat. Keuntungannya: hasil konsultasi lebih cepat, hemat waktu dan biaya transportasi, akses untuk daerah terpencil, privasi lebih terjaga, dan dapat digunakan saat situasi darurat atau mobilitas terbatas."
+  },
+  {
+    "q": "Bagaimana pentingnya pemeriksaan kesehatan preventif dan apa yang termasuk di dalamnya?",
+    "a": "Pemeriksaan preventif dilakukan saat tubuh sehat untuk mendeteksi penyakit lebih awal. Termasuk: check-up rutin, tes darah lengkap, pemeriksaan tekanan darah, tes kolesterol, radiologi (jika diperlukan), dan screening kanker sesuai usia dan riwayat kesehatan. Deteksi dini dapat mencegah kondisi serius dan menyelamatkan nyawa."
+  },
+  {
+    "q": "Apa itu burnout dan bagaimana cara mengatasinya?",
+    "a": "Burnout adalah kondisi kelelahan fisik dan emosional akibat stres kerja berkepanjangan, ditandai dengan merasa kehabisan energi, sulit konsentrasi, dan merasa tidak peduli. Cara mengatasi: ambil cuti, kelola beban kerja, praktik relaksasi, cari hobby, perbaiki tidur dan nutrisi, dan jangan ragu mencari konseling profesional jika diperlukan."
+  },
+  {
+    "q": "Apa manfaat skincare routine yang konsisten untuk kesehatan kulit?",
+    "a": "Skincare rutin membantu: melindungi kulit dari kerusakan UV, mencegah penuaan dini, menjaga kelembaban, mengurangi jerawat dan inflamasi, dan meningkatkan percaya diri. Routine dasar: cuci wajah, gunakan toner, aplikasikan serum, gunakan moisturizer, dan jangan lupa sunscreen minimal SPF 30 setiap hari."
+  },
+  {
+    "q": "Bagaimana dampak screen time berlebihan terhadap kesehatan fisik dan mental?",
+    "a": "Screen time berlebihan menyebabkan: mata lelah dan rabun, postur tubuh buruk (nyeri leher, punggung), gangguan tidur akibat cahaya biru, kurang aktivitas fisik, dan masalah mental seperti kecemasan dan depresi terutama pada anak. Batasi: gunakan aturan 20-20-20 (setiap 20 menit lihat ke jarak 20 kaki selama 20 detik), atur waktu screen, dan ciptakan zona bebas gadget."
+  },
+  {
+    "q": "Apa itu functional medicine dan bagaimana pendekatan ini berbeda dengan konvensional?",
+    "a": "Functional medicine fokus pada akar penyakit bukan hanya gejala, dan mempertimbangkan riwayat hidup lengkap, genetik, lingkungan, dan nutrisi. Berbeda dari konvensional yang sering memberi obat untuk gejala. Pendekatan functional medicine lebih holistik, melibatkan orang dengan rencana terapi personal, diet sehat, olahraga, dan manajemen stres untuk mencapai kesehatan optimal."
+  },
+  {
+    "q": "Apa pentingnya vaksin booster dan siapa yang membutuhkannya?",
+    "a": "Vaksin booster memperkuat kekebalan yang mulai melemah seiring waktu. Penting untuk: lansia, pekerja medis, orang dengan imun lemah, dan sebelum perjalanan ke daerah dengan risiko penyakit. Kemajuan teknologi mRNA vaccine memungkinkan produksi booster lebih cepat sesuai varian baru, seperti untuk COVID-19 dan influenza yang terus bermutasi."
+  },
+  {
+    "q": "Bagaimana nutrition label bisa membantu membuat pilihan makanan yang lebih sehat?",
+    "a": "Nutrition label menampilkan: kalori per porsi, macronutrient (protein, lemak, karbohidrat), vitamin dan mineral, serta sodium dan gula. Perhatikan: pilih produk dengan kalori sesuai kebutuhan, batasi sodium (maksimal 2300mg/hari), kurangi gula tambahan (maksimal 25-36g/hari untuk wanita dan pria), dan prioritas produk dengan fiber tinggi dan lemak baik."
+  },
+  {
+    "q": "Apa itu Premenstrual Syndrome (PMS) dan bagaimana cara mengatasi gejalanya?",
+    "a": "PMS adalah serangkaian gejala fisik dan emosional yang muncul 1-2 minggu sebelum menstruasi, termasuk nyeri payudara, kembung, perubahan suasana hati, dan kelelahan. Cara mengatasi: olahraga teratur, batasi garam dan kafein, konsumsi makanan kaya kalsium dan magnesium (susu, sayuran hijau, kacang), istirahat cukup, kelola stres dengan meditasi atau yoga. Jika gejala parah, konsultasi dokter untuk obat anti-inflamasi atau kontrasepsi hormonal."
+  },
+  {
+    "q": "Apa saja hal penting yang perlu diperhatikan selama kehamilan?",
+    "a": "Selama kehamilan perlu diperhatikan: konsumsi makanan bergizi seimbang dengan kalori cukup, minum air 8-10 gelas per hari, ambil suplemen prenatal (asam folat, kalsium, zat besi, omega-3), hindari alkohol dan merokok, hindari makanan mentah atau setengah matang (sushi, telur mentah), lakukan pemeriksaan kehamilan berkala, olahraga ringan seperti jalan kaki, istirahat cukup, kelola stres, dan laporkan perubahan gejala ke dokter kandungan."
+  },
+  {
+    "q": "Bagaimana cara memilih program diet yang sehat dan berkelanjutan?",
+    "a": "Pilih program diet yang sehat: target penurunan berat badan 0.5-1 kg per minggu, ciptakan deficit kalori 500-750 kalori per hari, jangan melewatkan makan khususnya sarapan, perbanyak protein dan serat, batasi gula dan lemak trans, minum air cukup, olahraga 150 menit per minggu. Hindari diet ekstrem atau pembatasan grup makanan tertentu. Konsultasi dengan ahli gizi atau dokter untuk program yang aman, sesuai kebutuhan, dan berkelanjutan jangka panjang."
+  },
+  {
+    "q": "Apa itu sleep apnea dan bagaimana cara menanganinya?",
+    "a": "Sleep apnea adalah gangguan tidur di mana pernapasan terhenti sesaat berkali-kali saat tidur, menyebabkan kantuk siang hari, sakit kepala pagi, dan risiko penyakit jantung serta stroke. Gejala: mendengkur keras, terbangun tersengal-sengal, menghenti napas. Faktor risiko: obesitas, usia lanjut, dan anatomis saluran napas. Pengobatan: CPAP (continuous positive airway pressure), oral appliance, perubahan gaya hidup, atau operasi sesuai severitas. Konsultasi spesialis tidur untuk diagnosis dan penanganan yang tepat."
+  },
+  {
+    "q": "Apa itu Seasonal Affective Disorder (SAD) dan bagaimana cara mengatasinya?",
+    "a": "SAD adalah depresi musiman yang muncul saat hari pendek dan cahaya berkurang, terutama di musim gugur dan dingin. Gejala: mood sedih, kelelahan berlebihan, kurang energi, perubahan nafsu makan, isolasi sosial. Cara mengatasi: terapi cahaya (light therapy) 20-30 menit setiap pagi, olahraga di sinar matahari, konsumsi vitamin D, terapi kognitif perilaku, dan dalam kasus berat gunakan obat antidepresan. Konsultasi psikiater untuk diagnosis dan penanganan yang tepat."
+  },
+  {
+    "q": "Apa itu molluscum contagiosum dan bagaimana cara mengatasinya?",
+    "a": "Molluscum contagiosum adalah infeksi virus kulit yang menyebabkan benjolan kecil berwarna merah muda dengan pusat cekung. Menular melalui kontak langsung dengan penderita atau barang yang terkontaminasi. Biasanya hilang sendiri dalam berbulan-bulan, tapi bisa bertahan hingga 2-3 tahun. Pengobatan: krim antiseptik topikal, kryotherapy (pembekuan), elektrokauter, atau extraction. Penting untuk menghindari menggaruk untuk mencegah penyebaran dan infeksi sekunder."
+  },
+  {
+    "q": "Bagaimana cara mencegah dan mengobati athlete's foot (jamur kaki)?",
+    "a": "Athlete's foot adalah infeksi jamur yang menyerang kulit kaki, menyebabkan kemerahan, gatal, bersisik, dan kadang melepuh. Terjadi karena lingkungan lembab dan gelap. Pencegahan: jaga kaki tetap kering, gunakan sandal di area publik, ganti kaus kaki basah, hindari berjalan kaki telanjang di kamar mandi umum. Pengobatan: aplikasikan krim atau bedak antifungi (miconazole, tolnaftate) 2x sehari selama 2-4 minggu. Jika tidak membaik, konsultasi dokter dermatologi untuk obat oral."
+  },
+  {
+    "q": "Apa saja interaksi berbahaya antara makanan dan obat-obatan tertentu?",
+    "a": "Beberapa kombinasi makanan dan obat dapat membahayakan kesehatan: warfarin tidak boleh bersama vitamin K tinggi (bayam, brokoli), antibiotik tertentu dengan produk susu, statin dengan juice grapefruit, MAOI dengan makanan fermentasi tinggi (kemiri, salami), tekanan darah dengan kalium tinggi berlebihan. Penting: selalu baca instruksi obat, tanyakan pada apoteker tentang jadwal minum obat yang aman, dan hindari kombinasi yang berbahaya."
+  },
+  {
+    "q": "Bagaimana cara menjaga kesehatan seksual dan reproduksi dengan baik?",
+    "a": "Jaga kesehatan seksual dan reproduksi melalui: penggunaan kontrasepsi yang sesuai dan aman, praktik seks yang sehat dan aman, pemeriksaan kesehatan rutin (pap smear untuk wanita, pemeriksaan prostat untuk pria), menjaga kebersihan area intim, vaksinasi HPV untuk mencegah kanker serviks, hindari penyakit menular seksual, komunikasi terbuka dengan pasangan, dan konsultasi dengan dokter atau spesialis kesehatan reproduksi jika ada masalah."
+  },
+  {
+    "q": "Apa itu terapi hormon penggantian (HRT) dan bagaimana efeknya pada gejala menopause?",
+    "a": "HRT adalah pemberian hormon estrogen dan/atau progestin untuk mengatasi gejala menopause seperti hot flashes, keringat malam, vaginal dryness, dan mood swings. Sangat efektif mengurangi gejala, namun memiliki risiko potensial seperti pembekuan darah, stroke, dan kanker payudara jika penggunaan jangka panjang. Keputusan menggunakan HRT harus bersama dokter kandungan dengan mempertimbangkan risiko-manfaat individual, riwayat kesehatan, dan perlu monitoring kesehatan berkala."
+  },
+  {
+    "q": "Apa itu Irritable Bowel Syndrome (IBS) dan bagaimana cara mengelolanya?",
+    "a": "IBS adalah gangguan pencernaan kronis dengan gejala nyeri perut, kembung, kram, diare, dan/atau sembelit yang berulang. Penyebab pasti belum diketahui, diduga kombinasi faktor usus, saraf, psikologis, dan genetik. Pengelolaan: identifikasi dan hindari makanan pemicu, tingkatkan serat secara bertahap, minum air cukup, kelola stres, olahraga teratur, hindari makanan berlemak dan minuman berkafein atau bersoda. Konsultasi gastroenterologi untuk diagnosis dan pengobatan yang tepat jika gejala mengganggu fungsi sehari-hari."
+  },
+  {
+    "q": "Apa pentingnya pemeriksaan kesehatan mental dan kapan waktu yang tepat untuk berkonsultasi?",
+    "a": "Pemeriksaan kesehatan mental sama pentingnya dengan kesehatan fisik. Berkonsultasi dengan psikolog atau psikiater jika mengalami: perasaan sedih/cemas berkepanjangan lebih dari 2 minggu, gangguan tidur parah, dampak pada produktivitas kerja atau hubungan, pikiran tentang menyakiti diri sendiri, atau perubahan kepribadian drastis. Jangan menunggu sampai kondisi parah. Deteksi dini membantu mencegah penyakit mental semakin berat dan memudahkan penanganan dengan efektif."
+  },
+  {
+    "q": "Bagaimana hidrasi yang tepat dapat meningkatkan fungsi kognitif dan energi sepanjang hari?",
+    "a": "Hidrasi optimal meningkatkan konsentrasi, daya ingat, dan tingkat energi sepanjang hari. Air membantu mengangkut oksigen ke otak, mengatur suhu tubuh, dan memberikan energi untuk setiap aktivitas. Dehidrasi bahkan ringan dapat menyebabkan penurunan fokus, sakit kepala, dan kelelahan. Disarankan minum 8-10 gelas air per hari, lebih banyak jika berolahraga atau cuaca panas. Urine yang jernih atau kuning pucat menunjukkan hidrasi baik.",
+    "cot": "Pikirkan tentang apa yang terjadi saat tubuh kekurangan air: sistem sirkulasi melambat, pengiriman oksigen ke otak berkurang, menyebabkan kehilangan konsentrasi. Air adalah komponen utama darah dan membantu nutrisi tersebar ke seluruh tubuh. Efek hidrasi terhadap energi: cairan tubuh yang cukup memastikan metabolisme optimal dan efisiensi otot. Oleh karena itu, konsumsi air yang konsisten adalah kunci untuk performa mental dan fisik yang baik."
+  },
+  {
+    "q": "Mengapa olahraga intensitas sedang 150 menit per minggu lebih efektif daripada olahraga sporadis?",
+    "a": "Olahraga konsisten 150 menit per minggu membangun kebugaran kardiovaskular, memperkuat otot, meningkatkan metabolisme, dan menurunkan risiko penyakit kronis seperti diabetes dan penyakit jantung. Olahraga sporadis kurang memberikan adapasi fisik yang optimal. Olahraga teratur memastikan: peningkatan kapasitas VO2max, kontrol berat badan yang berkelanjutan, stabilisasi tekanan darah, dan manfaat mental yang konsisten. Bisa dibagi menjadi 30 menit, 5 kali seminggu atau 50 menit, 3 kali seminggu.",
+    "cot": "Prinsip adaptasi tubuh: ketika olahraga dilakukan secara teratur, otot dan jantung beradaptasi dengan meningkatkan efisiensi. Olahraga sporadis tidak memberikan cukup waktu untuk adaptasi ini, sehingga manfaatnya minimal dan tubuh berisiko mengalami cedera saat melakukan aktivitas berat tiba-tiba. Konsistensi memungkinkan peningkatan performa bertahap dan manfaat jangka panjang yang terukur."
+  },
+  {
+    "q": "Bagaimana komposisi makronutrien (protein, karbohidrat, lemak) harus disesuaikan berdasarkan tujuan kesehatan?",
+    "a": "Komposisi makronutrien optimal tergantung tujuan: untuk penurunan berat badan, tingkatkan protein (30-35%) dan kurangi lemak; untuk membangun otot, protein 25-30%, karbohidrat 45-55%, lemak 20-25%; untuk kesehatan umum, seimbangkan 50% karbohidrat, 25% protein, 25% lemak. Protein membangun jaringan, karbohidrat memberi energi, lemak penting untuk hormon dan penyerapan vitamin. Konsultasi ahli gizi untuk rekomendasi personal berdasarkan usia, aktivitas, dan kondisi kesehatan.",
+    "cot": "Pertimbangkan peran setiap makronutrien dalam tubuh: protein membutuhkan energi lebih banyak untuk dicerna, sehingga meningkatkan termogenesis dan rasa kenyang lebih lama. Karbohidrat adalah bahan bakar utama untuk aktivitas dan otak. Lemak sehat (omega-3, MUFA) penting untuk fungsi jantung dan hormon. Keseimbangan yang berbeda menghasilkan hasil berbeda - lebih banyak protein untuk pemulihan otot, lebih banyak karbohidrat untuk performa atletik. Personalisasi adalah kunci kesuksesan diet jangka panjang."
+  }
+]

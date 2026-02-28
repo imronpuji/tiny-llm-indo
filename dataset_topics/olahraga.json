@@ -1,0 +1,473 @@
+[
+  {
+    "q": "Apa olahraga nasional Indonesia?",
+    "a": "Olahraga nasional Indonesia adalah pencak silat."
+  },
+  {
+    "q": "Berapa pemain dalam satu tim sepak bola?",
+    "a": "Satu tim sepak bola terdiri dari 11 pemain."
+  },
+  {
+    "q": "Berapa pemain dalam satu tim bola basket?",
+    "a": "Satu tim bola basket terdiri dari 5 pemain di lapangan."
+  },
+  {
+    "q": "Berapa pemain dalam satu tim bola voli?",
+    "a": "Satu tim bola voli terdiri dari 6 pemain di lapangan."
+  },
+  {
+    "q": "Apa itu bulutangkis?",
+    "a": "Bulutangkis atau badminton adalah olahraga raket yang dimainkan dengan shuttlecock. Indonesia terkenal sebagai negara kuat di bulutangkis."
+  },
+  {
+    "q": "Siapa atlet bulutangkis legendaris Indonesia?",
+    "a": "Atlet bulutangkis legendaris Indonesia antara lain Susi Susanti, Taufik Hidayat, dan Liem Swie King."
+  },
+  {
+    "q": "Kapan Olimpiade pertama diadakan?",
+    "a": "Olimpiade modern pertama diadakan pada tahun 1896 di Athena, Yunani."
+  },
+  {
+    "q": "Apa itu Piala Dunia?",
+    "a": "Piala Dunia adalah turnamen sepak bola internasional yang diadakan setiap 4 tahun sekali oleh FIFA."
+  },
+  {
+    "q": "Apa itu tenis?",
+    "a": "Tenis adalah olahraga raket yang dimainkan dua pemain atau empat pemain di lapangan persegi panjang. Tujuannya adalah memukul bola melintasi net ke sisi lawan."
+  },
+  {
+    "q": "Siapa pemain tenis terkenal dari Swiss?",
+    "a": "Roger Federer adalah pemain tenis legendaris dari Swiss yang telah memenangkan 20 Grand Slam dan dianggap sebagai salah satu pemain terbaik dalam sejarah tenis."
+  },
+  {
+    "q": "Apa itu karate?",
+    "a": "Karate adalah seni bela diri Jepang yang menggunakan pukulan, tendangan, dan teknik pertahanan tangan kosong. Karate menekankan disiplin, fokus, dan kontrol diri."
+  },
+  {
+    "q": "Apa itu renang?",
+    "a": "Renang adalah olahraga air yang melibatkan pergerakan di dalam air dengan menggunakan anggota badan. Renang adalah olahraga olimpik dengan berbagai gaya termasuk gaya bebas, punggung, dada, dan kupu-kupu."
+  },
+  {
+    "q": "Siapa atlet renang pria terbaik saat ini?",
+    "a": "Caeleb Dressel dari Amerika Serikat adalah salah satu atlet renang pria terbaik saat ini dengan banyak medali emas olimpik dan rekor dunia."
+  },
+  {
+    "q": "Apa itu bulu tangkis dan berapa pemain dalam satu partai?",
+    "a": "Bulu tangkis dapat dimainkan dengan satu pemain lawan satu (tunggal) atau dua pemain lawan dua (ganda). Dalam versi ganda, setiap tim terdiri dari dua pemain."
+  },
+  {
+    "q": "Apa itu tinju?",
+    "a": "Tinju adalah olahraga pertarungan dua orang yang menggunakan pukulan ekspos dengan tangan berkasut. Tujuannya adalah menghantam lawan untuk memenangkan pertandingan berdasarkan skor atau ketaukan."
+  },
+  {
+    "q": "Siapa yang dianggap petinju terbaik dalam sejarah?",
+    "a": "Muhammad Ali (Cassius Clay) banyak dianggap sebagai petinju terbaik dalam sejarah dengan tiga kali menjadi juara dunia dan pengalaman mengagumkan di atas ring."
+  },
+  {
+    "q": "Apa itu atletik?",
+    "a": "Atletik adalah cabang olahraga yang mencakup berbagai aktivitas fisik seperti lari, lompat, dan lempar. Atletik adalah bagian inti dari Olimpiade dengan banyak nomor yang berbeda."
+  },
+  {
+    "q": "Berapa jarak dalam maraton?",
+    "a": "Maraton adalah perlombaan lari jarak jauh sejauh 42,195 kilometer (26.2 mil). Maraton dimulai dari tradisi kuno Grecia dan kini menjadi olahraga populer di seluruh dunia."
+  },
+  {
+    "q": "Siapa atlet lari cepat tercepat dalam sejarah?",
+    "a": "Usain Bolt dari Jamaika adalah atlet lari 100 meter tercepat dengan rekor dunia 9,58 detik. Dia dianggap sebagai manusia tercepat di planet ini."
+  },
+  {
+    "q": "Apa itu hoki?",
+    "a": "Hoki adalah olahraga tim yang dimainkan dengan tongkat dan bola atau puck di atas es (hoki es) atau lapangan rumput (field hockey). Tujuannya adalah memasukkan bola ke gawang lawan."
+  },
+  {
+    "q": "Apa itu senam?",
+    "a": "Senam adalah olahraga yang menggabungkan gerakan akrobatik, keseimbangan, dan fleksibilitas. Senam mencakup berbagai disiplin seperti senam artistik, ritmik, dan trampolin."
+  },
+  {
+    "q": "Apa itu menyelam atau diving?",
+    "a": "Menyelam (diving) adalah olahraga air yang melibatkan lompatan dari platform atau papan dengan gerakan putar atau memutar di udara sebelum masuk air. Ini adalah olahraga yang memerlukan keberanian dan teknik sempurna."
+  },
+  {
+    "q": "Apa itu skateboard?",
+    "a": "Skateboard adalah olahraga rekreasi dan kompetitif yang menggunakan papan beroda untuk meluncur, melakukan trik, dan berkompetisi. Skateboard telah menjadi olahraga populer di kalangan pemuda."
+  },
+  {
+    "q": "Siapa pemain sepak bola pria terbaik saat ini?",
+    "a": "Lionel Messi dan Cristiano Ronaldo adalah dua pemain sepak bola terbaik dalam dekade terakhir, masing-masing dengan banyak penghargaan Ballon d'Or dan prestasi luar biasa."
+  },
+  {
+    "q": "Kapan pertamakali Piala Dunia diadakan?",
+    "a": "Piala Dunia FIFA pertama kali diadakan pada tahun 1930 di Uruguay. Uruguay menjadi juara pertama dengan mengalahkan Argentina di pertandingan final."
+  },
+  {
+    "q": "Apa itu teknik layup dalam bola basket?",
+    "a": "Layup adalah teknik dasar dalam bola basket di mana pemain berlari mendekati ring dan melakukan lemparan dekat dengan papan untuk memasukkan bola ke dalam ring lawan."
+  },
+  {
+    "q": "Apa itu servis dalam tenis?",
+    "a": "Servis adalah pukulan untuk memulai permainan dalam tenis. Pemain harus berdiri di belakang garis dasar dan melempar bola ke atas sebelum memukulnya ke area servis lawan."
+  },
+  {
+    "q": "Apa itu off-side dalam sepak bola?",
+    "a": "Off-side (gawang bersih) adalah peraturan dalam sepak bola di mana pemain penyerang tidak boleh berada di depan bola lebih dekat ke gawang lawan daripada dua pemain lawan terakhir saat bola dimainkan."
+  },
+  {
+    "q": "Apa itu smash dalam bola voli?",
+    "a": "Smash adalah serangan agresif dalam bola voli di mana pemain melompat tinggi dan memukul bola dengan kuat ke bawah ke sisi lawan. Ini adalah salah satu teknik penyerangan paling efektif."
+  },
+  {
+    "q": "Siapa perenang wanita legendaris dari Amerika?",
+    "a": "Katie Ledecky adalah perenang wanita legendaris dari Amerika Serikat dengan 7 medali emas olimpik dan banyak rekor dunia dalam gaya bebas."
+  },
+  {
+    "q": "Apa itu Wimbledon?",
+    "a": "Wimbledon adalah turnamen tenis profesional tertua dan paling prestisius di dunia, diadakan setiap tahun di London, Inggris sejak 1877. Ini adalah satu-satunya Grand Slam yang dimainkan di rumput."
+  },
+  {
+    "q": "Siapa pemain basket terbaik dalam sejarah?",
+    "a": "Michael Jordan dari Amerika Serikat dianggap sebagai pemain basket terbaik sepanjang masa dengan 6 juara NBA, 5 MVP Award, dan pembuat sejarah dalam olahraga basket."
+  },
+  {
+    "q": "Apa itu curling?",
+    "a": "Curling adalah olahraga musim dingin yang dimainkan di atas es dengan keping batu yang digeser ke arah target. Ini adalah olahraga tim yang memerlukan strategi, presisi, dan kerja sama."
+  },
+  {
+    "q": "Apa itu Wimbledon dan mengapa istimewa?",
+    "a": "Wimbledon adalah grand slam tenis tertua (sejak 1877) dan satu-satunya yang dimainkan di rumput putih. Pemain dan penonton perlu mengenakan pakaian putih sesuai tradisi."
+  },
+  {
+    "q": "Siapa juara Olimpiade emas badminton ganda putra terbaru dari Indonesia?",
+    "a": "Kevin Sanjaya Sukamuljo dan Marcus Fernaldi Gideon adalah pasangan badminton ganda putra Indonesia yang memenangkan medali emas di Olimpiade Tokyo 2020."
+  },
+  {
+    "q": "Apa itu pole vault dalam atletik?",
+    "a": "Pole vault adalah nomor atletik lompat dengan menggunakan tiang panjang untuk melompati mistar di atas kepala. Atlet memerlukan kecepatan lari, kekuatan, dan teknik sempurna."
+  },
+  {
+    "q": "Apa perbedaan antara tinju amatir dan profesional?",
+    "a": "Tinju amatir menggunakan sarung tangan lebih besar, helm pelindung, dan pertandingan lebih pendek. Tinju profesional menggunakan sarung tangan lebih kecil dan pertandingan lebih lama tanpa helm."
+  },
+  {
+    "q": "Siapa atlet lompat jauh terbaik saat ini?",
+    "a": "Juan Miguel Echevarría dari Kuba adalah atlet lompat jauh terbaik saat ini dengan rekor personal melebihi 8.5 meter dan berbagai medali internasional."
+  },
+  {
+    "q": "Apa itu futsal dan bagaimana perbedaannya dengan sepak bola?",
+    "a": "Futsal adalah versi sepak bola yang dimainkan di dalam ruangan dengan lapangan lebih kecil dan tim terdiri dari 5 pemain per sisi. Futsal memiliki tempo permainan lebih cepat, bola lebih berat, dan kurang memantul dibandingkan sepak bola biasa."
+  },
+  {
+    "q": "Siapa pemain badminton tunggal putra Indonesia yang paling top saat ini?",
+    "a": "Jonatan Christie adalah pemain badminton tunggal putra terbaik dari Indonesia dengan ranking dunia tinggi dan prestasi gemilang di berbagai turnamen internasional termasuk All England Open dan BWF World Championships."
+  },
+  {
+    "q": "Apa pentingnya latihan fisik yang teratur dalam olahraga?",
+    "a": "Latihan fisik yang teratur meningkatkan kekuatan otot, daya tahan kardiovaskular, fleksibilitas, dan ketahanan mental atlet. Kondisi fisik yang prima dapat meningkatkan performa dan mengurangi risiko cedera selama kompetisi."
+  },
+  {
+    "q": "Siapa pemenang medali emas Olimpiade bulu tangkis tunggal putri dari Indonesia?",
+    "a": "Susi Susanti adalah legenda bulu tangkis Indonesia yang memenangkan medali emas Olimpiade Barcelona 1992 dalam nomor tunggal putri, menjadi atlet wanita Indonesia pertama yang memenangkan emas Olimpiade."
+  },
+  {
+    "q": "Apa itu teknik three-point shot dalam bola basket?",
+    "a": "Three-point shot adalah lemparan bola basket yang dilakukan dari luar garis tiga angka. Jika berhasil masuk, tim mendapat tiga poin, menjadikannya senjata penting dalam strategi permainan modern."
+  },
+  {
+    "q": "Apa itu teknik passing dalam bola voli?",
+    "a": "Passing adalah teknik dasar bola voli untuk menerima bola dari lawan menggunakan lengan bawah (passing bawah) atau ujung jari (passing atas). Teknik ini penting untuk mengatur serangan tim."
+  },
+  {
+    "q": "Apa itu olahraga golf?",
+    "a": "Golf adalah olahraga yang dimainkan di lapangan terbuka luas dengan tujuan memasukkan bola kecil ke dalam lubang menggunakan berbagai jenis tongkat (club) dengan pukulan sesedikit mungkin."
+  },
+  {
+    "q": "Berapa jumlah lubang standar dalam satu putaran golf?",
+    "a": "Satu putaran golf standar terdiri dari 18 lubang. Setiap lubang memiliki nilai par yang berbeda, biasanya antara par 3 hingga par 5, tergantung pada jarak dan tingkat kesulitan."
+  },
+  {
+    "q": "Apa itu panjat tebing atau rock climbing?",
+    "a": "Panjat tebing adalah olahraga yang melibatkan pemanjatan permukaan batu alam atau dinding buatan. Olahraga ini membutuhkan kekuatan tangan, kaki, keseimbangan, dan strategi untuk mencapai puncak."
+  },
+  {
+    "q": "Apa saja jenis panjat tebing yang populer?",
+    "a": "Jenis panjat tebing populer meliputi bouldering (tanpa tali di ketinggian rendah), lead climbing (memanjat dengan tali ke atas), dan speed climbing (memanjat secepat mungkin). Ketiganya menjadi cabang resmi di Olimpiade."
+  },
+  {
+    "q": "Apa manfaat bersepeda bagi kesehatan?",
+    "a": "Bersepeda meningkatkan kesehatan jantung dan paru-paru, memperkuat otot kaki, membakar kalori, serta mengurangi stres. Olahraga ini juga ramah sendi karena termasuk aktivitas low-impact."
+  },
+  {
+    "q": "Apa itu Tour de France?",
+    "a": "Tour de France adalah lomba balap sepeda jalanan paling bergengsi di dunia yang diadakan setiap tahun di Prancis. Perlombaan ini berlangsung sekitar tiga minggu dengan total jarak lebih dari 3.000 kilometer."
+  },
+  {
+    "q": "Bagaimana cara mempersiapkan diri untuk lari marathon?",
+    "a": "Persiapan lari marathon membutuhkan latihan bertahap selama 12-20 minggu, termasuk latihan jarak panjang, interval, dan pemulihan. Nutrisi yang tepat, hidrasi, dan istirahat cukup juga sangat penting."
+  },
+  {
+    "q": "Apa perbedaan antara lari sprint dan lari marathon?",
+    "a": "Sprint adalah lari jarak pendek (100-400 meter) yang mengandalkan kecepatan maksimal dan kekuatan eksplosif. Marathon adalah lari jarak jauh (42,195 km) yang mengandalkan daya tahan dan stamina."
+  },
+  {
+    "q": "Apa itu yoga dan apa manfaatnya?",
+    "a": "Yoga adalah praktik fisik dan mental yang berasal dari India, menggabungkan pose tubuh (asana), teknik pernapasan (pranayama), dan meditasi. Manfaatnya meliputi peningkatan fleksibilitas, kekuatan, dan ketenangan pikiran."
+  },
+  {
+    "q": "Apa perbedaan antara yoga dan pilates?",
+    "a": "Yoga lebih berfokus pada fleksibilitas, keseimbangan, dan meditasi dengan akar spiritual dari India. Pilates lebih berfokus pada penguatan otot inti (core), postur tubuh, dan rehabilitasi fisik tanpa aspek spiritual."
+  },
+  {
+    "q": "Apa itu pilates dan siapa penciptanya?",
+    "a": "Pilates adalah sistem latihan fisik yang diciptakan oleh Joseph Pilates pada awal abad ke-20. Latihan ini menekankan penguatan otot inti, keseimbangan, fleksibilitas, dan kontrol gerakan tubuh."
+  },
+  {
+    "q": "Apa saja gaya renang yang dipertandingkan di Olimpiade?",
+    "a": "Empat gaya renang yang dipertandingkan di Olimpiade adalah gaya bebas (freestyle), gaya punggung (backstroke), gaya dada (breaststroke), dan gaya kupu-kupu (butterfly). Ada juga nomor gaya ganti yang menggabungkan keempatnya."
+  },
+  {
+    "q": "Apa itu surfing dan di mana tempat terbaik untuk berselancar di Indonesia?",
+    "a": "Surfing atau berselancar adalah olahraga air yang dilakukan dengan berdiri di atas papan selancar sambil menunggangi ombak. Indonesia memiliki spot surfing kelas dunia seperti Mentawai, Uluwatu di Bali, dan G-Land di Jawa Timur."
+  },
+  {
+    "q": "Apa saja trik dasar dalam skateboard?",
+    "a": "Trik dasar skateboard meliputi ollie (melompat dengan papan), kickflip (memutar papan secara horizontal), heelflip, dan pop shove-it. Menguasai ollie adalah fondasi untuk mempelajari trik lainnya."
+  },
+  {
+    "q": "Apa itu olahraga kayak?",
+    "a": "Kayak adalah olahraga air yang menggunakan perahu kecil dan dayung bermata ganda untuk bergerak di atas air. Kayak bisa dilakukan di sungai, danau, atau laut untuk rekreasi maupun kompetisi."
+  },
+  {
+    "q": "Apa saja cabang olahraga musim dingin yang populer?",
+    "a": "Cabang olahraga musim dingin populer antara lain ski alpine, snowboarding, ice skating (seluncur es), biathlon, bobsled, dan ski lintas alam. Olahraga ini dipertandingkan di Olimpiade Musim Dingin."
+  },
+  {
+    "q": "Apa itu snowboarding?",
+    "a": "Snowboarding adalah olahraga musim dingin yang dilakukan dengan meluncur di atas salju menggunakan papan yang diikatkan ke kaki. Cabang ini mencakup halfpipe, slopestyle, dan snowboard cross."
+  },
+  {
+    "q": "Apa aturan dasar permainan bola basket?",
+    "a": "Dalam bola basket, tim harus memasukkan bola ke ring lawan untuk mencetak poin. Pemain tidak boleh berlari sambil memegang bola tanpa dribble, dan pelanggaran seperti foul dan traveling dapat mengakibatkan pergantian bola atau lemparan bebas."
+  },
+  {
+    "q": "Apa itu teknik dribbling dalam bola basket?",
+    "a": "Dribbling adalah teknik memantulkan bola ke lantai secara berulang dengan satu tangan sambil bergerak di lapangan. Teknik ini penting untuk menghindari lawan dan membawa bola ke posisi yang menguntungkan untuk mencetak poin."
+  },
+  {
+    "q": "Apa itu teknik block dalam bola voli?",
+    "a": "Block adalah teknik pertahanan di bola voli yang dilakukan dengan melompat di dekat net dan mengangkat tangan untuk menghalangi serangan smash lawan. Block yang efektif dapat langsung menghasilkan poin atau memperlambat bola."
+  },
+  {
+    "q": "Apa itu teknik backhand dalam tenis?",
+    "a": "Backhand adalah pukulan tenis yang dilakukan dengan bagian belakang tangan menghadap ke arah bola. Teknik ini bisa dilakukan dengan satu tangan atau dua tangan, dan merupakan pukulan penting selain forehand."
+  },
+  {
+    "q": "Apa itu Grand Slam dalam tenis?",
+    "a": "Grand Slam adalah empat turnamen tenis paling bergengsi di dunia, yaitu Australian Open, French Open (Roland Garros), Wimbledon, dan US Open. Memenangkan keempatnya dalam satu tahun disebut Calendar Grand Slam."
+  },
+  {
+    "q": "Bagaimana teknik dasar berenang gaya bebas?",
+    "a": "Teknik dasar gaya bebas meliputi posisi tubuh horizontal di air, gerakan lengan bergantian seperti kincir, tendangan kaki naik-turun secara konstan, dan pernapasan menyamping secara ritmis setiap dua atau tiga gerakan lengan."
+  },
+  {
+    "q": "Apa itu water polo?",
+    "a": "Water polo adalah olahraga air beregu yang dimainkan oleh dua tim beranggotakan tujuh pemain di kolam renang. Tujuannya adalah melemparkan bola ke gawang lawan sambil berenang, mirip kombinasi renang dan handball."
+  },
+  {
+    "q": "Apa itu olahraga triathlon?",
+    "a": "Triathlon adalah olahraga multidisiplin yang menggabungkan tiga cabang: renang, bersepeda, dan lari secara berurutan tanpa jeda. Jarak standar Olimpiade adalah renang 1,5 km, sepeda 40 km, dan lari 10 km."
+  },
+  {
+    "q": "Apa itu senam ritmik?",
+    "a": "Senam ritmik adalah cabang senam yang menggabungkan gerakan tari, akrobatik, dan manipulasi alat seperti pita, bola, simpai, gada, atau tali, diiringi musik. Cabang ini didominasi oleh atlet wanita di kompetisi Olimpiade."
+  },
+  {
+    "q": "Apa itu teknik stance dalam golf?",
+    "a": "Stance dalam golf adalah posisi berdiri pemain saat bersiap memukul bola. Posisi kaki harus selebar bahu, lutut sedikit ditekuk, dan berat badan seimbang agar ayunan tongkat menghasilkan pukulan yang akurat dan kuat."
+  },
+  {
+    "q": "Apa itu olahraga wakeboarding?",
+    "a": "Wakeboarding adalah olahraga air di mana peserta berdiri di atas papan dan ditarik oleh perahu motor. Pemain melakukan berbagai trik dan lompatan menggunakan gelombang buatan dari perahu sebagai landasan."
+  },
+  {
+    "q": "Apa manfaat olahraga senam lantai?",
+    "a": "Senam lantai meningkatkan kekuatan otot, kelenturan, koordinasi, dan keseimbangan tubuh. Gerakan seperti roll depan, roll belakang, handstand, dan cartwheel juga melatih keberanian dan kepercayaan diri."
+  },
+  {
+    "q": "Apa itu teknik spike dalam bola voli pantai?",
+    "a": "Spike dalam bola voli pantai adalah serangan keras yang dilakukan dengan melompat dan memukul bola ke bawah melewati net. Di voli pantai, teknik ini lebih menantang karena pasir membuat lompatan lebih sulit."
+  },
+  {
+    "q": "Apa itu olahraga panahan?",
+    "a": "Panahan adalah olahraga yang menggunakan busur untuk melepaskan anak panah ke target. Olahraga ini membutuhkan konsentrasi tinggi, kontrol pernapasan, dan konsistensi teknik untuk mencapai akurasi maksimal."
+  },
+  {
+    "q": "Apa perbedaan antara sepeda jalan raya dan sepeda gunung?",
+    "a": "Sepeda jalan raya (road bike) dirancang ringan dengan ban tipis untuk kecepatan di aspal. Sepeda gunung (mountain bike) memiliki ban lebar, suspensi, dan rangka kokoh untuk medan berbatu dan berlumpur."
+  },
+  {
+    "q": "Apa itu olahraga anggar?",
+    "a": "Anggar adalah olahraga bela diri menggunakan senjata pedang yang terdiri dari tiga jenis: foil, epee, dan sabre. Setiap jenis memiliki area target dan aturan berbeda, serta membutuhkan kecepatan refleks dan strategi."
+  },
+  {
+    "q": "Apa itu teknik deadlift dalam angkat berat?",
+    "a": "Deadlift adalah gerakan angkat berat dari lantai hingga posisi berdiri tegak dengan memegang barbell. Teknik ini melatih otot punggung, kaki, dan inti tubuh, serta merupakan salah satu gerakan dasar dalam powerlifting."
+  },
+  {
+    "q": "Apa itu olahraga rowing atau mendayung?",
+    "a": "Rowing adalah olahraga yang menggunakan dayung untuk menggerakkan perahu di atas air. Olahraga ini melatih hampir seluruh otot tubuh dan memerlukan kerja sama tim yang baik dalam nomor beregu."
+  },
+  {
+    "q": "Bagaimana aturan penilaian dalam senam artistik?",
+    "a": "Dalam senam artistik, penilaian terdiri dari skor kesulitan (difficulty score) dan skor eksekusi (execution score). Juri menilai tingkat kesulitan gerakan dan mengurangi poin untuk kesalahan seperti jatuh atau ketidakseimbangan."
+  },
+  {
+    "q": "Apa itu olahraga ice skating atau seluncur es?",
+    "a": "Ice skating adalah olahraga yang dilakukan dengan meluncur di atas es menggunakan sepatu seluncur khusus. Cabangnya meliputi figure skating (seni), speed skating (kecepatan), dan ice hockey (beregu)."
+  },
+  {
+    "q": "Apa itu teknik set dalam bola voli?",
+    "a": "Set atau umpan atas adalah teknik bola voli untuk mengoper bola ke pemain penyerang menggunakan ujung jari kedua tangan. Setter berperan penting sebagai pengatur serangan tim dan menentukan tempo permainan."
+  },
+  {
+    "q": "Apa manfaat yoga bagi atlet profesional?",
+    "a": "Yoga membantu atlet profesional meningkatkan fleksibilitas, mengurangi risiko cedera, memperbaiki keseimbangan, dan meningkatkan fokus mental. Banyak atlet top menggunakan yoga sebagai pelengkap latihan utama mereka."
+  },
+  {
+    "q": "Apa itu olahraga BMX?",
+    "a": "BMX (Bicycle Motocross) adalah olahraga bersepeda yang mencakup balapan di trek berliku dengan rintangan (BMX racing) dan pertunjukan trik akrobatik (BMX freestyle). Kedua cabang ini dipertandingkan di Olimpiade."
+  },
+  {
+    "q": "Apa itu teknik rebound dalam bola basket?",
+    "a": "Rebound adalah teknik menangkap bola yang memantul dari ring atau papan setelah tembakan gagal. Rebound terbagi menjadi offensive rebound (saat menyerang) dan defensive rebound (saat bertahan), keduanya sangat krusial dalam permainan."
+  },
+  {
+    "q": "Bagaimana cara melakukan pemanasan yang benar sebelum berolahraga?",
+    "a": "Pemanasan yang benar dimulai dengan aktivitas ringan seperti jogging atau lompat tali selama 5-10 menit, dilanjutkan dengan peregangan dinamis pada otot dan sendi utama. Pemanasan meningkatkan aliran darah dan mengurangi risiko cedera."
+  },
+  {
+    "q": "Apa itu olahraga ski alpine?",
+    "a": "Ski alpine adalah olahraga musim dingin yang dilakukan dengan meluncur menuruni lereng bersalju menggunakan ski. Cabangnya meliputi slalom, giant slalom, super-G, dan downhill, masing-masing dengan tingkat kecepatan dan tekniknya."
+  },
+  {
+    "q": "Apa itu teknik volley dalam tenis?",
+    "a": "Volley adalah teknik memukul bola dalam tenis sebelum bola memantul di lapangan, biasanya dilakukan dekat net. Teknik ini memerlukan refleks cepat dan timing yang tepat untuk mengakhiri poin secara agresif."
+  },
+  {
+    "q": "Apa itu olahraga scuba diving?",
+    "a": "Scuba diving adalah olahraga menyelam di bawah air dengan menggunakan alat bantu pernapasan (Self-Contained Underwater Breathing Apparatus). Olahraga ini memungkinkan penyelam menjelajahi keindahan bawah laut dalam waktu yang lama."
+  },
+  {
+    "q": "Apa itu teknik pukulan drive dalam golf?",
+    "a": "Drive adalah pukulan pertama di setiap lubang golf yang dilakukan dari area tee menggunakan tongkat driver. Tujuannya adalah memukul bola sejauh mungkin ke arah fairway untuk memudahkan pukulan berikutnya mendekati green."
+  },
+  {
+    "q": "Apa itu olahraga parkour?",
+    "a": "Parkour adalah disiplin olahraga yang melibatkan perpindahan dari satu titik ke titik lain secepat dan seefisien mungkin, melewati rintangan dengan berlari, melompat, memanjat, dan berguling. Olahraga ini berasal dari Prancis."
+  },
+  {
+    "q": "Apa itu tenis meja atau ping pong?",
+    "a": "Tenis meja adalah olahraga raket yang dimainkan di atas meja dengan net kecil. Pemain menggunakan bet kecil untuk memukul bola ping pong bolak-balik. Olahraga ini memerlukan refleks cepat, koordinasi tangan dan mata yang baik."
+  },
+  {
+    "q": "Siapa pemain tenis meja Indonesia terbaik saat ini?",
+    "a": "Feng Zhe adalah salah satu pemain tenis meja Indonesia terkuat dengan ranking dunia yang tinggi. Selain itu, ada pemain-pemain berbakat lainnya yang merepresentasikan Indonesia di turnamen internasional."
+  },
+  {
+    "q": "Apa itu olahraga baseball?",
+    "a": "Baseball adalah olahraga beregu yang dimainkan antara dua tim dengan masing-masing 9 pemain. Permainan melibatkan pemukul yang mencoba memukul bola yang dilempar pitcher, kemudian berlari melewati empat base untuk mencetak skor."
+  },
+  {
+    "q": "Apa itu olahraga judo?",
+    "a": "Judo adalah seni bela diri dari Jepang yang mengandalkan teknik melempar dan menahan lawan tanpa menggunakan pukulan. Tujuannya adalah mencapai posisi superioritas dalam pertandingan dengan menggunakan leverage dan keseimbangan."
+  },
+  {
+    "q": "Siapa atlet judo legendaris dari Indonesia?",
+    "a": "Wiyono adalah atlet judo Indonesia yang pernah meraih medali emas di Sea Games. Indonesia juga memiliki beberapa atlet judo lainnya yang berprestasi di tingkat regional dan internasional."
+  },
+  {
+    "q": "Apa itu olahraga squash?",
+    "a": "Squash adalah olahraga raket yang dimainkan di dalam ruangan tertutup dengan dua pemain. Permainan melibatkan pemukul yang memukul bola bulat kecil dengan raket ke dinding depan sementara lawan harus mengembalikannya sebelum memantul dua kali."
+  },
+  {
+    "q": "Apa itu olahraga badminton ganda putri?",
+    "a": "Badminton ganda putri adalah nomor permainan badminton yang dimainkan oleh dua pasangan pemain wanita. Indonesia memiliki ratusan atlet badminton ganda putri berbakat yang telah meraih medali emas di berbagai turnamen internasional dan Olimpiade."
+  },
+  {
+    "q": "Siapa pasangan badminton ganda putri Indonesia yang paling terkenal?",
+    "a": "Greysia Polii dan Apriyani Rahayu adalah pasangan badminton ganda putri Indonesia yang terkenal dengan memenangkan berbagai medali di ajang internasional termasuk All England Open dan World Championships."
+  },
+  {
+    "q": "Apa itu olahraga esports atau cyber sports?",
+    "a": "Esports adalah kompetisi olahraga elektronik yang melibatkan permainan video kompetitif. Pemain berkompetisi dalam game seperti Dota 2, League of Legends, Counter-Strike, dan Valorant, dengan hadiah uang tunai yang sangat besar di turnamen internasional."
+  },
+  {
+    "q": "Apa manfaat olahraga bagi perkembangan anak-anak?",
+    "a": "Olahraga sangat bermanfaat bagi perkembangan anak-anak karena meningkatkan kesehatan fisik, memperkuat otot dan tulang, mengembangkan kemampuan motorik, meningkatkan kepercayaan diri, dan mengajarkan nilai-nilai seperti kedisiplinan, kerja sama tim, dan sportivitas."
+  },
+  {
+    "q": "Apa itu olahraga cricket?",
+    "a": "Cricket adalah olahraga beregu yang dimainkan dengan pemukul dan bola. Dua tim dengan 11 pemain masing-masing bertanding di lapangan berbentuk oval. Olahraga ini sangat populer di India, Pakistan, Australia, dan Karibia dengan berbagai format permainan."
+  },
+  {
+    "q": "Apa pentingnya nutrisi dan diet yang tepat bagi atlet profesional?",
+    "a": "Nutrisi dan diet yang tepat sangat penting bagi atlet profesional karena mempengaruhi energi, daya tahan, pemulihan otot, dan performa keseluruhan. Atlet memerlukan asupan karbohidrat untuk energi, protein untuk membangun otot, dan lemak sehat serta vitamin untuk kesehatan optimal."
+  },
+  {
+    "q": "Apa itu esports dan apa cabang permainan utamanya?",
+    "a": "Esports adalah kompetisi video game profesional yang diikuti pemain dan tim di tingkat global. Cabang utama esports termasuk game strategi real-time seperti Dota 2 dan League of Legends, game penembak seperti Counter-Strike 2 dan Valorant, serta game olahraga seperti FIFA dan NBA 2K."
+  },
+  {
+    "q": "Berapa hadiah uang terbesar dalam sebuah turnamen esports?",
+    "a": "Beberapa turnamen esports menawarkan hadiah jutaan dolar. Contohnya, The International (Dota 2) dan League of Legends World Championship telah memberikan hadiah puluhan juta dolar, dengan pemain top dapat menghasilkan jutaan per tahun dari prize pools dan endorsement."
+  },
+  {
+    "q": "Apa itu sport climbing atau panjat tebing kompetisi?",
+    "a": "Sport climbing adalah olahraga kompetitif yang melibatkan pendakian dinding buatan dengan rute-rute tertentu. Terdiri dari tiga disiplin: lead climbing (mendaki setinggi mungkin), speed climbing (balap kecepatan), dan bouldering (mendaki tanpa tali pada dinding pendek). Olahraga ini masuk dalam Olimpiade Paris 2024."
+  },
+  {
+    "q": "Apa itu CrossFit dan bagaimana cara berkompetisi?",
+    "a": "CrossFit adalah program kebugaran fungsional yang menggabungkan angkat berat, gerakan bodyweight, dan latihan kardio intensitas tinggi. Kompetisi CrossFit utama adalah CrossFit Games yang menampilkan 'fittest man' dan 'fittest woman' di dunia dalam serangkaian tantangan fisik yang beragam dan tidak terduga."
+  },
+  {
+    "q": "Apa itu ultimate frisbee dan berapa pemain dalam satu tim?",
+    "a": "Ultimate frisbee adalah olahraga tim yang menggabungkan elemen sepak bola, bola basket, dan bola voli menggunakan piringan frisbee. Satu tim terdiri dari 7 pemain di lapangan, dan tujuannya adalah mencetak skor dengan menangkap frisbee di zona end lawan tanpa boleh berlari sambil memegang frisbee."
+  },
+  {
+    "q": "Apa itu drone racing dan kapan olahraga ini berkembang?",
+    "a": "Drone racing adalah olahraga kompetitif penerbangan drone kecil bergerak cepat melalui rintangan dan gerbang. Pilot menggunakan kacamata FPV (first-person view) untuk navigasi real-time. Olahraga ini mulai berkembang sekitar 2014 dan kini menjadi olahraga profesional dengan sponsorship besar."
+  },
+  {
+    "q": "Apa itu olahraga pickleball dan mengapa sedang berkembang pesat?",
+    "a": "Pickleball adalah olahraga raket yang dimainkan dengan lapangan berukuran lebih kecil dari tenis, net lebih rendah, dan bola berlubang. Olahraga ini mudah dipelajari namun menghibur untuk semua usia, sehingga berkembang pesat terutama di kalangan dewasa muda dan pejabat di Amerika Serikat."
+  },
+  {
+    "q": "Bagaimana teknologi analytics mengubah olahraga profesional?",
+    "a": "Teknologi sports analytics menggunakan data besar, computer vision, dan machine learning untuk analisis performa pemain dan strategi tim. Teknologi ini membantu dalam pemilihan pemain (scouting), analisis lawan, pencegahan cedera, dan optimasi performa. Liga profesional seperti NBA, NFL, dan Premier League sangat bergantung pada analytics."
+  },
+  {
+    "q": "Apa perkembangan terbaru dalam olahraga wanita profesional?",
+    "a": "Olahraga wanita mengalami pertumbuhan signifikan dengan peningkatan investasi media, sponsorship, dan perhatian penonton. Contohnya termasuk meningkatnya taraf profesionalisme di soccer (Liga Sepak Bola Wanita), basketball (WNBA), dan cricket. Gaji pemain wanita semakin kompetitif meski masih lebih rendah dibanding pemain pria."
+  },
+  {
+    "q": "Apa itu olahraga adaptive sports dan siapa yang bisa berpartisipasi?",
+    "a": "Adaptive sports atau parasports adalah olahraga yang dimodifikasi untuk atlet dengan kondisi fisik atau sensorik tertentu seperti amputasi, kebutaan, atau cerebral palsy. Contoh termasuk wheelchair basketball, sitting volleyball, dan blind football (5-a-side). Paralympic Games menampilkan berbagai adaptive sports di tingkat dunia."
+  },
+  {
+    "q": "Apa itu UFC dan bagaimana sistem pertandingnya?",
+    "a": "UFC (Ultimate Fighting Championship) adalah organisasi olahraga pertarungan campuran profesional terbesar di dunia yang menampilkan MMA (Mixed Martial Arts). Pertandingan terjadi di dalam oktagun dengan dua atlet bertempur menggunakan teknik pukulan, tendangan, wrestling, dan submission. Pertandingan dibagi dalam rounds, dengan kemenangan ditentukan melalui knockout, submission, atau keputusan juri."
+  },
+  {
+    "q": "Mengapa istirahat yang cukup penting bagi atlet profesional?",
+    "a": "Istirahat yang cukup penting karena tubuh atlet mengalami pemulihan dan adaptasi selama tidur. Selama sleep, hormon pertumbuhan meningkat, otot memperbaiki kerusakan dari latihan, dan sistem imun memperkuat diri. Kurang tidur mengurangi performa, meningkatkan risiko cedera, dan memperpanjang waktu pemulihan.",
+    "cot": "Atlet membutuhkan waktu istirahat karena tubuh mereka mengalami stress fisik berat selama latihan dan pertandingan. Proses pemulihan terjadi saat atlet tidur, di mana tubuh memperbaiki kerusakan serat otot, mengalami pertumbuhan otot (muscle hypertrophy), dan memulihkan energi (ATP dan glikogen). Jika atlet tidak cukup istirahat, performa akan menurun karena kelelahan, reaksi melambat, dan risiko cedera meningkat."
+  },
+  {
+    "q": "Bagaimana peran nutrisi dalam performa atlet elit?",
+    "a": "Nutrisi sangat penting bagi performa atlet elit karena memberikan energi, membangun dan memperbaiki otot, serta mengoptimalkan fungsi tubuh. Atlet memerlukan makronutrien seimbang (protein, karbohydrat, lemak) dan mikronutrien (vitamin, mineral) untuk mencapai performa puncak dan pemulihan optimal.",
+    "cot": "Atlet elit memiliki kebutuhan nutrisi yang lebih tinggi dari rata-rata orang karena metabolisme tubuh mereka bekerja lebih cepat dan beban latihan sangat intensif. Protein diperlukan untuk memperbaiki dan membangun otot yang rusak saat latihan. Karbohydrat menyediakan energi cepat yang dibutuhkan saat bertanding atau latihan high-intensity. Lemak sehat mendukung fungsi hormon dan kesehatan jantung. Tanpa nutrisi yang optimal, atlet akan kelelahan lebih cepat dan periode pemulihan menjadi lebih lama."
+  },
+  {
+    "q": "Apa perbedaan antara latihan aerobik dan anaerobik dalam olahraga?",
+    "a": "Latihan aerobik menggunakan oksigen untuk menghasilkan energi dengan intensitas rendah hingga sedang dan durasi panjang (jogging, berenang). Latihan anaerobik tidak memerlukan oksigen dan dilakukan dengan intensitas tinggi tapi durasi pendek (sprint, weightlifting). Keduanya penting untuk mengembangkan daya tahan dan kekuatan atlet.",
+    "cot": "Dua sistem energi berbeda bekerja pada intensitas latihan yang berbeda. Latihan aerobik melibatkan pembakaran karbohidrat dan lemak dengan bantuan oksigen untuk menghasilkan ATP secara berkelanjutan, cocok untuk aktivitas jarak jauh atau durasi lama seperti marathon atau sepeda. Latihan anaerobik membangkitkan energi dengan cepat tanpa menunggu oksigen, menggunakan sistem fosfat kreatin dan glikolisis anaerobik, cocok untuk gerakan eksplosif seperti lompatan tinggi atau sprint 100 meter. Atlet elit memerlukan kedua jenis latihan untuk mengoptimalkan performa di olahraga mereka."
+  }
+]

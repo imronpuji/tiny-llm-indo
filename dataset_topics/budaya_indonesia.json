@@ -1,0 +1,782 @@
+[
+  {
+    "q": "Apa tarian tradisional dari Bali?",
+    "a": "Tarian tradisional dari Bali antara lain Tari Kecak, Tari Barong, dan Tari Legong."
+  },
+  {
+    "q": "Apa alat musik tradisional Jawa?",
+    "a": "Alat musik tradisional Jawa adalah Gamelan."
+  },
+  {
+    "q": "Apa makanan khas Padang?",
+    "a": "Makanan khas Padang antara lain Rendang, Sate Padang, dan Gulai."
+  },
+  {
+    "q": "Apa nama batik yang terkenal dari Solo?",
+    "a": "Batik yang terkenal dari Solo adalah Batik Solo atau Batik Surakarta."
+  },
+  {
+    "q": "Apa rumah adat dari Sumatera Barat?",
+    "a": "Rumah adat dari Sumatera Barat adalah Rumah Gadang."
+  },
+  {
+    "q": "Apa pakaian adat dari Jawa?",
+    "a": "Pakaian adat dari Jawa antara lain Kebaya dan Batik."
+  },
+  {
+    "q": "Apa tarian tradisional dari Jawa Tengah?",
+    "a": "Tarian tradisional dari Jawa Tengah antara lain Tari Serimpi, Tari Gambyong, dan Tari Bedhaya."
+  },
+  {
+    "q": "Apa tarian tradisional dari Aceh?",
+    "a": "Tarian tradisional dari Aceh adalah Tari Saman."
+  },
+  {
+    "q": "Apa alat musik tradisional dari Sumatera Barat?",
+    "a": "Alat musik tradisional dari Sumatera Barat adalah Talempong dan Saluang."
+  },
+  {
+    "q": "Apa makanan khas Yogyakarta?",
+    "a": "Makanan khas Yogyakarta antara lain Gudeg, Bakpia, dan Sate Klathak."
+  },
+  {
+    "q": "Apa makanan khas Jawa Timur?",
+    "a": "Makanan khas Jawa Timur antara lain Rawon, Rujak Cingur, dan Lontong Balap."
+  },
+  {
+    "q": "Apa makanan khas Bali?",
+    "a": "Makanan khas Bali antara lain Babi Guling, Ayam Betutu, dan Lawar."
+  },
+  {
+    "q": "Apa rumah adat dari Sulawesi Selatan?",
+    "a": "Rumah adat dari Sulawesi Selatan adalah Rumah Tongkonan."
+  },
+  {
+    "q": "Apa rumah adat dari Jawa Tengah?",
+    "a": "Rumah adat dari Jawa Tengah adalah Joglo."
+  },
+  {
+    "q": "Apa rumah adat dari Bali?",
+    "a": "Rumah adat dari Bali adalah Gapura Candi Bentar."
+  },
+  {
+    "q": "Apa senjata tradisional dari Jawa?",
+    "a": "Senjata tradisional dari Jawa adalah Keris."
+  },
+  {
+    "q": "Apa senjata tradisional dari Sumatera Barat?",
+    "a": "Senjata tradisional dari Sumatera Barat adalah Karih atau Kerambit."
+  },
+  {
+    "q": "Apa wayang yang terkenal dari Jawa?",
+    "a": "Wayang yang terkenal dari Jawa adalah Wayang Kulit dan Wayang Golek."
+  },
+  {
+    "q": "Apa itu angklung?",
+    "a": "Angklung adalah alat musik tradisional dari Jawa Barat yang terbuat dari bambu."
+  },
+  {
+    "q": "Apa itu sasando?",
+    "a": "Sasando adalah alat musik petik tradisional dari Nusa Tenggara Timur."
+  },
+  {
+    "q": "Apa itu gotong royong?",
+    "a": "Gotong royong adalah tradisi kerjasama warga untuk menyelesaikan pekerjaan bersama."
+  },
+  {
+    "q": "Apa makna motif batik?",
+    "a": "Motif batik sering mengandung simbol sejarah, status sosial, dan pesan kultural."
+  },
+  {
+    "q": "Mengapa wayang kulit penting dalam budaya Jawa?",
+    "a": "Wayang kulit berfungsi sebagai media pencerahan, pendidikan moral, dan hiburan tradisional."
+  },
+  {
+    "q": "Sebutkan satu tarian tradisional dari Bali.",
+    "a": "Tari Kecak adalah tarian tradisional Bali yang terkenal dengan paduan suara pria."
+  },
+  {
+    "q": "Apa peran gamelan dalam upacara adat?",
+    "a": "Gamelan mengiringi upacara adat sebagai musik pengantar dan penguat suasana sakral."
+  },
+  {
+    "q": "Apa itu rumah adat?",
+    "a": "Rumah adat adalah bangunan tradisional yang mencerminkan nilai, struktur sosial, dan identitas daerah."
+  },
+  {
+    "q": "Bagaimana makanan tradisional mencerminkan budaya lokal?",
+    "a": "Makanan tradisional mencerminkan bahan lokal, teknik memasak, dan kebiasaan kuliner komunitas."
+  },
+  {
+    "q": "Apa fungsi bahasa daerah dalam pelestarian budaya?",
+    "a": "Bahasa daerah menyimpan cerita, pengetahuan, dan identitas sehingga membantu melestarikan budaya."
+  },
+  {
+    "q": "Apa itu upacara adat?",
+    "a": "Upacara adat adalah tradisi atau ritual yang dilakukan masyarakat untuk memperingati peristiwa penting."
+  },
+  {
+    "q": "Apa itu batik?",
+    "a": "Batik adalah kain bergambar khas Indonesia yang dibuat dengan teknik pewarnaan khusus."
+  },
+  {
+    "q": "Apa itu angklung yang digoyang?",
+    "a": "Angklung adalah alat musik tradisional dari bambu yang dimainkan dengan digoyang untuk menghasilkan nada yang harmonis."
+  },
+  {
+    "q": "Apa itu reog?",
+    "a": "Reog adalah seni pertunjukan tradisional dari Ponorogo, Jawa Timur yang menampilkan tarian dengan kostum bernaga."
+  },
+  {
+    "q": "Apa itu wayang?",
+    "a": "Wayang adalah seni pertunjukan boneka tradisional yang berkembang di Jawa dan Bali dengan cerita-cerita dari epos Ramayana dan Mahabharata."
+  },
+  {
+    "q": "Bagaimana teknik pembuatan batik tradisional?",
+    "a": "Batik dibuat dengan teknik menutup bagian kain menggunakan lilin (malam) agar tidak terkena warna, kemudian dicelupkan ke dalam pewarna alami seperti nila atau terasi."
+  },
+  {
+    "q": "Apa makna makna dalam motif batik Parang?",
+    "a": "Motif batik Parang melambangkan kehidupan yang terus bergerak maju, harmoni, dan kekuatan. Motif ini biasanya dikenakan pada saat-saat penting."
+  },
+  {
+    "q": "Sebutkan jenis-jenis wayang yang ada di Indonesia.",
+    "a": "Jenis wayang di Indonesia meliputi Wayang Kulit, Wayang Golek, Wayang Beber, Wayang Orang, dan Wayang Krucil. Masing-masing memiliki karakteristik unik dari daerahnya."
+  },
+  {
+    "q": "Apa makna cerita dalam pertunjukan Wayang Kulit?",
+    "a": "Cerita Wayang Kulit biasanya menceritakan epos Ramayana dan Mahabharata, yang mengandung pesan moral, kebijaksanaan, dan pembelajaran tentang kehidupan dan tanggung jawab."
+  },
+  {
+    "q": "Siapa dalang dalam pertunjukan wayang?",
+    "a": "Dalang adalah pemimpin dan pencerita dalam pertunjukan wayang yang mengendalikan semua boneka, memberikan suara, dan menceritakan alur cerita dengan pandainya."
+  },
+  {
+    "q": "Apa perbedaan antara Tari Serimpi dan Tari Bedhaya?",
+    "a": "Tari Serimpi adalah tarian untuk empat penari wanita dengan gerakan halus dan elegan, sementara Tari Bedhaya adalah tarian dengan 9 penari yang lebih solemn dan sering ditampilkan di keraton."
+  },
+  {
+    "q": "Mengapa Tari Legong Bali penting secara budaya?",
+    "a": "Tari Legong Bali penting karena menunjukkan keseimbangan, keanggunan, dan sensitivitas artis, serta sering dipersembahkan dalam upacara keagamaan dan perayaan adat."
+  },
+  {
+    "q": "Apa itu ritual upacara perkawinan adat Jawa?",
+    "a": "Ritua perkawinan adat Jawa meliputi medhak, ijab qabul, dan beberapa acara seperti siraman dan midodareni, yang merepresentasikan persiapan dan sakralitas pernikahan."
+  },
+  {
+    "q": "Bagaimana ritual Thaharun dalam budaya Minangkabau?",
+    "a": "Thaharun adalah upacara tahunan dalam budaya Minangkabau untuk menyelamatkan jiwa melalui doa kolektif dan makan bersama, mencerminkan kebersamaan dan spiritualitas."
+  },
+  {
+    "q": "Apa makna ritual mekarya dalam budaya Bali?",
+    "a": "Mekarya adalah kerja sama komunal dalam budaya Bali untuk menyelesaikan pekerjaan pemeliharaan tempat suci atau rumah, yang merefleksikan nilai gotong royong dan kebersamaan spiritual."
+  },
+  {
+    "q": "Bagaimana batik Cirebon berbeda dari batik Jawa lainnya?",
+    "a": "Batik Cirebon terkenal dengan motifnya yang unik seperti Megamendung dan kombinasi pengaruh Hindu, Islam, dan Tionghoa yang terlihat dalam desain dan warnanya."
+  },
+  {
+    "q": "Apa itu seni Wayang Beber?",
+    "a": "Wayang Beber adalah pertunjukan wayang dengan menggunakan gulungan kain bergambar yang dilepas perlahan-lahan sambil diceritakan kisahnya, berasal dari tradisi Jawa Timur."
+  },
+  {
+    "q": "Bagaimana tradisi Tabuik di Minangkabau dilakukan?",
+    "a": "Tabuik adalah festival tradisional Minangkabau yang menampilkan perayaan memperingati Hari Asyura, dengan membuat menara-menara dari bahan plastik dan rotan yang kemudian diarak dan dibuang ke laut."
+  },
+  {
+    "q": "Apa signifikansi Batik dalam pengakuan UNESCO?",
+    "a": "UNESCO mengakui Batik Indonesia sebagai Masterpiece of Humanity pada 2009, mengakui pentingnya batik sebagai warisan budaya tak benda yang memiliki nilai seni dan makna budaya mendalam."
+  },
+  {
+    "q": "Siapa maestro wayang kulit terkenal di Indonesia?",
+    "a": "Ki Nartosabdo adalah maestro wayang kulit teringkanal dari Solo yang terkenal dengan kemampuannya bercerita dan menguasai seni pedalangan dengan sempurna, serta menciptakan banyak inovasi dalam wayang."
+  },
+  {
+    "q": "Bagaimana pengembangan seni tari kontemporer dari tradisional?",
+    "a": "Seni tari kontemporer di Indonesia menggabungkan gerakan tradisional dengan elemen modern, menciptakan karya baru yang tetap menghormati akar budaya sambil mengekspresikan masa kini."
+  },
+  {
+    "q": "Apa peran keris dalam upacara adat Jawa?",
+    "a": "Keris dalam upacara adat Jawa adalah simbol status, kekuatan spiritual, dan warisan keluarga, sering dikenakan saat acara penting dan dianggap memiliki kekuatan magis."
+  },
+  {
+    "q": "Apa makna Ma'nene dalam tradisi Toraja?",
+    "a": "Ma'nene adalah upacara membersihkan jenazah leluhur yang dilakukan keluarga Toraja setiap beberapa tahun, mencerminkan kepercayaan bahwa orang meninggal tetap menjadi bagian dari keluarga dan memerlukan perawatan spiritual."
+  },
+  {
+    "q": "Apa itu Songket dan dari daerah mana asalnya?",
+    "a": "Songket adalah kain tenun tradisional berpita emas atau perak yang berasal dari Sumatera, khususnya Jambi dan Palembang, diproduksi dengan teknik manual yang rumit dan mewakili kemewahan dan status tinggi."
+  },
+  {
+    "q": "Bagaimana ritual Kasada dilaksanakan di Gunung Bromo?",
+    "a": "Kasada adalah upacara tradisional masyarakat Tengger di Gunung Bromo setiap bulan Kesepuluh kalender Jawa, di mana mereka mempersembahkan hasil panen ke dalam kawah gunung sebagai bentuk ungkapan syukur dan rasa hormat kepada dewa padi."
+  },
+  {
+    "q": "Apa keunikan kerajinan perak Yogyakarta?",
+    "a": "Kerajinan perak Yogyakarta, terutama di Kotagede, terkenal dengan desainnya yang rumit dan detail, menggunakan teknik tenun, ukir, dan cor yang telah diwariskan turun-temurun sejak abad ke-16."
+  },
+  {
+    "q": "Apa itu festival Pasola dan signifikansinya?",
+    "a": "Pasola adalah festival tradisional dari Sumba Timur yang menampilkan pertempuran pacuan kuda ritual antara dua kelompok, dipercaya sebagai pengorbanan simbolis untuk kesuksesan panen dan kesuburan lahan pertanian."
+  },
+  {
+    "q": "Bagaimana tradisi Rambu Solo' dalam budaya Toraja?",
+    "a": "Rambu Solo' adalah upacara pemakaman orang mati yang sangat meriah dalam budaya Toraja, melibatkan penyembelihan puluhan kerbau, festival musik dan tari, serta berlangsung berminggu-minggu sebagai bentuk penghormatan kepada almarhum dan keberkahan bagi keluarga."
+  },
+  {
+    "q": "Apa itu Tenun Prada dan signifikansinya dalam tekstil?",
+    "a": "Tenun Prada adalah kain tenun tradisional dari Bali yang menggabungkan benang emas atau perak dengan benang sutra, sering digunakan dalam upacara keagamaan dan menunjukkan tingkat kemewahan serta keahlian pengrajin."
+  },
+  {
+    "q": "Bagaimana Topeng Cirebon dibuat dan digunakan dalam seni?",
+    "a": "Topeng Cirebon adalah pertunjukan seni tari menggunakan topeng kayu yang diukir dengan detail, berasal dari Cirebon dan sering menampilkan cerita kerajaan dan kehidupan rakyat, menggabungkan unsur Hindu, Islam, dan Tionghoa."
+  },
+  {
+    "q": "Apa sejarah dan fungsi Tari Poco-Poco?",
+    "a": "Tari Poco-Poco adalah tarian modern yang menjadi tradisi baru di Indonesia, diciptakan pada 1973, memiliki gerakan sederhana yang mudah dipelajari, sering dipentaskan di acara-acara budaya dan dianggap sebagai wujud kebersamaan dan kegembiraan komunal."
+  },
+  {
+    "q": "Bagaimana kerajinan Ukir Kayu Jepara berkembang menjadi seni internasional?",
+    "a": "Ukir Kayu Jepara adalah kerajinan tradisional yang menggunakan kayu jati dengan motif rumit dan artistik, berkembang sejak zaman Belanda, dan kini menjadi produk ekspor internasional yang diakui karena keindahan dan kualitasnya."
+  },
+  {
+    "q": "Apa signifikansi Batik Pekalongan dalam pertemuan budaya?",
+    "a": "Batik Pekalongan mengalami perkembangan unik karena pertemuan budaya antara batik Jawa tradisional, pengaruh Tionghoa, dan Belanda, menghasilkan motif khas yang menggabungkan flora, fauna, dan karakter Tionghoa yang dinamis dan penuh warna."
+  },
+  {
+    "q": "Apa itu Patola dan bagaimana proses produksinya?",
+    "a": "Patola adalah kain tenun tradisional dari Nusa Tenggara yang dibuat dengan teknik ikat rangkap (double ikat), memerlukan waktu berbulan-bulan untuk memproduksi satu potong, dan dianggap sebagai harta berharga dalam upacara pernikahan dan adat istiadat."
+  },
+  {
+    "q": "Bagaimana instrumen Rebab digunakan dalam seni tradisional Indonesia?",
+    "a": "Rebab adalah alat musik gesek tradisional yang berasal dari Timur Tengah namun menjadi bagian penting musik Sundanese dan Jawa, sering digunakan dalam pertunjukan Wayang Kulit, orkes gamelan, dan seni tradisional lainnya untuk menghasilkan nada yang dalam dan emosional."
+  },
+  {
+    "q": "Apa makna budaya permainan tradisional Congklak bagi anak-anak Indonesia?",
+    "a": "Congklak adalah permainan tradisional yang dimainkan perempuan sejak zaman dahulu, selain menghibur juga mengajarkan fokus, strategi, dan kebersamaan, serta menjadi medium transmisi nilai budaya dan interaksi sosial antaranak."
+  },
+  {
+    "q": "Bagaimana tradisi Tari Kolek berkembang dalam budaya Aceh?",
+    "a": "Tari Kolek atau Tari Seudati adalah tarian baris tradisional Aceh yang ditampilkan oleh penari laki-laki dengan gerakan dinamis dan semangat berkompetisi, sering ditampilkan dalam perayaan hari-hari besar dan mencerminkan semangat jatidiri dan keberagaman Aceh."
+  },
+  {
+    "q": "Apa itu Batik Lasem dan keunikan motifnya?",
+    "a": "Batik Lasem adalah batik dari Jawa Timur yang terkenal dengan motif fauna seperti burung dan bunga yang detail, dipengaruhi oleh perdagangan maritim dengan Tionghoa, dan menggunakan warna merah soga yang khas yang diproduksi melalui teknik pewarnaan alam yang panjang."
+  },
+  {
+    "q": "Bagaimana upacara Ngaben dalam budaya Bali memperlihatkan spiritualitas?",
+    "a": "Ngaben adalah upacara kremasi jenazah dalam budaya Bali yang meriah dan sakral, dipercaya untuk membebaskan roh dari ikatan dunia dan membawanya ke alam berikutnya, melibatkan pembuatan bade (menara pengapit), nyanyian suci, dan prosesi meriah yang bisa berlangsung berhari-hari."
+  },
+  {
+    "q": "Apa itu Wastra Nusantara dan keragamannya?",
+    "a": "Wastra Nusantara adalah istilah untuk seluruh tekstil tradisional Indonesia yang mencakup batik, songket, tenun, patola, dan lainnya, masing-masing mencerminkan identitas regional, teknik warisan, dan filosofi budaya yang kaya dan beragam."
+  },
+  {
+    "q": "Bagaimana festival Nyepi di Bali menjadi bentuk spiritualitas kolektif?",
+    "a": "Nyepi atau Hari Raya Nyepi adalah hari tahun baru Saka dalam penanggalan Hindu-Bali yang dirayakan dengan diam, berbisnis dilarang, dan menciptakan kesunyian di seluruh pulau, dipercaya sebagai waktu untuk meditasi, pembersihan diri, dan pemulihan energi spiritual bagi masyarakat."
+  },
+  {
+    "q": "Apa peran Dalang dalam melestarikan cerita-cerita lokal?",
+    "a": "Dalang adalah penjaga cerita dan tradisi yang menggunakan wayang untuk mengkomunikasikan nilai budaya, moral, sejarah lokal, dan kebijaksanaan kepada generasi muda, menjadikan pertunjukan wayang sebagai media pendidikan dan pelestarian budaya yang hidup."
+  },
+  {
+    "q": "Apa tarian tradisional dari Papua?",
+    "a": "Tarian tradisional dari Papua antara lain Tari Yospan, Tari Selamat Datang, dan Tari Perang. Tari Yospan menggabungkan gerakan kaki cepat dengan iringan musik tradisional Papua yang unik."
+  },
+  {
+    "q": "Apa alat musik tradisional dari Papua?",
+    "a": "Alat musik tradisional Papua termasuk Tifa (drum tradisional), Suling Bambu, dan Gitar Tiup. Tifa memiliki suara yang dalam dan resonan, penting dalam upacara adat Papua."
+  },
+  {
+    "q": "Apa itu Tifa dan dari daerah mana asalnya?",
+    "a": "Tifa adalah drum tradisional dari Papua dan Maluku, dibuat dari kayu dengan kulit hewan di bagian atasnya. Digunakan dalam perayaan adat, upacara keagamaan, dan pertunjukan musik tradisional Papua dengan ritme yang khas."
+  },
+  {
+    "q": "Apa tarian tradisional dari Nusa Tenggara Timur?",
+    "a": "Tarian tradisional dari NTT meliputi Tari Pasola, Tari Poco-Poco (meski modern), dan Tari Lilin. Setiap daerah di NTT memiliki tarian khas yang mencerminkan budaya lokal."
+  },
+  {
+    "q": "Apa rumah adat dari Papua?",
+    "a": "Rumah adat Papua adalah Honai, bangunan berbentuk bulat dengan atap runcing yang terbuat dari kayu dan rumput ilalang, dirancang untuk menahan cuaca tropis dan panas."
+  },
+  {
+    "q": "Apa rumah adat dari Nusa Tenggara Timur?",
+    "a": "Rumah adat NTT adalah Rumah Lego-Lego atau Rumah Manggarai, dengan struktur tiang kayu dan atap rumput, mencerminkan adaptasi dengan iklim cuaca ekstrem dan tradisi komunal masyarakat."
+  },
+  {
+    "q": "Apa pakaian adat dari Papua?",
+    "a": "Pakaian adat Papua meliputi Busana Cendrawasih (bulu burung Cendrawasih berwarna-warni), Motif Woven Ikat, dan Gelang Tangan dari Manik-manik. Setiap suku di Papua memiliki pakaian adat yang unik dan bermakna."
+  },
+  {
+    "q": "Apa itu Motif Woven Ikat dari Nusa Tenggara?",
+    "a": "Motif Woven Ikat dari NTT adalah kain tenun tradisional dengan teknik ikat sebelum ditenun, menghasilkan motif geometris dan cerita-cerita budaya. Motif ini rumit dan setiap pola memiliki makna historis."
+  },
+  {
+    "q": "Apa tarian tradisional dari Sulawesi?",
+    "a": "Tarian tradisional Sulawesi meliputi Tari Cakalele (Maluku), Tari Kero-Kero (Sulawesi Selatan), Tari Pepe (Sulawesi Utara), dan Tari Maengket (Manado). Setiap tarian mencerminkan keunikan budaya lokal."
+  },
+  {
+    "q": "Apa alat musik tradisional dari Sulawesi?",
+    "a": "Alat musik tradisional Sulawesi termasuk Kolintang (alat musik perkusi Manado), Suling Lembang, dan Gong. Kolintang terbuat dari kayu dengan nada yang harmonis mirip xylophone."
+  },
+  {
+    "q": "Apa itu Kolintang dan dari mana asalnya?",
+    "a": "Kolintang adalah alat musik tradisional dari Manado, Sulawesi Utara, terbuat dari kayu jati dengan ukiran indah, dimainkan dengan pemukul kayu khusus untuk menghasilkan melodi harmonis. UNESCO mengakui Kolintang sebagai Masterpiece of Humanity."
+  },
+  {
+    "q": "Apa rumah adat dari Sulawesi Tenggara?",
+    "a": "Rumah adat Sulawesi Tenggara adalah Rumah Buton atau Rumah Bajou, dengan struktur kayu dan stilts (tiang tinggi) untuk mengantisipasi banjir dan hewan buas, mencerminkan adaptasi hidup di tepi air dan hutan."
+  },
+  {
+    "q": "Apa pakaian adat dari Sulawesi?",
+    "a": "Pakaian adat Sulawesi bervariasi: Manado memakai Ulos (kain tradisional), Sulawesi Selatan memakai Jas Tradisional Bugis, Sulawesi Tenggara memakai Kebaya Buton. Setiap daerah memiliki ciri khas motif dan warna."
+  },
+  {
+    "q": "Apa tarian tradisional dari Kalimantan?",
+    "a": "Tarian tradisional Kalimantan meliputi Tari Perang Meriam (Kalimantan Selatan), Tari Gajah Mada (Kalimantan Tengah), Tari Tajung (Kalimantan Timur), dan Tari Berangkat Mudi (Kalimantan Barat). Setiap tarian bercerita tentang sejarah lokal."
+  },
+  {
+    "q": "Apa alat musik tradisional dari Kalimantan?",
+    "a": "Alat musik tradisional Kalimantan termasuk Gong Kalimantan, Sampek (alat musik petik), Bonang, dan Canang. Musik tradisional Kalimantan kaya ritme dan sering digunakan dalam upacara adat."
+  },
+  {
+    "q": "Apa itu Gongs dari Kalimantan dan fungsinya?",
+    "a": "Gong Kalimantan adalah alat musik perkusi kuningan dalam berbagai ukuran yang dipukul dengan pemukul khusus. Digunakan dalam upacara adat, keagamaan, dan komunikasi antar penduduk di hutan, menghasilkan suara resonan yang terdengar jauh."
+  },
+  {
+    "q": "Apa rumah adat dari Kalimantan?",
+    "a": "Rumah adat Kalimantan adalah Rumah Betang, bangunan panjang berbentuk seperti perahu terbalik dengan atap runcing, tempat tinggal komunal untuk suku Dayak yang mencerminkan nilai gotong royong dan kebersamaan."
+  },
+  {
+    "q": "Apa pakaian adat dari Kalimantan?",
+    "a": "Pakaian adat Kalimantan mencakup Baju Kudung Dayak (baju panjang dengan hiasan), Kain Tenun Tradisional, dan Topi Bulat (Songkok Dayak). Motif tenun sering menampilkan ukiran tanduk kerbau dan bunga."
+  },
+  {
+    "q": "Apa tarian tradisional dari Riau?",
+    "a": "Tarian tradisional Riau meliputi Tari Zapin (tarian Melayu-Arab), Tari Selayang, Tari Mak Inang, dan Tari Rantak Panjang. Tari Zapin sangat populer dalam perayaan tradisional Melayu Riau."
+  },
+  {
+    "q": "Apa alat musik tradisional dari Riau?",
+    "a": "Alat musik tradisional Riau termasuk Gambus (alat musik petik), Seruling, Kompang (alat musik perkusi kecil), dan Rebab. Musik Riau penuh warna dan sering mengiringi Tari Zapin."
+  },
+  {
+    "q": "Apa rumah adat dari Riau?",
+    "a": "Rumah adat Riau adalah Rumah Melayu Riau, bangunan panggung dengan atap tajam, terbuat dari kayu dengan dekorasi ukiran yang indah, mencerminkan budaya Melayu yang kaya."
+  },
+  {
+    "q": "Apa pakaian adat dari Riau?",
+    "a": "Pakaian adat Riau adalah Baju Kurung dan Kebaya Melayu Riau dengan motif songket emas dan perak, sering dikenakan dalam acara pernikahan dan perayaan adat, menunjukkan status dan kemewahan."
+  },
+  {
+    "q": "Apa tarian tradisional dari Lampung?",
+    "a": "Tarian tradisional Lampung meliputi Tari Bedana (tarian perang), Tari Melinting, Tari Ngambek, dan Tari Tenun. Tari Bedana adalah tarian paling terkenal yang menggambarkan pertempuran tradisional."
+  },
+  {
+    "q": "Apa alat musik tradisional dari Lampung?",
+    "a": "Alat musik tradisional Lampung termasuk Rebab Lampung, Seruling Pancung, Gong Lampung, dan Kompang. Musik Lampung memiliki karakteristik yang unik dan sering dipadukan dengan tarian tradisional."
+  },
+  {
+    "q": "Apa rumah adat dari Lampung?",
+    "a": "Rumah adat Lampung adalah Rumah Nuwo Sesat atau Rumah Lampung Asli, bangunan panggung dengan atap berbentuk tombak, terbuat dari kayu dengan hiasan ukiran yang mencerminkan budaya maritim Lampung."
+  },
+  {
+    "q": "Apa pakaian adat dari Lampung?",
+    "a": "Pakaian adat Lampung adalah Tapis Lampung (kain tenun dengan hiasan manik-manik emas), Baju Kurung, dan Teluk Belanga (tutup kepala). Tapis Lampung adalah karya seni tekstil yang sangat berharga dan diwariskan turun-temurun."
+  },
+  {
+    "q": "Apa tarian tradisional dari Bangka Belitung?",
+    "a": "Tarian tradisional Bangka Belitung meliputi Tari Bedil Hadiah, Tari Melayu, dan Tari Zapin Bangka. Tarian ini mencerminkan budaya Melayu yang kuat di kepulauan ini."
+  },
+  {
+    "q": "Apa alat musik tradisional dari Kepulauan Riau?",
+    "a": "Alat musik tradisional Kepulauan Riau termasuk Gambus, Seruling, Kompang, dan Gong. Musik tradisional ini sering mengiringi upacara adat dan perayaan di kepulauan."
+  },
+  {
+    "q": "Apa rumah adat dari Kepulauan Riau?",
+    "a": "Rumah adat Kepulauan Riau adalah Rumah Melayu Kepulauan, bangunan panggung dengan atap tajam dan dekorasi ukiran, mencerminkan budaya bahari dan perdagangan maritim yang kaya."
+  },
+  {
+    "q": "Apa pakaian adat dari Bangka Belitung?",
+    "a": "Pakaian adat Bangka Belitung adalah Kebaya Belinyu (untuk wanita), Baju Kurung, dan Sarung Tenun Tradisional. Pakaian ini mirip dengan budaya Melayu karena pengaruh historis perdagangan."
+  },
+  {
+    "q": "Apa tarian tradisional dari DKI Jakarta?",
+    "a": "Tarian tradisional DKI Jakarta meliputi Tari Topeng Betawi, Tari Ronggeng Gunung, dan Tari Gambang Kromong. Tarian ini mencerminkan budaya Betawi yang unik dan multikultur."
+  },
+  {
+    "q": "Apa alat musik tradisional Betawi?",
+    "a": "Alat musik tradisional Betawi termasuk Gambang Kromong (alat musik perkusi dengan plat kuningan), Rebab, Kompang, dan Suling. Gambang Kromong adalah orkestra tradisional Betawi yang unik."
+  },
+  {
+    "q": "Apa itu Gambang Kromong dan dari mana asalnya?",
+    "a": "Gambang Kromong adalah orkestra tradisional Betawi yang terdiri dari beberapa alat musik seperti gambang (xylophone kuningan), gong, dan alat musik lainnya. Berkembang dari pengaruh budaya Tiongkok dan Melayu di Jakarta, menciptakan musik unik yang khas Betawi."
+  },
+  {
+    "q": "Apa pakaian adat Betawi?",
+    "a": "Pakaian adat Betawi untuk pria adalah Setelan Cokelat Tua dengan Blangkon (topi) dan untuk wanita adalah Kebaya Betawi dengan rok batik dan selendang. Pakaian ini mencerminkan budaya Betawi yang elegan dan bernilai sejarah tinggi."
+  },
+  {
+    "q": "Apa tarian tradisional dari Jawa Barat selain Angklung?",
+    "a": "Tarian tradisional Jawa Barat meliputi Tari Jaipong, Tari Kuda Lumping Sunda, Tari Pencak Silat, Tari Permainan Anak Sundanese, dan Tari Bedug. Tari Jaipong adalah tarian yang paling terkenal dan dinamis."
+  },
+  {
+    "q": "Apa itu Tari Jaipong dan sejarahnya?",
+    "a": "Tari Jaipong adalah tarian tradisional Jawa Barat yang dinamis dan atraktif, dikembangkan pada tahun 1970-an oleh Sendra Geulis di Bandung dengan menggabungkan gerakan tradisional Sundanese, topeng Cirebon, dan tarian rakyat lainnya. Tari ini menjadi simbol budaya Jawa Barat kontemporer."
+  },
+  {
+    "q": "Apa itu Sundari dalam konteks tradisi Jawa Barat?",
+    "a": "Sundari adalah konsep keindahan dalam budaya Jawa Barat yang mencerminkan kesederhanaan, keanggunan, dan harmoni. Konsep ini terpancar dalam seni, tari, musik, dan kehidupan sehari-hari masyarakat Sunda."
+  },
+  {
+    "q": "Apa tarian tradisional dari Yogyakarta selain Serimpi dan Bedhaya?",
+    "a": "Tarian tradisional Yogyakarta juga termasuk Tari Ramayana Ballet, Tari Pembawa Bendera, dan Tari-tarian Keraton. Setiap tarian memiliki makna spiritual dan sejarah yang dalam terkait dengan persembahan kepada dewa dan cerita epik."
+  },
+  {
+    "q": "Apa itu Upacara Nguri-uri dalam budaya Yogyakarta?",
+    "a": "Upacara Nguri-uri adalah upacara pelestarangan budaya Yogyakarta yang dilakukan secara berkala untukmemelihara tradisi, seni, bahasa, dan nilai-nilai luhur Yogyakarta agar tetap hidup dan berkembang untuk generasi mendatang."
+  },
+  {
+    "q": "Apa makna filosofi kerajinan batik dalam kehidupan modern?",
+    "a": "Batik dalam kehidupan modern tetap memiliki makna filosofi penting: simbol identitas nasional, ekspresi kreatif, keberlanjutan lingkungan (pewarna alami), dan pelestarian warisan budaya. Batik modern menghubungkan tradisi dengan inovasi kontemporer."
+  },
+  {
+    "q": "Apa itu Hari Batik Nasional dan mengapa penting?",
+    "a": "Hari Batik Nasional diperingati setiap 2 Oktober untuk menghormati UNESCO yang mengakui Batik sebagai Masterpiece of Humanity pada 2009. Hari ini mengajak rakyat Indonesia untuk memakai batik dan melestarikan warisan budaya yang berharga."
+  },
+  {
+    "q": "Bagaimana pengembangan batik kontemporer di era digital?",
+    "a": "Batik kontemporer berkembang dengan desain modern, digital printing, kolaborasi dengan desainer muda, dan pemasaran online. Meskipun ada inovasi teknologi, batik tradisional tetap dihargai karena proses dan nilai artistiknya yang autentik dan mendalam."
+  },
+  {
+    "q": "Apa peran perempuan dalam pengembangan kerajinan tradisional Indonesia?",
+    "a": "Perempuan Indonesia memiliki peran sentral dalam pengembangan kerajinan tradisional: pembuat batik, penenun, pembuatan keramik, dan kerajinan tangan lainnya. Banyak enterprise kerajinan dipimpin perempuan yang menjadi entrepreneur sukses dan melestarikan budaya."
+  },
+  {
+    "q": "Apa itu UNESCO Intangible Cultural Heritage dan apa saja dari Indonesia yang terdaftar?",
+    "a": "UNESCO Intangible Cultural Heritage adalah daftar warisan budaya tak benda dunia. Dari Indonesia yang terdaftar: Batik, Wayang Kulit Ramayana dan Mahabharata, Keris, Wayang dari Indonesia, dan beberapa seni pertunjukan tradisional lainnya. Ini mengakui nilai universal budaya Indonesia."
+  },
+  {
+    "q": "Bagaimana upacara nyepi dirayakan dan makna spiritualnya?",
+    "a": "Nyepi dirayakan dengan catur lelabihan (pembersihan diri sempurna) sebelumnya, tidur siang hari, dan pesan senyap (tidak ada kegiatan duniawi). Makna spiritualnya adalah refleksi diri, pembersihan energi negatif, dan persiapan tahun baru yang penuh berkah dalam keyakinan Hindu-Bali."
+  },
+  {
+    "q": "Apa itu Festival Tjandra Birawa dan dari daerah mana?",
+    "a": "Festival Tjandra Birawa adalah perayaan budaya dari Bali yang menampilkan pertunjukan seni tradisional seperti tari, musik, dan parade. Festival ini merayakan keindahan budaya Bali dan mengajak masyarakat untuk bersama-sama melestarikan warisan budaya."
+  },
+  {
+    "q": "Apa itu Festival Pesona Indonesia dan apa tujuannya?",
+    "a": "Festival Pesona Indonesia adalah acara budaya nasional yang menampilkan keragaman budaya dari berbagai daerah di Indonesia. Tujuannya untuk mempromosikan pariwisata budaya, melestarikan tradisi lokal, dan meningkatkan rasa persatuan serta bangga terhadap kekayaan budaya Indonesia."
+  },
+  {
+    "q": "Bagaimana tradisi Mudik berkaitan dengan nilai-nilai budaya Indonesia?",
+    "a": "Mudik adalah tradisi kembali ke kampung halaman saat perayaan hari besar, terutama Lebaran. Ini mencerminkan nilai kebersamaan, silaturahmi, dan penghormatan kepada orang tua yang mendalam dalam budaya Indonesia. Mudik mempererat hubungan keluarga dan komunitas di tengah modernisasi."
+  },
+  {
+    "q": "Apa itu Seni Pertunjukan Dikir Barat dan dari mana asalnya?",
+    "a": "Dikir Barat adalah seni pertunjukan tradisional dari Brunei dan Malaysia yang juga berkembang di Indonesia (Riau), menampilkan nyanyian, puisi, dan humor dengan kelompok penyanyi yang kacak-bercahaya. Seni ini menghibur namun juga menyampaikan pesan sosial dan moral."
+  },
+  {
+    "q": "Bagaimana festival budaya berkontribusi pada ekonomi lokal?",
+    "a": "Festival budaya menciptakan pariwisata lokal yang membawa pendapatan ke daerah melalui penjualan tiket, cinderamata, makanan tradisional, dan akomodasi. Festival juga memberdayakan artis lokal, pengrajin, dan UMKM untuk memasarkan produk mereka ke pasar yang lebih luas, mendorong pertumbuhan ekonomi sustainable."
+  },
+  {
+    "q": "Apa peran pendidikan dalam melestarikan budaya tradisional?",
+    "a": "Pendidikan memainkan peran krusial melalui: kurikulum muatan lokal tentang budaya daerah, ekstrakulikuler tari dan musik tradisional, mentoring dari praktisi budaya, dan promosi pride budaya lokal. Sekolah dan universitas adalah medan strategis untuk transmisi warisan budaya kepada generasi muda."
+  },
+  {
+    "q": "Apa itu Ikat dan teknik pembuatannya dalam tradisi Indonesia?",
+    "a": "Ikat adalah teknik pewarnaan kain tradisional Indonesia yang unik, di mana benang diikat sebelum ditenun untuk menciptakan pola warna. Proses ini dilakukan secara manual dan memerlukan keahlian tinggi, menghasilkan corak khas yang tidak dapat ditiru dengan sempurna. Ikat terkenal dari Nusa Tenggara, terutama Flores dan Sumba."
+  },
+  {
+    "q": "Apa makna filosofis dalam upacara resepsi pernikahan adat Jawa?",
+    "a": "Upacara pernikahan adat Jawa penuh dengan makna filosofis: lamaran mewakili persetujuan kedua keluarga, srah-srahan adalah penyerahan tanggung jawab, ijab qabul adalah ikrar suci, dan dhaup layar mewakili penyatuan dua jiwa. Setiap ritual mengandung nilai cinta, tanggung jawab, dan doa berkah untuk kehidupan yang harmonis."
+  },
+  {
+    "q": "Apa itu Seni Pencak Silat dan bagaimana perkembangannya?",
+    "a": "Pencak Silat adalah seni bela diri tradisional Indonesia yang menggabungkan teknik pertahanan, spiritual, dan estetika gerak. Berkembang dari berbagai daerah dengan karakteristik unik, seperti Silat Minangkabau, Silat Betawi, dan lainnya. Pencak Silat diakui UNESCO sebagai warisan budaya dan dipraktikkan baik untuk olahraga kompetitif maupun pengembangan diri spiritual."
+  },
+  {
+    "q": "Apa itu Yadnya dalam konsep Hindu-Bali dan mengapa penting dalam kehidupan masyarakat?",
+    "a": "Yadnya adalah konsep ritual pengorbanan dalam Hindu-Bali yang merupakan bentuk bhakti (pengabdian) kepada Tuhan dan alam. Yadnya sangat penting dalam menjaga keseimbangan kosmik (Tri Hita Karana), mencakup hubungan dengan Tuhan, sesama manusia, dan alam. Setiap peristiwa kehidupan dari kelahiran hingga kematian diiringi berbagai jenis yadnya yang bermakna spiritual dan sosial."
+  },
+  {
+    "q": "Apa itu musyawarah mufakat dalam budaya Indonesia?",
+    "a": "Musyawarah mufakat adalah tradisi pengambilan keputusan secara bersama melalui diskusi hingga tercapai kesepakatan bulat. Nilai ini merupakan bagian dari sila keempat Pancasila dan mencerminkan semangat demokrasi khas Indonesia yang mengutamakan kebersamaan."
+  },
+  {
+    "q": "Apa itu upacara Sekaten di Yogyakarta?",
+    "a": "Sekaten adalah perayaan tradisional di Yogyakarta dan Solo yang diadakan untuk memperingati kelahiran Nabi Muhammad SAW. Perayaan ini berlangsung selama seminggu di alun-alun keraton dengan pertunjukan gamelan sekati dan pasar malam."
+  },
+  {
+    "q": "Apa makna tradisi Selametan dalam masyarakat Jawa?",
+    "a": "Selametan adalah upacara doa bersama dalam masyarakat Jawa yang bertujuan memohon keselamatan dan keberkahan. Tradisi ini dilakukan pada berbagai momen penting seperti kelahiran, pernikahan, kematian, dan pindah rumah, disertai makan bersama sebagai simbol kerukunan."
+  },
+  {
+    "q": "Apa itu Debus dan dari daerah mana berasal?",
+    "a": "Debus adalah seni pertunjukan kekebalan tubuh tradisional dari Banten yang menampilkan atraksi seperti menusuk tubuh dengan benda tajam tanpa terluka. Seni ini berkaitan erat dengan ajaran tarekat Islam dan dianggap memiliki unsur spiritual yang kuat."
+  },
+  {
+    "q": "Apa itu adat Mappacci dalam pernikahan Bugis?",
+    "a": "Mappacci adalah upacara adat dalam pernikahan suku Bugis di Sulawesi Selatan, di mana calon pengantin dibersihkan dengan daun pacar (henna) pada malam sebelum akad nikah. Ritual ini melambangkan kesucian hati dan kebersihan jiwa menjelang pernikahan."
+  },
+  {
+    "q": "Apa itu tradisi Balimau Kasai di Sumatera Barat?",
+    "a": "Balimau Kasai adalah tradisi mandi bersama menggunakan air jeruk dan bunga sebelum memasuki bulan Ramadan di Sumatera Barat. Tradisi ini melambangkan pembersihan diri lahir dan batin sebagai persiapan menjalankan ibadah puasa."
+  },
+  {
+    "q": "Apa itu suku Baduy dan bagaimana mereka menjaga tradisinya?",
+    "a": "Suku Baduy adalah komunitas adat di Banten yang hidup secara tradisional dan menolak modernisasi. Mereka terbagi menjadi Baduy Dalam dan Baduy Luar, dengan aturan adat ketat seperti larangan menggunakan listrik, kendaraan, dan teknologi modern."
+  },
+  {
+    "q": "Apa itu Tari Pendet dari Bali?",
+    "a": "Tari Pendet adalah tarian penyambutan dari Bali yang awalnya merupakan tarian pemujaan di pura. Penari membawa bokor berisi bunga yang ditaburkan sebagai simbol sambutan dan ungkapan syukur kepada para dewa."
+  },
+  {
+    "q": "Apa makna upacara Tedak Siten dalam budaya Jawa?",
+    "a": "Tedak Siten adalah upacara adat Jawa yang dilakukan saat bayi berusia tujuh bulan dan pertama kali menginjak tanah. Upacara ini melambangkan harapan agar anak tumbuh kuat, mandiri, dan dapat menjalani kehidupan dengan baik."
+  },
+  {
+    "q": "Apa itu seni Randai dari Minangkabau?",
+    "a": "Randai adalah seni pertunjukan tradisional Minangkabau yang menggabungkan teater, tari, musik, dan pencak silat. Pertunjukan ini biasanya menceritakan legenda atau kisah rakyat Minang yang disampaikan secara berkelompok membentuk lingkaran."
+  },
+  {
+    "q": "Apa itu tradisi Ngarot di Indramayu?",
+    "a": "Ngarot adalah upacara adat di Indramayu, Jawa Barat, yang dilakukan sebelum musim tanam padi. Dalam tradisi ini, muda-mudi desa berkumpul untuk saling berkenalan sebagai ajang mencari jodoh sambil berdoa agar panen berhasil."
+  },
+  {
+    "q": "Apa perbedaan batik tulis, batik cap, dan batik printing?",
+    "a": "Batik tulis dibuat dengan canting secara manual sehingga butuh waktu lama dan bernilai tinggi. Batik cap menggunakan stempel tembaga untuk mempercepat proses. Batik printing menggunakan mesin cetak modern, lebih murah tetapi kurang memiliki keunikan motif seperti batik tulis."
+  },
+  {
+    "q": "Apa itu upacara Larung Sesaji di pantai selatan Jawa?",
+    "a": "Larung Sesaji adalah upacara melarungkan sesaji ke laut yang dilakukan masyarakat pantai selatan Jawa sebagai bentuk penghormatan kepada Nyi Roro Kidul. Upacara ini bertujuan memohon keselamatan nelayan dan hasil laut yang melimpah."
+  },
+  {
+    "q": "Apa itu tradisi Maulid Nabi di Lombok yang disebut Bau Nyale?",
+    "a": "Bau Nyale adalah tradisi menangkap cacing laut (nyale) di pesisir Lombok yang dilakukan sekitar bulan Februari-Maret. Tradisi ini terkait legenda Putri Mandalika dan menjadi festival besar dengan pertunjukan seni, lomba, dan doa bersama."
+  },
+  {
+    "q": "Apa itu Tari Tor-Tor dari Sumatera Utara?",
+    "a": "Tari Tor-Tor adalah tarian tradisional suku Batak di Sumatera Utara yang ditampilkan dalam berbagai upacara adat seperti pernikahan, pemakaman, dan syukuran. Gerakannya mengikuti irama musik gondang dan melambangkan komunikasi antara manusia dan roh leluhur."
+  },
+  {
+    "q": "Apa itu Ulos dalam budaya Batak?",
+    "a": "Ulos adalah kain tenun tradisional suku Batak yang memiliki makna sangat sakral. Ulos diberikan dalam upacara adat sebagai simbol kasih sayang, doa, dan berkat. Setiap jenis ulos memiliki fungsi dan makna berbeda sesuai konteks acaranya."
+  },
+  {
+    "q": "Apa itu tradisi Karapan Sapi di Madura?",
+    "a": "Karapan Sapi adalah tradisi lomba balap sapi khas Madura, Jawa Timur. Sepasang sapi ditarik oleh joki di atas lintasan tanah becek. Tradisi ini awalnya merupakan cara petani melatih sapi untuk membajak sawah dan kini menjadi festival budaya tahunan."
+  },
+  {
+    "q": "Apa itu Ogoh-Ogoh dalam perayaan Nyepi di Bali?",
+    "a": "Ogoh-Ogoh adalah patung raksasa yang dibuat dari bambu, kertas, dan styrofoam yang menggambarkan makhluk jahat. Patung ini diarak keliling desa pada malam sebelum Nyepi (Pengerupukan) lalu dibakar sebagai simbol penyucian dengan mengusir energi negatif."
+  },
+  {
+    "q": "Apa itu tradisi Mitoni atau Tingkeban dalam budaya Jawa?",
+    "a": "Mitoni atau Tingkeban adalah upacara adat Jawa yang dilakukan saat kehamilan pertama memasuki usia tujuh bulan. Calon ibu dimandikan dengan air kembang tujuh rupa dan mengganti kain tujuh kali sebagai doa agar ibu dan bayi selamat."
+  },
+  {
+    "q": "Apa itu Mandau dan apa fungsinya bagi suku Dayak?",
+    "a": "Mandau adalah senjata tradisional suku Dayak di Kalimantan berupa parang bermata satu dengan gagang berukir dan sarung yang dihias. Selain sebagai senjata, mandau juga digunakan untuk kegiatan sehari-hari di hutan dan merupakan simbol keberanian dan kehormatan pria Dayak."
+  },
+  {
+    "q": "Apa makna filosofi Tri Hita Karana dalam budaya Bali?",
+    "a": "Tri Hita Karana adalah filosofi Hindu-Bali yang mengajarkan tiga penyebab kebahagiaan: hubungan harmonis dengan Tuhan (Parahyangan), sesama manusia (Pawongan), dan alam lingkungan (Palemahan). Filosofi ini menjadi landasan kehidupan masyarakat Bali dalam menjaga keseimbangan."
+  },
+  {
+    "q": "Apa itu Tari Piring dari Sumatera Barat?",
+    "a": "Tari Piring adalah tarian tradisional Minangkabau yang menampilkan penari membawa piring di telapak tangan sambil melakukan gerakan cepat dan dinamis. Di akhir pertunjukan, piring-piring tersebut dilempar dan dipecahkan, lalu penari menari di atas pecahan kaca tanpa terluka."
+  },
+  {
+    "q": "Apa itu tradisi Metatah atau potong gigi dalam budaya Bali?",
+    "a": "Metatah adalah upacara potong gigi (mepandes) dalam budaya Hindu-Bali yang dilakukan saat seseorang menginjak dewasa. Enam gigi atas diasah rata sebagai simbol pengendalian Sad Ripu (enam sifat buruk manusia) seperti nafsu, amarah, dan keserakahan."
+  },
+  {
+    "q": "Apa itu tradisi Makan Bajamba dalam budaya Minangkabau?",
+    "a": "Makan Bajamba adalah tradisi makan bersama secara bersila di atas tikar dalam budaya Minangkabau. Hidangan disajikan dalam piring besar yang dibagi bersama, melambangkan kesetaraan, kebersamaan, dan kekeluargaan tanpa memandang status sosial."
+  },
+  {
+    "q": "Apa itu seni Ludruk dari Jawa Timur?",
+    "a": "Ludruk adalah seni pertunjukan teater rakyat dari Jawa Timur yang menampilkan cerita komedi dan drama sosial menggunakan bahasa Jawa. Ciri khasnya adalah peran perempuan yang dimainkan oleh laki-laki dan diselingi humor serta kritik sosial yang tajam."
+  },
+  {
+    "q": "Apa itu tradisi Rebo Wekasan dalam budaya masyarakat Jawa?",
+    "a": "Rebo Wekasan adalah tradisi masyarakat Jawa yang dilakukan pada Rabu terakhir bulan Safar dalam kalender Hijriah. Masyarakat membuat bubur Suro dan berdoa bersama sebagai tolak bala dan memohon keselamatan dari musibah."
+  },
+  {
+    "q": "Apa itu Gondang Sabangunan dalam kebudayaan Batak?",
+    "a": "Gondang Sabangunan adalah ansambel musik tradisional Batak Toba yang terdiri dari taganing (drum melodis), sarune (sejenis obo), ogung (gong), dan hesek (simbal). Musik ini wajib dimainkan dalam upacara adat besar sebagai penghubung antara manusia dan alam spiritual."
+  },
+  {
+    "q": "Apa itu tradisi Erau di Kutai Kartanegara?",
+    "a": "Erau adalah festival budaya tahunan di Kutai Kartanegara, Kalimantan Timur, yang diselenggarakan untuk memperingati berdirinya Kerajaan Kutai. Festival ini menampilkan berbagai upacara adat, pertunjukan seni, dan pesta rakyat selama beberapa hari."
+  },
+  {
+    "q": "Apa itu falsafah Dalihan Na Tolu dalam budaya Batak?",
+    "a": "Dalihan Na Tolu adalah sistem kekerabatan suku Batak yang terdiri dari tiga pilar: Hula-hula (keluarga pemberi istri), Dongan Tubu (keluarga semarga), dan Boru (keluarga penerima istri). Sistem ini mengatur hubungan sosial, adat, dan hukum dalam masyarakat Batak."
+  },
+  {
+    "q": "Apa itu Tari Gandrung dari Banyuwangi?",
+    "a": "Tari Gandrung adalah tarian tradisional khas Banyuwangi, Jawa Timur, yang menampilkan penari wanita yang mengajak penonton ikut menari. Tarian ini awalnya merupakan ritual kesuburan dan kini menjadi ikon budaya Banyuwangi yang dipentaskan dalam berbagai festival."
+  },
+  {
+    "q": "Apa itu tradisi Dugderan di Semarang?",
+    "a": "Dugderan adalah tradisi perayaan menyambut bulan Ramadan di Semarang yang ditandai dengan arak-arakan Warak Ngendog (boneka hewan mitologis), bedug, dan meriam. Nama Dugderan berasal dari bunyi bedug (dug) dan meriam (der) yang ditabuh bersama."
+  },
+  {
+    "q": "Apa itu tradisi Ngejot dalam budaya Bali?",
+    "a": "Ngejot adalah tradisi di Bali di mana umat Hindu mengirimkan makanan kepada tetangga yang beragama lain saat hari raya, dan sebaliknya. Tradisi ini mencerminkan toleransi beragama dan kerukunan antarumat yang menjadi ciri khas kehidupan masyarakat Bali."
+  },
+  {
+    "q": "Apa itu seni Ketoprak dari Jawa Tengah?",
+    "a": "Ketoprak adalah seni pertunjukan teater tradisional Jawa Tengah yang menampilkan cerita sejarah, legenda, dan kehidupan sosial dengan dialog berbahasa Jawa. Diiringi gamelan, ketoprak menggunakan humor dan drama untuk menyampaikan pesan moral kepada penonton."
+  },
+  {
+    "q": "Apa itu tradisi Fahombo atau lompat batu di Nias?",
+    "a": "Fahombo adalah tradisi lompat batu di Pulau Nias, Sumatera Utara, di mana pemuda harus melompati tumpukan batu setinggi dua meter. Tradisi ini dulunya merupakan latihan perang dan kini menjadi simbol kedewasaan serta keberanian pria Nias."
+  },
+  {
+    "q": "Apa itu Subak dan perannya dalam pertanian Bali?",
+    "a": "Subak adalah sistem irigasi tradisional di Bali yang dikelola secara komunal berdasarkan filosofi Tri Hita Karana. Sistem ini mengatur pembagian air secara adil di antara petani dan telah diakui UNESCO sebagai Warisan Budaya Dunia pada tahun 2012."
+  },
+  {
+    "q": "Apa itu tradisi Tumpek Landep dalam budaya Bali?",
+    "a": "Tumpek Landep adalah hari suci dalam kalender Bali yang didedikasikan untuk menghormati benda-benda tajam dan logam. Pada hari ini, masyarakat Bali memberikan sesaji pada keris, senjata, dan kini juga pada kendaraan dan peralatan teknologi sebagai wujud syukur."
+  },
+  {
+    "q": "Apa itu tradisi Sintuwu Maroso dalam budaya masyarakat Poso?",
+    "a": "Sintuwu Maroso berarti 'bersatu yang kuat' dalam bahasa Pamona, Sulawesi Tengah. Ini adalah nilai budaya yang menekankan persatuan dan gotong royong antarwarga tanpa memandang suku atau agama, menjadi landasan kehidupan harmonis masyarakat di Tanah Poso."
+  },
+  {
+    "q": "Apa itu tradisi Perang Pandan atau Mekare-Kare di Bali?",
+    "a": "Mekare-Kare atau Perang Pandan adalah ritual adat di Desa Tenganan, Bali, di mana peserta saling beradu menggunakan daun pandan berduri. Tradisi ini dilakukan sebagai persembahan kepada Dewa Indra dan simbol keberanian serta penghormatan kepada leluhur."
+  },
+  {
+    "q": "Apa itu tradisi Saparan di Jawa Tengah?",
+    "a": "Saparan adalah tradisi yang dilakukan pada bulan Safar kalender Hijriah, terutama di daerah Jawa Tengah seperti Gamping dan Salatiga. Masyarakat mengadakan sedekah bumi, doa bersama, dan pesta rakyat sebagai ungkapan syukur dan tolak bala."
+  },
+  {
+    "q": "Apa itu seni Jathilan atau Kuda Lumping?",
+    "a": "Jathilan atau Kuda Lumping adalah seni pertunjukan tradisional Jawa yang menampilkan penari menunggang kuda anyaman bambu. Pertunjukan ini sering disertai atraksi kesurupan (ndadi) dan aksi memakan benda-benda seperti kaca, menjadikannya tontonan yang spektakuler."
+  },
+  {
+    "q": "Apa makna tradisi Merantau dalam budaya Minangkabau?",
+    "a": "Merantau adalah tradisi pergi ke daerah lain untuk mencari ilmu, pengalaman, dan penghidupan dalam budaya Minangkabau. Tradisi ini didorong oleh sistem matrilineal di mana laki-laki diharapkan mandiri dan sukses sebelum kembali ke kampung halaman."
+  },
+  {
+    "q": "Apa itu Tari Cakalele dari Maluku?",
+    "a": "Tari Cakalele adalah tarian perang tradisional dari Maluku yang ditarikan oleh pria dengan membawa parang dan perisai. Tarian ini menggambarkan semangat kepahlawanan dan keberanian prajurit Maluku, biasanya ditampilkan dalam upacara penyambutan tamu kehormatan."
+  },
+  {
+    "q": "Apa itu tradisi Nyadran dalam masyarakat Jawa?",
+    "a": "Nyadran adalah tradisi ziarah ke makam leluhur yang dilakukan menjelang bulan Ramadan di masyarakat Jawa. Keluarga membersihkan kuburan, menaburkan bunga, mendoakan arwah, dan makan bersama sebagai wujud bakti kepada orang tua yang telah meninggal."
+  },
+  {
+    "q": "Apa itu rumah adat Tongkonan dan filosofinya?",
+    "a": "Tongkonan adalah rumah adat suku Toraja di Sulawesi Selatan yang memiliki atap melengkung menyerupai perahu atau tanduk kerbau. Rumah ini bukan sekadar tempat tinggal tetapi pusat adat dan identitas keluarga, dengan ukiran yang menggambarkan status sosial penghuni."
+  },
+  {
+    "q": "Apa itu tradisi Grebeg Maulud di Keraton Yogyakarta?",
+    "a": "Grebeg Maulud adalah upacara adat keraton Yogyakarta untuk memperingati Maulid Nabi Muhammad SAW. Acara ini ditandai dengan arak-arakan gunungan makanan (tumpeng besar) dari keraton ke Masjid Gedhe, yang kemudian diperebutkan warga sebagai simbol berkah."
+  },
+  {
+    "q": "Apa peran Sanggar Seni dalam pelestarian budaya daerah?",
+    "a": "Sanggar seni adalah wadah komunitas untuk belajar dan berlatih kesenian tradisional seperti tari, musik, dan teater. Sanggar berperan penting dalam meregenerasi seniman, menjaga kelangsungan seni daerah, dan menjadi tempat kreasi yang menghubungkan tradisi dengan inovasi."
+  },
+  {
+    "q": "Apa itu tradisi Marpaniaran dalam pernikahan Batak?",
+    "a": "Marpaniaran adalah prosesi adat dalam pernikahan Batak di mana keluarga mempelai pria dan wanita bermusyawarah untuk menentukan mas kawin (sinamot), aturan adat, dan tata cara pernikahan. Proses ini bisa memakan waktu berhari-hari karena melibatkan seluruh kerabat besar."
+  },
+  {
+    "q": "Apa itu tradisi Kaul atau selametan kematian dalam budaya Jawa?",
+    "a": "Kaul adalah tradisi doa dan selametan yang dilakukan pada hari ketiga, ketujuh, keempat puluh, seratus hari, dan satu tahun setelah kematian seseorang. Keluarga dan tetangga berkumpul, membacakan doa, dan bersama-sama menyiapkan hidangan untuk mendoakan arwah sang almarhum agar tenang di alam baka."
+  },
+  {
+    "q": "Apa itu Batik Tuban dan keunikan motifnya?",
+    "a": "Batik Tuban adalah batik dari pesisir utara Jawa yang terkenal dengan motif flora dan fauna yang hidup, serta warna-warna cerah yang mencerminkan pengaruh perdagangan maritim dengan Tionghoa. Teknik pembuatannya menggabungkan lilin malam dengan pewarnaan alami yang menghasilkan tekstur khas."
+  },
+  {
+    "q": "Apa makna upacara Padusan sebelum Nyepi di Bali?",
+    "a": "Padusan adalah ritual mandi suci masyarakat Bali yang dilakukan sehari sebelum Nyepi, biasanya di sungai, pantai, atau kolam adat. Ritual ini bertujuan membersihkan diri secara lahir dan batin, mempersiapkan tubuh dan jiwa untuk masa meditasi dan introspeksi selama Nyepi."
+  },
+  {
+    "q": "Apa itu Seni Gerak Indonesia dan bagaimana perkembangannya di era modern?",
+    "a": "Seni Gerak Indonesia adalah istilah luas untuk berbagai bentuk tari tradisional yang telah berkembang dan beradaptasi dengan zaman. Era modern melihat perpaduan antara tari klasik dengan teknik kontemporer, menciptakan karya yang tetap menghormati nilai tradisional namun relevan dengan audiens masa kini."
+  },
+  {
+    "q": "Apa itu tradisi Saur Matua atau ucapan terima kasih dalam budaya Batak?",
+    "a": "Saur Matua adalah tradisi ucapan terima kasih dan doa berkah yang disampaikan oleh orang tua atau tokoh adat kepada yang lebih muda dalam acara-acara penting. Ucapan ini mengandung harapan, doa, dan pesan moral yang diwariskan sebagai nilai budaya Batak dari generasi ke generasi."
+  },
+  {
+    "q": "Apa peran pasar tradisional dalam menjaga kerajinan lokal?",
+    "a": "Pasar tradisional menjadi tempat penting bagi pengrajin lokal untuk memasarkan produk kerajinan tangan secara langsung kepada konsumen. Pasar ini mendukung ekonomi lokal, melestarikan teknik tradisional, dan memberikan penghasilan yang berkelanjutan bagi ribuan pengrajin Indonesia."
+  },
+  {
+    "q": "Apa itu Batik Colet dan teknik pembuatannya?",
+    "a": "Batik Colet adalah batik yang diwarnai menggunakan teknik mencelup warna langsung pada kain dengan sikat atau alat colet setelah proses lilin selesai. Teknik ini menghasilkan variasi warna yang gradasi dan lebih hidup, sering digunakan untuk menciptakan efek artistik khusus pada desain batik modern."
+  },
+  {
+    "q": "Apa itu Candi Borobudur dan signifikansinya dalam budaya Jawa?",
+    "a": "Candi Borobudur adalah monumen Buddhis terbesar di dunia yang terletak di Jawa Tengah dan dibangun pada abad ke-8. Candi ini merupakan warisan budaya yang penting, bukan hanya sebagai situs arkeologi tetapi juga sebagai pusat spiritualitas dan pembelajaran filosofi Buddha bagi masyarakat Jawa."
+  },
+  {
+    "q": "Apa itu tradisi Bancaan dalam acara pernikahan Sundanese?",
+    "a": "Bancaan adalah tradisi penyajian hidangan istimewa dan minuman kepada tamu pengantar uang di acara pernikahan Sundanese. Hidangan ini disajikan dengan sentuhan estetika yang indah dan mencerminkan tingkat kemewahan serta kehormatan yang diberikan kepada para tamu."
+  },
+  {
+    "q": "Apa itu Wayang Purwa dan mengapa paling populer di antara jenis wayang lainnya?",
+    "a": "Wayang Purwa adalah wayang kulit yang menceritakan epos Ramayana dan Mahabharata dengan cerita-cerita yang berkembang dari tradisi lisan Jawa. Wayang Purwa paling populer karena ceritanya yang mendalam, moral lesson yang luas, dan fleksibilitas untuk adaptasi cerita yang membuat pertunjukan selalu menarik bagi berbagai generasi."
+  },
+  {
+    "q": "Apa peran keluarga dalam transmisi nilai-nilai budaya lokal?",
+    "a": "Keluarga adalah lembaga pertama dan terpenting dalam transmisi nilai budaya lokal melalui cerita, praktik ritual, bahasa daerah, dan kebiasaan sehari-hari. Orangtua dan kakek nenek mengajarkan anak-anak tentang sejarah keluarga, adat istiadat, dan nilai-nilai moral yang menjadi fondasi identitas budaya."
+  },
+  {
+    "q": "Apa itu Makara dalam seni ukir tradisional Indonesia?",
+    "a": "Makara adalah motif hiasan mitologis berbentuk kepala binatang fantastis yang berasal dari mitologi Hindu-Buddha. Motif ini sering ditemukan pada ukiran bangunan adat, gapura, dan kerajinan kayu Indonesia sebagai simbol perlindungan, keberuntungan, dan kekuatan spiritual."
+  },
+  {
+    "q": "Apa itu Situs Unesco WorldHeritage di Indonesia dan mengapa penting untuk dilestarikan?",
+    "a": "Indonesia memiliki beberapa Situs UNESCO World Heritage seperti Candi Borobudur, Candi Prambanan, Komodo, dan Subak Bali. Situs-situs ini penting untuk dilestarikan karena merepresentasikan prestasi budaya dan alam yang luar biasa, memberikan nilai edukatif, dan menarik turis yang mendukung ekonomi lokal."
+  },
+  {
+    "q": "Bagaimana perkembangan batik modern dalam konteks fashion kontemporer internasional?",
+    "a": "Batik modern berkembang dengan desain kontemporer yang memadukan motif tradisional dengan gaya fashion terkini. Desainer Indonesia seperti Iwan Tirta dan desainer muda lainnya menciptakan koleksi batik fusion yang dihargai secara internasional, ditampilkan di fashion week global, dan dikenakan untuk acara formal modern."
+  },
+  {
+    "q": "Apa itu Jember Fashion Week dan pentingnya bagi industri budaya Indonesia?",
+    "a": "Jember Fashion Week adalah festival fashion tahunan terbesar di Asia yang menampilkan karya desainer Indonesia dengan latar belakang industri lokal. Acara ini memperkenalkan batik, songket, dan kerajinan tradisional kepada pasar global sambil memberikan platform bagi pengrajin tradisional untuk berkembang secara ekonomi dan berinovasi."
+  },
+  {
+    "q": "Apa itu wayang digital atau cyber-wayang dan bagaimana kontribusinya terhadap generasi muda?",
+    "a": "Wayang digital adalah adaptasi modern dari wayang kulit tradisional yang menggunakan teknologi digital, proyeksi LED, dan elemen multimedia. Inovasi ini menarik generasi muda untuk mengenal wayang, mempertahankan relevansi seni tradisional di era digital, dan menciptakan pengalaman seni yang interaktif sekaligus edukatif."
+  },
+  {
+    "q": "Apa peran Pencak Silat dalam pelestarian identitas budaya Indonesia?",
+    "a": "Pencak silat adalah seni bela diri tradisional Indonesia yang mengandung nilai filosofi, etika, dan spiritual. Sebagai warisan budaya yang diakui UNESCO, pencak silat diajarkan di sekolah, komunitas, dan kompetisi internasional untuk menjaga identitas budaya, mengembangkan karakter bangsa, dan menunjukkan keringalan dan kearifan lokal Indonesia."
+  },
+  {
+    "q": "Bagaimana komunitas seni memanfaatkan media sosial untuk mempromosikan seni tradisional Indonesia?",
+    "a": "Komunitas seni tradisional Indonesia menggunakan platform media sosial seperti TikTok, Instagram, dan YouTube untuk menampilkan seni tradisional kepada audiens global. Mereka membuat konten edukatif, tutorial, dan dokumentasi live performance yang membuat seni tradisional mudah diakses, meningkatkan kesadaran generasi muda, dan membuka peluang ekonomi digital bagi seniman."
+  },
+  {
+    "q": "Apa pentingnya museum dan lembaga budaya dalam pelestarian warisan budaya Indonesia?",
+    "a": "Museum seperti Museum Nasional Indonesia, Museum Batik, dan museum daerah berfungsi sebagai lembaga penyimpanan, penelitian, dan edukasi tentang warisan budaya. Lembaga budaya ini mendokumentasikan artefak, menyelenggarakan pameran, dan mengadakan program edukasi untuk menjaga kelestarian budaya agar tidak hilang serta mengakses generasi penerus."
+  },
+  {
+    "q": "Apa itu festival kuliner tradisional Indonesia dan bagaimana kontribusinya terhadap ekonomi lokal?",
+    "a": "Festival kuliner tradisional seperti Jakarta Culinary Week dan festival makanan daerah menampilkan hidangan lokal autentik ke pasar yang lebih luas. Acara ini meningkatkan permintaan terhadap masakan tradisional, memberdayakan pengusaha kuliner lokal, melestarikan resep tradisional, dan mempromosikan kekayaan kuliner Indonesia kepada wisatawan domestik dan internasional."
+  },
+  {
+    "q": "Bagaimana tari kontemporer Indonesia memadukan tradisi dengan ekspresi artistik modern?",
+    "a": "Tari kontemporer Indonesia diciptakan oleh koreografer seperti Sardono W. Kusumo dan generasi baru penari yang menggabungkan gerakan tradisional dengan teknik tari modern. Karya-karya inovatif ini menampilkan cerita kontekstual masa kini, menggunakan musik alternatif, dan ditampilkan di panggung internasional sambil tetap menghormati nilai-nilai budaya tradisional."
+  },
+  {
+    "q": "Apa itu sertifikasi batik asli dan branding untuk pengrajin tradisional?",
+    "a": "Program sertifikasi batik asli memberikan pengakuan atas keaslian dan kualitas produk batik, membantu membedakan batik autentik dari produk industri atau tiruan. Branding sebagai 'batik asli Indonesia' meningkatkan nilai jual, melindungi hak intelektual pengrajin lokal, dan memastikan pelestarian teknik pembuatan batik tradisional untuk generasi mendatang."
+  },
+  {
+    "q": "Bagaimana peran gastrodiplomasi kuliner Indonesia dalam promosi budaya di tingkat global?",
+    "a": "Gastrodiplomasi menggunakan kuliner tradisional Indonesia sebagai alat lunak untuk mempromosikan budaya dan meningkatkan citra negara di panggung global. Melalui restoran autentik, food festival internasional, dan kampanye 'Wonderful Indonesia', hidangan seperti rendang, gudeg, dan soto ayam menjadi duta budaya yang meningkatkan penghargaan terhadap keragaman budaya dan nilai-nilai Indonesia."
+  }
+]

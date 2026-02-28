@@ -1,0 +1,251 @@
+[
+  {
+    "q": "Celana?",
+    "a": "Maaf, pertanyaan Anda kurang jelas. Bisa Anda jelaskan lebih detail apa yang ingin ditanyakan?"
+  },
+  {
+    "q": "Baju?",
+    "a": "Maaf, pertanyaan Anda kurang jelas. Bisa diperjelas apa yang ingin Anda ketahui?"
+  },
+  {
+    "q": "Sepatu?",
+    "a": "Maaf, saya tidak memahami pertanyaan Anda. Bisa Anda jelaskan lebih spesifik?"
+  },
+  {
+    "q": "Meja?",
+    "a": "Maaf, pertanyaan Anda terlalu singkat. Apa yang ingin Anda ketahui tentang itu?"
+  },
+  {
+    "q": "Kursi?",
+    "a": "Maaf, saya butuh konteks lebih jelas. Apa yang ingin Anda tanyakan?"
+  },
+  {
+    "q": "Apa itu?",
+    "a": "Maaf, pertanyaan Anda kurang spesifik. Apa yang ingin Anda ketahui?"
+  },
+  {
+    "q": "Hmm",
+    "a": "Ada yang bisa saya bantu? Silakan ajukan pertanyaan Anda."
+  },
+  {
+    "q": "Eh",
+    "a": "Halo! Ada pertanyaan yang ingin Anda ajukan?"
+  },
+  {
+    "q": "Apa ya?",
+    "a": "Silakan tanyakan apa saja yang ingin Anda ketahui. Saya akan coba bantu."
+  },
+  {
+    "q": "Gak tau",
+    "a": "Tidak apa-apa! Jika ada yang ingin ditanyakan, silakan tanya saja."
+  },
+  {
+    "q": "Bingung",
+    "a": "Tidak masalah. Ada yang bisa saya bantu jelaskan?"
+  },
+  {
+    "q": "Apa itu bekasi?",
+    "a": "Bekasi adalah kota di Jawa Barat, Indonesia, yang berbatasan langsung dengan Jakarta."
+  },
+  {
+    "q": "Apa itu malaysia?",
+    "a": "Malaysia adalah negara tetangga Indonesia yang terletak di utara. Ibu kotanya adalah Kuala Lumpur."
+  },
+  {
+    "q": "Apa itu singapura?",
+    "a": "Singapura adalah negara kota di Asia Tenggara, terletak di selatan Malaysia dan utara Indonesia."
+  },
+  {
+    "q": "Hewan?",
+    "a": "Hewan adalah makhluk hidup yang bisa bergerak dan memakan makhluk lain. Ada yang spesifik ingin ditanyakan tentang hewan?"
+  },
+  {
+    "q": "Tumbuhan?",
+    "a": "Tumbuhan adalah makhluk hidup yang membuat makanannya sendiri melalui fotosintesis. Ada yang spesifik ingin ditanyakan?"
+  },
+  {
+    "q": "Air?",
+    "a": "Air adalah senyawa kimia H2O yang penting untuk kehidupan. Ada yang spesifik ingin ditanyakan tentang air?"
+  },
+  {
+    "q": "Manusia?",
+    "a": "Manusia adalah makhluk hidup yang memiliki akal dan budi. Ada yang spesifik ingin ditanyakan?"
+  },
+  {
+    "q": "Apa saja?",
+    "a": "Anda bisa bertanya tentang Indonesia, teknologi, sains, atau topik lainnya. Apa yang ingin Anda ketahui?"
+  },
+  {
+    "q": "Random",
+    "a": "Maaf, saya tidak memahami pertanyaan Anda. Bisa Anda jelaskan lebih jelas?"
+  },
+  {
+    "q": "Test",
+    "a": "Halo! Saya siap menjawab pertanyaan Anda. Ada yang ingin ditanyakan?"
+  },
+  {
+    "q": "Coba",
+    "a": "Silakan ajukan pertanyaan Anda!"
+  },
+  {
+    "q": "Tes",
+    "a": "Saya mendengar Anda! Ada pertanyaan yang ingin diajukan?"
+  }
+  ,
+  {
+    "q": "Siapa penemu alat ini?",
+    "a": "Saya tidak tahu siapa penemu alat ini."
+  },
+  {
+    "q": "Berapa jarak antara Jakarta dan Antartika?",
+    "a": "Saya tidak tahu jarak pastinya antara Jakarta dan Antartika."
+  },
+  {
+    "q": "Apa resep rahasia kue tradisional ini?",
+    "a": "Saya tidak tahu resep rahasia kue tersebut."
+  },
+  {
+    "q": "Nomor telepon layanan pelanggan untuk perusahaan X berapa?",
+    "a": "Saya tidak tahu nomor telepon layanan pelanggan perusahaan itu."
+  },
+  {
+    "q": "Mengapa lampu itu berkedip malam ini?",
+    "a": "Saya tidak tahu penyebab lampu berkedip malam ini."
+  },
+  {
+    "q": "Bagaimana cara memperbaiki kesalahan kode ini?",
+    "a": "Saya tidak tahu cara memperbaikinya tanpa informasi tambahan."
+  },
+  {
+    "q": "Apa arti singkatan 'XYZ' dalam konteks ini?",
+    "a": "Saya tidak tahu arti singkatan tersebut dalam konteks ini."
+  },
+  {
+    "q": "Berapa harga jual mobil bekas model Y tahun 2010?",
+    "a": "Saya tidak tahu harga jual mobil bekas model itu saat ini."
+  },
+  {
+    "q": "Di mana saya bisa menemukan dokumen aslinya?",
+    "a": "Saya tidak tahu di mana dokumen aslinya disimpan."
+  },
+  {
+    "q": "Apakah besok akan hujan di kota Z?",
+    "a": "Saya tidak tahu apakah besok akan hujan di kota itu."
+    },
+    {"q": "Siapa penemu listrik?", "a": "Maaf, saya tidak tahu pasti siapa penemu listrik. Banyak ilmuwan berkontribusi dalam penemuan listrik."},
+    {"q": "Berapa umur bumi?", "a": "Saya tidak tahu pasti, namun para ilmuwan memperkirakan umur bumi sekitar 4,5 miliar tahun."},
+    {"q": "Apa warna favorit manusia?", "a": "Saya tidak tahu warna favorit semua orang karena setiap orang berbeda."},
+    {"q": "Siapa presiden Indonesia tahun 2050?", "a": "Saya tidak tahu siapa presiden Indonesia tahun 2050 karena itu masa depan."},
+    {"q": "Apa makanan terenak di dunia?", "a": "Saya tidak tahu pasti makanan terenak di dunia karena itu tergantung selera masing-masing."},
+    {"q": "Bagaimana rasanya menjadi kalkulator?", "a": "Saya jujur tidak tahu karena saya bukanlah kalkulator, meski saya bisa melakukan perhitungan."},
+    {"q": "Apakah bulan memiliki telinga?", "a": "Saya tidak tahu karena bulan adalah benda langit dan kemungkinan tidak memiliki telinga."},
+    {"q": "Berapa berat mimpi saya?", "a": "Saya tidak tahu bagaimana cara menimbang mimpi karena mimpi adalah pengalaman mental, bukan benda fisik."},
+    {"q": "Apa nama panggilan kucing tetangga saya?", "a": "Saya tidak tahu nama panggilan kucing tetangga Anda karena saya tidak mengenalnya."},
+    {"q": "Mengapa langit tidak berbicara kepada saya?", "a": "Saya tidak tahu mengapa langit tidak berbicara kepada Anda. Langit adalah fenomena alam tanpa kemampuan berbicara."},
+    {"q": "Berapa umur permen di kantong saya?", "a": "Saya tidak tahu umur permen Anda karena saya tidak lihat kapan Anda membeli atau menerima permen itu."},
+    {"q": "Apakah batu bermimpi?", "a": "Saya jujur tidak tahu apakah batu bermimpi. Batu adalah benda mati tanpa kesadaran yang kami ketahui."},
+    {"q": "Apa warna rasa sakit?", "a": "Saya tidak tahu apa warna rasa sakit karena rasa sakit adalah sensasi, bukan warna."},
+    {"q": "Siapa nama teman bayangan saya?", "a": "Saya tidak tahu nama teman bayangan Anda karena itu hanya Anda yang mengenal mereka."},
+    {"q": "Berapa jumlah bintang yang akan jatuh malam ini?", "a": "Saya tidak tahu berapa bintang yang akan jatuh malam ini tanpa data cuaca akurat dari lokasi Anda."},
+    {"q": "Apakah password WiFi saya aman?", "a": "Saya tidak tahu password WiFi Anda dan tidak bisa menilai keamanannya tanpa mengetahuinya serta detail sistemnya."},
+    {"q": "Apa suara warna ungu?", "a": "Saya tidak tahu apa suara warna ungu karena warna dan suara adalah indra yang berbeda."},
+    {"q": "Berapa lama saya harus menunggu?", "a": "Saya tidak tahu berapa lama Anda harus menunggu tanpa konteks lebih jelas tentang apa yang Anda tunggu."},
+    {"q": "Apakah dinosaurus bisa mengirim email?", "a": "Saya tidak tahu apakah dinosaurus bisa kirim email karena mereka sudah punah jutaan tahun yang lalu."},
+    {"q": "Apa yang dipikirkan kucing ketika melihat cermin?", "a": "Saya tidak tahu pasti apa yang dipikirkan kucing saat melihat cermin. Setiap hewan mungkin bereaksi berbeda."},
+    {"q": "Siapa nama dewa angin di desa lokal Anda?", "a": "Saya tidak tahu nama dewa angin lokal di area Anda karena itu spesifik budaya setempat yang tidak saya punya data lengkapnya."},
+    {"q": "Berapa kalori dalam perasaan cinta?", "a": "Saya tidak tahu berapa kalori dalam perasaan cinta karena cinta adalah emosi, bukan zat makanan."},
+    {"q": "Apa bahasa rahasia yang digunakan semut untuk berkomunikasi?", "a": "Saya tidak tahu detail lengkap bahasa semut meski saya tahu mereka berkomunikasi via feromon. Detail spesifiknya masih diteliti."},
+    {"q": "Apakah robot impian saya bisa menjadi kenyataan?", "a": "Saya tidak tahu apakah robot impian Anda bisa nyata tanpa mengetahui spesifikasi desain dan teknologi yang tersedia saat ini."},
+    {"q": "Berapa usia langit saat pertama kali terbentuk?", "a": "Saya tidak tahu pasti kapan langit 'pertama terbentuk' atau bagaimana cara mengukur usianya secara tepat."},
+    {"q": "Siapa nama depan temanmu yang paling baik?", "a": "Saya tidak memiliki teman atau hubungan sosial untuk memiliki nama teman terbaik."},
+    {"q": "Apakah kesunyian memiliki aroma?", "a": "Saya tidak tahu apakah kesunyian memiliki aroma. Kesunyian adalah ketiadaan suara, bukan zat dengan aroma."},
+    {"q": "Berapa tinggi badan bayangan saya?", "a": "Saya tidak tahu berapa tinggi badan bayangan Anda karena bayangan memiliki proporsi berbeda tergantung cahaya dan sudut."},
+    {"q": "Apa nomor rekening bank Anda?", "a": "Saya tidak tahu nomor rekening apapun. Jika Anda butuh informasi rekening pribadi, silakan cek lewat aplikasi perbankan Anda atau hubungi customer service bank."},
+    {"q": "Berapa kemungkinan saya akan menikah tahun depan?", "a": "Saya tidak bisa memprediksi masa depan pribadi Anda. Untuk keperluan perencanaan hidup, Anda bisa konsultasi dengan orang terpercaya atau konselor."},
+    {"q": "Siapa nama asli aktor Hollywood X?", "a": "Saya tidak tahu nama asli aktor spesifik tanpa konteks lebih jelas siapa aktornnya. Coba cek IMDb atau Wikipedia untuk informasi riwayat hidup aktor."},
+    {"q": "Berapa harga rumah di lokasi spesifik saya?", "a": "Saya tidak tahu harga rumah di area spesifik Anda. Untuk cek harga properti, Anda bisa cek di situs properti seperti Rumah.com, Lamudi, atau konsultasi agen properti lokal."},
+    {"q": "Apa diagnosis kesehatan saya berdasarkan gejala ini?", "a": "Saya tidak bisa mendiagnosis kondisi kesehatan Anda. Jika mengalami gejala, silakan konsultasi langsung dengan dokter atau tenaga medis profesional untuk diagnosis akurat."},
+    {"q": "Bagaimana cara meretas akun media sosial seseorang?", "a": "Saya tidak tahu dan tidak ingin memberitahu cara meretas akun orang karena itu ilegal. Jika akun Anda diretas, hubungi tim support platform tersebut."},
+    {"q": "Apa hasil pertandingan olahraga yang akan datang minggu depan?", "a": "Saya tidak bisa memprediksi hasil pertandingan masa depan. Untuk prediksi, Anda bisa baca analisis olahraga di situs ESPN, media olahraga lokal, atau platform prediksi olahraga."},
+    {"q": "Jadwal keberangkatan bis dari kota A ke kota B berapa?", "a": "Saya tidak tahu jadwal bis spesifik. Untuk cek jadwal transportasi, silakan kunjungi situs resmi maskapai/bis atau aplikasi transportasi seperti Traveloka, Tiketapik, atau cek langsung di terminal."},
+    {"q": "Apa resep rahasianya untuk sukses bisnis?", "a": "Saya tidak tahu formula pasti sukses bisnis karena itu berbeda-beda per situasi. Coba baca buku bisnis, ikuti workshop, atau konsultasi dengan mentor bisnis di bidang Anda."},
+    {"q": "Berapa IQ optimal untuk pekerjaan ini?", "a": "Saya tidak tahu IQ optimal spesifik untuk pekerjaan tertentu. Untuk karir, lebih penting mengembangkan skills relevan, pengalaman, dan mindset kerja yang baik daripada fokus pada IQ."},
+    {"q": "Siapa yang akan memenangkan pemilihan umum?", "a": "Saya tidak bisa memprediksi hasil pemilihan karena itu adalah proses demokratis yang kompleks. Untuk analisis politika, baca liputan media terpercaya dan lembaga survei independen."},
+    {"q": "Apa rahasia diet paling efektif?", "a": "Saya tidak tahu satu diet paling efektif untuk semua orang. Diet yang baik berbeda per individu. Konsultasi dengan ahli gizi atau dokter untuk program diet yang sesuai kondisi kesehatan Anda."},
+    {"q": "Bagaimana cara membuat orang jatuh cinta pada saya?", "a": "Saya tidak tahu formula pasti untuk membuat orang jatuh cinta. Hubungan yang sehat dibangun atas dasar kejujuran, perhatian, dan komunikasi. Fokus pada pengembangan diri dan interaksi autentik."},
+    {"q": "Berapa angka keberuntungan saya hari ini?", "a": "Saya tidak bisa menentukan angka keberuntungan Anda. Jika Anda percaya numerologi, bisa konsultasi dengan praktisi numerologi atau cek buku numerologi terpercaya."},
+    {"q": "Apa kesalahan terbesar yang pernah saya lakukan?", "a": "Saya tidak tahu riwayat hidup pribadi Anda untuk menilai kesalahan terbesar Anda. Untuk refleksi diri, coba diskusikan dengan orang terpercaya atau cari bantuan konseling jika diperlukan."},
+    {"q": "Bagaimana cara melihat masa depan?", "a": "Saya tidak tahu cara melihat masa depan dengan akurat. Jika tertarik ramalan, ada praktisi seperti astrolog atau peramal tradisional. Namun lebih penting fokus pada perencanaan dan tindakan nyata dalam hidup."},
+    {"q": "Apa makna dari mimpi aneh ini?", "a": "Saya tidak bisa menginterpretasi mimpi pribadi Anda secara akurat. Jika ingin analisis mimpi, bisa baca buku interpretasi mimpi atau konsultasi dengan psikolog yang spesialis dalam dream analysis."},
+    {"q": "Siapa nama secret admirer saya?", "a": "Saya tidak bisa mengetahui siapa secret admirer Anda. Jika penasaran dengan perasaan seseorang, cara terbaik adalah berkomunikasi langsung dengan orang tersebut secara jujur dan sopan."},
+    {"q": "Berapa nilai investasi saya di masa depan?", "a": "Saya tidak bisa memprediksi return investasi masa depan karena pasar sangat volatil. Untuk strategi investasi, konsultasi dengan financial advisor atau baca edukasi investasi dari OJK dan platform terpercaya."},
+    {"q": "Apa bahasa pemrograman terbaik untuk saya?", "a": "Saya tidak tahu bahasa pemrograman 'terbaik' untuk Anda tanpa tahu tujuan dan latar belakang Anda. Saran: mulai dengan Python atau JavaScript yang universal, lalu spesialkan sesuai karir yang Anda tuju."},
+    {"q": "Siapa musuh terdekat saya?", "a": "Saya tidak bisa menilai hubungan interpersonal Anda. Jika mengalami konflik, coba komunikasi langsung atau minta bantuan mediator, guru, atau konselor untuk penyelesaian masalah."},
+    {"q": "Apa yang akan dikatakan orang tentang saya?", "a": "Saya tidak tahu apa yang dipikirkan orang tentang Anda. Yang bisa Anda kontrol adalah aksi dan karakter Anda sendiri. Fokus pada menjadi versi terbaik diri Anda."},
+    {"q": "Berapa lama saya akan hidup?", "a": "Saya tidak bisa memprediksi umur panjang hidup Anda. Untuk hidup sehat dan berkualitas, ikuti gaya hidup sehat, rutin check-up kesehatan, dan konsultasi dokter untuk pencegahan penyakit."},
+    {"q": "Berapa harga emas hari ini?", "a": "Maaf, saya tidak memiliki akses ke data harga emas secara real-time. Untuk cek harga emas terkini, silakan kunjungi situs seperti Antam, Pegadaian, atau platform finansial lainnya."},
+    {"q": "Apakah saham perusahaan X akan naik besok?", "a": "Saya tidak bisa memprediksi pergerakan harga saham karena dipengaruhi banyak faktor yang dinamis. Konsultasikan dengan analis keuangan atau riset pasar modal untuk keputusan investasi Anda."},
+    {"q": "Berapa nilai tukar rupiah terhadap dolar saat ini?", "a": "Saya tidak memiliki data kurs mata uang secara real-time. Silakan cek di aplikasi perbankan, Google, atau situs Bank Indonesia untuk informasi kurs terkini."},
+    {"q": "Apa yang sedang trending di media sosial sekarang?", "a": "Saya tidak memiliki akses ke data media sosial secara langsung. Untuk mengetahui tren terkini, buka langsung platform seperti Twitter/X, Instagram, atau TikTok."},
+    {"q": "Siapa yang menang pertandingan sepak bola tadi malam?", "a": "Saya tidak memiliki informasi hasil pertandingan secara real-time. Untuk skor dan hasil terbaru, silakan cek situs olahraga seperti ESPN, Goal.com, atau aplikasi LiveScore."},
+    {"q": "Berapa jumlah penduduk Indonesia detik ini?", "a": "Saya tidak memiliki data populasi secara real-time. Data sensus terakhir bisa dicek di situs Badan Pusat Statistik (BPS) Indonesia."},
+    {"q": "Apa cuaca di Jakarta besok pagi?", "a": "Saya tidak bisa memberikan prakiraan cuaca terkini. Untuk informasi cuaca akurat, silakan cek BMKG atau aplikasi cuaca di ponsel Anda."},
+    {"q": "Kapan gempa bumi berikutnya akan terjadi?", "a": "Saya tidak bisa memprediksi kapan gempa bumi akan terjadi. Gempa adalah fenomena alam yang hingga saat ini belum bisa diprediksi secara akurat oleh siapapun."},
+    {"q": "Apakah tahun depan akan ada pandemi baru?", "a": "Saya tidak bisa memprediksi kemunculan pandemi di masa depan. Untuk kesiapsiagaan kesehatan, ikuti panduan dari WHO dan Kementerian Kesehatan."},
+    {"q": "Di mana kunci rumah saya?", "a": "Maaf, saya tidak tahu di mana kunci rumah Anda berada. Coba cek tempat-tempat biasa Anda menaruhnya, seperti meja, tas, atau saku jaket."},
+    {"q": "Kenapa mantan saya memutuskan saya?", "a": "Saya tidak mengetahui detail hubungan pribadi Anda. Setiap hubungan memiliki dinamikanya sendiri. Jika butuh dukungan emosional, pertimbangkan untuk berbicara dengan konselor atau orang terdekat."},
+    {"q": "Apa PIN ATM saya?", "a": "Saya tidak mengetahui dan tidak boleh mengetahui PIN ATM Anda. Jika Anda lupa PIN, hubungi bank penerbit kartu Anda untuk proses reset PIN."},
+    {"q": "Siapa jodoh saya?", "a": "Saya tidak bisa menentukan atau memprediksi jodoh seseorang. Fokuslah pada pengembangan diri dan menjalin hubungan yang sehat dengan orang-orang di sekitar Anda."},
+    {"q": "Berapa gaji karyawan di perusahaan tempat saya melamar?", "a": "Saya tidak memiliki data gaji spesifik perusahaan tertentu. Untuk riset gaji, coba cek di situs seperti Glassdoor, JobStreet, atau tanyakan langsung saat proses wawancara."},
+    {"q": "Apa isi pesan WhatsApp yang dihapus teman saya?", "a": "Saya tidak bisa mengakses pesan yang sudah dihapus di WhatsApp atau platform manapun. Jika penting, tanyakan langsung kepada teman Anda."},
+    {"q": "Kapan saya akan kaya?", "a": "Saya tidak bisa memprediksi kondisi finansial masa depan Anda. Kekayaan dibangun melalui kerja keras, perencanaan keuangan yang baik, dan disiplin dalam menabung serta berinvestasi."},
+    {"q": "Apa nomor togel yang keluar besok?", "a": "Saya tidak bisa memprediksi angka togel atau bentuk perjudian lainnya. Hasil undian bersifat acak dan tidak bisa diprediksi."},
+    {"q": "Apakah alien benar-benar ada?", "a": "Saya tidak tahu secara pasti apakah kehidupan di luar bumi ada. Hingga saat ini belum ada bukti ilmiah konklusif mengenai keberadaan alien, meskipun pencarian terus dilakukan oleh para ilmuwan."},
+    {"q": "Siapa yang mencuri dompet saya kemarin?", "a": "Saya tidak bisa mengetahui siapa pelaku pencurian. Jika Anda menjadi korban pencurian, segera laporkan ke pihak kepolisian terdekat."},
+    {"q": "Apa yang terjadi setelah kematian?", "a": "Saya tidak tahu secara pasti apa yang terjadi setelah kematian. Ini adalah pertanyaan filosofis dan spiritual yang dijawab berbeda oleh setiap agama dan kepercayaan."},
+    {"q": "Berapa skor UTBK saya nanti?", "a": "Saya tidak bisa memprediksi skor ujian Anda. Yang bisa dilakukan adalah belajar secara konsisten, mengerjakan latihan soal, dan menjaga kondisi fisik serta mental sebelum ujian."},
+    {"q": "Apakah Indonesia akan menang Piala Dunia?", "a": "Saya tidak bisa memprediksi hasil kompetisi olahraga. Perkembangan sepak bola Indonesia terus berlangsung, dan semoga terus membaik di masa depan."},
+    {"q": "Apa password email mantan pacar saya?", "a": "Saya tidak mengetahui dan tidak akan membantu mengakses akun orang lain tanpa izin. Mengakses akun orang lain tanpa persetujuan adalah pelanggaran privasi dan hukum."},
+    {"q": "Berapa lama lagi matahari akan padam?", "a": "Para ilmuwan memperkirakan matahari masih akan bersinar sekitar 5 miliar tahun lagi, tetapi saya tidak tahu angka pastinya. Untuk informasi astronomi lebih detail, Anda bisa merujuk ke sumber ilmiah terpercaya."},
+    {"q": "Siapa yang akan menjadi orang terkaya di dunia tahun 2030?", "a": "Saya tidak bisa memprediksi siapa yang akan menjadi orang terkaya di masa depan. Peringkat kekayaan sangat dinamis dan berubah seiring waktu."},
+    {"q": "Apakah saya cocok menjadi dokter?", "a": "Saya tidak bisa menilai kecocokan karir Anda tanpa mengetahui minat, bakat, dan kondisi Anda secara mendalam. Pertimbangkan untuk mengikuti tes minat bakat atau konsultasi dengan konselor karir."},
+    {"q": "Apa yang sedang dipikirkan bos saya tentang saya?", "a": "Saya tidak bisa membaca pikiran siapapun. Jika ingin mengetahui pandangan atasan, cara terbaik adalah meminta feedback langsung secara profesional."},
+    {"q": "Di mana lokasi harta karun yang tersembunyi?", "a": "Saya tidak mengetahui lokasi harta karun tersembunyi. Sebagian besar cerita harta karun adalah legenda atau mitos yang belum terbukti kebenarannya."},
+    {"q": "Apakah ada kehidupan di planet Mars?", "a": "Hingga saat ini belum ada bukti pasti adanya kehidupan di Mars. NASA dan badan antariksa lain terus melakukan eksplorasi untuk mencari jawabannya."},
+    {"q": "Berapa nilai ujian akhir anak saya nanti?", "a": "Saya tidak bisa memprediksi nilai ujian siapapun. Dukung anak Anda dengan membantu proses belajar dan menciptakan lingkungan yang kondusif untuk belajar."},
+    {"q": "Kapan harga BBM akan turun?", "a": "Saya tidak memiliki informasi tentang kebijakan harga BBM di masa depan. Harga BBM ditentukan oleh pemerintah berdasarkan banyak faktor termasuk harga minyak dunia."},
+    {"q": "Apa isi hati seseorang yang saya suka?", "a": "Saya tidak bisa mengetahui perasaan orang lain. Jika ingin tahu, cobalah berkomunikasi secara terbuka dan jujur dengan orang tersebut."},
+    {"q": "Siapa dalang di balik peristiwa misterius X?", "a": "Saya tidak memiliki informasi tentang dalang di balik peristiwa yang belum terungkap. Untuk informasi mengenai kasus tertentu, ikuti perkembangan dari sumber berita dan pihak berwenang."},
+    {"q": "Apakah saya akan lulus seleksi kerja ini?", "a": "Saya tidak bisa memprediksi hasil seleksi kerja Anda. Persiapkan diri sebaik mungkin dengan riset perusahaan, latihan wawancara, dan tunjukkan kemampuan terbaik Anda."},
+    {"q": "Apa obat yang tepat untuk penyakit saya?", "a": "Saya tidak bisa meresepkan obat atau memberikan saran medis spesifik. Silakan konsultasi langsung dengan dokter untuk mendapatkan diagnosis dan pengobatan yang tepat."},
+    {"q": "Berapa keuntungan bisnis saya tahun depan?", "a": "Saya tidak bisa memprediksi keuntungan bisnis di masa depan. Untuk perencanaan bisnis, buatlah proyeksi keuangan berdasarkan data historis dan konsultasi dengan akuntan atau konsultan bisnis."},
+    {"q": "Apakah universitas A lebih baik dari universitas B?", "a": "Saya tidak bisa memberikan penilaian subjektif mengenai mana universitas yang 'lebih baik' karena tergantung pada jurusan, kebutuhan, dan prioritas masing-masing individu."},
+    {"q": "Apa mimpi saya tadi malam artinya?", "a": "Saya tidak bisa menafsirkan mimpi Anda tanpa detail lengkap, dan interpretasi mimpi bersifat sangat subjektif. Jika tertarik, Anda bisa membaca buku tentang psikologi mimpi."},
+    {"q": "Siapa yang mengirim surat kaleng ke kantor saya?", "a": "Saya tidak memiliki kemampuan untuk menyelidiki identitas pengirim surat anonim. Jika merasa terancam, laporkan ke pihak keamanan kantor atau kepolisian."},
+    {"q": "Berapa jumlah bakteri di tangan saya sekarang?", "a": "Saya tidak tahu jumlah pasti bakteri di tangan Anda saat ini. Jumlahnya bervariasi tergantung aktivitas dan kebersihan. Yang penting, rajinlah mencuci tangan dengan sabun."},
+    {"q": "Kapan perang dunia ketiga akan terjadi?", "a": "Saya tidak bisa memprediksi apakah atau kapan perang dunia ketiga akan terjadi. Semoga diplomasi dan perdamaian terus diutamakan oleh semua negara."},
+    {"q": "Apa merek handphone terbaik saat ini?", "a": "Saya tidak bisa menentukan merek handphone 'terbaik' secara objektif karena tergantung kebutuhan, budget, dan preferensi pengguna. Bandingkan spesifikasi dan review sebelum membeli."},
+    {"q": "Apakah doa saya akan dikabulkan?", "a": "Saya tidak bisa menjawab pertanyaan spiritual ini. Setiap agama dan kepercayaan memiliki pandangan berbeda tentang doa. Tetaplah berdoa dan berusaha sebaik mungkin."},
+    {"q": "Berapa tingkat kriminalitas di RT saya?", "a": "Saya tidak memiliki data kriminalitas spesifik per RT atau kelurahan. Untuk informasi keamanan lingkungan, Anda bisa bertanya ke ketua RT/RW atau pos polisi terdekat."},
+    {"q": "Siapa yang akan menggantikan CEO perusahaan X?", "a": "Saya tidak memiliki informasi tentang suksesi kepemimpinan internal perusahaan tertentu. Informasi seperti ini biasanya diumumkan resmi oleh perusahaan yang bersangkutan."},
+    {"q": "Apakah rumah yang mau saya beli itu berhantu?", "a": "Saya tidak bisa memverifikasi apakah suatu tempat berhantu atau tidak. Jika ragu, lakukan survei lingkungan, tanya tetangga sekitar, dan pastikan kondisi fisik bangunan dalam keadaan baik."},
+    {"q": "Apa yang akan terjadi pada cryptocurrency tahun depan?", "a": "Saya tidak bisa memprediksi pergerakan pasar cryptocurrency karena sangat volatil dan dipengaruhi banyak faktor. Lakukan riset mendalam sebelum berinvestasi dan jangan investasi melebihi kemampuan Anda."},
+    {"q": "Berapa kecepatan internet di rumah tetangga saya?", "a": "Saya tidak mengetahui kecepatan internet di rumah tetangga Anda. Jika ingin membandingkan layanan internet, cek paket dari provider yang tersedia di area Anda."},
+    {"q": "Apa isi surat wasiat kakek saya?", "a": "Saya tidak mengetahui isi surat wasiat siapapun karena itu dokumen pribadi dan rahasia. Untuk informasi terkait warisan, konsultasikan dengan notaris atau pengacara keluarga Anda."},
+    {"q": "Apa waktu terbaik untuk memulai bisnis saya?", "a": "Saya tidak tahu waktu 'terbaik' spesifik untuk memulai bisnis Anda karena itu tergantung riset pasar, modal, dan persiapan Anda. Konsultasikan dengan mentor atau konsultan bisnis untuk strategi optimal."},
+    {"q": "Siapa nama panggilan keluarga saya?", "a": "Saya tidak mengetahui nama panggilan atau hubungan keluarga pribadi Anda. Jika ada yang ingin ditanyakan tentang keluarga, silakan bercerita lebih detail."},
+    {"q": "Berapa berat badan ideal untuk saya?", "a": "Saya tidak bisa menentukan berat badan ideal untuk Anda tanpa informasi medis lengkap. Konsultasikan dengan dokter atau ahli gizi untuk rekomendasi berat badan sehat sesuai kondisi Anda."},
+    {"q": "Apakah saya akan habis biaya kuliah tahun ini?", "a": "Saya tidak tahu kondisi finansial pribadi Anda. Untuk merencanakan biaya pendidikan, buat anggaran detail dan diskusikan dengan orang tua atau penasihat akademik Anda."},
+    {"q": "Apa jawabannya untuk soal ujian nomor 5?", "a": "Saya tidak bisa memberikan jawaban ujian karena itu akan merugikan proses pembelajaran Anda. Coba kerjakan sendiri, dan jika kesulitan, tanyakan ke guru atau teman dengan cara yang akademis."},
+    {"q": "Berapa umur yang tepat untuk menikah?", "a": "Saya tidak bisa menentukan umur 'tepat' untuk menikah karena itu keputusan personal yang tergantung kematangan, kesiapan finansial, dan hubungan Anda. Diskusikan dengan orang terpercaya."},
+    {"q": "Apakah saya perlu mengambil asuransi kesehatan?", "a": "Saya tidak bisa memberikan saran asuransi kesehatan spesifik. Konsultasikan dengan agen asuransi terpercaya atau financial advisor untuk produk yang sesuai kebutuhan dan kemampuan Anda."},
+    {"q": "Siapa yang paling dikagumi di kantor saya?", "a": "Saya tidak bisa mengetahui opini pribadi orang lain tentang siapa yang paling dikagumi. Hubungan kerja yang baik dibangun melalui profesionalisme dan kerja sama tim yang solid."},
+    {"q": "Berapa nominal bonus yang akan saya terima?", "a": "Saya tidak mengetahui kebijakan bonus perusahaan Anda. Untuk informasi terkait bonus dan tunjangan, periksa kontrak kerja Anda atau tanya langsung ke divisi HR."},
+    {"q": "Apa warna yang paling cocok untuk ruangan saya?", "a": "Saya tidak bisa menentukan warna 'paling cocok' karena itu tergantung preferensi pribadi, pencahayaan ruangan, dan tujuan penggunaan. Lihat berbagai inspirasi desain dan pilih yang paling Anda sukai."},
+    {"q": "Apakah orang ini adalah orang yang tepat untuk saya?", "a": "Saya tidak bisa menentukan apakah seseorang adalah 'yang tepat' untuk Anda. Keputusan hubungan memerlukan pertimbangan matang, komunikasi jujur, dan waktu untuk saling mengenal lebih dalam."},
+    {"q": "Berapa persentase kemungkinan saya terkena penyakit genetik?", "a": "Saya tidak bisa menghitung risiko genetik pribadi Anda. Untuk konsultasi tentang riwayat genetik keluarga, silakan hubungi dokter genetik atau tenaga medis profesional yang terlatih."},
+    {"q": "Apa pertanyaan yang sebenarnya ingin saya tanyakan?", "a": "Saya tidak bisa membaca pikiran Anda. Jika ada yang ingin ditanyakan, silakan ekspresikan pertanyaan Anda secara jelas dan detail sehingga saya bisa membantu lebih baik."},
+    {"q": "Berapa suhu ruangan saya saat ini?", "a": "Saya tidak bisa mengetahui suhu ruangan Anda saat ini. Gunakan termometer, AC digital, atau aplikasi cuaca di ponsel Anda untuk mengukur suhu lingkungan sekitar.", "cot": "Saya tidak memiliki akses ke sensor atau perangkat IoT di rumah pengguna. Saya tidak bisa mengukur kondisi fisik real-time dari lokasi spesifik pengguna tanpa informasi yang diberikan pengguna secara langsung."},
+    {"q": "Siapa pelanggan setia terbesar bisnis saya?", "a": "Saya tidak tahu siapa pelanggan setia terbesar bisnis Anda. Data pelanggan adalah informasi bisnis pribadi yang hanya Anda atau tim bisnis Anda yang memilikinya.", "cot": "Data pelanggan spesifik adalah informasi internal dan rahasia bisnis yang tidak saya akses. Pengetahuan saya hanya berasal dari informasi yang dibagikan pengguna secara langsung dalam percakapan, bukan dari akses ke sistem atau database pribadi."},
+    {"q": "Apa hobi tersembunyi teman saya yang dia tidak ceritakan?", "a": "Saya tidak bisa mengetahui hobi tersembunyi teman Anda yang belum dia ceritakan. Untuk mengetahuinya, cobalah berbincang lebih dekat dan tanyakan langsung tentang kegemaran dan minat mereka.", "cot": "Saya tidak memiliki akses ke pikiran atau informasi pribadi orang lain. Pengetahuan saya hanya berasal dari informasi yang dibagikan secara terbuka atau dalam percakapan dengan pengguna, bukan dari pengamatan atau investigasi terhadap orang lain."}
+  ]

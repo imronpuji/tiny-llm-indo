@@ -1,0 +1,521 @@
+[
+  {
+    "q": "Apa nama selat antara Jawa dan Sumatera?",
+    "a": "Selat antara Jawa dan Sumatera adalah Selat Sunda."
+  },
+  {
+    "q": "Di provinsi mana Candi Borobudur berada?",
+    "a": "Candi Borobudur berada di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama danau terbesar di Indonesia?",
+    "a": "Danau terbesar di Indonesia adalah Danau Toba di Sumatera Utara."
+  },
+  {
+    "q": "Pulau apa yang terkenal dengan pantainya di Indonesia?",
+    "a": "Pulau Bali terkenal dengan pantai-pantainya yang indah."
+  },
+  {
+    "q": "Apa nama ibu kota Jawa Timur?",
+    "a": "Ibu kota Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota Jawa Barat?",
+    "a": "Ibu kota Jawa Barat adalah Bandung."
+  },
+  {
+    "q": "Apa nama ibu kota Sumatera Utara?",
+    "a": "Ibu kota Sumatera Utara adalah Medan."
+  },
+  {
+    "q": "Apa nama ibu kota Sulawesi Selatan?",
+    "a": "Ibu kota Sulawesi Selatan adalah Makassar."
+  },
+  {
+    "q": "Apa nama ibu kota Jawa Tengah?",
+    "a": "Ibu kota Jawa Tengah adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota Bali?",
+    "a": "Ibu kota Bali adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota Papua?",
+    "a": "Ibu kota Papua adalah Jayapura."
+  },
+  {
+    "q": "Apa nama ibu kota Kalimantan Timur?",
+    "a": "Ibu kota Kalimantan Timur adalah Samarinda."
+  },
+  {
+    "q": "Apa nama ibu kota Yogyakarta?",
+    "a": "Ibu kota Daerah Istimewa Yogyakarta adalah Kota Yogyakarta."
+  },
+  {
+    "q": "Apa nama selat antara Jawa dan Bali?",
+    "a": "Selat antara Jawa dan Bali adalah Selat Bali."
+  },
+  {
+    "q": "Apa nama selat antara Sumatera dan Malaysia?",
+    "a": "Selat antara Sumatera dan Malaysia adalah Selat Malaka."
+  },
+  {
+    "q": "Apa nama gunung berapi aktif di Jawa Tengah?",
+    "a": "Gunung berapi aktif di Jawa Tengah antara lain Gunung Merapi dan Gunung Slamet."
+  },
+  {
+    "q": "Apa nama gunung tertinggi di Jawa?",
+    "a": "Gunung tertinggi di Jawa adalah Gunung Semeru dengan ketinggian 3.676 meter."
+  },
+  {
+    "q": "Di mana Taman Nasional Komodo berada?",
+    "a": "Taman Nasional Komodo berada di Nusa Tenggara Timur."
+  },
+  {
+    "q": "Apa nama sungai terpanjang di Indonesia?",
+    "a": "Sungai terpanjang di Indonesia adalah Sungai Kapuas di Kalimantan Barat dengan panjang sekitar 1.143 km."
+  },
+  {
+    "q": "Di mana Raja Ampat berada?",
+    "a": "Raja Ampat berada di Papua Barat, terkenal dengan keindahan bawah lautnya."
+  },
+  {
+    "q": "Apa nama pulau terkecil dari 5 pulau besar Indonesia?",
+    "a": "Pulau terkecil dari 5 pulau besar Indonesia adalah Sulawesi."
+  },
+  {
+    "q": "Sebutkan 5 pulau besar di Indonesia!",
+    "a": "Lima pulau besar di Indonesia adalah Sumatera, Jawa, Kalimantan, Sulawesi, dan Papua."
+  }
+  ,
+  {
+    "q": "Apa ibu kota Indonesia?",
+    "a": "Ibu kota Indonesia adalah Jakarta."
+  },
+  {
+    "q": "Pulau terbesar di Indonesia mana?",
+    "a": "Pulau terbesar adalah Kalimantan."
+  },
+  {
+    "q": "Gunung tertinggi di Indonesia yang mana?",
+    "a": "Puncak tertinggi adalah Puncak Jaya di Papua."
+  },
+  {
+    "q": "Sungai terpanjang di Indonesia apa namanya?",
+    "a": "Sungai Kapuas di Kalimantan adalah yang terpanjang."
+  },
+  {
+    "q": "Laut yang berada di utara Pulau Jawa disebut apa?",
+    "a": "Laut di utara Pulau Jawa adalah Laut Jawa."
+  },
+  {
+    "q": "Berapa zona waktu resmi yang ada di Indonesia?",
+    "a": "Indonesia memiliki tiga zona waktu: WIB, WITA, dan WIT."
+  },
+  {
+    "q": "Mengapa Indonesia sering mengalami gempa bumi?",
+    "a": "Karena Indonesia terletak pada pertemuan beberapa lempeng tektonik."
+  },
+  {
+    "q": "Selat mana yang memisahkan Sumatra dan Semenanjung Melayu?",
+    "a": "Selat Malaka memisahkan Sumatra dan Semenanjung Melayu."
+  },
+  {
+    "q": "Danau terbesar di Indonesia apa?",
+    "a": "Danau terbesar adalah Danau Toba di Sumatra Utara."
+  },
+  {
+    "q": "Bagaimana karakteristik iklim di sebagian besar wilayah Indonesia?",
+    "a": "Iklimnya tropis dengan musim hujan dan musim kemarau."
+    },
+    {"q": "Apa itu peta?", "a": "Peta adalah gambaran permukaan bumi pada bidang datar dengan skala tertentu."},
+    {"q": "Apa itu gunung api?", "a": "Gunung api adalah gunung yang dapat meletus dan mengeluarkan lava, abu, dan gas."},
+    {"q": "Apa itu delta sungai?", "a": "Delta sungai adalah endapan tanah di muara sungai yang membentuk daratan baru."},
+    {"q": "Apa itu garis khatulistiwa?", "a": "Garis khatulistiwa adalah garis imajiner yang membagi bumi menjadi dua bagian utara dan selatan."},
+    {"q": "Apa itu pulau terluar Indonesia?", "a": "Pulau terluar Indonesia adalah pulau-pulau yang berada di perbatasan wilayah negara Indonesia."},
+    {"q": "Hewan langka apa yang hanya hidup di Pulau Komodo?", "a": "Komodo atau biawak Komodo adalah hewan purba yang hanya ditemukan di Pulau Komodo, Nusa Tenggara Timur. Komodo adalah reptil terbesar di dunia yang masih hidup."},
+    {"q": "Primata endemik apa yang terancam punah di Kalimantan dan Sumatera?", "a": "Orangutan adalah primata besar yang endemik di Kalimantan dan Sumatera. Terdapat dua spesies: orangutan Kalimantan dan orangutan Sumatera. Mereka sangat terancam punah karena hilangnya habitat hutan hujan."},
+    {"q": "Bunga langka apa yang terkenal dari Sumatera dan hanya mekar sesekali?", "a": "Bunga Rafflesia adalah bunga langka terbesar di dunia yang ditemukan di hutan hujan Sumatera. Bunga ini hanya mekar beberapa hari dalam setahun dan hidup sebagai parasit pada tumbuhan merambat."},
+    {"q": "Apa fauna ikonik yang menjadi simbol pariwisata Sulawesi?", "a": "Anoa dan Babirusa adalah fauna ikonik Sulawesi. Keduanya adalah mamalia endemik yang ditemukan hanya di Sulawesi dan menjadi daya tarik wisata alam di kepulauan ini."},
+    {"q": "Jenis pinguin apa yang hidup di perairan Indonesia bagian timur?", "a": "Spheniscus mendiculus atau Pinguin Jawa hidup di sekitar Pulau Jawa. Namun, penguin Fairmaire ditemukan lebih jauh di timur Indonesia di perairan tropis yang lebih dalam."},
+    {"q": "Bagaimana karakteristik iklim monsoonal di Indonesia?", "a": "Iklim monsoonal Indonesia ditandai dengan adanya dua musim yang jelas: musim hujan (November-Maret) dengan curah hujan tinggi dan musim kemarau (Juni-September) dengan curah hujan minimal. Pola ini dipengaruhi oleh pergerakan angin muson dari Australia dan Benua Asia."},
+    {"q": "Mengapa beberapa wilayah Indonesia di timur lebih kering dibanding di barat?", "a": "Wilayah Indonesia timur lebih kering karena pengaruh iklim semi-arid (Nusa Tenggara). Angin muson yang melewati Nusa Tenggara telah melepaskan sebagian besar kelembaban di Jawa dan Sumatera, sehingga hujan yang sampai ke timur berkurang. Selain itu, relief topografi juga mempengaruhi distribusi hujan."},
+    {"q": "Provinsi apa yang merupakan produsen coklat dan kopi terbesar di Indonesia?", "a": "Sulawesi Tenggara dan Sulawesi Selatan adalah produsen coklat terbesar, sementara Sumatera Utara terkenal dengan produksi kopi. Sumatera adalah penghasil kopi terbesar Indonesia dengan varietas Arabika dan Robusta yang terkenal di pasar internasional."},
+    {"q": "Komoditas ekspor utama apa dari Kepulauan Riau?", "a": "Minyak kelapa sawit (CPO) adalah komoditas ekspor utama dari Kepulauan Riau. Selain itu, karet dan minyak bumi juga menjadi komoditas penting dari kawasan ini yang merupakan pusat industri petrokimia Indonesia."},
+    {"q": "Kota apa yang dikenal sebagai pusat industri global di Indonesia?", "a": "Jakarta adalah pusat industri dan perdagangan utama Indonesia. Namun, Karawang di Jawa Barat juga berkembang pesat sebagai kawasan industri manufaktur dengan banyak pabrik elektronik, otomotif, dan tekstil."},
+    {"q": "Apa destinasi wisata bahari paling terkenal di Nusa Tenggara?", "a": "Gili Islands (Gili Trawangan, Gili Meno, Gili Air) di Lombok adalah destinasi wisata bahari yang paling terkenal di Nusa Tenggara. Kepulauan ini terkenal dengan pantai pasir putih, snorkeling, dan diving yang spektakuler."},
+    {"q": "Danau apa yang terletak di dalam kaldera Gunung Rinjani?", "a": "Danau Segara Anak (Danau Anak Laut) adalah danau yang terletak di dalam kaldera Gunung Rinjani di Lombok, Nusa Tenggara Barat. Danau ini sekaligus menjadi atraksi wisata pendakian gunung Rinjani."},
+    {"q": "Pantai apa di Yogyakarta yang terkenal dengan keindahan sunset dan budaya lokal?", "a": "Pantai Parangtritis adalah pantai yang paling terkenal di Yogyakarta. Pantai ini terkenal dengan pasir hitam, ombak yang mengesankan, dan keindahan sunset yang spektakuler. Pantai ini juga menjadi destinasi wisata budaya lokal yang ramai dikunjungi wisatawan."},
+    {"q": "Provinsi apa yang memiliki keragaman hayati (biodiversity) terbesar di Indonesia?", "a": "Papua memiliki keragaman hayati terbesar di Indonesia dengan lebih dari 50% spesies flora dan fauna Indonesia berada di sini. Papua juga dikenal sebagai paru-paru dunia karena hutan hujan tropisnya yang luas dan kaya akan keanekaragaman hayati."},
+    {"q": "Apa angin musim yang membawa hujan ke Indonesia dari Desember hingga Februari?", "a": "Angin muson barat laut membawa hujan ke Indonesia dari bulan Desember hingga Februari. Angin ini berasal dari Benua Asia dan melewati Indonesia dari barat laut, mengakibatkan curah hujan tinggi terutama di Jawa, Sumatera, dan Kalimantan."},
+    {"q": "Sumber daya alam apa yang paling melimpah di Kalimantan?", "a": "Kalimantan memiliki sumber daya alam yang sangat melimpah berupa: batu bara (terbesar di Asia Tenggara), minyak bumi, gas alam, kayu, dan mineral logam. Tambang batu bara di Kalimantan Timur dan Kalimantan Selatan menjadikan pulau ini pusat produksi energi fosil Indonesia."},
+    {"q": "Apa saja pertambangan mineral berharga di Papua?", "a": "Papua memiliki pertambangan mineral berharga termasuk tembaga, emas, dan perak. Tambang Grasberg di Freeport adalah salah satu tambang emas terbesar di dunia. Selain itu, Papua juga memproduksi minyak dan gas bumi dalam kuantitas signifikan yang penting bagi ekonomi Indonesia."},
+    {"q": "Bagaimana karakteristik wilayah Nusa Tenggara dan iklimnya?", "a": "Nusa Tenggara termasuk wilayah iklim semi-arid dengan curah hujan rendah (400-900 mm per tahun). Wilayah ini mengalami musim kemarau yang panjang (April-Oktober) dan musim hujan yang singkat. Topografi berbukit dengan vegetasi savana dan hutan musiman. Sumber daya utama adalah pertanian (jagung, kacang), peternakan, dan pariwisata."},
+    {"q": "Apa potensi ekonomi utama dari Kepulauan Maluku?", "a": "Kepulauan Maluku dikenal sebagai 'Kepulauan Rempah' karena sejarahnya menghasilkan rempah-rempah berharga seperti pala, cengkeh, dan fuli. Saat ini ekonomi Maluku bergantung pada perikanan, pariwisata bahari, dan pertanian. Potensi geothermal dan mineral juga sedang dikembangkan untuk energi terbarukan."},
+    {"q": "Wilayah mana di Indonesia yang memiliki iklim paling basah sepanjang tahun?", "a": "Papua memiliki iklim paling basah dan lembab sepanjang tahun dengan rata-rata curah hujan mencapai 3.000-4.000 mm per tahun. Daerah Jayapura, Sentani, dan sekitarnya mengalami hujan sepanjang tahun dengan kelembaban udara sekitar 80-90%. Hutan hujan tropis mendominasi lanskap dengan keanekaragaman hayati yang paling tinggi."},
+    {"q": "Apa yang dimaksud dengan Garis Wallace dan dampaknya terhadap keanekaragaman flora-fauna Indonesia?", "a": "Garis Wallace adalah garis imajiner yang memisahkan fauna Asiatis (barat) dari fauna Australis (timur) di Indonesia. Garis ini melalui seberang Selat Makassar antara Borneo dan Sulawesi. Kawasan transisi ini disebut Wallacea memiliki spesies unik yang merupakan perpaduan dari kedua fauna, menjadikan Indonesia sebagai pusat keanekaragaman hayati global yang istimewa."},
+    {"q": "Bagaimana peran Selat Malaka dalam ekonomi global dan keamanan maritim Indonesia?", "a": "Selat Malaka adalah salah satu jalur laut paling sibuk di dunia dengan 25-30% perdagangan maritim global melewatinya. Selat ini menghubungkan Samudra Hindia dan Samudra Pasifik. Bagi Indonesia, Selat Malaka sangat strategis karena berada di wilayah Sumatera Barat dan menjadi pintu masuk utama perdagangan regional. Keamanan maritim dan pengendalian lalu lintas kapal menjadi prioritas pemerintah."},
+    {"q": "Apa karakteristik geografis dan ekonomi daerah Sumba?", "a": "Sumba adalah pulau di Nusa Tenggara yang terkenal dengan iklim semi-arid, padang rumput yang luas, dan budaya lokal yang kuat. Ekonomi Sumba bergantung pada peternakan (sapi, kuda, ayam), pertanian musiman, dan pariwisata. Sumba juga terkenal dengan tenun tradisional (Sumba ikat) yang merupakan produk kerajinan bernilai tinggi yang diekspor ke pasar internasional."},
+    {"q": "Apa kekhususan geologis dan potensi energi terbarukan di daerah vulkanik Indonesia?", "a": "Daerah vulkanik Indonesia, terutama di Jawa dan Sumatera, memiliki potensi geothermal yang sangat besar. Indonesia memiliki 40% cadangan geothermal dunia. Pulau Jawa saja memiliki 130 gunung api, beberapa di antaranya aktif seperti Merapi, Semeru, dan Krakatau. Geothermal dimanfaatkan untuk pembangkit listrik (PLTP) di beberapa lokasi seperti Kamojang dan Dieng, mendukung transisi energi terbarukan Indonesia."},
+    {"q": "Bagaimana distribusi pertanian dan komoditas unggulan di berbagai wilayah Indonesia?", "a": "Jawa dikenal sebagai penghasil padi terbesar. Sumatera menghasilkan kopi, kelapa sawit, dan karet. Sulawesi terkenal dengan coklat, vanili, dan komoditas perkebunan. Kalimantan adalah produsen batu bara dan kayu. Nusa Tenggara menghasilkan jagung dan kacang-kacangan. Papua memproduksi minyak dan gas. Distribusi ini terkait dengan kondisi iklim, tanah, dan topografi masing-masing wilayah."},
+    {"q": "Apa saja zona agroklimat yang ada di Indonesia dan karakteristiknya?", "a": "Indonesia memiliki beberapa zona agroklimat: (1) Basah tropis (Papua, Kalimantan barat) dengan curah hujan >3000 mm/tahun untuk pertanian tanaman perennial; (2) Sedang tropis (Jawa, Sumatera bagian tengah) untuk padi dan sayuran; (3) Kering tropis (Nusa Tenggara) untuk jagung, kacang, dan hewan ternak. Zona-zona ini menentukan jenis tanaman yang dapat dibudidayakan dan produktivitas pertanian di setiap daerah."},
+    {"q": "Bagaimana karakteristik geografis Kepulauan Mentawai dan potensi ekoturisme-nya?", "a": "Kepulauan Mentawai terletak di barat Sumatera dengan topografi berbukit berhutan dan pantai yang indah. Kawasan ini memiliki hutan hujan tropis yang kaya dengan spesies endemik, termasuk primata seperti simakobu dan joja. Mentawai juga terkenal sebagai surga selancar dunia dengan gelombang berkualitas tinggi. Potensi ekoturisme dan konservasi menjadi fokus pengembangan berkelanjutan di wilayah ini."},
+    {"q": "Apa peran Jalur Poros Maritim Dunia (JPPD) bagi ekonomi dan geopolitik Indonesia?", "a": "Program Poros Maritim Dunia (saat ini Poros Maritim) bertujuan untuk memperkuat posisi Indonesia sebagai negara maritim. Strategi ini melibatkan pengembangan infrastruktur pelabuhan (Jakarta, Surabaya, Makassar, Bitung), penguatan armada, dan pengamanan wilayah laut. JPPD menghubungkan tiga samudra: Hindia, Pasifik, dan Arktik, menjadikan Indonesia sebagai jembatan perdagangan dan investasi global."},
+    {"q": "Apa keunikan ekosistem mangrove Indonesia dan pentingnya bagi komunitas lokal?", "a": "Indonesia memiliki hutan mangrove terluas di dunia mencakup sekitar 3,5 juta hektar. Mangrove ditemukan di pantai barat Sumatera, Kalimantan, Sulawesi, dan Papua. Ekosistem mangrove penting sebagai: (1) nursery untuk ikan dan udang komersial; (2) penyerap karbon; (3) perlindungan dari bencana tsunami; (4) sumber mata pencaharian masyarakat lokal melalui perikanan dan pariwisata. Konservasi mangrove menjadi prioritas untuk keberlanjutan ekonomi pesisir."},
+    {"q": "Bagaimana pola aliran sungai-sungai besar Indonesia dan pemanfaatannya?", "a": "Sungai-sungai besar Indonesia mengalir dengan pola radial menuju laut. Sungai Kapuas (Kalimantan Barat, 1.143 km) adalah yang terpanjang, diikuti Sungai Mahakam (Kalimantan Timur), Musi (Sumatera Selatan), dan Bengawan Solo (Jawa). Sungai-sungai ini dimanfaatkan untuk: transportasi, sumber air minum, irigasi pertanian, pembangkit listrik tenaga air (PLTA), dan perikanan. Banjir musiman menjadi tantangan yang perlu dikelola dengan baik."},
+    {"q": "Apa karakteristik geografis dan sumber daya laut dari kawasan Segitiga Terumbu Karang (Coral Triangle)?", "a": "Segitiga Terumbu Karang adalah kawasan laut di pusat kepulauan Indonesia (Sulawesi, Maluku, Papua) yang memiliki keanekaragaman terumbu karang dan kehidupan laut tertinggi di dunia. Kawasan ini menghasilkan 'bibit' ikan untuk ekosistem laut sekitarnya. Sumber daya ikan dan pariwisata bahari sangat besar, tetapi juga menghadapi ancaman penangkapan ikan berlebih, perubahan iklim, dan kerusakan terumbu karang. Konservasi laut menjadi kunci keberlanjutan."},
+    {"q": "Bagaimana pengaruh topografi pulau-pulau besar terhadap pola curah hujan dan kesuburan tanah?", "a": "Topografi berpengaruh besar pada distribusi hujan melalui efek orografis. Pulau-pulau besar dengan pegunungan tinggi (Papua, Jawa, Sumatera) memiliki sisi menghadap angin yang sangat basah, sementara sisi leeward lebih kering. Tanah di daerah basah lebih subur karena weathering intensif tetapi rentan erosi, sementara tanah di daerah kering lebih padat dengan kadar organik lebih rendah. Perbedaan ini menentukan jenis pertanian, vegetasi, dan keanekaragaman hayati di setiap wilayah."},
+    {"q": "Apa peran geopolitik Selat Sunda dalam konteks keamanan maritim Indonesia?", "a": "Selat Sunda menghubungkan Samudra Hindia dan Laut Jawa, terletak antara Pulau Jawa dan Sumatera. Selat ini merupakan rute pelayaran internasional yang penting dengan lalu lintas kapal yang padat. Selat Sunda juga memiliki nilai strategis karena dekat dengan Jakarta dan menjadi pintu masuk utama perdagangan ke wilayah barat Indonesia. Pengawasan dan keamanan maritim di selat ini menjadi prioritas untuk mencegah penyelundupan dan perompakan laut."},
+    {"q": "Bagaimana karakteristik iklim dan keunikan keanekaragaman hayati Sulawesi?", "a": "Sulawesi memiliki iklim tropis dengan curah hujan 2.000-3.500 mm per tahun tergantung lokasi. Pulau ini terletak di zona Wallacea dengan fauna transisional antara Asiatis dan Australis. Sulawesi adalah surga endemik dengan 95% fauna darat yang tidak ditemukan di tempat lain, termasuk anoa, babirusa, tangkasi, dan macam-macam burung unik. Keunikan ini menjadikan Sulawesi sebagai kawasan prioritas konservasi dunia dan destinasi ekoturisme."},
+  {
+    "q": "Kota apa yang dilalui garis khatulistiwa di Indonesia?",
+    "a": "Kota Pontianak di Kalimantan Barat adalah kota yang dilalui langsung oleh garis khatulistiwa. Monumen Khatulistiwa di kota ini menjadi simbol geografis penting dan menarik wisatawan untuk mengunjunginya sebagai landmark ikonik yang menandai garis lintang 0 derajat."
+  },
+  {
+    "q": "Berapa total luas kepulauan Indonesia termasuk lautan teritorial?",
+    "a": "Total luas kepulauan Indonesia mencapai 1.916.862 km² dengan luas daratan sekitar 1.904.443 km². Indonesia memiliki 17.499 pulau yang tersebar dari Sabang hingga Merauke, menjadikannya negara kepulauan terbesar di dunia dengan perairan yang menempati lebih dari 60% wilayahnya."
+  },
+  {
+    "q": "Apa nama danau terdalam di Indonesia dan berapa kedalaman maksimalnya?",
+    "a": "Danau Matano di Sulawesi Selatan adalah danau terdalam di Indonesia dengan kedalaman maksimal mencapai 590 meter. Danau ini merupakan danau tertua di Indonesia berusia sekitar 20 juta tahun dan memiliki keanekaragaman hayati unik dengan ikan air tawar endemik yang tidak ditemukan di tempat lain."
+  },
+  {
+    "q": "Apa nama palung lautan terdalam di Indonesia?",
+    "a": "Palung Jawa (Java Trench) adalah palung lautan terdalam di Indonesia dengan kedalaman mencapai 7.450 meter. Palung ini terletak di sebelah utara Pulau Jawa dan merupakan zona subduksi aktif yang mengindikasikan pertemuan lempeng tektonik Indo-Australia dengan Lempeng Eurasia."
+  },
+  {
+    "q": "Danau luas permukaan terbesar kedua di Indonesia setelah Danau Toba adalah danau mana?",
+    "a": "Danau Sentani di Papua adalah danau dengan luas permukaan terbesar kedua di Indonesia mencapai 1.634 km². Danau ini terkenal dengan keindahannya yang dikelilingi pulau-pulau kecil dan pegunungan. Danau Sentani kaya akan keanekaragaman ikan air tawar endemik dan memiliki nilai ekonomi penting bagi masyarakat lokal Papua."
+  },
+  {
+    "q": "Di mana letak astronomis Indonesia?",
+    "a": "Indonesia terletak pada posisi astronomis 6°LU–11°LS dan 95°BT–141°BT. Posisi ini menjadikan Indonesia berada di wilayah tropis yang diapit oleh dua benua (Asia dan Australia) serta dua samudra (Hindia dan Pasifik)."
+  },
+  {
+    "q": "Apa nama gunung berapi yang meletus dahsyat pada tahun 1883 di Selat Sunda?",
+    "a": "Gunung Krakatau adalah gunung berapi yang meletus dahsyat pada tahun 1883 di Selat Sunda. Letusannya terdengar hingga ribuan kilometer dan menyebabkan tsunami besar. Kini, Anak Krakatau tumbuh di lokasi yang sama sebagai gunung berapi aktif."
+  },
+  {
+    "q": "Di mana letak Gunung Bromo dan apa keistimewaannya?",
+    "a": "Gunung Bromo terletak di Taman Nasional Bromo Tengger Semeru, Jawa Timur. Gunung ini terkenal dengan kaldera pasir luas (Lautan Pasir) dan pemandangan matahari terbit yang spektakuler, menjadikannya salah satu destinasi wisata alam terpopuler di Indonesia."
+  },
+  {
+    "q": "Apa nama selat yang memisahkan Pulau Lombok dan Pulau Bali?",
+    "a": "Selat Lombok memisahkan Pulau Bali dan Pulau Lombok. Selat ini juga dikenal sebagai salah satu jalur pelayaran internasional alternatif pengganti Selat Malaka dan merupakan bagian dari Garis Wallace yang memisahkan fauna Asiatis dan Australis."
+  },
+  {
+    "q": "Apa nama selat yang memisahkan Pulau Kalimantan dan Pulau Sulawesi?",
+    "a": "Selat Makassar memisahkan Pulau Kalimantan dan Pulau Sulawesi. Selat ini merupakan jalur pelayaran penting yang menghubungkan Laut Jawa dengan Laut Sulawesi dan menjadi salah satu Alur Laut Kepulauan Indonesia (ALKI)."
+  },
+  {
+    "q": "Di mana letak Laut Banda dan apa keunikannya?",
+    "a": "Laut Banda terletak di wilayah Maluku, Indonesia bagian timur. Laut ini terkenal dengan kedalamannya yang mencapai lebih dari 7.000 meter dan kekayaan biota laut yang luar biasa, menjadikannya salah satu spot diving terbaik di dunia."
+  },
+  {
+    "q": "Apa nama laut yang terletak di antara Papua dan Australia?",
+    "a": "Laut Arafura terletak di antara Papua (Indonesia) dan Australia bagian utara. Laut dangkal ini kaya akan sumber daya perikanan, terutama udang dan ikan demersal, yang menjadi sumber penghidupan nelayan Papua dan Maluku."
+  },
+  {
+    "q": "Provinsi mana yang memiliki wilayah terluas di Indonesia?",
+    "a": "Papua Selatan merupakan salah satu provinsi terluas di Indonesia setelah pemekaran. Sebelum pemekaran, Provinsi Papua adalah yang terluas dengan luas sekitar 319.036 km², mencakup hutan hujan tropis, pegunungan tinggi, dan dataran rendah berawa."
+  },
+  {
+    "q": "Apa nama ibu kota baru Indonesia yang sedang dibangun di Kalimantan Timur?",
+    "a": "Ibu Kota Nusantara (IKN) adalah ibu kota baru Indonesia yang sedang dibangun di Kabupaten Penajam Paser Utara dan sebagian Kutai Kartanegara, Kalimantan Timur. Pemindahan ibu kota ini bertujuan untuk pemerataan pembangunan dan mengurangi beban Jakarta."
+  },
+  {
+    "q": "Di mana letak Taman Nasional Lorentz dan mengapa penting secara global?",
+    "a": "Taman Nasional Lorentz terletak di Papua dan merupakan taman nasional terluas di Asia Tenggara dengan luas 2,5 juta hektar. Taman nasional ini menjadi Situs Warisan Dunia UNESCO karena memiliki ekosistem lengkap dari pantai hingga gletser di Puncak Jaya."
+  },
+  {
+    "q": "Apa yang dilindungi di Taman Nasional Ujung Kulon?",
+    "a": "Taman Nasional Ujung Kulon di Banten melindungi habitat badak Jawa (Rhinoceros sondaicus), salah satu mamalia paling langka di dunia. Taman nasional ini juga merupakan Situs Warisan Dunia UNESCO dan menyimpan hutan hujan dataran rendah terakhir di Pulau Jawa."
+  },
+  {
+    "q": "Hewan apa yang menjadi ikon Taman Nasional Way Kambas?",
+    "a": "Taman Nasional Way Kambas di Lampung terkenal sebagai pusat konservasi gajah Sumatera. Di taman nasional ini terdapat Pusat Latihan Gajah dan Suaka Rhino Sumatera yang berperan penting dalam pelestarian satwa langka Indonesia."
+  },
+  {
+    "q": "Apa yang membuat Taman Nasional Gunung Leuser istimewa?",
+    "a": "Taman Nasional Gunung Leuser di Aceh dan Sumatera Utara merupakan bagian dari Warisan Hutan Hujan Tropis Sumatera (UNESCO). Taman nasional ini menjadi habitat penting bagi empat spesies langka sekaligus: orangutan Sumatera, harimau Sumatera, badak Sumatera, dan gajah Sumatera."
+  },
+  {
+    "q": "Di mana Taman Nasional Tanjung Puting berada dan apa fungsinya?",
+    "a": "Taman Nasional Tanjung Puting terletak di Kalimantan Tengah dan merupakan pusat rehabilitasi orangutan Kalimantan terbesar di dunia. Camp Leakey di dalam taman nasional ini didirikan oleh Dr. Biruté Galdikas untuk penelitian dan konservasi orangutan."
+  },
+  {
+    "q": "Apa keunggulan wisata bahari Taman Nasional Bunaken?",
+    "a": "Taman Nasional Bunaken di Sulawesi Utara memiliki ekosistem terumbu karang yang sangat kaya dengan lebih dari 390 spesies karang. Perairan Bunaken menjadi habitat bagi ribuan spesies ikan tropis dan merupakan salah satu destinasi selam (diving) terbaik di dunia."
+  },
+  {
+    "q": "Apa perbedaan antara Bunga Rafflesia dan Bunga Bangkai?",
+    "a": "Bunga Rafflesia (Rafflesia arnoldii) adalah bunga tunggal terbesar di dunia yang ditemukan di Sumatera dan Kalimantan. Sedangkan Bunga Bangkai (Amorphophallus titanum) memiliki bunga majemuk tertinggi di dunia dan juga berasal dari Sumatera. Keduanya mengeluarkan bau busuk untuk menarik serangga penyerbuk."
+  },
+  {
+    "q": "Berapa perkiraan jumlah populasi badak Jawa yang tersisa saat ini?",
+    "a": "Populasi badak Jawa diperkirakan hanya tersisa sekitar 70-80 ekor dan semuanya hidup di Taman Nasional Ujung Kulon, Banten. Badak Jawa merupakan salah satu mamalia paling langka di dunia dan menjadi prioritas utama konservasi satwa liar Indonesia."
+  },
+  {
+    "q": "Di mana habitat asli harimau Sumatera dan mengapa terancam punah?",
+    "a": "Harimau Sumatera (Panthera tigris sumatrae) hanya ditemukan di Pulau Sumatera dengan populasi diperkirakan kurang dari 400 ekor. Spesies ini terancam punah akibat perambahan hutan untuk perkebunan kelapa sawit, perburuan liar, dan konflik dengan manusia."
+  },
+  {
+    "q": "Burung Cendrawasih banyak ditemukan di wilayah mana?",
+    "a": "Burung Cendrawasih atau Bird of Paradise terutama ditemukan di Papua dan kepulauan sekitarnya. Terdapat sekitar 30 spesies Cendrawasih di Indonesia, dengan bulu-bulu indah yang menjadikannya simbol keindahan alam Papua dan ikon fauna Indonesia timur."
+  },
+  {
+    "q": "Apa perbedaan antara Garis Wallace dan Garis Weber?",
+    "a": "Garis Wallace memisahkan fauna Asiatis (barat) dan zona transisi Wallacea, sedangkan Garis Weber memisahkan zona Wallacea dan fauna Australis (timur). Garis Weber melewati antara Maluku dan Sulawesi ke arah timur, menandai batas di mana fauna mulai didominasi oleh spesies tipe Australia."
+  },
+  {
+    "q": "Di mana titik paling barat wilayah Indonesia?",
+    "a": "Titik paling barat Indonesia adalah Pulau Weh di Sabang, Aceh, yang terletak pada koordinat sekitar 95°13' BT. Pulau ini juga terkenal dengan Tugu Nol Kilometer Indonesia yang menjadi landmark ikonik."
+  },
+  {
+    "q": "Di mana titik paling timur wilayah Indonesia?",
+    "a": "Titik paling timur Indonesia berada di Merauke, Papua, tepatnya di sekitar perbatasan dengan Papua Nugini pada koordinat sekitar 141°01' BT. Jarak dari Sabang di ujung barat hingga Merauke di ujung timur mencapai sekitar 5.120 kilometer."
+  },
+  {
+    "q": "Negara apa saja yang berbatasan darat dengan Indonesia?",
+    "a": "Indonesia berbatasan darat dengan tiga negara: Malaysia (di Pulau Kalimantan), Papua Nugini (di Pulau Papua), dan Timor Leste (di Pulau Timor). Selain itu, Indonesia juga berbatasan laut dengan beberapa negara seperti Australia, Filipina, India, Thailand, Vietnam, Singapura, dan Palau."
+  },
+  {
+    "q": "Apa nama pegunungan yang membentang di sepanjang Pulau Sumatera?",
+    "a": "Pegunungan Bukit Barisan membentang sepanjang sekitar 1.700 km di sisi barat Pulau Sumatera, dari Aceh hingga Lampung. Pegunungan ini memiliki banyak gunung berapi aktif seperti Gunung Kerinci, Gunung Sinabung, dan Gunung Marapi."
+  },
+  {
+    "q": "Apa nama pegunungan tertinggi di Papua yang memiliki salju abadi?",
+    "a": "Pegunungan Jayawijaya di Papua merupakan pegunungan tertinggi di Indonesia dengan puncak tertingginya yakni Puncak Jaya (4.884 m). Meskipun berada di kawasan tropis, pegunungan ini sempat memiliki gletser yang kini menyusut akibat perubahan iklim global."
+  },
+  {
+    "q": "Di mana letak Dataran Tinggi Dieng dan apa keunikannya?",
+    "a": "Dataran Tinggi Dieng terletak di perbatasan Kabupaten Wonosobo dan Banjarnegara, Jawa Tengah, pada ketinggian sekitar 2.000 mdpl. Kawasan ini terkenal dengan fenomena alam seperti kawah vulkanik aktif, telaga warna, candi-candi Hindu kuno, dan suhu dingin yang bisa mencapai 0°C."
+  },
+  {
+    "q": "Di mana Lembah Baliem berada dan siapa penduduk aslinya?",
+    "a": "Lembah Baliem terletak di Pegunungan Jayawijaya, Papua, pada ketinggian sekitar 1.600 mdpl. Lembah ini dihuni oleh Suku Dani yang terkenal dengan budaya tradisional mereka, termasuk festival Lembah Baliem yang menampilkan perang-perangan adat."
+  },
+  {
+    "q": "Gunung berapi aktif apa yang menjadi simbol spiritual masyarakat Bali?",
+    "a": "Gunung Agung dengan ketinggian 3.142 meter adalah gunung tertinggi di Bali dan dianggap sebagai gunung suci oleh masyarakat Hindu Bali. Pura Besakih, pura terbesar di Bali, terletak di lereng gunung ini. Gunung Agung terakhir meletus besar pada tahun 2017-2019."
+  },
+  {
+    "q": "Apa keunikan Kawah Ijen di Jawa Timur?",
+    "a": "Kawah Ijen di Banyuwangi, Jawa Timur, terkenal dengan fenomena api biru (blue fire) yang sangat langka di dunia. Kawah ini juga memiliki danau asam terbesar di dunia dan menjadi lokasi penambangan belerang tradisional oleh para penambang lokal."
+  },
+  {
+    "q": "Apa dampak letusan Gunung Tambora tahun 1815?",
+    "a": "Letusan Gunung Tambora di Sumbawa, Nusa Tenggara Barat, pada tahun 1815 merupakan letusan gunung berapi terbesar dalam sejarah modern. Letusan ini menyebabkan 'Tahun Tanpa Musim Panas' di Eropa dan Amerika pada 1816 akibat abu vulkanik yang menghalangi sinar matahari."
+  },
+  {
+    "q": "Gunung berapi tertinggi di Sumatera adalah gunung apa?",
+    "a": "Gunung Kerinci dengan ketinggian 3.805 meter adalah gunung berapi tertinggi di Sumatera dan tertinggi kedua di Indonesia setelah Semeru. Gunung ini terletak di perbatasan Jambi dan Sumatera Barat, di dalam Taman Nasional Kerinci Seblat."
+  },
+  {
+    "q": "Apa fungsi ekonomi Sungai Mahakam bagi masyarakat Kalimantan Timur?",
+    "a": "Sungai Mahakam sepanjang sekitar 920 km merupakan sungai terpanjang di Kalimantan Timur. Sungai ini berfungsi sebagai jalur transportasi utama, sumber air bersih, dan area perikanan. Delta Mahakam juga merupakan kawasan penghasil minyak dan gas bumi penting."
+  },
+  {
+    "q": "Sungai apa yang menjadi sungai terpanjang di Pulau Jawa?",
+    "a": "Bengawan Solo adalah sungai terpanjang di Pulau Jawa dengan panjang sekitar 600 km. Sungai ini mengalir dari Wonogiri, Jawa Tengah, melewati beberapa kabupaten di Jawa Timur, dan bermuara di Laut Jawa. Bengawan Solo juga memiliki nilai historis dan budaya yang penting."
+  },
+  {
+    "q": "Apa masalah lingkungan utama yang dihadapi Sungai Citarum?",
+    "a": "Sungai Citarum di Jawa Barat pernah dinobatkan sebagai sungai paling tercemar di dunia. Pencemaran berasal dari limbah industri tekstil, sampah rumah tangga, dan pertanian. Pemerintah meluncurkan program Citarum Harum untuk memulihkan kualitas air sungai sepanjang 269 km ini."
+  },
+  {
+    "q": "Sungai apa yang membelah Kota Palembang?",
+    "a": "Sungai Musi membelah Kota Palembang menjadi dua bagian: Seberang Ulu dan Seberang Ilir. Sungai sepanjang sekitar 750 km ini dihubungkan oleh Jembatan Ampera yang menjadi ikon kota. Sungai Musi juga merupakan jalur transportasi dan perdagangan penting di Sumatera Selatan."
+  },
+  {
+    "q": "Berapa jumlah pulau yang dimiliki Indonesia menurut data terbaru?",
+    "a": "Berdasarkan data Badan Informasi Geospasial (BIG), Indonesia memiliki 17.504 pulau yang telah terverifikasi dan terdaftar di PBB. Dari jumlah tersebut, sekitar 6.000 pulau berpenghuni, sementara sisanya merupakan pulau-pulau kecil yang tidak berpenghuni."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Aceh?",
+    "a": "Ibu kota Provinsi Aceh adalah Banda Aceh. Kota ini terletak di ujung utara Pulau Sumatera dan pernah mengalami kehancuran akibat tsunami pada tahun 2004. Kini Banda Aceh telah dibangun kembali dengan Museum Tsunami sebagai pengingat bencana tersebut."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Lampung?",
+    "a": "Ibu kota Provinsi Lampung adalah Bandar Lampung. Kota ini terletak di ujung selatan Pulau Sumatera dan merupakan gerbang utama penyeberangan dari Jawa ke Sumatera melalui Pelabuhan Bakauheni di Selat Sunda."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Kalimantan Selatan?",
+    "a": "Ibu kota Provinsi Kalimantan Selatan adalah Banjarbaru, yang resmi menggantikan Banjarmasin sebagai ibu kota provinsi. Banjarmasin sendiri tetap menjadi kota terbesar di provinsi ini dan dikenal sebagai Kota Seribu Sungai."
+  },
+  {
+    "q": "Kepulauan Seribu termasuk dalam wilayah administrasi mana?",
+    "a": "Kepulauan Seribu merupakan kabupaten administrasi yang termasuk wilayah DKI Jakarta. Meskipun namanya Seribu, kepulauan ini terdiri dari sekitar 110 pulau yang tersebar di Laut Jawa bagian utara Jakarta, dengan beberapa pulau menjadi destinasi wisata bahari populer."
+  },
+  {
+    "q": "Di mana letak Teluk Cenderawasih dan apa keistimewaannya?",
+    "a": "Teluk Cenderawasih terletak di pantai utara Papua dan merupakan taman nasional laut terbesar di Indonesia dengan luas sekitar 1,4 juta hektar. Teluk ini terkenal sebagai tempat berenang bersama hiu paus (whale shark) yang jinak dan menjadi destinasi wisata bahari kelas dunia."
+  },
+  {
+    "q": "Apa nama taman nasional di Jawa Timur yang memiliki ekosistem savana?",
+    "a": "Taman Nasional Baluran di Situbondo, Jawa Timur, dijuluki 'Little Africa in Java' karena memiliki ekosistem savana yang luas. Di taman nasional ini hidup banteng, rusa, kerbau liar, dan berbagai jenis burung dalam lanskap padang rumput dengan latar belakang Gunung Baluran."
+  },
+  {
+    "q": "Apa itu Cincin Api Pasifik dan bagaimana kaitannya dengan Indonesia?",
+    "a": "Cincin Api Pasifik (Ring of Fire) adalah zona aktivitas seismik dan vulkanik yang membentang sepanjang tepi Samudra Pasifik. Indonesia terletak di bagian barat Cincin Api ini, sehingga memiliki sekitar 127 gunung berapi aktif dan sering mengalami gempa bumi serta tsunami."
+  },
+  {
+    "q": "Apa perbedaan waktu antara WIB, WITA, dan WIT?",
+    "a": "WIB (Waktu Indonesia Barat) adalah UTC+7, WITA (Waktu Indonesia Tengah) adalah UTC+8, dan WIT (Waktu Indonesia Timur) adalah UTC+9. Perbedaan waktu antar zona adalah satu jam. WIB mencakup Sumatera dan Jawa, WITA mencakup Kalimantan dan Sulawesi, sedangkan WIT mencakup Maluku dan Papua."
+  },
+  {
+    "q": "Mengapa Indonesia disebut sebagai negara maritim?",
+    "a": "Indonesia disebut negara maritim karena sekitar dua pertiga wilayahnya berupa lautan dengan luas perairan mencapai 6,4 juta km². Indonesia memiliki garis pantai terpanjang kedua di dunia setelah Kanada, yaitu sekitar 108.000 km, serta kekayaan sumber daya laut yang sangat melimpah."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Zona Ekonomi Eksklusif (ZEE) Indonesia?",
+    "a": "Zona Ekonomi Eksklusif Indonesia adalah wilayah laut sejauh 200 mil laut dari garis pantai di mana Indonesia memiliki hak eksklusif untuk mengelola sumber daya alam. ZEE Indonesia mencakup area seluas sekitar 2,7 juta km² yang kaya akan sumber daya perikanan dan mineral."
+  },
+  {
+    "q": "Pulau Nias terletak di sebelah mana Pulau Sumatera?",
+    "a": "Pulau Nias terletak di sebelah barat Pulau Sumatera, di Samudra Hindia, dan masuk wilayah Provinsi Sumatera Utara. Pulau ini terkenal dengan budaya megalitik tradisional, lompat batu (fahombo), dan ombak besar di Pantai Sorake yang menarik peselancar internasional."
+  },
+  {
+    "q": "Apa nama gunung berapi yang paling aktif di Sumatera Utara saat ini?",
+    "a": "Gunung Sinabung di Kabupaten Karo, Sumatera Utara, adalah gunung berapi yang sangat aktif setelah kembali meletus pada tahun 2010 setelah dormant selama sekitar 400 tahun. Erupsi berulang sejak saat itu menyebabkan ribuan warga harus mengungsi dari zona bahaya."
+  },
+  {
+    "q": "Apa keunikan Danau Kelimutu di Flores?",
+    "a": "Danau Kelimutu di Flores, Nusa Tenggara Timur, memiliki tiga danau kawah yang masing-masing berwarna berbeda dan dapat berubah warna secara berkala. Perubahan warna disebabkan oleh reaksi kimia mineral vulkanik di dasar danau. Danau ini dianggap sakral oleh masyarakat setempat."
+  },
+  {
+    "q": "Di mana letak Taman Nasional Wakatobi dan apa keunggulannya?",
+    "a": "Taman Nasional Wakatobi terletak di Sulawesi Tenggara, mencakup empat pulau utama: Wangi-Wangi, Kaledupa, Tomia, dan Binongko. Wakatobi merupakan Cagar Biosfer UNESCO dan memiliki salah satu keanekaragaman terumbu karang tertinggi di dunia dengan lebih dari 750 spesies karang."
+  },
+  {
+    "q": "Apa nama dataran rendah terluas di Indonesia?",
+    "a": "Dataran rendah terluas di Indonesia berada di pesisir timur Sumatera dan selatan Kalimantan, serta dataran rendah Papua bagian selatan. Dataran rendah Papua selatan yang berawa-rawa merupakan salah satu lahan basah terluas di dunia dan menjadi habitat penting bagi berbagai spesies burung dan mamalia."
+  },
+  {
+    "q": "Apa nama gunung berapi bawah laut yang terkenal di Indonesia?",
+    "a": "Gunung api bawah laut Banua Wuhu terletak di perairan Kepulauan Sangihe, Sulawesi Utara. Gunung ini berada pada kedalaman sekitar 5 meter di bawah permukaan laut dan mengeluarkan gelembung gas vulkanik yang bisa terlihat dari permukaan, menjadi atraksi unik bagi penyelam."
+  },
+  {
+    "q": "Bagaimana pengaruh fenomena El Niño terhadap iklim Indonesia?",
+    "a": "El Niño menyebabkan musim kemarau di Indonesia menjadi lebih panjang dan kering dari biasanya. Dampaknya meliputi kekeringan parah, gagal panen, kebakaran hutan terutama di Sumatera dan Kalimantan, serta penurunan produksi pertanian. Fenomena ini terjadi akibat pemanasan suhu permukaan laut di Samudra Pasifik."
+  },
+  {
+    "q": "Provinsi mana saja yang berada di Pulau Sulawesi?",
+    "a": "Pulau Sulawesi terdiri dari enam provinsi: Sulawesi Utara (Manado), Gorontalo (Gorontalo), Sulawesi Tengah (Palu), Sulawesi Barat (Mamuju), Sulawesi Selatan (Makassar), dan Sulawesi Tenggara (Kendari). Pulau ini memiliki bentuk unik menyerupai huruf K."
+  },
+  {
+    "q": "Apa nama taman laut terbesar di Indonesia?",
+    "a": "Taman Nasional Laut Teluk Cenderawasih di Papua adalah taman laut terbesar di Indonesia dengan luas sekitar 1,4 juta hektar. Kawasan ini meliputi perairan laut, pulau-pulau kecil, dan ekosistem pesisir yang kaya akan keanekaragaman hayati laut tropis."
+  },
+  {
+    "q": "Apa yang membuat Candi Borobudur menjadi destinasi wisata utama?",
+    "a": "Candi Borobudur adalah monumen Buddhist terbesar di dunia yang terletak di Jawa Tengah. Keunikannya terletak pada arsitektur yang megah dengan lebih dari 500 patung Buddha, relief bercerita yang menggambarkan kehidupan Buddha, serta pemandangan alam yang spektakuler terutama saat matahari terbit."
+  },
+  {
+    "q": "Mengapa Gunung Bromo terkenal di kalangan wisatawan?",
+    "a": "Gunung Bromo di Jawa Timur terkenal karena keindahan alamnya yang unik dengan pemandangan lautan pasir, kawah belerang yang aktif, dan keindahan sunrise yang spektakuler. Area ini adalah bagian dari Taman Nasional Bromo Tengger Semeru yang menarik ribuan wisatawan setiap tahun."
+  },
+  {
+    "q": "Sebutkan pulau-pulau wisata terkenal di sekitar Lombok!",
+    "a": "Pulau-pulau wisata terkenal di sekitar Lombok adalah Gili Trawangan, Gili Meno, dan Gili Air. Ketiga pulau Gili ini terkenal dengan pantai pasir putih, air laut yang jernih, terumbu karang yang indah, dan kehidupan laut yang kaya, menjadi destinasi menyelam dan snorkeling terbaik."
+  },
+  {
+    "q": "Apa keunikan geografis Taman Nasional Komodo?",
+    "a": "Taman Nasional Komodo terletak di Nusa Tenggara Timur dan merupakan habitat alami komodo, spesies naga terbesar di dunia. Keunikan geografisnya meliputi lanskap badlands yang ekstrim, pantai pasir merah dan putih yang langka, serta keanekaragaman hayati laut yang luar biasa."
+  },
+  {
+    "q": "Apa fenomena alam unik di Danau Kelimutu?",
+    "a": "Danau Kelimutu di Flores, Nusa Tenggara Timur terkenal karena memiliki tiga danau kawah dengan warna air yang berbeda-beda. Warna-warna ini berubah secara berkala dari biru, merah, hingga hijau berdasarkan aktivitas vulkanik dan komposisi mineral dalam air, menjadikannya destinasi wisata geografis yang unik."
+  },
+  {
+    "q": "Apa yang istimewa tentang Pulau Rinca dalam konteks pariwisata?",
+    "a": "Pulau Rinca adalah bagian dari Taman Nasional Komodo yang terkenal sebagai tempat penelitian dan pengamatan komodo. Pulau ini menawarkan pengalaman safari darat unik di mana wisatawan dapat melihat komodo dalam habitat alami mereka, didampingi oleh pemandu berpengalaman."
+  },
+  {
+    "q": "Mengapa Taman Nasional Wakatobi menjadi destinasi wisata bahari penting?",
+    "a": "Taman Nasional Wakatobi di Sulawesi Tenggara adalah salah satu destinasi menyelam terbaik di dunia. Kawasan ini memiliki terumbu karang yang spektakuler, keanekaragaman hayati laut tertinggi di Indonesia dengan lebih dari 750 spesies ikan dan 350 spesies karang, serta ekosistem laut yang masih sangat asri."
+  },
+  {
+    "q": "Apa keistimewaan geografis Pantai Tanah Lot di Bali?",
+    "a": "Pantai Tanah Lot di Bali terkenal karena adanya candi Hindu yang dibangun di atas batu raksasa yang menjulang di tengah laut. Lokasi ini menawarkan pemandangan sunset yang sangat indah, ombak yang ideal untuk surfing, dan kombinasi unik antara budaya dan geografi yang menjadikannya destinasi wisata ikonik."
+  },
+  {
+    "q": "Apa penemuan geografis penting tentang Kepulauan Geopark Ciletuh-Palabuhanratu?",
+    "a": "Kepulauan Geopark Ciletuh-Palabuhanratu di Jawa Barat adalah situs warisan geologi dengan sejarah pembentukan batuan lebih dari 3 miliar tahun. Area ini menampilkan formasi geologi langka yang mencerminkan evolusi tektonik bumi, dengan tebing granit megah, pantai unik, dan nilai edukatif tinggi untuk penelitian geologis."
+  },
+  {
+    "q": "Apa yang menjadikan Pulau Banda sebagai lokasi penting secara geografis dan historis?",
+    "a": "Kepulauan Banda di Maluku Utara terletak di jalur perlintasan laut penting antara Samudra Hindia dan Pasifik. Secara geografis, pulau-pulau ini memiliki bentuk vulkanik dengan sejarah letusan gunung berapi yang menarik untuk studi geologi, serta menjadi bagian dari Koridor Megabiodiversity Indonesia dengan kekayaan hayati laut yang luar biasa."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Nusa Tenggara Barat?",
+    "a": "Ibu kota Provinsi Nusa Tenggara Barat adalah Mataram, terletak di Pulau Lombok. Kota ini merupakan pusat bisnis dan administrasi untuk pulau Lombok dan sekitarnya dengan pelabuhan penting untuk perdagangan regional."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Nusa Tenggara Timur?",
+    "a": "Ibu kota Provinsi Nusa Tenggara Timur adalah Kupang, terletak di Pulau Timor. Kupang merupakan kota strategis di ujung timur Indonesia dan menjadi pintu masuk utama untuk perdagangan dengan Timor Leste dan negara-negara Pasifik."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Kalimantan Barat?",
+    "a": "Ibu kota Provinsi Kalimantan Barat adalah Pontianak. Kota ini dikenal karena dilalui oleh garis khatulistiwa dan terletak di muara Sungai Kapuas yang merupakan sungai terpanjang di Indonesia."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Kalimantan Tengah?",
+    "a": "Ibu kota Provinsi Kalimantan Tengah adalah Palangkaraya. Kota ini terletak di tepi Sungai Kahayan dan merupakan pusat administrasi wilayah tengah Pulau Kalimantan yang berdekatan dengan hutan hujan luas dan Taman Nasional Tanjung Puting."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Kalimantan Utara?",
+    "a": "Ibu kota Provinsi Kalimantan Utara adalah Tanjung Selor. Provinsi yang relatif baru ini mengelola wilayah utara Kalimantan yang kaya akan sumber daya alam seperti minyak bumi, gas, dan hasil hutan."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Sulawesi Utara?",
+    "a": "Ibu kota Provinsi Sulawesi Utara adalah Manado. Kota ini terletak di teluk yang indah dan merupakan pusat wisata bahari dengan ekosistem terumbu karang yang terkenal, serta gateway menuju taman nasional laut Bunaken."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Maluku?",
+    "a": "Ibu kota Provinsi Maluku adalah Ambon. Kota ini terletak di Pulau Ambon dan merupakan pusat administrasi 'Kepulauan Rempah' yang secara historis sangat berharga dalam perdagangan dunia."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Maluku Utara?",
+    "a": "Ibu kota Provinsi Maluku Utara adalah Ternate. Kota ini terletak di Pulau Ternate yang terkenal sebagai pusat produksi cengkeh dan memiliki sejarah panjang sebagai kesultanan berdaulat."
+  },
+  {
+    "q": "Apa nama ibu kota Provinsi Papua Barat?",
+    "a": "Ibu kota Provinsi Papua Barat adalah Manokwari. Kota ini merupakan pusat ekonomi dan administrasi wilayah barat Papua dengan pelabuhan yang penting untuk perdagangan hasil hutan dan sumber daya alam lainnya."
+  },
+  {
+    "q": "Apa karakteristik geografis wilayah Teluk Tomini?",
+    "a": "Teluk Tomini, juga dikenal sebagai Laut Tomini, adalah perairan yang mengelilingi empat provinsi di Sulawesi: Sulawesi Utara, Sulawesi Tengah, Gorontalo, dan sebagian Sulawesi Barat. Teluk ini memiliki potensi perikanan yang besar dan menjadi habitat penting bagi berbagai spesies laut termasuk lumba-lumba dan paus."
+  },
+  {
+    "q": "Apa keunikan geografis Kepulauan Flores dan wilayah sekitarnya?",
+    "a": "Kepulauan Flores di Nusa Tenggara Timur memiliki rangkaian gunung berapi yang spektakuler, terutama Gunung Inerie, Gunung Ebulobo, dan Gunung Kelimutu yang terkenal dengan danau kawah berwarna-warni. Flores juga dikenal dengan sejarah panjang budaya lokal yang kaya dan Komodo yang menjadi UNESCO World Heritage Site."
+  },
+  {
+    "q": "Apa nama sungai besar yang menjadi batas antara Indonesia dan Papua Nugini?",
+    "a": "Sungai Fly (Sungai Maro dalam bahasa Indonesia) membentuk sebagian dari perbatasan antara Indonesia (Papua) dan Papua Nugini. Sungai ini mengalir melalui dataran rendah berawa yang merupakan salah satu lahan basah terbesar di Asia Pasifik dan habitat penting bagi berbagai spesies satwa liar."
+  },
+  {
+    "q": "Apa perbedaan antara musim hujan dan musim kemarau di Indonesia secara geografis?",
+    "a": "Musim hujan (November-Maret) dibawa oleh angin muson barat laut, mengakibatkan curah hujan tinggi terutama di Jawa, Sumatera, Kalimantan barat, dan pesisir timur Sulawesi. Musim kemarau (Juni-September) dibawa oleh angin muson tenggara, mengakibatkan curah hujan rendah di wilayah tersebut, sedangkan wilayah timur Indonesia tetap basah. Perbedaan musim ini sangat mempengaruhi pola pertanian dan pola hidup masyarakat di berbagai daerah."
+  },
+  {
+    "q": "Apa nama ekosistem terumbu karang yang merupakan yang terbesar di Indonesia?",
+    "a": "Ekosistem Segitiga Terumbu Karang (Coral Triangle) di pusat Indonesia mencakup Sulawesi, Maluku, dan Papua, merupakan salah satu ekosistem terumbu karang dengan keanekaragaman tertinggi di dunia. Kawasan ini memiliki lebih 375 spesies karang dan lebih dari 2.800 spesies ikan. Ekosistem ini sangat penting untuk keseimbangan ekologi laut global dan mata pencaharian jutaan nelayan di Asia Tenggara."
+  },
+  {
+    "q": "Apa itu Garis Wallace dan mengapa penting secara geografis bagi Indonesia?",
+    "a": "Garis Wallace adalah garis imajiner yang memisahkan fauna Asia dan Australia di Kepulauan Indonesia yang diidentifikasi oleh naturalis Alfred Russell Wallace pada abad ke-19. Garis ini melewati antara Pulau Bali-Lombok, memisahkan Sulawesi dari Maluku, dan membatasi wilayah biogeografi yang berbeda dengan karakteristik unik serta keanekaragaman hayati yang berlainan.",
+    "cot": "Wallace menyadari bahwa meskipun pulau-pulau di Indonesia berdekatan secara geografis, mereka memiliki spesies yang sangat berbeda karena pemisahan laut yang dalam selama jutaan tahun. Kedalaman laut yang memisahkan pulau-pulau ini mencegah migrasi satwa liar antar pulau, sehingga komunitas biota di sisi barat (lebih dekat ke Asia) berbeda dengan sisi timur (lebih dekat ke Australia), menciptakan perbedaan ekosistem yang signifikan dan unik."
+  },
+  {
+    "q": "Bagaimana posisi Indonesia dalam Cincin Api Pasifik mempengaruhi geografinya?",
+    "a": "Indonesia berada dalam Cincin Api Pasifik (Pacific Ring of Fire) yang merupakan zona dengan aktivitas vulkanik dan seismik tinggi melingkari Laut Pasifik. Hal ini menjadikan Indonesia memiliki lebih dari 127 gunung berapi aktif dan sering mengalami gempa bumi yang membentuk dan mengubah topografi wilayahnya.",
+    "cot": "Posisi geografis Indonesia berada di pertemuan tiga lempeng tektonik utama: Lempeng Eurasia, Lempeng Indo-Australia, dan Lempeng Pasifik. Pergerakan lempeng-lempeng ini yang saling bertumbukan dan bergesekan menciptakan tensi geologis yang tinggi, menghasilkan aktivitas vulkanik dan seismik yang mengubah topografi pulau-pulau Indonesia secara berkelanjutan serta menciptakan lanskap pegunungan dan gunung berapi yang sangat beragam."
+  },
+  {
+    "q": "Berapa luas Zona Ekonomi Eksklusif Indonesia dan apa signifikansinya secara geografis?",
+    "a": "Zona Ekonomi Eksklusif (ZEE) Indonesia mencakup area seluas sekitar 6 juta kilometer persegi, menjadikan Indonesia memiliki ZEE terluas di dunia. Wilayah ini memberikan hak eksklusif kepada Indonesia untuk memanfaatkan sumber daya alam laut seperti ikan, mineral, minyak bumi, dan energi terbarukan.",
+    "cot": "Berdasarkan Konvensi Hukum Laut Internasional, setiap negara kepulauan berhak atas ZEE yang meluas sejauh 200 mil laut dari garis pantai dasarnya. Karena Indonesia memiliki lebih dari 17.000 pulau yang tersebar luas di Samudra Hindia dan Samudra Pasifik dengan garis pantai sepanjang sekitar 99.000 km, panjang dan luasnya menciptakan ZEE yang sangat besar, memberikan keuntungan geografis dan ekonomi yang signifikan untuk pengelolaan sumber daya laut."
+  }
+  ]
