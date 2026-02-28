@@ -36,21 +36,23 @@ OUTPUT_PATH = "./tiny-llm-indo-qa"
 TRAIN_DATA_PATH = "./dataset/train_qa.json"
 EVAL_DATA_PATH = "./dataset/eval_qa.json"
 
-# Training config untuk fine-tuning (LEBIH AGRESIF)
+# Training config untuk fine-tuning Q&A
 FINETUNE_CONFIG = {
     "output_dir": "./tiny-llm-indo-qa-checkpoints",
-    "num_train_epochs": 50,                    # JAUH lebih banyak epoch
-    "per_device_train_batch_size": 4,          # Batch lebih kecil = update lebih sering
-    "per_device_eval_batch_size": 8,
-    "gradient_accumulation_steps": 2,
-    "learning_rate": 5e-5,                     # Learning rate lebih tinggi
+    "num_train_epochs": 10,                    # 10 epoch cukup untuk Q&A
+    "per_device_train_batch_size": 8,          # Batch size yang seimbang
+    "per_device_eval_batch_size": 16,
+    "gradient_accumulation_steps": 2,          # Effective batch = 16
+    "learning_rate": 3e-5,                     # Learning rate moderat
     "weight_decay": 0.01,
-    "warmup_ratio": 0.05,
+    "warmup_ratio": 0.1,                       # Warmup 10% dari training
     "lr_scheduler_type": "cosine",
-    "logging_steps": 20,
-    "eval_strategy": "epoch",
-    "save_strategy": "epoch",
-    "save_total_limit": 3,
+    "logging_steps": 50,
+    "eval_strategy": "steps",                  # Eval per steps, bukan epoch
+    "eval_steps": 200,                         # Eval setiap 200 steps
+    "save_strategy": "steps",
+    "save_steps": 200,                         # Save setiap 200 steps
+    "save_total_limit": 3,                     # Simpan max 3 checkpoints
     "load_best_model_at_end": True,
     "metric_for_best_model": "eval_loss",
     "greater_is_better": False,
@@ -58,6 +60,7 @@ FINETUNE_CONFIG = {
     "dataloader_num_workers": 2,
     "seed": 42,
     "report_to": "none",
+    "max_grad_norm": 1.0,                      # Gradient clipping
 }
 
 
@@ -99,7 +102,7 @@ def main():
     if not os.path.exists(TRAIN_DATA_PATH):
         print(f"❌ Dataset Q&A tidak ditemukan: {TRAIN_DATA_PATH}")
         print("   Jalankan dulu:")
-        print("   python add_qa_data.py")
+        print("   python prepare_qa_from_topics.py")
         return
     
     # Device
@@ -153,11 +156,11 @@ def main():
     # Training arguments
     training_args = TrainingArguments(**FINETUNE_CONFIG)
     
-    # Callbacks
+    # Callbacks - Early stopping lebih patient untuk Q&A
     callbacks = [
         EarlyStoppingCallback(
-            early_stopping_patience=5,
-            early_stopping_threshold=0.01
+            early_stopping_patience=3,         # Stop jika 3 eval berturut tidak improve
+            early_stopping_threshold=0.001     # Threshold minimal improvement
         ),
     ]
     
