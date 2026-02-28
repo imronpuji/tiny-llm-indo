@@ -58,8 +58,20 @@ def load_model(model_path="./tiny-llm-indo-final", use_lora=True, base_model_pat
         print("   Pastikan training sudah selesai dan model tersimpan.")
         raise FileNotFoundError(f"Model not found: {model_path}")
     
-    # Load tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    # Load tokenizer - with fallback for corrupted tokenizer
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(model_path)
+    except Exception as e:
+        print(f"⚠️  Warning: Could not load tokenizer from {model_path}")
+        print(f"   Error: {str(e)[:100]}")
+        print("   Trying fallback: loading from cahya/gpt2-small-indonesian-522M...")
+        try:
+            tokenizer = AutoTokenizer.from_pretrained("cahya/gpt2-small-indonesian-522M")
+            print("✓ Fallback tokenizer loaded successfully")
+        except:
+            print("   Trying another fallback: gpt2...")
+            tokenizer = AutoTokenizer.from_pretrained("gpt2")
+            print("✓ Generic GPT2 tokenizer loaded")
     
     # Check if this is a PEFT/LoRA model
     adapter_config_path = os.path.join(model_path, "adapter_config.json")
