@@ -218,8 +218,8 @@ def batch_test(model, tokenizer, device):
 def ask_question(model, tokenizer, question, device, 
                  qa_format="instruction",
                  max_length=150,
-                 temperature=0.3,
-                 use_beam_search=False):
+                 temperature=0.2,
+                 use_beam_search=True):
     """
     Ajukan pertanyaan ke model
     
@@ -246,29 +246,29 @@ def ask_question(model, tokenizer, question, device,
     gen_params = {
         "input_ids": inputs.input_ids,
         "attention_mask": attention_mask,
-        "max_new_tokens": 100,
-        "min_length": prompt_length + 10,  # Minimal 10 token jawaban
+        "max_new_tokens": 60,  # Lebih pendek untuk hindari jawaban ngawur
+        "min_length": prompt_length + 5,
         "pad_token_id": tokenizer.pad_token_id if tokenizer.pad_token_id is not None else tokenizer.eos_token_id,
         "eos_token_id": tokenizer.eos_token_id,
-        "repetition_penalty": 1.8,  # Lebih tinggi untuk hindari pengulangan
-        "no_repeat_ngram_size": 4,  # Hindari pattern 4-gram yang sama
+        "repetition_penalty": 2.0,  # Sangat tinggi untuk hindari pengulangan
+        "no_repeat_ngram_size": 5,  # Hindari pattern 5-gram yang sama
+        "length_penalty": 0.8,  # Prefer jawaban lebih pendek
     }
     
     if use_beam_search:
-        # Beam search - lebih konsisten, tapi kurang natural
+        # Beam search - lebih konsisten dan fokus
         gen_params.update({
-            "num_beams": 4,
+            "num_beams": 5,
             "do_sample": False,
             "early_stopping": True,
-            "length_penalty": 1.0,
         })
     else:
         # Sampling - lebih natural dan fokus
         gen_params.update({
             "do_sample": True,
             "temperature": temperature,
-            "top_k": 30,  # Lebih selektif dalam memilih token
-            "top_p": 0.85,  # Fokus pada token probability tinggi
+            "top_k": 20,  # Sangat selektif
+            "top_p": 0.75,  # Hanya token probability sangat tinggi
         })
     
     import warnings
@@ -298,17 +298,27 @@ def ask_question(model, tokenizer, question, device,
         current += char
         if char in '.!?':
             sent = current.strip()
-            if len(sent) > 3:  # Skip sentensi terlalu pendek
+            # Filter kalimat yang mengandung karakter aneh atau terlalu pendek
+            if len(sent) > 10 and not any(bad in sent.lower() for bad in ["''", '""', 'http', 'www']):
                 sentences.append(sent)
             current = ""
-            if len(sentences) >= 3:  # Max 3 kalimat
+            if len(sentences) >= 2:  # Max 2 kalimat untuk lebih fokus
                 break
     
     if sentences:
         answer = ' '.join(sentences)
     elif current.strip():
-        # Jika tidak ada kalimat lengkap, ambil text yang ada
-        answer = current.strip().rstrip(',;:')
+        # Jika tidak ada kalimat lengkap, ambil tapi cut di koma terakhir
+        answer = current.strip()
+        if ',' in answer:
+            parts = answer.split(',')
+            # Ambil sampai koma terakhir yang masuk akal
+            answer = ','.join(parts[:-1]) if len(parts) > 1 else answer
+        answer = answer.rstrip(',;:')
+    
+    # Filter jawaban yang terlalu pendek atau aneh
+    if len(answer) < 5 or answer.count("'") > 5:
+        answer = "Maaf, saya tidak mengerti pertanyaan Anda. Bisa dijelaskan lebih detail?"
     
     return answer
 
@@ -334,7 +344,8 @@ def qa_interactive(model, tokenizer, device, qa_format="instruction"):
         print("\n⏳ Berpikir...")
         answer = ask_question(model, tokenizer, question, device, 
                              qa_format=qa_format,
-                             temperature=0.3)  # Lebih rendah untuk jawaban faktual
+                             temperature=0.2,  # Sangat rendah untuk jawaban faktual
+                             use_beam_search=True)  # Gunakan beam search untuk konsistensi
         
         print(f"\n💬 Jawaban: {answer}")
         print("-" * 50)
