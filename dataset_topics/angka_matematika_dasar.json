@@ -510,5 +510,2065 @@
   {
     "q": "Berapa hasil dari 5 + 4 × 3 - 2? (Perhatikan urutan operasi hitung)",
     "a": "Hasilnya adalah 15. Menurut aturan PEMDAS, perkalian dilakukan terlebih dahulu: 4 × 3 = 12, lalu dari kiri ke kanan: 5 + 12 = 17, kemudian 17 - 2 = 15."
+  },
+  {
+    "q": "Berapa 12 + 15?",
+    "a": "12 + 15 sama dengan 27."
+  },
+  {
+    "q": "Berapa 50 - 25?",
+    "a": "50 - 25 sama dengan 25."
+  },
+  {
+    "q": "Berapa 8 x 4?",
+    "a": "8 x 4 sama dengan 32."
+  },
+  {
+    "q": "Berapa 81 / 9?",
+    "a": "81 / 9 sama dengan 9."
+  },
+  {
+    "q": "Berapa 100 + 250?",
+    "a": "100 + 250 sama dengan 350."
+  },
+  {
+    "q": "Berapa 500 - 150?",
+    "a": "500 - 150 sama dengan 350."
+  },
+  {
+    "q": "Berapa 12 x 3?",
+    "a": "12 x 3 sama dengan 36."
+  },
+  {
+    "q": "Berapa 60 / 5?",
+    "a": "60 / 5 sama dengan 12."
+  },
+  {
+    "q": "Berapa 7 x 7?",
+    "a": "7 x 7 sama dengan 49."
+  },
+  {
+    "q": "Berapa 15 + 15 + 15?",
+    "a": "15 + 15 + 15 sama dengan 45."
+  },
+  {
+    "q": "Berapa 1000 - 750?",
+    "a": "1000 - 750 sama dengan 250."
+  },
+  {
+    "q": "Berapa 9 x 9?",
+    "a": "9 x 9 sama dengan 81."
+  },
+  {
+    "q": "Berapa 144 / 12?",
+    "a": "144 / 12 sama dengan 12."
+  },
+  {
+    "q": "Berapa 25 x 4?",
+    "a": "25 x 4 sama dengan 100."
+  },
+  {
+    "q": "Jika kamu punya 20 permen dan memberi 5 ke adik, berapa sisanya?",
+    "a": "Sisanya adalah 15 permen."
+  },
+  {
+    "q": "Berapa 497 + 329?",
+    "a": "497 + 329 sama dengan 826."
+  },
+  {
+    "q": "Berapa 264 + 177?",
+    "a": "264 + 177 sama dengan 441."
+  },
+  {
+    "q": "Berapa 184 + 105?",
+    "a": "184 + 105 sama dengan 289."
+  },
+  {
+    "q": "Berapa 425 + 492?",
+    "a": "425 + 492 sama dengan 917."
+  },
+  {
+    "q": "Berapa 98 + 316?",
+    "a": "98 + 316 sama dengan 414."
+  },
+  {
+    "q": "Berapa 187 + 186?",
+    "a": "187 + 186 sama dengan 373."
+  },
+  {
+    "q": "Berapa 202 + 198?",
+    "a": "202 + 198 sama dengan 400."
+  },
+  {
+    "q": "Berapa 344 + 134?",
+    "a": "344 + 134 sama dengan 478."
+  },
+  {
+    "q": "Berapa 430 + 23?",
+    "a": "430 + 23 sama dengan 453."
+  },
+  {
+    "q": "Berapa 44 + 67?",
+    "a": "44 + 67 sama dengan 111."
+  },
+  {
+    "q": "Berapa 19 + 276?",
+    "a": "19 + 276 sama dengan 295."
+  },
+  {
+    "q": "Berapa 141 + 109?",
+    "a": "141 + 109 sama dengan 250."
+  },
+  {
+    "q": "Berapa 97 + 163?",
+    "a": "97 + 163 sama dengan 260."
+  },
+  {
+    "q": "Berapa 372 + 234?",
+    "a": "372 + 234 sama dengan 606."
+  },
+  {
+    "q": "Berapa 407 + 28?",
+    "a": "407 + 28 sama dengan 435."
+  },
+  {
+    "q": "Berapa 378 + 218?",
+    "a": "378 + 218 sama dengan 596."
+  },
+  {
+    "q": "Berapa 291 + 271?",
+    "a": "291 + 271 sama dengan 562."
+  },
+  {
+    "q": "Berapa 336 + 397?",
+    "a": "336 + 397 sama dengan 733."
+  },
+  {
+    "q": "Berapa 222 + 449?",
+    "a": "222 + 449 sama dengan 671."
+  },
+  {
+    "q": "Berapa 366 + 278?",
+    "a": "366 + 278 sama dengan 644."
+  },
+  {
+    "q": "Berapa 103 + 26?",
+    "a": "103 + 26 sama dengan 129."
+  },
+  {
+    "q": "Berapa 275 + 440?",
+    "a": "275 + 440 sama dengan 715."
+  },
+  {
+    "q": "Berapa 19 + 294?",
+    "a": "19 + 294 sama dengan 313."
+  },
+  {
+    "q": "Berapa 249 + 305?",
+    "a": "249 + 305 sama dengan 554."
+  },
+  {
+    "q": "Berapa 29 + 29?",
+    "a": "29 + 29 sama dengan 58."
+  },
+  {
+    "q": "Berapa 187 + 264?",
+    "a": "187 + 264 sama dengan 451."
+  },
+  {
+    "q": "Berapa 135 + 358?",
+    "a": "135 + 358 sama dengan 493."
+  },
+  {
+    "q": "Berapa 64 + 143?",
+    "a": "64 + 143 sama dengan 207."
+  },
+  {
+    "q": "Berapa 47 + 374?",
+    "a": "47 + 374 sama dengan 421."
+  },
+  {
+    "q": "Berapa 152 + 45?",
+    "a": "152 + 45 sama dengan 197."
+  },
+  {
+    "q": "Berapa 438 + 397?",
+    "a": "438 + 397 sama dengan 835."
+  },
+  {
+    "q": "Berapa 498 + 496?",
+    "a": "498 + 496 sama dengan 994."
+  },
+  {
+    "q": "Berapa 473 + 12?",
+    "a": "473 + 12 sama dengan 485."
+  },
+  {
+    "q": "Berapa 68 + 414?",
+    "a": "68 + 414 sama dengan 482."
+  },
+  {
+    "q": "Berapa 299 + 492?",
+    "a": "299 + 492 sama dengan 791."
+  },
+  {
+    "q": "Berapa 71 + 176?",
+    "a": "71 + 176 sama dengan 247."
+  },
+  {
+    "q": "Berapa 459 + 483?",
+    "a": "459 + 483 sama dengan 942."
+  },
+  {
+    "q": "Berapa 391 + 355?",
+    "a": "391 + 355 sama dengan 746."
+  },
+  {
+    "q": "Berapa 215 + 406?",
+    "a": "215 + 406 sama dengan 621."
+  },
+  {
+    "q": "Berapa 406 + 31?",
+    "a": "406 + 31 sama dengan 437."
+  },
+  {
+    "q": "Berapa 300 + 328?",
+    "a": "300 + 328 sama dengan 628."
+  },
+  {
+    "q": "Berapa 256 + 23?",
+    "a": "256 + 23 sama dengan 279."
+  },
+  {
+    "q": "Berapa 332 + 34?",
+    "a": "332 + 34 sama dengan 366."
+  },
+  {
+    "q": "Berapa 262 + 279?",
+    "a": "262 + 279 sama dengan 541."
+  },
+  {
+    "q": "Berapa 286 + 318?",
+    "a": "286 + 318 sama dengan 604."
+  },
+  {
+    "q": "Berapa 166 + 269?",
+    "a": "166 + 269 sama dengan 435."
+  },
+  {
+    "q": "Berapa 499 + 339?",
+    "a": "499 + 339 sama dengan 838."
+  },
+  {
+    "q": "Berapa 57 + 45?",
+    "a": "57 + 45 sama dengan 102."
+  },
+  {
+    "q": "Berapa 26 + 214?",
+    "a": "26 + 214 sama dengan 240."
+  },
+  {
+    "q": "Berapa 390 + 302?",
+    "a": "390 + 302 sama dengan 692."
+  },
+  {
+    "q": "Berapa 405 + 218?",
+    "a": "405 + 218 sama dengan 623."
+  },
+  {
+    "q": "Berapa 214 + 345?",
+    "a": "214 + 345 sama dengan 559."
+  },
+  {
+    "q": "Berapa 401 + 123?",
+    "a": "401 + 123 sama dengan 524."
+  },
+  {
+    "q": "Berapa 417 + 11?",
+    "a": "417 + 11 sama dengan 428."
+  },
+  {
+    "q": "Berapa 350 + 460?",
+    "a": "350 + 460 sama dengan 810."
+  },
+  {
+    "q": "Berapa 38 + 141?",
+    "a": "38 + 141 sama dengan 179."
+  },
+  {
+    "q": "Berapa 196 + 482?",
+    "a": "196 + 482 sama dengan 678."
+  },
+  {
+    "q": "Berapa 217 + 131?",
+    "a": "217 + 131 sama dengan 348."
+  },
+  {
+    "q": "Berapa 316 + 252?",
+    "a": "316 + 252 sama dengan 568."
+  },
+  {
+    "q": "Berapa 399 + 31?",
+    "a": "399 + 31 sama dengan 430."
+  },
+  {
+    "q": "Berapa 160 + 334?",
+    "a": "160 + 334 sama dengan 494."
+  },
+  {
+    "q": "Berapa 129 + 446?",
+    "a": "129 + 446 sama dengan 575."
+  },
+  {
+    "q": "Berapa 121 + 34?",
+    "a": "121 + 34 sama dengan 155."
+  },
+  {
+    "q": "Berapa 113 + 69?",
+    "a": "113 + 69 sama dengan 182."
+  },
+  {
+    "q": "Berapa 180 + 141?",
+    "a": "180 + 141 sama dengan 321."
+  },
+  {
+    "q": "Berapa 147 + 198?",
+    "a": "147 + 198 sama dengan 345."
+  },
+  {
+    "q": "Berapa 205 + 226?",
+    "a": "205 + 226 sama dengan 431."
+  },
+  {
+    "q": "Berapa 356 + 305?",
+    "a": "356 + 305 sama dengan 661."
+  },
+  {
+    "q": "Berapa 499 + 448?",
+    "a": "499 + 448 sama dengan 947."
+  },
+  {
+    "q": "Berapa 477 + 479?",
+    "a": "477 + 479 sama dengan 956."
+  },
+  {
+    "q": "Berapa 429 + 145?",
+    "a": "429 + 145 sama dengan 574."
+  },
+  {
+    "q": "Berapa 431 + 226?",
+    "a": "431 + 226 sama dengan 657."
+  },
+  {
+    "q": "Berapa 97 + 69?",
+    "a": "97 + 69 sama dengan 166."
+  },
+  {
+    "q": "Berapa 469 + 304?",
+    "a": "469 + 304 sama dengan 773."
+  },
+  {
+    "q": "Berapa 377 + 293?",
+    "a": "377 + 293 sama dengan 670."
+  },
+  {
+    "q": "Berapa 414 + 390?",
+    "a": "414 + 390 sama dengan 804."
+  },
+  {
+    "q": "Berapa 137 + 258?",
+    "a": "137 + 258 sama dengan 395."
+  },
+  {
+    "q": "Berapa 494 + 395?",
+    "a": "494 + 395 sama dengan 889."
+  },
+  {
+    "q": "Berapa 238 + 13?",
+    "a": "238 + 13 sama dengan 251."
+  },
+  {
+    "q": "Berapa 337 + 316?",
+    "a": "337 + 316 sama dengan 653."
+  },
+  {
+    "q": "Berapa 170 + 344?",
+    "a": "170 + 344 sama dengan 514."
+  },
+  {
+    "q": "Berapa 308 + 205?",
+    "a": "308 + 205 sama dengan 513."
+  },
+  {
+    "q": "Berapa 437 + 475?",
+    "a": "437 + 475 sama dengan 912."
+  },
+  {
+    "q": "Berapa 457 + 147?",
+    "a": "457 + 147 sama dengan 604."
+  },
+  {
+    "q": "Berapa 453 + 11?",
+    "a": "453 + 11 sama dengan 464."
+  },
+  {
+    "q": "Berapa 399 + 448?",
+    "a": "399 + 448 sama dengan 847."
+  },
+  {
+    "q": "Berapa 147 + 99?",
+    "a": "147 + 99 sama dengan 246."
+  },
+  {
+    "q": "Berapa 320 + 22?",
+    "a": "320 + 22 sama dengan 342."
+  },
+  {
+    "q": "Berapa 286 + 300?",
+    "a": "286 + 300 sama dengan 586."
+  },
+  {
+    "q": "Berapa 138 + 436?",
+    "a": "138 + 436 sama dengan 574."
+  },
+  {
+    "q": "Berapa 445 + 151?",
+    "a": "445 + 151 sama dengan 596."
+  },
+  {
+    "q": "Berapa 231 + 281?",
+    "a": "231 + 281 sama dengan 512."
+  },
+  {
+    "q": "Berapa 188 + 279?",
+    "a": "188 + 279 sama dengan 467."
+  },
+  {
+    "q": "Berapa 185 + 21?",
+    "a": "185 + 21 sama dengan 206."
+  },
+  {
+    "q": "Berapa 271 + 474?",
+    "a": "271 + 474 sama dengan 745."
+  },
+  {
+    "q": "Berapa 67 + 251?",
+    "a": "67 + 251 sama dengan 318."
+  },
+  {
+    "q": "Berapa 97 + 475?",
+    "a": "97 + 475 sama dengan 572."
+  },
+  {
+    "q": "Berapa 292 + 130?",
+    "a": "292 + 130 sama dengan 422."
+  },
+  {
+    "q": "Berapa 48 + 79?",
+    "a": "48 + 79 sama dengan 127."
+  },
+  {
+    "q": "Berapa 402 + 457?",
+    "a": "402 + 457 sama dengan 859."
+  },
+  {
+    "q": "Berapa 807 - 529?",
+    "a": "807 - 529 sama dengan 278."
+  },
+  {
+    "q": "Berapa 458 - 351?",
+    "a": "458 - 351 sama dengan 107."
+  },
+  {
+    "q": "Berapa 557 - 32?",
+    "a": "557 - 32 sama dengan 525."
+  },
+  {
+    "q": "Berapa 143 - 83?",
+    "a": "143 - 83 sama dengan 60."
+  },
+  {
+    "q": "Berapa 178 - 141?",
+    "a": "178 - 141 sama dengan 37."
+  },
+  {
+    "q": "Berapa 220 - 20?",
+    "a": "220 - 20 sama dengan 200."
+  },
+  {
+    "q": "Berapa 628 - 489?",
+    "a": "628 - 489 sama dengan 139."
+  },
+  {
+    "q": "Berapa 444 - 129?",
+    "a": "444 - 129 sama dengan 315."
+  },
+  {
+    "q": "Berapa 766 - 578?",
+    "a": "766 - 578 sama dengan 188."
+  },
+  {
+    "q": "Berapa 750 - 598?",
+    "a": "750 - 598 sama dengan 152."
+  },
+  {
+    "q": "Berapa 469 - 395?",
+    "a": "469 - 395 sama dengan 74."
+  },
+  {
+    "q": "Berapa 147 - 60?",
+    "a": "147 - 60 sama dengan 87."
+  },
+  {
+    "q": "Berapa 524 - 256?",
+    "a": "524 - 256 sama dengan 268."
+  },
+  {
+    "q": "Berapa 985 - 616?",
+    "a": "985 - 616 sama dengan 369."
+  },
+  {
+    "q": "Berapa 282 - 256?",
+    "a": "282 - 256 sama dengan 26."
+  },
+  {
+    "q": "Berapa 138 - 71?",
+    "a": "138 - 71 sama dengan 67."
+  },
+  {
+    "q": "Berapa 637 - 527?",
+    "a": "637 - 527 sama dengan 110."
+  },
+  {
+    "q": "Berapa 847 - 58?",
+    "a": "847 - 58 sama dengan 789."
+  },
+  {
+    "q": "Berapa 292 - 221?",
+    "a": "292 - 221 sama dengan 71."
+  },
+  {
+    "q": "Berapa 333 - 176?",
+    "a": "333 - 176 sama dengan 157."
+  },
+  {
+    "q": "Berapa 542 - 256?",
+    "a": "542 - 256 sama dengan 286."
+  },
+  {
+    "q": "Berapa 273 - 200?",
+    "a": "273 - 200 sama dengan 73."
+  },
+  {
+    "q": "Berapa 543 - 518?",
+    "a": "543 - 518 sama dengan 25."
+  },
+  {
+    "q": "Berapa 100 - 84?",
+    "a": "100 - 84 sama dengan 16."
+  },
+  {
+    "q": "Berapa 787 - 460?",
+    "a": "787 - 460 sama dengan 327."
+  },
+  {
+    "q": "Berapa 499 - 462?",
+    "a": "499 - 462 sama dengan 37."
+  },
+  {
+    "q": "Berapa 191 - 171?",
+    "a": "191 - 171 sama dengan 20."
+  },
+  {
+    "q": "Berapa 162 - 69?",
+    "a": "162 - 69 sama dengan 93."
+  },
+  {
+    "q": "Berapa 891 - 785?",
+    "a": "891 - 785 sama dengan 106."
+  },
+  {
+    "q": "Berapa 598 - 341?",
+    "a": "598 - 341 sama dengan 257."
+  },
+  {
+    "q": "Berapa 426 - 154?",
+    "a": "426 - 154 sama dengan 272."
+  },
+  {
+    "q": "Berapa 324 - 160?",
+    "a": "324 - 160 sama dengan 164."
+  },
+  {
+    "q": "Berapa 269 - 148?",
+    "a": "269 - 148 sama dengan 121."
+  },
+  {
+    "q": "Berapa 415 - 395?",
+    "a": "415 - 395 sama dengan 20."
+  },
+  {
+    "q": "Berapa 765 - 532?",
+    "a": "765 - 532 sama dengan 233."
+  },
+  {
+    "q": "Berapa 722 - 520?",
+    "a": "722 - 520 sama dengan 202."
+  },
+  {
+    "q": "Berapa 890 - 52?",
+    "a": "890 - 52 sama dengan 838."
+  },
+  {
+    "q": "Berapa 640 - 231?",
+    "a": "640 - 231 sama dengan 409."
+  },
+  {
+    "q": "Berapa 363 - 346?",
+    "a": "363 - 346 sama dengan 17."
+  },
+  {
+    "q": "Berapa 987 - 948?",
+    "a": "987 - 948 sama dengan 39."
+  },
+  {
+    "q": "Berapa 645 - 509?",
+    "a": "645 - 509 sama dengan 136."
+  },
+  {
+    "q": "Berapa 768 - 260?",
+    "a": "768 - 260 sama dengan 508."
+  },
+  {
+    "q": "Berapa 901 - 649?",
+    "a": "901 - 649 sama dengan 252."
+  },
+  {
+    "q": "Berapa 394 - 195?",
+    "a": "394 - 195 sama dengan 199."
+  },
+  {
+    "q": "Berapa 201 - 130?",
+    "a": "201 - 130 sama dengan 71."
+  },
+  {
+    "q": "Berapa 121 - 79?",
+    "a": "121 - 79 sama dengan 42."
+  },
+  {
+    "q": "Berapa 537 - 315?",
+    "a": "537 - 315 sama dengan 222."
+  },
+  {
+    "q": "Berapa 287 - 222?",
+    "a": "287 - 222 sama dengan 65."
+  },
+  {
+    "q": "Berapa 921 - 252?",
+    "a": "921 - 252 sama dengan 669."
+  },
+  {
+    "q": "Berapa 351 - 255?",
+    "a": "351 - 255 sama dengan 96."
+  },
+  {
+    "q": "Berapa 252 - 110?",
+    "a": "252 - 110 sama dengan 142."
+  },
+  {
+    "q": "Berapa 884 - 517?",
+    "a": "884 - 517 sama dengan 367."
+  },
+  {
+    "q": "Berapa 255 - 221?",
+    "a": "255 - 221 sama dengan 34."
+  },
+  {
+    "q": "Berapa 996 - 153?",
+    "a": "996 - 153 sama dengan 843."
+  },
+  {
+    "q": "Berapa 125 - 109?",
+    "a": "125 - 109 sama dengan 16."
+  },
+  {
+    "q": "Berapa 571 - 342?",
+    "a": "571 - 342 sama dengan 229."
+  },
+  {
+    "q": "Berapa 465 - 69?",
+    "a": "465 - 69 sama dengan 396."
+  },
+  {
+    "q": "Berapa 643 - 135?",
+    "a": "643 - 135 sama dengan 508."
+  },
+  {
+    "q": "Berapa 800 - 187?",
+    "a": "800 - 187 sama dengan 613."
+  },
+  {
+    "q": "Berapa 361 - 261?",
+    "a": "361 - 261 sama dengan 100."
+  },
+  {
+    "q": "Berapa 987 - 260?",
+    "a": "987 - 260 sama dengan 727."
+  },
+  {
+    "q": "Berapa 207 - 69?",
+    "a": "207 - 69 sama dengan 138."
+  },
+  {
+    "q": "Berapa 592 - 384?",
+    "a": "592 - 384 sama dengan 208."
+  },
+  {
+    "q": "Berapa 232 - 186?",
+    "a": "232 - 186 sama dengan 46."
+  },
+  {
+    "q": "Berapa 494 - 383?",
+    "a": "494 - 383 sama dengan 111."
+  },
+  {
+    "q": "Berapa 576 - 170?",
+    "a": "576 - 170 sama dengan 406."
+  },
+  {
+    "q": "Berapa 562 - 199?",
+    "a": "562 - 199 sama dengan 363."
+  },
+  {
+    "q": "Berapa 606 - 499?",
+    "a": "606 - 499 sama dengan 107."
+  },
+  {
+    "q": "Berapa 960 - 661?",
+    "a": "960 - 661 sama dengan 299."
+  },
+  {
+    "q": "Berapa 439 - 375?",
+    "a": "439 - 375 sama dengan 64."
+  },
+  {
+    "q": "Berapa 849 - 755?",
+    "a": "849 - 755 sama dengan 94."
+  },
+  {
+    "q": "Berapa 504 - 337?",
+    "a": "504 - 337 sama dengan 167."
+  },
+  {
+    "q": "Berapa 660 - 595?",
+    "a": "660 - 595 sama dengan 65."
+  },
+  {
+    "q": "Berapa 893 - 769?",
+    "a": "893 - 769 sama dengan 124."
+  },
+  {
+    "q": "Berapa 603 - 588?",
+    "a": "603 - 588 sama dengan 15."
+  },
+  {
+    "q": "Berapa 628 - 216?",
+    "a": "628 - 216 sama dengan 412."
+  },
+  {
+    "q": "Berapa 928 - 749?",
+    "a": "928 - 749 sama dengan 179."
+  },
+  {
+    "q": "Berapa 777 - 11?",
+    "a": "777 - 11 sama dengan 766."
+  },
+  {
+    "q": "Berapa 636 - 580?",
+    "a": "636 - 580 sama dengan 56."
+  },
+  {
+    "q": "Berapa 464 - 131?",
+    "a": "464 - 131 sama dengan 333."
+  },
+  {
+    "q": "Berapa 585 - 328?",
+    "a": "585 - 328 sama dengan 257."
+  },
+  {
+    "q": "Berapa 776 - 20?",
+    "a": "776 - 20 sama dengan 756."
+  },
+  {
+    "q": "Berapa 211 - 146?",
+    "a": "211 - 146 sama dengan 65."
+  },
+  {
+    "q": "Berapa 759 - 695?",
+    "a": "759 - 695 sama dengan 64."
+  },
+  {
+    "q": "Berapa 863 - 597?",
+    "a": "863 - 597 sama dengan 266."
+  },
+  {
+    "q": "Berapa 794 - 578?",
+    "a": "794 - 578 sama dengan 216."
+  },
+  {
+    "q": "Berapa 577 - 159?",
+    "a": "577 - 159 sama dengan 418."
+  },
+  {
+    "q": "Berapa 552 - 123?",
+    "a": "552 - 123 sama dengan 429."
+  },
+  {
+    "q": "Berapa 634 - 344?",
+    "a": "634 - 344 sama dengan 290."
+  },
+  {
+    "q": "Berapa 194 - 109?",
+    "a": "194 - 109 sama dengan 85."
+  },
+  {
+    "q": "Berapa 644 - 332?",
+    "a": "644 - 332 sama dengan 312."
+  },
+  {
+    "q": "Berapa 821 - 768?",
+    "a": "821 - 768 sama dengan 53."
+  },
+  {
+    "q": "Berapa 883 - 620?",
+    "a": "883 - 620 sama dengan 263."
+  },
+  {
+    "q": "Berapa 369 - 261?",
+    "a": "369 - 261 sama dengan 108."
+  },
+  {
+    "q": "Berapa 616 - 540?",
+    "a": "616 - 540 sama dengan 76."
+  },
+  {
+    "q": "Berapa 629 - 150?",
+    "a": "629 - 150 sama dengan 479."
+  },
+  {
+    "q": "Berapa 158 - 127?",
+    "a": "158 - 127 sama dengan 31."
+  },
+  {
+    "q": "Berapa 912 - 355?",
+    "a": "912 - 355 sama dengan 557."
+  },
+  {
+    "q": "Berapa 665 - 649?",
+    "a": "665 - 649 sama dengan 16."
+  },
+  {
+    "q": "Berapa 175 - 41?",
+    "a": "175 - 41 sama dengan 134."
+  },
+  {
+    "q": "Berapa 11 x 2?",
+    "a": "11 x 2 sama dengan 22."
+  },
+  {
+    "q": "Berapa 13 x 10?",
+    "a": "13 x 10 sama dengan 130."
+  },
+  {
+    "q": "Berapa 12 x 13?",
+    "a": "12 x 13 sama dengan 156."
+  },
+  {
+    "q": "Berapa 6 x 10?",
+    "a": "6 x 10 sama dengan 60."
+  },
+  {
+    "q": "Berapa 19 x 14?",
+    "a": "19 x 14 sama dengan 266."
+  },
+  {
+    "q": "Berapa 7 x 11?",
+    "a": "7 x 11 sama dengan 77."
+  },
+  {
+    "q": "Berapa 25 x 23?",
+    "a": "25 x 23 sama dengan 575."
+  },
+  {
+    "q": "Berapa 12 x 6?",
+    "a": "12 x 6 sama dengan 72."
+  },
+  {
+    "q": "Berapa 15 x 20?",
+    "a": "15 x 20 sama dengan 300."
+  },
+  {
+    "q": "Berapa 24 x 5?",
+    "a": "24 x 5 sama dengan 120."
+  },
+  {
+    "q": "Berapa 11 x 11?",
+    "a": "11 x 11 sama dengan 121."
+  },
+  {
+    "q": "Berapa 21 x 10?",
+    "a": "21 x 10 sama dengan 210."
+  },
+  {
+    "q": "Berapa 2 x 14?",
+    "a": "2 x 14 sama dengan 28."
+  },
+  {
+    "q": "Berapa 18 x 11?",
+    "a": "18 x 11 sama dengan 198."
+  },
+  {
+    "q": "Berapa 11 x 18?",
+    "a": "11 x 18 sama dengan 198."
+  },
+  {
+    "q": "Berapa 16 x 8?",
+    "a": "16 x 8 sama dengan 128."
+  },
+  {
+    "q": "Berapa 14 x 14?",
+    "a": "14 x 14 sama dengan 196."
+  },
+  {
+    "q": "Berapa 10 x 13?",
+    "a": "10 x 13 sama dengan 130."
+  },
+  {
+    "q": "Berapa 6 x 16?",
+    "a": "6 x 16 sama dengan 96."
+  },
+  {
+    "q": "Berapa 19 x 23?",
+    "a": "19 x 23 sama dengan 437."
+  },
+  {
+    "q": "Berapa 19 x 16?",
+    "a": "19 x 16 sama dengan 304."
+  },
+  {
+    "q": "Berapa 20 x 14?",
+    "a": "20 x 14 sama dengan 280."
+  },
+  {
+    "q": "Berapa 25 x 7?",
+    "a": "25 x 7 sama dengan 175."
+  },
+  {
+    "q": "Berapa 17 x 6?",
+    "a": "17 x 6 sama dengan 102."
+  },
+  {
+    "q": "Berapa 8 x 4?",
+    "a": "8 x 4 sama dengan 32."
+  },
+  {
+    "q": "Berapa 12 x 12?",
+    "a": "12 x 12 sama dengan 144."
+  },
+  {
+    "q": "Berapa 18 x 12?",
+    "a": "18 x 12 sama dengan 216."
+  },
+  {
+    "q": "Berapa 9 x 23?",
+    "a": "9 x 23 sama dengan 207."
+  },
+  {
+    "q": "Berapa 16 x 22?",
+    "a": "16 x 22 sama dengan 352."
+  },
+  {
+    "q": "Berapa 21 x 6?",
+    "a": "21 x 6 sama dengan 126."
+  },
+  {
+    "q": "Berapa 2 x 21?",
+    "a": "2 x 21 sama dengan 42."
+  },
+  {
+    "q": "Berapa 16 x 11?",
+    "a": "16 x 11 sama dengan 176."
+  },
+  {
+    "q": "Berapa 20 x 22?",
+    "a": "20 x 22 sama dengan 440."
+  },
+  {
+    "q": "Berapa 5 x 13?",
+    "a": "5 x 13 sama dengan 65."
+  },
+  {
+    "q": "Berapa 17 x 19?",
+    "a": "17 x 19 sama dengan 323."
+  },
+  {
+    "q": "Berapa 4 x 3?",
+    "a": "4 x 3 sama dengan 12."
+  },
+  {
+    "q": "Berapa 16 x 3?",
+    "a": "16 x 3 sama dengan 48."
+  },
+  {
+    "q": "Berapa 16 x 10?",
+    "a": "16 x 10 sama dengan 160."
+  },
+  {
+    "q": "Berapa 2 x 10?",
+    "a": "2 x 10 sama dengan 20."
+  },
+  {
+    "q": "Berapa 24 x 25?",
+    "a": "24 x 25 sama dengan 600."
+  },
+  {
+    "q": "Berapa 7 x 11?",
+    "a": "7 x 11 sama dengan 77."
+  },
+  {
+    "q": "Berapa 4 x 17?",
+    "a": "4 x 17 sama dengan 68."
+  },
+  {
+    "q": "Berapa 9 x 6?",
+    "a": "9 x 6 sama dengan 54."
+  },
+  {
+    "q": "Berapa 19 x 16?",
+    "a": "19 x 16 sama dengan 304."
+  },
+  {
+    "q": "Berapa 22 x 16?",
+    "a": "22 x 16 sama dengan 352."
+  },
+  {
+    "q": "Berapa 5 x 21?",
+    "a": "5 x 21 sama dengan 105."
+  },
+  {
+    "q": "Berapa 20 x 16?",
+    "a": "20 x 16 sama dengan 320."
+  },
+  {
+    "q": "Berapa 18 x 22?",
+    "a": "18 x 22 sama dengan 396."
+  },
+  {
+    "q": "Berapa 19 x 9?",
+    "a": "19 x 9 sama dengan 171."
+  },
+  {
+    "q": "Berapa 23 x 6?",
+    "a": "23 x 6 sama dengan 138."
+  },
+  {
+    "q": "Berapa 17 x 17?",
+    "a": "17 x 17 sama dengan 289."
+  },
+  {
+    "q": "Berapa 15 x 24?",
+    "a": "15 x 24 sama dengan 360."
+  },
+  {
+    "q": "Berapa 14 x 12?",
+    "a": "14 x 12 sama dengan 168."
+  },
+  {
+    "q": "Berapa 10 x 11?",
+    "a": "10 x 11 sama dengan 110."
+  },
+  {
+    "q": "Berapa 12 x 3?",
+    "a": "12 x 3 sama dengan 36."
+  },
+  {
+    "q": "Berapa 18 x 23?",
+    "a": "18 x 23 sama dengan 414."
+  },
+  {
+    "q": "Berapa 24 x 23?",
+    "a": "24 x 23 sama dengan 552."
+  },
+  {
+    "q": "Berapa 17 x 8?",
+    "a": "17 x 8 sama dengan 136."
+  },
+  {
+    "q": "Berapa 6 x 16?",
+    "a": "6 x 16 sama dengan 96."
+  },
+  {
+    "q": "Berapa 15 x 8?",
+    "a": "15 x 8 sama dengan 120."
+  },
+  {
+    "q": "Berapa 24 x 10?",
+    "a": "24 x 10 sama dengan 240."
+  },
+  {
+    "q": "Berapa 9 x 5?",
+    "a": "9 x 5 sama dengan 45."
+  },
+  {
+    "q": "Berapa 21 x 14?",
+    "a": "21 x 14 sama dengan 294."
+  },
+  {
+    "q": "Berapa 12 x 25?",
+    "a": "12 x 25 sama dengan 300."
+  },
+  {
+    "q": "Berapa 22 x 3?",
+    "a": "22 x 3 sama dengan 66."
+  },
+  {
+    "q": "Berapa 23 x 7?",
+    "a": "23 x 7 sama dengan 161."
+  },
+  {
+    "q": "Berapa 24 x 21?",
+    "a": "24 x 21 sama dengan 504."
+  },
+  {
+    "q": "Berapa 12 x 10?",
+    "a": "12 x 10 sama dengan 120."
+  },
+  {
+    "q": "Berapa 22 x 8?",
+    "a": "22 x 8 sama dengan 176."
+  },
+  {
+    "q": "Berapa 17 x 3?",
+    "a": "17 x 3 sama dengan 51."
+  },
+  {
+    "q": "Berapa 23 x 23?",
+    "a": "23 x 23 sama dengan 529."
+  },
+  {
+    "q": "Berapa 10 x 11?",
+    "a": "10 x 11 sama dengan 110."
+  },
+  {
+    "q": "Berapa 21 x 4?",
+    "a": "21 x 4 sama dengan 84."
+  },
+  {
+    "q": "Berapa 23 x 8?",
+    "a": "23 x 8 sama dengan 184."
+  },
+  {
+    "q": "Berapa 17 x 20?",
+    "a": "17 x 20 sama dengan 340."
+  },
+  {
+    "q": "Berapa 2 x 24?",
+    "a": "2 x 24 sama dengan 48."
+  },
+  {
+    "q": "Berapa 22 x 24?",
+    "a": "22 x 24 sama dengan 528."
+  },
+  {
+    "q": "Berapa 3 x 24?",
+    "a": "3 x 24 sama dengan 72."
+  },
+  {
+    "q": "Berapa 10 x 23?",
+    "a": "10 x 23 sama dengan 230."
+  },
+  {
+    "q": "Berapa 6 x 5?",
+    "a": "6 x 5 sama dengan 30."
+  },
+  {
+    "q": "Berapa 6 x 18?",
+    "a": "6 x 18 sama dengan 108."
+  },
+  {
+    "q": "Berapa 25 x 9?",
+    "a": "25 x 9 sama dengan 225."
+  },
+  {
+    "q": "Berapa 15 x 13?",
+    "a": "15 x 13 sama dengan 195."
+  },
+  {
+    "q": "Berapa 2 x 15?",
+    "a": "2 x 15 sama dengan 30."
+  },
+  {
+    "q": "Berapa 6 x 8?",
+    "a": "6 x 8 sama dengan 48."
+  },
+  {
+    "q": "Berapa 17 x 12?",
+    "a": "17 x 12 sama dengan 204."
+  },
+  {
+    "q": "Berapa 6 x 7?",
+    "a": "6 x 7 sama dengan 42."
+  },
+  {
+    "q": "Berapa 21 x 14?",
+    "a": "21 x 14 sama dengan 294."
+  },
+  {
+    "q": "Berapa 3 x 4?",
+    "a": "3 x 4 sama dengan 12."
+  },
+  {
+    "q": "Berapa 15 x 20?",
+    "a": "15 x 20 sama dengan 300."
+  },
+  {
+    "q": "Berapa 15 x 6?",
+    "a": "15 x 6 sama dengan 90."
+  },
+  {
+    "q": "Berapa 3 x 25?",
+    "a": "3 x 25 sama dengan 75."
+  },
+  {
+    "q": "Berapa 13 x 3?",
+    "a": "13 x 3 sama dengan 39."
+  },
+  {
+    "q": "Berapa 21 x 12?",
+    "a": "21 x 12 sama dengan 252."
+  },
+  {
+    "q": "Berapa 10 x 15?",
+    "a": "10 x 15 sama dengan 150."
+  },
+  {
+    "q": "Berapa 20 x 3?",
+    "a": "20 x 3 sama dengan 60."
+  },
+  {
+    "q": "Berapa 14 x 6?",
+    "a": "14 x 6 sama dengan 84."
+  },
+  {
+    "q": "Berapa 15 x 5?",
+    "a": "15 x 5 sama dengan 75."
+  },
+  {
+    "q": "Berapa 6 x 19?",
+    "a": "6 x 19 sama dengan 114."
+  },
+  {
+    "q": "Berapa 21 x 14?",
+    "a": "21 x 14 sama dengan 294."
+  },
+  {
+    "q": "Berapa 738 / 18?",
+    "a": "738 / 18 sama dengan 41."
+  },
+  {
+    "q": "Berapa 504 / 12?",
+    "a": "504 / 12 sama dengan 42."
+  },
+  {
+    "q": "Berapa 60 / 4?",
+    "a": "60 / 4 sama dengan 15."
+  },
+  {
+    "q": "Berapa 660 / 20?",
+    "a": "660 / 20 sama dengan 33."
+  },
+  {
+    "q": "Berapa 21 / 3?",
+    "a": "21 / 3 sama dengan 7."
+  },
+  {
+    "q": "Berapa 48 / 6?",
+    "a": "48 / 6 sama dengan 8."
+  },
+  {
+    "q": "Berapa 100 / 5?",
+    "a": "100 / 5 sama dengan 20."
+  },
+  {
+    "q": "Berapa 168 / 4?",
+    "a": "168 / 4 sama dengan 42."
+  },
+  {
+    "q": "Berapa 550 / 11?",
+    "a": "550 / 11 sama dengan 50."
+  },
+  {
+    "q": "Berapa 190 / 19?",
+    "a": "190 / 19 sama dengan 10."
+  },
+  {
+    "q": "Berapa 297 / 9?",
+    "a": "297 / 9 sama dengan 33."
+  },
+  {
+    "q": "Berapa 528 / 11?",
+    "a": "528 / 11 sama dengan 48."
+  },
+  {
+    "q": "Berapa 126 / 9?",
+    "a": "126 / 9 sama dengan 14."
+  },
+  {
+    "q": "Berapa 208 / 16?",
+    "a": "208 / 16 sama dengan 13."
+  },
+  {
+    "q": "Berapa 551 / 19?",
+    "a": "551 / 19 sama dengan 29."
+  },
+  {
+    "q": "Berapa 120 / 10?",
+    "a": "120 / 10 sama dengan 12."
+  },
+  {
+    "q": "Berapa 40 / 10?",
+    "a": "40 / 10 sama dengan 4."
+  },
+  {
+    "q": "Berapa 40 / 5?",
+    "a": "40 / 5 sama dengan 8."
+  },
+  {
+    "q": "Berapa 18 / 2?",
+    "a": "18 / 2 sama dengan 9."
+  },
+  {
+    "q": "Berapa 576 / 18?",
+    "a": "576 / 18 sama dengan 32."
+  },
+  {
+    "q": "Berapa 209 / 19?",
+    "a": "209 / 19 sama dengan 11."
+  },
+  {
+    "q": "Berapa 160 / 20?",
+    "a": "160 / 20 sama dengan 8."
+  },
+  {
+    "q": "Berapa 39 / 3?",
+    "a": "39 / 3 sama dengan 13."
+  },
+  {
+    "q": "Berapa 156 / 6?",
+    "a": "156 / 6 sama dengan 26."
+  },
+  {
+    "q": "Berapa 90 / 15?",
+    "a": "90 / 15 sama dengan 6."
+  },
+  {
+    "q": "Berapa 104 / 13?",
+    "a": "104 / 13 sama dengan 8."
+  },
+  {
+    "q": "Berapa 344 / 8?",
+    "a": "344 / 8 sama dengan 43."
+  },
+  {
+    "q": "Berapa 20 / 4?",
+    "a": "20 / 4 sama dengan 5."
+  },
+  {
+    "q": "Berapa 320 / 16?",
+    "a": "320 / 16 sama dengan 20."
+  },
+  {
+    "q": "Berapa 45 / 5?",
+    "a": "45 / 5 sama dengan 9."
+  },
+  {
+    "q": "Berapa 32 / 8?",
+    "a": "32 / 8 sama dengan 4."
+  },
+  {
+    "q": "Berapa 560 / 14?",
+    "a": "560 / 14 sama dengan 40."
+  },
+  {
+    "q": "Berapa 288 / 6?",
+    "a": "288 / 6 sama dengan 48."
+  },
+  {
+    "q": "Berapa 126 / 14?",
+    "a": "126 / 14 sama dengan 9."
+  },
+  {
+    "q": "Berapa 322 / 14?",
+    "a": "322 / 14 sama dengan 23."
+  },
+  {
+    "q": "Berapa 198 / 11?",
+    "a": "198 / 11 sama dengan 18."
+  },
+  {
+    "q": "Berapa 840 / 20?",
+    "a": "840 / 20 sama dengan 42."
+  },
+  {
+    "q": "Berapa 16 / 2?",
+    "a": "16 / 2 sama dengan 8."
+  },
+  {
+    "q": "Berapa 666 / 18?",
+    "a": "666 / 18 sama dengan 37."
+  },
+  {
+    "q": "Berapa 512 / 16?",
+    "a": "512 / 16 sama dengan 32."
+  },
+  {
+    "q": "Berapa 648 / 18?",
+    "a": "648 / 18 sama dengan 36."
+  },
+  {
+    "q": "Berapa 378 / 18?",
+    "a": "378 / 18 sama dengan 21."
+  },
+  {
+    "q": "Berapa 408 / 12?",
+    "a": "408 / 12 sama dengan 34."
+  },
+  {
+    "q": "Berapa 184 / 8?",
+    "a": "184 / 8 sama dengan 23."
+  },
+  {
+    "q": "Berapa 225 / 5?",
+    "a": "225 / 5 sama dengan 45."
+  },
+  {
+    "q": "Berapa 406 / 14?",
+    "a": "406 / 14 sama dengan 29."
+  },
+  {
+    "q": "Berapa 72 / 4?",
+    "a": "72 / 4 sama dengan 18."
+  },
+  {
+    "q": "Berapa 520 / 20?",
+    "a": "520 / 20 sama dengan 26."
+  },
+  {
+    "q": "Berapa 18 / 2?",
+    "a": "18 / 2 sama dengan 9."
+  },
+  {
+    "q": "Berapa 16 / 8?",
+    "a": "16 / 8 sama dengan 2."
+  },
+  {
+    "q": "Berapa 304 / 19?",
+    "a": "304 / 19 sama dengan 16."
+  },
+  {
+    "q": "Berapa 60 / 12?",
+    "a": "60 / 12 sama dengan 5."
+  },
+  {
+    "q": "Berapa 100 / 5?",
+    "a": "100 / 5 sama dengan 20."
+  },
+  {
+    "q": "Berapa 798 / 19?",
+    "a": "798 / 19 sama dengan 42."
+  },
+  {
+    "q": "Berapa 475 / 19?",
+    "a": "475 / 19 sama dengan 25."
+  },
+  {
+    "q": "Berapa 350 / 7?",
+    "a": "350 / 7 sama dengan 50."
+  },
+  {
+    "q": "Berapa 98 / 14?",
+    "a": "98 / 14 sama dengan 7."
+  },
+  {
+    "q": "Berapa 96 / 4?",
+    "a": "96 / 4 sama dengan 24."
+  },
+  {
+    "q": "Berapa 176 / 16?",
+    "a": "176 / 16 sama dengan 11."
+  },
+  {
+    "q": "Berapa 136 / 17?",
+    "a": "136 / 17 sama dengan 8."
+  },
+  {
+    "q": "Berapa 147 / 7?",
+    "a": "147 / 7 sama dengan 21."
+  },
+  {
+    "q": "Berapa 75 / 5?",
+    "a": "75 / 5 sama dengan 15."
+  },
+  {
+    "q": "Berapa 432 / 9?",
+    "a": "432 / 9 sama dengan 48."
+  },
+  {
+    "q": "Berapa 240 / 6?",
+    "a": "240 / 6 sama dengan 40."
+  },
+  {
+    "q": "Berapa 612 / 17?",
+    "a": "612 / 17 sama dengan 36."
+  },
+  {
+    "q": "Berapa 820 / 20?",
+    "a": "820 / 20 sama dengan 41."
+  },
+  {
+    "q": "Berapa 72 / 18?",
+    "a": "72 / 18 sama dengan 4."
+  },
+  {
+    "q": "Berapa 24 / 2?",
+    "a": "24 / 2 sama dengan 12."
+  },
+  {
+    "q": "Berapa 52 / 2?",
+    "a": "52 / 2 sama dengan 26."
+  },
+  {
+    "q": "Berapa 279 / 9?",
+    "a": "279 / 9 sama dengan 31."
+  },
+  {
+    "q": "Berapa 416 / 13?",
+    "a": "416 / 13 sama dengan 32."
+  },
+  {
+    "q": "Berapa 320 / 20?",
+    "a": "320 / 20 sama dengan 16."
+  },
+  {
+    "q": "Berapa 128 / 4?",
+    "a": "128 / 4 sama dengan 32."
+  },
+  {
+    "q": "Berapa 117 / 3?",
+    "a": "117 / 3 sama dengan 39."
+  },
+  {
+    "q": "Berapa 132 / 12?",
+    "a": "132 / 12 sama dengan 11."
+  },
+  {
+    "q": "Berapa 850 / 17?",
+    "a": "850 / 17 sama dengan 50."
+  },
+  {
+    "q": "Berapa 400 / 10?",
+    "a": "400 / 10 sama dengan 40."
+  },
+  {
+    "q": "Berapa 78 / 3?",
+    "a": "78 / 3 sama dengan 26."
+  },
+  {
+    "q": "Berapa 510 / 15?",
+    "a": "510 / 15 sama dengan 34."
+  },
+  {
+    "q": "Berapa 646 / 17?",
+    "a": "646 / 17 sama dengan 38."
+  },
+  {
+    "q": "Berapa 540 / 18?",
+    "a": "540 / 18 sama dengan 30."
+  },
+  {
+    "q": "Berapa 680 / 20?",
+    "a": "680 / 20 sama dengan 34."
+  },
+  {
+    "q": "Berapa 154 / 14?",
+    "a": "154 / 14 sama dengan 11."
+  },
+  {
+    "q": "Berapa 56 / 4?",
+    "a": "56 / 4 sama dengan 14."
+  },
+  {
+    "q": "Berapa 440 / 20?",
+    "a": "440 / 20 sama dengan 22."
+  },
+  {
+    "q": "Berapa 216 / 6?",
+    "a": "216 / 6 sama dengan 36."
+  },
+  {
+    "q": "Berapa 176 / 16?",
+    "a": "176 / 16 sama dengan 11."
+  },
+  {
+    "q": "Berapa 162 / 6?",
+    "a": "162 / 6 sama dengan 27."
+  },
+  {
+    "q": "Berapa 154 / 14?",
+    "a": "154 / 14 sama dengan 11."
+  },
+  {
+    "q": "Berapa 252 / 7?",
+    "a": "252 / 7 sama dengan 36."
+  },
+  {
+    "q": "Berapa 1000 / 20?",
+    "a": "1000 / 20 sama dengan 50."
+  },
+  {
+    "q": "Berapa 532 / 19?",
+    "a": "532 / 19 sama dengan 28."
+  },
+  {
+    "q": "Berapa 46 / 2?",
+    "a": "46 / 2 sama dengan 23."
+  },
+  {
+    "q": "Berapa 30 / 6?",
+    "a": "30 / 6 sama dengan 5."
+  },
+  {
+    "q": "Berapa 320 / 16?",
+    "a": "320 / 16 sama dengan 20."
+  },
+  {
+    "q": "Berapa 270 / 15?",
+    "a": "270 / 15 sama dengan 18."
+  },
+  {
+    "q": "Berapa 48 / 2?",
+    "a": "48 / 2 sama dengan 24."
+  },
+  {
+    "q": "Berapa 289 / 17?",
+    "a": "289 / 17 sama dengan 17."
+  },
+  {
+    "q": "Berapa 234 / 6?",
+    "a": "234 / 6 sama dengan 39."
+  },
+  {
+    "q": "Berapa 442 / 17?",
+    "a": "442 / 17 sama dengan 26."
+  },
+  {
+    "q": "Ibnu memiliki 11 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "11 x 2 = 110 sepatu."
+  },
+  {
+    "q": "Andi memiliki 93 kelereng, lalu memberikan 33 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "93 - 33 = 60 kelereng."
+  },
+  {
+    "q": "Andi memiliki 52 kelereng, lalu memberikan 24 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "52 - 24 = 28 kelereng."
+  },
+  {
+    "q": "Ibnu memiliki 4 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "4 x 2 = 16 sepatu."
+  },
+  {
+    "q": "Uang Rp105 dibagikan rata kepada 37 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp68."
+  },
+  {
+    "q": "Ibnu memiliki 2 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "2 x 2 = 6 sepatu."
+  },
+  {
+    "q": "Jika ada 30 apel dan kamu membeli 37 lagi, berapa total apelmu?",
+    "a": "30 + 37 = 67 apel."
+  },
+  {
+    "q": "Jika ada 73 apel dan kamu membeli 84 lagi, berapa total apelmu?",
+    "a": "73 + 84 = 157 apel."
+  },
+  {
+    "q": "Jika ada 31 apel dan kamu membeli 68 lagi, berapa total apelmu?",
+    "a": "31 + 68 = 99 apel."
+  },
+  {
+    "q": "Uang Rp69 dibagikan rata kepada 3 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp66."
+  },
+  {
+    "q": "Jika ada 40 apel dan kamu membeli 68 lagi, berapa total apelmu?",
+    "a": "40 + 68 = 108 apel."
+  },
+  {
+    "q": "Ibnu memiliki 2 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "2 x 2 = 14 sepatu."
+  },
+  {
+    "q": "Uang Rp139 dibagikan rata kepada 29 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp110."
+  },
+  {
+    "q": "Jika ada 64 apel dan kamu membeli 95 lagi, berapa total apelmu?",
+    "a": "64 + 95 = 159 apel."
+  },
+  {
+    "q": "Uang Rp63 dibagikan rata kepada 53 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp10."
+  },
+  {
+    "q": "Sebuah kotak berisi 20 buku. Jika ada 8 kotak, berapa jumlah buku seluruhnya?",
+    "a": "20 x 8 = 160 buku."
+  },
+  {
+    "q": "Jika ada 52 apel dan kamu membeli 32 lagi, berapa total apelmu?",
+    "a": "52 + 32 = 84 apel."
+  },
+  {
+    "q": "Ibnu memiliki 10 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "10 x 2 = 20 sepatu."
+  },
+  {
+    "q": "Sebuah kotak berisi 8 buku. Jika ada 4 kotak, berapa jumlah buku seluruhnya?",
+    "a": "8 x 4 = 32 buku."
+  },
+  {
+    "q": "Jika ada 73 apel dan kamu membeli 27 lagi, berapa total apelmu?",
+    "a": "73 + 27 = 100 apel."
+  },
+  {
+    "q": "Ibnu memiliki 3 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "3 x 2 = 9 sepatu."
+  },
+  {
+    "q": "Jika ada 95 apel dan kamu membeli 87 lagi, berapa total apelmu?",
+    "a": "95 + 87 = 182 apel."
+  },
+  {
+    "q": "Sebuah kotak berisi 11 buku. Jika ada 8 kotak, berapa jumlah buku seluruhnya?",
+    "a": "11 x 8 = 88 buku."
+  },
+  {
+    "q": "Jika ada 42 apel dan kamu membeli 61 lagi, berapa total apelmu?",
+    "a": "42 + 61 = 103 apel."
+  },
+  {
+    "q": "Andi memiliki 138 kelereng, lalu memberikan 138 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "138 - 138 = 0 kelereng."
+  },
+  {
+    "q": "Andi memiliki 60 kelereng, lalu memberikan 25 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "60 - 25 = 35 kelereng."
+  },
+  {
+    "q": "Jika ada 88 apel dan kamu membeli 96 lagi, berapa total apelmu?",
+    "a": "88 + 96 = 184 apel."
+  },
+  {
+    "q": "Jika ada 32 apel dan kamu membeli 62 lagi, berapa total apelmu?",
+    "a": "32 + 62 = 94 apel."
+  },
+  {
+    "q": "Jika ada 93 apel dan kamu membeli 22 lagi, berapa total apelmu?",
+    "a": "93 + 22 = 115 apel."
+  },
+  {
+    "q": "Jika ada 47 apel dan kamu membeli 49 lagi, berapa total apelmu?",
+    "a": "47 + 49 = 96 apel."
+  },
+  {
+    "q": "Ibnu memiliki 16 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "16 x 2 = 80 sepatu."
+  },
+  {
+    "q": "Andi memiliki 146 kelereng, lalu memberikan 72 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "146 - 72 = 74 kelereng."
+  },
+  {
+    "q": "Uang Rp90 dibagikan rata kepada 61 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp29."
+  },
+  {
+    "q": "Uang Rp52 dibagikan rata kepada 18 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp34."
+  },
+  {
+    "q": "Uang Rp59 dibagikan rata kepada 32 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp27."
+  },
+  {
+    "q": "Andi memiliki 142 kelereng, lalu memberikan 64 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "142 - 64 = 78 kelereng."
+  },
+  {
+    "q": "Jika ada 34 apel dan kamu membeli 30 lagi, berapa total apelmu?",
+    "a": "34 + 30 = 64 apel."
+  },
+  {
+    "q": "Ibnu memiliki 10 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "10 x 2 = 20 sepatu."
+  },
+  {
+    "q": "Sebuah kotak berisi 17 buku. Jika ada 7 kotak, berapa jumlah buku seluruhnya?",
+    "a": "17 x 7 = 119 buku."
+  },
+  {
+    "q": "Ibnu memiliki 2 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "2 x 2 = 4 sepatu."
+  },
+  {
+    "q": "Andi memiliki 90 kelereng, lalu memberikan 21 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "90 - 21 = 69 kelereng."
+  },
+  {
+    "q": "Andi memiliki 87 kelereng, lalu memberikan 38 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "87 - 38 = 49 kelereng."
+  },
+  {
+    "q": "Uang Rp136 dibagikan rata kepada 101 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp35."
+  },
+  {
+    "q": "Ibnu memiliki 10 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "10 x 2 = 60 sepatu."
+  },
+  {
+    "q": "Andi memiliki 84 kelereng, lalu memberikan 17 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "84 - 17 = 67 kelereng."
+  },
+  {
+    "q": "Jika ada 89 apel dan kamu membeli 60 lagi, berapa total apelmu?",
+    "a": "89 + 60 = 149 apel."
+  },
+  {
+    "q": "Jika ada 29 apel dan kamu membeli 10 lagi, berapa total apelmu?",
+    "a": "29 + 10 = 39 apel."
+  },
+  {
+    "q": "Ibnu memiliki 13 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "13 x 2 = 52 sepatu."
+  },
+  {
+    "q": "Sebuah kotak berisi 4 buku. Jika ada 4 kotak, berapa jumlah buku seluruhnya?",
+    "a": "4 x 4 = 16 buku."
+  },
+  {
+    "q": "Jika ada 24 apel dan kamu membeli 73 lagi, berapa total apelmu?",
+    "a": "24 + 73 = 97 apel."
+  },
+  {
+    "q": "Jika ada 37 apel dan kamu membeli 42 lagi, berapa total apelmu?",
+    "a": "37 + 42 = 79 apel."
+  },
+  {
+    "q": "Ibnu memiliki 18 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "18 x 2 = 90 sepatu."
+  },
+  {
+    "q": "Jika ada 43 apel dan kamu membeli 56 lagi, berapa total apelmu?",
+    "a": "43 + 56 = 99 apel."
+  },
+  {
+    "q": "Sebuah kotak berisi 6 buku. Jika ada 8 kotak, berapa jumlah buku seluruhnya?",
+    "a": "6 x 8 = 48 buku."
+  },
+  {
+    "q": "Uang Rp92 dibagikan rata kepada 21 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp71."
+  },
+  {
+    "q": "Jika ada 13 apel dan kamu membeli 79 lagi, berapa total apelmu?",
+    "a": "13 + 79 = 92 apel."
+  },
+  {
+    "q": "Ibnu memiliki 13 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "13 x 2 = 130 sepatu."
+  },
+  {
+    "q": "Andi memiliki 72 kelereng, lalu memberikan 18 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "72 - 18 = 54 kelereng."
+  },
+  {
+    "q": "Andi memiliki 65 kelereng, lalu memberikan 43 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "65 - 43 = 22 kelereng."
+  },
+  {
+    "q": "Ibnu memiliki 11 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "11 x 2 = 22 sepatu."
+  },
+  {
+    "q": "Sebuah kotak berisi 15 buku. Jika ada 10 kotak, berapa jumlah buku seluruhnya?",
+    "a": "15 x 10 = 150 buku."
+  },
+  {
+    "q": "Sebuah kotak berisi 18 buku. Jika ada 8 kotak, berapa jumlah buku seluruhnya?",
+    "a": "18 x 8 = 144 buku."
+  },
+  {
+    "q": "Ibnu memiliki 18 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "18 x 2 = 126 sepatu."
+  },
+  {
+    "q": "Ibnu memiliki 10 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "10 x 2 = 80 sepatu."
+  },
+  {
+    "q": "Ibnu memiliki 10 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "10 x 2 = 50 sepatu."
+  },
+  {
+    "q": "Ibnu memiliki 14 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "14 x 2 = 84 sepatu."
+  },
+  {
+    "q": "Ibnu memiliki 15 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "15 x 2 = 75 sepatu."
+  },
+  {
+    "q": "Sebuah kotak berisi 8 buku. Jika ada 3 kotak, berapa jumlah buku seluruhnya?",
+    "a": "8 x 3 = 24 buku."
+  },
+  {
+    "q": "Ibnu memiliki 6 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "6 x 2 = 12 sepatu."
+  },
+  {
+    "q": "Ibnu memiliki 9 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "9 x 2 = 54 sepatu."
+  },
+  {
+    "q": "Uang Rp128 dibagikan rata kepada 78 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp50."
+  },
+  {
+    "q": "Andi memiliki 103 kelereng, lalu memberikan 56 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "103 - 56 = 47 kelereng."
+  },
+  {
+    "q": "Sebuah kotak berisi 13 buku. Jika ada 3 kotak, berapa jumlah buku seluruhnya?",
+    "a": "13 x 3 = 39 buku."
+  },
+  {
+    "q": "Andi memiliki 59 kelereng, lalu memberikan 23 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "59 - 23 = 36 kelereng."
+  },
+  {
+    "q": "Andi memiliki 81 kelereng, lalu memberikan 17 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "81 - 17 = 64 kelereng."
+  },
+  {
+    "q": "Jika ada 21 apel dan kamu membeli 29 lagi, berapa total apelmu?",
+    "a": "21 + 29 = 50 apel."
+  },
+  {
+    "q": "Jika ada 97 apel dan kamu membeli 88 lagi, berapa total apelmu?",
+    "a": "97 + 88 = 185 apel."
+  },
+  {
+    "q": "Andi memiliki 115 kelereng, lalu memberikan 94 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "115 - 94 = 21 kelereng."
+  },
+  {
+    "q": "Uang Rp137 dibagikan rata kepada 128 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp9."
+  },
+  {
+    "q": "Uang Rp129 dibagikan rata kepada 114 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp15."
+  },
+  {
+    "q": "Andi memiliki 103 kelereng, lalu memberikan 82 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "103 - 82 = 21 kelereng."
+  },
+  {
+    "q": "Jika ada 52 apel dan kamu membeli 46 lagi, berapa total apelmu?",
+    "a": "52 + 46 = 98 apel."
+  },
+  {
+    "q": "Sebuah kotak berisi 12 buku. Jika ada 8 kotak, berapa jumlah buku seluruhnya?",
+    "a": "12 x 8 = 96 buku."
+  },
+  {
+    "q": "Sebuah kotak berisi 20 buku. Jika ada 3 kotak, berapa jumlah buku seluruhnya?",
+    "a": "20 x 3 = 60 buku."
+  },
+  {
+    "q": "Sebuah kotak berisi 3 buku. Jika ada 3 kotak, berapa jumlah buku seluruhnya?",
+    "a": "3 x 3 = 9 buku."
+  },
+  {
+    "q": "Sebuah kotak berisi 15 buku. Jika ada 2 kotak, berapa jumlah buku seluruhnya?",
+    "a": "15 x 2 = 30 buku."
+  },
+  {
+    "q": "Ibnu memiliki 11 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "11 x 2 = 55 sepatu."
+  },
+  {
+    "q": "Uang Rp83 dibagikan rata kepada 9 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp74."
+  },
+  {
+    "q": "Ibnu memiliki 10 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "10 x 2 = 30 sepatu."
+  },
+  {
+    "q": "Ibnu memiliki 20 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "20 x 2 = 100 sepatu."
+  },
+  {
+    "q": "Ibnu memiliki 18 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "18 x 2 = 126 sepatu."
+  },
+  {
+    "q": "Uang Rp97 dibagikan rata kepada 58 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp39."
+  },
+  {
+    "q": "Ibnu memiliki 6 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "6 x 2 = 54 sepatu."
+  },
+  {
+    "q": "Sebuah kotak berisi 15 buku. Jika ada 7 kotak, berapa jumlah buku seluruhnya?",
+    "a": "15 x 7 = 105 buku."
+  },
+  {
+    "q": "Andi memiliki 66 kelereng, lalu memberikan 51 kelereng kepada temannya. Sisa kelereng Andi adalah?",
+    "a": "66 - 51 = 15 kelereng."
+  },
+  {
+    "q": "Ibnu memiliki 10 pasang sepatu. Berapa jumlah sepatu (satuan) yang dimiliki Ibnu?",
+    "a": "10 x 2 = 100 sepatu."
+  },
+  {
+    "q": "Jika ada 63 apel dan kamu membeli 73 lagi, berapa total apelmu?",
+    "a": "63 + 73 = 136 apel."
+  },
+  {
+    "q": "Uang Rp66 dibagikan rata kepada 42 anak. Berapa bagian masing-masing anak?",
+    "a": "Masing-masing anak mendapat Rp24."
+  },
+  {
+    "q": "Sebuah kotak berisi 18 buku. Jika ada 8 kotak, berapa jumlah buku seluruhnya?",
+    "a": "18 x 8 = 144 buku."
+  },
+  {
+    "q": "Jika ada 71 apel dan kamu membeli 59 lagi, berapa total apelmu?",
+    "a": "71 + 59 = 130 apel."
   }
 ]

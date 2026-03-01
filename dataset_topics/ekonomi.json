@@ -38,8 +38,7 @@
   {
     "q": "Apa itu resesi?",
     "a": "Resesi adalah kondisi ekonomi yang menurun secara signifikan dalam periode waktu tertentu."
-  }
-  ,
+  },
   {
     "q": "Apa yang dimaksud dengan ekonomi?",
     "a": "Ekonomi adalah ilmu yang mempelajari produksi, distribusi, dan konsumsi barang serta jasa dalam masyarakat."
@@ -79,131 +78,2509 @@
   {
     "q": "Apa peran pasar modal dalam perekonomian?",
     "a": "Pasar modal menyediakan sarana bagi perusahaan untuk mengumpulkan modal dan bagi investor untuk menanamkan dana dan berperan dalam alokasi sumber daya."
-    },
-    {"q": "Apa itu ekonomi mikro?", "a": "Ekonomi mikro adalah cabang ekonomi yang mempelajari perilaku individu dan perusahaan dalam mengambil keputusan ekonomi."},
-    {"q": "Apa itu ekonomi makro?", "a": "Ekonomi makro adalah cabang ekonomi yang mempelajari perekonomian secara keseluruhan, seperti inflasi, pengangguran, dan pertumbuhan ekonomi."},
-    {"q": "Apa itu permintaan dan penawaran?", "a": "Permintaan adalah jumlah barang yang ingin dibeli pada harga tertentu, penawaran adalah jumlah barang yang ingin dijual pada harga tertentu."},
-    {"q": "Apa itu kurs valuta asing?", "a": "Kurs valuta asing adalah nilai tukar mata uang suatu negara terhadap mata uang negara lain."},
-    {"q": "Apa itu APBN?", "a": "APBN (Anggaran Pendapatan dan Belanja Negara) adalah rencana keuangan tahunan pemerintah yang disetujui DPR."},
-    {"q": "Apa itu startup?", "a": "Startup adalah perusahaan rintisan yang biasanya menawarkan produk atau layanan inovatif dengan potensi pertumbuhan tinggi."},
-    {"q": "Apa itu business plan?", "a": "Business plan adalah dokumen strategis yang menguraikan tujuan bisnis, strategi pemasaran, keuangan proyeksi, dan operasional perusahaan."},
-    {"q": "Apa perbedaan antara UMKM dan perusahaan besar?", "a": "UMKM memiliki skala kecil-menengah, aset terbatas, dan kepemilikan biasanya individu, sementara perusahaan besar memiliki skala besar, aset signifikan, dan kepemilikan tersebar."},
-    {"q": "Apa itu Return on Investment (ROI)?", "a": "ROI adalah persentase keuntungan atau kerugian yang diperoleh dari investasi dibandingkan dengan jumlah modal yang diinvestasikan."},
-    {"q": "Apa itu mutual fund atau reksadana?", "a": "Reksadana adalah produk investasi yang mengumpulkan dana dari banyak investor untuk dikelola oleh manajer profesional yang diinvestasikan ke berbagai instrumen keuangan."},
-    {"q": "Bagaimana cara memulai investasi bagi pemula?", "a": "Pemula dapat memulai dengan mempelajari dasar investasi, mengenal profil risiko diri, memilih instrumen sesuai tujuan, membuka rekening di bank atau broker, dan mulai dengan dana kecil."},
-    {"q": "Apa itu cryptocurrency?", "a": "Cryptocurrency adalah mata uang digital yang menggunakan teknologi kriptografi untuk keamanan dan beroperasi tanpa bank sentral, contohnya Bitcoin dan Ethereum."},
-    {"q": "Apa itu blockchain?", "a": "Blockchain adalah teknologi buku besar terdistribusi yang mencatat transaksi secara aman dan transparan dalam blok-blok yang saling terhubung secara kriptografis."},
-    {"q": "Apa saja kelebihan dan kekurangan cryptocurrency?", "a": "Kelebihan: tidak dikendalikan bank sentral, transaksi cepat lintas negara, biaya rendah. Kekurangan: volatilitas tinggi, risiko keamanan, belum diatur secara konsisten, dan tidak semua tempat menerimanya."},
-    {"q": "Apa itu IPO (Initial Public Offering)?", "a": "IPO adalah penawaran saham perusahaan untuk pertama kalinya kepada publik dengan tujuan mengumpulkan dana dan meningkatkan nilai perusahaan."},
-    {"q": "Apa perbedaan antara trading dan investing?", "a": "Trading adalah membeli dan menjual aset dalam waktu singkat untuk meraih keuntungan jangka pendek, sementara investing adalah memegang aset untuk keuntungan jangka panjang."},
-    {"q": "Bagaimana cara membeli saham?", "a": "Untuk membeli saham, buka rekening sekuritas di perusahaan broker, verifikasi identitas, setor dana, pilih saham yang ingin dibeli, dan lakukan transaksi melalui aplikasi atau website broker."},
-    {"q": "Apa itu budgeting dalam keuangan pribadi?", "a": "Budgeting adalah proses perencanaan dan pengelolaan pendapatan dengan mengalokasikan dana untuk pengeluaran, tabungan, dan investasi sesuai prioritas."},
-    {"q": "Bagaimana cara mengelola utang pribadi?", "a": "Cara mengelola utang: buat daftar utang, prioritaskan utang dengan bunga tertinggi, negosiasikan bunga lebih rendah, buat rencana pembayaran, dan hindari utang baru."},
-    {"q": "Apa itu aset dan liabilitas dalam keuangan?", "a": "Aset adalah harta benda atau sumber daya yang memiliki nilai ekonomis dan dimiliki seseorang, sedangkan liabilitas adalah kewajiban atau utang yang harus dibayarkan."},
-    {"q": "Apa itu net worth?", "a": "Net worth adalah kekayaan bersih seseorang yang dihitung dari total aset dikurangi total liabilitas, mencerminkan kondisi finansial seseorang."},
-    {"q": "Apa itu deflasi?", "a": "Deflasi adalah penurunan harga barang dan jasa secara umum dan berkelanjutan yang berakibat pada peningkatan daya beli uang."},
-    {"q": "Apa itu stagflasi dan dampaknya?", "a": "Stagflasi adalah kombinasi stagnasi ekonomi (pertumbuhan rendah) dengan inflasi tinggi, menyebabkan pengangguran meningkat sambil harga terus naik, situasi yang sangat sulit untuk ekonomi."},
-    {"q": "Apa itu ETF (Exchange Traded Fund)?", "a": "ETF adalah produk investasi yang mewakili kumpulan saham atau aset lain dan dapat diperdagangkan di bursa saham seperti saham biasa."},
-    {"q": "Bagaimana cara menghindari risiko finansial?", "a": "Cara menghindari risiko finansial: diversifikasi investasi, miliki dana darurat 3-6 bulan pengeluaran, asuransi yang tepat, hindari utang konsumtif, dan terus belajar literasi keuangan."},
-    {"q": "Apa itu elastisitas harga dalam mikroekonomi?", "a": "Elastisitas harga adalah ukuran sensitivitas perubahan jumlah permintaan atau penawaran terhadap perubahan harga. Contoh: jika harga kopi naik 10% dan permintaan turun 5%, elastisitasnya adalah 0,5 (inelastis), berarti kopi termasuk barang dengan permintaan tidak sangat sensitive terhadap harga."},
-    {"q": "Apa itu pasar sempurna dalam ekonomi mikro?", "a": "Pasar sempurna (perfect competition) adalah pasar dengan banyak pembeli dan penjual, produk homogen, informasi lengkap, dan tidak ada hambatan masuk keluar. Contoh: pasar sayuran tradisional biasanya mendekati pasar sempurna."},
-    {"q": "Apa itu monopoli dan berapa dampak ekonominya?", "a": "Monopoli adalah struktur pasar dengan satu penjual yang menguasai seluruh penawaran produk. Dampak: harga lebih mahal, kualitas mungkin rendah, inovasi terhambat, dan konsumen dirugikan. Contoh: perusahaan listrik atau air minum di daerah tertentu."},
-    {"q": "Apa perbedaan antara pengangguran fraksional, siklis, dan struktural?", "a": "Pengangguran fraksional: terjadi karena perpindahan pekerjaan (bersifat sementara). Contoh: lulusan baru mencari kerja. Pengangguran siklis: karena periode resesi ekonomi. Pengangguran struktural: skill tidak cocok kebutuhan pasar akibat perubahan teknologi."},
-    {"q": "Apa itu siklus bisnis dalam perekonomian?", "a": "Siklus bisnis adalah fluktuasi ekonomi dengan tahap ekspansi (pertumbuhan), puncak, kontraksi (resesi), dan lembah. Contoh Indonesia: pertumbuhan ekonomi 5% pada 2018, melambat pada 2020 akibat pandemi adalah bagian dari siklus bisnis."},
-    {"q": "Bagaimana cara kerja BI Rate dalam ekonomi Indonesia?", "a": "BI Rate adalah suku bunga acuan Bank Indonesia yang mempengaruhi suku bunga bank komersial. Jika BI Rate naik, biaya kredit meningkat, mendorong masyarakat menabung lebih banyak. Jika turun, kredit lebih murah, mendorong konsumsi dan investasi untuk merangsang ekonomi."},
-    {"q": "Apa peran Rupiah dalam perekonomian Indonesia dan faktor yang mempengaruhibentuknya?", "a": "Rupiah adalah mata uang resmi Indonesia yang penting untuk transaksi domestik dan internasional. Nilai Rupiah dipengaruhi oleh: cadangan devisa, ekspor-impor, inflasi, suku bunga, dan sentimen pasar global. Rupiah yang lemah membuat impor mahal namun ekspor lebih kompetitif."},
-    {"q": "Apa itu ekspor dan impor, dan mengapa penting bagi Indonesia?", "a": "Ekspor adalah penjualan barang ke luar negeri, impor adalah pembelian barang dari luar. Indonesia mengandalkan ekspor (minyak, gas, komoditas pertanian, tekstil) untuk devisa dan impor untuk barang yang tidak dapat diproduksi lokal. Surplus ekspor memperkuat ekonomi, defisit melemahkan."},
-    {"q": "Apa itu OECD dan bagaimana relevansinya dengan Indonesia?", "a": "OECD (Organisation for Economic Co-operation and Development) adalah organisasi 38 negara maju untuk kerja sama ekonomi. Indonesia bukan anggota, tapi berpartisipasi dalam program kemitraan. OECD memberikan rekomendasi kebijakan ekonomi yang diikuti banyak negara."},
-    {"q": "Apa itu compound interest dan bagaimana pengaruhnya pada investasi jangka panjang?", "a": "Compound interest adalah bunga yang dihitung atas pokok ditambah bunga sebelumnya. Contoh: investasi Rp 10 juta dengan bunga 10% per tahun, tahun kedua mendapat bunga dari Rp 11 juta. Dalam 30 tahun bisa menjadi Rp 174 juta. Ini mengapa investasi awal penting untuk masa depan."},
-    {"q": "Apa itu yield dalam investasi obligasi?", "a": "Yield adalah tingkat pengembalian tahunan dari obligasi yang dihitung berdasarkan bunga yang diterima dibagi harga obligasi. Contoh: membeli obligasi nominal Rp 1 juta dengan bunga Rp 80 ribu, yielnya 8%. Yield naik ketika harga obligasi turun di pasar sekunder."},
-    {"q": "Bagaimana cara menghitung break-even point dalam bisnis?", "a": "Break-even point adalah titik di mana total pendapatan sama dengan total biaya, tidak ada untung atau rugi. Rumus: BEP = Biaya Tetap / (Harga Unit - Biaya Variabel per Unit). Contoh: jika biaya tetap Rp 50 juta, harga Rp 100 ribu, biaya variabel Rp 60 ribu, maka BEP adalah 5.000 unit yang harus terjual."},
-    {"q": "Apa itu margin keuntungan dan bagaimana mengoptimalkannya?", "a": "Margin keuntungan adalah selisih antara harga jual dan biaya produksi yang menunjukkan profitabilitas. Untuk meningkatkannya: kurangi biaya produksi, tingkatkan harga (jika pasar memungkinkan), atau tingkatkan volume penjualan. Contoh: jika margin 30%, setiap Rp 100 ribu penjualan menghasilkan Rp 30 ribu keuntungan."},
-    {"q": "Apa itu konsumsi, produksi, dan distribusi dalam ekonomi?", "a": "Konsumsi adalah penggunaan barang/jasa oleh konsumen, produksi adalah pembuatan barang/jasa, distribusi adalah penyaluran dari produsen ke konsumen. Ketiga aspek ini membentuk siklus ekonomi: produsen menciptakan barang, distributor menyalurkan, konsumen membeli dan menggunakan."},
-    {"q": "Bagaimana peran industri manufaktur bagi ekonomi Indonesia?", "a": "Industri manufaktur Indonesia menghasilkan produk tekstil, otomotif, elektronik, dan mesin yang diekspor. Kontribusi terhadap GDP sekitar 20%. Penting bagi lapangan kerja, investasi asing, dan transfer teknologi. Tantangannya: biaya produksi tinggi, infrastruktur kurang, persaingan dari Vietnam dan Bangladesh."},
-    {"q": "Apa itu UMKM dan kontribusinya terhadap ekonomi Indonesia?", "a": "UMKM (Usaha Mikro, Kecil, Menengah) adalah bisnis dengan aset dan karyawan terbatas, menyerap 97% tenaga kerja Indonesia dan berkontribusi 60% terhadap GDP. Tantangan UMKM: akses kredit sulitusaha, skill manajemen terbatas, persaingan ketat, namun potensi untuk berkembang sangat besar."},
-    {"q": "Apa itu Foreign Direct Investment (FDI) dan pengaruhnya pada ekonomi Indonesia?", "a": "FDI adalah investasi asing langsung di Indonesia melalui pendirian cabang, fusi, atau akuisisi perusahaan. Dampak positif: penciptaan lapangan kerja, transfer teknologi, peningkatan ekspor, pemasukan devisa. Dampak negatif: keuntungan bisa diambil ke luar, beban lingkungan, ketergantungan pada modal asing."},
-    {"q": "Bagaimana pengaruh kenaikan gaji minimum terhadap perekonomian?", "a": "Kenaikan UMK meningkatkan daya beli karyawan (positif) namun bisa mengurangi hiring, meningkatkan harga barang, atau mengurangi keuntungan perusahaan (negatif). Dampak tergantung: seberapa besar kenaikan, kondisi industri, produktivitas pekerja, dan daya serap perusahaan terhadap biaya tambahan."},
-    {"q": "Apa itu financial literacy dan mengapa penting di Indonesia?", "a": "Financial literacy adalah pemahaman tentang pengelolaan keuangan, investasi, asuransi, dan risiko finansial. Penting di Indonesia karena: mayoritas penduduk masih memiliki literasi keuangan rendah, banyak yang jatuh ke utang konsumtif, perlu persiapan pensiun sedini mungkin, dan potensi investasi masih terbuang."},
-    {"q": "Apa itu real estate investment dan mengapa menjadi pilihan favorit di Indonesia?", "a": "Real estate investment adalah membeli properti (tanah, rumah, apartemen) untuk ditahan nilainya atau disewakan untuk pendapatan. Favorit di Indonesia karena: properti terus naik nilainya, Indonesia memiliki populasi besar, permintaan tinggi, bisa disewakan untuk passive income, dan tangible (dapat dilihat/disentuh)."},
-    {"q": "Apa itu ekonomi hijau dan investasi berkelanjutan (ESG)?", "a": "Ekonomi hijau adalah model ekonomi yang memprioritaskan keberlanjutan lingkungan dan sosial. ESG (Environmental, Social, Governance) adalah kriteria investasi yang mempertimbangkan dampak lingkungan, sosial, dan tata kelola perusahaan. Semakin banyak investor Indonesia memilih investasi ESG untuk balans profit dengan tanggung jawab sosial lingkungan."},
-    {"q": "Apa itu gig economy dan bagaimana pengaruhnya terhadap pasar kerja Indonesia?", "a": "Gig economy adalah model ekonomi di mana pekerja menerima pekerjaan proyek berdasarkan kontrak atau tugas singkat (gig) melalui platform digital seperti ride-sharing, freelance, atau delivery. Di Indonesia, gig economy tumbuh pesat dengan platform Grab, Gojek, Tokopedia, memberikan fleksibilitas namun dengan risiko tidak adanya jaminan sosial atau asuransi kesehatan tetap."},
-    {"q": "Apa itu tax planning dan strategi legal mengurangi beban pajak?", "a": "Tax planning adalah strategi legal untuk mengoptimalkan kewajiban pajak dengan memanfaatkan regulasi yang berlaku. Strategi: menggunakan instrumen investasi yang pajakannya rendah (seperti tabungan emas), membuka usaha (bisa mendapat insentif PPh), menggunakan dana pendidikan (potong gaji), mendaftar sebagai wajib pajak untuk mendapat kredit pajak. Perbedaan penting: tax planning adalah legal, tax evasion adalah ilegal dan bisa dihukum."},
-    {"q": "Apa itu supply chain dan bagaimana gangguan supply chain mempengaruhi inflasi?", "a": "Supply chain adalah jaringan proses produksi, distribusi, dan pengiriman barang dari produsen ke konsumen. Gangguan supply chain (akibat pandemi, bencana alam, atau konflik) menyebabkan kekurangan barang, meningkatkan harga produksi, dan mendorong inflasi. Contoh: pandemi COVID-19 mengganggu supply chip global, menyebabkan harga elektronik naik signifikan di Indonesia tahun 2021-2022."},
-    {"q": "Apa itu pertumbuhan ekonomi dan bagaimana cara mengukurnya?", "a": "Pertumbuhan ekonomi adalah peningkatan kapasitas produksi dan output ekonomi suatu negara dalam periode tertentu, biasanya diukur dengan peningkatan persentase GDP. Contoh: jika GDP tahun lalu Rp 1.000 triliun dan tahun ini Rp 1.050 triliun, maka pertumbuhan ekonomi adalah 5%. Pertumbuhan positif menunjukkan ekonomi berkembang, menciptakan lapangan kerja, dan meningkatkan kesejahteraan."},
-    {"q": "Apa itu pembangunan berkelanjutan (sustainable development) dalam konteks ekonomi?", "a": "Pembangunan berkelanjutan adalah pengembangan ekonomi yang memenuhi kebutuhan saat ini tanpa mengorbankan kemampuan generasi mendatang. Mencakup: pertumbuhan ekonomi, kelestarian lingkungan, dan keadilan sosial. Contoh: menggunakan energi terbarukan, mengurangi limbah, mendukung pendidikan, dan mengurangi kemiskinan. Indonesia berkomitmen pada Sustainable Development Goals (SDGs) PBB."},
-    {"q": "Apa itu ketimpangan pendapatan dan apa dampaknya terhadap ekonomi?", "a": "Ketimpangan pendapatan adalah perbedaan besar dalam distribusi pendapatan antar kelompok masyarakat, diukur dengan indeks Gini. Jika indeks Gini 0 berarti sempurna merata, jika 1 berarti sepenuhnya tidak merata. Dampak negatif: mengurangi daya beli mayoritas, meningkatkan kriminalitas, menghambat pertumbuhan ekonomi jangka panjang, dan menciptakan ketidakstabilan sosial."},
-    {"q": "Apa perbedaan antara perdagangan bebas dan proteksionisme, serta manfaat dan kerugiannya?", "a": "Perdagangan bebas adalah pasar terbuka tanpa hambatan tarif atau kuota, memungkinkan negoisasi harga kompetitif dan alokasi sumber daya efisien. Proteksionisme adalah pembatasan impor melalui tarif atau kuota untuk melindungi industri lokal. Manfaat perdagangan bebas: konsumen hemat, efisiensi global. Kerugian: industri lokal lemah, pengangguran. Manfaat proteksionisme: melindungi industri lokal, independensi ekonomi. Kerugian: harga lebih mahal, inovasi terhambat, risiko balas dendam dari negara lain."},
-    {"q": "Apa itu e-commerce dan bagaimana perkembangannya di Indonesia?", "a": "E-commerce adalah perdagangan elektronik yang memungkinkan jual beli barang dan jasa melalui internet. Di Indonesia, e-commerce berkembang pesat dengan platform seperti Tokopedia, Shopee, dan Bukalapak, didorong oleh penetrasi internet yang tinggi dan populasi muda yang melek teknologi."},
-    {"q": "Apa itu ekonomi digital?", "a": "Ekonomi digital adalah aktivitas ekonomi yang berbasis teknologi digital, mencakup e-commerce, fintech, ride-hailing, dan layanan berbasis aplikasi. Indonesia memiliki ekonomi digital terbesar di Asia Tenggara dengan nilai diperkirakan ratusan miliar dolar."},
-    {"q": "Apa itu koperasi dan apa perannya dalam perekonomian Indonesia?", "a": "Koperasi adalah badan usaha yang beranggotakan orang-orang atau badan hukum yang berlandaskan asas kekeluargaan. Koperasi berperan dalam memberdayakan ekonomi rakyat kecil, menyediakan akses kredit murah, dan meningkatkan kesejahteraan anggotanya sesuai amanat UUD 1945 Pasal 33."},
-    {"q": "Apa fungsi Bank Indonesia sebagai bank sentral?", "a": "Bank Indonesia berfungsi menetapkan dan melaksanakan kebijakan moneter, mengatur dan menjaga kelancaran sistem pembayaran, serta menjaga stabilitas sistem keuangan. BI juga bertanggung jawab menjaga nilai tukar Rupiah dan mengendalikan inflasi."},
-    {"q": "Apa itu cadangan devisa dan mengapa penting bagi negara?", "a": "Cadangan devisa adalah simpanan mata uang asing yang dimiliki bank sentral untuk menjaga stabilitas nilai tukar, membayar utang luar negeri, dan membiayai impor. Cadangan devisa yang cukup menunjukkan ketahanan ekonomi suatu negara terhadap guncangan eksternal."},
-    {"q": "Apa itu subsidi pemerintah dan apa dampaknya?", "a": "Subsidi adalah bantuan keuangan dari pemerintah untuk menurunkan harga barang atau jasa tertentu agar terjangkau masyarakat. Dampak positif: meringankan beban rakyat. Dampak negatif: membebani APBN, bisa salah sasaran, dan berpotensi mendistorsi mekanisme pasar."},
-    {"q": "Apa itu fintech dan bagaimana perannya di Indonesia?", "a": "Fintech (financial technology) adalah inovasi teknologi dalam layanan keuangan seperti pembayaran digital, pinjaman online, dan investasi berbasis aplikasi. Di Indonesia, fintech memperluas akses keuangan bagi masyarakat yang belum terjangkau perbankan konvensional (unbanked)."},
-    {"q": "Apa itu peer-to-peer (P2P) lending?", "a": "P2P lending adalah platform pinjam-meminjam uang secara online yang menghubungkan pemberi pinjaman langsung dengan peminjam tanpa melalui bank. Di Indonesia, P2P lending diawasi oleh OJK dan menjadi alternatif pembiayaan bagi UMKM yang sulit mengakses kredit bank."},
-    {"q": "Apa itu Indeks Harga Konsumen (IHK)?", "a": "IHK adalah indikator yang mengukur perubahan rata-rata harga sekelompok barang dan jasa yang dikonsumsi rumah tangga dalam periode tertentu. IHK digunakan oleh BPS untuk menghitung tingkat inflasi di Indonesia."},
-    {"q": "Apa yang dimaksud dengan utang negara?", "a": "Utang negara adalah pinjaman yang dilakukan pemerintah baik dari dalam negeri maupun luar negeri untuk membiayai defisit anggaran. Rasio utang terhadap PDB Indonesia dijaga agar tetap di bawah 60% sesuai undang-undang untuk menjaga kesehatan fiskal."},
-    {"q": "Apa itu devaluasi mata uang?", "a": "Devaluasi adalah penurunan nilai mata uang secara resmi oleh pemerintah atau bank sentral terhadap mata uang asing. Tujuannya biasanya untuk meningkatkan daya saing ekspor, namun berisiko meningkatkan harga barang impor dan memicu inflasi."},
-    {"q": "Apa itu redenominasi mata uang?", "a": "Redenominasi adalah penyederhanaan nilai nominal mata uang tanpa mengubah nilai tukar atau daya beli. Contoh: Rp 10.000 menjadi Rp 10 baru. Tujuannya mempermudah transaksi dan meningkatkan kepercayaan terhadap mata uang nasional."},
-    {"q": "Apa itu dumping dalam perdagangan internasional?", "a": "Dumping adalah praktik menjual produk ke pasar luar negeri dengan harga di bawah harga produksi atau harga di pasar domestik. Tujuannya untuk merebut pangsa pasar, namun dianggap persaingan tidak sehat dan bisa dikenai bea masuk anti-dumping oleh negara importir."},
-    {"q": "Apa itu WTO dan apa perannya?", "a": "WTO (World Trade Organization) adalah organisasi internasional yang mengatur perdagangan global, menyelesaikan sengketa dagang, dan mempromosikan liberalisasi perdagangan. Indonesia adalah anggota WTO sejak 1995 dan terikat aturan perdagangan multilateral."},
-    {"q": "Apa itu ASEAN Economic Community (AEC)?", "a": "AEC atau Masyarakat Ekonomi ASEAN adalah integrasi ekonomi negara-negara ASEAN yang bertujuan menciptakan pasar tunggal dan basis produksi bersama. AEC memungkinkan arus bebas barang, jasa, investasi, tenaga kerja terampil, dan modal di kawasan Asia Tenggara."},
-    {"q": "Apa itu keunggulan komparatif dalam perdagangan?", "a": "Keunggulan komparatif adalah kemampuan suatu negara memproduksi barang dengan biaya peluang lebih rendah dibanding negara lain. Teori David Ricardo ini menjelaskan mengapa perdagangan internasional menguntungkan semua pihak meski salah satu negara lebih produktif di semua bidang."},
-    {"q": "Apa itu biaya peluang (opportunity cost)?", "a": "Biaya peluang adalah nilai dari alternatif terbaik yang harus dikorbankan ketika membuat suatu keputusan ekonomi. Contoh: jika memilih kuliah daripada bekerja, biaya peluangnya adalah gaji yang tidak diperoleh selama masa kuliah."},
-    {"q": "Apa itu pasar oligopoli?", "a": "Pasar oligopoli adalah struktur pasar yang didominasi oleh beberapa perusahaan besar yang saling mempengaruhi keputusan harga dan produksi. Contoh di Indonesia: industri telekomunikasi (Telkomsel, Indosat, XL) dan industri semen."},
-    {"q": "Apa itu ekonomi kerakyatan?", "a": "Ekonomi kerakyatan adalah sistem ekonomi yang mengutamakan kepentingan rakyat banyak, sesuai Pasal 33 UUD 1945. Prinsipnya: koperasi sebagai soko guru, penguasaan negara atas sumber daya strategis, dan pemberdayaan ekonomi masyarakat kecil melalui UMKM."},
-    {"q": "Apa itu BUMN dan apa perannya dalam ekonomi Indonesia?", "a": "BUMN (Badan Usaha Milik Negara) adalah perusahaan yang sebagian atau seluruh modalnya dimiliki negara. BUMN berperan menyediakan layanan publik, menghasilkan pendapatan negara, dan menggerakkan sektor strategis seperti energi (Pertamina), perbankan (BRI, Mandiri), dan telekomunikasi (Telkom)."},
-    {"q": "Bagaimana dampak subsidi BBM terhadap perekonomian Indonesia?", "a": "Subsidi BBM membuat harga bahan bakar terjangkau sehingga menekan biaya transportasi dan produksi. Namun, subsidi BBM membebani APBN secara signifikan, sering tidak tepat sasaran karena dinikmati kelompok mampu, dan menghambat transisi ke energi terbarukan."},
-    {"q": "Apa itu dana pensiun dan mengapa penting?", "a": "Dana pensiun adalah program tabungan jangka panjang yang memberikan penghasilan setelah seseorang berhenti bekerja. Penting karena menjamin kesejahteraan di masa tua ketika produktivitas menurun. Di Indonesia, ada BPJS Ketenagakerjaan dan dana pensiun lembaga keuangan (DPLK)."},
-    {"q": "Apa itu perbankan syariah dan bedanya dengan konvensional?", "a": "Perbankan syariah adalah sistem perbankan yang beroperasi berdasarkan prinsip hukum Islam, tanpa bunga (riba). Perbedaannya: bank syariah menggunakan bagi hasil (mudharabah), jual beli (murabahah), dan sewa (ijarah), sementara bank konvensional menggunakan sistem bunga tetap."},
-    {"q": "Apa itu sukuk?", "a": "Sukuk adalah surat berharga syariah atau obligasi syariah yang diterbitkan berdasarkan prinsip Islam tanpa unsur riba. Pemerintah Indonesia menerbitkan sukuk negara sebagai instrumen pembiayaan APBN sekaligus alternatif investasi bagi masyarakat yang menginginkan produk keuangan syariah."},
-    {"q": "Apa itu IHSG dan bagaimana cara membacanya?", "a": "IHSG (Indeks Harga Saham Gabungan) adalah indeks yang mengukur pergerakan semua saham yang tercatat di Bursa Efek Indonesia. Jika IHSG naik, berarti secara umum harga saham meningkat. IHSG menjadi indikator utama kesehatan pasar modal dan sentimen investor di Indonesia."},
-    {"q": "Apa itu likuiditas dalam konteks keuangan?", "a": "Likuiditas adalah kemampuan aset untuk dikonversi menjadi uang tunai dengan cepat tanpa kehilangan nilai signifikan. Uang tunai memiliki likuiditas tertinggi, sementara properti memiliki likuiditas rendah karena butuh waktu lama untuk dijual."},
-    {"q": "Apa itu kapitalisasi pasar suatu perusahaan?", "a": "Kapitalisasi pasar (market cap) adalah total nilai pasar seluruh saham beredar suatu perusahaan, dihitung dari harga saham dikali jumlah saham beredar. Contoh: jika harga saham Rp 5.000 dan ada 1 miliar lembar saham, maka market cap-nya Rp 5 triliun."},
-    {"q": "Apa itu dividen saham?", "a": "Dividen adalah pembagian keuntungan perusahaan kepada pemegang saham berdasarkan jumlah saham yang dimiliki. Dividen bisa berbentuk uang tunai atau saham tambahan, dan biasanya dibagikan secara berkala setelah disetujui dalam Rapat Umum Pemegang Saham (RUPS)."},
-    {"q": "Apa perbedaan analisis fundamental dan teknikal dalam investasi saham?", "a": "Analisis fundamental menilai saham berdasarkan kinerja keuangan perusahaan, prospek bisnis, dan kondisi ekonomi makro. Analisis teknikal menilai pergerakan harga saham berdasarkan pola grafik dan indikator statistik historis. Investor jangka panjang biasanya menggunakan fundamental, sementara trader menggunakan teknikal."},
-    {"q": "Apa itu Surat Berharga Negara (SBN)?", "a": "SBN adalah surat utang yang diterbitkan pemerintah Indonesia untuk membiayai APBN, termasuk Obligasi Negara (ON) dan Surat Berharga Syariah Negara (SBSN/Sukuk). SBN menjadi instrumen investasi yang aman karena dijamin negara dengan imbal hasil kompetitif."},
-    {"q": "Apa itu ekonomi sirkular?", "a": "Ekonomi sirkular adalah model ekonomi yang meminimalkan limbah dengan cara mendaur ulang, menggunakan kembali, dan memperpanjang umur produk. Berbeda dengan ekonomi linear (produksi-konsumsi-buang), ekonomi sirkular bertujuan menciptakan siklus tertutup yang ramah lingkungan dan efisien sumber daya."},
-    {"q": "Apa itu pajak karbon (carbon tax)?", "a": "Pajak karbon adalah pungutan yang dikenakan pada emisi gas rumah kaca, khususnya karbon dioksida, dari aktivitas industri dan pembakaran bahan bakar fosil. Indonesia mulai menerapkan pajak karbon sebagai bagian dari komitmen mengurangi emisi dan mendorong transisi ke energi bersih."},
-    {"q": "Apa itu pendapatan per kapita?", "a": "Pendapatan per kapita adalah rata-rata pendapatan setiap penduduk suatu negara, dihitung dari total pendapatan nasional dibagi jumlah penduduk. Pendapatan per kapita Indonesia sekitar USD 4.000-5.000, menjadikannya negara berpendapatan menengah ke atas menurut klasifikasi Bank Dunia."},
-    {"q": "Apa itu Purchasing Power Parity (PPP)?", "a": "PPP adalah metode pengukuran yang menyesuaikan pendapatan dan harga antar negara berdasarkan daya beli masing-masing mata uang. Dengan PPP, GDP Indonesia terlihat lebih besar karena harga barang di Indonesia umumnya lebih rendah dibandingkan negara maju."},
-    {"q": "Apa perbedaan upah riil dan upah nominal?", "a": "Upah nominal adalah jumlah uang yang diterima pekerja secara langsung, sedangkan upah riil adalah upah nominal yang disesuaikan dengan tingkat inflasi sehingga mencerminkan daya beli sesungguhnya. Jika inflasi naik 5% dan gaji naik 3%, maka upah riil sebenarnya menurun."},
-    {"q": "Apa itu bank digital dan bagaimana perkembangannya di Indonesia?", "a": "Bank digital adalah bank yang beroperasi sepenuhnya melalui platform digital tanpa kantor cabang fisik. Di Indonesia, bank digital seperti Bank Jago, Allo Bank, dan Sea Bank berkembang pesat, menawarkan kemudahan pembukaan rekening, transfer, dan layanan keuangan melalui aplikasi."},
-    {"q": "Apa itu QRIS dan manfaatnya?", "a": "QRIS (Quick Response Code Indonesian Standard) adalah standar kode QR nasional untuk pembayaran digital yang dikembangkan Bank Indonesia. Manfaatnya: satu kode QR bisa digunakan untuk semua aplikasi pembayaran, mempermudah transaksi UMKM, dan mendorong inklusi keuangan di Indonesia."},
-    {"q": "Apa itu inklusi keuangan dan mengapa penting bagi Indonesia?", "a": "Inklusi keuangan adalah upaya menyediakan akses layanan keuangan formal bagi seluruh lapisan masyarakat, termasuk yang belum terjangkau perbankan. Penting bagi Indonesia karena masih banyak penduduk di daerah terpencil yang belum memiliki rekening bank atau akses kredit formal."},
-    {"q": "Apa itu merger dan akuisisi dalam dunia bisnis?", "a": "Merger adalah penggabungan dua perusahaan menjadi satu entitas baru, sedangkan akuisisi adalah pengambilalihan satu perusahaan oleh perusahaan lain. Tujuannya: memperluas pangsa pasar, efisiensi operasional, atau menguasai teknologi tertentu. Contoh: merger Bank Mandiri dari empat bank pemerintah."},
-    {"q": "Apa itu venture capital?", "a": "Venture capital adalah modal ventura yang diberikan oleh investor kepada perusahaan rintisan (startup) yang memiliki potensi pertumbuhan tinggi. Sebagai imbalan, investor mendapat kepemilikan saham. Contoh venture capital di Indonesia: East Ventures, Alpha JWC, dan MDI Ventures."},
-    {"q": "Apa itu angel investor?", "a": "Angel investor adalah individu kaya yang memberikan pendanaan kepada startup di tahap awal dengan imbalan ekuitas atau utang konversi. Berbeda dengan venture capital yang merupakan institusi, angel investor menggunakan dana pribadi dan sering memberikan mentoring kepada founder."},
-    {"q": "Apa itu unicorn dalam konteks startup?", "a": "Unicorn adalah sebutan untuk startup yang memiliki valuasi lebih dari 1 miliar dolar AS. Indonesia memiliki beberapa unicorn seperti GoTo (Gojek-Tokopedia), Traveloka, dan Bukalapak yang menjadi kebanggaan ekosistem startup Indonesia."},
-    {"q": "Apa itu neraca pembayaran internasional?", "a": "Neraca pembayaran adalah catatan sistematis seluruh transaksi ekonomi antara suatu negara dengan negara lain dalam periode tertentu. Terdiri dari neraca transaksi berjalan (ekspor-impor barang/jasa) dan neraca modal (investasi dan pinjaman). Surplus neraca pembayaran memperkuat cadangan devisa."},
-    {"q": "Apa itu OJK dan apa fungsinya?", "a": "OJK (Otoritas Jasa Keuangan) adalah lembaga independen yang mengatur dan mengawasi seluruh kegiatan di sektor jasa keuangan Indonesia, termasuk perbankan, pasar modal, dan industri keuangan non-bank seperti asuransi dan dana pensiun untuk melindungi konsumen dan menjaga stabilitas sistem keuangan."},
-    {"q": "Apa itu PPh dan berapa tarifnya di Indonesia?", "a": "PPh (Pajak Penghasilan) adalah pajak yang dikenakan atas penghasilan yang diterima orang pribadi atau badan. Tarifnya progresif untuk orang pribadi: 5% untuk penghasilan hingga Rp 60 juta, 15% untuk Rp 60-250 juta, 25% untuk Rp 250-500 juta, 30% untuk Rp 500 juta-5 miliar, dan 35% di atas Rp 5 miliar per tahun."},
-    {"q": "Apa itu PPN dan bagaimana penerapannya?", "a": "PPN (Pajak Pertambahan Nilai) adalah pajak yang dikenakan pada setiap transaksi jual beli barang dan jasa kena pajak. Tarif PPN di Indonesia adalah 11% dan dibebankan kepada konsumen akhir. Beberapa barang kebutuhan pokok, jasa pendidikan, dan jasa kesehatan dibebaskan dari PPN."},
-    {"q": "Apa itu Lembaga Penjamin Simpanan (LPS)?", "a": "LPS adalah lembaga independen yang menjamin simpanan nasabah di bank jika bank tersebut mengalami kegagalan. LPS menjamin simpanan hingga Rp 2 miliar per nasabah per bank dengan syarat suku bunga simpanan tidak melebihi tingkat bunga penjaminan yang ditetapkan LPS."},
-    {"q": "Apa itu current account deficit?", "a": "Current account deficit atau defisit transaksi berjalan terjadi ketika nilai impor barang dan jasa suatu negara melebihi nilai ekspornya. Defisit ini bisa menekan nilai tukar mata uang dan harus dibiayai melalui aliran modal masuk atau pengurangan cadangan devisa."},
-    {"q": "Apa itu ekonomi informal?", "a": "Ekonomi informal adalah kegiatan ekonomi yang tidak tercatat secara resmi dan tidak dikenai pajak, seperti pedagang kaki lima, tukang ojek tradisional, dan pekerja rumah tangga. Di Indonesia, sektor informal menyerap sebagian besar tenaga kerja namun tidak terlindungi secara hukum ketenagakerjaan."},
-    {"q": "Apa itu DeFi (Decentralized Finance)?", "a": "DeFi adalah sistem keuangan yang dibangun di atas teknologi blockchain dan memungkinkan transaksi finansial tanpa perantara bank atau lembaga keuangan tradisional. Contoh layanan DeFi: lending terdesentralisasi, pertukaran terdesentralisasi (DEX), dan liquidity pools. Keuntungan DeFi adalah transparansi, akses 24/7, dan rendah biaya, namun risikonya tinggi karena volatilitas aset digital dan potensi smart contract bug."},
-    {"q": "Apa itu NFT (Non-Fungible Token) dan bagaimana nilai ekonominya?", "a": "NFT adalah aset digital unik yang tidak dapat dipertukarkan dengan aset lain (non-fungible), biasanya berbentuk seni digital, koleksi, atau proprietas virtual. Nilai NFT berasal dari kelangkaan, kepemilikan eksklusif, dan permintaan pasar yang spekulatif. Contoh: NFT seni, kartu koleksi digital, dan aset dalam metaverse. Pasar NFT mengalami volatilitas tinggi, banyak yang mengalami penurunan nilai signifikan setelah hype awal."},
-    {"q": "Apa itu Web3 dan bagaimana relevansinya dengan ekonomi digital?", "a": "Web3 adalah visi internet generasi ketiga yang terdesentralisasi, di mana pengguna memiliki kontrol penuh atas data dan aset digital mereka melalui blockchain dan cryptocurrency. Berbeda dengan Web2 yang dikuasai platform besar (Meta, Google), Web3 memberikan otonomi pengguna. Relevansi ekonomi: menciptakan ekosistem baru, peluang investasi kripto, smart contracts untuk otomasi bisnis, dan model ekonomi baru seperti DAO (Decentralized Autonomous Organization)."},
-    {"q": "Apa itu CBDC (Central Bank Digital Currency) dan pengaruhnya?", "a": "CBDC adalah mata uang digital yang diterbitkan dan dijamin oleh bank sentral, di mana Bank Indonesia sedang mengembangkan rupiah digital (e-Rupiah). CBDC memiliki keuntungan: pembayaran digital resmi yang aman, mengurangi penggunaan uang tunai, meningkatkan kecepatan transaksi, dan memudahkan pelacakan arus uang untuk antikorupsi. Pengaruh ekonomi: efisiensi sistem pembayaran, transmisi kebijakan moneter lebih cepat, dan perlindungan dari cryptocurrency yang tidak stabil."},
-    {"q": "Apa itu metaverse economy dan bagaimana potensi ekonominya?", "a": "Metaverse economy adalah aktivitas ekonomi yang terjadi di dunia virtual 3D seperti Roblox, Decentraland, atau The Sandbox. Meliputi: penjualan aset virtual (tanah, bangunan, fashion), layanan virtual, event virtual berbayar, dan pertumbuhan NFT. Potensi ekonomi metaverse besar karena jutaan pengguna worldwide, terutama Gen Z, namun masih dalam tahap awal dan sangat spekulatif dengan banyak proyek gagal atau scam."},
-    {"q": "Apa itu tokenomics dan bagaimana pengaruhnya terhadap nilai cryptocurrency?", "a": "Tokenomics adalah ilmu yang mempelajari ekonomi token digital termasuk mekanisme distribusi, inflation rate, utility, dan akomodasi token dalam ekosistem blockchain. Contoh: Bitcoin memiliki jumlah terbatas 21 juta (supply terbatas mendukung nilai), Ethereum memiliki utility untuk gas fee. Tokenomics yang baik mendorong nilai jangka panjang, sedangkan tokenomics yang buruk (excessive inflation, no utility) menyebabkan token worthless."},
-    {"q": "Apa dampak adopsi pembayaran digital terhadap ekonomi Indonesia?", "a": "Adopsi pembayaran digital di Indonesia meningkat pesat melalui e-wallet (GCash, OVO, Dana), mobile banking, dan QRIS. Dampak positif: mengurangi transparansi transaksi, dan digital footprint untuk credit scoring. Dampak negatif: kematian usaha tradisional yang tidak adaptif, pengangguran di sektor bursa tunai. Dampak makro: meningkatkan inklusi keuangan, data untuk policy making, dan efisiensi alokasi sumber daya, namun memerlukan infrastruktur dan literasi digital yang memadai."},
-    {"q": "Apa itu sharing economy dan bagaimana dampaknya pada pasar kerja?", "a": "Sharing economy atau ekonomi berbagi adalah model bisnis yang memungkinkan orang menyewakan aset atau jasa melalui platform digital, seperti Airbnb (rental rumah), Grab (ride-sharing), dan TaskRabbit (jasa). Dampak positif: fleksibilitas kerja, peningkatan utilisasi aset idle, harga lebih kompetitif. Dampak negatif: kompetisi intens dengan industri tradisional (hotel, taksi), upah rendah, tidak ada jaminan sosial bagi pekerja platform, dan pajak yang kompleks."},
-    {"q": "Apa itu stablecoin dan mengapa penting dalam ekonomi kripto?", "a": "Stablecoin adalah cryptocurrency yang dirancang untuk memiliki nilai stabil dengan mencengkeramkan nilai ke aset lain seperti dolar AS (USDT, USDC) atau emas. Penting dalam ekonomi kripto karena: mengurangi volatilitas, memudahkan transfer nilai, dan digunakan dalam smart contracts. Risiko stablecoin: penerbit mungkin tidak memiliki cadangan penuh, seperti Terra Luna USD yang collapse, merugikan miliaran dolar investor."},
-    {"q": "Apa itu remote work economy dan transformasi pasar kerja global?", "a": "Remote work economy adalah ekonomi yang memungkinkan pekerja bekerja dari mana saja tanpa harus datang ke kantor, dipercepat oleh pandemi COVID-19. Relevansi ekonomi: perusahaan dapat merekrut talenta global dengan gaji kompetitif lokal, meningkatkan produktivitas, mengurangi biaya operasional kantor. Di Indonesia, remote work membuka peluang talent Indonesia untuk bekerja dengan perusahaan global dan earning foreign currency. Namun, risiko: brain drain (talenta lokal hijrah keluar), kompetisi gaji global, dan timezone challenges."},
-    {"q": "Apa itu algoritma ekonomi dan bagaimana pengaruhnya pada pasar?", "a": "Algoritma ekonomi adalah program komputer yang dibuat untuk membuat keputusan ekonomi seperti trading otomatis, price optimization, dan demand forecasting. Dalam pasar saham, algorithmic trading mengeksekusi ribuan transaksi per detik berdasarkan pola data. Pengaruh positif: efisiensi pasar, harga lebih realistis. Pengaruh negatif: volatilitas flash crash (penurunan harga drastis dalam hitungan detik), market manipulation, dan unemployment di profesi manual trading."},
-    {"q": "Apa itu hedging dalam pengelolaan risiko finansial?", "a": "Hedging adalah strategi mengurangi risiko kerugian finansial dengan menggunakan instrumen keuangan turunan (derivatives) seperti forward, futures, atau options. Contoh: petani menjual hasil panen yang belum dipanen dengan kontrak futures untuk melindungi dari jatuhnya harga, atau importir menggunakan forward kurs untuk melindungi dari fluktuasi nilai tukar."},
-    {"q": "Apa itu quantitative easing (QE) dan fungsinya?", "a": "Quantitative easing adalah kebijakan moneter ekspansif ketika suku bunga sudah mencapai nol tetapi ekonomi masih lemah. Bank sentral membeli obligasi pemerintah atau aset lainnya untuk menyuntik likuiditas ke ekonomi, meningkatkan jumlah uang beredar, menurunkan suku bunga obligasi jangka panjang, dan mendorong investasi serta konsumsi."},
-    {"q": "Apa itu capital flight dan bagaimana dampaknya?", "a": "Capital flight adalah aliran masif modal keluar dari suatu negara ke luar negeri akibat ketidakstabilan ekonomi, politik, atau pasar yang tidak menguntungkan. Dampak: melemahnya nilai tukar, berkurangnya investasi produktif, defisit neraca pembayaran, dan perlambatan ekonomi. Indonesia pernah mengalami capital flight saat krisis finansial 1997-1998."},
-    {"q": "Apa itu produktivitas tenaga kerja dan bagaimana cara meningkatkannya?", "a": "Produktivitas tenaga kerja adalah output per tenaga kerja dalam periode tertentu. Cara meningkatkannya: investasi dalam pendidikan dan pelatihan, teknologi lebih baik, manajemen efisien, insentif kerja yang sesuai, dan budaya kerja yang sehat. Produktivitas tinggi menghasilkan upah lebih baik dan pertumbuhan ekonomi berkelanjutan."},
-    {"q": "Apa itu ekonomi skala (economies of scale) dan bagaimana keuntungannya?", "a": "Ekonomi skala terjadi ketika biaya produksi per unit turun seiring meningkatnya volume produksi. Keuntungannya: efisiensi biaya, harga produk lebih rendah, keuntungan lebih besar, posisi kompetitif lebih kuat. Contoh: pabrik mobil dapat memproduksi 1.000 unit dengan biaya lebih rendah per unit dibanding 100 unit."},
-    {"q": "Apa itu market failure dan apa contohnya?", "a": "Market failure adalah kegagalan pasar dalam mengalokasikan sumber daya secara efisien, menyebabkan hasil yang tidak optimal bagi masyarakat. Penyebab: monopoli, eksternalitas negatif (polusi), informasi asimetris (pembeli vs penjual tidak punya info sama), dan barang publik (pertahanan, pendidikan). Pemerintah perlu intervensi melalui regulasi atau subsidi."},
-    {"q": "Apa itu eksternalitas positif dan negatif dalam ekonomi?", "a": "Eksternalitas adalah dampak positif atau negatif dari aktivitas ekonomi kepada pihak ketiga yang tidak terlibat langsung. Eksternalitas positif: perusahaan pembangunan perumahan meningkatkan nilai properti sekitar. Eksternalitas negatif: pabrik polusi mencemari lingkungan dan kesehatan penduduk sekitar. Pemerintah perlu koreksi melalui pajak atau subsidi."},
-    {"q": "Apa itu behavioral economics dan bagaimana penerapannya?", "a": "Behavioral economics adalah cabang ekonomi yang mempelajari keputusan ekonomi manusia dengan mempertimbangkan faktor psikologi, emosi, dan perilaku sosial, bukan hanya rasionalitas murni. Contoh penerapan: nudge (dorongan halus) untuk meningkatkan partisipasi program pensiun, desain pilihan default untuk mendorong perilaku menabung, atau transparency pricing untuk mengurangi information asymmetry."},
-    {"q": "Apa itu human capital dan mengapa penting untuk pertumbuhan ekonomi?", "a": "Human capital adalah pengetahuan, keterampilan, kesehatan, dan kemampuan yang dimiliki seseorang yang meningkatkan produktivitas. Penting untuk pertumbuhan ekonomi karena: pekerja terampil menghasilkan output lebih tinggi, drive inovasi, dan menciptakan nilai tambah. Investasi di pendidikan adalah investasi human capital terbaik."},
-    {"q": "Apa itu debt restructuring dan dalam situasi apa diperlukan?", "a": "Debt restructuring adalah penjadwalan ulang atau penghapusan sebagian utang oleh kreditur untuk membantu debitur yang kesulitan membayar. Diperlukan ketika: perusahaan atau negara mengalami krisis likuiditas, tidak mampu membayar utang jatuh tempo, namun prospek bisnis masih baik. Contoh: program restrukturasi kredit bank pada saat krisis ekonomi."},
-    {"q": "Apa perbedaan regresi dan depresi ekonomi?", "a": "Regresi (recession) adalah penurunan pertumbuhan ekonomi selama dua kuartal berturut-turut, relatif singkat dan dampak terbatas. Depresi (depression) adalah kontraksi ekonomi yang sangat dalam dan berkepanjangan dalam bertahun-tahun dengan pengangguran masif dan kemiskinan. Contoh: Resesi 2020 karena COVID-19, sementara Great Depression 1929-1939 adalah depresi."},
-    {"q": "Apa itu inflation targeting dan bagaimana Bank Indonesia menerapkannya?", "a": "Inflation targeting adalah strategi kebijakan moneter dengan menetapkan target tingkat inflasi yang ingin dicapai. Bank Indonesia menetapkan target inflasi berkisar 2%-4% per tahun untuk keseimbangan antara stabilitas harga dan pertumbuhan ekonomi. BI menggunakan BI Rate untuk mempengaruhi inflasi melalui penyesuaian biaya pinjaman."},
-    {"q": "Apa itu trade surplus dan trade deficit serta pengaruhnya pada nilai tukar mata uang?", "a": "Trade surplus terjadi ketika ekspor > impor, menghasilkan aliran valuta asing masuk yang memperkuat mata uang. Trade deficit terjadi ketika impor > ekspor, menghasilkan aliran valuta asing keluar yang melemahkan mata uang. Indonesia mencari trade surplus untuk memperkuat Rupiah dan meningkatkan cadangan devisa."}
-  ]
+  },
+  {
+    "q": "Apa itu ekonomi mikro?",
+    "a": "Ekonomi mikro adalah cabang ekonomi yang mempelajari perilaku individu dan perusahaan dalam mengambil keputusan ekonomi."
+  },
+  {
+    "q": "Apa itu ekonomi makro?",
+    "a": "Ekonomi makro adalah cabang ekonomi yang mempelajari perekonomian secara keseluruhan, seperti inflasi, pengangguran, dan pertumbuhan ekonomi."
+  },
+  {
+    "q": "Apa itu permintaan dan penawaran?",
+    "a": "Permintaan adalah jumlah barang yang ingin dibeli pada harga tertentu, penawaran adalah jumlah barang yang ingin dijual pada harga tertentu."
+  },
+  {
+    "q": "Apa itu kurs valuta asing?",
+    "a": "Kurs valuta asing adalah nilai tukar mata uang suatu negara terhadap mata uang negara lain."
+  },
+  {
+    "q": "Apa itu APBN?",
+    "a": "APBN (Anggaran Pendapatan dan Belanja Negara) adalah rencana keuangan tahunan pemerintah yang disetujui DPR."
+  },
+  {
+    "q": "Apa itu startup?",
+    "a": "Startup adalah perusahaan rintisan yang biasanya menawarkan produk atau layanan inovatif dengan potensi pertumbuhan tinggi."
+  },
+  {
+    "q": "Apa itu business plan?",
+    "a": "Business plan adalah dokumen strategis yang menguraikan tujuan bisnis, strategi pemasaran, keuangan proyeksi, dan operasional perusahaan."
+  },
+  {
+    "q": "Apa perbedaan antara UMKM dan perusahaan besar?",
+    "a": "UMKM memiliki skala kecil-menengah, aset terbatas, dan kepemilikan biasanya individu, sementara perusahaan besar memiliki skala besar, aset signifikan, dan kepemilikan tersebar."
+  },
+  {
+    "q": "Apa itu Return on Investment (ROI)?",
+    "a": "ROI adalah persentase keuntungan atau kerugian yang diperoleh dari investasi dibandingkan dengan jumlah modal yang diinvestasikan."
+  },
+  {
+    "q": "Apa itu mutual fund atau reksadana?",
+    "a": "Reksadana adalah produk investasi yang mengumpulkan dana dari banyak investor untuk dikelola oleh manajer profesional yang diinvestasikan ke berbagai instrumen keuangan."
+  },
+  {
+    "q": "Bagaimana cara memulai investasi bagi pemula?",
+    "a": "Pemula dapat memulai dengan mempelajari dasar investasi, mengenal profil risiko diri, memilih instrumen sesuai tujuan, membuka rekening di bank atau broker, dan mulai dengan dana kecil."
+  },
+  {
+    "q": "Apa itu cryptocurrency?",
+    "a": "Cryptocurrency adalah mata uang digital yang menggunakan teknologi kriptografi untuk keamanan dan beroperasi tanpa bank sentral, contohnya Bitcoin dan Ethereum."
+  },
+  {
+    "q": "Apa itu blockchain?",
+    "a": "Blockchain adalah teknologi buku besar terdistribusi yang mencatat transaksi secara aman dan transparan dalam blok-blok yang saling terhubung secara kriptografis."
+  },
+  {
+    "q": "Apa saja kelebihan dan kekurangan cryptocurrency?",
+    "a": "Kelebihan: tidak dikendalikan bank sentral, transaksi cepat lintas negara, biaya rendah. Kekurangan: volatilitas tinggi, risiko keamanan, belum diatur secara konsisten, dan tidak semua tempat menerimanya."
+  },
+  {
+    "q": "Apa itu IPO (Initial Public Offering)?",
+    "a": "IPO adalah penawaran saham perusahaan untuk pertama kalinya kepada publik dengan tujuan mengumpulkan dana dan meningkatkan nilai perusahaan."
+  },
+  {
+    "q": "Apa perbedaan antara trading dan investing?",
+    "a": "Trading adalah membeli dan menjual aset dalam waktu singkat untuk meraih keuntungan jangka pendek, sementara investing adalah memegang aset untuk keuntungan jangka panjang."
+  },
+  {
+    "q": "Bagaimana cara membeli saham?",
+    "a": "Untuk membeli saham, buka rekening sekuritas di perusahaan broker, verifikasi identitas, setor dana, pilih saham yang ingin dibeli, dan lakukan transaksi melalui aplikasi atau website broker."
+  },
+  {
+    "q": "Apa itu budgeting dalam keuangan pribadi?",
+    "a": "Budgeting adalah proses perencanaan dan pengelolaan pendapatan dengan mengalokasikan dana untuk pengeluaran, tabungan, dan investasi sesuai prioritas."
+  },
+  {
+    "q": "Bagaimana cara mengelola utang pribadi?",
+    "a": "Cara mengelola utang: buat daftar utang, prioritaskan utang dengan bunga tertinggi, negosiasikan bunga lebih rendah, buat rencana pembayaran, dan hindari utang baru."
+  },
+  {
+    "q": "Apa itu aset dan liabilitas dalam keuangan?",
+    "a": "Aset adalah harta benda atau sumber daya yang memiliki nilai ekonomis dan dimiliki seseorang, sedangkan liabilitas adalah kewajiban atau utang yang harus dibayarkan."
+  },
+  {
+    "q": "Apa itu net worth?",
+    "a": "Net worth adalah kekayaan bersih seseorang yang dihitung dari total aset dikurangi total liabilitas, mencerminkan kondisi finansial seseorang."
+  },
+  {
+    "q": "Apa itu deflasi?",
+    "a": "Deflasi adalah penurunan harga barang dan jasa secara umum dan berkelanjutan yang berakibat pada peningkatan daya beli uang."
+  },
+  {
+    "q": "Apa itu stagflasi dan dampaknya?",
+    "a": "Stagflasi adalah kombinasi stagnasi ekonomi (pertumbuhan rendah) dengan inflasi tinggi, menyebabkan pengangguran meningkat sambil harga terus naik, situasi yang sangat sulit untuk ekonomi."
+  },
+  {
+    "q": "Apa itu ETF (Exchange Traded Fund)?",
+    "a": "ETF adalah produk investasi yang mewakili kumpulan saham atau aset lain dan dapat diperdagangkan di bursa saham seperti saham biasa."
+  },
+  {
+    "q": "Bagaimana cara menghindari risiko finansial?",
+    "a": "Cara menghindari risiko finansial: diversifikasi investasi, miliki dana darurat 3-6 bulan pengeluaran, asuransi yang tepat, hindari utang konsumtif, dan terus belajar literasi keuangan."
+  },
+  {
+    "q": "Apa itu elastisitas harga dalam mikroekonomi?",
+    "a": "Elastisitas harga adalah ukuran sensitivitas perubahan jumlah permintaan atau penawaran terhadap perubahan harga. Contoh: jika harga kopi naik 10% dan permintaan turun 5%, elastisitasnya adalah 0,5 (inelastis), berarti kopi termasuk barang dengan permintaan tidak sangat sensitive terhadap harga."
+  },
+  {
+    "q": "Apa itu pasar sempurna dalam ekonomi mikro?",
+    "a": "Pasar sempurna (perfect competition) adalah pasar dengan banyak pembeli dan penjual, produk homogen, informasi lengkap, dan tidak ada hambatan masuk keluar. Contoh: pasar sayuran tradisional biasanya mendekati pasar sempurna."
+  },
+  {
+    "q": "Apa itu monopoli dan berapa dampak ekonominya?",
+    "a": "Monopoli adalah struktur pasar dengan satu penjual yang menguasai seluruh penawaran produk. Dampak: harga lebih mahal, kualitas mungkin rendah, inovasi terhambat, dan konsumen dirugikan. Contoh: perusahaan listrik atau air minum di daerah tertentu."
+  },
+  {
+    "q": "Apa perbedaan antara pengangguran fraksional, siklis, dan struktural?",
+    "a": "Pengangguran fraksional: terjadi karena perpindahan pekerjaan (bersifat sementara). Contoh: lulusan baru mencari kerja. Pengangguran siklis: karena periode resesi ekonomi. Pengangguran struktural: skill tidak cocok kebutuhan pasar akibat perubahan teknologi."
+  },
+  {
+    "q": "Apa itu siklus bisnis dalam perekonomian?",
+    "a": "Siklus bisnis adalah fluktuasi ekonomi dengan tahap ekspansi (pertumbuhan), puncak, kontraksi (resesi), dan lembah. Contoh Indonesia: pertumbuhan ekonomi 5% pada 2018, melambat pada 2020 akibat pandemi adalah bagian dari siklus bisnis."
+  },
+  {
+    "q": "Bagaimana cara kerja BI Rate dalam ekonomi Indonesia?",
+    "a": "BI Rate adalah suku bunga acuan Bank Indonesia yang mempengaruhi suku bunga bank komersial. Jika BI Rate naik, biaya kredit meningkat, mendorong masyarakat menabung lebih banyak. Jika turun, kredit lebih murah, mendorong konsumsi dan investasi untuk merangsang ekonomi."
+  },
+  {
+    "q": "Apa peran Rupiah dalam perekonomian Indonesia dan faktor yang mempengaruhibentuknya?",
+    "a": "Rupiah adalah mata uang resmi Indonesia yang penting untuk transaksi domestik dan internasional. Nilai Rupiah dipengaruhi oleh: cadangan devisa, ekspor-impor, inflasi, suku bunga, dan sentimen pasar global. Rupiah yang lemah membuat impor mahal namun ekspor lebih kompetitif."
+  },
+  {
+    "q": "Apa itu ekspor dan impor, dan mengapa penting bagi Indonesia?",
+    "a": "Ekspor adalah penjualan barang ke luar negeri, impor adalah pembelian barang dari luar. Indonesia mengandalkan ekspor (minyak, gas, komoditas pertanian, tekstil) untuk devisa dan impor untuk barang yang tidak dapat diproduksi lokal. Surplus ekspor memperkuat ekonomi, defisit melemahkan."
+  },
+  {
+    "q": "Apa itu OECD dan bagaimana relevansinya dengan Indonesia?",
+    "a": "OECD (Organisation for Economic Co-operation and Development) adalah organisasi 38 negara maju untuk kerja sama ekonomi. Indonesia bukan anggota, tapi berpartisipasi dalam program kemitraan. OECD memberikan rekomendasi kebijakan ekonomi yang diikuti banyak negara."
+  },
+  {
+    "q": "Apa itu compound interest dan bagaimana pengaruhnya pada investasi jangka panjang?",
+    "a": "Compound interest adalah bunga yang dihitung atas pokok ditambah bunga sebelumnya. Contoh: investasi Rp 10 juta dengan bunga 10% per tahun, tahun kedua mendapat bunga dari Rp 11 juta. Dalam 30 tahun bisa menjadi Rp 174 juta. Ini mengapa investasi awal penting untuk masa depan."
+  },
+  {
+    "q": "Apa itu yield dalam investasi obligasi?",
+    "a": "Yield adalah tingkat pengembalian tahunan dari obligasi yang dihitung berdasarkan bunga yang diterima dibagi harga obligasi. Contoh: membeli obligasi nominal Rp 1 juta dengan bunga Rp 80 ribu, yielnya 8%. Yield naik ketika harga obligasi turun di pasar sekunder."
+  },
+  {
+    "q": "Bagaimana cara menghitung break-even point dalam bisnis?",
+    "a": "Break-even point adalah titik di mana total pendapatan sama dengan total biaya, tidak ada untung atau rugi. Rumus: BEP = Biaya Tetap / (Harga Unit - Biaya Variabel per Unit). Contoh: jika biaya tetap Rp 50 juta, harga Rp 100 ribu, biaya variabel Rp 60 ribu, maka BEP adalah 5.000 unit yang harus terjual."
+  },
+  {
+    "q": "Apa itu margin keuntungan dan bagaimana mengoptimalkannya?",
+    "a": "Margin keuntungan adalah selisih antara harga jual dan biaya produksi yang menunjukkan profitabilitas. Untuk meningkatkannya: kurangi biaya produksi, tingkatkan harga (jika pasar memungkinkan), atau tingkatkan volume penjualan. Contoh: jika margin 30%, setiap Rp 100 ribu penjualan menghasilkan Rp 30 ribu keuntungan."
+  },
+  {
+    "q": "Apa itu konsumsi, produksi, dan distribusi dalam ekonomi?",
+    "a": "Konsumsi adalah penggunaan barang/jasa oleh konsumen, produksi adalah pembuatan barang/jasa, distribusi adalah penyaluran dari produsen ke konsumen. Ketiga aspek ini membentuk siklus ekonomi: produsen menciptakan barang, distributor menyalurkan, konsumen membeli dan menggunakan."
+  },
+  {
+    "q": "Bagaimana peran industri manufaktur bagi ekonomi Indonesia?",
+    "a": "Industri manufaktur Indonesia menghasilkan produk tekstil, otomotif, elektronik, dan mesin yang diekspor. Kontribusi terhadap GDP sekitar 20%. Penting bagi lapangan kerja, investasi asing, dan transfer teknologi. Tantangannya: biaya produksi tinggi, infrastruktur kurang, persaingan dari Vietnam dan Bangladesh."
+  },
+  {
+    "q": "Apa itu UMKM dan kontribusinya terhadap ekonomi Indonesia?",
+    "a": "UMKM (Usaha Mikro, Kecil, Menengah) adalah bisnis dengan aset dan karyawan terbatas, menyerap 97% tenaga kerja Indonesia dan berkontribusi 60% terhadap GDP. Tantangan UMKM: akses kredit sulitusaha, skill manajemen terbatas, persaingan ketat, namun potensi untuk berkembang sangat besar."
+  },
+  {
+    "q": "Apa itu Foreign Direct Investment (FDI) dan pengaruhnya pada ekonomi Indonesia?",
+    "a": "FDI adalah investasi asing langsung di Indonesia melalui pendirian cabang, fusi, atau akuisisi perusahaan. Dampak positif: penciptaan lapangan kerja, transfer teknologi, peningkatan ekspor, pemasukan devisa. Dampak negatif: keuntungan bisa diambil ke luar, beban lingkungan, ketergantungan pada modal asing."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan gaji minimum terhadap perekonomian?",
+    "a": "Kenaikan UMK meningkatkan daya beli karyawan (positif) namun bisa mengurangi hiring, meningkatkan harga barang, atau mengurangi keuntungan perusahaan (negatif). Dampak tergantung: seberapa besar kenaikan, kondisi industri, produktivitas pekerja, dan daya serap perusahaan terhadap biaya tambahan."
+  },
+  {
+    "q": "Apa itu financial literacy dan mengapa penting di Indonesia?",
+    "a": "Financial literacy adalah pemahaman tentang pengelolaan keuangan, investasi, asuransi, dan risiko finansial. Penting di Indonesia karena: mayoritas penduduk masih memiliki literasi keuangan rendah, banyak yang jatuh ke utang konsumtif, perlu persiapan pensiun sedini mungkin, dan potensi investasi masih terbuang."
+  },
+  {
+    "q": "Apa itu real estate investment dan mengapa menjadi pilihan favorit di Indonesia?",
+    "a": "Real estate investment adalah membeli properti (tanah, rumah, apartemen) untuk ditahan nilainya atau disewakan untuk pendapatan. Favorit di Indonesia karena: properti terus naik nilainya, Indonesia memiliki populasi besar, permintaan tinggi, bisa disewakan untuk passive income, dan tangible (dapat dilihat/disentuh)."
+  },
+  {
+    "q": "Apa itu ekonomi hijau dan investasi berkelanjutan (ESG)?",
+    "a": "Ekonomi hijau adalah model ekonomi yang memprioritaskan keberlanjutan lingkungan dan sosial. ESG (Environmental, Social, Governance) adalah kriteria investasi yang mempertimbangkan dampak lingkungan, sosial, dan tata kelola perusahaan. Semakin banyak investor Indonesia memilih investasi ESG untuk balans profit dengan tanggung jawab sosial lingkungan."
+  },
+  {
+    "q": "Apa itu gig economy dan bagaimana pengaruhnya terhadap pasar kerja Indonesia?",
+    "a": "Gig economy adalah model ekonomi di mana pekerja menerima pekerjaan proyek berdasarkan kontrak atau tugas singkat (gig) melalui platform digital seperti ride-sharing, freelance, atau delivery. Di Indonesia, gig economy tumbuh pesat dengan platform Grab, Gojek, Tokopedia, memberikan fleksibilitas namun dengan risiko tidak adanya jaminan sosial atau asuransi kesehatan tetap."
+  },
+  {
+    "q": "Apa itu tax planning dan strategi legal mengurangi beban pajak?",
+    "a": "Tax planning adalah strategi legal untuk mengoptimalkan kewajiban pajak dengan memanfaatkan regulasi yang berlaku. Strategi: menggunakan instrumen investasi yang pajakannya rendah (seperti tabungan emas), membuka usaha (bisa mendapat insentif PPh), menggunakan dana pendidikan (potong gaji), mendaftar sebagai wajib pajak untuk mendapat kredit pajak. Perbedaan penting: tax planning adalah legal, tax evasion adalah ilegal dan bisa dihukum."
+  },
+  {
+    "q": "Apa itu supply chain dan bagaimana gangguan supply chain mempengaruhi inflasi?",
+    "a": "Supply chain adalah jaringan proses produksi, distribusi, dan pengiriman barang dari produsen ke konsumen. Gangguan supply chain (akibat pandemi, bencana alam, atau konflik) menyebabkan kekurangan barang, meningkatkan harga produksi, dan mendorong inflasi. Contoh: pandemi COVID-19 mengganggu supply chip global, menyebabkan harga elektronik naik signifikan di Indonesia tahun 2021-2022."
+  },
+  {
+    "q": "Apa itu pertumbuhan ekonomi dan bagaimana cara mengukurnya?",
+    "a": "Pertumbuhan ekonomi adalah peningkatan kapasitas produksi dan output ekonomi suatu negara dalam periode tertentu, biasanya diukur dengan peningkatan persentase GDP. Contoh: jika GDP tahun lalu Rp 1.000 triliun dan tahun ini Rp 1.050 triliun, maka pertumbuhan ekonomi adalah 5%. Pertumbuhan positif menunjukkan ekonomi berkembang, menciptakan lapangan kerja, dan meningkatkan kesejahteraan."
+  },
+  {
+    "q": "Apa itu pembangunan berkelanjutan (sustainable development) dalam konteks ekonomi?",
+    "a": "Pembangunan berkelanjutan adalah pengembangan ekonomi yang memenuhi kebutuhan saat ini tanpa mengorbankan kemampuan generasi mendatang. Mencakup: pertumbuhan ekonomi, kelestarian lingkungan, dan keadilan sosial. Contoh: menggunakan energi terbarukan, mengurangi limbah, mendukung pendidikan, dan mengurangi kemiskinan. Indonesia berkomitmen pada Sustainable Development Goals (SDGs) PBB."
+  },
+  {
+    "q": "Apa itu ketimpangan pendapatan dan apa dampaknya terhadap ekonomi?",
+    "a": "Ketimpangan pendapatan adalah perbedaan besar dalam distribusi pendapatan antar kelompok masyarakat, diukur dengan indeks Gini. Jika indeks Gini 0 berarti sempurna merata, jika 1 berarti sepenuhnya tidak merata. Dampak negatif: mengurangi daya beli mayoritas, meningkatkan kriminalitas, menghambat pertumbuhan ekonomi jangka panjang, dan menciptakan ketidakstabilan sosial."
+  },
+  {
+    "q": "Apa perbedaan antara perdagangan bebas dan proteksionisme, serta manfaat dan kerugiannya?",
+    "a": "Perdagangan bebas adalah pasar terbuka tanpa hambatan tarif atau kuota, memungkinkan negoisasi harga kompetitif dan alokasi sumber daya efisien. Proteksionisme adalah pembatasan impor melalui tarif atau kuota untuk melindungi industri lokal. Manfaat perdagangan bebas: konsumen hemat, efisiensi global. Kerugian: industri lokal lemah, pengangguran. Manfaat proteksionisme: melindungi industri lokal, independensi ekonomi. Kerugian: harga lebih mahal, inovasi terhambat, risiko balas dendam dari negara lain."
+  },
+  {
+    "q": "Apa itu e-commerce dan bagaimana perkembangannya di Indonesia?",
+    "a": "E-commerce adalah perdagangan elektronik yang memungkinkan jual beli barang dan jasa melalui internet. Di Indonesia, e-commerce berkembang pesat dengan platform seperti Tokopedia, Shopee, dan Bukalapak, didorong oleh penetrasi internet yang tinggi dan populasi muda yang melek teknologi."
+  },
+  {
+    "q": "Apa itu ekonomi digital?",
+    "a": "Ekonomi digital adalah aktivitas ekonomi yang berbasis teknologi digital, mencakup e-commerce, fintech, ride-hailing, dan layanan berbasis aplikasi. Indonesia memiliki ekonomi digital terbesar di Asia Tenggara dengan nilai diperkirakan ratusan miliar dolar."
+  },
+  {
+    "q": "Apa itu koperasi dan apa perannya dalam perekonomian Indonesia?",
+    "a": "Koperasi adalah badan usaha yang beranggotakan orang-orang atau badan hukum yang berlandaskan asas kekeluargaan. Koperasi berperan dalam memberdayakan ekonomi rakyat kecil, menyediakan akses kredit murah, dan meningkatkan kesejahteraan anggotanya sesuai amanat UUD 1945 Pasal 33."
+  },
+  {
+    "q": "Apa fungsi Bank Indonesia sebagai bank sentral?",
+    "a": "Bank Indonesia berfungsi menetapkan dan melaksanakan kebijakan moneter, mengatur dan menjaga kelancaran sistem pembayaran, serta menjaga stabilitas sistem keuangan. BI juga bertanggung jawab menjaga nilai tukar Rupiah dan mengendalikan inflasi."
+  },
+  {
+    "q": "Apa itu cadangan devisa dan mengapa penting bagi negara?",
+    "a": "Cadangan devisa adalah simpanan mata uang asing yang dimiliki bank sentral untuk menjaga stabilitas nilai tukar, membayar utang luar negeri, dan membiayai impor. Cadangan devisa yang cukup menunjukkan ketahanan ekonomi suatu negara terhadap guncangan eksternal."
+  },
+  {
+    "q": "Apa itu subsidi pemerintah dan apa dampaknya?",
+    "a": "Subsidi adalah bantuan keuangan dari pemerintah untuk menurunkan harga barang atau jasa tertentu agar terjangkau masyarakat. Dampak positif: meringankan beban rakyat. Dampak negatif: membebani APBN, bisa salah sasaran, dan berpotensi mendistorsi mekanisme pasar."
+  },
+  {
+    "q": "Apa itu fintech dan bagaimana perannya di Indonesia?",
+    "a": "Fintech (financial technology) adalah inovasi teknologi dalam layanan keuangan seperti pembayaran digital, pinjaman online, dan investasi berbasis aplikasi. Di Indonesia, fintech memperluas akses keuangan bagi masyarakat yang belum terjangkau perbankan konvensional (unbanked)."
+  },
+  {
+    "q": "Apa itu peer-to-peer (P2P) lending?",
+    "a": "P2P lending adalah platform pinjam-meminjam uang secara online yang menghubungkan pemberi pinjaman langsung dengan peminjam tanpa melalui bank. Di Indonesia, P2P lending diawasi oleh OJK dan menjadi alternatif pembiayaan bagi UMKM yang sulit mengakses kredit bank."
+  },
+  {
+    "q": "Apa itu Indeks Harga Konsumen (IHK)?",
+    "a": "IHK adalah indikator yang mengukur perubahan rata-rata harga sekelompok barang dan jasa yang dikonsumsi rumah tangga dalam periode tertentu. IHK digunakan oleh BPS untuk menghitung tingkat inflasi di Indonesia."
+  },
+  {
+    "q": "Apa yang dimaksud dengan utang negara?",
+    "a": "Utang negara adalah pinjaman yang dilakukan pemerintah baik dari dalam negeri maupun luar negeri untuk membiayai defisit anggaran. Rasio utang terhadap PDB Indonesia dijaga agar tetap di bawah 60% sesuai undang-undang untuk menjaga kesehatan fiskal."
+  },
+  {
+    "q": "Apa itu devaluasi mata uang?",
+    "a": "Devaluasi adalah penurunan nilai mata uang secara resmi oleh pemerintah atau bank sentral terhadap mata uang asing. Tujuannya biasanya untuk meningkatkan daya saing ekspor, namun berisiko meningkatkan harga barang impor dan memicu inflasi."
+  },
+  {
+    "q": "Apa itu redenominasi mata uang?",
+    "a": "Redenominasi adalah penyederhanaan nilai nominal mata uang tanpa mengubah nilai tukar atau daya beli. Contoh: Rp 10.000 menjadi Rp 10 baru. Tujuannya mempermudah transaksi dan meningkatkan kepercayaan terhadap mata uang nasional."
+  },
+  {
+    "q": "Apa itu dumping dalam perdagangan internasional?",
+    "a": "Dumping adalah praktik menjual produk ke pasar luar negeri dengan harga di bawah harga produksi atau harga di pasar domestik. Tujuannya untuk merebut pangsa pasar, namun dianggap persaingan tidak sehat dan bisa dikenai bea masuk anti-dumping oleh negara importir."
+  },
+  {
+    "q": "Apa itu WTO dan apa perannya?",
+    "a": "WTO (World Trade Organization) adalah organisasi internasional yang mengatur perdagangan global, menyelesaikan sengketa dagang, dan mempromosikan liberalisasi perdagangan. Indonesia adalah anggota WTO sejak 1995 dan terikat aturan perdagangan multilateral."
+  },
+  {
+    "q": "Apa itu ASEAN Economic Community (AEC)?",
+    "a": "AEC atau Masyarakat Ekonomi ASEAN adalah integrasi ekonomi negara-negara ASEAN yang bertujuan menciptakan pasar tunggal dan basis produksi bersama. AEC memungkinkan arus bebas barang, jasa, investasi, tenaga kerja terampil, dan modal di kawasan Asia Tenggara."
+  },
+  {
+    "q": "Apa itu keunggulan komparatif dalam perdagangan?",
+    "a": "Keunggulan komparatif adalah kemampuan suatu negara memproduksi barang dengan biaya peluang lebih rendah dibanding negara lain. Teori David Ricardo ini menjelaskan mengapa perdagangan internasional menguntungkan semua pihak meski salah satu negara lebih produktif di semua bidang."
+  },
+  {
+    "q": "Apa itu biaya peluang (opportunity cost)?",
+    "a": "Biaya peluang adalah nilai dari alternatif terbaik yang harus dikorbankan ketika membuat suatu keputusan ekonomi. Contoh: jika memilih kuliah daripada bekerja, biaya peluangnya adalah gaji yang tidak diperoleh selama masa kuliah."
+  },
+  {
+    "q": "Apa itu pasar oligopoli?",
+    "a": "Pasar oligopoli adalah struktur pasar yang didominasi oleh beberapa perusahaan besar yang saling mempengaruhi keputusan harga dan produksi. Contoh di Indonesia: industri telekomunikasi (Telkomsel, Indosat, XL) dan industri semen."
+  },
+  {
+    "q": "Apa itu ekonomi kerakyatan?",
+    "a": "Ekonomi kerakyatan adalah sistem ekonomi yang mengutamakan kepentingan rakyat banyak, sesuai Pasal 33 UUD 1945. Prinsipnya: koperasi sebagai soko guru, penguasaan negara atas sumber daya strategis, dan pemberdayaan ekonomi masyarakat kecil melalui UMKM."
+  },
+  {
+    "q": "Apa itu BUMN dan apa perannya dalam ekonomi Indonesia?",
+    "a": "BUMN (Badan Usaha Milik Negara) adalah perusahaan yang sebagian atau seluruh modalnya dimiliki negara. BUMN berperan menyediakan layanan publik, menghasilkan pendapatan negara, dan menggerakkan sektor strategis seperti energi (Pertamina), perbankan (BRI, Mandiri), dan telekomunikasi (Telkom)."
+  },
+  {
+    "q": "Bagaimana dampak subsidi BBM terhadap perekonomian Indonesia?",
+    "a": "Subsidi BBM membuat harga bahan bakar terjangkau sehingga menekan biaya transportasi dan produksi. Namun, subsidi BBM membebani APBN secara signifikan, sering tidak tepat sasaran karena dinikmati kelompok mampu, dan menghambat transisi ke energi terbarukan."
+  },
+  {
+    "q": "Apa itu dana pensiun dan mengapa penting?",
+    "a": "Dana pensiun adalah program tabungan jangka panjang yang memberikan penghasilan setelah seseorang berhenti bekerja. Penting karena menjamin kesejahteraan di masa tua ketika produktivitas menurun. Di Indonesia, ada BPJS Ketenagakerjaan dan dana pensiun lembaga keuangan (DPLK)."
+  },
+  {
+    "q": "Apa itu perbankan syariah dan bedanya dengan konvensional?",
+    "a": "Perbankan syariah adalah sistem perbankan yang beroperasi berdasarkan prinsip hukum Islam, tanpa bunga (riba). Perbedaannya: bank syariah menggunakan bagi hasil (mudharabah), jual beli (murabahah), dan sewa (ijarah), sementara bank konvensional menggunakan sistem bunga tetap."
+  },
+  {
+    "q": "Apa itu sukuk?",
+    "a": "Sukuk adalah surat berharga syariah atau obligasi syariah yang diterbitkan berdasarkan prinsip Islam tanpa unsur riba. Pemerintah Indonesia menerbitkan sukuk negara sebagai instrumen pembiayaan APBN sekaligus alternatif investasi bagi masyarakat yang menginginkan produk keuangan syariah."
+  },
+  {
+    "q": "Apa itu IHSG dan bagaimana cara membacanya?",
+    "a": "IHSG (Indeks Harga Saham Gabungan) adalah indeks yang mengukur pergerakan semua saham yang tercatat di Bursa Efek Indonesia. Jika IHSG naik, berarti secara umum harga saham meningkat. IHSG menjadi indikator utama kesehatan pasar modal dan sentimen investor di Indonesia."
+  },
+  {
+    "q": "Apa itu likuiditas dalam konteks keuangan?",
+    "a": "Likuiditas adalah kemampuan aset untuk dikonversi menjadi uang tunai dengan cepat tanpa kehilangan nilai signifikan. Uang tunai memiliki likuiditas tertinggi, sementara properti memiliki likuiditas rendah karena butuh waktu lama untuk dijual."
+  },
+  {
+    "q": "Apa itu kapitalisasi pasar suatu perusahaan?",
+    "a": "Kapitalisasi pasar (market cap) adalah total nilai pasar seluruh saham beredar suatu perusahaan, dihitung dari harga saham dikali jumlah saham beredar. Contoh: jika harga saham Rp 5.000 dan ada 1 miliar lembar saham, maka market cap-nya Rp 5 triliun."
+  },
+  {
+    "q": "Apa itu dividen saham?",
+    "a": "Dividen adalah pembagian keuntungan perusahaan kepada pemegang saham berdasarkan jumlah saham yang dimiliki. Dividen bisa berbentuk uang tunai atau saham tambahan, dan biasanya dibagikan secara berkala setelah disetujui dalam Rapat Umum Pemegang Saham (RUPS)."
+  },
+  {
+    "q": "Apa perbedaan analisis fundamental dan teknikal dalam investasi saham?",
+    "a": "Analisis fundamental menilai saham berdasarkan kinerja keuangan perusahaan, prospek bisnis, dan kondisi ekonomi makro. Analisis teknikal menilai pergerakan harga saham berdasarkan pola grafik dan indikator statistik historis. Investor jangka panjang biasanya menggunakan fundamental, sementara trader menggunakan teknikal."
+  },
+  {
+    "q": "Apa itu Surat Berharga Negara (SBN)?",
+    "a": "SBN adalah surat utang yang diterbitkan pemerintah Indonesia untuk membiayai APBN, termasuk Obligasi Negara (ON) dan Surat Berharga Syariah Negara (SBSN/Sukuk). SBN menjadi instrumen investasi yang aman karena dijamin negara dengan imbal hasil kompetitif."
+  },
+  {
+    "q": "Apa itu ekonomi sirkular?",
+    "a": "Ekonomi sirkular adalah model ekonomi yang meminimalkan limbah dengan cara mendaur ulang, menggunakan kembali, dan memperpanjang umur produk. Berbeda dengan ekonomi linear (produksi-konsumsi-buang), ekonomi sirkular bertujuan menciptakan siklus tertutup yang ramah lingkungan dan efisien sumber daya."
+  },
+  {
+    "q": "Apa itu pajak karbon (carbon tax)?",
+    "a": "Pajak karbon adalah pungutan yang dikenakan pada emisi gas rumah kaca, khususnya karbon dioksida, dari aktivitas industri dan pembakaran bahan bakar fosil. Indonesia mulai menerapkan pajak karbon sebagai bagian dari komitmen mengurangi emisi dan mendorong transisi ke energi bersih."
+  },
+  {
+    "q": "Apa itu pendapatan per kapita?",
+    "a": "Pendapatan per kapita adalah rata-rata pendapatan setiap penduduk suatu negara, dihitung dari total pendapatan nasional dibagi jumlah penduduk. Pendapatan per kapita Indonesia sekitar USD 4.000-5.000, menjadikannya negara berpendapatan menengah ke atas menurut klasifikasi Bank Dunia."
+  },
+  {
+    "q": "Apa itu Purchasing Power Parity (PPP)?",
+    "a": "PPP adalah metode pengukuran yang menyesuaikan pendapatan dan harga antar negara berdasarkan daya beli masing-masing mata uang. Dengan PPP, GDP Indonesia terlihat lebih besar karena harga barang di Indonesia umumnya lebih rendah dibandingkan negara maju."
+  },
+  {
+    "q": "Apa perbedaan upah riil dan upah nominal?",
+    "a": "Upah nominal adalah jumlah uang yang diterima pekerja secara langsung, sedangkan upah riil adalah upah nominal yang disesuaikan dengan tingkat inflasi sehingga mencerminkan daya beli sesungguhnya. Jika inflasi naik 5% dan gaji naik 3%, maka upah riil sebenarnya menurun."
+  },
+  {
+    "q": "Apa itu bank digital dan bagaimana perkembangannya di Indonesia?",
+    "a": "Bank digital adalah bank yang beroperasi sepenuhnya melalui platform digital tanpa kantor cabang fisik. Di Indonesia, bank digital seperti Bank Jago, Allo Bank, dan Sea Bank berkembang pesat, menawarkan kemudahan pembukaan rekening, transfer, dan layanan keuangan melalui aplikasi."
+  },
+  {
+    "q": "Apa itu QRIS dan manfaatnya?",
+    "a": "QRIS (Quick Response Code Indonesian Standard) adalah standar kode QR nasional untuk pembayaran digital yang dikembangkan Bank Indonesia. Manfaatnya: satu kode QR bisa digunakan untuk semua aplikasi pembayaran, mempermudah transaksi UMKM, dan mendorong inklusi keuangan di Indonesia."
+  },
+  {
+    "q": "Apa itu inklusi keuangan dan mengapa penting bagi Indonesia?",
+    "a": "Inklusi keuangan adalah upaya menyediakan akses layanan keuangan formal bagi seluruh lapisan masyarakat, termasuk yang belum terjangkau perbankan. Penting bagi Indonesia karena masih banyak penduduk di daerah terpencil yang belum memiliki rekening bank atau akses kredit formal."
+  },
+  {
+    "q": "Apa itu merger dan akuisisi dalam dunia bisnis?",
+    "a": "Merger adalah penggabungan dua perusahaan menjadi satu entitas baru, sedangkan akuisisi adalah pengambilalihan satu perusahaan oleh perusahaan lain. Tujuannya: memperluas pangsa pasar, efisiensi operasional, atau menguasai teknologi tertentu. Contoh: merger Bank Mandiri dari empat bank pemerintah."
+  },
+  {
+    "q": "Apa itu venture capital?",
+    "a": "Venture capital adalah modal ventura yang diberikan oleh investor kepada perusahaan rintisan (startup) yang memiliki potensi pertumbuhan tinggi. Sebagai imbalan, investor mendapat kepemilikan saham. Contoh venture capital di Indonesia: East Ventures, Alpha JWC, dan MDI Ventures."
+  },
+  {
+    "q": "Apa itu angel investor?",
+    "a": "Angel investor adalah individu kaya yang memberikan pendanaan kepada startup di tahap awal dengan imbalan ekuitas atau utang konversi. Berbeda dengan venture capital yang merupakan institusi, angel investor menggunakan dana pribadi dan sering memberikan mentoring kepada founder."
+  },
+  {
+    "q": "Apa itu unicorn dalam konteks startup?",
+    "a": "Unicorn adalah sebutan untuk startup yang memiliki valuasi lebih dari 1 miliar dolar AS. Indonesia memiliki beberapa unicorn seperti GoTo (Gojek-Tokopedia), Traveloka, dan Bukalapak yang menjadi kebanggaan ekosistem startup Indonesia."
+  },
+  {
+    "q": "Apa itu neraca pembayaran internasional?",
+    "a": "Neraca pembayaran adalah catatan sistematis seluruh transaksi ekonomi antara suatu negara dengan negara lain dalam periode tertentu. Terdiri dari neraca transaksi berjalan (ekspor-impor barang/jasa) dan neraca modal (investasi dan pinjaman). Surplus neraca pembayaran memperkuat cadangan devisa."
+  },
+  {
+    "q": "Apa itu OJK dan apa fungsinya?",
+    "a": "OJK (Otoritas Jasa Keuangan) adalah lembaga independen yang mengatur dan mengawasi seluruh kegiatan di sektor jasa keuangan Indonesia, termasuk perbankan, pasar modal, dan industri keuangan non-bank seperti asuransi dan dana pensiun untuk melindungi konsumen dan menjaga stabilitas sistem keuangan."
+  },
+  {
+    "q": "Apa itu PPh dan berapa tarifnya di Indonesia?",
+    "a": "PPh (Pajak Penghasilan) adalah pajak yang dikenakan atas penghasilan yang diterima orang pribadi atau badan. Tarifnya progresif untuk orang pribadi: 5% untuk penghasilan hingga Rp 60 juta, 15% untuk Rp 60-250 juta, 25% untuk Rp 250-500 juta, 30% untuk Rp 500 juta-5 miliar, dan 35% di atas Rp 5 miliar per tahun."
+  },
+  {
+    "q": "Apa itu PPN dan bagaimana penerapannya?",
+    "a": "PPN (Pajak Pertambahan Nilai) adalah pajak yang dikenakan pada setiap transaksi jual beli barang dan jasa kena pajak. Tarif PPN di Indonesia adalah 11% dan dibebankan kepada konsumen akhir. Beberapa barang kebutuhan pokok, jasa pendidikan, dan jasa kesehatan dibebaskan dari PPN."
+  },
+  {
+    "q": "Apa itu Lembaga Penjamin Simpanan (LPS)?",
+    "a": "LPS adalah lembaga independen yang menjamin simpanan nasabah di bank jika bank tersebut mengalami kegagalan. LPS menjamin simpanan hingga Rp 2 miliar per nasabah per bank dengan syarat suku bunga simpanan tidak melebihi tingkat bunga penjaminan yang ditetapkan LPS."
+  },
+  {
+    "q": "Apa itu current account deficit?",
+    "a": "Current account deficit atau defisit transaksi berjalan terjadi ketika nilai impor barang dan jasa suatu negara melebihi nilai ekspornya. Defisit ini bisa menekan nilai tukar mata uang dan harus dibiayai melalui aliran modal masuk atau pengurangan cadangan devisa."
+  },
+  {
+    "q": "Apa itu ekonomi informal?",
+    "a": "Ekonomi informal adalah kegiatan ekonomi yang tidak tercatat secara resmi dan tidak dikenai pajak, seperti pedagang kaki lima, tukang ojek tradisional, dan pekerja rumah tangga. Di Indonesia, sektor informal menyerap sebagian besar tenaga kerja namun tidak terlindungi secara hukum ketenagakerjaan."
+  },
+  {
+    "q": "Apa itu DeFi (Decentralized Finance)?",
+    "a": "DeFi adalah sistem keuangan yang dibangun di atas teknologi blockchain dan memungkinkan transaksi finansial tanpa perantara bank atau lembaga keuangan tradisional. Contoh layanan DeFi: lending terdesentralisasi, pertukaran terdesentralisasi (DEX), dan liquidity pools. Keuntungan DeFi adalah transparansi, akses 24/7, dan rendah biaya, namun risikonya tinggi karena volatilitas aset digital dan potensi smart contract bug."
+  },
+  {
+    "q": "Apa itu NFT (Non-Fungible Token) dan bagaimana nilai ekonominya?",
+    "a": "NFT adalah aset digital unik yang tidak dapat dipertukarkan dengan aset lain (non-fungible), biasanya berbentuk seni digital, koleksi, atau proprietas virtual. Nilai NFT berasal dari kelangkaan, kepemilikan eksklusif, dan permintaan pasar yang spekulatif. Contoh: NFT seni, kartu koleksi digital, dan aset dalam metaverse. Pasar NFT mengalami volatilitas tinggi, banyak yang mengalami penurunan nilai signifikan setelah hype awal."
+  },
+  {
+    "q": "Apa itu Web3 dan bagaimana relevansinya dengan ekonomi digital?",
+    "a": "Web3 adalah visi internet generasi ketiga yang terdesentralisasi, di mana pengguna memiliki kontrol penuh atas data dan aset digital mereka melalui blockchain dan cryptocurrency. Berbeda dengan Web2 yang dikuasai platform besar (Meta, Google), Web3 memberikan otonomi pengguna. Relevansi ekonomi: menciptakan ekosistem baru, peluang investasi kripto, smart contracts untuk otomasi bisnis, dan model ekonomi baru seperti DAO (Decentralized Autonomous Organization)."
+  },
+  {
+    "q": "Apa itu CBDC (Central Bank Digital Currency) dan pengaruhnya?",
+    "a": "CBDC adalah mata uang digital yang diterbitkan dan dijamin oleh bank sentral, di mana Bank Indonesia sedang mengembangkan rupiah digital (e-Rupiah). CBDC memiliki keuntungan: pembayaran digital resmi yang aman, mengurangi penggunaan uang tunai, meningkatkan kecepatan transaksi, dan memudahkan pelacakan arus uang untuk antikorupsi. Pengaruh ekonomi: efisiensi sistem pembayaran, transmisi kebijakan moneter lebih cepat, dan perlindungan dari cryptocurrency yang tidak stabil."
+  },
+  {
+    "q": "Apa itu metaverse economy dan bagaimana potensi ekonominya?",
+    "a": "Metaverse economy adalah aktivitas ekonomi yang terjadi di dunia virtual 3D seperti Roblox, Decentraland, atau The Sandbox. Meliputi: penjualan aset virtual (tanah, bangunan, fashion), layanan virtual, event virtual berbayar, dan pertumbuhan NFT. Potensi ekonomi metaverse besar karena jutaan pengguna worldwide, terutama Gen Z, namun masih dalam tahap awal dan sangat spekulatif dengan banyak proyek gagal atau scam."
+  },
+  {
+    "q": "Apa itu tokenomics dan bagaimana pengaruhnya terhadap nilai cryptocurrency?",
+    "a": "Tokenomics adalah ilmu yang mempelajari ekonomi token digital termasuk mekanisme distribusi, inflation rate, utility, dan akomodasi token dalam ekosistem blockchain. Contoh: Bitcoin memiliki jumlah terbatas 21 juta (supply terbatas mendukung nilai), Ethereum memiliki utility untuk gas fee. Tokenomics yang baik mendorong nilai jangka panjang, sedangkan tokenomics yang buruk (excessive inflation, no utility) menyebabkan token worthless."
+  },
+  {
+    "q": "Apa dampak adopsi pembayaran digital terhadap ekonomi Indonesia?",
+    "a": "Adopsi pembayaran digital di Indonesia meningkat pesat melalui e-wallet (GCash, OVO, Dana), mobile banking, dan QRIS. Dampak positif: mengurangi transparansi transaksi, dan digital footprint untuk credit scoring. Dampak negatif: kematian usaha tradisional yang tidak adaptif, pengangguran di sektor bursa tunai. Dampak makro: meningkatkan inklusi keuangan, data untuk policy making, dan efisiensi alokasi sumber daya, namun memerlukan infrastruktur dan literasi digital yang memadai."
+  },
+  {
+    "q": "Apa itu sharing economy dan bagaimana dampaknya pada pasar kerja?",
+    "a": "Sharing economy atau ekonomi berbagi adalah model bisnis yang memungkinkan orang menyewakan aset atau jasa melalui platform digital, seperti Airbnb (rental rumah), Grab (ride-sharing), dan TaskRabbit (jasa). Dampak positif: fleksibilitas kerja, peningkatan utilisasi aset idle, harga lebih kompetitif. Dampak negatif: kompetisi intens dengan industri tradisional (hotel, taksi), upah rendah, tidak ada jaminan sosial bagi pekerja platform, dan pajak yang kompleks."
+  },
+  {
+    "q": "Apa itu stablecoin dan mengapa penting dalam ekonomi kripto?",
+    "a": "Stablecoin adalah cryptocurrency yang dirancang untuk memiliki nilai stabil dengan mencengkeramkan nilai ke aset lain seperti dolar AS (USDT, USDC) atau emas. Penting dalam ekonomi kripto karena: mengurangi volatilitas, memudahkan transfer nilai, dan digunakan dalam smart contracts. Risiko stablecoin: penerbit mungkin tidak memiliki cadangan penuh, seperti Terra Luna USD yang collapse, merugikan miliaran dolar investor."
+  },
+  {
+    "q": "Apa itu remote work economy dan transformasi pasar kerja global?",
+    "a": "Remote work economy adalah ekonomi yang memungkinkan pekerja bekerja dari mana saja tanpa harus datang ke kantor, dipercepat oleh pandemi COVID-19. Relevansi ekonomi: perusahaan dapat merekrut talenta global dengan gaji kompetitif lokal, meningkatkan produktivitas, mengurangi biaya operasional kantor. Di Indonesia, remote work membuka peluang talent Indonesia untuk bekerja dengan perusahaan global dan earning foreign currency. Namun, risiko: brain drain (talenta lokal hijrah keluar), kompetisi gaji global, dan timezone challenges."
+  },
+  {
+    "q": "Apa itu algoritma ekonomi dan bagaimana pengaruhnya pada pasar?",
+    "a": "Algoritma ekonomi adalah program komputer yang dibuat untuk membuat keputusan ekonomi seperti trading otomatis, price optimization, dan demand forecasting. Dalam pasar saham, algorithmic trading mengeksekusi ribuan transaksi per detik berdasarkan pola data. Pengaruh positif: efisiensi pasar, harga lebih realistis. Pengaruh negatif: volatilitas flash crash (penurunan harga drastis dalam hitungan detik), market manipulation, dan unemployment di profesi manual trading."
+  },
+  {
+    "q": "Apa itu hedging dalam pengelolaan risiko finansial?",
+    "a": "Hedging adalah strategi mengurangi risiko kerugian finansial dengan menggunakan instrumen keuangan turunan (derivatives) seperti forward, futures, atau options. Contoh: petani menjual hasil panen yang belum dipanen dengan kontrak futures untuk melindungi dari jatuhnya harga, atau importir menggunakan forward kurs untuk melindungi dari fluktuasi nilai tukar."
+  },
+  {
+    "q": "Apa itu quantitative easing (QE) dan fungsinya?",
+    "a": "Quantitative easing adalah kebijakan moneter ekspansif ketika suku bunga sudah mencapai nol tetapi ekonomi masih lemah. Bank sentral membeli obligasi pemerintah atau aset lainnya untuk menyuntik likuiditas ke ekonomi, meningkatkan jumlah uang beredar, menurunkan suku bunga obligasi jangka panjang, dan mendorong investasi serta konsumsi."
+  },
+  {
+    "q": "Apa itu capital flight dan bagaimana dampaknya?",
+    "a": "Capital flight adalah aliran masif modal keluar dari suatu negara ke luar negeri akibat ketidakstabilan ekonomi, politik, atau pasar yang tidak menguntungkan. Dampak: melemahnya nilai tukar, berkurangnya investasi produktif, defisit neraca pembayaran, dan perlambatan ekonomi. Indonesia pernah mengalami capital flight saat krisis finansial 1997-1998."
+  },
+  {
+    "q": "Apa itu produktivitas tenaga kerja dan bagaimana cara meningkatkannya?",
+    "a": "Produktivitas tenaga kerja adalah output per tenaga kerja dalam periode tertentu. Cara meningkatkannya: investasi dalam pendidikan dan pelatihan, teknologi lebih baik, manajemen efisien, insentif kerja yang sesuai, dan budaya kerja yang sehat. Produktivitas tinggi menghasilkan upah lebih baik dan pertumbuhan ekonomi berkelanjutan."
+  },
+  {
+    "q": "Apa itu ekonomi skala (economies of scale) dan bagaimana keuntungannya?",
+    "a": "Ekonomi skala terjadi ketika biaya produksi per unit turun seiring meningkatnya volume produksi. Keuntungannya: efisiensi biaya, harga produk lebih rendah, keuntungan lebih besar, posisi kompetitif lebih kuat. Contoh: pabrik mobil dapat memproduksi 1.000 unit dengan biaya lebih rendah per unit dibanding 100 unit."
+  },
+  {
+    "q": "Apa itu market failure dan apa contohnya?",
+    "a": "Market failure adalah kegagalan pasar dalam mengalokasikan sumber daya secara efisien, menyebabkan hasil yang tidak optimal bagi masyarakat. Penyebab: monopoli, eksternalitas negatif (polusi), informasi asimetris (pembeli vs penjual tidak punya info sama), dan barang publik (pertahanan, pendidikan). Pemerintah perlu intervensi melalui regulasi atau subsidi."
+  },
+  {
+    "q": "Apa itu eksternalitas positif dan negatif dalam ekonomi?",
+    "a": "Eksternalitas adalah dampak positif atau negatif dari aktivitas ekonomi kepada pihak ketiga yang tidak terlibat langsung. Eksternalitas positif: perusahaan pembangunan perumahan meningkatkan nilai properti sekitar. Eksternalitas negatif: pabrik polusi mencemari lingkungan dan kesehatan penduduk sekitar. Pemerintah perlu koreksi melalui pajak atau subsidi."
+  },
+  {
+    "q": "Apa itu behavioral economics dan bagaimana penerapannya?",
+    "a": "Behavioral economics adalah cabang ekonomi yang mempelajari keputusan ekonomi manusia dengan mempertimbangkan faktor psikologi, emosi, dan perilaku sosial, bukan hanya rasionalitas murni. Contoh penerapan: nudge (dorongan halus) untuk meningkatkan partisipasi program pensiun, desain pilihan default untuk mendorong perilaku menabung, atau transparency pricing untuk mengurangi information asymmetry."
+  },
+  {
+    "q": "Apa itu human capital dan mengapa penting untuk pertumbuhan ekonomi?",
+    "a": "Human capital adalah pengetahuan, keterampilan, kesehatan, dan kemampuan yang dimiliki seseorang yang meningkatkan produktivitas. Penting untuk pertumbuhan ekonomi karena: pekerja terampil menghasilkan output lebih tinggi, drive inovasi, dan menciptakan nilai tambah. Investasi di pendidikan adalah investasi human capital terbaik."
+  },
+  {
+    "q": "Apa itu debt restructuring dan dalam situasi apa diperlukan?",
+    "a": "Debt restructuring adalah penjadwalan ulang atau penghapusan sebagian utang oleh kreditur untuk membantu debitur yang kesulitan membayar. Diperlukan ketika: perusahaan atau negara mengalami krisis likuiditas, tidak mampu membayar utang jatuh tempo, namun prospek bisnis masih baik. Contoh: program restrukturasi kredit bank pada saat krisis ekonomi."
+  },
+  {
+    "q": "Apa perbedaan regresi dan depresi ekonomi?",
+    "a": "Regresi (recession) adalah penurunan pertumbuhan ekonomi selama dua kuartal berturut-turut, relatif singkat dan dampak terbatas. Depresi (depression) adalah kontraksi ekonomi yang sangat dalam dan berkepanjangan dalam bertahun-tahun dengan pengangguran masif dan kemiskinan. Contoh: Resesi 2020 karena COVID-19, sementara Great Depression 1929-1939 adalah depresi."
+  },
+  {
+    "q": "Apa itu inflation targeting dan bagaimana Bank Indonesia menerapkannya?",
+    "a": "Inflation targeting adalah strategi kebijakan moneter dengan menetapkan target tingkat inflasi yang ingin dicapai. Bank Indonesia menetapkan target inflasi berkisar 2%-4% per tahun untuk keseimbangan antara stabilitas harga dan pertumbuhan ekonomi. BI menggunakan BI Rate untuk mempengaruhi inflasi melalui penyesuaian biaya pinjaman."
+  },
+  {
+    "q": "Apa itu trade surplus dan trade deficit serta pengaruhnya pada nilai tukar mata uang?",
+    "a": "Trade surplus terjadi ketika ekspor > impor, menghasilkan aliran valuta asing masuk yang memperkuat mata uang. Trade deficit terjadi ketika impor > ekspor, menghasilkan aliran valuta asing keluar yang melemahkan mata uang. Indonesia mencari trade surplus untuk memperkuat Rupiah dan meningkatkan cadangan devisa."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Ekspor dalam ekonomi?",
+    "a": "Ekspor adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Inflasi dalam ekonomi?",
+    "a": "Inflasi adalah pengiriman barang ke luar negeri."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh suku bunga terhadap harga pasar?",
+    "a": "Pengaruh suku bunga terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah penurunan harga secara umum."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah stok barang menipis."
+  },
+  {
+    "q": "Bagaimana pengaruh kurs mata uang terhadap harga pasar?",
+    "a": "Pengaruh kurs mata uang terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Pasar Modal dalam ekonomi?",
+    "a": "Pasar Modal adalah Produk Domestik Bruto."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah investasi melambat."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan GDP dalam ekonomi?",
+    "a": "GDP adalah kenaikan harga secara terus menerus."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah daya beli menurun."
+  },
+  {
+    "q": "Bagaimana pengaruh kenaikan BBM terhadap harga pasar?",
+    "a": "Pengaruh kenaikan BBM terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh permintaan tinggi terhadap harga pasar?",
+    "a": "Pengaruh permintaan tinggi terhadap harga pasar adalah biaya produksi membengkak."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah harga cenderung naik."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Deflasi dalam ekonomi?",
+    "a": "Deflasi adalah tempat jual beli saham."
+  },
+  {
+    "q": "Bagaimana pengaruh penawaran rendah terhadap harga pasar?",
+    "a": "Pengaruh penawaran rendah terhadap harga pasar adalah investasi melambat."
+  }
+]

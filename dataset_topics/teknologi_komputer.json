@@ -245,5 +245,2005 @@
     "q": "Apa itu Cybersecurity best practices untuk melindungi komputer pribadi dari ancaman digital?",
     "a": "Best practices untuk cybersecurity: 1) Gunakan password kuat dan unique per akun, atau password manager (1Password, Bitwarden). 2) Enable 2FA/MFA di semua akun penting (email, banking, social media). 3) Update OS dan software secara berkala untuk patch security vulnerabilities. 4) Instalasi antivirus/antimalware terpercaya dan scan berkala. 5) Jangan buka email attachment atau klik link dari sender tidak dikenal (phishing). 6) Gunakan VPN di network publik untuk enkripsi traffic. 7) Backup data penting secara regular. 8) Monitor aktivitas akun dan laporan kreditmu.",
     "cot": "Untuk memberikan cybersecurity best practices yang comprehensive: 1) Identifikasi threat vectors utama - weak passwords, malware, phishing, unpatched software. 2) Untuk setiap threat, tentukan mitigation: passwords → use strong/unique + 2FA. 3) Malware → antivirus + safe browsing habits. 4) Phishing → user awareness + 2FA protection. 5) Unpatched software → automatic updates. 6) Data loss → backup strategy. 7) Public networks → VPN encryption. 8) Account monitoring → early detection. Kesimpulan: kombinasi technical measures (tools) + user awareness + regular maintenance menciptakan defense in depth yang effective melawan cyber threats modern."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Kesehatan!",
+    "a": "Kesehatan adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Sains!",
+    "a": "Sains adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Seni budaya!",
+    "a": "Seni budaya adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Olahraga!",
+    "a": "Olahraga adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
+  },
+  {
+    "q": "Ceritakan sedikit tentang Teknologi!",
+    "a": "Teknologi adalah bagian dari pengetahuan umum yang sangat menarik untuk dipelajari."
   }
 ]

@@ -86,8 +86,7 @@
   {
     "q": "Sebutkan 5 pulau besar di Indonesia!",
     "a": "Lima pulau besar di Indonesia adalah Sumatera, Jawa, Kalimantan, Sulawesi, dan Papua."
-  }
-  ,
+  },
   {
     "q": "Apa ibu kota Indonesia?",
     "a": "Ibu kota Indonesia adalah Jakarta."
@@ -127,46 +126,163 @@
   {
     "q": "Bagaimana karakteristik iklim di sebagian besar wilayah Indonesia?",
     "a": "Iklimnya tropis dengan musim hujan dan musim kemarau."
-    },
-    {"q": "Apa itu peta?", "a": "Peta adalah gambaran permukaan bumi pada bidang datar dengan skala tertentu."},
-    {"q": "Apa itu gunung api?", "a": "Gunung api adalah gunung yang dapat meletus dan mengeluarkan lava, abu, dan gas."},
-    {"q": "Apa itu delta sungai?", "a": "Delta sungai adalah endapan tanah di muara sungai yang membentuk daratan baru."},
-    {"q": "Apa itu garis khatulistiwa?", "a": "Garis khatulistiwa adalah garis imajiner yang membagi bumi menjadi dua bagian utara dan selatan."},
-    {"q": "Apa itu pulau terluar Indonesia?", "a": "Pulau terluar Indonesia adalah pulau-pulau yang berada di perbatasan wilayah negara Indonesia."},
-    {"q": "Hewan langka apa yang hanya hidup di Pulau Komodo?", "a": "Komodo atau biawak Komodo adalah hewan purba yang hanya ditemukan di Pulau Komodo, Nusa Tenggara Timur. Komodo adalah reptil terbesar di dunia yang masih hidup."},
-    {"q": "Primata endemik apa yang terancam punah di Kalimantan dan Sumatera?", "a": "Orangutan adalah primata besar yang endemik di Kalimantan dan Sumatera. Terdapat dua spesies: orangutan Kalimantan dan orangutan Sumatera. Mereka sangat terancam punah karena hilangnya habitat hutan hujan."},
-    {"q": "Bunga langka apa yang terkenal dari Sumatera dan hanya mekar sesekali?", "a": "Bunga Rafflesia adalah bunga langka terbesar di dunia yang ditemukan di hutan hujan Sumatera. Bunga ini hanya mekar beberapa hari dalam setahun dan hidup sebagai parasit pada tumbuhan merambat."},
-    {"q": "Apa fauna ikonik yang menjadi simbol pariwisata Sulawesi?", "a": "Anoa dan Babirusa adalah fauna ikonik Sulawesi. Keduanya adalah mamalia endemik yang ditemukan hanya di Sulawesi dan menjadi daya tarik wisata alam di kepulauan ini."},
-    {"q": "Jenis pinguin apa yang hidup di perairan Indonesia bagian timur?", "a": "Spheniscus mendiculus atau Pinguin Jawa hidup di sekitar Pulau Jawa. Namun, penguin Fairmaire ditemukan lebih jauh di timur Indonesia di perairan tropis yang lebih dalam."},
-    {"q": "Bagaimana karakteristik iklim monsoonal di Indonesia?", "a": "Iklim monsoonal Indonesia ditandai dengan adanya dua musim yang jelas: musim hujan (November-Maret) dengan curah hujan tinggi dan musim kemarau (Juni-September) dengan curah hujan minimal. Pola ini dipengaruhi oleh pergerakan angin muson dari Australia dan Benua Asia."},
-    {"q": "Mengapa beberapa wilayah Indonesia di timur lebih kering dibanding di barat?", "a": "Wilayah Indonesia timur lebih kering karena pengaruh iklim semi-arid (Nusa Tenggara). Angin muson yang melewati Nusa Tenggara telah melepaskan sebagian besar kelembaban di Jawa dan Sumatera, sehingga hujan yang sampai ke timur berkurang. Selain itu, relief topografi juga mempengaruhi distribusi hujan."},
-    {"q": "Provinsi apa yang merupakan produsen coklat dan kopi terbesar di Indonesia?", "a": "Sulawesi Tenggara dan Sulawesi Selatan adalah produsen coklat terbesar, sementara Sumatera Utara terkenal dengan produksi kopi. Sumatera adalah penghasil kopi terbesar Indonesia dengan varietas Arabika dan Robusta yang terkenal di pasar internasional."},
-    {"q": "Komoditas ekspor utama apa dari Kepulauan Riau?", "a": "Minyak kelapa sawit (CPO) adalah komoditas ekspor utama dari Kepulauan Riau. Selain itu, karet dan minyak bumi juga menjadi komoditas penting dari kawasan ini yang merupakan pusat industri petrokimia Indonesia."},
-    {"q": "Kota apa yang dikenal sebagai pusat industri global di Indonesia?", "a": "Jakarta adalah pusat industri dan perdagangan utama Indonesia. Namun, Karawang di Jawa Barat juga berkembang pesat sebagai kawasan industri manufaktur dengan banyak pabrik elektronik, otomotif, dan tekstil."},
-    {"q": "Apa destinasi wisata bahari paling terkenal di Nusa Tenggara?", "a": "Gili Islands (Gili Trawangan, Gili Meno, Gili Air) di Lombok adalah destinasi wisata bahari yang paling terkenal di Nusa Tenggara. Kepulauan ini terkenal dengan pantai pasir putih, snorkeling, dan diving yang spektakuler."},
-    {"q": "Danau apa yang terletak di dalam kaldera Gunung Rinjani?", "a": "Danau Segara Anak (Danau Anak Laut) adalah danau yang terletak di dalam kaldera Gunung Rinjani di Lombok, Nusa Tenggara Barat. Danau ini sekaligus menjadi atraksi wisata pendakian gunung Rinjani."},
-    {"q": "Pantai apa di Yogyakarta yang terkenal dengan keindahan sunset dan budaya lokal?", "a": "Pantai Parangtritis adalah pantai yang paling terkenal di Yogyakarta. Pantai ini terkenal dengan pasir hitam, ombak yang mengesankan, dan keindahan sunset yang spektakuler. Pantai ini juga menjadi destinasi wisata budaya lokal yang ramai dikunjungi wisatawan."},
-    {"q": "Provinsi apa yang memiliki keragaman hayati (biodiversity) terbesar di Indonesia?", "a": "Papua memiliki keragaman hayati terbesar di Indonesia dengan lebih dari 50% spesies flora dan fauna Indonesia berada di sini. Papua juga dikenal sebagai paru-paru dunia karena hutan hujan tropisnya yang luas dan kaya akan keanekaragaman hayati."},
-    {"q": "Apa angin musim yang membawa hujan ke Indonesia dari Desember hingga Februari?", "a": "Angin muson barat laut membawa hujan ke Indonesia dari bulan Desember hingga Februari. Angin ini berasal dari Benua Asia dan melewati Indonesia dari barat laut, mengakibatkan curah hujan tinggi terutama di Jawa, Sumatera, dan Kalimantan."},
-    {"q": "Sumber daya alam apa yang paling melimpah di Kalimantan?", "a": "Kalimantan memiliki sumber daya alam yang sangat melimpah berupa: batu bara (terbesar di Asia Tenggara), minyak bumi, gas alam, kayu, dan mineral logam. Tambang batu bara di Kalimantan Timur dan Kalimantan Selatan menjadikan pulau ini pusat produksi energi fosil Indonesia."},
-    {"q": "Apa saja pertambangan mineral berharga di Papua?", "a": "Papua memiliki pertambangan mineral berharga termasuk tembaga, emas, dan perak. Tambang Grasberg di Freeport adalah salah satu tambang emas terbesar di dunia. Selain itu, Papua juga memproduksi minyak dan gas bumi dalam kuantitas signifikan yang penting bagi ekonomi Indonesia."},
-    {"q": "Bagaimana karakteristik wilayah Nusa Tenggara dan iklimnya?", "a": "Nusa Tenggara termasuk wilayah iklim semi-arid dengan curah hujan rendah (400-900 mm per tahun). Wilayah ini mengalami musim kemarau yang panjang (April-Oktober) dan musim hujan yang singkat. Topografi berbukit dengan vegetasi savana dan hutan musiman. Sumber daya utama adalah pertanian (jagung, kacang), peternakan, dan pariwisata."},
-    {"q": "Apa potensi ekonomi utama dari Kepulauan Maluku?", "a": "Kepulauan Maluku dikenal sebagai 'Kepulauan Rempah' karena sejarahnya menghasilkan rempah-rempah berharga seperti pala, cengkeh, dan fuli. Saat ini ekonomi Maluku bergantung pada perikanan, pariwisata bahari, dan pertanian. Potensi geothermal dan mineral juga sedang dikembangkan untuk energi terbarukan."},
-    {"q": "Wilayah mana di Indonesia yang memiliki iklim paling basah sepanjang tahun?", "a": "Papua memiliki iklim paling basah dan lembab sepanjang tahun dengan rata-rata curah hujan mencapai 3.000-4.000 mm per tahun. Daerah Jayapura, Sentani, dan sekitarnya mengalami hujan sepanjang tahun dengan kelembaban udara sekitar 80-90%. Hutan hujan tropis mendominasi lanskap dengan keanekaragaman hayati yang paling tinggi."},
-    {"q": "Apa yang dimaksud dengan Garis Wallace dan dampaknya terhadap keanekaragaman flora-fauna Indonesia?", "a": "Garis Wallace adalah garis imajiner yang memisahkan fauna Asiatis (barat) dari fauna Australis (timur) di Indonesia. Garis ini melalui seberang Selat Makassar antara Borneo dan Sulawesi. Kawasan transisi ini disebut Wallacea memiliki spesies unik yang merupakan perpaduan dari kedua fauna, menjadikan Indonesia sebagai pusat keanekaragaman hayati global yang istimewa."},
-    {"q": "Bagaimana peran Selat Malaka dalam ekonomi global dan keamanan maritim Indonesia?", "a": "Selat Malaka adalah salah satu jalur laut paling sibuk di dunia dengan 25-30% perdagangan maritim global melewatinya. Selat ini menghubungkan Samudra Hindia dan Samudra Pasifik. Bagi Indonesia, Selat Malaka sangat strategis karena berada di wilayah Sumatera Barat dan menjadi pintu masuk utama perdagangan regional. Keamanan maritim dan pengendalian lalu lintas kapal menjadi prioritas pemerintah."},
-    {"q": "Apa karakteristik geografis dan ekonomi daerah Sumba?", "a": "Sumba adalah pulau di Nusa Tenggara yang terkenal dengan iklim semi-arid, padang rumput yang luas, dan budaya lokal yang kuat. Ekonomi Sumba bergantung pada peternakan (sapi, kuda, ayam), pertanian musiman, dan pariwisata. Sumba juga terkenal dengan tenun tradisional (Sumba ikat) yang merupakan produk kerajinan bernilai tinggi yang diekspor ke pasar internasional."},
-    {"q": "Apa kekhususan geologis dan potensi energi terbarukan di daerah vulkanik Indonesia?", "a": "Daerah vulkanik Indonesia, terutama di Jawa dan Sumatera, memiliki potensi geothermal yang sangat besar. Indonesia memiliki 40% cadangan geothermal dunia. Pulau Jawa saja memiliki 130 gunung api, beberapa di antaranya aktif seperti Merapi, Semeru, dan Krakatau. Geothermal dimanfaatkan untuk pembangkit listrik (PLTP) di beberapa lokasi seperti Kamojang dan Dieng, mendukung transisi energi terbarukan Indonesia."},
-    {"q": "Bagaimana distribusi pertanian dan komoditas unggulan di berbagai wilayah Indonesia?", "a": "Jawa dikenal sebagai penghasil padi terbesar. Sumatera menghasilkan kopi, kelapa sawit, dan karet. Sulawesi terkenal dengan coklat, vanili, dan komoditas perkebunan. Kalimantan adalah produsen batu bara dan kayu. Nusa Tenggara menghasilkan jagung dan kacang-kacangan. Papua memproduksi minyak dan gas. Distribusi ini terkait dengan kondisi iklim, tanah, dan topografi masing-masing wilayah."},
-    {"q": "Apa saja zona agroklimat yang ada di Indonesia dan karakteristiknya?", "a": "Indonesia memiliki beberapa zona agroklimat: (1) Basah tropis (Papua, Kalimantan barat) dengan curah hujan >3000 mm/tahun untuk pertanian tanaman perennial; (2) Sedang tropis (Jawa, Sumatera bagian tengah) untuk padi dan sayuran; (3) Kering tropis (Nusa Tenggara) untuk jagung, kacang, dan hewan ternak. Zona-zona ini menentukan jenis tanaman yang dapat dibudidayakan dan produktivitas pertanian di setiap daerah."},
-    {"q": "Bagaimana karakteristik geografis Kepulauan Mentawai dan potensi ekoturisme-nya?", "a": "Kepulauan Mentawai terletak di barat Sumatera dengan topografi berbukit berhutan dan pantai yang indah. Kawasan ini memiliki hutan hujan tropis yang kaya dengan spesies endemik, termasuk primata seperti simakobu dan joja. Mentawai juga terkenal sebagai surga selancar dunia dengan gelombang berkualitas tinggi. Potensi ekoturisme dan konservasi menjadi fokus pengembangan berkelanjutan di wilayah ini."},
-    {"q": "Apa peran Jalur Poros Maritim Dunia (JPPD) bagi ekonomi dan geopolitik Indonesia?", "a": "Program Poros Maritim Dunia (saat ini Poros Maritim) bertujuan untuk memperkuat posisi Indonesia sebagai negara maritim. Strategi ini melibatkan pengembangan infrastruktur pelabuhan (Jakarta, Surabaya, Makassar, Bitung), penguatan armada, dan pengamanan wilayah laut. JPPD menghubungkan tiga samudra: Hindia, Pasifik, dan Arktik, menjadikan Indonesia sebagai jembatan perdagangan dan investasi global."},
-    {"q": "Apa keunikan ekosistem mangrove Indonesia dan pentingnya bagi komunitas lokal?", "a": "Indonesia memiliki hutan mangrove terluas di dunia mencakup sekitar 3,5 juta hektar. Mangrove ditemukan di pantai barat Sumatera, Kalimantan, Sulawesi, dan Papua. Ekosistem mangrove penting sebagai: (1) nursery untuk ikan dan udang komersial; (2) penyerap karbon; (3) perlindungan dari bencana tsunami; (4) sumber mata pencaharian masyarakat lokal melalui perikanan dan pariwisata. Konservasi mangrove menjadi prioritas untuk keberlanjutan ekonomi pesisir."},
-    {"q": "Bagaimana pola aliran sungai-sungai besar Indonesia dan pemanfaatannya?", "a": "Sungai-sungai besar Indonesia mengalir dengan pola radial menuju laut. Sungai Kapuas (Kalimantan Barat, 1.143 km) adalah yang terpanjang, diikuti Sungai Mahakam (Kalimantan Timur), Musi (Sumatera Selatan), dan Bengawan Solo (Jawa). Sungai-sungai ini dimanfaatkan untuk: transportasi, sumber air minum, irigasi pertanian, pembangkit listrik tenaga air (PLTA), dan perikanan. Banjir musiman menjadi tantangan yang perlu dikelola dengan baik."},
-    {"q": "Apa karakteristik geografis dan sumber daya laut dari kawasan Segitiga Terumbu Karang (Coral Triangle)?", "a": "Segitiga Terumbu Karang adalah kawasan laut di pusat kepulauan Indonesia (Sulawesi, Maluku, Papua) yang memiliki keanekaragaman terumbu karang dan kehidupan laut tertinggi di dunia. Kawasan ini menghasilkan 'bibit' ikan untuk ekosistem laut sekitarnya. Sumber daya ikan dan pariwisata bahari sangat besar, tetapi juga menghadapi ancaman penangkapan ikan berlebih, perubahan iklim, dan kerusakan terumbu karang. Konservasi laut menjadi kunci keberlanjutan."},
-    {"q": "Bagaimana pengaruh topografi pulau-pulau besar terhadap pola curah hujan dan kesuburan tanah?", "a": "Topografi berpengaruh besar pada distribusi hujan melalui efek orografis. Pulau-pulau besar dengan pegunungan tinggi (Papua, Jawa, Sumatera) memiliki sisi menghadap angin yang sangat basah, sementara sisi leeward lebih kering. Tanah di daerah basah lebih subur karena weathering intensif tetapi rentan erosi, sementara tanah di daerah kering lebih padat dengan kadar organik lebih rendah. Perbedaan ini menentukan jenis pertanian, vegetasi, dan keanekaragaman hayati di setiap wilayah."},
-    {"q": "Apa peran geopolitik Selat Sunda dalam konteks keamanan maritim Indonesia?", "a": "Selat Sunda menghubungkan Samudra Hindia dan Laut Jawa, terletak antara Pulau Jawa dan Sumatera. Selat ini merupakan rute pelayaran internasional yang penting dengan lalu lintas kapal yang padat. Selat Sunda juga memiliki nilai strategis karena dekat dengan Jakarta dan menjadi pintu masuk utama perdagangan ke wilayah barat Indonesia. Pengawasan dan keamanan maritim di selat ini menjadi prioritas untuk mencegah penyelundupan dan perompakan laut."},
-    {"q": "Bagaimana karakteristik iklim dan keunikan keanekaragaman hayati Sulawesi?", "a": "Sulawesi memiliki iklim tropis dengan curah hujan 2.000-3.500 mm per tahun tergantung lokasi. Pulau ini terletak di zona Wallacea dengan fauna transisional antara Asiatis dan Australis. Sulawesi adalah surga endemik dengan 95% fauna darat yang tidak ditemukan di tempat lain, termasuk anoa, babirusa, tangkasi, dan macam-macam burung unik. Keunikan ini menjadikan Sulawesi sebagai kawasan prioritas konservasi dunia dan destinasi ekoturisme."},
+  },
+  {
+    "q": "Apa itu peta?",
+    "a": "Peta adalah gambaran permukaan bumi pada bidang datar dengan skala tertentu."
+  },
+  {
+    "q": "Apa itu gunung api?",
+    "a": "Gunung api adalah gunung yang dapat meletus dan mengeluarkan lava, abu, dan gas."
+  },
+  {
+    "q": "Apa itu delta sungai?",
+    "a": "Delta sungai adalah endapan tanah di muara sungai yang membentuk daratan baru."
+  },
+  {
+    "q": "Apa itu garis khatulistiwa?",
+    "a": "Garis khatulistiwa adalah garis imajiner yang membagi bumi menjadi dua bagian utara dan selatan."
+  },
+  {
+    "q": "Apa itu pulau terluar Indonesia?",
+    "a": "Pulau terluar Indonesia adalah pulau-pulau yang berada di perbatasan wilayah negara Indonesia."
+  },
+  {
+    "q": "Hewan langka apa yang hanya hidup di Pulau Komodo?",
+    "a": "Komodo atau biawak Komodo adalah hewan purba yang hanya ditemukan di Pulau Komodo, Nusa Tenggara Timur. Komodo adalah reptil terbesar di dunia yang masih hidup."
+  },
+  {
+    "q": "Primata endemik apa yang terancam punah di Kalimantan dan Sumatera?",
+    "a": "Orangutan adalah primata besar yang endemik di Kalimantan dan Sumatera. Terdapat dua spesies: orangutan Kalimantan dan orangutan Sumatera. Mereka sangat terancam punah karena hilangnya habitat hutan hujan."
+  },
+  {
+    "q": "Bunga langka apa yang terkenal dari Sumatera dan hanya mekar sesekali?",
+    "a": "Bunga Rafflesia adalah bunga langka terbesar di dunia yang ditemukan di hutan hujan Sumatera. Bunga ini hanya mekar beberapa hari dalam setahun dan hidup sebagai parasit pada tumbuhan merambat."
+  },
+  {
+    "q": "Apa fauna ikonik yang menjadi simbol pariwisata Sulawesi?",
+    "a": "Anoa dan Babirusa adalah fauna ikonik Sulawesi. Keduanya adalah mamalia endemik yang ditemukan hanya di Sulawesi dan menjadi daya tarik wisata alam di kepulauan ini."
+  },
+  {
+    "q": "Jenis pinguin apa yang hidup di perairan Indonesia bagian timur?",
+    "a": "Spheniscus mendiculus atau Pinguin Jawa hidup di sekitar Pulau Jawa. Namun, penguin Fairmaire ditemukan lebih jauh di timur Indonesia di perairan tropis yang lebih dalam."
+  },
+  {
+    "q": "Bagaimana karakteristik iklim monsoonal di Indonesia?",
+    "a": "Iklim monsoonal Indonesia ditandai dengan adanya dua musim yang jelas: musim hujan (November-Maret) dengan curah hujan tinggi dan musim kemarau (Juni-September) dengan curah hujan minimal. Pola ini dipengaruhi oleh pergerakan angin muson dari Australia dan Benua Asia."
+  },
+  {
+    "q": "Mengapa beberapa wilayah Indonesia di timur lebih kering dibanding di barat?",
+    "a": "Wilayah Indonesia timur lebih kering karena pengaruh iklim semi-arid (Nusa Tenggara). Angin muson yang melewati Nusa Tenggara telah melepaskan sebagian besar kelembaban di Jawa dan Sumatera, sehingga hujan yang sampai ke timur berkurang. Selain itu, relief topografi juga mempengaruhi distribusi hujan."
+  },
+  {
+    "q": "Provinsi apa yang merupakan produsen coklat dan kopi terbesar di Indonesia?",
+    "a": "Sulawesi Tenggara dan Sulawesi Selatan adalah produsen coklat terbesar, sementara Sumatera Utara terkenal dengan produksi kopi. Sumatera adalah penghasil kopi terbesar Indonesia dengan varietas Arabika dan Robusta yang terkenal di pasar internasional."
+  },
+  {
+    "q": "Komoditas ekspor utama apa dari Kepulauan Riau?",
+    "a": "Minyak kelapa sawit (CPO) adalah komoditas ekspor utama dari Kepulauan Riau. Selain itu, karet dan minyak bumi juga menjadi komoditas penting dari kawasan ini yang merupakan pusat industri petrokimia Indonesia."
+  },
+  {
+    "q": "Kota apa yang dikenal sebagai pusat industri global di Indonesia?",
+    "a": "Jakarta adalah pusat industri dan perdagangan utama Indonesia. Namun, Karawang di Jawa Barat juga berkembang pesat sebagai kawasan industri manufaktur dengan banyak pabrik elektronik, otomotif, dan tekstil."
+  },
+  {
+    "q": "Apa destinasi wisata bahari paling terkenal di Nusa Tenggara?",
+    "a": "Gili Islands (Gili Trawangan, Gili Meno, Gili Air) di Lombok adalah destinasi wisata bahari yang paling terkenal di Nusa Tenggara. Kepulauan ini terkenal dengan pantai pasir putih, snorkeling, dan diving yang spektakuler."
+  },
+  {
+    "q": "Danau apa yang terletak di dalam kaldera Gunung Rinjani?",
+    "a": "Danau Segara Anak (Danau Anak Laut) adalah danau yang terletak di dalam kaldera Gunung Rinjani di Lombok, Nusa Tenggara Barat. Danau ini sekaligus menjadi atraksi wisata pendakian gunung Rinjani."
+  },
+  {
+    "q": "Pantai apa di Yogyakarta yang terkenal dengan keindahan sunset dan budaya lokal?",
+    "a": "Pantai Parangtritis adalah pantai yang paling terkenal di Yogyakarta. Pantai ini terkenal dengan pasir hitam, ombak yang mengesankan, dan keindahan sunset yang spektakuler. Pantai ini juga menjadi destinasi wisata budaya lokal yang ramai dikunjungi wisatawan."
+  },
+  {
+    "q": "Provinsi apa yang memiliki keragaman hayati (biodiversity) terbesar di Indonesia?",
+    "a": "Papua memiliki keragaman hayati terbesar di Indonesia dengan lebih dari 50% spesies flora dan fauna Indonesia berada di sini. Papua juga dikenal sebagai paru-paru dunia karena hutan hujan tropisnya yang luas dan kaya akan keanekaragaman hayati."
+  },
+  {
+    "q": "Apa angin musim yang membawa hujan ke Indonesia dari Desember hingga Februari?",
+    "a": "Angin muson barat laut membawa hujan ke Indonesia dari bulan Desember hingga Februari. Angin ini berasal dari Benua Asia dan melewati Indonesia dari barat laut, mengakibatkan curah hujan tinggi terutama di Jawa, Sumatera, dan Kalimantan."
+  },
+  {
+    "q": "Sumber daya alam apa yang paling melimpah di Kalimantan?",
+    "a": "Kalimantan memiliki sumber daya alam yang sangat melimpah berupa: batu bara (terbesar di Asia Tenggara), minyak bumi, gas alam, kayu, dan mineral logam. Tambang batu bara di Kalimantan Timur dan Kalimantan Selatan menjadikan pulau ini pusat produksi energi fosil Indonesia."
+  },
+  {
+    "q": "Apa saja pertambangan mineral berharga di Papua?",
+    "a": "Papua memiliki pertambangan mineral berharga termasuk tembaga, emas, dan perak. Tambang Grasberg di Freeport adalah salah satu tambang emas terbesar di dunia. Selain itu, Papua juga memproduksi minyak dan gas bumi dalam kuantitas signifikan yang penting bagi ekonomi Indonesia."
+  },
+  {
+    "q": "Bagaimana karakteristik wilayah Nusa Tenggara dan iklimnya?",
+    "a": "Nusa Tenggara termasuk wilayah iklim semi-arid dengan curah hujan rendah (400-900 mm per tahun). Wilayah ini mengalami musim kemarau yang panjang (April-Oktober) dan musim hujan yang singkat. Topografi berbukit dengan vegetasi savana dan hutan musiman. Sumber daya utama adalah pertanian (jagung, kacang), peternakan, dan pariwisata."
+  },
+  {
+    "q": "Apa potensi ekonomi utama dari Kepulauan Maluku?",
+    "a": "Kepulauan Maluku dikenal sebagai 'Kepulauan Rempah' karena sejarahnya menghasilkan rempah-rempah berharga seperti pala, cengkeh, dan fuli. Saat ini ekonomi Maluku bergantung pada perikanan, pariwisata bahari, dan pertanian. Potensi geothermal dan mineral juga sedang dikembangkan untuk energi terbarukan."
+  },
+  {
+    "q": "Wilayah mana di Indonesia yang memiliki iklim paling basah sepanjang tahun?",
+    "a": "Papua memiliki iklim paling basah dan lembab sepanjang tahun dengan rata-rata curah hujan mencapai 3.000-4.000 mm per tahun. Daerah Jayapura, Sentani, dan sekitarnya mengalami hujan sepanjang tahun dengan kelembaban udara sekitar 80-90%. Hutan hujan tropis mendominasi lanskap dengan keanekaragaman hayati yang paling tinggi."
+  },
+  {
+    "q": "Apa yang dimaksud dengan Garis Wallace dan dampaknya terhadap keanekaragaman flora-fauna Indonesia?",
+    "a": "Garis Wallace adalah garis imajiner yang memisahkan fauna Asiatis (barat) dari fauna Australis (timur) di Indonesia. Garis ini melalui seberang Selat Makassar antara Borneo dan Sulawesi. Kawasan transisi ini disebut Wallacea memiliki spesies unik yang merupakan perpaduan dari kedua fauna, menjadikan Indonesia sebagai pusat keanekaragaman hayati global yang istimewa."
+  },
+  {
+    "q": "Bagaimana peran Selat Malaka dalam ekonomi global dan keamanan maritim Indonesia?",
+    "a": "Selat Malaka adalah salah satu jalur laut paling sibuk di dunia dengan 25-30% perdagangan maritim global melewatinya. Selat ini menghubungkan Samudra Hindia dan Samudra Pasifik. Bagi Indonesia, Selat Malaka sangat strategis karena berada di wilayah Sumatera Barat dan menjadi pintu masuk utama perdagangan regional. Keamanan maritim dan pengendalian lalu lintas kapal menjadi prioritas pemerintah."
+  },
+  {
+    "q": "Apa karakteristik geografis dan ekonomi daerah Sumba?",
+    "a": "Sumba adalah pulau di Nusa Tenggara yang terkenal dengan iklim semi-arid, padang rumput yang luas, dan budaya lokal yang kuat. Ekonomi Sumba bergantung pada peternakan (sapi, kuda, ayam), pertanian musiman, dan pariwisata. Sumba juga terkenal dengan tenun tradisional (Sumba ikat) yang merupakan produk kerajinan bernilai tinggi yang diekspor ke pasar internasional."
+  },
+  {
+    "q": "Apa kekhususan geologis dan potensi energi terbarukan di daerah vulkanik Indonesia?",
+    "a": "Daerah vulkanik Indonesia, terutama di Jawa dan Sumatera, memiliki potensi geothermal yang sangat besar. Indonesia memiliki 40% cadangan geothermal dunia. Pulau Jawa saja memiliki 130 gunung api, beberapa di antaranya aktif seperti Merapi, Semeru, dan Krakatau. Geothermal dimanfaatkan untuk pembangkit listrik (PLTP) di beberapa lokasi seperti Kamojang dan Dieng, mendukung transisi energi terbarukan Indonesia."
+  },
+  {
+    "q": "Bagaimana distribusi pertanian dan komoditas unggulan di berbagai wilayah Indonesia?",
+    "a": "Jawa dikenal sebagai penghasil padi terbesar. Sumatera menghasilkan kopi, kelapa sawit, dan karet. Sulawesi terkenal dengan coklat, vanili, dan komoditas perkebunan. Kalimantan adalah produsen batu bara dan kayu. Nusa Tenggara menghasilkan jagung dan kacang-kacangan. Papua memproduksi minyak dan gas. Distribusi ini terkait dengan kondisi iklim, tanah, dan topografi masing-masing wilayah."
+  },
+  {
+    "q": "Apa saja zona agroklimat yang ada di Indonesia dan karakteristiknya?",
+    "a": "Indonesia memiliki beberapa zona agroklimat: (1) Basah tropis (Papua, Kalimantan barat) dengan curah hujan >3000 mm/tahun untuk pertanian tanaman perennial; (2) Sedang tropis (Jawa, Sumatera bagian tengah) untuk padi dan sayuran; (3) Kering tropis (Nusa Tenggara) untuk jagung, kacang, dan hewan ternak. Zona-zona ini menentukan jenis tanaman yang dapat dibudidayakan dan produktivitas pertanian di setiap daerah."
+  },
+  {
+    "q": "Bagaimana karakteristik geografis Kepulauan Mentawai dan potensi ekoturisme-nya?",
+    "a": "Kepulauan Mentawai terletak di barat Sumatera dengan topografi berbukit berhutan dan pantai yang indah. Kawasan ini memiliki hutan hujan tropis yang kaya dengan spesies endemik, termasuk primata seperti simakobu dan joja. Mentawai juga terkenal sebagai surga selancar dunia dengan gelombang berkualitas tinggi. Potensi ekoturisme dan konservasi menjadi fokus pengembangan berkelanjutan di wilayah ini."
+  },
+  {
+    "q": "Apa peran Jalur Poros Maritim Dunia (JPPD) bagi ekonomi dan geopolitik Indonesia?",
+    "a": "Program Poros Maritim Dunia (saat ini Poros Maritim) bertujuan untuk memperkuat posisi Indonesia sebagai negara maritim. Strategi ini melibatkan pengembangan infrastruktur pelabuhan (Jakarta, Surabaya, Makassar, Bitung), penguatan armada, dan pengamanan wilayah laut. JPPD menghubungkan tiga samudra: Hindia, Pasifik, dan Arktik, menjadikan Indonesia sebagai jembatan perdagangan dan investasi global."
+  },
+  {
+    "q": "Apa keunikan ekosistem mangrove Indonesia dan pentingnya bagi komunitas lokal?",
+    "a": "Indonesia memiliki hutan mangrove terluas di dunia mencakup sekitar 3,5 juta hektar. Mangrove ditemukan di pantai barat Sumatera, Kalimantan, Sulawesi, dan Papua. Ekosistem mangrove penting sebagai: (1) nursery untuk ikan dan udang komersial; (2) penyerap karbon; (3) perlindungan dari bencana tsunami; (4) sumber mata pencaharian masyarakat lokal melalui perikanan dan pariwisata. Konservasi mangrove menjadi prioritas untuk keberlanjutan ekonomi pesisir."
+  },
+  {
+    "q": "Bagaimana pola aliran sungai-sungai besar Indonesia dan pemanfaatannya?",
+    "a": "Sungai-sungai besar Indonesia mengalir dengan pola radial menuju laut. Sungai Kapuas (Kalimantan Barat, 1.143 km) adalah yang terpanjang, diikuti Sungai Mahakam (Kalimantan Timur), Musi (Sumatera Selatan), dan Bengawan Solo (Jawa). Sungai-sungai ini dimanfaatkan untuk: transportasi, sumber air minum, irigasi pertanian, pembangkit listrik tenaga air (PLTA), dan perikanan. Banjir musiman menjadi tantangan yang perlu dikelola dengan baik."
+  },
+  {
+    "q": "Apa karakteristik geografis dan sumber daya laut dari kawasan Segitiga Terumbu Karang (Coral Triangle)?",
+    "a": "Segitiga Terumbu Karang adalah kawasan laut di pusat kepulauan Indonesia (Sulawesi, Maluku, Papua) yang memiliki keanekaragaman terumbu karang dan kehidupan laut tertinggi di dunia. Kawasan ini menghasilkan 'bibit' ikan untuk ekosistem laut sekitarnya. Sumber daya ikan dan pariwisata bahari sangat besar, tetapi juga menghadapi ancaman penangkapan ikan berlebih, perubahan iklim, dan kerusakan terumbu karang. Konservasi laut menjadi kunci keberlanjutan."
+  },
+  {
+    "q": "Bagaimana pengaruh topografi pulau-pulau besar terhadap pola curah hujan dan kesuburan tanah?",
+    "a": "Topografi berpengaruh besar pada distribusi hujan melalui efek orografis. Pulau-pulau besar dengan pegunungan tinggi (Papua, Jawa, Sumatera) memiliki sisi menghadap angin yang sangat basah, sementara sisi leeward lebih kering. Tanah di daerah basah lebih subur karena weathering intensif tetapi rentan erosi, sementara tanah di daerah kering lebih padat dengan kadar organik lebih rendah. Perbedaan ini menentukan jenis pertanian, vegetasi, dan keanekaragaman hayati di setiap wilayah."
+  },
+  {
+    "q": "Apa peran geopolitik Selat Sunda dalam konteks keamanan maritim Indonesia?",
+    "a": "Selat Sunda menghubungkan Samudra Hindia dan Laut Jawa, terletak antara Pulau Jawa dan Sumatera. Selat ini merupakan rute pelayaran internasional yang penting dengan lalu lintas kapal yang padat. Selat Sunda juga memiliki nilai strategis karena dekat dengan Jakarta dan menjadi pintu masuk utama perdagangan ke wilayah barat Indonesia. Pengawasan dan keamanan maritim di selat ini menjadi prioritas untuk mencegah penyelundupan dan perompakan laut."
+  },
+  {
+    "q": "Bagaimana karakteristik iklim dan keunikan keanekaragaman hayati Sulawesi?",
+    "a": "Sulawesi memiliki iklim tropis dengan curah hujan 2.000-3.500 mm per tahun tergantung lokasi. Pulau ini terletak di zona Wallacea dengan fauna transisional antara Asiatis dan Australis. Sulawesi adalah surga endemik dengan 95% fauna darat yang tidak ditemukan di tempat lain, termasuk anoa, babirusa, tangkasi, dan macam-macam burung unik. Keunikan ini menjadikan Sulawesi sebagai kawasan prioritas konservasi dunia dan destinasi ekoturisme."
+  },
   {
     "q": "Kota apa yang dilalui garis khatulistiwa di Indonesia?",
     "a": "Kota Pontianak di Kalimantan Barat adalah kota yang dilalui langsung oleh garis khatulistiwa. Monumen Khatulistiwa di kota ini menjadi simbol geografis penting dan menarik wisatawan untuk mengunjunginya sebagai landmark ikonik yang menandai garis lintang 0 derajat."
@@ -517,5 +633,2005 @@
     "q": "Berapa luas Zona Ekonomi Eksklusif Indonesia dan apa signifikansinya secara geografis?",
     "a": "Zona Ekonomi Eksklusif (ZEE) Indonesia mencakup area seluas sekitar 6 juta kilometer persegi, menjadikan Indonesia memiliki ZEE terluas di dunia. Wilayah ini memberikan hak eksklusif kepada Indonesia untuk memanfaatkan sumber daya alam laut seperti ikan, mineral, minyak bumi, dan energi terbarukan.",
     "cot": "Berdasarkan Konvensi Hukum Laut Internasional, setiap negara kepulauan berhak atas ZEE yang meluas sejauh 200 mil laut dari garis pantai dasarnya. Karena Indonesia memiliki lebih dari 17.000 pulau yang tersebar luas di Samudra Hindia dan Samudra Pasifik dengan garis pantai sepanjang sekitar 99.000 km, panjang dan luasnya menciptakan ZEE yang sangat besar, memberikan keuntungan geografis dan ekonomi yang signifikan untuk pengelolaan sumber daya laut."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Denpasar."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Rinjani?",
+    "a": "Gunung Rinjani terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Denpasar."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Tengah?",
+    "a": "Ibu kota dari provinsi Jawa Tengah adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Mataram."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jambi?",
+    "a": "Ibu kota dari provinsi Jambi adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Bali."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi Jambi."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Agung?",
+    "a": "Gunung Agung terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Merapi?",
+    "a": "Gunung Merapi terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jawa Timur."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Surabaya."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi NTB."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Bali?",
+    "a": "Ibu kota dari provinsi Bali adalah Surabaya."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Kerinci?",
+    "a": "Gunung Kerinci terletak di provinsi Jambi."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi Jawa Timur?",
+    "a": "Ibu kota dari provinsi Jawa Timur adalah Semarang."
+  },
+  {
+    "q": "Di provinsi manakah terletak Gunung Semeru?",
+    "a": "Gunung Semeru terletak di provinsi Jawa Tengah."
+  },
+  {
+    "q": "Apa nama ibu kota dari provinsi NTB?",
+    "a": "Ibu kota dari provinsi NTB adalah Semarang."
   }
-  ]
+]
