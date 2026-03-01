@@ -1,7 +1,7 @@
 """
-Fine-tune Qwen2.5-1.5B untuk Q&A Bahasa Indonesia
-===================================================
-Upgrade dari GPT2-small (124M) ke Qwen2.5-1.5B (1.5B params)
+Fine-tune Model Sendiri (yasmeenimron/masa-ai) untuk Q&A Bahasa Indonesia
+===========================================================================
+Melanjutkan training dari model sendiri dengan dataset Q&A tambahan
 Menggunakan LoRA untuk efisiensi memory GPU
 
 Penggunaan:
@@ -30,12 +30,12 @@ from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
 # KONFIGURASI
 # ============================================================
 
-# Base model dari HuggingFace
-BASE_MODEL = "Qwen/Qwen2.5-1.5B"
+# Base model dari HuggingFace (model sendiri)
+BASE_MODEL = "yasmeenimron/masa-ai"
 
 # Output
-OUTPUT_PATH = "./masa-ai-qwen"
-CHECKPOINT_DIR = "./masa-ai-qwen-checkpoints"
+OUTPUT_PATH = "./masa-ai-continued"
+CHECKPOINT_DIR = "./masa-ai-continued-checkpoints"
 
 # Dataset
 TRAIN_DATA_PATH = "./dataset/train_qa.json"
@@ -122,7 +122,7 @@ def format_chat(q, a, cot=None):
 
 def main():
     print("=" * 60)
-    print("🚀 FINE-TUNE QWEN2.5-1.5B UNTUK Q&A INDONESIA")
+    print("🚀 FINE-TUNE MODEL SENDIRI UNTUK Q&A INDONESIA")
     print("=" * 60)
     print()
     
