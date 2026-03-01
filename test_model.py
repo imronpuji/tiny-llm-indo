@@ -122,9 +122,9 @@ def load_model(model_path="./tiny-llm-indo-final", use_lora=True, base_model_pat
 
 def generate_text(model, tokenizer, prompt, device, 
                   max_length=150, 
-                  temperature=0.75,
-                  top_k=50,
-                  top_p=0.92,
+                  temperature=0.6,
+                  top_k=35,
+                  top_p=0.88,
                   num_return=1):
     """Generate text dari prompt"""
     
@@ -133,7 +133,7 @@ def generate_text(model, tokenizer, prompt, device,
     with torch.no_grad():
         outputs = model.generate(
             inputs.input_ids,
-            max_new_tokens=100,
+            max_new_tokens=80,
             temperature=temperature,
             top_k=top_k,
             top_p=top_p,
@@ -141,8 +141,8 @@ def generate_text(model, tokenizer, prompt, device,
             num_return_sequences=num_return,
             pad_token_id=tokenizer.pad_token_id,
             eos_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.15,
-            no_repeat_ngram_size=3,
+            repetition_penalty=1.6,  # Tingkatkan untuk hindari repetisi
+            no_repeat_ngram_size=4,  # Hindari pattern berulang
             length_penalty=1.0,
         )
     
@@ -174,7 +174,7 @@ def interactive_test(model, tokenizer, device):
         
         # Generate with different temperatures
         results = generate_text(model, tokenizer, prompt, device, 
-                               temperature=0.7, num_return=3)
+                               temperature=0.6, num_return=3)
         
         print(f"\n✨ Hasil:")
         for i, text in enumerate(results, 1):
@@ -205,7 +205,7 @@ def batch_test(model, tokenizer, device):
         print("-" * 40)
         
         results = generate_text(model, tokenizer, prompt, device,
-                               temperature=0.7, max_length=80)
+                               temperature=0.6, max_length=80)
         
         for text in results:
             print(f"✨ {text}")
@@ -218,7 +218,7 @@ def batch_test(model, tokenizer, device):
 def ask_question(model, tokenizer, question, device, 
                  qa_format="instruction",
                  max_length=150,
-                 temperature=0.5,
+                 temperature=0.3,
                  use_beam_search=False):
     """
     Ajukan pertanyaan ke model
@@ -226,7 +226,7 @@ def ask_question(model, tokenizer, question, device,
     Args:
         question: Pertanyaan dalam bahasa Indonesia
         qa_format: Format template ("simple", "instruction", "chat")
-        temperature: Kontrol kreativitas (0.3=faktual, 0.7=kreatif)
+        temperature: Kontrol kreativitas (0.2=sangat faktual, 0.5=seimbang, 0.7=kreatif)
         use_beam_search: Gunakan beam search untuk jawaban lebih konsisten
     
     Returns:
@@ -246,11 +246,12 @@ def ask_question(model, tokenizer, question, device,
     gen_params = {
         "input_ids": inputs.input_ids,
         "attention_mask": attention_mask,
-        "max_new_tokens": 120,
+        "max_new_tokens": 100,
+        "min_length": prompt_length + 10,  # Minimal 10 token jawaban
         "pad_token_id": tokenizer.pad_token_id if tokenizer.pad_token_id is not None else tokenizer.eos_token_id,
         "eos_token_id": tokenizer.eos_token_id,
-        "repetition_penalty": 1.3,
-        "no_repeat_ngram_size": 3,
+        "repetition_penalty": 1.8,  # Lebih tinggi untuk hindari pengulangan
+        "no_repeat_ngram_size": 4,  # Hindari pattern 4-gram yang sama
     }
     
     if use_beam_search:
@@ -262,12 +263,12 @@ def ask_question(model, tokenizer, question, device,
             "length_penalty": 1.0,
         })
     else:
-        # Sampling - lebih natural
+        # Sampling - lebih natural dan fokus
         gen_params.update({
             "do_sample": True,
             "temperature": temperature,
-            "top_k": 40,
-            "top_p": 0.90,
+            "top_k": 30,  # Lebih selektif dalam memilih token
+            "top_p": 0.85,  # Fokus pada token probability tinggi
         })
     
     import warnings
@@ -333,7 +334,7 @@ def qa_interactive(model, tokenizer, device, qa_format="instruction"):
         print("\n⏳ Berpikir...")
         answer = ask_question(model, tokenizer, question, device, 
                              qa_format=qa_format,
-                             temperature=0.4)
+                             temperature=0.3)  # Lebih rendah untuk jawaban faktual
         
         print(f"\n💬 Jawaban: {answer}")
         print("-" * 50)
