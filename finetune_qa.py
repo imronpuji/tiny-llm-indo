@@ -197,9 +197,15 @@ def main():
     # Save final model
     print(f"\n💾 Saving fine-tuned model ke: {OUTPUT_PATH}")
     trainer.save_model(OUTPUT_PATH)
-    tokenizer.save_pretrained(OUTPUT_PATH)
     
-    print(f"✓ Model saved!")
+    # Save tokenizer dengan legacy format untuk compatibility
+    try:
+        tokenizer.save_pretrained(OUTPUT_PATH, legacy_format=True)
+        print(f"✓ Model dan tokenizer saved!")
+    except TypeError:
+        # Fallback jika legacy_format tidak didukung
+        tokenizer.save_pretrained(OUTPUT_PATH)
+        print(f"✓ Model dan tokenizer saved (standard format)!")
     
     # Final evaluation
     print("\n📊 Final Evaluation:")

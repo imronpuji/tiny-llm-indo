@@ -308,7 +308,13 @@ def main():
     
     # Save LoRA adapter
     trainer.save_model(OUTPUT_PATH)
-    tokenizer.save_pretrained(OUTPUT_PATH)
+    
+    # Save tokenizer dengan legacy format untuk compatibility
+    try:
+        tokenizer.save_pretrained(OUTPUT_PATH, legacy_format=True)
+    except TypeError:
+        # Fallback jika legacy_format tidak didukung
+        tokenizer.save_pretrained(OUTPUT_PATH)
     
     # Also save merged model (LoRA + base = standalone model)
     merged_path = OUTPUT_PATH + "-merged"
@@ -317,7 +323,10 @@ def main():
     try:
         merged_model = model.merge_and_unload()
         merged_model.save_pretrained(merged_path)
-        tokenizer.save_pretrained(merged_path)
+        try:
+            tokenizer.save_pretrained(merged_path, legacy_format=True)
+        except TypeError:
+            tokenizer.save_pretrained(merged_path)
         print(f"✓ Merged model saved!")
     except Exception as e:
         print(f"⚠️  Could not save merged model: {e}")
